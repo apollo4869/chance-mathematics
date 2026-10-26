@@ -1,0 +1,10 @@
+{
+	"name": "chance-mathematics-stage1",
+	"version": "2.0.0",
+	"private": true,
+	"scripts": {"build": "python build.py", "check": "python tools/check-translation.py && python tools/check-local-candidate.py && python tools/check-english-site.py && python tools/check-reading-mode.py --no-report", "test": "node test_experiments.js"},
+	"dependencies": {
+		"markdown-it": "14.1.0",
+		"mathjax-full": "3.2.2"
+	}
+}

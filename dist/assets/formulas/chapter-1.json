@@ -1,0 +1,704 @@
+[
+  {
+    "section": "chapter-1",
+    "ordinal": 1,
+    "tex": "A:B=3:2.",
+    "display": true
+  },
+  {
+    "section": "chapter-1",
+    "ordinal": 2,
+    "tex": "64\\cdot\\frac35=38.4,",
+    "display": true
+  },
+  {
+    "section": "chapter-1",
+    "ordinal": 3,
+    "tex": "64\\cdot\\frac25=25.6.",
+    "display": true
+  },
+  {
+    "section": "chapter-1",
+    "ordinal": 4,
+    "tex": "V_A=\\frac12(64)+\\frac12(32)=48.",
+    "display": true
+  },
+  {
+    "section": "chapter-1",
+    "ordinal": 5,
+    "tex": "V_B=64-48=16.",
+    "display": true
+  },
+  {
+    "section": "chapter-1",
+    "ordinal": 6,
+    "tex": "\\boxed{V_A:V_B=3:1}.",
+    "display": true
+  },
+  {
+    "section": "chapter-1",
+    "ordinal": 7,
+    "tex": "\\boxed{\r\nV(\\text{当前})\r\n=\r\n\\frac12V(\\text{A赢下一局})\r\n+\r\n\\frac12V(\\text{B赢下一局})\r\n}",
+    "display": true
+  },
+  {
+    "section": "chapter-1",
+    "ordinal": 8,
+    "tex": "V(a,b)",
+    "display": false
+  },
+  {
+    "section": "chapter-1",
+    "ordinal": 9,
+    "tex": "a",
+    "display": false
+  },
+  {
+    "section": "chapter-1",
+    "ordinal": 10,
+    "tex": "b",
+    "display": false
+  },
+  {
+    "section": "chapter-1",
+    "ordinal": 11,
+    "tex": "a,b\\ge1",
+    "display": false
+  },
+  {
+    "section": "chapter-1",
+    "ordinal": 12,
+    "tex": "\\boxed{\r\nV(a,b)\r\n=\r\n\\frac12V(a-1,b)\r\n+\r\n\\frac12V(a,b-1)\r\n}",
+    "display": true
+  },
+  {
+    "section": "chapter-1",
+    "ordinal": 13,
+    "tex": "V(0,b)=1 \\quad(b\\ge1),",
+    "display": true
+  },
+  {
+    "section": "chapter-1",
+    "ordinal": 14,
+    "tex": "V(a,0)=0 \\quad(a\\ge1).",
+    "display": true
+  },
+  {
+    "section": "chapter-1",
+    "ordinal": 15,
+    "tex": "\\text{公平价值}\r\n=\r\n\\text{各种可能收益的加权平均}.",
+    "display": true
+  },
+  {
+    "section": "chapter-1",
+    "ordinal": 16,
+    "tex": "1/2",
+    "display": false
+  },
+  {
+    "section": "chapter-1",
+    "ordinal": 17,
+    "tex": "1/2",
+    "display": false
+  },
+  {
+    "section": "chapter-1",
+    "ordinal": 18,
+    "tex": "1/2",
+    "display": false
+  },
+  {
+    "section": "chapter-1",
+    "ordinal": 19,
+    "tex": "1/3",
+    "display": false
+  },
+  {
+    "section": "chapter-1",
+    "ordinal": 20,
+    "tex": "\\begin{aligned}\r\n9={}&1+2+6\\\\\r\n={}&1+3+5\\\\\r\n={}&1+4+4\\\\\r\n={}&2+2+5\\\\\r\n={}&2+3+4\\\\\r\n={}&3+3+3.\r\n\\end{aligned}",
+    "display": true
+  },
+  {
+    "section": "chapter-1",
+    "ordinal": 21,
+    "tex": "\\begin{aligned}\r\n10={}&1+3+6\\\\\r\n={}&1+4+5\\\\\r\n={}&2+2+6\\\\\r\n={}&2+3+5\\\\\r\n={}&2+4+4\\\\\r\n={}&3+3+4.\r\n\\end{aligned}",
+    "display": true
+  },
+  {
+    "section": "chapter-1",
+    "ordinal": 22,
+    "tex": "1+2+6=9",
+    "display": true
+  },
+  {
+    "section": "chapter-1",
+    "ordinal": 23,
+    "tex": "(1,2,6),(1,6,2),(2,1,6),",
+    "display": true
+  },
+  {
+    "section": "chapter-1",
+    "ordinal": 24,
+    "tex": "(2,6,1),(6,1,2),(6,2,1).",
+    "display": true
+  },
+  {
+    "section": "chapter-1",
+    "ordinal": 25,
+    "tex": "3+3+3=9",
+    "display": true
+  },
+  {
+    "section": "chapter-1",
+    "ordinal": 26,
+    "tex": "\\boxed{\r\nP(S=10)-P(S=9)=\\frac{2}{216}=\\frac1{108}.\r\n}",
+    "display": true
+  },
+  {
+    "section": "chapter-1",
+    "ordinal": 27,
+    "tex": "25",
+    "display": false
+  },
+  {
+    "section": "chapter-1",
+    "ordinal": 28,
+    "tex": "27",
+    "display": false
+  },
+  {
+    "section": "chapter-1",
+    "ordinal": 29,
+    "tex": "1,2,\\ldots,6",
+    "display": false
+  },
+  {
+    "section": "chapter-1",
+    "ordinal": 30,
+    "tex": "P(1)=\\cdots=P(6)=\\frac16.",
+    "display": true
+  },
+  {
+    "section": "chapter-1",
+    "ordinal": 31,
+    "tex": "\\Omega=\\{\\omega_1,\\ldots,\\omega_n\\}",
+    "display": true
+  },
+  {
+    "section": "chapter-1",
+    "ordinal": 32,
+    "tex": "\\Omega",
+    "display": false
+  },
+  {
+    "section": "chapter-1",
+    "ordinal": 33,
+    "tex": "G",
+    "display": false
+  },
+  {
+    "section": "chapter-1",
+    "ordinal": 34,
+    "tex": "G",
+    "display": false
+  },
+  {
+    "section": "chapter-1",
+    "ordinal": 35,
+    "tex": "\\Omega",
+    "display": false
+  },
+  {
+    "section": "chapter-1",
+    "ordinal": 36,
+    "tex": "P(gA)=P(A),\r\n\\qquad g\\in G,\\quad A\\subseteq\\Omega.",
+    "display": true
+  },
+  {
+    "section": "chapter-1",
+    "ordinal": 37,
+    "tex": "\\omega_i,\\omega_j",
+    "display": false
+  },
+  {
+    "section": "chapter-1",
+    "ordinal": 38,
+    "tex": "g\\in G",
+    "display": false
+  },
+  {
+    "section": "chapter-1",
+    "ordinal": 39,
+    "tex": "g\\omega_i=\\omega_j.",
+    "display": true
+  },
+  {
+    "section": "chapter-1",
+    "ordinal": 40,
+    "tex": "P(\\{\\omega_i\\})\r\n=\r\nP(\\{\\omega_j\\}).",
+    "display": true
+  },
+  {
+    "section": "chapter-1",
+    "ordinal": 41,
+    "tex": "p",
+    "display": false
+  },
+  {
+    "section": "chapter-1",
+    "ordinal": 42,
+    "tex": "1=P(\\Omega)\r\n=\\sum_{i=1}^{n}P(\\{\\omega_i\\})\r\n=np.",
+    "display": true
+  },
+  {
+    "section": "chapter-1",
+    "ordinal": 43,
+    "tex": "\\boxed{p=\\frac1n}.",
+    "display": true
+  },
+  {
+    "section": "chapter-1",
+    "ordinal": 44,
+    "tex": "A\\subseteq\\Omega",
+    "display": false
+  },
+  {
+    "section": "chapter-1",
+    "ordinal": 45,
+    "tex": "\\begin{aligned}\r\nP(A)\r\n&=\\sum_{\\omega\\in A}P(\\{\\omega\\})\\\\\r\n&=\\sum_{\\omega\\in A}\\frac1n\\\\\r\n&=\\frac{|A|}{n}.\r\n\\end{aligned}",
+    "display": true
+  },
+  {
+    "section": "chapter-1",
+    "ordinal": 46,
+    "tex": "\\boxed{\r\nP(A)=\\frac{|A|}{|\\Omega|}.\r\n}",
+    "display": true
+  },
+  {
+    "section": "chapter-1",
+    "ordinal": 47,
+    "tex": "\\text{机制具有对称性}",
+    "display": true
+  },
+  {
+    "section": "chapter-1",
+    "ordinal": 48,
+    "tex": "\\text{我们不知道机制存在不对称性}.",
+    "display": true
+  },
+  {
+    "section": "chapter-1",
+    "ordinal": 49,
+    "tex": "\\Omega=\\{1,\\ldots,6\\}^3.",
+    "display": true
+  },
+  {
+    "section": "chapter-1",
+    "ordinal": 50,
+    "tex": "|\\Omega|=6^3=216",
+    "display": true
+  },
+  {
+    "section": "chapter-1",
+    "ordinal": 51,
+    "tex": "\\frac1{216}.",
+    "display": true
+  },
+  {
+    "section": "chapter-1",
+    "ordinal": 52,
+    "tex": "S:\\Omega\\longrightarrow\\{3,4,\\ldots,18\\}",
+    "display": true
+  },
+  {
+    "section": "chapter-1",
+    "ordinal": 53,
+    "tex": "S(i,j,k)=i+j+k.",
+    "display": true
+  },
+  {
+    "section": "chapter-1",
+    "ordinal": 54,
+    "tex": "\\{S=10\\}.",
+    "display": true
+  },
+  {
+    "section": "chapter-1",
+    "ordinal": 55,
+    "tex": "\\{S=10\\}\r\n=\r\nS^{-1}(\\{10\\}).",
+    "display": true
+  },
+  {
+    "section": "chapter-1",
+    "ordinal": 56,
+    "tex": "S^{-1}",
+    "display": false
+  },
+  {
+    "section": "chapter-1",
+    "ordinal": 57,
+    "tex": "P(S=10)\r\n=\r\nP(S^{-1}(\\{10\\}))\r\n=\r\n\\frac{|S^{-1}(\\{10\\})|}{216}.",
+    "display": true
+  },
+  {
+    "section": "chapter-1",
+    "ordinal": 58,
+    "tex": "P_S(B)=P(S^{-1}(B)).",
+    "display": true
+  },
+  {
+    "section": "chapter-1",
+    "ordinal": 59,
+    "tex": "P_S",
+    "display": false
+  },
+  {
+    "section": "chapter-1",
+    "ordinal": 60,
+    "tex": "S",
+    "display": false
+  },
+  {
+    "section": "chapter-1",
+    "ordinal": 61,
+    "tex": "X:(\\Omega,\\mathcal F,P)\\longrightarrow(E,\\mathcal E)",
+    "display": true
+  },
+  {
+    "section": "chapter-1",
+    "ordinal": 62,
+    "tex": "X",
+    "display": false
+  },
+  {
+    "section": "chapter-1",
+    "ordinal": 63,
+    "tex": "\\boxed{\r\nP_X(B)=P(X^{-1}(B)),\r\n\\qquad B\\in\\mathcal E.\r\n}",
+    "display": true
+  },
+  {
+    "section": "chapter-1",
+    "ordinal": 64,
+    "tex": "AA,\\quad AB,\\quad BA,\\quad BB.",
+    "display": true
+  },
+  {
+    "section": "chapter-1",
+    "ordinal": 65,
+    "tex": "\\{AA,AB,BA\\},",
+    "display": true
+  },
+  {
+    "section": "chapter-1",
+    "ordinal": 66,
+    "tex": "\\{BB\\}.",
+    "display": true
+  },
+  {
+    "section": "chapter-1",
+    "ordinal": 67,
+    "tex": "P(AA)=P(AB)=P(BA)=P(BB)=\\frac14.",
+    "display": true
+  },
+  {
+    "section": "chapter-1",
+    "ordinal": 68,
+    "tex": "P(\\text{A最终获胜})=\\frac34.",
+    "display": true
+  },
+  {
+    "section": "chapter-1",
+    "ordinal": 69,
+    "tex": "64\\cdot\\frac34=48.",
+    "display": true
+  },
+  {
+    "section": "chapter-1",
+    "ordinal": 70,
+    "tex": "1/2",
+    "display": false
+  },
+  {
+    "section": "chapter-1",
+    "ordinal": 71,
+    "tex": "X_1,X_2",
+    "display": false
+  },
+  {
+    "section": "chapter-1",
+    "ordinal": 72,
+    "tex": "\\{A,B\\}",
+    "display": false
+  },
+  {
+    "section": "chapter-1",
+    "ordinal": 73,
+    "tex": "P(X_1=A)=P(X_1=B)=\\frac12",
+    "display": true
+  },
+  {
+    "section": "chapter-1",
+    "ordinal": 74,
+    "tex": "P(X_2=A)=P(X_2=B)=\\frac12.",
+    "display": true
+  },
+  {
+    "section": "chapter-1",
+    "ordinal": 75,
+    "tex": "P(AA)",
+    "display": false
+  },
+  {
+    "section": "chapter-1",
+    "ordinal": 76,
+    "tex": "P(AB)",
+    "display": false
+  },
+  {
+    "section": "chapter-1",
+    "ordinal": 77,
+    "tex": "P(BA)",
+    "display": false
+  },
+  {
+    "section": "chapter-1",
+    "ordinal": 78,
+    "tex": "P(BB)",
+    "display": false
+  },
+  {
+    "section": "chapter-1",
+    "ordinal": 79,
+    "tex": "P(AA)=x.",
+    "display": true
+  },
+  {
+    "section": "chapter-1",
+    "ordinal": 80,
+    "tex": "(1/2,1/2)",
+    "display": false
+  },
+  {
+    "section": "chapter-1",
+    "ordinal": 81,
+    "tex": "P(AB)=P(BA)=\\frac12-x,",
+    "display": true
+  },
+  {
+    "section": "chapter-1",
+    "ordinal": 82,
+    "tex": "P(BB)=x.",
+    "display": true
+  },
+  {
+    "section": "chapter-1",
+    "ordinal": 83,
+    "tex": "0\\le x\\le\\frac12.",
+    "display": true
+  },
+  {
+    "section": "chapter-1",
+    "ordinal": 84,
+    "tex": "\\begin{aligned}\r\nP(\\text{A获胜})\r\n&=1-P(BB)\\\\\r\n&=1-x.\r\n\\end{aligned}",
+    "display": true
+  },
+  {
+    "section": "chapter-1",
+    "ordinal": 85,
+    "tex": "\\boxed{\r\n\\frac12\\le P(\\text{A获胜})\\le1.\r\n}",
+    "display": true
+  },
+  {
+    "section": "chapter-1",
+    "ordinal": 86,
+    "tex": "3/4",
+    "display": false
+  },
+  {
+    "section": "chapter-1",
+    "ordinal": 87,
+    "tex": "P(AA)\r\n=\r\nP(X_1=A)P(X_2=A)\r\n=\r\n\\frac14,",
+    "display": true
+  },
+  {
+    "section": "chapter-1",
+    "ordinal": 88,
+    "tex": "P(\\text{A获胜})=\\frac34.",
+    "display": true
+  },
+  {
+    "section": "chapter-1",
+    "ordinal": 89,
+    "tex": "V(a,b)",
+    "display": false
+  },
+  {
+    "section": "chapter-1",
+    "ordinal": 90,
+    "tex": "A\\cap B=\\varnothing",
+    "display": false
+  },
+  {
+    "section": "chapter-1",
+    "ordinal": 91,
+    "tex": "P(A\\cup B)=P(A)+P(B)?",
+    "display": true
+  },
+  {
+    "section": "chapter-1",
+    "ordinal": 92,
+    "tex": "A",
+    "display": false
+  },
+  {
+    "section": "chapter-1",
+    "ordinal": 93,
+    "tex": "\\mathbf 1_A",
+    "display": true
+  },
+  {
+    "section": "chapter-1",
+    "ordinal": 94,
+    "tex": "A",
+    "display": false
+  },
+  {
+    "section": "chapter-1",
+    "ordinal": 95,
+    "tex": "B",
+    "display": false
+  },
+  {
+    "section": "chapter-1",
+    "ordinal": 96,
+    "tex": "A",
+    "display": false
+  },
+  {
+    "section": "chapter-1",
+    "ordinal": 97,
+    "tex": "B",
+    "display": false
+  },
+  {
+    "section": "chapter-1",
+    "ordinal": 98,
+    "tex": "\\mathbf1_A+\\mathbf1_B.",
+    "display": true
+  },
+  {
+    "section": "chapter-1",
+    "ordinal": 99,
+    "tex": "A\\cap B=\\varnothing",
+    "display": false
+  },
+  {
+    "section": "chapter-1",
+    "ordinal": 100,
+    "tex": "\\boxed{\r\n\\mathbf1_A+\\mathbf1_B=\\mathbf1_{A\\cup B}.\r\n}",
+    "display": true
+  },
+  {
+    "section": "chapter-1",
+    "ordinal": 101,
+    "tex": "\\pi(X)",
+    "display": true
+  },
+  {
+    "section": "chapter-1",
+    "ordinal": 102,
+    "tex": "X",
+    "display": false
+  },
+  {
+    "section": "chapter-1",
+    "ordinal": 103,
+    "tex": "\\pi(\\mathbf1_A+\\mathbf1_B)\r\n=\r\n\\pi(\\mathbf1_A)+\\pi(\\mathbf1_B).",
+    "display": true
+  },
+  {
+    "section": "chapter-1",
+    "ordinal": 104,
+    "tex": "P(A)=\\pi(\\mathbf1_A),",
+    "display": true
+  },
+  {
+    "section": "chapter-1",
+    "ordinal": 105,
+    "tex": "\\boxed{\r\nP(A\\cup B)=P(A)+P(B)\r\n}",
+    "display": true
+  },
+  {
+    "section": "chapter-1",
+    "ordinal": 106,
+    "tex": "A\\cap B=\\varnothing",
+    "display": false
+  },
+  {
+    "section": "chapter-1",
+    "ordinal": 107,
+    "tex": "P(\\Omega)=1,\r\n\\qquad\r\nP(A)\\ge0,",
+    "display": true
+  },
+  {
+    "section": "chapter-1",
+    "ordinal": 108,
+    "tex": "[0,1]",
+    "display": false
+  },
+  {
+    "section": "chapter-1",
+    "ordinal": 109,
+    "tex": "\\left[0,\\frac12\\right]",
+    "display": true
+  },
+  {
+    "section": "chapter-1",
+    "ordinal": 110,
+    "tex": "\\frac{\r\n|\\{x:0\\le x\\le1/2\\}|\r\n}{\r\n|\\{x:0\\le x\\le1\\}|\r\n}.",
+    "display": true
+  },
+  {
+    "section": "chapter-1",
+    "ordinal": 111,
+    "tex": "f:[0,1]\\longrightarrow\\left[0,\\frac12\\right],\r\n\\qquad f(x)=\\frac x2",
+    "display": true
+  },
+  {
+    "section": "chapter-1",
+    "ordinal": 112,
+    "tex": "\\left|\\left[0,\\frac12\\right]\\right|\r\n=\r\n|[0,1]|.",
+    "display": true
+  },
+  {
+    "section": "chapter-1",
+    "ordinal": 113,
+    "tex": "[0,1]",
+    "display": false
+  },
+  {
+    "section": "chapter-1",
+    "ordinal": 114,
+    "tex": "P\\left(X\\in\\left[0,\\frac12\\right]\\right)=\\frac12.",
+    "display": true
+  },
+  {
+    "section": "chapter-1",
+    "ordinal": 115,
+    "tex": "\\text{计数}\r\n\\subset\r\n\\text{测度}.",
+    "display": true
+  },
+  {
+    "section": "chapter-1",
+    "ordinal": 116,
+    "tex": "\\boxed{\r\n\\text{公平分配}\r\n\\longrightarrow\r\n\\text{未来结果}\r\n\\longrightarrow\r\n\\text{对称性}\r\n\\longrightarrow\r\n\\text{概率分配}\r\n}",
+    "display": true
+  },
+  {
+    "section": "chapter-1",
+    "ordinal": 117,
+    "tex": "P(A)=\\frac{|A|}{|\\Omega|}",
+    "display": true
+  }
+]

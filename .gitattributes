@@ -1,0 +1,14 @@
+chapters/** -text
+provenance/** -text
+archives/** -text
+advanced/** -text
+*.md -text
+assets/** -text
+dist/** -diff -text
+baseline-manuscript.json -text
+book-source.html -diff
+*.py text eol=lf
+*.cjs text eol=lf
+*.js text eol=lf
+app.js -text
+experiments.js -text

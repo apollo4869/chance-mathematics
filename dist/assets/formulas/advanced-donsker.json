@@ -1,0 +1,236 @@
+[
+  {
+    "section": "advanced-donsker",
+    "ordinal": 1,
+    "tex": "\\frac{S_n}{\\sqrt n}\\xrightarrow d N(0,1).",
+    "display": true
+  },
+  {
+    "section": "advanced-donsker",
+    "ordinal": 2,
+    "tex": "\\left(\r\n\\frac{S_{\\lfloor nt\\rfloor}}{\\sqrt n}\r\n\\right)_{0\\le t\\le1}",
+    "display": true
+  },
+  {
+    "section": "advanced-donsker",
+    "ordinal": 3,
+    "tex": "W_n(t)=\\frac{S_{\\lfloor nt\\rfloor}}{\\sqrt n}",
+    "display": true
+  },
+  {
+    "section": "advanced-donsker",
+    "ordinal": 4,
+    "tex": "1/\\sqrt n",
+    "display": false
+  },
+  {
+    "section": "advanced-donsker",
+    "ordinal": 5,
+    "tex": "n",
+    "display": false
+  },
+  {
+    "section": "advanced-donsker",
+    "ordinal": 6,
+    "tex": "k=\\lfloor nt\\rfloor,\\qquad r=nt-k.",
+    "display": true
+  },
+  {
+    "section": "advanced-donsker",
+    "ordinal": 7,
+    "tex": "\\boxed{\r\n\\widetilde W_n(t)\r\n=\r\n\\frac{(1-r)S_k+rS_{k+1}}{\\sqrt n},\r\n\\quad0\\le t<1,\r\n}",
+    "display": true
+  },
+  {
+    "section": "advanced-donsker",
+    "ordinal": 8,
+    "tex": "\\widetilde W_n(1)=\\frac{S_n}{\\sqrt n}.",
+    "display": true
+  },
+  {
+    "section": "advanced-donsker",
+    "ordinal": 9,
+    "tex": "\\widetilde W_n",
+    "display": false
+  },
+  {
+    "section": "advanced-donsker",
+    "ordinal": 10,
+    "tex": "\\sup_{0\\le t\\le1}\r\n|\\widetilde W_n(t)-W_n(t)|\r\n\\le\\frac1{\\sqrt n}.",
+    "display": true
+  },
+  {
+    "section": "advanced-donsker",
+    "ordinal": 11,
+    "tex": "C([0,1])",
+    "display": true
+  },
+  {
+    "section": "advanced-donsker",
+    "ordinal": 12,
+    "tex": "[0,1]",
+    "display": false
+  },
+  {
+    "section": "advanced-donsker",
+    "ordinal": 13,
+    "tex": "\\|f\\|_\\infty\r\n=\r\n\\sup_{0\\le t\\le1}|f(t)|.",
+    "display": true
+  },
+  {
+    "section": "advanced-donsker",
+    "ordinal": 14,
+    "tex": "\\widetilde W_n",
+    "display": false
+  },
+  {
+    "section": "advanced-donsker",
+    "ordinal": 15,
+    "tex": "C([0,1])",
+    "display": false
+  },
+  {
+    "section": "advanced-donsker",
+    "ordinal": 16,
+    "tex": "\\mathbb R",
+    "display": false
+  },
+  {
+    "section": "advanced-donsker",
+    "ordinal": 17,
+    "tex": "\\boxed{\r\n\\widetilde W_n\\xrightarrow d B\r\n\\quad\\text{in }C([0,1]).\r\n}",
+    "display": true
+  },
+  {
+    "section": "advanced-donsker",
+    "ordinal": 18,
+    "tex": "F:C([0,1])\\longrightarrow\\mathbb R,",
+    "display": true
+  },
+  {
+    "section": "advanced-donsker",
+    "ordinal": 19,
+    "tex": "\\mathbb E[F(\\widetilde W_n)]\r\n\\longrightarrow\r\n\\mathbb E[F(B)].",
+    "display": true
+  },
+  {
+    "section": "advanced-donsker",
+    "ordinal": 20,
+    "tex": "F(f)=\\max_{0\\le t\\le1}f(t).",
+    "display": true
+  },
+  {
+    "section": "advanced-donsker",
+    "ordinal": 21,
+    "tex": "|\\max f-\\max g|\r\n\\le\\|f-g\\|_\\infty.",
+    "display": true
+  },
+  {
+    "section": "advanced-donsker",
+    "ordinal": 22,
+    "tex": "C([0,1])",
+    "display": false
+  },
+  {
+    "section": "advanced-donsker",
+    "ordinal": 23,
+    "tex": "n",
+    "display": false
+  },
+  {
+    "section": "advanced-donsker",
+    "ordinal": 24,
+    "tex": "\\mathbb E\\left[\r\n|\\widetilde W_n(t)-\\widetilde W_n(s)|^4\r\n\\right]\r\n\\le C|t-s|^2.",
+    "display": true
+  },
+  {
+    "section": "advanced-donsker",
+    "ordinal": 25,
+    "tex": "[s,t]",
+    "display": false
+  },
+  {
+    "section": "advanced-donsker",
+    "ordinal": 26,
+    "tex": "\\widetilde W_n(t)-\\widetilde W_n(s)\r\n=\r\n\\frac1{\\sqrt n}\\sum_j a_j\\xi_j,",
+    "display": true
+  },
+  {
+    "section": "advanced-donsker",
+    "ordinal": 27,
+    "tex": "a_j\\in[0,1]",
+    "display": false
+  },
+  {
+    "section": "advanced-donsker",
+    "ordinal": 28,
+    "tex": "\\sum_j a_j=n(t-s).",
+    "display": true
+  },
+  {
+    "section": "advanced-donsker",
+    "ordinal": 29,
+    "tex": "\\xi_j",
+    "display": false
+  },
+  {
+    "section": "advanced-donsker",
+    "ordinal": 30,
+    "tex": "\\pm1",
+    "display": false
+  },
+  {
+    "section": "advanced-donsker",
+    "ordinal": 31,
+    "tex": "\\mathbb E\\left[\r\n\\left(\\sum_j a_j\\xi_j\\right)^4\r\n\\right]\r\n=\r\n3\\left(\\sum_j a_j^2\\right)^2\r\n-\r\n2\\sum_j a_j^4.",
+    "display": true
+  },
+  {
+    "section": "advanced-donsker",
+    "ordinal": 32,
+    "tex": "\\mathbb E\\left[\r\n\\left(\\sum_j a_j\\xi_j\\right)^4\r\n\\right]\r\n\\le\r\n3\\left(\\sum_j a_j^2\\right)^2.",
+    "display": true
+  },
+  {
+    "section": "advanced-donsker",
+    "ordinal": 33,
+    "tex": "0\\le a_j\\le1",
+    "display": false
+  },
+  {
+    "section": "advanced-donsker",
+    "ordinal": 34,
+    "tex": "\\sum_j a_j^2\r\n\\le\\sum_j a_j\r\n=n(t-s).",
+    "display": true
+  },
+  {
+    "section": "advanced-donsker",
+    "ordinal": 35,
+    "tex": "\\boxed{\r\n\\mathbb E\\left[\r\n|\\widetilde W_n(t)-\\widetilde W_n(s)|^4\r\n\\right]\r\n\\le3|t-s|^2.\r\n}",
+    "display": true
+  },
+  {
+    "section": "advanced-donsker",
+    "ordinal": 36,
+    "tex": "n",
+    "display": false
+  },
+  {
+    "section": "advanced-donsker",
+    "ordinal": 37,
+    "tex": "\\widetilde W_n(0)=0,",
+    "display": true
+  },
+  {
+    "section": "advanced-donsker",
+    "ordinal": 38,
+    "tex": "C([0,1])",
+    "display": false
+  },
+  {
+    "section": "advanced-donsker",
+    "ordinal": 39,
+    "tex": "\\boxed{\r\n\\widetilde W_n\\Longrightarrow B\r\n\\quad\\text{in }C([0,1]).\r\n}",
+    "display": true
+  }
+]

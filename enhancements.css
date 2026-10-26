@@ -1,0 +1,3 @@
+.draft-preview{border-left:3px solid var(--line);padding-left:18px;color:var(--muted)}
+.draft-preview::before{content:"母稿中的后续预告";display:block;font:11px/1.8 sans-serif;letter-spacing:2px;color:var(--accent);margin-bottom:10px}
+@media(max-width:800px){body{--body-size:inherit}}

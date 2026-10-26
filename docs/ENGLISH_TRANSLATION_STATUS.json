@@ -1,0 +1,18 @@
+{
+  "source_ref": "8189c1b",
+  "status": "FULL_WORKING_TRANSLATION",
+  "chapters": 8,
+  "advanced_modules": 6,
+  "total_source_units": 18,
+  "source_blocks": 5494,
+  "formula_occurrences_per_language": 2637,
+  "author_reading_approval": "NOT_YET_READ",
+  "mathematical_review": "SOURCE_STATUS_INHERITED_NOT_UPGRADED",
+  "historical_verification": "SOURCE_STATUS_INHERITED_NOT_UPGRADED",
+  "translation_semantic_final_review": "PENDING",
+  "source_chinese_manuscripts": "UNCHANGED",
+  "github_repository": "apollo4869/chance-mathematics",
+  "github_publication_authorized": true,
+  "publication": false,
+  "integrity_manifest": "translations/en/manifest.json"
+}

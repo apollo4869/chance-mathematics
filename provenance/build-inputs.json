@@ -1,0 +1,112 @@
+{
+  "chapters": [
+    "01-gambling.md",
+    "02-inference.md",
+    "03-normal.md",
+    "04-brownian.md",
+    "05-measure.md",
+    "06-integral.md",
+    "07-convergence.md",
+    "08-infinite-experiments.md"
+  ],
+  "citations": [
+    "turn673477search0",
+    "turn673477search2",
+    "turn673477search4",
+    "turn673477search7",
+    "turn689420search25",
+    "turn689420search2",
+    "turn689420search26",
+    "turn561005search0",
+    "turn561005search3",
+    "turn561005search25",
+    "turn557906search0",
+    "turn557906search5",
+    "turn557906search11",
+    "turn557906search1",
+    "turn557906search3",
+    "turn310466search0",
+    "turn310466search6",
+    "turn310466search24",
+    "turn310466search26",
+    "turn310466search8",
+    "turn557906search12",
+    "turn234816search0",
+    "turn234816search4",
+    "turn234816search30",
+    "turn234816search3",
+    "turn234816search8",
+    "turn234816search6",
+    "turn523153search2",
+    "turn523153search1",
+    "turn234816search7",
+    "turn360592search6",
+    "turn360592search7",
+    "turn360592search3",
+    "turn360592search4",
+    "turn360592search5",
+    "turn360592search8",
+    "turn360592search0",
+    "turn288123search2",
+    "turn288123search41",
+    "turn288123search39",
+    "turn288123search36",
+    "turn288123search38",
+    "turn516523search36",
+    "turn516523search1",
+    "turn516523search41",
+    "turn288123search37",
+    "turn701804search1",
+    "turn701804search0",
+    "turn701804search4",
+    "turn701804search35",
+    "turn701804search39",
+    "turn701804search6",
+    "turn701804search37",
+    "turn701804search40",
+    "turn817174search1",
+    "turn817174search26",
+    "turn817174search0",
+    "turn477144search24",
+    "turn477144search25"
+  ],
+  "converted_blocks": 4386,
+  "advanced_modules": [
+    {
+      "id": "advanced-donsker",
+      "file": "advanced/donsker.md",
+      "title": "进阶阅读：Donsker 与路径紧性",
+      "slug": "donsker"
+    },
+    {
+      "id": "advanced-wiener",
+      "file": "advanced/wiener.md",
+      "title": "进阶阅读：连续版本与 Wiener measure",
+      "slug": "wiener"
+    },
+    {
+      "id": "advanced-semigroup",
+      "file": "advanced/semigroup.md",
+      "title": "进阶阅读：从随机运动到半群与生成元",
+      "slug": "semigroup"
+    },
+    {
+      "id": "advanced-quadratic",
+      "file": "advanced/quadratic.md",
+      "title": "进阶阅读：路径粗糙性、平方变差与 Itô 动机",
+      "slug": "quadratic"
+    },
+    {
+      "id": "advanced-reflection",
+      "file": "advanced/reflection.md",
+      "title": "进阶阅读：首次到达与反射原理",
+      "slug": "reflection"
+    },
+    {
+      "id": "advanced-crt",
+      "file": "advanced/crt.md",
+      "title": "进阶阅读：从 Brownian 路径到随机树",
+      "slug": "crt"
+    }
+  ]
+}

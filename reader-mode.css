@@ -1,0 +1,16 @@
+.reader-controls{position:sticky;top:var(--reader-top,76px);z-index:8;background:var(--paper);border-bottom:1px solid var(--line);padding:12px 0;font:14px/1.5 "Segoe UI","Microsoft YaHei",sans-serif}
+.reader-mode-buttons{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-bottom:9px}
+.reader-mode-buttons button{font-size:13px}
+.reader-mode-buttons button:disabled{opacity:.4;cursor:default}
+#reader-status{margin-left:auto;color:var(--muted);font-size:12px}
+.reader-section-label{display:flex;align-items:center;gap:10px;color:var(--muted);white-space:nowrap}
+#reader-section{font:14px/1.5 "Microsoft YaHei",sans-serif;min-width:0;width:100%;color:var(--ink);background:var(--panel);border:1px solid var(--line);border-radius:5px;padding:8px}
+.reading-unit[hidden]{display:none!important}
+main{overflow-anchor:none}
+.reader-pagination{display:flex;justify-content:space-between;gap:18px;border-top:1px solid var(--line);padding:22px 0 35px;font:14px/1.6 "Microsoft YaHei",sans-serif}
+.reader-pagination button{max-width:48%;padding:10px 18px}
+.reader-pagination button:disabled{opacity:.4;cursor:default}
+body[data-reading-mode=section] .chapter-links{margin-top:28px}
+body[data-reading-mode=section]:not([data-reading-at-end=true]) .chapter-links{display:none}
+@media(max-width:800px){.reader-controls{padding:9px 0}.reader-mode-buttons{gap:6px}.reader-mode-buttons button{padding:6px 9px}#reader-status{font-size:11px}#reader-section{font-size:13px}.reader-section-label{font-size:12px;gap:6px}}
+@media print{.reader-controls,.reader-pagination{display:none!important}.reading-unit[hidden]{display:block!important}}

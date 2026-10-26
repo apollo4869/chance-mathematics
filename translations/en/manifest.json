@@ -1,0 +1,189 @@
+{
+  "scope": "Complete English working translation; structural coverage is not semantic or academic final approval",
+  "author_acceptance": "PENDING",
+  "mathematical_review": "SOURCE_REVIEW_STATUS_INHERITED_NOT_UPGRADED",
+  "publication": false,
+  "files": [
+    {
+      "source": "chapters/01-gambling.md",
+      "translation": "chapters-en/01-gambling.md",
+      "source_sha256": "13aef92ae4724b4b4c8b5aeea1462d17e345c72b8cb5c761a89edae63788243e",
+      "translation_sha256": "8755a4871493f31d780be02a160a3b3bd1bb2a630d3d0ceeab050549c888868e",
+      "blocks": 419,
+      "headings": 19,
+      "formulas": 117,
+      "status": "FULL_BLOCK_AND_FORMULA_CORRESPONDENCE"
+    },
+    {
+      "source": "chapters/02-inference.md",
+      "translation": "chapters-en/02-inference.md",
+      "source_sha256": "67f96226c5fc864eef686e9994db2d039c424444f16e66d240dee6017501596a",
+      "translation_sha256": "877bf501293c0c9ac633c55b9b104a9e0e483bd705a21b3f5421b01620fde578",
+      "blocks": 520,
+      "headings": 22,
+      "formulas": 201,
+      "status": "FULL_BLOCK_AND_FORMULA_CORRESPONDENCE"
+    },
+    {
+      "source": "chapters/03-normal.md",
+      "translation": "chapters-en/03-normal.md",
+      "source_sha256": "9f0bac76aee316225027d2d16e03358529ef94f2beca92dfa8614e322e63edd7",
+      "translation_sha256": "0edf2d87cf6aa1567f1b2879ef1f882a24c5d4469d2c7e689a8c3a05d82a563c",
+      "blocks": 579,
+      "headings": 21,
+      "formulas": 225,
+      "status": "FULL_BLOCK_AND_FORMULA_CORRESPONDENCE"
+    },
+    {
+      "source": "chapters/04-brownian.md",
+      "translation": "chapters-en/04-brownian.md",
+      "source_sha256": "077401be2fef053ff15732e96c60be29a98890cc514808b489ddd053aa13ab2d",
+      "translation_sha256": "a676405d0453e56e6f36b033ef75b57b1bc5c8701834dbf4cccd015c0688db2f",
+      "blocks": 417,
+      "headings": 20,
+      "formulas": 157,
+      "status": "FULL_BLOCK_AND_FORMULA_CORRESPONDENCE"
+    },
+    {
+      "source": "chapters/05-measure.md",
+      "translation": "chapters-en/05-measure.md",
+      "source_sha256": "d6ba65dbff2e96c3ef6f24732aa7295fb9335a9e364fde645b0f4eb25fe6daad",
+      "translation_sha256": "dd2cb990fbb7d1434dc08881792920362ffaff4657fd99f64897398147c54963",
+      "blocks": 858,
+      "headings": 33,
+      "formulas": 355,
+      "status": "FULL_BLOCK_AND_FORMULA_CORRESPONDENCE"
+    },
+    {
+      "source": "chapters/06-integral.md",
+      "translation": "chapters-en/06-integral.md",
+      "source_sha256": "34f468e737bae704796fea3c493c226df54fc7eacbf68b0b1005377c347122e7",
+      "translation_sha256": "64d264a6cb1dc2f2d1fbbe86eace26a57db76337602b79a9e2d749770bf7ee71",
+      "blocks": 948,
+      "headings": 41,
+      "formulas": 394,
+      "status": "FULL_BLOCK_AND_FORMULA_CORRESPONDENCE"
+    },
+    {
+      "source": "chapters/07-convergence.md",
+      "translation": "chapters-en/07-convergence.md",
+      "source_sha256": "56bd85f8860ce7b69c33031df04f03567e20311e968ec43de4da900908b5e664",
+      "translation_sha256": "a253bca6b555aafd23b0d0e86a532bd192cc6183ae7896087bd3613bf3f71940",
+      "blocks": 440,
+      "headings": 37,
+      "formulas": 504,
+      "status": "FULL_BLOCK_AND_FORMULA_CORRESPONDENCE"
+    },
+    {
+      "source": "chapters/08-infinite-experiments.md",
+      "translation": "chapters-en/08-infinite-experiments.md",
+      "source_sha256": "edee200409bc9094f1f03cc2b9821b295806343054574f18ff63365b865f343b",
+      "translation_sha256": "eceb1c78aeb37aedff500aa56e0f556e9e3b0ddcd7a370731a931ca22079abed",
+      "blocks": 354,
+      "headings": 23,
+      "formulas": 336,
+      "status": "FULL_BLOCK_AND_FORMULA_CORRESPONDENCE"
+    },
+    {
+      "source": "advanced/crt.md",
+      "translation": "advanced-en/crt.md",
+      "source_sha256": "19eab7069047d426eae0a1f1095f1fb4b05f3349755d1ffa2df904809933b7ce",
+      "translation_sha256": "92f3a2ae4907ab8c214f985090fef8a379567630e95f1aee53f68f0d47f28231",
+      "blocks": 45,
+      "headings": 3,
+      "formulas": 7,
+      "status": "FULL_BLOCK_AND_FORMULA_CORRESPONDENCE"
+    },
+    {
+      "source": "advanced/donsker.md",
+      "translation": "advanced-en/donsker.md",
+      "source_sha256": "9881d21b74ed936b2b6379367368502d17a801b07dcf50f6b36664349d612913",
+      "translation_sha256": "78e504742d5589b3d4faa9ffaff97cabef575c91fb7df0cabceb4caa41a7d0e3",
+      "blocks": 99,
+      "headings": 5,
+      "formulas": 39,
+      "status": "FULL_BLOCK_AND_FORMULA_CORRESPONDENCE"
+    },
+    {
+      "source": "advanced/quadratic.md",
+      "translation": "advanced-en/quadratic.md",
+      "source_sha256": "bbe19f486007506c29157c3d63ee598b0304cb4e592bc412a00a499a2e893ca4",
+      "translation_sha256": "b4a08fc70de988ba84e7fadfa293c7cb861c240d01a2b0f5f9d39e0e4e4dd16f",
+      "blocks": 99,
+      "headings": 5,
+      "formulas": 40,
+      "status": "FULL_BLOCK_AND_FORMULA_CORRESPONDENCE"
+    },
+    {
+      "source": "advanced/reflection.md",
+      "translation": "advanced-en/reflection.md",
+      "source_sha256": "a7bb2e943a6fbb55408257fc01fbee74cc563f6ca961b960c0fb31c0680605ef",
+      "translation_sha256": "e17d1b6cc4a10589cb633f7408d3dc2a5f31ba93b62f2ec143c3afb9faee8c90",
+      "blocks": 49,
+      "headings": 3,
+      "formulas": 21,
+      "status": "FULL_BLOCK_AND_FORMULA_CORRESPONDENCE"
+    },
+    {
+      "source": "advanced/semigroup.md",
+      "translation": "advanced-en/semigroup.md",
+      "source_sha256": "3b5c93838fd53c817bad162987585c0c9ed44794f80596e4e3cc9c34b48f471c",
+      "translation_sha256": "cfd0d337167b369a3ca920f60cd11ffcc34caa55e90da0bfda0b66dbbafa7803",
+      "blocks": 33,
+      "headings": 2,
+      "formulas": 12,
+      "status": "FULL_BLOCK_AND_FORMULA_CORRESPONDENCE"
+    },
+    {
+      "source": "advanced/wiener.md",
+      "translation": "advanced-en/wiener.md",
+      "source_sha256": "91c10db50998bb710630959f3bbdf404c4a8226bfadc558e5b4254fb9bec629f",
+      "translation_sha256": "4612ff08526624f637da5d7431263e645f7db0eada9b00cf401626c42b78b689",
+      "blocks": 60,
+      "headings": 3,
+      "formulas": 15,
+      "status": "FULL_BLOCK_AND_FORMULA_CORRESPONDENCE"
+    },
+    {
+      "source": "校订与证明补充.md",
+      "translation": "translations/en/proofs.md",
+      "source_sha256": "1485a84dd4e0ede2ef2b128ba88a0254628170aa15ebc5c279ff2f09ade226ff",
+      "translation_sha256": "a4eb0603d46e437b9bf85f951ca3428f5488ad71a2ac6083d57f36205535cb5b",
+      "blocks": 86,
+      "headings": 15,
+      "formulas": 139,
+      "status": "FULL_BLOCK_AND_FORMULA_CORRESPONDENCE"
+    },
+    {
+      "source": "延伸阅读与证明路线.md",
+      "translation": "translations/en/reading-routes.md",
+      "source_sha256": "8924b00c19f3134f7e541222aa6ecac452a771abd5be925097f53933dcec5600",
+      "translation_sha256": "b95878a58950303d06cbe8ad7f4b4e4d9f3484162542d282095e6b5db20b173d",
+      "blocks": 20,
+      "headings": 7,
+      "formulas": 0,
+      "status": "FULL_BLOCK_AND_FORMULA_CORRESPONDENCE"
+    },
+    {
+      "source": "引用与配图来源.md",
+      "translation": "translations/en/references.md",
+      "source_sha256": "7aeb5b027c674b060b081fd35e31847371f24157422fa411603654ccca137e5e",
+      "translation_sha256": "2a5c13412a6f31858096bb89d198567f5313393ecbd8957e4a4a11f34940ea6a",
+      "blocks": 126,
+      "headings": 4,
+      "formulas": 7,
+      "status": "FULL_BLOCK_AND_FORMULA_CORRESPONDENCE"
+    },
+    {
+      "source": "写作约定与全书编排.md",
+      "translation": "translations/en/writing-rules.md",
+      "source_sha256": "936d874892c8beaf400d29f28172a3e27157ff9b53ba528f5c131020967ab34a",
+      "translation_sha256": "30d3434a298723da94e77dc257a5214b19ee290128b044a092d3d485d25d9943",
+      "blocks": 342,
+      "headings": 28,
+      "formulas": 68,
+      "status": "FULL_BLOCK_AND_FORMULA_CORRESPONDENCE"
+    }
+  ],
+  "formulas": 2637
+}

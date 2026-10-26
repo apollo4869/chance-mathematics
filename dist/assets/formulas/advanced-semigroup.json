@@ -1,0 +1,74 @@
+[
+  {
+    "section": "advanced-semigroup",
+    "ordinal": 1,
+    "tex": "t\\longmapsto B_t(\\omega).",
+    "display": true
+  },
+  {
+    "section": "advanced-semigroup",
+    "ordinal": 2,
+    "tex": "\\omega",
+    "display": false
+  },
+  {
+    "section": "advanced-semigroup",
+    "ordinal": 3,
+    "tex": "(t,x)\\longmapsto p_t(x).",
+    "display": true
+  },
+  {
+    "section": "advanced-semigroup",
+    "ordinal": 4,
+    "tex": "f",
+    "display": false
+  },
+  {
+    "section": "advanced-semigroup",
+    "ordinal": 5,
+    "tex": "P_tf(x)\r\n=\r\n\\mathbb E[f(x+B_t)].",
+    "display": true
+  },
+  {
+    "section": "advanced-semigroup",
+    "ordinal": 6,
+    "tex": "P_{t+s}f=P_t(P_sf).",
+    "display": true
+  },
+  {
+    "section": "advanced-semigroup",
+    "ordinal": 7,
+    "tex": "(P_t)_{t\\ge0}",
+    "display": false
+  },
+  {
+    "section": "advanced-semigroup",
+    "ordinal": 8,
+    "tex": "\\lim_{h\\downarrow0}\r\n\\frac{P_hf(x)-f(x)}{h}\r\n=\r\n\\frac12f''(x),",
+    "display": true
+  },
+  {
+    "section": "advanced-semigroup",
+    "ordinal": 9,
+    "tex": "f\\in C_c^\\infty(\\mathbb R)",
+    "display": false
+  },
+  {
+    "section": "advanced-semigroup",
+    "ordinal": 10,
+    "tex": "\\boxed{\r\nL=\\frac12\\frac{d^2}{dx^2}.\r\n}",
+    "display": true
+  },
+  {
+    "section": "advanced-semigroup",
+    "ordinal": 11,
+    "tex": "\\frac{\\partial u}{\\partial t}=Lu.",
+    "display": true
+  },
+  {
+    "section": "advanced-semigroup",
+    "ordinal": 12,
+    "tex": "\\boxed{\r\n\\text{随机过程}\r\n\\longleftrightarrow\r\n\\text{Markov 半群}\r\n\\longleftrightarrow\r\n\\text{偏微分方程}.\r\n}",
+    "display": true
+  }
+]

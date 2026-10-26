@@ -1,0 +1,8 @@
+const fs=require('node:fs'),path=require('node:path');
+const md=require('markdown-it')({html:false,linkify:true});
+const root=path.resolve(__dirname,'../reports'),names=JSON.parse(fs.readFileSync(path.join(root,'report-list.json'),'utf8'));
+const css='body{margin:auto;max-width:1100px;padding:28px 24px 80px;background:#fbf8f1;color:#253332;font:17px/1.85 system-ui,"Microsoft YaHei",sans-serif}h1{font-size:30px}h2{margin-top:2em}a{color:#087e83}table{display:block;overflow:auto;border-collapse:collapse;font-size:14px}th,td{border:1px solid #ccc;padding:9px;min-width:90px}pre,code{overflow-wrap:anywhere;white-space:pre-wrap}img{max-width:390px;width:100%;height:auto}.card{display:block;border-top:1px solid #d9dfd6;padding:15px}nav{font-size:14px}@media(max-width:600px){body{padding:20px 16px}h1{font-size:25px}}';
+function page(title,body){return '<!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>'+title+'</title><style>'+css+'</style><nav><a href="index.html">阶段1交付目录</a> · <a href="../dist/index.html">教材候选网页</a></nav>'+body+'</html>'}
+for(const name of names){const source=fs.readFileSync(path.join(root,name+'.md'),'utf8');fs.writeFileSync(path.join(root,name+'.html'),page(name,md.render(source)));}
+fs.writeFileSync(path.join(root,'index.html'),page('偶然的数学 · 阶段1审阅交付','<h1>《偶然的数学》阶段1本地候选</h1><p><strong>保护现有长篇工作稿；未认证最初完整聊天；未发布。</strong></p><a class="card" href="../dist/index.html">打开六章分章候选网站 →</a>'+names.map(n=>'<a class="card" href="'+n+'.html">'+n+'</a>').join('')+'<p><a href="review.diff">Git diff</a> · <a href="../docs/数学审校待审问题.md">数学待审</a> · <a href="../docs/史料真实性待审问题.md">史料待审</a></p>'));
+console.log(JSON.stringify({humanReports:names.length}));

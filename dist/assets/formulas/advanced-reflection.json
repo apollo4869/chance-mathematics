@@ -1,0 +1,128 @@
+[
+  {
+    "section": "advanced-reflection",
+    "ordinal": 1,
+    "tex": "B_T\\sim N(0,T).",
+    "display": true
+  },
+  {
+    "section": "advanced-reflection",
+    "ordinal": 2,
+    "tex": "T",
+    "display": false
+  },
+  {
+    "section": "advanced-reflection",
+    "ordinal": 3,
+    "tex": "T",
+    "display": false
+  },
+  {
+    "section": "advanced-reflection",
+    "ordinal": 4,
+    "tex": "a>0",
+    "display": false
+  },
+  {
+    "section": "advanced-reflection",
+    "ordinal": 5,
+    "tex": "\\tau_a=\\inf\\{t\\ge0:B_t=a\\}.",
+    "display": true
+  },
+  {
+    "section": "advanced-reflection",
+    "ordinal": 6,
+    "tex": "P(\\tau_a\\le T).",
+    "display": true
+  },
+  {
+    "section": "advanced-reflection",
+    "ordinal": 7,
+    "tex": "B_T",
+    "display": false
+  },
+  {
+    "section": "advanced-reflection",
+    "ordinal": 8,
+    "tex": "a",
+    "display": false
+  },
+  {
+    "section": "advanced-reflection",
+    "ordinal": 9,
+    "tex": "T",
+    "display": false
+  },
+  {
+    "section": "advanced-reflection",
+    "ordinal": 10,
+    "tex": "a",
+    "display": false
+  },
+  {
+    "section": "advanced-reflection",
+    "ordinal": 11,
+    "tex": "a",
+    "display": false
+  },
+  {
+    "section": "advanced-reflection",
+    "ordinal": 12,
+    "tex": "a",
+    "display": false
+  },
+  {
+    "section": "advanced-reflection",
+    "ordinal": 13,
+    "tex": "y=a",
+    "display": false
+  },
+  {
+    "section": "advanced-reflection",
+    "ordinal": 14,
+    "tex": "\\boxed{\r\nP\\left(\\sup_{0\\le t\\le T}B_t\\ge a\\right)\r\n=\r\n2P(B_T\\ge a).\r\n}",
+    "display": true
+  },
+  {
+    "section": "advanced-reflection",
+    "ordinal": 15,
+    "tex": "B_T\\sim N(0,T),",
+    "display": true
+  },
+  {
+    "section": "advanced-reflection",
+    "ordinal": 16,
+    "tex": "P(B_T\\ge a)\r\n=\r\n1-\\Phi\\left(\\frac a{\\sqrt T}\\right),",
+    "display": true
+  },
+  {
+    "section": "advanced-reflection",
+    "ordinal": 17,
+    "tex": "\\Phi",
+    "display": false
+  },
+  {
+    "section": "advanced-reflection",
+    "ordinal": 18,
+    "tex": "\\boxed{\r\nP(\\tau_a\\le T)\r\n=\r\n2\\left[\r\n1-\\Phi\\left(\\frac a{\\sqrt T}\\right)\r\n\\right].\r\n}",
+    "display": true
+  },
+  {
+    "section": "advanced-reflection",
+    "ordinal": 19,
+    "tex": "\\boxed{\r\nf_{\\tau_a}(t)\r\n=\r\n\\frac{a}{\\sqrt{2\\pi t^3}}\r\n\\exp\\left(-\\frac{a^2}{2t}\\right),\r\n\\qquad t>0.\r\n}",
+    "display": true
+  },
+  {
+    "section": "advanced-reflection",
+    "ordinal": 20,
+    "tex": "P(\\tau_a<\\infty)=1,",
+    "display": true
+  },
+  {
+    "section": "advanced-reflection",
+    "ordinal": 21,
+    "tex": "\\mathbb E[\\tau_a]=\\infty.",
+    "display": true
+  }
+]

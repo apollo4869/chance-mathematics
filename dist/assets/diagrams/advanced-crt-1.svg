@@ -1,0 +1,7 @@
+<svg viewBox="0 0 340 185" width="100%" xmlns="http://www.w3.org/2000/svg">
+    <path d="M15 130 C34 129 38 95 55 88 S76 35 89 54 S106 109 124 96 S145 43 165 50 S185 85 201 72 S224 35 245 60 S272 106 285 99 S311 131 325 130 L325 130 L15 130 Z" fill="#168782" opacity="0.12"/>
+    <path d="M15 130 C34 129 38 95 55 88 S76 35 89 54 S106 109 124 96 S145 43 165 50 S185 85 201 72 S224 35 245 60 S272 106 285 99 S311 131 325 130" fill="none" stroke="#168782" stroke-width="2.6" stroke-linecap="round"/>
+    <line x1="15" y1="130" x2="325" y2="130" stroke="currentColor" opacity="0.4"/>
+    <text x="170" y="158" font-size="12" fill="currentColor" text-anchor="middle">连续 excursion 函数 e(t)</text>
+    <text x="170" y="177" font-size="11" fill="currentColor" opacity="0.7" text-anchor="middle">高度变化可以编码树上的分支与距离</text>
+  </svg>

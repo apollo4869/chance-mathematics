@@ -1,0 +1,836 @@
+[
+  {
+    "section": "supplement",
+    "ordinal": 1,
+    "tex": "\\mu^*",
+    "display": false
+  },
+  {
+    "section": "supplement",
+    "ordinal": 2,
+    "tex": "\\Omega",
+    "display": false
+  },
+  {
+    "section": "supplement",
+    "ordinal": 3,
+    "tex": "\\mathcal M=\\{A\\subseteq\\Omega:\\ \\forall E\\subseteq\\Omega,\\quad\n\\mu^*(E)=\\mu^*(E\\cap A)+\\mu^*(E\\setminus A)\\}.",
+    "display": true
+  },
+  {
+    "section": "supplement",
+    "ordinal": 4,
+    "tex": "\\le",
+    "display": false
+  },
+  {
+    "section": "supplement",
+    "ordinal": 5,
+    "tex": "\\sigma",
+    "display": false
+  },
+  {
+    "section": "supplement",
+    "ordinal": 6,
+    "tex": "\\varnothing\\in\\mathcal M",
+    "display": false
+  },
+  {
+    "section": "supplement",
+    "ordinal": 7,
+    "tex": "A",
+    "display": false
+  },
+  {
+    "section": "supplement",
+    "ordinal": 8,
+    "tex": "A^c",
+    "display": false
+  },
+  {
+    "section": "supplement",
+    "ordinal": 9,
+    "tex": "A\\in\\mathcal M",
+    "display": false
+  },
+  {
+    "section": "supplement",
+    "ordinal": 10,
+    "tex": "A^c\\in\\mathcal M",
+    "display": false
+  },
+  {
+    "section": "supplement",
+    "ordinal": 11,
+    "tex": "A,B\\in\\mathcal M",
+    "display": false
+  },
+  {
+    "section": "supplement",
+    "ordinal": 12,
+    "tex": "A",
+    "display": false
+  },
+  {
+    "section": "supplement",
+    "ordinal": 13,
+    "tex": "E",
+    "display": false
+  },
+  {
+    "section": "supplement",
+    "ordinal": 14,
+    "tex": "B",
+    "display": false
+  },
+  {
+    "section": "supplement",
+    "ordinal": 15,
+    "tex": "E\\setminus A",
+    "display": false
+  },
+  {
+    "section": "supplement",
+    "ordinal": 16,
+    "tex": "\\mu^*(E)=\\mu^*(E\\cap A)+\\mu^*((E\\setminus A)\\cap B)\n+\\mu^*(E\\setminus(A\\cup B)).",
+    "display": true
+  },
+  {
+    "section": "supplement",
+    "ordinal": 17,
+    "tex": "E\\cap(A\\cup B)",
+    "display": false
+  },
+  {
+    "section": "supplement",
+    "ordinal": 18,
+    "tex": "\\mu^*(E)\\ge\\mu^*(E\\cap(A\\cup B))+\\mu^*(E\\setminus(A\\cup B)).",
+    "display": true
+  },
+  {
+    "section": "supplement",
+    "ordinal": 19,
+    "tex": "A\\cup B\\in\\mathcal M",
+    "display": false
+  },
+  {
+    "section": "supplement",
+    "ordinal": 20,
+    "tex": "A_n\\in\\mathcal M",
+    "display": false
+  },
+  {
+    "section": "supplement",
+    "ordinal": 21,
+    "tex": "A=\\bigcup_nA_n",
+    "display": false
+  },
+  {
+    "section": "supplement",
+    "ordinal": 22,
+    "tex": "N",
+    "display": false
+  },
+  {
+    "section": "supplement",
+    "ordinal": 23,
+    "tex": "\\mu^*(E)=\\sum_{n=1}^N\\mu^*(E\\cap A_n)\n+\\mu^*\\left(E\\setminus\\bigcup_{n=1}^NA_n\\right)\n\\ge\\sum_{n=1}^N\\mu^*(E\\cap A_n)+\\mu^*(E\\setminus A).",
+    "display": true
+  },
+  {
+    "section": "supplement",
+    "ordinal": 24,
+    "tex": "N\\to\\infty",
+    "display": false
+  },
+  {
+    "section": "supplement",
+    "ordinal": 25,
+    "tex": "\\mu^*(E)\\ge\\sum_{n=1}^{\\infty}\\mu^*(E\\cap A_n)+\\mu^*(E\\setminus A)\n\\ge\\mu^*(E\\cap A)+\\mu^*(E\\setminus A).",
+    "display": true
+  },
+  {
+    "section": "supplement",
+    "ordinal": 26,
+    "tex": "A\\in\\mathcal M",
+    "display": false
+  },
+  {
+    "section": "supplement",
+    "ordinal": 27,
+    "tex": "B_1=A_1,\\qquad B_n=A_n\\setminus\\bigcup_{k<n}A_k",
+    "display": true
+  },
+  {
+    "section": "supplement",
+    "ordinal": 28,
+    "tex": "\\mathcal M",
+    "display": false
+  },
+  {
+    "section": "supplement",
+    "ordinal": 29,
+    "tex": "\\sigma",
+    "display": false
+  },
+  {
+    "section": "supplement",
+    "ordinal": 30,
+    "tex": "A_n",
+    "display": false
+  },
+  {
+    "section": "supplement",
+    "ordinal": 31,
+    "tex": "E=A",
+    "display": false
+  },
+  {
+    "section": "supplement",
+    "ordinal": 32,
+    "tex": "\\mu^*(A)\\ge\\sum_{n=1}^N\\mu^*(A_n).",
+    "display": true
+  },
+  {
+    "section": "supplement",
+    "ordinal": 33,
+    "tex": "\\ge",
+    "display": false
+  },
+  {
+    "section": "supplement",
+    "ordinal": 34,
+    "tex": "\\le",
+    "display": false
+  },
+  {
+    "section": "supplement",
+    "ordinal": 35,
+    "tex": "\\mu^*\\left(\\bigcup_nA_n\\right)=\\sum_n\\mu^*(A_n).",
+    "display": true
+  },
+  {
+    "section": "supplement",
+    "ordinal": 36,
+    "tex": "\\mu=\\mu^*|_{\\mathcal M}",
+    "display": false
+  },
+  {
+    "section": "supplement",
+    "ordinal": 37,
+    "tex": "m^*",
+    "display": false
+  },
+  {
+    "section": "supplement",
+    "ordinal": 38,
+    "tex": "H=(-\\infty,a]",
+    "display": false
+  },
+  {
+    "section": "supplement",
+    "ordinal": 39,
+    "tex": "(u,v)",
+    "display": false
+  },
+  {
+    "section": "supplement",
+    "ordinal": 40,
+    "tex": "a",
+    "display": false
+  },
+  {
+    "section": "supplement",
+    "ordinal": 41,
+    "tex": "E",
+    "display": false
+  },
+  {
+    "section": "supplement",
+    "ordinal": 42,
+    "tex": "\\varepsilon>0",
+    "display": false
+  },
+  {
+    "section": "supplement",
+    "ordinal": 43,
+    "tex": "m^*(E)=\\infty",
+    "display": false
+  },
+  {
+    "section": "supplement",
+    "ordinal": 44,
+    "tex": "m^*(E\\cap H)+m^*(E\\setminus H)=\\infty,",
+    "display": true
+  },
+  {
+    "section": "supplement",
+    "ordinal": 45,
+    "tex": "m^*(E)<\\infty",
+    "display": false
+  },
+  {
+    "section": "supplement",
+    "ordinal": 46,
+    "tex": "E\\subseteq\\bigcup_jI_j",
+    "display": false
+  },
+  {
+    "section": "supplement",
+    "ordinal": 47,
+    "tex": "m^*(E)+\\varepsilon",
+    "display": false
+  },
+  {
+    "section": "supplement",
+    "ordinal": 48,
+    "tex": "a",
+    "display": false
+  },
+  {
+    "section": "supplement",
+    "ordinal": 49,
+    "tex": "I_j=(u_j,v_j)",
+    "display": false
+  },
+  {
+    "section": "supplement",
+    "ordinal": 50,
+    "tex": "(u_j,a+\\delta_j),\\qquad(a,v_j)",
+    "display": true
+  },
+  {
+    "section": "supplement",
+    "ordinal": 51,
+    "tex": "H",
+    "display": false
+  },
+  {
+    "section": "supplement",
+    "ordinal": 52,
+    "tex": "H^c",
+    "display": false
+  },
+  {
+    "section": "supplement",
+    "ordinal": 53,
+    "tex": "\\delta_j>0",
+    "display": false
+  },
+  {
+    "section": "supplement",
+    "ordinal": 54,
+    "tex": "\\sum_j\\delta_j<\\varepsilon",
+    "display": false
+  },
+  {
+    "section": "supplement",
+    "ordinal": 55,
+    "tex": "\\varepsilon",
+    "display": false
+  },
+  {
+    "section": "supplement",
+    "ordinal": 56,
+    "tex": "m^*(E\\cap H)+m^*(E\\setminus H)\n\\le\\sum_j|I_j|+\\sum_j\\delta_j\n<m^*(E)+2\\varepsilon.",
+    "display": true
+  },
+  {
+    "section": "supplement",
+    "ordinal": 57,
+    "tex": "\\varepsilon\\downarrow0",
+    "display": false
+  },
+  {
+    "section": "supplement",
+    "ordinal": 58,
+    "tex": "a",
+    "display": false
+  },
+  {
+    "section": "supplement",
+    "ordinal": 59,
+    "tex": "a",
+    "display": false
+  },
+  {
+    "section": "supplement",
+    "ordinal": 60,
+    "tex": "\\sigma",
+    "display": false
+  },
+  {
+    "section": "supplement",
+    "ordinal": 61,
+    "tex": "(-\\infty,a)=\\bigcup_n(-\\infty,a-1/n]",
+    "display": false
+  },
+  {
+    "section": "supplement",
+    "ordinal": 62,
+    "tex": "\\sigma",
+    "display": false
+  },
+  {
+    "section": "supplement",
+    "ordinal": 63,
+    "tex": "(X,\\mathcal A,\\mu)",
+    "display": false
+  },
+  {
+    "section": "supplement",
+    "ordinal": 64,
+    "tex": "(Y,\\mathcal B,\\nu)",
+    "display": false
+  },
+  {
+    "section": "supplement",
+    "ordinal": 65,
+    "tex": "\\sigma",
+    "display": false
+  },
+  {
+    "section": "supplement",
+    "ordinal": 66,
+    "tex": "\\mathcal A\\otimes\\mathcal B",
+    "display": false
+  },
+  {
+    "section": "supplement",
+    "ordinal": 67,
+    "tex": "E\\subseteq X\\times Y",
+    "display": false
+  },
+  {
+    "section": "supplement",
+    "ordinal": 68,
+    "tex": "E_x=\\{y:(x,y)\\in E\\}",
+    "display": false
+  },
+  {
+    "section": "supplement",
+    "ordinal": 69,
+    "tex": "E_x\\in\\mathcal B",
+    "display": false
+  },
+  {
+    "section": "supplement",
+    "ordinal": 70,
+    "tex": "\\mathcal A\\otimes\\mathcal B",
+    "display": false
+  },
+  {
+    "section": "supplement",
+    "ordinal": 71,
+    "tex": "\\mu(X),\\nu(Y)<\\infty",
+    "display": false
+  },
+  {
+    "section": "supplement",
+    "ordinal": 72,
+    "tex": "\\mathcal D",
+    "display": false
+  },
+  {
+    "section": "supplement",
+    "ordinal": 73,
+    "tex": "x\\mapsto\\nu(E_x),\\quad y\\mapsto\\mu(E^y)",
+    "display": true
+  },
+  {
+    "section": "supplement",
+    "ordinal": 74,
+    "tex": "\\int_X\\nu(E_x)\\,d\\mu(x)=\\int_Y\\mu(E^y)\\,d\\nu(y)",
+    "display": true
+  },
+  {
+    "section": "supplement",
+    "ordinal": 75,
+    "tex": "A\\times B",
+    "display": false
+  },
+  {
+    "section": "supplement",
+    "ordinal": 76,
+    "tex": "\\mathcal D",
+    "display": false
+  },
+  {
+    "section": "supplement",
+    "ordinal": 77,
+    "tex": "\\mu(A)\\nu(B)",
+    "display": false
+  },
+  {
+    "section": "supplement",
+    "ordinal": 78,
+    "tex": "\\nu(Y)",
+    "display": false
+  },
+  {
+    "section": "supplement",
+    "ordinal": 79,
+    "tex": "\\mu(X)\\nu(Y)",
+    "display": false
+  },
+  {
+    "section": "supplement",
+    "ordinal": 80,
+    "tex": "E_n\\in\\mathcal D",
+    "display": false
+  },
+  {
+    "section": "supplement",
+    "ordinal": 81,
+    "tex": "\\mathcal D",
+    "display": false
+  },
+  {
+    "section": "supplement",
+    "ordinal": 82,
+    "tex": "\\pi",
+    "display": false
+  },
+  {
+    "section": "supplement",
+    "ordinal": 83,
+    "tex": "\\lambda",
+    "display": false
+  },
+  {
+    "section": "supplement",
+    "ordinal": 84,
+    "tex": "\\mathcal D",
+    "display": false
+  },
+  {
+    "section": "supplement",
+    "ordinal": 85,
+    "tex": "\\sigma",
+    "display": false
+  },
+  {
+    "section": "supplement",
+    "ordinal": 86,
+    "tex": "\\pi",
+    "display": false
+  },
+  {
+    "section": "supplement",
+    "ordinal": 87,
+    "tex": "\\lambda",
+    "display": false
+  },
+  {
+    "section": "supplement",
+    "ordinal": 88,
+    "tex": "\\sigma",
+    "display": false
+  },
+  {
+    "section": "supplement",
+    "ordinal": 89,
+    "tex": "X_k\\uparrow X",
+    "display": false
+  },
+  {
+    "section": "supplement",
+    "ordinal": 90,
+    "tex": "Y_k\\uparrow Y",
+    "display": false
+  },
+  {
+    "section": "supplement",
+    "ordinal": 91,
+    "tex": "E\\cap(X_k\\times Y_k)",
+    "display": false
+  },
+  {
+    "section": "supplement",
+    "ordinal": 92,
+    "tex": "\\rho(E)=\\int_X\\nu(E_x)\\,d\\mu(x),\\qquad E\\in\\mathcal A\\otimes\\mathcal B.",
+    "display": true
+  },
+  {
+    "section": "supplement",
+    "ordinal": 93,
+    "tex": "\\rho(\\varnothing)=0",
+    "display": false
+  },
+  {
+    "section": "supplement",
+    "ordinal": 94,
+    "tex": "E_n",
+    "display": false
+  },
+  {
+    "section": "supplement",
+    "ordinal": 95,
+    "tex": "\\rho\\left(\\bigcup_nE_n\\right)\n=\\int_X\\sum_n\\nu((E_n)_x)\\,d\\mu\n=\\sum_n\\rho(E_n).",
+    "display": true
+  },
+  {
+    "section": "supplement",
+    "ordinal": 96,
+    "tex": "\\rho",
+    "display": false
+  },
+  {
+    "section": "supplement",
+    "ordinal": 97,
+    "tex": "\\rho(A\\times B)=\\mu(A)\\nu(B)",
+    "display": false
+  },
+  {
+    "section": "supplement",
+    "ordinal": 98,
+    "tex": "0\\cdot\\infty=0",
+    "display": false
+  },
+  {
+    "section": "supplement",
+    "ordinal": 99,
+    "tex": "\\pi",
+    "display": false
+  },
+  {
+    "section": "supplement",
+    "ordinal": 100,
+    "tex": "\\lambda",
+    "display": false
+  },
+  {
+    "section": "supplement",
+    "ordinal": 101,
+    "tex": "\\sigma",
+    "display": false
+  },
+  {
+    "section": "supplement",
+    "ordinal": 102,
+    "tex": "\\mu\\otimes\\nu",
+    "display": false
+  },
+  {
+    "section": "supplement",
+    "ordinal": 103,
+    "tex": "f",
+    "display": false
+  },
+  {
+    "section": "supplement",
+    "ordinal": 104,
+    "tex": "s_n\\uparrow f",
+    "display": false
+  },
+  {
+    "section": "supplement",
+    "ordinal": 105,
+    "tex": "\\int f\\,d(\\mu\\otimes\\nu)\n=\\int_X\\left(\\int_Yf(x,y)\\,d\\nu(y)\\right)d\\mu(x)\n=\\int_Y\\left(\\int_Xf(x,y)\\,d\\mu(x)\\right)d\\nu(y).",
+    "display": true
+  },
+  {
+    "section": "supplement",
+    "ordinal": 106,
+    "tex": "+\\infty",
+    "display": false
+  },
+  {
+    "section": "supplement",
+    "ordinal": 107,
+    "tex": "f",
+    "display": false
+  },
+  {
+    "section": "supplement",
+    "ordinal": 108,
+    "tex": "|f|",
+    "display": false
+  },
+  {
+    "section": "supplement",
+    "ordinal": 109,
+    "tex": "f^+",
+    "display": false
+  },
+  {
+    "section": "supplement",
+    "ordinal": 110,
+    "tex": "f^-",
+    "display": false
+  },
+  {
+    "section": "supplement",
+    "ordinal": 111,
+    "tex": "\\infty-\\infty",
+    "display": false
+  },
+  {
+    "section": "supplement",
+    "ordinal": 112,
+    "tex": "\\mathbb EY=0",
+    "display": false
+  },
+  {
+    "section": "supplement",
+    "ordinal": 113,
+    "tex": "\\mathbb EY^2=\\sigma^2<\\infty",
+    "display": false
+  },
+  {
+    "section": "supplement",
+    "ordinal": 114,
+    "tex": "r(u)=e^{iu}-1-iu+\\frac{u^2}{2}.",
+    "display": true
+  },
+  {
+    "section": "supplement",
+    "ordinal": 115,
+    "tex": "r(u)/u^2\\to0",
+    "display": false
+  },
+  {
+    "section": "supplement",
+    "ordinal": 116,
+    "tex": "C",
+    "display": false
+  },
+  {
+    "section": "supplement",
+    "ordinal": 117,
+    "tex": "|r(u)|\\le Cu^2",
+    "display": false
+  },
+  {
+    "section": "supplement",
+    "ordinal": 118,
+    "tex": "|u|\\le1",
+    "display": false
+  },
+  {
+    "section": "supplement",
+    "ordinal": 119,
+    "tex": "|u|>1",
+    "display": false
+  },
+  {
+    "section": "supplement",
+    "ordinal": 120,
+    "tex": "2+|u|+u^2/2\\le(7/2)u^2",
+    "display": false
+  },
+  {
+    "section": "supplement",
+    "ordinal": 121,
+    "tex": "t\\ne0",
+    "display": false
+  },
+  {
+    "section": "supplement",
+    "ordinal": 122,
+    "tex": "\\frac{r(tY)}{t^2}\\longrightarrow0,\\qquad\n\\left|\\frac{r(tY)}{t^2}\\right|\\le CY^2.",
+    "display": true
+  },
+  {
+    "section": "supplement",
+    "ordinal": 123,
+    "tex": "\\varphi_Y(t)=1-\\frac{\\sigma^2t^2}{2}+o(t^2).",
+    "display": true
+  },
+  {
+    "section": "supplement",
+    "ordinal": 124,
+    "tex": "\\sigma>0",
+    "display": false
+  },
+  {
+    "section": "supplement",
+    "ordinal": 125,
+    "tex": "Y_j",
+    "display": false
+  },
+  {
+    "section": "supplement",
+    "ordinal": 126,
+    "tex": "\\varphi_{(Y_1+\\cdots+Y_n)/(\\sigma\\sqrt n)}(t)\n=\\left(1-\\frac{t^2}{2n}+o(n^{-1})\\right)^n\\longrightarrow e^{-t^2/2}.",
+    "display": true
+  },
+  {
+    "section": "supplement",
+    "ordinal": 127,
+    "tex": "f",
+    "display": false
+  },
+  {
+    "section": "supplement",
+    "ordinal": 128,
+    "tex": "f_n",
+    "display": false
+  },
+  {
+    "section": "supplement",
+    "ordinal": 129,
+    "tex": "0\\cdot\\infty=0",
+    "display": false
+  },
+  {
+    "section": "supplement",
+    "ordinal": 130,
+    "tex": "W_n(t)=S_{\\lfloor nt\\rfloor}/\\sqrt n",
+    "display": false
+  },
+  {
+    "section": "supplement",
+    "ordinal": 131,
+    "tex": "W_n(t_j)-W_n(t_{j-1})\n=\\frac1{\\sqrt n}\\sum_{k=\\lfloor nt_{j-1}\\rfloor+1}^{\\lfloor nt_j\\rfloor}\\xi_k",
+    "display": true
+  },
+  {
+    "section": "supplement",
+    "ordinal": 132,
+    "tex": "\\pm1",
+    "display": false
+  },
+  {
+    "section": "supplement",
+    "ordinal": 133,
+    "tex": "2/\\sqrt n",
+    "display": false
+  },
+  {
+    "section": "supplement",
+    "ordinal": 134,
+    "tex": "m_{n,j}=\\lfloor nt_j\\rfloor-\\lfloor nt_{j-1}\\rfloor",
+    "display": false
+  },
+  {
+    "section": "supplement",
+    "ordinal": 135,
+    "tex": "m_{n,j}/n\\to t_j-t_{j-1}>0",
+    "display": false
+  },
+  {
+    "section": "supplement",
+    "ordinal": 136,
+    "tex": "u_1,\\ldots,u_m",
+    "display": false
+  },
+  {
+    "section": "supplement",
+    "ordinal": 137,
+    "tex": "\\mathbb E\\exp\\left(i\\sum_{j=1}^mu_j\\Delta_{n,j}\\right)\n=\\prod_{j=1}^m\\left[\\varphi_\\xi\\left(\\frac{u_j}{\\sqrt n}\\right)\\right]^{m_{n,j}}\n\\longrightarrow\\exp\\left(-\\frac12\\sum_{j=1}^mu_j^2(t_j-t_{j-1})\\right).",
+    "display": true
+  },
+  {
+    "section": "supplement",
+    "ordinal": 138,
+    "tex": "\\pi",
+    "display": false
+  },
+  {
+    "section": "supplement",
+    "ordinal": 139,
+    "tex": "\\lambda",
+    "display": false
+  }
+]

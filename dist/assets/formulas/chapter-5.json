@@ -1,0 +1,2132 @@
+[
+  {
+    "section": "chapter-5",
+    "ordinal": 1,
+    "tex": "P(A)",
+    "display": true
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 2,
+    "tex": "P(A)=\\frac{|A|}{6}.",
+    "display": true
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 3,
+    "tex": "A=\r\n\\left\\{\r\n\\omega:\r\n\\sup_{0\\le t\\le1}B_t(\\omega)>1\r\n\\right\\}.",
+    "display": true
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 4,
+    "tex": "\\omega",
+    "display": false
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 5,
+    "tex": "A",
+    "display": false
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 6,
+    "tex": "[0,1]",
+    "display": false
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 7,
+    "tex": "P\\left(X\\in\\left[0,\\frac12\\right]\\right)=\\frac12,",
+    "display": true
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 8,
+    "tex": "P\\left(X\\in\\left[\\frac14,\\frac34\\right]\\right)=\\frac12.",
+    "display": true
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 9,
+    "tex": "0\\le a<b\\le1,",
+    "display": true
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 10,
+    "tex": "\\boxed{P(X\\in[a,b])=b-a.}",
+    "display": true
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 11,
+    "tex": "m:\\mathcal P(\\mathbb R)\\longrightarrow[0,\\infty],",
+    "display": true
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 12,
+    "tex": "\\mathcal P(\\mathbb R)",
+    "display": false
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 13,
+    "tex": "m([a,b])=b-a.",
+    "display": true
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 14,
+    "tex": "m(A+x)=m(A),",
+    "display": true
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 15,
+    "tex": "A+x=\\{a+x:a\\in A\\}.",
+    "display": true
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 16,
+    "tex": "\\boxed{\r\nm\\left(\\bigcup_{n=1}^{\\infty}A_n\\right)\r\n=\r\n\\sum_{n=1}^{\\infty}m(A_n).\r\n}",
+    "display": true
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 17,
+    "tex": "A=\\{1,2,3\\},\\qquad B=\\{1,2,3,4,5\\}.",
+    "display": true
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 18,
+    "tex": "B",
+    "display": false
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 19,
+    "tex": "A",
+    "display": false
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 20,
+    "tex": "|A|=3,\\qquad |B|=5.",
+    "display": true
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 21,
+    "tex": "\\mathbb N=\\{1,2,3,\\ldots\\}",
+    "display": true
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 22,
+    "tex": "2\\mathbb N=\\{2,4,6,\\ldots\\}",
+    "display": true
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 23,
+    "tex": "n\\longmapsto2n.",
+    "display": true
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 24,
+    "tex": "f:[0,1]\\longrightarrow[0,1/2],\r\n\\qquad\r\nf(x)=\\frac x2",
+    "display": true
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 25,
+    "tex": "\\left|[0,1]\\right|\r\n=\r\n\\left|[0,1/2]\\right|.",
+    "display": true
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 26,
+    "tex": "m([0,1])=1,",
+    "display": true
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 27,
+    "tex": "m([0,1/2])=\\frac12.",
+    "display": true
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 28,
+    "tex": "A=\\mathbb Q\\cap[0,1].",
+    "display": true
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 29,
+    "tex": "[0,1]",
+    "display": false
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 30,
+    "tex": "[0,1]",
+    "display": false
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 31,
+    "tex": "m(\\{x\\})=0,",
+    "display": true
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 32,
+    "tex": "m",
+    "display": false
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 33,
+    "tex": "A=\\{q_1,q_2,\\ldots\\}.",
+    "display": true
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 34,
+    "tex": "\\begin{aligned}\r\nm(A)\r\n&=m\\left(\\bigcup_{n=1}^{\\infty}\\{q_n\\}\\right)\\\\\r\n&=\\sum_{n=1}^{\\infty}m(\\{q_n\\})\\\\\r\n&=0.\r\n\\end{aligned}",
+    "display": true
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 35,
+    "tex": "\\boxed{m(\\mathbb Q\\cap[0,1])=0.}",
+    "display": true
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 36,
+    "tex": "m\\bigl([0,1]\\setminus\\mathbb Q\\bigr)=1.",
+    "display": true
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 37,
+    "tex": "\\boxed{P(X\\text{ 是有理数})=0.}",
+    "display": true
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 38,
+    "tex": "\\boxed{P(X\\text{ 是无理数})=1.}",
+    "display": true
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 39,
+    "tex": "[0,1]",
+    "display": false
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 40,
+    "tex": "x\\sim y\r\n\\quad\\Longleftrightarrow\\quad\r\nx-y\\in\\mathbb Q.",
+    "display": true
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 41,
+    "tex": "x-x=0\\in\\mathbb Q.",
+    "display": true
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 42,
+    "tex": "x-y\\in\\mathbb Q\r\n\\implies y-x\\in\\mathbb Q.",
+    "display": true
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 43,
+    "tex": "x-y\\in\\mathbb Q,\\quad y-z\\in\\mathbb Q\r\n\\implies x-z\\in\\mathbb Q.",
+    "display": true
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 44,
+    "tex": "[0,1]",
+    "display": false
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 45,
+    "tex": "x+\\mathbb Q",
+    "display": true
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 46,
+    "tex": "[0,1]",
+    "display": false
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 47,
+    "tex": "V",
+    "display": false
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 48,
+    "tex": "V\\subseteq[0,1],",
+    "display": true
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 49,
+    "tex": "V",
+    "display": false
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 50,
+    "tex": "Q_0=\\mathbb Q\\cap[-1,1].",
+    "display": true
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 51,
+    "tex": "q\\in Q_0",
+    "display": false
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 52,
+    "tex": "V_q=V+q.",
+    "display": true
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 53,
+    "tex": "q,r\\in Q_0",
+    "display": false
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 54,
+    "tex": "V_q\\cap V_r=\\varnothing.",
+    "display": true
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 55,
+    "tex": "v,w\\in V",
+    "display": false
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 56,
+    "tex": "v+q=w+r.",
+    "display": true
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 57,
+    "tex": "v-w=r-q\\in\\mathbb Q.",
+    "display": true
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 58,
+    "tex": "v\\sim w.",
+    "display": true
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 59,
+    "tex": "V",
+    "display": false
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 60,
+    "tex": "v=w.",
+    "display": true
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 61,
+    "tex": "q=r,",
+    "display": true
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 62,
+    "tex": "\\boxed{\r\n[0,1]\\subseteq\r\n\\bigcup_{q\\in Q_0}(V+q).\r\n}",
+    "display": true
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 63,
+    "tex": "x\\in[0,1]",
+    "display": false
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 64,
+    "tex": "V",
+    "display": false
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 65,
+    "tex": "x",
+    "display": false
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 66,
+    "tex": "v\\in V",
+    "display": false
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 67,
+    "tex": "x-v\\in\\mathbb Q.",
+    "display": true
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 68,
+    "tex": "x,v\\in[0,1]",
+    "display": false
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 69,
+    "tex": "-1\\le x-v\\le1.",
+    "display": true
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 70,
+    "tex": "q=x-v\\in Q_0,",
+    "display": true
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 71,
+    "tex": "x=v+q\\in V+q.",
+    "display": true
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 72,
+    "tex": "[0,1]",
+    "display": false
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 73,
+    "tex": "[-1,2]",
+    "display": true
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 74,
+    "tex": "\\boxed{\r\n[0,1]\r\n\\subseteq\r\n\\bigcup_{q\\in Q_0}(V+q)\r\n\\subseteq[-1,2].\r\n}",
+    "display": true
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 75,
+    "tex": "m",
+    "display": false
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 76,
+    "tex": "m(V+q)=m(V).",
+    "display": true
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 77,
+    "tex": "c=m(V).",
+    "display": true
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 78,
+    "tex": "V\\subseteq[0,1]",
+    "display": false
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 79,
+    "tex": "0\\le c\\le1.",
+    "display": true
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 80,
+    "tex": "Q_0",
+    "display": false
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 81,
+    "tex": "V+q",
+    "display": false
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 82,
+    "tex": "\\begin{aligned}\r\nm\\left(\\bigcup_{q\\in Q_0}(V+q)\\right)\r\n&=\\sum_{q\\in Q_0}m(V+q)\\\\\r\n&=\\sum_{q\\in Q_0}c.\r\n\\end{aligned}",
+    "display": true
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 83,
+    "tex": "c=0",
+    "display": false
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 84,
+    "tex": "m\\left(\\bigcup_{q\\in Q_0}(V+q)\\right)=0.",
+    "display": true
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 85,
+    "tex": "[0,1]",
+    "display": false
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 86,
+    "tex": "1\\le0.",
+    "display": true
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 87,
+    "tex": "c>0",
+    "display": false
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 88,
+    "tex": "\\sum_{q\\in Q_0}c=\\infty.",
+    "display": true
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 89,
+    "tex": "m\\left(\\bigcup_{q\\in Q_0}(V+q)\\right)=\\infty.",
+    "display": true
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 90,
+    "tex": "[-1,2]",
+    "display": false
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 91,
+    "tex": "m([-1,2])=3.",
+    "display": true
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 92,
+    "tex": "\\infty\\le3.",
+    "display": true
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 93,
+    "tex": "m(V)=0",
+    "display": false
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 94,
+    "tex": "m(V)>0",
+    "display": false
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 95,
+    "tex": "\\boxed{\r\n\\begin{gathered}\r\n\\text{不存在定义在 }\\mathcal P(\\mathbb R)\\text{ 上的}\\\\\r\n\\text{平移不变、可数可加、}\\\\\r\n\\text{并与区间长度一致的测度。}\r\n\\end{gathered}\r\n}",
+    "display": true
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 96,
+    "tex": "\\mathcal P(\\mathbb R)",
+    "display": false
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 97,
+    "tex": "\\sigma",
+    "display": false
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 98,
+    "tex": "\\sigma",
+    "display": false
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 99,
+    "tex": "\\mathcal F\\subseteq\\mathcal P(\\Omega).",
+    "display": true
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 100,
+    "tex": "\\mathcal F",
+    "display": false
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 101,
+    "tex": "A",
+    "display": false
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 102,
+    "tex": "A",
+    "display": false
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 103,
+    "tex": "A\\in\\mathcal F\r\n\\implies A^c\\in\\mathcal F.",
+    "display": true
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 104,
+    "tex": "A,B",
+    "display": false
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 105,
+    "tex": "A",
+    "display": false
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 106,
+    "tex": "B",
+    "display": false
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 107,
+    "tex": "A,B\\in\\mathcal F\r\n\\implies A\\cup B\\in\\mathcal F.",
+    "display": true
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 108,
+    "tex": "A_n=\\{S_n=0\\}.",
+    "display": true
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 109,
+    "tex": "\\bigcup_{n=1}^{\\infty}A_n.",
+    "display": true
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 110,
+    "tex": "\\bigcap_{m=1}^{\\infty}\r\n\\bigcup_{n=m}^{\\infty}A_n.",
+    "display": true
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 111,
+    "tex": "A_n",
+    "display": false
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 112,
+    "tex": "\\bigcup_{n=1}^{\\infty}A_n",
+    "display": true
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 113,
+    "tex": "\\sigma",
+    "display": false
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 114,
+    "tex": "\\sigma",
+    "display": false
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 115,
+    "tex": "\\Omega",
+    "display": false
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 116,
+    "tex": "\\mathcal F\\subseteq\\mathcal P(\\Omega)",
+    "display": true
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 117,
+    "tex": "\\Omega\\in\\mathcal F",
+    "display": false
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 118,
+    "tex": "A\\in\\mathcal F",
+    "display": false
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 119,
+    "tex": "A^c\\in\\mathcal F",
+    "display": false
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 120,
+    "tex": "A_1,A_2,\\ldots\\in\\mathcal F",
+    "display": false
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 121,
+    "tex": "\\bigcup_{n=1}^{\\infty}A_n\\in\\mathcal F,",
+    "display": true
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 122,
+    "tex": "\\mathcal F",
+    "display": false
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 123,
+    "tex": "\\Omega",
+    "display": false
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 124,
+    "tex": "\\sigma",
+    "display": false
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 125,
+    "tex": "\\left(\\bigcup_{n=1}^{\\infty}A_n\\right)^c\r\n=\r\n\\bigcap_{n=1}^{\\infty}A_n^c,",
+    "display": true
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 126,
+    "tex": "A_n\\in\\mathcal F\\ (\\forall n)\r\n\\implies\r\n\\bigcap_{n=1}^{\\infty}A_n\\in\\mathcal F.",
+    "display": true
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 127,
+    "tex": "\\sigma",
+    "display": false
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 128,
+    "tex": "\\mathcal F",
+    "display": false
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 129,
+    "tex": "\\{x\\}\\in\\mathcal F,\r\n\\qquad x\\in\\mathbb R.",
+    "display": true
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 130,
+    "tex": "\\mathcal F",
+    "display": false
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 131,
+    "tex": "A\\subseteq\\mathbb R",
+    "display": false
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 132,
+    "tex": "A=\\bigcup_{x\\in A}\\{x\\}\\in\\mathcal F.",
+    "display": true
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 133,
+    "tex": "\\mathcal F=\\mathcal P(\\mathbb R).",
+    "display": true
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 134,
+    "tex": "\\sigma",
+    "display": false
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 135,
+    "tex": "\\mathcal F_1\\subseteq\\mathcal F_2.",
+    "display": true
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 136,
+    "tex": "\\mathcal F_2",
+    "display": false
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 137,
+    "tex": "\\sigma",
+    "display": false
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 138,
+    "tex": "\\mathcal F_0=\\{\\varnothing,\\Omega\\}.",
+    "display": true
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 139,
+    "tex": "\\Omega=\\{H,T\\},",
+    "display": true
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 140,
+    "tex": "\\mathcal F_1=\\mathcal P(\\Omega).",
+    "display": true
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 141,
+    "tex": "\\mathcal F_0\\subseteq\\mathcal F_1.",
+    "display": true
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 142,
+    "tex": "\\sigma",
+    "display": false
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 143,
+    "tex": "\\mathcal F_s\\subseteq\\mathcal F_t,\r\n\\qquad s\\le t.",
+    "display": true
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 144,
+    "tex": "\\mathcal C\\subseteq\\mathcal P(\\Omega)",
+    "display": false
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 145,
+    "tex": "\\boxed{\r\n\\sigma(\\mathcal C)\r\n=\r\n\\bigcap\\left\\{\r\n\\mathcal F:\r\n\\mathcal F\\text{ 是 }\\sigma\\text{-代数},\r\n\\ \\mathcal C\\subseteq\\mathcal F\r\n\\right\\}.\r\n}",
+    "display": true
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 146,
+    "tex": "\\sigma",
+    "display": false
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 147,
+    "tex": "\\sigma",
+    "display": false
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 148,
+    "tex": "\\mathcal C",
+    "display": false
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 149,
+    "tex": "\\sigma",
+    "display": false
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 150,
+    "tex": "\\mathcal C",
+    "display": false
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 151,
+    "tex": "\\sigma",
+    "display": false
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 152,
+    "tex": "\\mathcal O",
+    "display": false
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 153,
+    "tex": "\\mathbb R",
+    "display": false
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 154,
+    "tex": "\\boxed{\r\n\\mathcal B(\\mathbb R)=\\sigma(\\mathcal O).\r\n}",
+    "display": true
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 155,
+    "tex": "\\sigma",
+    "display": false
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 156,
+    "tex": "\\boxed{\r\n\\mathcal B(\\mathbb R)\r\n=\r\n\\sigma\\bigl(\\{(a,b):a,b\\in\\mathbb Q,\\ a<b\\}\\bigr).\r\n}",
+    "display": true
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 157,
+    "tex": "U\\subseteq\\mathbb R",
+    "display": false
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 158,
+    "tex": "U=\r\n\\bigcup_{\\substack{a,b\\in\\mathbb Q\\\\(a,b)\\subseteq U}}\r\n(a,b).",
+    "display": true
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 159,
+    "tex": "m:\\mathcal B(\\mathbb R)\\to[0,\\infty].",
+    "display": true
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 160,
+    "tex": "A\\subseteq\\mathbb R",
+    "display": false
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 161,
+    "tex": "A\\subseteq\\bigcup_{n=1}^{\\infty}I_n,",
+    "display": true
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 162,
+    "tex": "I_n",
+    "display": false
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 163,
+    "tex": "\\sum_{n=1}^{\\infty}|I_n|,",
+    "display": true
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 164,
+    "tex": "A",
+    "display": false
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 165,
+    "tex": "\\boxed{\r\nm^*(A)\r\n=\r\n\\inf\\left\\{\r\n\\sum_{n=1}^{\\infty}|I_n|:\r\nA\\subseteq\\bigcup_{n=1}^{\\infty}I_n,\r\n\\ I_n\\text{ 为开区间}\r\n\\right\\}.\r\n}",
+    "display": true
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 166,
+    "tex": "m^*",
+    "display": false
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 167,
+    "tex": "m^*([a,b])=b-a.",
+    "display": true
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 168,
+    "tex": "b-a",
+    "display": false
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 169,
+    "tex": "[a,b]",
+    "display": false
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 170,
+    "tex": "b-a",
+    "display": false
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 171,
+    "tex": "m^*(\\varnothing)=0.",
+    "display": true
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 172,
+    "tex": "A\\subseteq B,",
+    "display": true
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 173,
+    "tex": "B",
+    "display": false
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 174,
+    "tex": "A",
+    "display": false
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 175,
+    "tex": "\\boxed{m^*(A)\\le m^*(B).}",
+    "display": true
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 176,
+    "tex": "A_1,A_2,\\ldots.",
+    "display": true
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 177,
+    "tex": "\\varepsilon>0",
+    "display": false
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 178,
+    "tex": "A_k",
+    "display": false
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 179,
+    "tex": "m^*(A_k)+\\frac{\\varepsilon}{2^k},",
+    "display": true
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 180,
+    "tex": "\\bigcup_kA_k",
+    "display": false
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 181,
+    "tex": "m^*\\left(\\bigcup_{k=1}^{\\infty}A_k\\right)\r\n\\le\r\n\\sum_{k=1}^{\\infty}m^*(A_k)+\\varepsilon.",
+    "display": true
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 182,
+    "tex": "\\varepsilon\\downarrow0",
+    "display": false
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 183,
+    "tex": "\\boxed{\r\nm^*\\left(\\bigcup_{k=1}^{\\infty}A_k\\right)\r\n\\le\r\n\\sum_{k=1}^{\\infty}m^*(A_k).\r\n}",
+    "display": true
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 184,
+    "tex": "A\\subseteq\\mathbb R",
+    "display": false
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 185,
+    "tex": "E",
+    "display": false
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 186,
+    "tex": "E\\cap A",
+    "display": true
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 187,
+    "tex": "E\\setminus A.",
+    "display": true
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 188,
+    "tex": "E=(E\\cap A)\\cup(E\\setminus A).",
+    "display": true
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 189,
+    "tex": "m^*(E)\r\n\\le\r\nm^*(E\\cap A)+m^*(E\\setminus A).",
+    "display": true
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 190,
+    "tex": "A",
+    "display": false
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 191,
+    "tex": "E",
+    "display": false
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 192,
+    "tex": "A",
+    "display": false
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 193,
+    "tex": "m^*(E)\r\n=\r\nm^*(E\\cap A)+m^*(E\\setminus A).",
+    "display": true
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 194,
+    "tex": "E=\\mathbb R",
+    "display": false
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 195,
+    "tex": "E=A",
+    "display": false
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 196,
+    "tex": "E",
+    "display": false
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 197,
+    "tex": "m^*",
+    "display": false
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 198,
+    "tex": "A\\subseteq\\mathbb R",
+    "display": false
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 199,
+    "tex": "E\\subseteq\\mathbb R",
+    "display": false
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 200,
+    "tex": "\\boxed{\r\nm^*(E)\r\n=\r\nm^*(E\\cap A)+m^*(E\\setminus A),\r\n}",
+    "display": true
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 201,
+    "tex": "A",
+    "display": false
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 202,
+    "tex": "\\mathcal L.",
+    "display": true
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 203,
+    "tex": "\\sigma",
+    "display": false
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 204,
+    "tex": "\\sigma",
+    "display": false
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 205,
+    "tex": "A",
+    "display": false
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 206,
+    "tex": "A^c",
+    "display": false
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 207,
+    "tex": "A\\in\\mathcal L\r\n\\implies A^c\\in\\mathcal L.",
+    "display": true
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 208,
+    "tex": "A,B\\in\\mathcal L",
+    "display": false
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 209,
+    "tex": "A\\cup B\\in\\mathcal L.",
+    "display": true
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 210,
+    "tex": "A_1,A_2,\\ldots\\in\\mathcal L",
+    "display": false
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 211,
+    "tex": "B_1=A_1,",
+    "display": true
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 212,
+    "tex": "B_n=A_n\\setminus\\bigcup_{k=1}^{n-1}A_k,\\qquad n\\ge2.",
+    "display": true
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 213,
+    "tex": "B_n",
+    "display": false
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 214,
+    "tex": "\\bigcup_{n=1}^{\\infty}A_n\r\n=\r\n\\bigsqcup_{n=1}^{\\infty}B_n.",
+    "display": true
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 215,
+    "tex": "E\\subseteq\\mathbb R",
+    "display": false
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 216,
+    "tex": "m^*(E)\r\n\\ge\r\n\\sum_{k=1}^{N}m^*(E\\cap B_k)\r\n+\r\nm^*\\left(E\\setminus\\bigcup_{k=1}^{\\infty}B_k\\right).",
+    "display": true
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 217,
+    "tex": "N\\to\\infty",
+    "display": false
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 218,
+    "tex": "m^*\\left(E\\cap\\bigcup_{k=1}^{\\infty}B_k\\right)\r\n\\le\r\n\\sum_{k=1}^{\\infty}m^*(E\\cap B_k),",
+    "display": true
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 219,
+    "tex": "m^*(E)\r\n\\ge\r\nm^*\\left(E\\cap\\bigcup_{k=1}^{\\infty}B_k\\right)\r\n+\r\nm^*\\left(E\\setminus\\bigcup_{k=1}^{\\infty}B_k\\right).",
+    "display": true
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 220,
+    "tex": "\\boxed{\\mathcal L\\text{ 是一个 }\\sigma\\text{-代数}.}",
+    "display": true
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 221,
+    "tex": "A_1,A_2,\\ldots\\in\\mathcal L",
+    "display": false
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 222,
+    "tex": "\\boxed{\r\nm^*\\left(\\bigcup_{n=1}^{\\infty}A_n\\right)\r\n=\r\n\\sum_{n=1}^{\\infty}m^*(A_n).\r\n}",
+    "display": true
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 223,
+    "tex": "\\mathcal L",
+    "display": false
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 224,
+    "tex": "m=m^*|_{\\mathcal L},",
+    "display": true
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 225,
+    "tex": "A=(-\\infty,a).",
+    "display": true
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 226,
+    "tex": "E\\subseteq\\mathbb R",
+    "display": false
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 227,
+    "tex": "E",
+    "display": false
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 228,
+    "tex": "a",
+    "display": false
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 229,
+    "tex": "m^*(E\\cap A)+m^*(E\\setminus A)\\le m^*(E).",
+    "display": true
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 230,
+    "tex": "A",
+    "display": false
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 231,
+    "tex": "\\mathcal L",
+    "display": false
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 232,
+    "tex": "\\sigma",
+    "display": false
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 233,
+    "tex": "\\boxed{\r\n\\mathcal B(\\mathbb R)\\subseteq\\mathcal L.\r\n}",
+    "display": true
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 234,
+    "tex": "\\mathcal B(\\mathbb R)\r\n\\subsetneq\r\n\\mathcal L.",
+    "display": true
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 235,
+    "tex": "C",
+    "display": false
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 236,
+    "tex": "m(C)=0.",
+    "display": true
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 237,
+    "tex": "n",
+    "display": false
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 238,
+    "tex": "2^n",
+    "display": false
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 239,
+    "tex": "\\left(\\frac23\\right)^n,",
+    "display": true
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 240,
+    "tex": "A\\subseteq C",
+    "display": false
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 241,
+    "tex": "0\\le m^*(A)\\le m^*(C)=0.",
+    "display": true
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 242,
+    "tex": "m^*(A)=0",
+    "display": false
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 243,
+    "tex": "\\boxed{\r\nA\\subseteq C\\implies A\\in\\mathcal L.\r\n}",
+    "display": true
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 244,
+    "tex": "\\boxed{\r\n\\begin{aligned}\r\n\\Omega&=[0,1],\\\\\r\n\\mathcal F&=\\mathcal L|_{[0,1]},\\\\\r\nP(A)&=m(A).\r\n\\end{aligned}\r\n}",
+    "display": true
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 245,
+    "tex": "\\mathcal L|_{[0,1]}\r\n=\r\n\\{A\\subseteq[0,1]:A\\in\\mathcal L\\}.",
+    "display": true
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 246,
+    "tex": "0\\le a<b\\le1",
+    "display": false
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 247,
+    "tex": "P([a,b])=b-a.",
+    "display": true
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 248,
+    "tex": "\\boxed{\\mathcal F\\ne\\mathcal P([0,1]).}",
+    "display": true
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 249,
+    "tex": "\\sigma",
+    "display": false
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 250,
+    "tex": "P(A\\cup B)=P(A)+P(B)",
+    "display": true
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 251,
+    "tex": "A,B",
+    "display": false
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 252,
+    "tex": "A_1\\subseteq A_2\\subseteq\\cdots",
+    "display": true
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 253,
+    "tex": "A=\\bigcup_{n=1}^{\\infty}A_n.",
+    "display": true
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 254,
+    "tex": "A_n\\uparrow A.",
+    "display": true
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 255,
+    "tex": "A_n",
+    "display": false
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 256,
+    "tex": "n",
+    "display": false
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 257,
+    "tex": "A",
+    "display": false
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 258,
+    "tex": "n",
+    "display": false
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 259,
+    "tex": "\\boxed{\r\nP(A_n)\\longrightarrow P(A).\r\n}",
+    "display": true
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 260,
+    "tex": "B_1=A_1,",
+    "display": true
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 261,
+    "tex": "B_n=A_n\\setminus A_{n-1},\r\n\\qquad n\\ge2.",
+    "display": true
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 262,
+    "tex": "B_n",
+    "display": false
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 263,
+    "tex": "A=\\bigsqcup_{n=1}^{\\infty}B_n.",
+    "display": true
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 264,
+    "tex": "P(A)=\\sum_{n=1}^{\\infty}P(B_n).",
+    "display": true
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 265,
+    "tex": "P(A_n)=\\sum_{k=1}^{n}P(B_k).",
+    "display": true
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 266,
+    "tex": "n\\to\\infty",
+    "display": false
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 267,
+    "tex": "\\boxed{\r\nA_n\\uparrow A\r\n\\quad\\Longrightarrow\\quad\r\nP(A_n)\\uparrow P(A).\r\n}",
+    "display": true
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 268,
+    "tex": "A_1\\supseteq A_2\\supseteq\\cdots,",
+    "display": true
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 269,
+    "tex": "A=\\bigcap_{n=1}^{\\infty}A_n,",
+    "display": true
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 270,
+    "tex": "\\boxed{\r\nA_n\\downarrow A\r\n\\quad\\Longrightarrow\\quad\r\nP(A_n)\\downarrow P(A).\r\n}",
+    "display": true
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 271,
+    "tex": "1,2,3,\\ldots",
+    "display": true
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 272,
+    "tex": "P(\\{n\\})=c",
+    "display": true
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 273,
+    "tex": "n",
+    "display": false
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 274,
+    "tex": "c>0",
+    "display": false
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 275,
+    "tex": "P(\\mathbb N)\r\n=\r\n\\sum_{n=1}^{\\infty}c\r\n=\\infty.",
+    "display": true
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 276,
+    "tex": "P(\\mathbb N)=1.",
+    "display": true
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 277,
+    "tex": "c>0",
+    "display": false
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 278,
+    "tex": "c=0",
+    "display": false
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 279,
+    "tex": "P(\\mathbb N)\r\n=\r\n\\sum_{n=1}^{\\infty}0\r\n=0.",
+    "display": true
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 280,
+    "tex": "\\boxed{\r\n\\text{不存在定义在 }\\mathbb N\\text{ 上、}\\\\\r\n\\text{使所有单点等概率的可数可加概率测度。}\r\n}",
+    "display": true
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 281,
+    "tex": "P(\\{n\\})=2^{-n},\r\n\\qquad n=1,2,\\ldots",
+    "display": true
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 282,
+    "tex": "\\sum_{n=1}^{\\infty}2^{-n}=1.",
+    "display": true
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 283,
+    "tex": "\\Omega",
+    "display": false
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 284,
+    "tex": "\\mathcal F",
+    "display": false
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 285,
+    "tex": "P",
+    "display": false
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 286,
+    "tex": "\\boxed{(\\Omega,\\mathcal F,P)}",
+    "display": true
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 287,
+    "tex": "\\Omega",
+    "display": false
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 288,
+    "tex": "\\mathcal F",
+    "display": false
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 289,
+    "tex": "\\Omega",
+    "display": false
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 290,
+    "tex": "\\sigma",
+    "display": false
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 291,
+    "tex": "P:\\mathcal F\\to[0,1]",
+    "display": false
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 292,
+    "tex": "P(\\Omega)=1,",
+    "display": true
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 293,
+    "tex": "A_1,A_2,\\ldots\\in\\mathcal F",
+    "display": false
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 294,
+    "tex": "\\boxed{\r\nP\\left(\\bigcup_{n=1}^{\\infty}A_n\\right)\r\n=\r\n\\sum_{n=1}^{\\infty}P(A_n).\r\n}",
+    "display": true
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 295,
+    "tex": "\\Omega=\\{\\omega_1,\\ldots,\\omega_n\\},",
+    "display": true
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 296,
+    "tex": "\\mathcal F=\\mathcal P(\\Omega).",
+    "display": true
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 297,
+    "tex": "P(A)=\\frac{|A|}{n}.",
+    "display": true
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 298,
+    "tex": "p_i\\ge0,\\qquad\\sum_{i=1}^{n}p_i=1,",
+    "display": true
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 299,
+    "tex": "P(A)=\\sum_{\\omega_i\\in A}p_i.",
+    "display": true
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 300,
+    "tex": "\\boxed{\r\n\\begin{gathered}\r\n\\text{古典等可能计数}\\\\\r\n\\text{非等可能离散概率}\\\\\r\n\\text{连续均匀概率}\\\\\r\n\\text{更一般的概率分布}\r\n\\end{gathered}\r\n\\quad\r\n\\begin{gathered}\r\n\\\\[-1.5em]\r\n\\Bigg\\}\\\\\r\n\\\\[-0.5em]\r\n\\text{概率测度}\r\n\\end{gathered}\r\n}",
+    "display": true
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 301,
+    "tex": "(\\Omega,\\mathcal F,P).",
+    "display": true
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 302,
+    "tex": "X(\\omega)=\\text{三个骰子的总点数}.",
+    "display": true
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 303,
+    "tex": "X:\\Omega\\to\\mathbb R",
+    "display": true
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 304,
+    "tex": "\\{X\\le a\\},",
+    "display": true
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 305,
+    "tex": "X^{-1}((-\\infty,a]).",
+    "display": true
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 306,
+    "tex": "X^{-1}((-\\infty,a])\\in\\mathcal F.",
+    "display": true
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 307,
+    "tex": "B",
+    "display": false
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 308,
+    "tex": "P(X\\in B).",
+    "display": true
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 309,
+    "tex": "X^{-1}(B)\\in\\mathcal F,\r\n\\qquad B\\in\\mathcal B(\\mathbb R).",
+    "display": true
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 310,
+    "tex": "(\\Omega,\\mathcal F,P)",
+    "display": false
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 311,
+    "tex": "X:\\Omega\\to\\mathbb R",
+    "display": true
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 312,
+    "tex": "\\boxed{\r\nX^{-1}(B)\\in\\mathcal F\r\n\\quad\r\n\\text{对所有 }B\\in\\mathcal B(\\mathbb R),\r\n}",
+    "display": true
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 313,
+    "tex": "X",
+    "display": false
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 314,
+    "tex": "X",
+    "display": false
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 315,
+    "tex": "X",
+    "display": false
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 316,
+    "tex": "X",
+    "display": false
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 317,
+    "tex": "\\boxed{\r\nP_X(B)=P(X^{-1}(B)).\r\n}",
+    "display": true
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 318,
+    "tex": "A=\\left\\{\r\n\\omega:\r\n\\sup_{0\\le t\\le1}B_t(\\omega)>1\r\n\\right\\}.",
+    "display": true
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 319,
+    "tex": "C([0,1])",
+    "display": false
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 320,
+    "tex": "f",
+    "display": false
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 321,
+    "tex": "\\boxed{\r\n\\sup_{0\\le t\\le1}f(t)\r\n=\r\n\\sup_{t\\in\\mathbb Q\\cap[0,1]}f(t).\r\n}",
+    "display": true
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 322,
+    "tex": "[0,1]",
+    "display": false
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 323,
+    "tex": "f",
+    "display": false
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 324,
+    "tex": "A=\r\n\\bigcup_{q\\in\\mathbb Q\\cap[0,1]}\r\n\\{B_q>1\\}.",
+    "display": true
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 325,
+    "tex": "q",
+    "display": false
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 326,
+    "tex": "\\{B_q>1\\}",
+    "display": true
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 327,
+    "tex": "\\mathbb Q\\cap[0,1]",
+    "display": false
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 328,
+    "tex": "A\\in\\mathcal F.",
+    "display": true
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 329,
+    "tex": "\\sigma",
+    "display": false
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 330,
+    "tex": "A\\in\\mathcal F",
+    "display": false
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 331,
+    "tex": "P(A)=1,",
+    "display": true
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 332,
+    "tex": "A",
+    "display": false
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 333,
+    "tex": "P(A)=0,",
+    "display": true
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 334,
+    "tex": "A",
+    "display": false
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 335,
+    "tex": "P(A)=1",
+    "display": true
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 336,
+    "tex": "A=\\Omega.",
+    "display": true
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 337,
+    "tex": "P(A)=0",
+    "display": true
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 338,
+    "tex": "A=\\varnothing.",
+    "display": true
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 339,
+    "tex": "[0,1]",
+    "display": false
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 340,
+    "tex": "P(X\\in\\mathbb Q)=0.",
+    "display": true
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 341,
+    "tex": "X_n\\xrightarrow{\\mathrm{a.s.}}X",
+    "display": true
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 342,
+    "tex": "P\\left(\r\n\\left\\{\\omega:\r\n\\lim_{n\\to\\infty}X_n(\\omega)=X(\\omega)\r\n\\right\\}\r\n\\right)=1.",
+    "display": true
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 343,
+    "tex": "\\left\\{\r\n\\omega:\r\n\\lim_{n\\to\\infty}X_n(\\omega)=X(\\omega)\r\n\\right\\}",
+    "display": true
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 344,
+    "tex": "\\mathcal F",
+    "display": false
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 345,
+    "tex": "[0,1]",
+    "display": false
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 346,
+    "tex": "\\sigma",
+    "display": false
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 347,
+    "tex": "P(A)=\\frac{|A|}{|\\Omega|}",
+    "display": true
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 348,
+    "tex": "\\sigma",
+    "display": false
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 349,
+    "tex": "\\mathcal F\\subseteq\\mathcal P(\\Omega)",
+    "display": true
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 350,
+    "tex": "(\\Omega,\\mathcal F,P)",
+    "display": true
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 351,
+    "tex": "P(A).",
+    "display": true
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 352,
+    "tex": "X:\\Omega\\to\\mathbb R,",
+    "display": true
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 353,
+    "tex": "\\mathbb E[X]\r\n=\r\n\\sum_{\\omega\\in\\Omega}X(\\omega)P(\\{\\omega\\}).",
+    "display": true
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 354,
+    "tex": "\\mathbb E[X]\r\n=\r\n\\int_{\\mathbb R}x f_X(x)\\,dx.",
+    "display": true
+  },
+  {
+    "section": "chapter-5",
+    "ordinal": 355,
+    "tex": "\\boxed{\r\n\\mathbb E[X]=\\int_\\Omega X\\,dP.\r\n}",
+    "display": true
+  }
+]
