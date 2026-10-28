@@ -1,0 +1,321 @@
+{
+  "schema_version": 1,
+  "book_text": {
+    "policy": "RESERVED_WHERE_AUTHOR_LAWFULLY_OWNS_RIGHTS",
+    "ai_generated_claim": "NO_BLANKET_CLAIM",
+    "statutory_exceptions_preserved": true
+  },
+  "project_code": {
+    "policy": "NO_GENERAL_OPEN_SOURCE_LICENSE_SELECTED",
+    "third_party_notices_preserved": true
+  },
+  "project_created_artwork": {
+    "paths": [
+      "assets/ui/book-cover.svg"
+    ],
+    "status": "PROJECT_CREATED_AI_ASSISTED_NO_AUTOMATIC_COPYRIGHT_CLAIM"
+  },
+  "third_party_software": [
+    {
+      "name": "markdown-it",
+      "version": "14.1.0",
+      "license": "MIT",
+      "notice": "licenses/markdown-it-LICENSE.txt"
+    },
+    {
+      "name": "mathjax-full",
+      "version": "3.2.2",
+      "license": "Apache-2.0",
+      "notice": "licenses/mathjax-full-LICENSE.txt"
+    },
+    {
+      "name": "beautifulsoup4",
+      "version": "4.12.3",
+      "license": "MIT",
+      "notice": "licenses/beautifulsoup4-LICENSE.txt",
+      "scope": "BUILD_TOOL"
+    },
+    {
+      "name": "soupsieve",
+      "version": "3.0.4",
+      "license": "MIT",
+      "notice": "licenses/soupsieve-LICENSE.txt",
+      "scope": "BUILD_TOOL"
+    }
+  ],
+  "third_party_images": [
+    {
+      "path": "assets/images/01-01.img",
+      "sha256": "17c9dd0229a75ec77683362be0a28a14fcb6e94ad86c24470388ac25669572dd",
+      "source_urls": [
+        "https://www.quien.net/bernhard-riemann/"
+      ],
+      "rights_holder": "THIRD_PARTY_OR_UNVERIFIED",
+      "license_status": "NOT_VERIFIED",
+      "extra_reuse_permission": false
+    },
+    {
+      "path": "assets/images/02-01.img",
+      "sha256": "c37adc2ee49fb336a0e52e40374358bfea4a530c6ab6bc7e31403d2265503c14",
+      "source_urls": [
+        "https://snl.no/Henri_L%C3%A9on_Lebesgue?utm_source=chatgpt.com"
+      ],
+      "rights_holder": "THIRD_PARTY_OR_UNVERIFIED",
+      "license_status": "NOT_VERIFIED",
+      "extra_reuse_permission": false
+    },
+    {
+      "path": "assets/images/03-01.img",
+      "sha256": "d3a6d4d088d0e542383eeac5ae338cd09d0fe442531be060f8d3fa5df6ab31a0",
+      "source_urls": [
+        "https://site.unibo.it/indam-bologna/en"
+      ],
+      "rights_holder": "THIRD_PARTY_OR_UNVERIFIED",
+      "license_status": "NOT_VERIFIED",
+      "extra_reuse_permission": false
+    },
+    {
+      "path": "assets/images/04-01.img",
+      "sha256": "62a868dcef79275d1b35364a21818775be5b34bf12088344ef4692c2e104f9f2",
+      "source_urls": [
+        "https://www.futura-sciences.com/sciences/personnalites/mathematiques-emile-borel-319/?utm_source=chatgpt.com"
+      ],
+      "rights_holder": "THIRD_PARTY_OR_UNVERIFIED",
+      "license_status": "NOT_VERIFIED",
+      "extra_reuse_permission": false
+    },
+    {
+      "path": "assets/images/05-01.img",
+      "sha256": "c37adc2ee49fb336a0e52e40374358bfea4a530c6ab6bc7e31403d2265503c14",
+      "source_urls": [
+        "https://snl.no/Henri_L%C3%A9on_Lebesgue?utm_source=chatgpt.com"
+      ],
+      "rights_holder": "THIRD_PARTY_OR_UNVERIFIED",
+      "license_status": "NOT_VERIFIED",
+      "extra_reuse_permission": false
+    },
+    {
+      "path": "assets/images/06-01.img",
+      "sha256": "af9227a9e569490b9cabc6953bb90022c62ab9790164e74a8ed36b87e7edca2e",
+      "source_urls": [
+        "https://valeman.medium.com/andrey-kolmogorov-master-of-uncertainty-and-order-1080618e1afe"
+      ],
+      "rights_holder": "THIRD_PARTY_OR_UNVERIFIED",
+      "license_status": "NOT_VERIFIED",
+      "extra_reuse_permission": false
+    },
+    {
+      "path": "assets/images/07-01.img",
+      "sha256": "51783ac3a7ad98acb7d0eea603e26c260b1a3f943ec149ce741cb5866545d645",
+      "source_urls": [
+        "https://commons.wikimedia.org/wiki/File%3APortrait_of_Robert_Brown_Wellcome_L0011784.jpg?utm_source=chatgpt.com"
+      ],
+      "rights_holder": "THIRD_PARTY_OR_UNVERIFIED",
+      "license_status": "NOT_VERIFIED",
+      "extra_reuse_permission": false
+    },
+    {
+      "path": "assets/images/08-01.img",
+      "sha256": "0e24463b0ab86af79b6da67805fbeded651c974e512202312c30bbef8916966b",
+      "source_urls": [
+        "https://masterymind.co.uk/study-guides/physics-ocr-gcse-brownian-motion",
+        "https://web.mit.edu/course/10/10.50/www/diffuse2.html",
+        "https://www.heurema.com/POFQ-Perrin.htm",
+        "https://www.iitianacademy.com/cie-igcse-physics-0625-particle-model-study-notes/",
+        "https://www.academia.edu/4000202/_Evident_atoms_visuality_in_Jean_Perrin_s_Brownian_motion_research_Studies_in_the_History_and_Philosophy_of_Science_39_2008_312_322",
+        "https://www.slideserve.com/darrius/introduction-to-the-experiments-of-physics-407",
+        "https://www.mvp.cufo.cz/materialy/9.html"
+      ],
+      "rights_holder": "THIRD_PARTY_OR_UNVERIFIED",
+      "license_status": "NOT_VERIFIED",
+      "extra_reuse_permission": false
+    },
+    {
+      "path": "assets/images/08-02.img",
+      "sha256": "45ae7e464c383a3fa4ccd6fb8ab008aeea25e72e5977884f1f0e30577c3dd179",
+      "source_urls": [
+        "https://masterymind.co.uk/study-guides/physics-ocr-gcse-brownian-motion",
+        "https://web.mit.edu/course/10/10.50/www/diffuse2.html",
+        "https://www.heurema.com/POFQ-Perrin.htm",
+        "https://www.iitianacademy.com/cie-igcse-physics-0625-particle-model-study-notes/",
+        "https://www.academia.edu/4000202/_Evident_atoms_visuality_in_Jean_Perrin_s_Brownian_motion_research_Studies_in_the_History_and_Philosophy_of_Science_39_2008_312_322",
+        "https://www.slideserve.com/darrius/introduction-to-the-experiments-of-physics-407",
+        "https://www.mvp.cufo.cz/materialy/9.html"
+      ],
+      "rights_holder": "THIRD_PARTY_OR_UNVERIFIED",
+      "license_status": "NOT_VERIFIED",
+      "extra_reuse_permission": false
+    },
+    {
+      "path": "assets/images/08-03.img",
+      "sha256": "b813d4e5c860a832e37290c2f0bd1873cb67effd86406bfe4453f3b201b36058",
+      "source_urls": [
+        "https://masterymind.co.uk/study-guides/physics-ocr-gcse-brownian-motion",
+        "https://web.mit.edu/course/10/10.50/www/diffuse2.html",
+        "https://www.heurema.com/POFQ-Perrin.htm",
+        "https://www.iitianacademy.com/cie-igcse-physics-0625-particle-model-study-notes/",
+        "https://www.academia.edu/4000202/_Evident_atoms_visuality_in_Jean_Perrin_s_Brownian_motion_research_Studies_in_the_History_and_Philosophy_of_Science_39_2008_312_322",
+        "https://www.slideserve.com/darrius/introduction-to-the-experiments-of-physics-407",
+        "https://www.mvp.cufo.cz/materialy/9.html"
+      ],
+      "rights_holder": "THIRD_PARTY_OR_UNVERIFIED",
+      "license_status": "NOT_VERIFIED",
+      "extra_reuse_permission": false
+    },
+    {
+      "path": "assets/images/08-04.img",
+      "sha256": "4971eedf15938bed585f5be1ed516107eab44833d281f6a2ee5fc98b5dda3ab2",
+      "source_urls": [
+        "https://masterymind.co.uk/study-guides/physics-ocr-gcse-brownian-motion",
+        "https://web.mit.edu/course/10/10.50/www/diffuse2.html",
+        "https://www.heurema.com/POFQ-Perrin.htm",
+        "https://www.iitianacademy.com/cie-igcse-physics-0625-particle-model-study-notes/",
+        "https://www.academia.edu/4000202/_Evident_atoms_visuality_in_Jean_Perrin_s_Brownian_motion_research_Studies_in_the_History_and_Philosophy_of_Science_39_2008_312_322",
+        "https://www.slideserve.com/darrius/introduction-to-the-experiments-of-physics-407",
+        "https://www.mvp.cufo.cz/materialy/9.html"
+      ],
+      "rights_holder": "THIRD_PARTY_OR_UNVERIFIED",
+      "license_status": "NOT_VERIFIED",
+      "extra_reuse_permission": false
+    },
+    {
+      "path": "assets/images/08-05.img",
+      "sha256": "1fefddc81aefb23c729ff819f0643d7d1875c7b3a3ba085e680703d480f41230",
+      "source_urls": [
+        "https://masterymind.co.uk/study-guides/physics-ocr-gcse-brownian-motion",
+        "https://web.mit.edu/course/10/10.50/www/diffuse2.html",
+        "https://www.heurema.com/POFQ-Perrin.htm",
+        "https://www.iitianacademy.com/cie-igcse-physics-0625-particle-model-study-notes/",
+        "https://www.academia.edu/4000202/_Evident_atoms_visuality_in_Jean_Perrin_s_Brownian_motion_research_Studies_in_the_History_and_Philosophy_of_Science_39_2008_312_322",
+        "https://www.slideserve.com/darrius/introduction-to-the-experiments-of-physics-407",
+        "https://www.mvp.cufo.cz/materialy/9.html"
+      ],
+      "rights_holder": "THIRD_PARTY_OR_UNVERIFIED",
+      "license_status": "NOT_VERIFIED",
+      "extra_reuse_permission": false
+    },
+    {
+      "path": "assets/images/08-06.img",
+      "sha256": "bccf5ca55207c10dad323b49caab7d7ca8b02f10c3b6f3cd0be36eb4400fbecd",
+      "source_urls": [
+        "https://masterymind.co.uk/study-guides/physics-ocr-gcse-brownian-motion",
+        "https://web.mit.edu/course/10/10.50/www/diffuse2.html",
+        "https://www.heurema.com/POFQ-Perrin.htm",
+        "https://www.iitianacademy.com/cie-igcse-physics-0625-particle-model-study-notes/",
+        "https://www.academia.edu/4000202/_Evident_atoms_visuality_in_Jean_Perrin_s_Brownian_motion_research_Studies_in_the_History_and_Philosophy_of_Science_39_2008_312_322",
+        "https://www.slideserve.com/darrius/introduction-to-the-experiments-of-physics-407",
+        "https://www.mvp.cufo.cz/materialy/9.html"
+      ],
+      "rights_holder": "THIRD_PARTY_OR_UNVERIFIED",
+      "license_status": "NOT_VERIFIED",
+      "extra_reuse_permission": false
+    },
+    {
+      "path": "assets/images/08-07.img",
+      "sha256": "0a88c5b1b9cdd673f91672bca230a1400e847399ffa9b556723358c2093a4186",
+      "source_urls": [
+        "https://masterymind.co.uk/study-guides/physics-ocr-gcse-brownian-motion",
+        "https://web.mit.edu/course/10/10.50/www/diffuse2.html",
+        "https://www.heurema.com/POFQ-Perrin.htm",
+        "https://www.iitianacademy.com/cie-igcse-physics-0625-particle-model-study-notes/",
+        "https://www.academia.edu/4000202/_Evident_atoms_visuality_in_Jean_Perrin_s_Brownian_motion_research_Studies_in_the_History_and_Philosophy_of_Science_39_2008_312_322",
+        "https://www.slideserve.com/darrius/introduction-to-the-experiments-of-physics-407",
+        "https://www.mvp.cufo.cz/materialy/9.html"
+      ],
+      "rights_holder": "THIRD_PARTY_OR_UNVERIFIED",
+      "license_status": "NOT_VERIFIED",
+      "extra_reuse_permission": false
+    },
+    {
+      "path": "assets/images/09-01.img",
+      "sha256": "a7ae02fc0611678e5b88fa9f1b5936daf31daaec0bd292428ece15c3ba8450a6",
+      "source_urls": [
+        "https://prints.royalsociety.org/collections/vintage-mathematics-prints-and-parabola-drawings/products/portrait-of-abraham-de-moivre-1667-1754-rs-9548?utm_source=chatgpt.com"
+      ],
+      "rights_holder": "THIRD_PARTY_OR_UNVERIFIED",
+      "license_status": "NOT_VERIFIED",
+      "extra_reuse_permission": false
+    },
+    {
+      "path": "assets/images/10-01.img",
+      "sha256": "d235b082358ef3b3116903b77d90782b064656e66154c3975e853bddccee9295",
+      "source_urls": [
+        "https://www.meisterdrucke.com/kunstdrucke/Sophie-Feytaud/1632777/Portr%C3%A4t-von-Pierre-Simon%2C-Marquis-de-Laplace-%281745-1827%29.html"
+      ],
+      "rights_holder": "THIRD_PARTY_OR_UNVERIFIED",
+      "license_status": "NOT_VERIFIED",
+      "extra_reuse_permission": false
+    },
+    {
+      "path": "assets/images/11-01.img",
+      "sha256": "d5361749f2ca408f93de4fcf8957fb805a9948b44d7a3b994a5e0bdc47697f94",
+      "source_urls": [
+        "https://www.meisterdrucke.it/stampe-d-arte/Christian-Albrecht-Jensen/175614/Ritratto-di-Carl-Friedrich-Gauss%2C-1840.html"
+      ],
+      "rights_holder": "THIRD_PARTY_OR_UNVERIFIED",
+      "license_status": "NOT_VERIFIED",
+      "extra_reuse_permission": false
+    },
+    {
+      "path": "assets/images/12-01.img",
+      "sha256": "0d6bdbc039d8ed8583c7f08eceac04feb97f5d1f80e91708f47a3f9f6df4633e",
+      "source_urls": [
+        "https://www.sothebys.com/en/auctions/ecatalogue/2018/the-library-of-erwin-tomash-l18409/lot.58.html"
+      ],
+      "rights_holder": "THIRD_PARTY_OR_UNVERIFIED",
+      "license_status": "NOT_VERIFIED",
+      "extra_reuse_permission": false
+    },
+    {
+      "path": "assets/images/13-01.img",
+      "sha256": "a4fd533c578c56bd82b598c3f86969a9da763299cf057944fccb00279837f112",
+      "source_urls": [
+        "https://dun.unistra.fr/ipm/unit/bayesien/co/support_web.html"
+      ],
+      "rights_holder": "THIRD_PARTY_OR_UNVERIFIED",
+      "license_status": "NOT_VERIFIED",
+      "extra_reuse_permission": false
+    },
+    {
+      "path": "assets/images/14-01.img",
+      "sha256": "edcaf7165e2626d6207f638176c16d94dbde2303a9b796a0f3488553baf2bdcf",
+      "source_urls": [
+        "https://www.talmudology.com/jeremybrownmdgmailcom/2021/2/15/happy-birthday-galileo"
+      ],
+      "rights_holder": "THIRD_PARTY_OR_UNVERIFIED",
+      "license_status": "NOT_VERIFIED",
+      "extra_reuse_permission": false
+    }
+  ],
+  "quotations_and_references": {
+    "source": "引用与配图来源.md",
+    "policy": "Original holders and permissions retained; citation is not proof of a reuse licence."
+  },
+  "mathematical_figures": {
+    "source": "assets/visuals/math-model.js",
+    "registry": "publication/math-visuals.json",
+    "output_hashes": "assets/visuals/print-manifest.json",
+    "font_notices": "assets/visuals/font-notice.txt",
+    "origin": "PROGRAMMATIC_MATHEMATICAL_DIAGRAMS_AI_ASSISTED",
+    "copyright_policy": "NO_AUTOMATIC_OR_BLANKET_COPYRIGHT_CLAIM",
+    "original_third_party_materials": "UNCHANGED",
+    "additional_generators": [
+      {
+        "id": "local-clt-parity",
+        "source": "tools/generate-local-clt-figure.py",
+        "shared_data": "assets/visuals/local-clt-data.json",
+        "output_hashes": "assets/visuals/local-clt-manifest.json",
+        "randomness": "NONE_EXACT_BINOMIAL_MASSES",
+        "rights_policy": "Same programmatic AI-assisted figure and font policy; no blanket copyright claim."
+      },
+      {
+        "id": "lindeberg-budget",
+        "source": "tools/generate-array-budget-figure.py",
+        "shared_data": "assets/visuals/array-budget-data.json",
+        "output_hashes": "assets/visuals/array-budget-manifest.json",
+        "randomness": "NONE_EXACT_SECOND_MOMENT_BUDGETS",
+        "rights_policy": "Existing programmatic AI-assisted figure and font policy; no blanket copyright claim."
+      }
+    ]
+  }
+}

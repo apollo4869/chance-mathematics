@@ -1,8 +1,0 @@
-{
-  "status": "PASS",
-  "offline_local_references": 11128,
-  "chapter_html_byte_identical": true,
-  "source_files_checked": 43,
-  "failures": [],
-  "scope": "ZIP content, local paths and byte preservation; browser file-protocol behavior checked separately."
-}

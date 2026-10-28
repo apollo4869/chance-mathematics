@@ -1,0 +1,154 @@
+{
+  "schema": 1,
+  "scope": "Eight explanatory figure groups; adoption and mathematical final review recorded independently",
+  "canonical_manuscript_changes": false,
+  "figures": [
+    {
+      "id": "walk-scaling",
+      "chapter": 4,
+      "placement": {
+        "before_widget": "walk"
+      },
+      "classification": "辅助理解图",
+      "zh": {
+        "title": "步子缩小，波动为什么没有消失？",
+        "alt": "在相同时间与空间坐标下，n为16、64、256的缩放随机游走显示更细更密的跳跃。",
+        "caption": "时间步长为1/n，空间步长为1/√n；每单位时间约n步，位移方差保持为1。图中是固定种子的有限模拟，使用同一增量序列的不同长度前缀再分别缩放；它们不是同一路径的逐级逼近，不说明不同n的路径逐条收敛，也不是Donsker定理的证明。既有实验可继续切换步数。"
+      },
+      "en": {
+        "title": "Smaller steps without vanishing fluctuations",
+        "alt": "Scaled random walks with n equal to 16, 64 and 256 on common time and space axes show finer, denser jumps.",
+        "caption": "The time step is 1/n and the space step is 1/√n: approximately n steps per unit time preserve displacement variance 1. These are finite fixed-seed simulations using different prefixes of the same increment sequence, rescaled separately. They are not successive refinements of one path, do not show path-by-path convergence across n, and do not prove Donsker's theorem. The existing experiment lets you change the step count."
+      }
+    },
+    {
+      "id": "typewriter",
+      "chapter": 7,
+      "placement": {
+        "before_heading": "7.2"
+      },
+      "classification": "辅助理解图",
+      "zh": {
+        "title": "同样小的命中概率，两种不同的命运",
+        "alt": "轮次1至3的半开移动窗口遍历单位区间；固定点u为0.3，每轮命中一次，而同宽左端窗口最终离开它。",
+        "caption": "第k轮的移动窗口为[j/2^k,(j+1)/2^k)，j从0到2^k−1；每次命中概率为2^−k。它们每轮分割[0,1)，所以每个固定点每轮恰中一次，并在其余窗口取0；这说明移动序列没有逐点极限。左端窗口[0,2^−k)对每个u>0最终不再命中，u=0是零概率例外。静态关键帧说明分割机制，下面的确定性操作只帮助观察，不代替无限结论的证明。"
+      },
+      "en": {
+        "title": "Equally small hit probabilities, different individual records",
+        "alt": "Half-open moving windows sweep the unit interval in rounds 1 to 3. The fixed point u=0.3 is hit once each round, whereas the same-width left-end window eventually misses it.",
+        "caption": "In round k the moving window is [j/2^k,(j+1)/2^k), with j from 0 to 2^k−1. Each hit probability is 2^−k. The windows partition [0,1) each round: every fixed point is hit exactly once and has value 0 at the other windows, so the moving sequence has no pointwise limit. The left-end window [0,2^−k) eventually misses each u>0; u=0 is a null-probability exception. The static frames explain the partition mechanism. The deterministic controls aid observation, not the proof of an infinite conclusion."
+      }
+    },
+    {
+      "id": "spike-ui",
+      "chapter": 7,
+      "placement": {
+        "before_heading": "7.11.1"
+      },
+      "classification": "辅助理解图",
+      "zh": {
+        "title": "高度带走了消失的宽度",
+        "alt": "在相同坐标尺度下，n为2、4、8的尖峰高度增加、宽度缩小，每个矩形面积为1。",
+        "caption": "X_n=n·1_(0,1/n)，非零区间两端均不包含；端点不影响面积。对每个固定u>0，尖峰最终离开它，u=0处也恒为0，但积分始终为1。任给K≥0，选择n>K，门槛外的期望仍为1，所以sup_n E[X_n·1_{X_n>K}]=1，一致可积性失败。固定坐标与等面积纹理使概率质量变小和平均贡献不消失之间的区别可见。"
+      },
+      "en": {
+        "title": "Height carries away the disappearing width",
+        "alt": "On common axes, spikes for n=2, 4 and 8 grow taller and narrower while every rectangle has area 1.",
+        "caption": "X_n=n·1_(0,1/n), with both endpoints excluded; endpoints do not affect area. Every fixed u>0 eventually leaves the spike, and the value at u=0 is always 0, yet the integral remains 1. For any K≥0 choose n>K: the expectation beyond the threshold is still 1. Thus sup_n E[X_n·1_{X_n>K}]=1 and uniform integrability fails. Common scales and equal-area hatching distinguish shrinking probability from persistent average contribution."
+      }
+    },
+    {
+      "id": "conditional-projection",
+      "chapter": 9,
+      "placement": {
+        "before_heading": "9.8"
+      },
+      "classification": "辅助理解图",
+      "zh": {
+        "title": "预测留下什么，残差又指向哪里？",
+        "alt": "X的向量分解为可观察子空间中的条件期望和垂直于子空间的残差，并标出直角。",
+        "caption": "令P_G X=E[X|G]。图是L²几何的二维抽象示意，并非说所有随机变量生活在二维空间。残差X−P_G X与整个L²(G)正交；任意另一个可观察预测V的均方误差E[(X−V)²]等于E[(X−P_G X)²]+E[(P_G X−V)²]。这一正交机制说明条件期望是最佳平方预测，而不是凭图形代替其存在与唯一性证明。"
+      },
+      "en": {
+        "title": "What prediction retains, and where the residual points",
+        "alt": "A vector X splits into its conditional expectation in the observable subspace and an orthogonal residual, marked by a right angle.",
+        "caption": "Write P_G X=E[X|G]. This is an abstract two-dimensional sketch of L² geometry, not a claim that all random variables live in two dimensions. The residual X−P_G X is orthogonal to all of L²(G). For any other observable predictor V, E[(X−V)²] equals E[(X−P_G X)²]+E[(P_G X−V)²]. This orthogonal mechanism explains best squared prediction; the diagram does not replace the existence and uniqueness proof."
+      }
+    },
+    {
+      "id": "disintegration",
+      "chapter": 10,
+      "placement": {
+        "after_paragraph": {
+          "zh": "观察到",
+          "en": "After observing"
+        }
+      },
+      "classification": "辅助理解图",
+      "zh": {
+        "title": "从三角区域到归一化的竖切片",
+        "alt": "三角形0<y<x<1上的联合密度为2；固定x为0.6，竖切片总质量1.2，除以它得到高度1/0.6、面积1的条件密度。",
+        "caption": "左图给出联合密度2的支持区域；中图固定x*=0.6，沿y方向的密度仍为2，切片积分为边缘密度m(x*)=2x*=1.2；右图除以2x*，得到(0,x*)上高度1/x*、面积1的条件密度。这里切片质量是边缘密度，不是P(X=x*)：单点事件仍为零概率。核由密度的析取等式确定；x=0处可另选版本，不用1/x公式。"
+      },
+      "en": {
+        "title": "From a triangular region to a normalized vertical slice",
+        "alt": "Joint density 2 on 0<y<x<1; at x=0.6 the vertical slice has total 1.2, and normalization gives conditional density 1/0.6 with area 1.",
+        "caption": "Left: the support of joint density 2. Middle: at x*=0.6 the slice still has density 2 along y, whose integral is the marginal density m(x*)=2x*=1.2. Right: division by 2x* gives height 1/x* on (0,x*) and area 1. Slice mass here is a marginal density, not P(X=x*): the singleton still has probability zero. Disintegration identifies the density kernel. At x=0 choose a separate version; do not use the 1/x formula."
+      }
+    },
+    {
+      "id": "characteristic-identification",
+      "chapter": 11,
+      "placement": {
+        "before_heading": "11.3"
+      },
+      "classification": "辅助理解图",
+      "zh": {
+        "title": "均值和方差相同，所有频率的读数却不同",
+        "alt": "两个离散分布具有均值0、方差1；下方各自特征函数的实部在相同频率轴上明显不同。",
+        "caption": "X在±1各有概率1/2；Y在0的概率为2/3，在±√3各有概率1/6。它们的均值均为0、方差均为1，但φ_X(t)=cos t与φ_Y(t)=2/3+(1/3)cos(√3t)不同。两者对称，虚部均为0。低阶矩只记录原点附近有限信息；完整特征函数才能识别整份分布。有限绘图区间只是示例，唯一性定理使用所有实数频率。"
+      },
+      "en": {
+        "title": "Equal means and variances, different frequency readings",
+        "alt": "Two discrete laws have mean 0 and variance 1; their characteristic-function real parts differ on common frequency axes.",
+        "caption": "X takes ±1 with probability 1/2 each. Y has mass 2/3 at 0 and mass 1/6 at each of ±√3. Both have mean 0 and variance 1, but φ_X(t)=cos t and φ_Y(t)=2/3+(1/3)cos(√3t) differ. Symmetry makes both imaginary parts zero. Low-order moments record only limited local information near the origin; the complete characteristic function identifies the whole law. A finite plot is illustrative; uniqueness uses every real frequency."
+      }
+    },
+    {
+      "id": "local-clt-parity",
+      "chapter": 13,
+      "placement": {
+        "before_heading": "13.18"
+      },
+      "classification": "辅助理解图",
+      "zh": {
+        "title": "钟形轮廓相似，允许格点却随奇偶改变",
+        "alt": "对称随机游走20步只到达偶数位置，21步只到达奇数位置。实心圆为精确二项质量，空心菱形为仅在允许格点计算的Gaussian局部近似；禁止格点以零线叉号表示。",
+        "caption": "每步独立取±1，各以概率1/2；左图n=20，右图n=21。实心圆和竖线为精确概率质量，虚线空心菱形为允许格点上的(2/√n)φ(k/√n)，不是连续密度本身。最大跨度h=2解释了因子2；另一奇偶类质量严格为0。仅展示|k|≤10，完整支持和精确数值保存在共享源中。此图不使用模拟，不给出误差速度，也不代替局部CLT证明；总变差结论须使用下一节的离散化Gaussian。"
+      },
+      "en": {
+        "title": "Similar bell-shaped profiles, different allowed parity classes",
+        "alt": "A symmetric walk reaches only even sites after 20 steps and only odd sites after 21. Filled circles show exact binomial masses; open diamonds show local Gaussian approximations only at allowed sites. Crosses mark forbidden sites of mass zero.",
+        "caption": "Independent steps take ±1 with probability 1/2 each; n=20 on the left, n=21 on the right. Filled circles and stems are exact masses; dashed open diamonds show (2/√n)φ(k/√n) at allowed sites, not the continuous density itself. Maximal span h=2 explains the factor 2; the other parity class has mass exactly zero. Only |k|≤10 is plotted; the shared source retains the full support and exact values. No simulation is used. The plot gives no convergence rate and does not replace the local-CLT proof; total variation requires the next section’s discretized Gaussian."
+      }
+    },
+    {
+      "id": "lindeberg-budget",
+      "chapter": 14,
+      "placement": {
+        "before_heading": "14.4"
+      },
+      "classification": "辅助理解图",
+      "zh": {
+        "title": "Feller相同，大项预算仍可完全不同",
+        "alt": "左图两种独立中心化模型每项方差均为1/n。右图小步模型的Lindeberg预算在1/√n处降到0，罕见单位跳模型却到阈值1才降到0。",
+        "caption": "每行n项、总方差1。小步模型每项等可能取±1/√n；罕见跳模型每项以1/(2n)概率分别取±1，否则为0。两者最大单项方差同为1/n，所以都满足Feller；但对固定0<ε<1，小步模型的L_n(ε)最终为0，单位跳模型始终为1。虚线竖标ε=0.3提供一个固定阈值。曲线由精确二阶期望计算，无随机模拟；有限图不代替后面的CLT证明。"
+      },
+      "en": {
+        "title": "The same Feller bound, entirely different large-term budgets",
+        "alt": "Both independent centered models have individual variance 1/n. Small-step Lindeberg budgets drop to 0 at 1/√n, but rare-unit-jump budgets drop only at threshold 1.",
+        "caption": "Each row has n terms and total variance 1. Small terms take ±1/√n equally; rare terms take ±1 with probability 1/(2n) each and 0 otherwise. Both maximal variances are 1/n, so both satisfy Feller. For fixed 0<ε<1, however, the small-step L_n(ε) is eventually 0 while the rare-jump budget stays 1. The vertical dotted line marks a fixed ε=0.3. Curves are exact second-moment calculations without simulation; a finite plot does not replace the CLT proof below."
+      }
+    }
+  ]
+}

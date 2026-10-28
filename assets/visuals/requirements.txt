@@ -1,0 +1,4 @@
+# Python 3.12 plotting environment used for the first publication batch.
+matplotlib==3.10.7
+numpy==2.5.4
+fonttools==4.67.0

@@ -1,0 +1,16 @@
+{
+  "stable_id": "path-version-spike",
+  "u": 0.7071067811865476,
+  "observations": [
+    0,
+    0.25,
+    0.5,
+    0.75,
+    1
+  ],
+  "randomness": "NONE: fixed illustrative u; theorem uses Uniform(0,1) U, not a simulation",
+  "graph": "X(t)=0; Y(t)=1 if t=u else0. Vertical dashed line is only a guide.",
+  "caption_zh": "孤立尖点逃过有限观察；空心点移除u处零值，实心点给出Y(u)=1。虚竖线不是函数图像。",
+  "caption_en": "Finite observations miss an isolated spike. The open circle removes zero at u; the filled point gives Y(u)=1. The dashed vertical line is not the graph.",
+  "mathematical_purpose": "Same finite-dimensional laws do not force the given version to have continuous paths."
+}

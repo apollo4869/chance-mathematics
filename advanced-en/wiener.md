@@ -1,14 +1,14 @@
 # Advanced Reading: Continuous Versions and Wiener Measure
 
-> This module was transferred in full from Chapter 4 before its restructuring, retaining the original section numbers and all of the original text. It is a technical working draft for development in later chapters, rather than a required proof for the current Chapter 4.
+> Working topic material; see the page for the scope of each argument.
 
-**Destination chapters:** Chapter 8, “Constructing Infinite Experiments from Local Rules”; Chapter 24, “The Rigorous Birth of Continuous Random Paths.”
+**Primary chapter:** 23
 
 **Prerequisites:** Measure extension, Gaussian vectors, consistent finite-dimensional distributions, Kolmogorov's continuous modification theorem, and measurability of the path map.
 
-**Scope of the proof:** Statements in the original manuscript that a process is “obtained” or “constructed” are conditional conclusions after invoking the extension and continuous modification theorems; Chapter 4 has not proved those theorems. The construction route is preserved in full here, without presenting it as a completed construction of Wiener measure.
+**Proof scope:** Chapter 8 establishes extension of coordinate laws; this is not a continuous-path construction. The existing route from consistent Gaussian finite-dimensional laws to a continuous version invokes extension and continuity tools. Sections 23.6–23.12 contain complete written proofs of continuous modification, C/C_loc measurability and Wiener existence/uniqueness; continuing mathematical verification, not final review.
 
-[Return to the main reading of Chapter 4](#chapter-4) · [View the complete snapshot of the former Chapter 4](/downloads/04-brownian-before-restructure.md)
+[Return to Chapter 4](#chapter-4) · [Topic and proof index](#reading-routes)
 
 ---
 

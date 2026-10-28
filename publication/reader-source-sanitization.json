@@ -1,0 +1,87 @@
+{
+  "policy": "Canonical originals stay in the author review export; reader-source cleanup changes editorial wrappers only.",
+  "files": {
+    "advanced/wiener.md": {
+      "canonical_sha256": "91c10db50998bb710630959f3bbdf404c4a8226bfadc558e5b4254fb9bec629f",
+      "reader_source_sha256": "5cf2ba8d49fa91d8ad5198a022897ffe0d88b6117d1e28e4fb9a03e4a2898f70",
+      "mathematical_body_sha256": "84b6b23f0d39d00620db26b7dacf2c9f6e52a24a877bc25d03597194ce155612",
+      "scope": "ARCHIVAL_WRAPPER_ONLY_MATHEMATICAL_BODY_IDENTICAL"
+    },
+    "advanced-en/wiener.md": {
+      "canonical_sha256": "4612ff08526624f637da5d7431263e645f7db0eada9b00cf401626c42b78b689",
+      "reader_source_sha256": "d852a1f04ee68107b360d18cc8d1571e3c91ae39c01507f28996b5611c6cf41f",
+      "mathematical_body_sha256": "172bfdab2ce5f85b7979d8cee1b555ad51083abe3438d00b4b56bcb66eaf86a4",
+      "scope": "ARCHIVAL_WRAPPER_ONLY_MATHEMATICAL_BODY_IDENTICAL"
+    },
+    "advanced/donsker.md": {
+      "canonical_sha256": "2ce961e961fddb917937e9ccfbef65bd4e4a7c3d08e516de8d05392a04a16f3b",
+      "reader_source_sha256": "3a2647309b9e6f5d64eff69f1c92fd87a559b5c5f9aeea6038924980106c7f47",
+      "mathematical_body_sha256": "f56923c87000af3d5114ac20e7986a3f8e525fd1f85706bd69d48f8b4d30a2ff",
+      "scope": "ARCHIVAL_WRAPPER_ONLY_MATHEMATICAL_BODY_IDENTICAL"
+    },
+    "advanced-en/donsker.md": {
+      "canonical_sha256": "a8ab27c5bc6af7a61ef9e1e59b3c2ac0337b9d93428f4845a7d0c032fe60a4f6",
+      "reader_source_sha256": "6ba7900f3136f1ba241904d4fd24bd8e33f8c92eed1dc866d6cfceb1eb3d3438",
+      "mathematical_body_sha256": "20657cb64b86e1111e09ebef093b4a089e6e1dbb6663cbf5d61aef3ed54ff052",
+      "scope": "ARCHIVAL_WRAPPER_ONLY_MATHEMATICAL_BODY_IDENTICAL"
+    },
+    "advanced/semigroup.md": {
+      "canonical_sha256": "3b5c93838fd53c817bad162987585c0c9ed44794f80596e4e3cc9c34b48f471c",
+      "reader_source_sha256": "b4531ca35cf50f3194affaf4f584dcbc5524b075a1ce202b3e1e53b7095d7569",
+      "mathematical_body_sha256": "1a88698567b7e88c9bd7df18f02b511adbfb3067c3478ea7949d7ec267a4e769",
+      "scope": "ARCHIVAL_WRAPPER_ONLY_MATHEMATICAL_BODY_IDENTICAL"
+    },
+    "advanced-en/semigroup.md": {
+      "canonical_sha256": "cfd0d337167b369a3ca920f60cd11ffcc34caa55e90da0bfda0b66dbbafa7803",
+      "reader_source_sha256": "2db4cd001355682d0031d57c5240e1649a9fa1bb310392c87f91d23d248d9131",
+      "mathematical_body_sha256": "2d0ec1bea54e88b6378a213493ec325ae1c71fbeb4291311331b6797ab70e45a",
+      "scope": "ARCHIVAL_WRAPPER_ONLY_MATHEMATICAL_BODY_IDENTICAL"
+    },
+    "advanced/quadratic.md": {
+      "canonical_sha256": "bbe19f486007506c29157c3d63ee598b0304cb4e592bc412a00a499a2e893ca4",
+      "reader_source_sha256": "5b0bde72cf6ef33e1cb483aeca0d47baf7ff92338367427b522aee1e3df2d833",
+      "mathematical_body_sha256": "5702f10c7c60604f3d5940b566c852f6b2f840bf49b7ab9d36e9c754c5e99400",
+      "scope": "ARCHIVAL_WRAPPER_ONLY_MATHEMATICAL_BODY_IDENTICAL"
+    },
+    "advanced-en/quadratic.md": {
+      "canonical_sha256": "b4a08fc70de988ba84e7fadfa293c7cb861c240d01a2b0f5f9d39e0e4e4dd16f",
+      "reader_source_sha256": "77a2c7feff6509c28a637ca027c1d7b144181aa3853e5247400ccfc6621da63f",
+      "mathematical_body_sha256": "03f50d6f6c69f0cf61b54efcad1a1d07f3ddfdfcf32acc8a2d1245d6f8c875ba",
+      "scope": "ARCHIVAL_WRAPPER_ONLY_MATHEMATICAL_BODY_IDENTICAL"
+    },
+    "advanced/reflection.md": {
+      "canonical_sha256": "a7bb2e943a6fbb55408257fc01fbee74cc563f6ca961b960c0fb31c0680605ef",
+      "reader_source_sha256": "250c0831a15859cef82476282b99d4acfe6baa25e1bddd1169d80b6baca46caf",
+      "mathematical_body_sha256": "f4bccbba207f66ab66969f2bd49bf276f1ba8bb4ec326c26550ed353e21180d6",
+      "scope": "ARCHIVAL_WRAPPER_ONLY_MATHEMATICAL_BODY_IDENTICAL"
+    },
+    "advanced-en/reflection.md": {
+      "canonical_sha256": "e17d1b6cc4a10589cb633f7408d3dc2a5f31ba93b62f2ec143c3afb9faee8c90",
+      "reader_source_sha256": "3213baf81725834fb06924245aaa76ed5b23297104f2ffdd6e891e03a0679afa",
+      "mathematical_body_sha256": "8acaec923395896cb73248b001f2841e2c1cdec698d7978d480a2f1fd1da088b",
+      "scope": "ARCHIVAL_WRAPPER_ONLY_MATHEMATICAL_BODY_IDENTICAL"
+    },
+    "advanced/crt.md": {
+      "canonical_sha256": "19eab7069047d426eae0a1f1095f1fb4b05f3349755d1ffa2df904809933b7ce",
+      "reader_source_sha256": "a15de8156e101a851b26968e2a85ab99ca09d41239d4a101089e0b6a0a95fadf",
+      "mathematical_body_sha256": "b41180c7c8b1bcd65912d6ef35bfc4f35b252b6215b237f6389f5a386320f555",
+      "scope": "ARCHIVAL_WRAPPER_ONLY_MATHEMATICAL_BODY_IDENTICAL"
+    },
+    "advanced-en/crt.md": {
+      "canonical_sha256": "92f3a2ae4907ab8c214f985090fef8a379567630e95f1aee53f68f0d47f28231",
+      "reader_source_sha256": "0744286d090f82099710789d4951bb632850ee8506d03ecff22d7c8d813cc5de",
+      "mathematical_body_sha256": "6c97849dddcedf89181e55c82aab68116fa728e0af1796306c03c518e4831ecb",
+      "scope": "ARCHIVAL_WRAPPER_ONLY_MATHEMATICAL_BODY_IDENTICAL"
+    },
+    "校订与证明补充.md": {
+      "canonical_sha256": "44ea1b8ff0c585e310b32e4332e68ac93f4272bf03567e0773c1673b53d0c8b1",
+      "reader_source_sha256": "a6a671618c444f561588acc522fa5a0ca9ac7d169d937476126ab3e13b3a9948",
+      "scope": "EDITORIAL_INTRODUCTION_AND_SCOPE_FRAMING_ONLY_MATHEMATICAL_SECTIONS_UNCHANGED"
+    },
+    "translations/en/proofs.md": {
+      "canonical_sha256": "492f2adb5c4b82187d1581014a9d1f3a9d6a471c637ddc664b3840cc4f38984a",
+      "reader_source_sha256": "783d8ea87302b6e81d199446c69364a8abbb90a004c522ec1bb12b3f3133cfbd",
+      "scope": "EDITORIAL_INTRODUCTION_AND_SCOPE_FRAMING_ONLY_MATHEMATICAL_SECTIONS_UNCHANGED"
+    }
+  }
+}

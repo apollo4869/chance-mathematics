@@ -1,0 +1,19 @@
+{
+  "reserved_paragraphs": {
+    "11.1": 2,
+    "11.2": 3
+  },
+  "retired_body_ids": [
+    "p5282",
+    "p5283",
+    "p5287",
+    "p5288",
+    "p5289"
+  ],
+  "retired_intro_ids": [
+    "chapter-11-intro-p4",
+    "chapter-11-intro-p5",
+    "chapter-11-intro-p6",
+    "chapter-11-intro-p7"
+  ]
+}

@@ -1,0 +1,5526 @@
+{
+  "chapter": 20,
+  "purpose": "Old bookmarks route to their corresponding proof in the recreated chapter; retired duplicate notation is an alias, not an additional proof.",
+  "languages": {
+    "zh": {
+      "anchors": [
+        {
+          "id": "chapter-20-unit-0",
+          "target": "chapter-20-recreation-h0"
+        },
+        {
+          "id": "chapter-20-h545",
+          "target": "chapter-20-recreation-h0"
+        },
+        {
+          "id": "p7122",
+          "target": "chapter-20-recreation-h0"
+        },
+        {
+          "id": "p7123",
+          "target": "chapter-20-recreation-h0"
+        },
+        {
+          "id": "p7124",
+          "target": "chapter-20-recreation-h0"
+        },
+        {
+          "id": "chapter-20-unit-1",
+          "target": "chapter-20-recreation-h1"
+        },
+        {
+          "id": "chapter-20-h546",
+          "target": "chapter-20-recreation-h1"
+        },
+        {
+          "id": "p7125",
+          "target": "chapter-20-recreation-h1"
+        },
+        {
+          "id": "search-chapter-20-7",
+          "target": "chapter-20-recreation-h1"
+        },
+        {
+          "id": "search-chapter-20-8",
+          "target": "chapter-20-recreation-h1"
+        },
+        {
+          "id": "search-chapter-20-9",
+          "target": "chapter-20-recreation-h1"
+        },
+        {
+          "id": "search-chapter-20-10",
+          "target": "chapter-20-recreation-h1"
+        },
+        {
+          "id": "search-chapter-20-11",
+          "target": "chapter-20-recreation-h1"
+        },
+        {
+          "id": "p7126",
+          "target": "chapter-20-recreation-h1"
+        },
+        {
+          "id": "search-chapter-20-13",
+          "target": "chapter-20-recreation-h1"
+        },
+        {
+          "id": "search-chapter-20-14",
+          "target": "chapter-20-recreation-h1"
+        },
+        {
+          "id": "search-chapter-20-15",
+          "target": "chapter-20-recreation-h1"
+        },
+        {
+          "id": "p7128",
+          "target": "chapter-20-recreation-h1"
+        },
+        {
+          "id": "search-chapter-20-17",
+          "target": "chapter-20-recreation-h1"
+        },
+        {
+          "id": "search-chapter-20-18",
+          "target": "chapter-20-recreation-h1"
+        },
+        {
+          "id": "chapter-20-unit-2",
+          "target": "chapter-20-recreation-h2"
+        },
+        {
+          "id": "chapter-20-h547",
+          "target": "chapter-20-recreation-h2"
+        },
+        {
+          "id": "p7129",
+          "target": "chapter-20-recreation-h2"
+        },
+        {
+          "id": "search-chapter-20-21",
+          "target": "chapter-20-recreation-h2"
+        },
+        {
+          "id": "p7131",
+          "target": "chapter-20-recreation-h2"
+        },
+        {
+          "id": "search-chapter-20-23",
+          "target": "chapter-20-recreation-h2"
+        },
+        {
+          "id": "search-chapter-20-24",
+          "target": "chapter-20-recreation-h2"
+        },
+        {
+          "id": "search-chapter-20-25",
+          "target": "chapter-20-recreation-h2"
+        },
+        {
+          "id": "search-chapter-20-26",
+          "target": "chapter-20-recreation-h2"
+        },
+        {
+          "id": "p7132",
+          "target": "chapter-20-recreation-h2"
+        },
+        {
+          "id": "search-chapter-20-28",
+          "target": "chapter-20-recreation-h2"
+        },
+        {
+          "id": "search-chapter-20-29",
+          "target": "chapter-20-recreation-h2"
+        },
+        {
+          "id": "search-chapter-20-30",
+          "target": "chapter-20-recreation-h2"
+        },
+        {
+          "id": "chapter-20-unit-3",
+          "target": "chapter-20-recreation-h2"
+        },
+        {
+          "id": "chapter-20-h548",
+          "target": "chapter-20-recreation-h2"
+        },
+        {
+          "id": "p7133",
+          "target": "chapter-20-recreation-h2"
+        },
+        {
+          "id": "search-chapter-20-33",
+          "target": "chapter-20-recreation-h2"
+        },
+        {
+          "id": "search-chapter-20-34",
+          "target": "chapter-20-recreation-h2"
+        },
+        {
+          "id": "search-chapter-20-35",
+          "target": "chapter-20-recreation-h2"
+        },
+        {
+          "id": "search-chapter-20-36",
+          "target": "chapter-20-recreation-h2"
+        },
+        {
+          "id": "search-chapter-20-37",
+          "target": "chapter-20-recreation-h2"
+        },
+        {
+          "id": "search-chapter-20-38",
+          "target": "chapter-20-recreation-h2"
+        },
+        {
+          "id": "search-chapter-20-39",
+          "target": "chapter-20-recreation-h2"
+        },
+        {
+          "id": "search-chapter-20-40",
+          "target": "chapter-20-recreation-h2"
+        },
+        {
+          "id": "search-chapter-20-41",
+          "target": "chapter-20-recreation-h2"
+        },
+        {
+          "id": "search-chapter-20-42",
+          "target": "chapter-20-recreation-h2"
+        },
+        {
+          "id": "p7135",
+          "target": "chapter-20-recreation-h2"
+        },
+        {
+          "id": "search-chapter-20-44",
+          "target": "chapter-20-recreation-h2"
+        },
+        {
+          "id": "chapter-20-unit-4",
+          "target": "chapter-20-recreation-h3"
+        },
+        {
+          "id": "chapter-20-h549",
+          "target": "chapter-20-recreation-h3"
+        },
+        {
+          "id": "p7136",
+          "target": "chapter-20-recreation-h3"
+        },
+        {
+          "id": "search-chapter-20-47",
+          "target": "chapter-20-recreation-h3"
+        },
+        {
+          "id": "search-chapter-20-48",
+          "target": "chapter-20-recreation-h3"
+        },
+        {
+          "id": "search-chapter-20-49",
+          "target": "chapter-20-recreation-h3"
+        },
+        {
+          "id": "search-chapter-20-50",
+          "target": "chapter-20-recreation-h3"
+        },
+        {
+          "id": "search-chapter-20-51",
+          "target": "chapter-20-recreation-h3"
+        },
+        {
+          "id": "p7137",
+          "target": "chapter-20-recreation-h3"
+        },
+        {
+          "id": "search-chapter-20-53",
+          "target": "chapter-20-recreation-h3"
+        },
+        {
+          "id": "search-chapter-20-54",
+          "target": "chapter-20-recreation-h3"
+        },
+        {
+          "id": "search-chapter-20-55",
+          "target": "chapter-20-recreation-h3"
+        },
+        {
+          "id": "search-chapter-20-56",
+          "target": "chapter-20-recreation-h3"
+        },
+        {
+          "id": "search-chapter-20-57",
+          "target": "chapter-20-recreation-h3"
+        },
+        {
+          "id": "search-chapter-20-58",
+          "target": "chapter-20-recreation-h3"
+        },
+        {
+          "id": "search-chapter-20-59",
+          "target": "chapter-20-recreation-h3"
+        },
+        {
+          "id": "search-chapter-20-60",
+          "target": "chapter-20-recreation-h3"
+        },
+        {
+          "id": "p7138",
+          "target": "chapter-20-recreation-h3"
+        },
+        {
+          "id": "search-chapter-20-62",
+          "target": "chapter-20-recreation-h3"
+        },
+        {
+          "id": "search-chapter-20-63",
+          "target": "chapter-20-recreation-h3"
+        },
+        {
+          "id": "search-chapter-20-64",
+          "target": "chapter-20-recreation-h3"
+        },
+        {
+          "id": "search-chapter-20-65",
+          "target": "chapter-20-recreation-h3"
+        },
+        {
+          "id": "search-chapter-20-66",
+          "target": "chapter-20-recreation-h3"
+        },
+        {
+          "id": "search-chapter-20-67",
+          "target": "chapter-20-recreation-h3"
+        },
+        {
+          "id": "search-chapter-20-68",
+          "target": "chapter-20-recreation-h3"
+        },
+        {
+          "id": "chapter-20-unit-5",
+          "target": "chapter-20-recreation-h4"
+        },
+        {
+          "id": "chapter-20-h550",
+          "target": "chapter-20-recreation-h4"
+        },
+        {
+          "id": "p7139",
+          "target": "chapter-20-recreation-h4"
+        },
+        {
+          "id": "search-chapter-20-71",
+          "target": "chapter-20-recreation-h4"
+        },
+        {
+          "id": "search-chapter-20-72",
+          "target": "chapter-20-recreation-h4"
+        },
+        {
+          "id": "search-chapter-20-73",
+          "target": "chapter-20-recreation-h4"
+        },
+        {
+          "id": "search-chapter-20-74",
+          "target": "chapter-20-recreation-h4"
+        },
+        {
+          "id": "search-chapter-20-75",
+          "target": "chapter-20-recreation-h4"
+        },
+        {
+          "id": "p7140",
+          "target": "chapter-20-recreation-h4"
+        },
+        {
+          "id": "search-chapter-20-77",
+          "target": "chapter-20-recreation-h4"
+        },
+        {
+          "id": "chapter-20-unit-6",
+          "target": "chapter-20-recreation-h4"
+        },
+        {
+          "id": "chapter-20-h551",
+          "target": "chapter-20-recreation-h4"
+        },
+        {
+          "id": "p7141",
+          "target": "chapter-20-recreation-h4"
+        },
+        {
+          "id": "search-chapter-20-80",
+          "target": "chapter-20-recreation-h4"
+        },
+        {
+          "id": "search-chapter-20-81",
+          "target": "chapter-20-recreation-h4"
+        },
+        {
+          "id": "search-chapter-20-82",
+          "target": "chapter-20-recreation-h4"
+        },
+        {
+          "id": "search-chapter-20-83",
+          "target": "chapter-20-recreation-h4"
+        },
+        {
+          "id": "search-chapter-20-84",
+          "target": "chapter-20-recreation-h4"
+        },
+        {
+          "id": "p7142",
+          "target": "chapter-20-recreation-h4"
+        },
+        {
+          "id": "search-chapter-20-86",
+          "target": "chapter-20-recreation-h4"
+        },
+        {
+          "id": "search-chapter-20-87",
+          "target": "chapter-20-recreation-h4"
+        },
+        {
+          "id": "p7144",
+          "target": "chapter-20-recreation-h4"
+        },
+        {
+          "id": "search-chapter-20-89",
+          "target": "chapter-20-recreation-h4"
+        },
+        {
+          "id": "search-chapter-20-90",
+          "target": "chapter-20-recreation-h4"
+        },
+        {
+          "id": "search-chapter-20-91",
+          "target": "chapter-20-recreation-h4"
+        },
+        {
+          "id": "search-chapter-20-92",
+          "target": "chapter-20-recreation-h4"
+        },
+        {
+          "id": "search-chapter-20-93",
+          "target": "chapter-20-recreation-h4"
+        },
+        {
+          "id": "search-chapter-20-94",
+          "target": "chapter-20-recreation-h4"
+        },
+        {
+          "id": "search-chapter-20-95",
+          "target": "chapter-20-recreation-h4"
+        },
+        {
+          "id": "search-chapter-20-96",
+          "target": "chapter-20-recreation-h4"
+        },
+        {
+          "id": "search-chapter-20-97",
+          "target": "chapter-20-recreation-h4"
+        },
+        {
+          "id": "p7145",
+          "target": "chapter-20-recreation-h4"
+        },
+        {
+          "id": "chapter-20-development-p1",
+          "target": "chapter-20-recreation-h4"
+        },
+        {
+          "id": "chapter-20-development-formula-1",
+          "target": "chapter-20-recreation-h4"
+        },
+        {
+          "id": "chapter-20-unit-7",
+          "target": "chapter-20-recreation-h7"
+        },
+        {
+          "id": "chapter-20-h552",
+          "target": "chapter-20-recreation-h7"
+        },
+        {
+          "id": "p7146",
+          "target": "chapter-20-recreation-h7"
+        },
+        {
+          "id": "search-chapter-20-101",
+          "target": "chapter-20-recreation-h7"
+        },
+        {
+          "id": "search-chapter-20-102",
+          "target": "chapter-20-recreation-h7"
+        },
+        {
+          "id": "p7148",
+          "target": "chapter-20-recreation-h7"
+        },
+        {
+          "id": "p7149",
+          "target": "chapter-20-recreation-h7"
+        },
+        {
+          "id": "search-chapter-20-105",
+          "target": "chapter-20-recreation-h7"
+        },
+        {
+          "id": "search-chapter-20-106",
+          "target": "chapter-20-recreation-h7"
+        },
+        {
+          "id": "search-chapter-20-107",
+          "target": "chapter-20-recreation-h7"
+        },
+        {
+          "id": "search-chapter-20-108",
+          "target": "chapter-20-recreation-h7"
+        },
+        {
+          "id": "search-chapter-20-109",
+          "target": "chapter-20-recreation-h7"
+        },
+        {
+          "id": "chapter-20-review-formula-1",
+          "target": "chapter-20-recreation-h7"
+        },
+        {
+          "id": "chapter-20-review-formula-2",
+          "target": "chapter-20-recreation-h7"
+        },
+        {
+          "id": "p7150",
+          "target": "chapter-20-recreation-h7"
+        },
+        {
+          "id": "search-chapter-20-111",
+          "target": "chapter-20-recreation-h7"
+        },
+        {
+          "id": "search-chapter-20-112",
+          "target": "chapter-20-recreation-h7"
+        },
+        {
+          "id": "search-chapter-20-113",
+          "target": "chapter-20-recreation-h7"
+        },
+        {
+          "id": "search-chapter-20-114",
+          "target": "chapter-20-recreation-h7"
+        },
+        {
+          "id": "search-chapter-20-115",
+          "target": "chapter-20-recreation-h7"
+        },
+        {
+          "id": "search-chapter-20-116",
+          "target": "chapter-20-recreation-h7"
+        },
+        {
+          "id": "search-chapter-20-117",
+          "target": "chapter-20-recreation-h7"
+        },
+        {
+          "id": "search-chapter-20-118",
+          "target": "chapter-20-recreation-h7"
+        },
+        {
+          "id": "p7152",
+          "target": "chapter-20-recreation-h7"
+        },
+        {
+          "id": "search-chapter-20-120",
+          "target": "chapter-20-recreation-h7"
+        },
+        {
+          "id": "search-chapter-20-121",
+          "target": "chapter-20-recreation-h7"
+        },
+        {
+          "id": "search-chapter-20-122",
+          "target": "chapter-20-recreation-h7"
+        },
+        {
+          "id": "chapter-20-development-p2",
+          "target": "chapter-20-recreation-h7"
+        },
+        {
+          "id": "chapter-20-development-formula-2",
+          "target": "chapter-20-recreation-h7"
+        },
+        {
+          "id": "chapter-20-development-formula-3",
+          "target": "chapter-20-recreation-h7"
+        },
+        {
+          "id": "chapter-20-development-p4",
+          "target": "chapter-20-recreation-h7"
+        },
+        {
+          "id": "chapter-20-development-formula-4",
+          "target": "chapter-20-recreation-h7"
+        },
+        {
+          "id": "chapter-20-development-p5",
+          "target": "chapter-20-recreation-h7"
+        },
+        {
+          "id": "chapter-20-development-formula-5",
+          "target": "chapter-20-recreation-h7"
+        },
+        {
+          "id": "chapter-20-development-formula-6",
+          "target": "chapter-20-recreation-h7"
+        },
+        {
+          "id": "chapter-20-development-formula-7",
+          "target": "chapter-20-recreation-h7"
+        },
+        {
+          "id": "chapter-20-development-p6",
+          "target": "chapter-20-recreation-h7"
+        },
+        {
+          "id": "chapter-20-development-formula-8",
+          "target": "chapter-20-recreation-h7"
+        },
+        {
+          "id": "chapter-20-development-formula-9",
+          "target": "chapter-20-recreation-h7"
+        },
+        {
+          "id": "chapter-20-development-p8",
+          "target": "chapter-20-recreation-h7"
+        },
+        {
+          "id": "chapter-20-unit-8",
+          "target": "chapter-20-recreation-h8"
+        },
+        {
+          "id": "chapter-20-h553",
+          "target": "chapter-20-recreation-h8"
+        },
+        {
+          "id": "p7153",
+          "target": "chapter-20-recreation-h8"
+        },
+        {
+          "id": "search-chapter-20-125",
+          "target": "chapter-20-recreation-h8"
+        },
+        {
+          "id": "search-chapter-20-126",
+          "target": "chapter-20-recreation-h8"
+        },
+        {
+          "id": "search-chapter-20-127",
+          "target": "chapter-20-recreation-h8"
+        },
+        {
+          "id": "search-chapter-20-128",
+          "target": "chapter-20-recreation-h8"
+        },
+        {
+          "id": "search-chapter-20-129",
+          "target": "chapter-20-recreation-h8"
+        },
+        {
+          "id": "search-chapter-20-130",
+          "target": "chapter-20-recreation-h8"
+        },
+        {
+          "id": "chapter-20-development-p9",
+          "target": "chapter-20-recreation-h8"
+        },
+        {
+          "id": "chapter-20-development-formula-10",
+          "target": "chapter-20-recreation-h8"
+        },
+        {
+          "id": "chapter-20-development-formula-11",
+          "target": "chapter-20-recreation-h8"
+        },
+        {
+          "id": "chapter-20-development-formula-12",
+          "target": "chapter-20-recreation-h8"
+        },
+        {
+          "id": "chapter-20-development-p11",
+          "target": "chapter-20-recreation-h8"
+        },
+        {
+          "id": "chapter-20-development-formula-13",
+          "target": "chapter-20-recreation-h8"
+        },
+        {
+          "id": "chapter-20-development-formula-14",
+          "target": "chapter-20-recreation-h8"
+        },
+        {
+          "id": "chapter-20-development-formula-15",
+          "target": "chapter-20-recreation-h8"
+        },
+        {
+          "id": "p7155",
+          "target": "chapter-20-recreation-h8"
+        },
+        {
+          "id": "search-chapter-20-132",
+          "target": "chapter-20-recreation-h8"
+        },
+        {
+          "id": "search-chapter-20-133",
+          "target": "chapter-20-recreation-h8"
+        },
+        {
+          "id": "chapter-20-review-formula-3",
+          "target": "chapter-20-recreation-h8"
+        },
+        {
+          "id": "chapter-20-review-formula-4",
+          "target": "chapter-20-recreation-h8"
+        },
+        {
+          "id": "chapter-20-review-formula-5",
+          "target": "chapter-20-recreation-h8"
+        },
+        {
+          "id": "search-chapter-20-134",
+          "target": "chapter-20-recreation-h8"
+        },
+        {
+          "id": "search-chapter-20-135",
+          "target": "chapter-20-recreation-h8"
+        },
+        {
+          "id": "search-chapter-20-136",
+          "target": "chapter-20-recreation-h8"
+        },
+        {
+          "id": "search-chapter-20-137",
+          "target": "chapter-20-recreation-h8"
+        },
+        {
+          "id": "search-chapter-20-138",
+          "target": "chapter-20-recreation-h8"
+        },
+        {
+          "id": "search-chapter-20-139",
+          "target": "chapter-20-recreation-h8"
+        },
+        {
+          "id": "p7157",
+          "target": "chapter-20-recreation-h8"
+        },
+        {
+          "id": "chapter-20-review-formula-6",
+          "target": "chapter-20-recreation-h8"
+        },
+        {
+          "id": "chapter-20-review-formula-7",
+          "target": "chapter-20-recreation-h8"
+        },
+        {
+          "id": "chapter-20-review-formula-8",
+          "target": "chapter-20-recreation-h8"
+        },
+        {
+          "id": "chapter-20-review-formula-9",
+          "target": "chapter-20-recreation-h8"
+        },
+        {
+          "id": "chapter-20-review-formula-10",
+          "target": "chapter-20-recreation-h8"
+        },
+        {
+          "id": "chapter-20-review-formula-11",
+          "target": "chapter-20-recreation-h8"
+        },
+        {
+          "id": "chapter-20-review-formula-12",
+          "target": "chapter-20-recreation-h8"
+        },
+        {
+          "id": "chapter-20-review-formula-13",
+          "target": "chapter-20-recreation-h8"
+        },
+        {
+          "id": "search-chapter-20-141",
+          "target": "chapter-20-recreation-h8"
+        },
+        {
+          "id": "search-chapter-20-142",
+          "target": "chapter-20-recreation-h8"
+        },
+        {
+          "id": "chapter-20-review-formula-14",
+          "target": "chapter-20-recreation-h8"
+        },
+        {
+          "id": "search-chapter-20-143",
+          "target": "chapter-20-recreation-h8"
+        },
+        {
+          "id": "search-chapter-20-144",
+          "target": "chapter-20-recreation-h8"
+        },
+        {
+          "id": "chapter-20-development-p12",
+          "target": "chapter-20-recreation-h8"
+        },
+        {
+          "id": "chapter-20-development-formula-16",
+          "target": "chapter-20-recreation-h8"
+        },
+        {
+          "id": "chapter-20-development-formula-17",
+          "target": "chapter-20-recreation-h8"
+        },
+        {
+          "id": "chapter-20-development-formula-18",
+          "target": "chapter-20-recreation-h8"
+        },
+        {
+          "id": "chapter-20-development-p14",
+          "target": "chapter-20-recreation-h8"
+        },
+        {
+          "id": "chapter-20-development-formula-19",
+          "target": "chapter-20-recreation-h8"
+        },
+        {
+          "id": "chapter-20-development-p15",
+          "target": "chapter-20-recreation-h8"
+        },
+        {
+          "id": "chapter-20-unit-9",
+          "target": "chapter-20-recreation-h9"
+        },
+        {
+          "id": "chapter-20-h554",
+          "target": "chapter-20-recreation-h9"
+        },
+        {
+          "id": "p7158",
+          "target": "chapter-20-recreation-h9"
+        },
+        {
+          "id": "search-chapter-20-147",
+          "target": "chapter-20-recreation-h9"
+        },
+        {
+          "id": "search-chapter-20-148",
+          "target": "chapter-20-recreation-h9"
+        },
+        {
+          "id": "search-chapter-20-149",
+          "target": "chapter-20-recreation-h9"
+        },
+        {
+          "id": "search-chapter-20-150",
+          "target": "chapter-20-recreation-h9"
+        },
+        {
+          "id": "search-chapter-20-151",
+          "target": "chapter-20-recreation-h9"
+        },
+        {
+          "id": "search-chapter-20-152",
+          "target": "chapter-20-recreation-h9"
+        },
+        {
+          "id": "p7160",
+          "target": "chapter-20-recreation-h9"
+        },
+        {
+          "id": "chapter-20-review-formula-15",
+          "target": "chapter-20-recreation-h9"
+        },
+        {
+          "id": "chapter-20-review-formula-16",
+          "target": "chapter-20-recreation-h9"
+        },
+        {
+          "id": "search-chapter-20-154",
+          "target": "chapter-20-recreation-h9"
+        },
+        {
+          "id": "search-chapter-20-155",
+          "target": "chapter-20-recreation-h9"
+        },
+        {
+          "id": "search-chapter-20-156",
+          "target": "chapter-20-recreation-h9"
+        },
+        {
+          "id": "search-chapter-20-157",
+          "target": "chapter-20-recreation-h9"
+        },
+        {
+          "id": "chapter-20-development-p16",
+          "target": "chapter-20-recreation-h9"
+        },
+        {
+          "id": "chapter-20-development-formula-20",
+          "target": "chapter-20-recreation-h9"
+        },
+        {
+          "id": "chapter-20-development-formula-21",
+          "target": "chapter-20-recreation-h9"
+        },
+        {
+          "id": "chapter-20-development-formula-22",
+          "target": "chapter-20-recreation-h9"
+        },
+        {
+          "id": "chapter-20-development-formula-23",
+          "target": "chapter-20-recreation-h9"
+        },
+        {
+          "id": "chapter-20-development-formula-24",
+          "target": "chapter-20-recreation-h9"
+        },
+        {
+          "id": "chapter-20-development-formula-25",
+          "target": "chapter-20-recreation-h9"
+        },
+        {
+          "id": "chapter-20-development-formula-26",
+          "target": "chapter-20-recreation-h9"
+        },
+        {
+          "id": "chapter-20-development-p17",
+          "target": "chapter-20-recreation-h9"
+        },
+        {
+          "id": "chapter-20-development-formula-27",
+          "target": "chapter-20-recreation-h9"
+        },
+        {
+          "id": "p7161",
+          "target": "chapter-20-recreation-h9"
+        },
+        {
+          "id": "search-chapter-20-159",
+          "target": "chapter-20-recreation-h9"
+        },
+        {
+          "id": "search-chapter-20-160",
+          "target": "chapter-20-recreation-h9"
+        },
+        {
+          "id": "search-chapter-20-161",
+          "target": "chapter-20-recreation-h9"
+        },
+        {
+          "id": "search-chapter-20-162",
+          "target": "chapter-20-recreation-h9"
+        },
+        {
+          "id": "search-chapter-20-163",
+          "target": "chapter-20-recreation-h9"
+        },
+        {
+          "id": "search-chapter-20-164",
+          "target": "chapter-20-recreation-h9"
+        },
+        {
+          "id": "search-chapter-20-165",
+          "target": "chapter-20-recreation-h9"
+        },
+        {
+          "id": "search-chapter-20-166",
+          "target": "chapter-20-recreation-h9"
+        },
+        {
+          "id": "search-chapter-20-167",
+          "target": "chapter-20-recreation-h9"
+        },
+        {
+          "id": "chapter-20-unit-10",
+          "target": "chapter-20-recreation-h10"
+        },
+        {
+          "id": "chapter-20-h555",
+          "target": "chapter-20-recreation-h10"
+        },
+        {
+          "id": "p7162",
+          "target": "chapter-20-recreation-h10"
+        },
+        {
+          "id": "search-chapter-20-170",
+          "target": "chapter-20-recreation-h10"
+        },
+        {
+          "id": "search-chapter-20-171",
+          "target": "chapter-20-recreation-h10"
+        },
+        {
+          "id": "search-chapter-20-172",
+          "target": "chapter-20-recreation-h10"
+        },
+        {
+          "id": "search-chapter-20-173",
+          "target": "chapter-20-recreation-h10"
+        },
+        {
+          "id": "search-chapter-20-174",
+          "target": "chapter-20-recreation-h10"
+        },
+        {
+          "id": "search-chapter-20-175",
+          "target": "chapter-20-recreation-h10"
+        },
+        {
+          "id": "p7164",
+          "target": "chapter-20-recreation-h10"
+        },
+        {
+          "id": "search-chapter-20-177",
+          "target": "chapter-20-recreation-h10"
+        },
+        {
+          "id": "search-chapter-20-178",
+          "target": "chapter-20-recreation-h10"
+        },
+        {
+          "id": "search-chapter-20-179",
+          "target": "chapter-20-recreation-h10"
+        },
+        {
+          "id": "search-chapter-20-180",
+          "target": "chapter-20-recreation-h10"
+        },
+        {
+          "id": "chapter-20-development-p18",
+          "target": "chapter-20-recreation-h10"
+        },
+        {
+          "id": "chapter-20-development-formula-28",
+          "target": "chapter-20-recreation-h10"
+        },
+        {
+          "id": "chapter-20-development-formula-29",
+          "target": "chapter-20-recreation-h10"
+        },
+        {
+          "id": "chapter-20-development-formula-30",
+          "target": "chapter-20-recreation-h10"
+        },
+        {
+          "id": "chapter-20-development-formula-31",
+          "target": "chapter-20-recreation-h10"
+        },
+        {
+          "id": "chapter-20-development-formula-32",
+          "target": "chapter-20-recreation-h10"
+        },
+        {
+          "id": "chapter-20-development-formula-33",
+          "target": "chapter-20-recreation-h10"
+        },
+        {
+          "id": "chapter-20-development-p20",
+          "target": "chapter-20-recreation-h10"
+        },
+        {
+          "id": "p7166",
+          "target": "chapter-20-recreation-h10"
+        },
+        {
+          "id": "search-chapter-20-182",
+          "target": "chapter-20-recreation-h10"
+        },
+        {
+          "id": "search-chapter-20-183",
+          "target": "chapter-20-recreation-h10"
+        },
+        {
+          "id": "search-chapter-20-184",
+          "target": "chapter-20-recreation-h10"
+        },
+        {
+          "id": "search-chapter-20-185",
+          "target": "chapter-20-recreation-h10"
+        },
+        {
+          "id": "search-chapter-20-186",
+          "target": "chapter-20-recreation-h10"
+        },
+        {
+          "id": "search-chapter-20-187",
+          "target": "chapter-20-recreation-h10"
+        },
+        {
+          "id": "chapter-20-development-p21",
+          "target": "chapter-20-recreation-h10"
+        },
+        {
+          "id": "chapter-20-development-formula-34",
+          "target": "chapter-20-recreation-h10"
+        },
+        {
+          "id": "chapter-20-development-formula-35",
+          "target": "chapter-20-recreation-h10"
+        },
+        {
+          "id": "p7167",
+          "target": "chapter-20-recreation-h10"
+        },
+        {
+          "id": "search-chapter-20-189",
+          "target": "chapter-20-recreation-h10"
+        },
+        {
+          "id": "search-chapter-20-190",
+          "target": "chapter-20-recreation-h10"
+        },
+        {
+          "id": "search-chapter-20-191",
+          "target": "chapter-20-recreation-h10"
+        },
+        {
+          "id": "search-chapter-20-192",
+          "target": "chapter-20-recreation-h10"
+        },
+        {
+          "id": "search-chapter-20-193",
+          "target": "chapter-20-recreation-h10"
+        },
+        {
+          "id": "chapter-20-unit-11",
+          "target": "chapter-20-recreation-h11"
+        },
+        {
+          "id": "chapter-20-h556",
+          "target": "chapter-20-recreation-h11"
+        },
+        {
+          "id": "p7168",
+          "target": "chapter-20-recreation-h11"
+        },
+        {
+          "id": "search-chapter-20-196",
+          "target": "chapter-20-recreation-h11"
+        },
+        {
+          "id": "search-chapter-20-197",
+          "target": "chapter-20-recreation-h11"
+        },
+        {
+          "id": "search-chapter-20-198",
+          "target": "chapter-20-recreation-h11"
+        },
+        {
+          "id": "search-chapter-20-199",
+          "target": "chapter-20-recreation-h11"
+        },
+        {
+          "id": "search-chapter-20-200",
+          "target": "chapter-20-recreation-h11"
+        },
+        {
+          "id": "p7169",
+          "target": "chapter-20-recreation-h11"
+        },
+        {
+          "id": "search-chapter-20-202",
+          "target": "chapter-20-recreation-h11"
+        },
+        {
+          "id": "search-chapter-20-203",
+          "target": "chapter-20-recreation-h11"
+        },
+        {
+          "id": "search-chapter-20-204",
+          "target": "chapter-20-recreation-h11"
+        },
+        {
+          "id": "search-chapter-20-205",
+          "target": "chapter-20-recreation-h11"
+        },
+        {
+          "id": "search-chapter-20-206",
+          "target": "chapter-20-recreation-h11"
+        },
+        {
+          "id": "p7170",
+          "target": "chapter-20-recreation-h11"
+        },
+        {
+          "id": "chapter-20-unit-12",
+          "target": "chapter-20-recreation-h12"
+        },
+        {
+          "id": "chapter-20-h557",
+          "target": "chapter-20-recreation-h12"
+        },
+        {
+          "id": "p7171",
+          "target": "chapter-20-recreation-h12"
+        },
+        {
+          "id": "search-chapter-20-210",
+          "target": "chapter-20-recreation-h12"
+        },
+        {
+          "id": "search-chapter-20-211",
+          "target": "chapter-20-recreation-h12"
+        },
+        {
+          "id": "p7173",
+          "target": "chapter-20-recreation-h12"
+        },
+        {
+          "id": "search-chapter-20-213",
+          "target": "chapter-20-recreation-h12"
+        },
+        {
+          "id": "search-chapter-20-214",
+          "target": "chapter-20-recreation-h12"
+        },
+        {
+          "id": "search-chapter-20-215",
+          "target": "chapter-20-recreation-h12"
+        },
+        {
+          "id": "search-chapter-20-216",
+          "target": "chapter-20-recreation-h12"
+        },
+        {
+          "id": "search-chapter-20-217",
+          "target": "chapter-20-recreation-h12"
+        },
+        {
+          "id": "search-chapter-20-218",
+          "target": "chapter-20-recreation-h12"
+        },
+        {
+          "id": "search-chapter-20-219",
+          "target": "chapter-20-recreation-h12"
+        },
+        {
+          "id": "search-chapter-20-220",
+          "target": "chapter-20-recreation-h12"
+        },
+        {
+          "id": "search-chapter-20-221",
+          "target": "chapter-20-recreation-h12"
+        },
+        {
+          "id": "chapter-20-development-p22",
+          "target": "chapter-20-recreation-h12"
+        },
+        {
+          "id": "chapter-20-development-formula-36",
+          "target": "chapter-20-recreation-h12"
+        },
+        {
+          "id": "chapter-20-development-formula-37",
+          "target": "chapter-20-recreation-h12"
+        },
+        {
+          "id": "chapter-20-development-p24",
+          "target": "chapter-20-recreation-h12"
+        },
+        {
+          "id": "chapter-20-development-formula-38",
+          "target": "chapter-20-recreation-h12"
+        },
+        {
+          "id": "chapter-20-development-formula-39",
+          "target": "chapter-20-recreation-h12"
+        },
+        {
+          "id": "chapter-20-development-formula-40",
+          "target": "chapter-20-recreation-h12"
+        },
+        {
+          "id": "chapter-20-development-p25",
+          "target": "chapter-20-recreation-h12"
+        },
+        {
+          "id": "chapter-20-development-formula-41",
+          "target": "chapter-20-recreation-h12"
+        },
+        {
+          "id": "p7174",
+          "target": "chapter-20-recreation-h12"
+        },
+        {
+          "id": "search-chapter-20-223",
+          "target": "chapter-20-recreation-h12"
+        },
+        {
+          "id": "p7176",
+          "target": "chapter-20-recreation-h12"
+        },
+        {
+          "id": "chapter-20-review-formula-17",
+          "target": "chapter-20-recreation-h12"
+        },
+        {
+          "id": "chapter-20-unit-13",
+          "target": "chapter-20-recreation-h13"
+        },
+        {
+          "id": "chapter-20-h558",
+          "target": "chapter-20-recreation-h13"
+        },
+        {
+          "id": "p7177",
+          "target": "chapter-20-recreation-h13"
+        },
+        {
+          "id": "search-chapter-20-227",
+          "target": "chapter-20-recreation-h13"
+        },
+        {
+          "id": "search-chapter-20-228",
+          "target": "chapter-20-recreation-h13"
+        },
+        {
+          "id": "search-chapter-20-229",
+          "target": "chapter-20-recreation-h13"
+        },
+        {
+          "id": "p7179",
+          "target": "chapter-20-recreation-h13"
+        },
+        {
+          "id": "search-chapter-20-231",
+          "target": "chapter-20-recreation-h13"
+        },
+        {
+          "id": "search-chapter-20-232",
+          "target": "chapter-20-recreation-h13"
+        },
+        {
+          "id": "search-chapter-20-233",
+          "target": "chapter-20-recreation-h13"
+        },
+        {
+          "id": "p7180",
+          "target": "chapter-20-recreation-h13"
+        },
+        {
+          "id": "search-chapter-20-235",
+          "target": "chapter-20-recreation-h13"
+        },
+        {
+          "id": "search-chapter-20-236",
+          "target": "chapter-20-recreation-h13"
+        },
+        {
+          "id": "chapter-20-unit-14",
+          "target": "chapter-20-recreation-h14"
+        },
+        {
+          "id": "chapter-20-h559",
+          "target": "chapter-20-recreation-h14"
+        },
+        {
+          "id": "p7181",
+          "target": "chapter-20-recreation-h14"
+        },
+        {
+          "id": "search-chapter-20-239",
+          "target": "chapter-20-recreation-h14"
+        },
+        {
+          "id": "search-chapter-20-240",
+          "target": "chapter-20-recreation-h14"
+        },
+        {
+          "id": "search-chapter-20-241",
+          "target": "chapter-20-recreation-h14"
+        },
+        {
+          "id": "search-chapter-20-242",
+          "target": "chapter-20-recreation-h14"
+        },
+        {
+          "id": "search-chapter-20-243",
+          "target": "chapter-20-recreation-h14"
+        },
+        {
+          "id": "search-chapter-20-244",
+          "target": "chapter-20-recreation-h14"
+        },
+        {
+          "id": "p7182",
+          "target": "chapter-20-recreation-h14"
+        },
+        {
+          "id": "search-chapter-20-246",
+          "target": "chapter-20-recreation-h14"
+        },
+        {
+          "id": "search-chapter-20-247",
+          "target": "chapter-20-recreation-h14"
+        },
+        {
+          "id": "chapter-20-development-p26",
+          "target": "chapter-20-recreation-h14"
+        },
+        {
+          "id": "chapter-20-development-formula-42",
+          "target": "chapter-20-recreation-h14"
+        },
+        {
+          "id": "chapter-20-development-p28",
+          "target": "chapter-20-recreation-h14"
+        },
+        {
+          "id": "chapter-20-development-formula-43",
+          "target": "chapter-20-recreation-h14"
+        },
+        {
+          "id": "chapter-20-development-formula-44",
+          "target": "chapter-20-recreation-h14"
+        },
+        {
+          "id": "chapter-20-development-formula-45",
+          "target": "chapter-20-recreation-h14"
+        },
+        {
+          "id": "chapter-20-development-p30",
+          "target": "chapter-20-recreation-h14"
+        },
+        {
+          "id": "chapter-20-development-formula-46",
+          "target": "chapter-20-recreation-h14"
+        },
+        {
+          "id": "chapter-20-development-formula-47",
+          "target": "chapter-20-recreation-h14"
+        },
+        {
+          "id": "p7184",
+          "target": "chapter-20-recreation-h14"
+        },
+        {
+          "id": "search-chapter-20-249",
+          "target": "chapter-20-recreation-h14"
+        },
+        {
+          "id": "search-chapter-20-250",
+          "target": "chapter-20-recreation-h14"
+        },
+        {
+          "id": "search-chapter-20-251",
+          "target": "chapter-20-recreation-h14"
+        },
+        {
+          "id": "p7186",
+          "target": "chapter-20-recreation-h14"
+        },
+        {
+          "id": "chapter-20-unit-15",
+          "target": "chapter-20-recreation-h15"
+        },
+        {
+          "id": "chapter-20-h560",
+          "target": "chapter-20-recreation-h15"
+        },
+        {
+          "id": "p7187",
+          "target": "chapter-20-recreation-h15"
+        },
+        {
+          "id": "search-chapter-20-255",
+          "target": "chapter-20-recreation-h15"
+        },
+        {
+          "id": "p7188",
+          "target": "chapter-20-recreation-h15"
+        },
+        {
+          "id": "visual-finite-gw-family",
+          "target": "chapter-20-recreation-h15"
+        },
+        {
+          "id": "p7189",
+          "target": "chapter-20-recreation-h15"
+        },
+        {
+          "id": "image-finite-gw-family-zh-svg",
+          "target": "chapter-20-recreation-h15"
+        },
+        {
+          "id": "p7190",
+          "target": "chapter-20-recreation-h15"
+        },
+        {
+          "id": "p7191",
+          "target": "chapter-20-recreation-h15"
+        },
+        {
+          "id": "chapter-20-unit-16",
+          "target": "chapter-20-recreation-h16"
+        },
+        {
+          "id": "chapter-20-h561",
+          "target": "chapter-20-recreation-h16"
+        },
+        {
+          "id": "p7192",
+          "target": "chapter-20-recreation-h16"
+        },
+        {
+          "id": "p7193",
+          "target": "chapter-20-recreation-h16"
+        },
+        {
+          "id": "p7194",
+          "target": "chapter-20-recreation-h16"
+        },
+        {
+          "id": "chapter-20-h562",
+          "target": "chapter-20-recreation-h17"
+        },
+        {
+          "id": "p7195",
+          "target": "chapter-20-recreation-h17"
+        },
+        {
+          "id": "search-chapter-20-266",
+          "target": "chapter-20-recreation-h17"
+        }
+      ],
+      "formulas": [
+        {
+          "id": "search-chapter-20-7",
+          "tex": "L",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-8",
+          "tex": "p_k=P(L=k)",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-9",
+          "tex": "L",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-10",
+          "tex": "j",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-11",
+          "tex": "j",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-13",
+          "tex": "n",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-14",
+          "tex": "Z_n",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-15",
+          "tex": "Z_0=1,\\qquad Z_{n+1}=\\sum_{j=1}^{Z_n}L_{n,j}.",
+          "display": true
+        },
+        {
+          "id": "search-chapter-20-17",
+          "tex": "\\mathcal F_n",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-18",
+          "tex": "n",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-21",
+          "tex": "f(s)=E s^L=\\sum_{k\\ge0}p_ks^k,\\qquad0\\le s\\le1,",
+          "display": true
+        },
+        {
+          "id": "search-chapter-20-23",
+          "tex": "0^0=1",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-24",
+          "tex": "E[s^{Z_{n+1}}\\mid\\mathcal F_n]=f(s)^{Z_n}",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-25",
+          "tex": "n",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-26",
+          "tex": "f^{\\circ n}(s)",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-28",
+          "tex": "r",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-29",
+          "tex": "r",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-30",
+          "tex": "(f^{\\circ n}(s))^r",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-33",
+          "tex": "q_n=P(Z_n=0)=f^{\\circ n}(0)",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-34",
+          "tex": "q_n\\uparrow q",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-35",
+          "tex": "q",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-36",
+          "tex": "f",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-37",
+          "tex": "[0,1]",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-38",
+          "tex": "f(q)=q",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-39",
+          "tex": "s\\in[0,1]",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-40",
+          "tex": "q_n\\le s",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-41",
+          "tex": "q\\le s",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-42",
+          "tex": "q=\\min\\{s\\in[0,1]:f(s)=s\\}.",
+          "display": true
+        },
+        {
+          "id": "search-chapter-20-44",
+          "tex": "q^r",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-47",
+          "tex": "m=EL",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-48",
+          "tex": "m=0",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-49",
+          "tex": "m>0",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-50",
+          "tex": "f",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-51",
+          "tex": "f'(1)=m",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-53",
+          "tex": "m<1",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-54",
+          "tex": "s<1",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-55",
+          "tex": "f(s)-s>0",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-56",
+          "tex": "m-1<0",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-57",
+          "tex": "m=1",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-58",
+          "tex": "P(L=1)<1",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-59",
+          "tex": "f(s)>s",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-60",
+          "tex": "s<1",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-62",
+          "tex": "L\\equiv1",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-63",
+          "tex": "m>1",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-64",
+          "tex": "f(s)-s",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-65",
+          "tex": "q<1",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-66",
+          "tex": "q,1",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-67",
+          "tex": "p_0=0",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-68",
+          "tex": "0<q<1",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-71",
+          "tex": "E[Z_{n+1}\\mid\\mathcal F_n]=mZ_n",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-72",
+          "tex": "EZ_n=m^n",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-73",
+          "tex": "p_0=1/4,p_2=3/4",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-74",
+          "tex": "3/2",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-75",
+          "tex": "q=1/3",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-77",
+          "tex": "p_0=p_2=1/2",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-80",
+          "tex": "m>0",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-81",
+          "tex": "W_n=Z_n/m^n",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-82",
+          "tex": "W",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-83",
+          "tex": "EW\\le1",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-84",
+          "tex": "W",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-86",
+          "tex": "\\sigma^2=\\operatorname{Var}L<\\infty",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-87",
+          "tex": "\\operatorname{Var}(W_n)=\\frac{\\sigma^2}{m(m-1)}(1-m^{-n}).",
+          "display": true
+        },
+        {
+          "id": "search-chapter-20-89",
+          "tex": "Z_{n+1}",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-90",
+          "tex": "\\sigma^2 Z_n",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-91",
+          "tex": "\\operatorname{Var}Z_{n+1}=m^2\\operatorname{Var}Z_n+\\sigma^2m^n",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-92",
+          "tex": "m^{2n+2}",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-93",
+          "tex": "W_n",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-94",
+          "tex": "L^2",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-95",
+          "tex": "L^2",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-96",
+          "tex": "L^1",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-97",
+          "tex": "EW=1",
+          "display": false
+        },
+        {
+          "id": "chapter-20-development-formula-1",
+          "tex": "EW_n=1",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-101",
+          "tex": "1<m<\\infty",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-102",
+          "tex": "P(\\widehat L=k)=\\frac{kp_k}{m},\\qquad k\\ge1.",
+          "display": true
+        },
+        {
+          "id": "search-chapter-20-105",
+          "tex": "\\widehat L",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-106",
+          "tex": "L",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-107",
+          "tex": "Q^*",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-108",
+          "tex": "Q",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-109",
+          "tex": "P",
+          "display": false
+        },
+        {
+          "id": "chapter-20-review-formula-1",
+          "tex": "P,Q",
+          "display": false
+        },
+        {
+          "id": "chapter-20-review-formula-2",
+          "tex": "\\mathcal F_\\infty=\\sigma(\\bigcup_n\\mathcal F_n)",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-111",
+          "tex": "n",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-112",
+          "tex": "t",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-113",
+          "tex": "p_k",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-114",
+          "tex": "(kp_k/m)(1/k)=p_k/m",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-115",
+          "tex": "P(t)/m^n",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-116",
+          "tex": "Z_n(t)",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-117",
+          "tex": "A\\in\\mathcal F_n",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-118",
+          "tex": "Q(A)=E_P[W_n\\mathbf1_A].",
+          "display": true
+        },
+        {
+          "id": "search-chapter-20-120",
+          "tex": "\\mathcal F_n",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-121",
+          "tex": "n",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-122",
+          "tex": "\\mathcal F_n",
+          "display": false
+        },
+        {
+          "id": "chapter-20-development-formula-2",
+          "tex": "K>0",
+          "display": false
+        },
+        {
+          "id": "chapter-20-development-formula-3",
+          "tex": "Q(W_n>K)=E_P[W_n\\mathbf1_{\\{W_n>K\\}}].",
+          "display": true
+        },
+        {
+          "id": "chapter-20-development-formula-4",
+          "tex": "n",
+          "display": false
+        },
+        {
+          "id": "chapter-20-development-formula-5",
+          "tex": "n",
+          "display": false
+        },
+        {
+          "id": "chapter-20-development-formula-6",
+          "tex": "Z_n/m^n",
+          "display": false
+        },
+        {
+          "id": "chapter-20-development-formula-7",
+          "tex": "n",
+          "display": false
+        },
+        {
+          "id": "chapter-20-development-formula-8",
+          "tex": "A\\in\\mathcal F_n",
+          "display": false
+        },
+        {
+          "id": "chapter-20-development-formula-9",
+          "tex": "E_P[W_{n+1}\\mathbf1_A]=E_P[W_n\\mathbf1_A].",
+          "display": true
+        },
+        {
+          "id": "search-chapter-20-125",
+          "tex": "dQ=W\\,dP",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-126",
+          "tex": "\\mathcal F_\\infty",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-127",
+          "tex": "\\mu=(P+Q)/2",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-128",
+          "tex": "\\alpha=dP/d\\mu,\\beta=dQ/d\\mu",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-129",
+          "tex": "\\alpha+\\beta=2",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-130",
+          "tex": "E_\\mu[\\alpha\\mid\\mathcal F_n]=\\frac2{1+W_n},\\qquad\nE_\\mu[\\beta\\mid\\mathcal F_n]=\\frac{2W_n}{1+W_n}.",
+          "display": true
+        },
+        {
+          "id": "chapter-20-development-formula-10",
+          "tex": "\\mathcal F_n",
+          "display": false
+        },
+        {
+          "id": "chapter-20-development-formula-11",
+          "tex": "A\\in\\mathcal F_n",
+          "display": false
+        },
+        {
+          "id": "chapter-20-development-formula-12",
+          "tex": "\\int_A\\frac2{1+W_n}\\,d\\mu\n=\\int_A\\frac2{1+W_n}\\frac{1+W_n}{2}\\,dP\n=P(A)=\\int_A\\alpha\\,d\\mu.",
+          "display": true
+        },
+        {
+          "id": "chapter-20-development-formula-13",
+          "tex": "\\mu",
+          "display": false
+        },
+        {
+          "id": "chapter-20-development-formula-14",
+          "tex": "P",
+          "display": false
+        },
+        {
+          "id": "chapter-20-development-formula-15",
+          "tex": "Q",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-132",
+          "tex": "d\\mu=(1+W_n)dP/2",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-133",
+          "tex": "\\alpha,\\beta",
+          "display": false
+        },
+        {
+          "id": "chapter-20-review-formula-3",
+          "tex": "\\alpha+\\beta=2",
+          "display": false
+        },
+        {
+          "id": "chapter-20-review-formula-4",
+          "tex": "\\mu",
+          "display": false
+        },
+        {
+          "id": "chapter-20-review-formula-5",
+          "tex": "P,Q\\ll\\mu",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-134",
+          "tex": "\\alpha>0",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-135",
+          "tex": "W_n\\to\\beta/\\alpha<\\infty",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-136",
+          "tex": "\\alpha=0",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-137",
+          "tex": "W_n\\to\\infty",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-138",
+          "tex": "P(\\alpha=0)=0",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-139",
+          "tex": "E_PW=\\int_{\\{\\alpha>0\\}}\\beta\\,d\\mu\n=Q(\\alpha>0)\n=Q(\\limsup_n W_n<\\infty).",
+          "display": true
+        },
+        {
+          "id": "chapter-20-review-formula-6",
+          "tex": "A",
+          "display": false
+        },
+        {
+          "id": "chapter-20-review-formula-7",
+          "tex": "Q",
+          "display": false
+        },
+        {
+          "id": "chapter-20-review-formula-8",
+          "tex": "P",
+          "display": false
+        },
+        {
+          "id": "chapter-20-review-formula-9",
+          "tex": "W\\,dP",
+          "display": false
+        },
+        {
+          "id": "chapter-20-review-formula-10",
+          "tex": "E_PW=1",
+          "display": false
+        },
+        {
+          "id": "chapter-20-review-formula-11",
+          "tex": "Q",
+          "display": false
+        },
+        {
+          "id": "chapter-20-review-formula-12",
+          "tex": "E_PW=0",
+          "display": false
+        },
+        {
+          "id": "chapter-20-review-formula-13",
+          "tex": "Q",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-141",
+          "tex": "EW=1",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-142",
+          "tex": "L^1",
+          "display": false
+        },
+        {
+          "id": "chapter-20-review-formula-14",
+          "tex": "Q",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-143",
+          "tex": "EW=0",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-144",
+          "tex": "W=0",
+          "display": false
+        },
+        {
+          "id": "chapter-20-development-formula-16",
+          "tex": "D=\\{\\alpha>0\\}",
+          "display": false
+        },
+        {
+          "id": "chapter-20-development-formula-17",
+          "tex": "A\\in\\mathcal F_\\infty",
+          "display": false
+        },
+        {
+          "id": "chapter-20-development-formula-18",
+          "tex": "Q(A\\cap D)=\\int_A W\\,dP,\\qquad\nQ(D^c)=1-E_PW,\\qquad P(D^c)=0.",
+          "display": true
+        },
+        {
+          "id": "chapter-20-development-formula-19",
+          "tex": "D^c",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-147",
+          "tex": "Y_k=\\widehat L_k-1",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-148",
+          "tex": "k-1",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-149",
+          "tex": "k",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-150",
+          "tex": "Q^*",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-151",
+          "tex": "\\log^+0=0",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-152",
+          "tex": "E_{Q^*}\\log^+Y_1=\\frac1mE_P[L\\log^+(L-1)].",
+          "display": true
+        },
+        {
+          "id": "chapter-20-review-formula-15",
+          "tex": "L=0",
+          "display": false
+        },
+        {
+          "id": "chapter-20-review-formula-16",
+          "tex": "\\sum_{k\\ge1}kp_k\\log^+(k-1)",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-154",
+          "tex": "k\\ge2",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-155",
+          "tex": "0\\le\\log k-\\log(k-1)\\le\\log2",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-156",
+          "tex": "EL<\\infty",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-157",
+          "tex": "E[L\\log^+L]<\\infty",
+          "display": false
+        },
+        {
+          "id": "chapter-20-development-formula-20",
+          "tex": "k",
+          "display": false
+        },
+        {
+          "id": "chapter-20-development-formula-21",
+          "tex": "m^k",
+          "display": false
+        },
+        {
+          "id": "chapter-20-development-formula-22",
+          "tex": "Y_k",
+          "display": false
+        },
+        {
+          "id": "chapter-20-development-formula-23",
+          "tex": "\\log^+Y_k",
+          "display": false
+        },
+        {
+          "id": "chapter-20-development-formula-24",
+          "tex": "p_j",
+          "display": false
+        },
+        {
+          "id": "chapter-20-development-formula-25",
+          "tex": "j/m",
+          "display": false
+        },
+        {
+          "id": "chapter-20-development-formula-26",
+          "tex": "L\\log L",
+          "display": false
+        },
+        {
+          "id": "chapter-20-development-formula-27",
+          "tex": "E_{Q^*}Y_1=\\infty",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-159",
+          "tex": "V",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-160",
+          "tex": "EV<\\infty",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-161",
+          "tex": "\\sum_nP(V>cn)<\\infty",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-162",
+          "tex": "c>0",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-163",
+          "tex": "V_k",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-164",
+          "tex": "c",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-165",
+          "tex": "V_k/k\\to0",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-166",
+          "tex": "c",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-167",
+          "tex": "\\limsup V_k/k=\\infty",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-170",
+          "tex": "E[L\\log^+L]<\\infty",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-171",
+          "tex": "V_k=\\log^+Y_k",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-172",
+          "tex": "Y_k",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-173",
+          "tex": "0<\\varepsilon<\\log m",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-174",
+          "tex": "Y_k\\le e^{\\varepsilon k}",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-175",
+          "tex": "\\sum_{k\\ge1}\\frac{Y_k}{m^k}<\\infty\\qquad Q^*\\text{-a.s.}",
+          "display": true
+        },
+        {
+          "id": "search-chapter-20-177",
+          "tex": "y_k",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-178",
+          "tex": "n",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-179",
+          "tex": "A_n",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-180",
+          "tex": "A_0=0,\\qquad A_{n+1}=\\sum_{j=1}^{A_n}L_{n,j}+y_{n+1}.",
+          "display": true
+        },
+        {
+          "id": "chapter-20-development-formula-28",
+          "tex": "W_r^{(k,j)}",
+          "display": false
+        },
+        {
+          "id": "chapter-20-development-formula-29",
+          "tex": "k",
+          "display": false
+        },
+        {
+          "id": "chapter-20-development-formula-30",
+          "tex": "j",
+          "display": false
+        },
+        {
+          "id": "chapter-20-development-formula-31",
+          "tex": "r",
+          "display": false
+        },
+        {
+          "id": "chapter-20-development-formula-32",
+          "tex": "n",
+          "display": false
+        },
+        {
+          "id": "chapter-20-development-formula-33",
+          "tex": "\\frac{A_n}{m^n}\n=\\sum_{k=1}^n m^{-k}\\sum_{j=1}^{y_k}W_{n-k}^{(k,j)},\\qquad\nE\\frac{A_n}{m^n}=\\sum_{k=1}^n\\frac{y_k}{m^k}.",
+          "display": true
+        },
+        {
+          "id": "search-chapter-20-182",
+          "tex": "A_n/m^n",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-183",
+          "tex": "y_{n+1}/m^{n+1}",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-184",
+          "tex": "\\sum_{k\\le n}y_k/m^k",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-185",
+          "tex": "Z_n=1+A_n",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-186",
+          "tex": "W_n=m^{-n}+A_n/m^n",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-187",
+          "tex": "Q",
+          "display": false
+        },
+        {
+          "id": "chapter-20-development-formula-34",
+          "tex": "m",
+          "display": false
+        },
+        {
+          "id": "chapter-20-development-formula-35",
+          "tex": "A_n/m^n",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-189",
+          "tex": "W_n",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-190",
+          "tex": "m^{-n}",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-191",
+          "tex": "EW=1",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-192",
+          "tex": "W_n\\to W",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-193",
+          "tex": "L^1",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-196",
+          "tex": "E[L\\log^+L]=\\infty",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-197",
+          "tex": "E\\log^+Y_1=\\infty",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-198",
+          "tex": "\\limsup\\log^+Y_n/n=\\infty",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-199",
+          "tex": "\\log m",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-200",
+          "tex": "Y_n/m^n",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-202",
+          "tex": "n",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-203",
+          "tex": "Y_n",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-204",
+          "tex": "\\limsup W_n=\\infty",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-205",
+          "tex": "Q",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-206",
+          "tex": "W=0",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-210",
+          "tex": "x\\log x",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-211",
+          "tex": "W=\\frac1m\\sum_{j=1}^{L}W^{(j)}.",
+          "display": true
+        },
+        {
+          "id": "search-chapter-20-213",
+          "tex": "r=P(W=0)",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-214",
+          "tex": "r=f(r)",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-215",
+          "tex": "W=0",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-216",
+          "tex": "q\\le r",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-217",
+          "tex": "EW=1",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-218",
+          "tex": "r=1",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-219",
+          "tex": "q,1",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-220",
+          "tex": "r=q",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-221",
+          "tex": "W>0",
+          "display": false
+        },
+        {
+          "id": "chapter-20-development-formula-36",
+          "tex": "L",
+          "display": false
+        },
+        {
+          "id": "chapter-20-development-formula-37",
+          "tex": "\\frac{Z_n}{m^n}=\\frac1m\\sum_{j=1}^{L}\n\\frac{Z_{n-1}^{(j)}}{m^{n-1}}",
+          "display": true
+        },
+        {
+          "id": "chapter-20-development-formula-38",
+          "tex": "L",
+          "display": false
+        },
+        {
+          "id": "chapter-20-development-formula-39",
+          "tex": "L",
+          "display": false
+        },
+        {
+          "id": "chapter-20-development-formula-40",
+          "tex": "r^L",
+          "display": false
+        },
+        {
+          "id": "chapter-20-development-formula-41",
+          "tex": "EW=1",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-223",
+          "tex": "E[L\\log^+L]<\\infty\n\\quad\\Longleftrightarrow\\quad EW=1\n\\quad\\Longleftrightarrow\\quad (W_n)\\text{ is UI},",
+          "display": true
+        },
+        {
+          "id": "chapter-20-review-formula-17",
+          "tex": "P",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-227",
+          "tex": "p_2=1/2",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-228",
+          "tex": "k\\ge3",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-229",
+          "tex": "p_k=\\frac{c}{k^2(\\log k)^2},\\qquad\np_0=\\frac12-\\sum_{k\\ge3}p_k,\\qquad c=1/10.",
+          "display": true
+        },
+        {
+          "id": "search-chapter-20-231",
+          "tex": "c\\sum_{k\\ge3}k^{-2}<1/2",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-232",
+          "tex": "m=1+c\\sum_{k\\ge3}[k(\\log k)^2]^{-1}",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-233",
+          "tex": "c\\sum_{k\\ge3}[k\\log k]^{-1}",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-235",
+          "tex": "Z_n/m^n\\to0",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-236",
+          "tex": "Z_n\\to0",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-239",
+          "tex": "m=1",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-240",
+          "tex": "L\\equiv1",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-241",
+          "tex": "0<\\sigma^2=\\operatorname{Var}L<\\infty",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-242",
+          "tex": "a_n=P(Z_n>0)",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-243",
+          "tex": "a_n\\downarrow0",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-244",
+          "tex": "a_{n+1}=1-f(1-a_n)",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-246",
+          "tex": "f''(s)=E[L(L-1)s^{L-2};L\\ge2]\\uparrow\\sigma^2",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-247",
+          "tex": "a_{n+1}=a_n-\\frac{\\sigma^2}{2}a_n^2+o(a_n^2).",
+          "display": true
+        },
+        {
+          "id": "chapter-20-development-formula-42",
+          "tex": "f(1-a)=1-a+a^2\\int_0^1(1-v)f''(1-av)\\,dv,\\qquad 0<a<1.",
+          "display": true
+        },
+        {
+          "id": "chapter-20-development-formula-43",
+          "tex": "f''(1-)=\\sigma^2",
+          "display": false
+        },
+        {
+          "id": "chapter-20-development-formula-44",
+          "tex": "\\sigma^2/2",
+          "display": false
+        },
+        {
+          "id": "chapter-20-development-formula-45",
+          "tex": "\\frac1{a_{n+1}}-\\frac1{a_n}\n=\\frac{a_n-a_{n+1}}{a_n^2}\\frac{a_n}{a_{n+1}}\n\\longrightarrow\\frac{\\sigma^2}{2}.",
+          "display": true
+        },
+        {
+          "id": "chapter-20-development-formula-46",
+          "tex": "m^k",
+          "display": false
+        },
+        {
+          "id": "chapter-20-development-formula-47",
+          "tex": "L\\log L",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-249",
+          "tex": "a_{n+1}/a_n\\to1",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-250",
+          "tex": "a_{n+1}^{-1}-a_n^{-1}\\to\\sigma^2/2",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-251",
+          "tex": "nP(Z_n>0)\\longrightarrow\\frac2{\\sigma^2}.",
+          "display": true
+        },
+        {
+          "id": "search-chapter-20-255",
+          "tex": "Z_0,Z_1,\\ldots",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-266",
+          "tex": "1<m<\\infty",
+          "display": false
+        }
+      ]
+    },
+    "en": {
+      "anchors": [
+        {
+          "id": "chapter-20-unit-0",
+          "target": "chapter-20-recreation-h0"
+        },
+        {
+          "id": "chapter-20-h545",
+          "target": "chapter-20-recreation-h0"
+        },
+        {
+          "id": "p7122",
+          "target": "chapter-20-recreation-h0"
+        },
+        {
+          "id": "p7123",
+          "target": "chapter-20-recreation-h0"
+        },
+        {
+          "id": "p7124",
+          "target": "chapter-20-recreation-h0"
+        },
+        {
+          "id": "chapter-20-unit-1",
+          "target": "chapter-20-recreation-h1"
+        },
+        {
+          "id": "chapter-20-h546",
+          "target": "chapter-20-recreation-h1"
+        },
+        {
+          "id": "p7125",
+          "target": "chapter-20-recreation-h1"
+        },
+        {
+          "id": "search-chapter-20-7",
+          "target": "chapter-20-recreation-h1"
+        },
+        {
+          "id": "search-chapter-20-8",
+          "target": "chapter-20-recreation-h1"
+        },
+        {
+          "id": "search-chapter-20-9",
+          "target": "chapter-20-recreation-h1"
+        },
+        {
+          "id": "search-chapter-20-10",
+          "target": "chapter-20-recreation-h1"
+        },
+        {
+          "id": "search-chapter-20-11",
+          "target": "chapter-20-recreation-h1"
+        },
+        {
+          "id": "p7126",
+          "target": "chapter-20-recreation-h1"
+        },
+        {
+          "id": "search-chapter-20-13",
+          "target": "chapter-20-recreation-h1"
+        },
+        {
+          "id": "search-chapter-20-14",
+          "target": "chapter-20-recreation-h1"
+        },
+        {
+          "id": "search-chapter-20-15",
+          "target": "chapter-20-recreation-h1"
+        },
+        {
+          "id": "p7128",
+          "target": "chapter-20-recreation-h1"
+        },
+        {
+          "id": "search-chapter-20-17",
+          "target": "chapter-20-recreation-h1"
+        },
+        {
+          "id": "search-chapter-20-18",
+          "target": "chapter-20-recreation-h1"
+        },
+        {
+          "id": "chapter-20-unit-2",
+          "target": "chapter-20-recreation-h2"
+        },
+        {
+          "id": "chapter-20-h547",
+          "target": "chapter-20-recreation-h2"
+        },
+        {
+          "id": "p7129",
+          "target": "chapter-20-recreation-h2"
+        },
+        {
+          "id": "search-chapter-20-21",
+          "target": "chapter-20-recreation-h2"
+        },
+        {
+          "id": "p7131",
+          "target": "chapter-20-recreation-h2"
+        },
+        {
+          "id": "search-chapter-20-23",
+          "target": "chapter-20-recreation-h2"
+        },
+        {
+          "id": "search-chapter-20-24",
+          "target": "chapter-20-recreation-h2"
+        },
+        {
+          "id": "search-chapter-20-25",
+          "target": "chapter-20-recreation-h2"
+        },
+        {
+          "id": "search-chapter-20-26",
+          "target": "chapter-20-recreation-h2"
+        },
+        {
+          "id": "p7132",
+          "target": "chapter-20-recreation-h2"
+        },
+        {
+          "id": "search-chapter-20-28",
+          "target": "chapter-20-recreation-h2"
+        },
+        {
+          "id": "search-chapter-20-29",
+          "target": "chapter-20-recreation-h2"
+        },
+        {
+          "id": "search-chapter-20-30",
+          "target": "chapter-20-recreation-h2"
+        },
+        {
+          "id": "chapter-20-unit-3",
+          "target": "chapter-20-recreation-h2"
+        },
+        {
+          "id": "chapter-20-h548",
+          "target": "chapter-20-recreation-h2"
+        },
+        {
+          "id": "p7133",
+          "target": "chapter-20-recreation-h2"
+        },
+        {
+          "id": "search-chapter-20-33",
+          "target": "chapter-20-recreation-h2"
+        },
+        {
+          "id": "search-chapter-20-34",
+          "target": "chapter-20-recreation-h2"
+        },
+        {
+          "id": "search-chapter-20-35",
+          "target": "chapter-20-recreation-h2"
+        },
+        {
+          "id": "search-chapter-20-36",
+          "target": "chapter-20-recreation-h2"
+        },
+        {
+          "id": "search-chapter-20-37",
+          "target": "chapter-20-recreation-h2"
+        },
+        {
+          "id": "search-chapter-20-38",
+          "target": "chapter-20-recreation-h2"
+        },
+        {
+          "id": "search-chapter-20-39",
+          "target": "chapter-20-recreation-h2"
+        },
+        {
+          "id": "search-chapter-20-40",
+          "target": "chapter-20-recreation-h2"
+        },
+        {
+          "id": "search-chapter-20-41",
+          "target": "chapter-20-recreation-h2"
+        },
+        {
+          "id": "search-chapter-20-42",
+          "target": "chapter-20-recreation-h2"
+        },
+        {
+          "id": "p7135",
+          "target": "chapter-20-recreation-h2"
+        },
+        {
+          "id": "search-chapter-20-44",
+          "target": "chapter-20-recreation-h2"
+        },
+        {
+          "id": "chapter-20-unit-4",
+          "target": "chapter-20-recreation-h3"
+        },
+        {
+          "id": "chapter-20-h549",
+          "target": "chapter-20-recreation-h3"
+        },
+        {
+          "id": "p7136",
+          "target": "chapter-20-recreation-h3"
+        },
+        {
+          "id": "search-chapter-20-47",
+          "target": "chapter-20-recreation-h3"
+        },
+        {
+          "id": "search-chapter-20-48",
+          "target": "chapter-20-recreation-h3"
+        },
+        {
+          "id": "search-chapter-20-49",
+          "target": "chapter-20-recreation-h3"
+        },
+        {
+          "id": "search-chapter-20-50",
+          "target": "chapter-20-recreation-h3"
+        },
+        {
+          "id": "search-chapter-20-51",
+          "target": "chapter-20-recreation-h3"
+        },
+        {
+          "id": "p7137",
+          "target": "chapter-20-recreation-h3"
+        },
+        {
+          "id": "search-chapter-20-53",
+          "target": "chapter-20-recreation-h3"
+        },
+        {
+          "id": "search-chapter-20-54",
+          "target": "chapter-20-recreation-h3"
+        },
+        {
+          "id": "search-chapter-20-55",
+          "target": "chapter-20-recreation-h3"
+        },
+        {
+          "id": "search-chapter-20-56",
+          "target": "chapter-20-recreation-h3"
+        },
+        {
+          "id": "search-chapter-20-57",
+          "target": "chapter-20-recreation-h3"
+        },
+        {
+          "id": "search-chapter-20-58",
+          "target": "chapter-20-recreation-h3"
+        },
+        {
+          "id": "search-chapter-20-59",
+          "target": "chapter-20-recreation-h3"
+        },
+        {
+          "id": "search-chapter-20-60",
+          "target": "chapter-20-recreation-h3"
+        },
+        {
+          "id": "p7138",
+          "target": "chapter-20-recreation-h3"
+        },
+        {
+          "id": "search-chapter-20-62",
+          "target": "chapter-20-recreation-h3"
+        },
+        {
+          "id": "search-chapter-20-63",
+          "target": "chapter-20-recreation-h3"
+        },
+        {
+          "id": "search-chapter-20-64",
+          "target": "chapter-20-recreation-h3"
+        },
+        {
+          "id": "search-chapter-20-65",
+          "target": "chapter-20-recreation-h3"
+        },
+        {
+          "id": "search-chapter-20-66",
+          "target": "chapter-20-recreation-h3"
+        },
+        {
+          "id": "search-chapter-20-67",
+          "target": "chapter-20-recreation-h3"
+        },
+        {
+          "id": "search-chapter-20-68",
+          "target": "chapter-20-recreation-h3"
+        },
+        {
+          "id": "chapter-20-unit-5",
+          "target": "chapter-20-recreation-h4"
+        },
+        {
+          "id": "chapter-20-h550",
+          "target": "chapter-20-recreation-h4"
+        },
+        {
+          "id": "p7139",
+          "target": "chapter-20-recreation-h4"
+        },
+        {
+          "id": "search-chapter-20-71",
+          "target": "chapter-20-recreation-h4"
+        },
+        {
+          "id": "search-chapter-20-72",
+          "target": "chapter-20-recreation-h4"
+        },
+        {
+          "id": "search-chapter-20-73",
+          "target": "chapter-20-recreation-h4"
+        },
+        {
+          "id": "search-chapter-20-74",
+          "target": "chapter-20-recreation-h4"
+        },
+        {
+          "id": "search-chapter-20-75",
+          "target": "chapter-20-recreation-h4"
+        },
+        {
+          "id": "p7140",
+          "target": "chapter-20-recreation-h4"
+        },
+        {
+          "id": "search-chapter-20-77",
+          "target": "chapter-20-recreation-h4"
+        },
+        {
+          "id": "chapter-20-unit-6",
+          "target": "chapter-20-recreation-h4"
+        },
+        {
+          "id": "chapter-20-h551",
+          "target": "chapter-20-recreation-h4"
+        },
+        {
+          "id": "p7141",
+          "target": "chapter-20-recreation-h4"
+        },
+        {
+          "id": "search-chapter-20-80",
+          "target": "chapter-20-recreation-h4"
+        },
+        {
+          "id": "search-chapter-20-81",
+          "target": "chapter-20-recreation-h4"
+        },
+        {
+          "id": "search-chapter-20-82",
+          "target": "chapter-20-recreation-h4"
+        },
+        {
+          "id": "search-chapter-20-83",
+          "target": "chapter-20-recreation-h4"
+        },
+        {
+          "id": "search-chapter-20-84",
+          "target": "chapter-20-recreation-h4"
+        },
+        {
+          "id": "p7142",
+          "target": "chapter-20-recreation-h4"
+        },
+        {
+          "id": "search-chapter-20-86",
+          "target": "chapter-20-recreation-h4"
+        },
+        {
+          "id": "search-chapter-20-87",
+          "target": "chapter-20-recreation-h4"
+        },
+        {
+          "id": "p7144",
+          "target": "chapter-20-recreation-h4"
+        },
+        {
+          "id": "search-chapter-20-89",
+          "target": "chapter-20-recreation-h4"
+        },
+        {
+          "id": "search-chapter-20-90",
+          "target": "chapter-20-recreation-h4"
+        },
+        {
+          "id": "search-chapter-20-91",
+          "target": "chapter-20-recreation-h4"
+        },
+        {
+          "id": "search-chapter-20-92",
+          "target": "chapter-20-recreation-h4"
+        },
+        {
+          "id": "search-chapter-20-93",
+          "target": "chapter-20-recreation-h4"
+        },
+        {
+          "id": "search-chapter-20-94",
+          "target": "chapter-20-recreation-h4"
+        },
+        {
+          "id": "search-chapter-20-95",
+          "target": "chapter-20-recreation-h4"
+        },
+        {
+          "id": "search-chapter-20-96",
+          "target": "chapter-20-recreation-h4"
+        },
+        {
+          "id": "search-chapter-20-97",
+          "target": "chapter-20-recreation-h4"
+        },
+        {
+          "id": "p7145",
+          "target": "chapter-20-recreation-h4"
+        },
+        {
+          "id": "chapter-20-development-p1",
+          "target": "chapter-20-recreation-h4"
+        },
+        {
+          "id": "chapter-20-development-formula-1",
+          "target": "chapter-20-recreation-h4"
+        },
+        {
+          "id": "chapter-20-unit-7",
+          "target": "chapter-20-recreation-h7"
+        },
+        {
+          "id": "chapter-20-h552",
+          "target": "chapter-20-recreation-h7"
+        },
+        {
+          "id": "p7146",
+          "target": "chapter-20-recreation-h7"
+        },
+        {
+          "id": "search-chapter-20-101",
+          "target": "chapter-20-recreation-h7"
+        },
+        {
+          "id": "search-chapter-20-102",
+          "target": "chapter-20-recreation-h7"
+        },
+        {
+          "id": "p7148",
+          "target": "chapter-20-recreation-h7"
+        },
+        {
+          "id": "p7149",
+          "target": "chapter-20-recreation-h7"
+        },
+        {
+          "id": "search-chapter-20-105",
+          "target": "chapter-20-recreation-h7"
+        },
+        {
+          "id": "search-chapter-20-106",
+          "target": "chapter-20-recreation-h7"
+        },
+        {
+          "id": "search-chapter-20-107",
+          "target": "chapter-20-recreation-h7"
+        },
+        {
+          "id": "search-chapter-20-108",
+          "target": "chapter-20-recreation-h7"
+        },
+        {
+          "id": "search-chapter-20-109",
+          "target": "chapter-20-recreation-h7"
+        },
+        {
+          "id": "chapter-20-review-formula-1",
+          "target": "chapter-20-recreation-h7"
+        },
+        {
+          "id": "chapter-20-review-formula-2",
+          "target": "chapter-20-recreation-h7"
+        },
+        {
+          "id": "p7150",
+          "target": "chapter-20-recreation-h7"
+        },
+        {
+          "id": "search-chapter-20-111",
+          "target": "chapter-20-recreation-h7"
+        },
+        {
+          "id": "search-chapter-20-112",
+          "target": "chapter-20-recreation-h7"
+        },
+        {
+          "id": "search-chapter-20-113",
+          "target": "chapter-20-recreation-h7"
+        },
+        {
+          "id": "search-chapter-20-114",
+          "target": "chapter-20-recreation-h7"
+        },
+        {
+          "id": "search-chapter-20-115",
+          "target": "chapter-20-recreation-h7"
+        },
+        {
+          "id": "search-chapter-20-116",
+          "target": "chapter-20-recreation-h7"
+        },
+        {
+          "id": "search-chapter-20-117",
+          "target": "chapter-20-recreation-h7"
+        },
+        {
+          "id": "search-chapter-20-118",
+          "target": "chapter-20-recreation-h7"
+        },
+        {
+          "id": "p7152",
+          "target": "chapter-20-recreation-h7"
+        },
+        {
+          "id": "search-chapter-20-120",
+          "target": "chapter-20-recreation-h7"
+        },
+        {
+          "id": "search-chapter-20-121",
+          "target": "chapter-20-recreation-h7"
+        },
+        {
+          "id": "search-chapter-20-122",
+          "target": "chapter-20-recreation-h7"
+        },
+        {
+          "id": "chapter-20-development-p2",
+          "target": "chapter-20-recreation-h7"
+        },
+        {
+          "id": "chapter-20-development-formula-2",
+          "target": "chapter-20-recreation-h7"
+        },
+        {
+          "id": "chapter-20-development-formula-3",
+          "target": "chapter-20-recreation-h7"
+        },
+        {
+          "id": "chapter-20-development-p4",
+          "target": "chapter-20-recreation-h7"
+        },
+        {
+          "id": "chapter-20-development-formula-4",
+          "target": "chapter-20-recreation-h7"
+        },
+        {
+          "id": "chapter-20-development-p5",
+          "target": "chapter-20-recreation-h7"
+        },
+        {
+          "id": "chapter-20-development-formula-5",
+          "target": "chapter-20-recreation-h7"
+        },
+        {
+          "id": "chapter-20-development-formula-6",
+          "target": "chapter-20-recreation-h7"
+        },
+        {
+          "id": "chapter-20-development-formula-7",
+          "target": "chapter-20-recreation-h7"
+        },
+        {
+          "id": "chapter-20-development-p6",
+          "target": "chapter-20-recreation-h7"
+        },
+        {
+          "id": "chapter-20-development-formula-8",
+          "target": "chapter-20-recreation-h7"
+        },
+        {
+          "id": "chapter-20-development-formula-9",
+          "target": "chapter-20-recreation-h7"
+        },
+        {
+          "id": "chapter-20-development-p8",
+          "target": "chapter-20-recreation-h7"
+        },
+        {
+          "id": "chapter-20-unit-8",
+          "target": "chapter-20-recreation-h8"
+        },
+        {
+          "id": "chapter-20-h553",
+          "target": "chapter-20-recreation-h8"
+        },
+        {
+          "id": "p7153",
+          "target": "chapter-20-recreation-h8"
+        },
+        {
+          "id": "search-chapter-20-125",
+          "target": "chapter-20-recreation-h8"
+        },
+        {
+          "id": "search-chapter-20-126",
+          "target": "chapter-20-recreation-h8"
+        },
+        {
+          "id": "search-chapter-20-127",
+          "target": "chapter-20-recreation-h8"
+        },
+        {
+          "id": "search-chapter-20-128",
+          "target": "chapter-20-recreation-h8"
+        },
+        {
+          "id": "search-chapter-20-129",
+          "target": "chapter-20-recreation-h8"
+        },
+        {
+          "id": "search-chapter-20-130",
+          "target": "chapter-20-recreation-h8"
+        },
+        {
+          "id": "chapter-20-development-p9",
+          "target": "chapter-20-recreation-h8"
+        },
+        {
+          "id": "chapter-20-development-formula-10",
+          "target": "chapter-20-recreation-h8"
+        },
+        {
+          "id": "chapter-20-development-formula-11",
+          "target": "chapter-20-recreation-h8"
+        },
+        {
+          "id": "chapter-20-development-formula-12",
+          "target": "chapter-20-recreation-h8"
+        },
+        {
+          "id": "chapter-20-development-p11",
+          "target": "chapter-20-recreation-h8"
+        },
+        {
+          "id": "chapter-20-development-formula-13",
+          "target": "chapter-20-recreation-h8"
+        },
+        {
+          "id": "chapter-20-development-formula-14",
+          "target": "chapter-20-recreation-h8"
+        },
+        {
+          "id": "chapter-20-development-formula-15",
+          "target": "chapter-20-recreation-h8"
+        },
+        {
+          "id": "p7155",
+          "target": "chapter-20-recreation-h8"
+        },
+        {
+          "id": "search-chapter-20-132",
+          "target": "chapter-20-recreation-h8"
+        },
+        {
+          "id": "search-chapter-20-133",
+          "target": "chapter-20-recreation-h8"
+        },
+        {
+          "id": "chapter-20-review-formula-3",
+          "target": "chapter-20-recreation-h8"
+        },
+        {
+          "id": "chapter-20-review-formula-4",
+          "target": "chapter-20-recreation-h8"
+        },
+        {
+          "id": "chapter-20-review-formula-5",
+          "target": "chapter-20-recreation-h8"
+        },
+        {
+          "id": "search-chapter-20-134",
+          "target": "chapter-20-recreation-h8"
+        },
+        {
+          "id": "search-chapter-20-135",
+          "target": "chapter-20-recreation-h8"
+        },
+        {
+          "id": "search-chapter-20-136",
+          "target": "chapter-20-recreation-h8"
+        },
+        {
+          "id": "search-chapter-20-137",
+          "target": "chapter-20-recreation-h8"
+        },
+        {
+          "id": "search-chapter-20-138",
+          "target": "chapter-20-recreation-h8"
+        },
+        {
+          "id": "search-chapter-20-139",
+          "target": "chapter-20-recreation-h8"
+        },
+        {
+          "id": "p7157",
+          "target": "chapter-20-recreation-h8"
+        },
+        {
+          "id": "chapter-20-review-formula-6",
+          "target": "chapter-20-recreation-h8"
+        },
+        {
+          "id": "chapter-20-review-formula-7",
+          "target": "chapter-20-recreation-h8"
+        },
+        {
+          "id": "chapter-20-review-formula-8",
+          "target": "chapter-20-recreation-h8"
+        },
+        {
+          "id": "chapter-20-review-formula-9",
+          "target": "chapter-20-recreation-h8"
+        },
+        {
+          "id": "chapter-20-review-formula-10",
+          "target": "chapter-20-recreation-h8"
+        },
+        {
+          "id": "chapter-20-review-formula-11",
+          "target": "chapter-20-recreation-h8"
+        },
+        {
+          "id": "chapter-20-review-formula-12",
+          "target": "chapter-20-recreation-h8"
+        },
+        {
+          "id": "chapter-20-review-formula-13",
+          "target": "chapter-20-recreation-h8"
+        },
+        {
+          "id": "search-chapter-20-141",
+          "target": "chapter-20-recreation-h8"
+        },
+        {
+          "id": "search-chapter-20-142",
+          "target": "chapter-20-recreation-h8"
+        },
+        {
+          "id": "chapter-20-review-formula-14",
+          "target": "chapter-20-recreation-h8"
+        },
+        {
+          "id": "search-chapter-20-143",
+          "target": "chapter-20-recreation-h8"
+        },
+        {
+          "id": "search-chapter-20-144",
+          "target": "chapter-20-recreation-h8"
+        },
+        {
+          "id": "chapter-20-development-p12",
+          "target": "chapter-20-recreation-h8"
+        },
+        {
+          "id": "chapter-20-development-formula-16",
+          "target": "chapter-20-recreation-h8"
+        },
+        {
+          "id": "chapter-20-development-formula-17",
+          "target": "chapter-20-recreation-h8"
+        },
+        {
+          "id": "chapter-20-development-formula-18",
+          "target": "chapter-20-recreation-h8"
+        },
+        {
+          "id": "chapter-20-development-p14",
+          "target": "chapter-20-recreation-h8"
+        },
+        {
+          "id": "chapter-20-development-formula-19",
+          "target": "chapter-20-recreation-h8"
+        },
+        {
+          "id": "chapter-20-development-p15",
+          "target": "chapter-20-recreation-h8"
+        },
+        {
+          "id": "chapter-20-unit-9",
+          "target": "chapter-20-recreation-h9"
+        },
+        {
+          "id": "chapter-20-h554",
+          "target": "chapter-20-recreation-h9"
+        },
+        {
+          "id": "p7158",
+          "target": "chapter-20-recreation-h9"
+        },
+        {
+          "id": "search-chapter-20-147",
+          "target": "chapter-20-recreation-h9"
+        },
+        {
+          "id": "search-chapter-20-148",
+          "target": "chapter-20-recreation-h9"
+        },
+        {
+          "id": "search-chapter-20-149",
+          "target": "chapter-20-recreation-h9"
+        },
+        {
+          "id": "search-chapter-20-150",
+          "target": "chapter-20-recreation-h9"
+        },
+        {
+          "id": "search-chapter-20-151",
+          "target": "chapter-20-recreation-h9"
+        },
+        {
+          "id": "search-chapter-20-152",
+          "target": "chapter-20-recreation-h9"
+        },
+        {
+          "id": "p7160",
+          "target": "chapter-20-recreation-h9"
+        },
+        {
+          "id": "chapter-20-review-formula-15",
+          "target": "chapter-20-recreation-h9"
+        },
+        {
+          "id": "chapter-20-review-formula-16",
+          "target": "chapter-20-recreation-h9"
+        },
+        {
+          "id": "search-chapter-20-154",
+          "target": "chapter-20-recreation-h9"
+        },
+        {
+          "id": "search-chapter-20-155",
+          "target": "chapter-20-recreation-h9"
+        },
+        {
+          "id": "search-chapter-20-156",
+          "target": "chapter-20-recreation-h9"
+        },
+        {
+          "id": "search-chapter-20-157",
+          "target": "chapter-20-recreation-h9"
+        },
+        {
+          "id": "chapter-20-development-p16",
+          "target": "chapter-20-recreation-h9"
+        },
+        {
+          "id": "chapter-20-development-formula-20",
+          "target": "chapter-20-recreation-h9"
+        },
+        {
+          "id": "chapter-20-development-formula-21",
+          "target": "chapter-20-recreation-h9"
+        },
+        {
+          "id": "chapter-20-development-formula-22",
+          "target": "chapter-20-recreation-h9"
+        },
+        {
+          "id": "chapter-20-development-formula-23",
+          "target": "chapter-20-recreation-h9"
+        },
+        {
+          "id": "chapter-20-development-formula-24",
+          "target": "chapter-20-recreation-h9"
+        },
+        {
+          "id": "chapter-20-development-formula-25",
+          "target": "chapter-20-recreation-h9"
+        },
+        {
+          "id": "chapter-20-development-formula-26",
+          "target": "chapter-20-recreation-h9"
+        },
+        {
+          "id": "chapter-20-development-p17",
+          "target": "chapter-20-recreation-h9"
+        },
+        {
+          "id": "chapter-20-development-formula-27",
+          "target": "chapter-20-recreation-h9"
+        },
+        {
+          "id": "p7161",
+          "target": "chapter-20-recreation-h9"
+        },
+        {
+          "id": "search-chapter-20-159",
+          "target": "chapter-20-recreation-h9"
+        },
+        {
+          "id": "search-chapter-20-160",
+          "target": "chapter-20-recreation-h9"
+        },
+        {
+          "id": "search-chapter-20-161",
+          "target": "chapter-20-recreation-h9"
+        },
+        {
+          "id": "search-chapter-20-162",
+          "target": "chapter-20-recreation-h9"
+        },
+        {
+          "id": "search-chapter-20-163",
+          "target": "chapter-20-recreation-h9"
+        },
+        {
+          "id": "search-chapter-20-164",
+          "target": "chapter-20-recreation-h9"
+        },
+        {
+          "id": "search-chapter-20-165",
+          "target": "chapter-20-recreation-h9"
+        },
+        {
+          "id": "search-chapter-20-166",
+          "target": "chapter-20-recreation-h9"
+        },
+        {
+          "id": "search-chapter-20-167",
+          "target": "chapter-20-recreation-h9"
+        },
+        {
+          "id": "chapter-20-unit-10",
+          "target": "chapter-20-recreation-h10"
+        },
+        {
+          "id": "chapter-20-h555",
+          "target": "chapter-20-recreation-h10"
+        },
+        {
+          "id": "p7162",
+          "target": "chapter-20-recreation-h10"
+        },
+        {
+          "id": "search-chapter-20-170",
+          "target": "chapter-20-recreation-h10"
+        },
+        {
+          "id": "search-chapter-20-171",
+          "target": "chapter-20-recreation-h10"
+        },
+        {
+          "id": "search-chapter-20-172",
+          "target": "chapter-20-recreation-h10"
+        },
+        {
+          "id": "search-chapter-20-173",
+          "target": "chapter-20-recreation-h10"
+        },
+        {
+          "id": "search-chapter-20-174",
+          "target": "chapter-20-recreation-h10"
+        },
+        {
+          "id": "search-chapter-20-175",
+          "target": "chapter-20-recreation-h10"
+        },
+        {
+          "id": "p7164",
+          "target": "chapter-20-recreation-h10"
+        },
+        {
+          "id": "search-chapter-20-177",
+          "target": "chapter-20-recreation-h10"
+        },
+        {
+          "id": "search-chapter-20-178",
+          "target": "chapter-20-recreation-h10"
+        },
+        {
+          "id": "search-chapter-20-179",
+          "target": "chapter-20-recreation-h10"
+        },
+        {
+          "id": "search-chapter-20-180",
+          "target": "chapter-20-recreation-h10"
+        },
+        {
+          "id": "chapter-20-development-p18",
+          "target": "chapter-20-recreation-h10"
+        },
+        {
+          "id": "chapter-20-development-formula-28",
+          "target": "chapter-20-recreation-h10"
+        },
+        {
+          "id": "chapter-20-development-formula-29",
+          "target": "chapter-20-recreation-h10"
+        },
+        {
+          "id": "chapter-20-development-formula-30",
+          "target": "chapter-20-recreation-h10"
+        },
+        {
+          "id": "chapter-20-development-formula-31",
+          "target": "chapter-20-recreation-h10"
+        },
+        {
+          "id": "chapter-20-development-formula-32",
+          "target": "chapter-20-recreation-h10"
+        },
+        {
+          "id": "chapter-20-development-formula-33",
+          "target": "chapter-20-recreation-h10"
+        },
+        {
+          "id": "chapter-20-development-p20",
+          "target": "chapter-20-recreation-h10"
+        },
+        {
+          "id": "p7166",
+          "target": "chapter-20-recreation-h10"
+        },
+        {
+          "id": "search-chapter-20-182",
+          "target": "chapter-20-recreation-h10"
+        },
+        {
+          "id": "search-chapter-20-183",
+          "target": "chapter-20-recreation-h10"
+        },
+        {
+          "id": "search-chapter-20-184",
+          "target": "chapter-20-recreation-h10"
+        },
+        {
+          "id": "search-chapter-20-185",
+          "target": "chapter-20-recreation-h10"
+        },
+        {
+          "id": "search-chapter-20-186",
+          "target": "chapter-20-recreation-h10"
+        },
+        {
+          "id": "search-chapter-20-187",
+          "target": "chapter-20-recreation-h10"
+        },
+        {
+          "id": "chapter-20-development-p21",
+          "target": "chapter-20-recreation-h10"
+        },
+        {
+          "id": "chapter-20-development-formula-34",
+          "target": "chapter-20-recreation-h10"
+        },
+        {
+          "id": "chapter-20-development-formula-35",
+          "target": "chapter-20-recreation-h10"
+        },
+        {
+          "id": "p7167",
+          "target": "chapter-20-recreation-h10"
+        },
+        {
+          "id": "search-chapter-20-189",
+          "target": "chapter-20-recreation-h10"
+        },
+        {
+          "id": "search-chapter-20-190",
+          "target": "chapter-20-recreation-h10"
+        },
+        {
+          "id": "search-chapter-20-191",
+          "target": "chapter-20-recreation-h10"
+        },
+        {
+          "id": "search-chapter-20-192",
+          "target": "chapter-20-recreation-h10"
+        },
+        {
+          "id": "search-chapter-20-193",
+          "target": "chapter-20-recreation-h10"
+        },
+        {
+          "id": "chapter-20-unit-11",
+          "target": "chapter-20-recreation-h11"
+        },
+        {
+          "id": "chapter-20-h556",
+          "target": "chapter-20-recreation-h11"
+        },
+        {
+          "id": "p7168",
+          "target": "chapter-20-recreation-h11"
+        },
+        {
+          "id": "search-chapter-20-196",
+          "target": "chapter-20-recreation-h11"
+        },
+        {
+          "id": "search-chapter-20-197",
+          "target": "chapter-20-recreation-h11"
+        },
+        {
+          "id": "search-chapter-20-198",
+          "target": "chapter-20-recreation-h11"
+        },
+        {
+          "id": "search-chapter-20-199",
+          "target": "chapter-20-recreation-h11"
+        },
+        {
+          "id": "search-chapter-20-200",
+          "target": "chapter-20-recreation-h11"
+        },
+        {
+          "id": "p7169",
+          "target": "chapter-20-recreation-h11"
+        },
+        {
+          "id": "search-chapter-20-202",
+          "target": "chapter-20-recreation-h11"
+        },
+        {
+          "id": "search-chapter-20-203",
+          "target": "chapter-20-recreation-h11"
+        },
+        {
+          "id": "search-chapter-20-204",
+          "target": "chapter-20-recreation-h11"
+        },
+        {
+          "id": "search-chapter-20-205",
+          "target": "chapter-20-recreation-h11"
+        },
+        {
+          "id": "search-chapter-20-206",
+          "target": "chapter-20-recreation-h11"
+        },
+        {
+          "id": "p7170",
+          "target": "chapter-20-recreation-h11"
+        },
+        {
+          "id": "chapter-20-unit-12",
+          "target": "chapter-20-recreation-h12"
+        },
+        {
+          "id": "chapter-20-h557",
+          "target": "chapter-20-recreation-h12"
+        },
+        {
+          "id": "p7171",
+          "target": "chapter-20-recreation-h12"
+        },
+        {
+          "id": "search-chapter-20-210",
+          "target": "chapter-20-recreation-h12"
+        },
+        {
+          "id": "search-chapter-20-211",
+          "target": "chapter-20-recreation-h12"
+        },
+        {
+          "id": "p7173",
+          "target": "chapter-20-recreation-h12"
+        },
+        {
+          "id": "search-chapter-20-213",
+          "target": "chapter-20-recreation-h12"
+        },
+        {
+          "id": "search-chapter-20-214",
+          "target": "chapter-20-recreation-h12"
+        },
+        {
+          "id": "search-chapter-20-215",
+          "target": "chapter-20-recreation-h12"
+        },
+        {
+          "id": "search-chapter-20-216",
+          "target": "chapter-20-recreation-h12"
+        },
+        {
+          "id": "search-chapter-20-217",
+          "target": "chapter-20-recreation-h12"
+        },
+        {
+          "id": "search-chapter-20-218",
+          "target": "chapter-20-recreation-h12"
+        },
+        {
+          "id": "search-chapter-20-219",
+          "target": "chapter-20-recreation-h12"
+        },
+        {
+          "id": "search-chapter-20-220",
+          "target": "chapter-20-recreation-h12"
+        },
+        {
+          "id": "search-chapter-20-221",
+          "target": "chapter-20-recreation-h12"
+        },
+        {
+          "id": "chapter-20-development-p22",
+          "target": "chapter-20-recreation-h12"
+        },
+        {
+          "id": "chapter-20-development-formula-36",
+          "target": "chapter-20-recreation-h12"
+        },
+        {
+          "id": "chapter-20-development-formula-37",
+          "target": "chapter-20-recreation-h12"
+        },
+        {
+          "id": "chapter-20-development-p24",
+          "target": "chapter-20-recreation-h12"
+        },
+        {
+          "id": "chapter-20-development-formula-38",
+          "target": "chapter-20-recreation-h12"
+        },
+        {
+          "id": "chapter-20-development-formula-39",
+          "target": "chapter-20-recreation-h12"
+        },
+        {
+          "id": "chapter-20-development-formula-40",
+          "target": "chapter-20-recreation-h12"
+        },
+        {
+          "id": "chapter-20-development-p25",
+          "target": "chapter-20-recreation-h12"
+        },
+        {
+          "id": "chapter-20-development-formula-41",
+          "target": "chapter-20-recreation-h12"
+        },
+        {
+          "id": "p7174",
+          "target": "chapter-20-recreation-h12"
+        },
+        {
+          "id": "search-chapter-20-223",
+          "target": "chapter-20-recreation-h12"
+        },
+        {
+          "id": "p7176",
+          "target": "chapter-20-recreation-h12"
+        },
+        {
+          "id": "chapter-20-review-formula-17",
+          "target": "chapter-20-recreation-h12"
+        },
+        {
+          "id": "chapter-20-unit-13",
+          "target": "chapter-20-recreation-h13"
+        },
+        {
+          "id": "chapter-20-h558",
+          "target": "chapter-20-recreation-h13"
+        },
+        {
+          "id": "p7177",
+          "target": "chapter-20-recreation-h13"
+        },
+        {
+          "id": "search-chapter-20-227",
+          "target": "chapter-20-recreation-h13"
+        },
+        {
+          "id": "search-chapter-20-228",
+          "target": "chapter-20-recreation-h13"
+        },
+        {
+          "id": "search-chapter-20-229",
+          "target": "chapter-20-recreation-h13"
+        },
+        {
+          "id": "p7179",
+          "target": "chapter-20-recreation-h13"
+        },
+        {
+          "id": "search-chapter-20-231",
+          "target": "chapter-20-recreation-h13"
+        },
+        {
+          "id": "search-chapter-20-232",
+          "target": "chapter-20-recreation-h13"
+        },
+        {
+          "id": "search-chapter-20-233",
+          "target": "chapter-20-recreation-h13"
+        },
+        {
+          "id": "p7180",
+          "target": "chapter-20-recreation-h13"
+        },
+        {
+          "id": "search-chapter-20-235",
+          "target": "chapter-20-recreation-h13"
+        },
+        {
+          "id": "search-chapter-20-236",
+          "target": "chapter-20-recreation-h13"
+        },
+        {
+          "id": "chapter-20-unit-14",
+          "target": "chapter-20-recreation-h14"
+        },
+        {
+          "id": "chapter-20-h559",
+          "target": "chapter-20-recreation-h14"
+        },
+        {
+          "id": "p7181",
+          "target": "chapter-20-recreation-h14"
+        },
+        {
+          "id": "search-chapter-20-239",
+          "target": "chapter-20-recreation-h14"
+        },
+        {
+          "id": "search-chapter-20-240",
+          "target": "chapter-20-recreation-h14"
+        },
+        {
+          "id": "search-chapter-20-241",
+          "target": "chapter-20-recreation-h14"
+        },
+        {
+          "id": "search-chapter-20-242",
+          "target": "chapter-20-recreation-h14"
+        },
+        {
+          "id": "search-chapter-20-243",
+          "target": "chapter-20-recreation-h14"
+        },
+        {
+          "id": "search-chapter-20-244",
+          "target": "chapter-20-recreation-h14"
+        },
+        {
+          "id": "p7182",
+          "target": "chapter-20-recreation-h14"
+        },
+        {
+          "id": "search-chapter-20-246",
+          "target": "chapter-20-recreation-h14"
+        },
+        {
+          "id": "search-chapter-20-247",
+          "target": "chapter-20-recreation-h14"
+        },
+        {
+          "id": "chapter-20-development-p26",
+          "target": "chapter-20-recreation-h14"
+        },
+        {
+          "id": "chapter-20-development-formula-42",
+          "target": "chapter-20-recreation-h14"
+        },
+        {
+          "id": "chapter-20-development-p28",
+          "target": "chapter-20-recreation-h14"
+        },
+        {
+          "id": "chapter-20-development-formula-43",
+          "target": "chapter-20-recreation-h14"
+        },
+        {
+          "id": "chapter-20-development-formula-44",
+          "target": "chapter-20-recreation-h14"
+        },
+        {
+          "id": "chapter-20-development-formula-45",
+          "target": "chapter-20-recreation-h14"
+        },
+        {
+          "id": "chapter-20-development-p30",
+          "target": "chapter-20-recreation-h14"
+        },
+        {
+          "id": "chapter-20-development-formula-46",
+          "target": "chapter-20-recreation-h14"
+        },
+        {
+          "id": "chapter-20-development-formula-47",
+          "target": "chapter-20-recreation-h14"
+        },
+        {
+          "id": "p7184",
+          "target": "chapter-20-recreation-h14"
+        },
+        {
+          "id": "search-chapter-20-249",
+          "target": "chapter-20-recreation-h14"
+        },
+        {
+          "id": "search-chapter-20-250",
+          "target": "chapter-20-recreation-h14"
+        },
+        {
+          "id": "search-chapter-20-251",
+          "target": "chapter-20-recreation-h14"
+        },
+        {
+          "id": "p7186",
+          "target": "chapter-20-recreation-h14"
+        },
+        {
+          "id": "chapter-20-unit-15",
+          "target": "chapter-20-recreation-h15"
+        },
+        {
+          "id": "chapter-20-h560",
+          "target": "chapter-20-recreation-h15"
+        },
+        {
+          "id": "p7187",
+          "target": "chapter-20-recreation-h15"
+        },
+        {
+          "id": "search-chapter-20-255",
+          "target": "chapter-20-recreation-h15"
+        },
+        {
+          "id": "p7188",
+          "target": "chapter-20-recreation-h15"
+        },
+        {
+          "id": "visual-finite-gw-family",
+          "target": "chapter-20-recreation-h15"
+        },
+        {
+          "id": "p7189",
+          "target": "chapter-20-recreation-h15"
+        },
+        {
+          "id": "image-finite-gw-family-en-svg",
+          "target": "chapter-20-recreation-h15"
+        },
+        {
+          "id": "p7190",
+          "target": "chapter-20-recreation-h15"
+        },
+        {
+          "id": "p7191",
+          "target": "chapter-20-recreation-h15"
+        },
+        {
+          "id": "chapter-20-unit-16",
+          "target": "chapter-20-recreation-h16"
+        },
+        {
+          "id": "chapter-20-h561",
+          "target": "chapter-20-recreation-h16"
+        },
+        {
+          "id": "p7192",
+          "target": "chapter-20-recreation-h16"
+        },
+        {
+          "id": "p7193",
+          "target": "chapter-20-recreation-h16"
+        },
+        {
+          "id": "p7194",
+          "target": "chapter-20-recreation-h16"
+        },
+        {
+          "id": "chapter-20-h562",
+          "target": "chapter-20-recreation-h17"
+        },
+        {
+          "id": "p7195",
+          "target": "chapter-20-recreation-h17"
+        },
+        {
+          "id": "search-chapter-20-266",
+          "target": "chapter-20-recreation-h17"
+        }
+      ],
+      "formulas": [
+        {
+          "id": "search-chapter-20-7",
+          "tex": "L",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-8",
+          "tex": "p_k=P(L=k)",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-9",
+          "tex": "L",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-10",
+          "tex": "j",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-11",
+          "tex": "j",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-13",
+          "tex": "Z_n",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-14",
+          "tex": "n",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-15",
+          "tex": "Z_0=1,\\qquad Z_{n+1}=\\sum_{j=1}^{Z_n}L_{n,j}.",
+          "display": true
+        },
+        {
+          "id": "search-chapter-20-17",
+          "tex": "\\mathcal F_n",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-18",
+          "tex": "n",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-21",
+          "tex": "f(s)=E s^L=\\sum_{k\\ge0}p_ks^k,\\qquad0\\le s\\le1,",
+          "display": true
+        },
+        {
+          "id": "search-chapter-20-23",
+          "tex": "0^0=1",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-24",
+          "tex": "E[s^{Z_{n+1}}\\mid\\mathcal F_n]=f(s)^{Z_n}",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-25",
+          "tex": "n",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-26",
+          "tex": "f^{\\circ n}(s)",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-28",
+          "tex": "r",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-29",
+          "tex": "r",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-30",
+          "tex": "(f^{\\circ n}(s))^r",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-33",
+          "tex": "q_n=P(Z_n=0)=f^{\\circ n}(0)",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-34",
+          "tex": "q_n\\uparrow q",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-35",
+          "tex": "q",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-36",
+          "tex": "f",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-37",
+          "tex": "[0,1]",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-38",
+          "tex": "f(q)=q",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-39",
+          "tex": "s\\in[0,1]",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-40",
+          "tex": "q_n\\le s",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-41",
+          "tex": "q\\le s",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-42",
+          "tex": "q=\\min\\{s\\in[0,1]:f(s)=s\\}.",
+          "display": true
+        },
+        {
+          "id": "search-chapter-20-44",
+          "tex": "q^r",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-47",
+          "tex": "m=EL",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-48",
+          "tex": "m=0",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-49",
+          "tex": "m>0",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-50",
+          "tex": "f",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-51",
+          "tex": "f'(1)=m",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-53",
+          "tex": "m<1",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-54",
+          "tex": "f(s)-s>0",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-55",
+          "tex": "s<1",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-56",
+          "tex": "m-1<0",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-57",
+          "tex": "m=1",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-58",
+          "tex": "P(L=1)<1",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-59",
+          "tex": "f(s)>s",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-60",
+          "tex": "s<1",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-62",
+          "tex": "L\\equiv1",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-63",
+          "tex": "m>1",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-64",
+          "tex": "f(s)-s",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-65",
+          "tex": "q<1",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-66",
+          "tex": "q,1",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-67",
+          "tex": "p_0=0",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-68",
+          "tex": "0<q<1",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-71",
+          "tex": "E[Z_{n+1}\\mid\\mathcal F_n]=mZ_n",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-72",
+          "tex": "EZ_n=m^n",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-73",
+          "tex": "p_0=1/4,p_2=3/4",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-74",
+          "tex": "3/2",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-75",
+          "tex": "q=1/3",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-77",
+          "tex": "p_0=p_2=1/2",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-80",
+          "tex": "m>0",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-81",
+          "tex": "W_n=Z_n/m^n",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-82",
+          "tex": "W",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-83",
+          "tex": "EW\\le1",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-84",
+          "tex": "W",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-86",
+          "tex": "\\sigma^2=\\operatorname{Var}L<\\infty",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-87",
+          "tex": "\\operatorname{Var}(W_n)=\\frac{\\sigma^2}{m(m-1)}(1-m^{-n}).",
+          "display": true
+        },
+        {
+          "id": "search-chapter-20-89",
+          "tex": "Z_{n+1}",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-90",
+          "tex": "\\sigma^2 Z_n",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-91",
+          "tex": "\\operatorname{Var}Z_{n+1}=m^2\\operatorname{Var}Z_n+\\sigma^2m^n",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-92",
+          "tex": "m^{2n+2}",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-93",
+          "tex": "W_n",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-94",
+          "tex": "L^2",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-95",
+          "tex": "L^2",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-96",
+          "tex": "L^1",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-97",
+          "tex": "EW=1",
+          "display": false
+        },
+        {
+          "id": "chapter-20-development-formula-1",
+          "tex": "EW_n=1",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-101",
+          "tex": "1<m<\\infty",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-102",
+          "tex": "P(\\widehat L=k)=\\frac{kp_k}{m},\\qquad k\\ge1.",
+          "display": true
+        },
+        {
+          "id": "search-chapter-20-105",
+          "tex": "\\widehat L",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-106",
+          "tex": "L",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-107",
+          "tex": "Q^*",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-108",
+          "tex": "Q",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-109",
+          "tex": "P",
+          "display": false
+        },
+        {
+          "id": "chapter-20-review-formula-1",
+          "tex": "P,Q",
+          "display": false
+        },
+        {
+          "id": "chapter-20-review-formula-2",
+          "tex": "\\mathcal F_\\infty=\\sigma(\\bigcup_n\\mathcal F_n)",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-111",
+          "tex": "t",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-112",
+          "tex": "n",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-113",
+          "tex": "p_k",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-114",
+          "tex": "(kp_k/m)(1/k)=p_k/m",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-115",
+          "tex": "P(t)/m^n",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-116",
+          "tex": "Z_n(t)",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-117",
+          "tex": "A\\in\\mathcal F_n",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-118",
+          "tex": "Q(A)=E_P[W_n\\mathbf1_A].",
+          "display": true
+        },
+        {
+          "id": "search-chapter-20-120",
+          "tex": "\\mathcal F_n",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-121",
+          "tex": "\\mathcal F_n",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-122",
+          "tex": "n",
+          "display": false
+        },
+        {
+          "id": "chapter-20-development-formula-2",
+          "tex": "K>0",
+          "display": false
+        },
+        {
+          "id": "chapter-20-development-formula-3",
+          "tex": "Q(W_n>K)=E_P[W_n\\mathbf1_{\\{W_n>K\\}}].",
+          "display": true
+        },
+        {
+          "id": "chapter-20-development-formula-4",
+          "tex": "n",
+          "display": false
+        },
+        {
+          "id": "chapter-20-development-formula-5",
+          "tex": "n",
+          "display": false
+        },
+        {
+          "id": "chapter-20-development-formula-6",
+          "tex": "Z_n/m^n",
+          "display": false
+        },
+        {
+          "id": "chapter-20-development-formula-7",
+          "tex": "n",
+          "display": false
+        },
+        {
+          "id": "chapter-20-development-formula-8",
+          "tex": "A\\in\\mathcal F_n",
+          "display": false
+        },
+        {
+          "id": "chapter-20-development-formula-9",
+          "tex": "E_P[W_{n+1}\\mathbf1_A]=E_P[W_n\\mathbf1_A].",
+          "display": true
+        },
+        {
+          "id": "search-chapter-20-125",
+          "tex": "dQ=W\\,dP",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-126",
+          "tex": "\\mathcal F_\\infty",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-127",
+          "tex": "\\mu=(P+Q)/2",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-128",
+          "tex": "\\alpha=dP/d\\mu,\\beta=dQ/d\\mu",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-129",
+          "tex": "\\alpha+\\beta=2",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-130",
+          "tex": "E_\\mu[\\alpha\\mid\\mathcal F_n]=\\frac2{1+W_n},\\qquad\nE_\\mu[\\beta\\mid\\mathcal F_n]=\\frac{2W_n}{1+W_n}.",
+          "display": true
+        },
+        {
+          "id": "chapter-20-development-formula-10",
+          "tex": "\\mathcal F_n",
+          "display": false
+        },
+        {
+          "id": "chapter-20-development-formula-11",
+          "tex": "A\\in\\mathcal F_n",
+          "display": false
+        },
+        {
+          "id": "chapter-20-development-formula-12",
+          "tex": "\\int_A\\frac2{1+W_n}\\,d\\mu\n=\\int_A\\frac2{1+W_n}\\frac{1+W_n}{2}\\,dP\n=P(A)=\\int_A\\alpha\\,d\\mu.",
+          "display": true
+        },
+        {
+          "id": "chapter-20-development-formula-13",
+          "tex": "\\mu",
+          "display": false
+        },
+        {
+          "id": "chapter-20-development-formula-14",
+          "tex": "P",
+          "display": false
+        },
+        {
+          "id": "chapter-20-development-formula-15",
+          "tex": "Q",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-132",
+          "tex": "d\\mu=(1+W_n)dP/2",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-133",
+          "tex": "\\alpha,\\beta",
+          "display": false
+        },
+        {
+          "id": "chapter-20-review-formula-3",
+          "tex": "\\alpha+\\beta=2",
+          "display": false
+        },
+        {
+          "id": "chapter-20-review-formula-4",
+          "tex": "\\mu",
+          "display": false
+        },
+        {
+          "id": "chapter-20-review-formula-5",
+          "tex": "P,Q\\ll\\mu",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-134",
+          "tex": "\\alpha>0",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-135",
+          "tex": "W_n\\to\\beta/\\alpha<\\infty",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-136",
+          "tex": "\\alpha=0",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-137",
+          "tex": "W_n\\to\\infty",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-138",
+          "tex": "P(\\alpha=0)=0",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-139",
+          "tex": "E_PW=\\int_{\\{\\alpha>0\\}}\\beta\\,d\\mu\n=Q(\\alpha>0)\n=Q(\\limsup_n W_n<\\infty).",
+          "display": true
+        },
+        {
+          "id": "chapter-20-review-formula-6",
+          "tex": "A",
+          "display": false
+        },
+        {
+          "id": "chapter-20-review-formula-7",
+          "tex": "Q",
+          "display": false
+        },
+        {
+          "id": "chapter-20-review-formula-8",
+          "tex": "P",
+          "display": false
+        },
+        {
+          "id": "chapter-20-review-formula-9",
+          "tex": "W\\,dP",
+          "display": false
+        },
+        {
+          "id": "chapter-20-review-formula-10",
+          "tex": "E_PW=1",
+          "display": false
+        },
+        {
+          "id": "chapter-20-review-formula-11",
+          "tex": "Q",
+          "display": false
+        },
+        {
+          "id": "chapter-20-review-formula-12",
+          "tex": "E_PW=0",
+          "display": false
+        },
+        {
+          "id": "chapter-20-review-formula-13",
+          "tex": "Q",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-141",
+          "tex": "EW=1",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-142",
+          "tex": "L^1",
+          "display": false
+        },
+        {
+          "id": "chapter-20-review-formula-14",
+          "tex": "Q",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-143",
+          "tex": "EW=0",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-144",
+          "tex": "W=0",
+          "display": false
+        },
+        {
+          "id": "chapter-20-development-formula-16",
+          "tex": "D=\\{\\alpha>0\\}",
+          "display": false
+        },
+        {
+          "id": "chapter-20-development-formula-17",
+          "tex": "A\\in\\mathcal F_\\infty",
+          "display": false
+        },
+        {
+          "id": "chapter-20-development-formula-18",
+          "tex": "Q(A\\cap D)=\\int_A W\\,dP,\\qquad\nQ(D^c)=1-E_PW,\\qquad P(D^c)=0.",
+          "display": true
+        },
+        {
+          "id": "chapter-20-development-formula-19",
+          "tex": "D^c",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-147",
+          "tex": "Y_k=\\widehat L_k-1",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-148",
+          "tex": "k",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-149",
+          "tex": "k-1",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-150",
+          "tex": "Q^*",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-151",
+          "tex": "\\log^+0=0",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-152",
+          "tex": "E_{Q^*}\\log^+Y_1=\\frac1mE_P[L\\log^+(L-1)].",
+          "display": true
+        },
+        {
+          "id": "chapter-20-review-formula-15",
+          "tex": "L=0",
+          "display": false
+        },
+        {
+          "id": "chapter-20-review-formula-16",
+          "tex": "\\sum_{k\\ge1}kp_k\\log^+(k-1)",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-154",
+          "tex": "k\\ge2",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-155",
+          "tex": "0\\le\\log k-\\log(k-1)\\le\\log2",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-156",
+          "tex": "EL<\\infty",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-157",
+          "tex": "E[L\\log^+L]<\\infty",
+          "display": false
+        },
+        {
+          "id": "chapter-20-development-formula-20",
+          "tex": "k",
+          "display": false
+        },
+        {
+          "id": "chapter-20-development-formula-21",
+          "tex": "m^k",
+          "display": false
+        },
+        {
+          "id": "chapter-20-development-formula-22",
+          "tex": "Y_k",
+          "display": false
+        },
+        {
+          "id": "chapter-20-development-formula-23",
+          "tex": "\\log^+Y_k",
+          "display": false
+        },
+        {
+          "id": "chapter-20-development-formula-24",
+          "tex": "p_j",
+          "display": false
+        },
+        {
+          "id": "chapter-20-development-formula-25",
+          "tex": "j/m",
+          "display": false
+        },
+        {
+          "id": "chapter-20-development-formula-26",
+          "tex": "L\\log L",
+          "display": false
+        },
+        {
+          "id": "chapter-20-development-formula-27",
+          "tex": "E_{Q^*}Y_1=\\infty",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-159",
+          "tex": "V",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-160",
+          "tex": "EV<\\infty",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-161",
+          "tex": "\\sum_nP(V>cn)<\\infty",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-162",
+          "tex": "c>0",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-163",
+          "tex": "V_k",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-164",
+          "tex": "c",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-165",
+          "tex": "V_k/k\\to0",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-166",
+          "tex": "c",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-167",
+          "tex": "\\limsup V_k/k=\\infty",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-170",
+          "tex": "E[L\\log^+L]<\\infty",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-171",
+          "tex": "V_k=\\log^+Y_k",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-172",
+          "tex": "Y_k",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-173",
+          "tex": "0<\\varepsilon<\\log m",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-174",
+          "tex": "Y_k\\le e^{\\varepsilon k}",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-175",
+          "tex": "\\sum_{k\\ge1}\\frac{Y_k}{m^k}<\\infty\\qquad Q^*\\text{-a.s.}",
+          "display": true
+        },
+        {
+          "id": "search-chapter-20-177",
+          "tex": "y_k",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-178",
+          "tex": "A_n",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-179",
+          "tex": "n",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-180",
+          "tex": "A_0=0,\\qquad A_{n+1}=\\sum_{j=1}^{A_n}L_{n,j}+y_{n+1}.",
+          "display": true
+        },
+        {
+          "id": "chapter-20-development-formula-28",
+          "tex": "W_r^{(k,j)}",
+          "display": false
+        },
+        {
+          "id": "chapter-20-development-formula-29",
+          "tex": "r",
+          "display": false
+        },
+        {
+          "id": "chapter-20-development-formula-30",
+          "tex": "j",
+          "display": false
+        },
+        {
+          "id": "chapter-20-development-formula-31",
+          "tex": "k",
+          "display": false
+        },
+        {
+          "id": "chapter-20-development-formula-32",
+          "tex": "n",
+          "display": false
+        },
+        {
+          "id": "chapter-20-development-formula-33",
+          "tex": "\\frac{A_n}{m^n}\n=\\sum_{k=1}^n m^{-k}\\sum_{j=1}^{y_k}W_{n-k}^{(k,j)},\\qquad\nE\\frac{A_n}{m^n}=\\sum_{k=1}^n\\frac{y_k}{m^k}.",
+          "display": true
+        },
+        {
+          "id": "search-chapter-20-182",
+          "tex": "A_n/m^n",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-183",
+          "tex": "y_{n+1}/m^{n+1}",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-184",
+          "tex": "\\sum_{k\\le n}y_k/m^k",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-185",
+          "tex": "Z_n=1+A_n",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-186",
+          "tex": "W_n=m^{-n}+A_n/m^n",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-187",
+          "tex": "Q",
+          "display": false
+        },
+        {
+          "id": "chapter-20-development-formula-34",
+          "tex": "m",
+          "display": false
+        },
+        {
+          "id": "chapter-20-development-formula-35",
+          "tex": "A_n/m^n",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-189",
+          "tex": "W_n",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-190",
+          "tex": "m^{-n}",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-191",
+          "tex": "EW=1",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-192",
+          "tex": "W_n\\to W",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-193",
+          "tex": "L^1",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-196",
+          "tex": "E[L\\log^+L]=\\infty",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-197",
+          "tex": "E\\log^+Y_1=\\infty",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-198",
+          "tex": "\\limsup\\log^+Y_n/n=\\infty",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-199",
+          "tex": "\\log m",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-200",
+          "tex": "Y_n/m^n",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-202",
+          "tex": "n",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-203",
+          "tex": "Y_n",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-204",
+          "tex": "\\limsup W_n=\\infty",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-205",
+          "tex": "Q",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-206",
+          "tex": "W=0",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-210",
+          "tex": "x\\log x",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-211",
+          "tex": "W=\\frac1m\\sum_{j=1}^{L}W^{(j)}.",
+          "display": true
+        },
+        {
+          "id": "search-chapter-20-213",
+          "tex": "r=P(W=0)",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-214",
+          "tex": "r=f(r)",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-215",
+          "tex": "W=0",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-216",
+          "tex": "q\\le r",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-217",
+          "tex": "EW=1",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-218",
+          "tex": "r=1",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-219",
+          "tex": "q,1",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-220",
+          "tex": "r=q",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-221",
+          "tex": "W>0",
+          "display": false
+        },
+        {
+          "id": "chapter-20-development-formula-36",
+          "tex": "L",
+          "display": false
+        },
+        {
+          "id": "chapter-20-development-formula-37",
+          "tex": "\\frac{Z_n}{m^n}=\\frac1m\\sum_{j=1}^{L}\n\\frac{Z_{n-1}^{(j)}}{m^{n-1}}",
+          "display": true
+        },
+        {
+          "id": "chapter-20-development-formula-38",
+          "tex": "L",
+          "display": false
+        },
+        {
+          "id": "chapter-20-development-formula-39",
+          "tex": "L",
+          "display": false
+        },
+        {
+          "id": "chapter-20-development-formula-40",
+          "tex": "r^L",
+          "display": false
+        },
+        {
+          "id": "chapter-20-development-formula-41",
+          "tex": "EW=1",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-223",
+          "tex": "E[L\\log^+L]<\\infty\n\\quad\\Longleftrightarrow\\quad EW=1\n\\quad\\Longleftrightarrow\\quad (W_n)\\text{ is UI},",
+          "display": true
+        },
+        {
+          "id": "chapter-20-review-formula-17",
+          "tex": "P",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-227",
+          "tex": "p_2=1/2",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-228",
+          "tex": "k\\ge3",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-229",
+          "tex": "p_k=\\frac{c}{k^2(\\log k)^2},\\qquad\np_0=\\frac12-\\sum_{k\\ge3}p_k,\\qquad c=1/10.",
+          "display": true
+        },
+        {
+          "id": "search-chapter-20-231",
+          "tex": "c\\sum_{k\\ge3}k^{-2}<1/2",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-232",
+          "tex": "m=1+c\\sum_{k\\ge3}[k(\\log k)^2]^{-1}",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-233",
+          "tex": "c\\sum_{k\\ge3}[k\\log k]^{-1}",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-235",
+          "tex": "Z_n/m^n\\to0",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-236",
+          "tex": "Z_n\\to0",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-239",
+          "tex": "m=1",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-240",
+          "tex": "L\\equiv1",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-241",
+          "tex": "0<\\sigma^2=\\operatorname{Var}L<\\infty",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-242",
+          "tex": "a_n=P(Z_n>0)",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-243",
+          "tex": "a_n\\downarrow0",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-244",
+          "tex": "a_{n+1}=1-f(1-a_n)",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-246",
+          "tex": "f''(s)=E[L(L-1)s^{L-2};L\\ge2]\\uparrow\\sigma^2",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-247",
+          "tex": "a_{n+1}=a_n-\\frac{\\sigma^2}{2}a_n^2+o(a_n^2).",
+          "display": true
+        },
+        {
+          "id": "chapter-20-development-formula-42",
+          "tex": "f(1-a)=1-a+a^2\\int_0^1(1-v)f''(1-av)\\,dv,\\qquad 0<a<1.",
+          "display": true
+        },
+        {
+          "id": "chapter-20-development-formula-43",
+          "tex": "f''(1-)=\\sigma^2",
+          "display": false
+        },
+        {
+          "id": "chapter-20-development-formula-44",
+          "tex": "\\sigma^2/2",
+          "display": false
+        },
+        {
+          "id": "chapter-20-development-formula-45",
+          "tex": "\\frac1{a_{n+1}}-\\frac1{a_n}\n=\\frac{a_n-a_{n+1}}{a_n^2}\\frac{a_n}{a_{n+1}}\n\\longrightarrow\\frac{\\sigma^2}{2}.",
+          "display": true
+        },
+        {
+          "id": "chapter-20-development-formula-46",
+          "tex": "m^k",
+          "display": false
+        },
+        {
+          "id": "chapter-20-development-formula-47",
+          "tex": "L\\log L",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-249",
+          "tex": "a_{n+1}/a_n\\to1",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-250",
+          "tex": "a_{n+1}^{-1}-a_n^{-1}\\to\\sigma^2/2",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-251",
+          "tex": "nP(Z_n>0)\\longrightarrow\\frac2{\\sigma^2}.",
+          "display": true
+        },
+        {
+          "id": "search-chapter-20-255",
+          "tex": "Z_0,Z_1,\\ldots",
+          "display": false
+        },
+        {
+          "id": "search-chapter-20-266",
+          "tex": "1<m<\\infty",
+          "display": false
+        }
+      ]
+    }
+  }
+}

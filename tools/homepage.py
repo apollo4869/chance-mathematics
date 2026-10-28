@@ -11,7 +11,15 @@ EN_TITLES = [
     'The Rebirth of the Mean: From Weighted Sums to Lebesgue Integration',
     'What Does Convergence Mean? Four Limits in a Random World',
     'How Can We Construct an Infinite Random Experiment?',
+    'After Seeing Part of the World: Conditional Expectation and Information',
+    'How Can One Probability Be Decomposed in Terms of Another? Densities, Conditional Laws and Kernels',
+    'How Can a Distribution Be Recorded by a Function? Characteristic Functions, Independent Sums and Gaussian Limits',
 ]
+EN_TITLES.append('When Can Infinitely Many Additions Still Have an Answer?')
+EN_TITLES.append('Why Do Rare Events Produce New Stable Laws?')
+EN_TITLES.append('Not Every Limit Is Gaussian—Triangular Arrays, Stable Laws and Infinite Divisibility')
+EN_TITLES.append('What Becomes of a Game That Remains Fair Forever?')
+EN_TITLES.extend(['What If the Player Chooses When to Stop?','Does the Present Suffice to Determine the Future?','Why Do Some Random Walks Return While Others Escape?','Waiting for a New Beginning','How Does One Ancestor Become a Random Family?'])
 EN_DESCRIPTIONS = [
     'Fairness, symmetry, independence and additivity, beginning with an interrupted game.',
     'Frequencies, Bernoulli, Bayes and the problem of inference.',
@@ -21,9 +29,46 @@ EN_DESCRIPTIONS = [
     'Integration, expectation and the conditions for exchanging a limit with an integral.',
     'Rare recurring events, moving windows, spikes and uniform integrability.',
     'Consistent finite-dimensional rules, measure extension and a common space of records.',
+    'Fair prices, observable information, orthogonal prediction and Bayesian updating.',
+    'Densities, singular mass, regular conditional laws, disintegration and sequential experiments.',
+    'Bounded frequency readings, inversion, Lévy continuity and a complete finite-variance central limit proof.',
 ]
+EN_DESCRIPTIONS.append('First crossings, independent series, three-series criteria, integrable strong laws and tail information.')
+EN_DESCRIPTIONS.append('Rare counts, Le Cam coupling, independent marks, Laplace transforms and the lattice local central limit theorem.')
+EN_DESCRIPTIONS.append('Changing independent rows, Lindeberg–Feller, multivariate limits, stable attraction and infinite divisibility.')
+EN_DESCRIPTIONS.append('Fair capital, maximal and crossing estimates, closed martingales, Lp convergence and decreasing information.')
+EN_TITLES.append('Waiting without Memory—The Poisson Process')
 STAR = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="m12 2.8 2.8 5.7 6.3.9-4.6 4.5 1.1 6.3-5.6-3-5.6 3 1.1-6.3L2.9 9.4l6.3-.9Z"/></svg>'
 
+
+EN_DESCRIPTIONS.extend(['Stopping rules, bounded sampling, UI settlement and gambling counterexamples.','Markov kernels, sequential construction, strong Markov and stationary structure.','Returns, Green functions and the dimensional fate of random walks.','Renewal equations, key renewal, length bias and stationary waiting.','Extinction, population martingales, spines and the x log x condition.'])
+
+EN_DESCRIPTIONS.append('Exponential waits, counting paths, independent windows, compensated martingales and split or merged streams.')
+
+EN_TITLES.append('How Can a Random Process Jump?—Continuous-Time Markov Chains')
+EN_DESCRIPTIONS.append('State-dependent clocks, minimal jump chains, explosion, Kolmogorov equations, invariant laws and timed branching.')
+
+EN_TITLES.append('How Can Gaussian Snapshots Become Continuous Paths?—Continuous Modifications, Gaussian Processes and Wiener Measure')
+EN_DESCRIPTIONS.append('Gaussian covariance, countable-grid continuity, Wiener measure, bridges, Ornstein–Uhlenbeck motion and isonormal geometry.')
+
+EN_TITLES.append('How Can an Entire Random Path Converge?—Portmanteau, Prokhorov and Function-Space Topologies')
+EN_DESCRIPTIONS.append('From missed spikes to Polish weak limits, coupling, continuous-path tightness and jump-time alignment.')
+
+EN_TITLES.append('When Does a Random Walk Become Brownian Motion?—Donsker’s Invariance Principle')
+EN_TITLES.append('Why Is a Continuous Path So Rough?')
+EN_DESCRIPTIONS.append('Finite-variance path limits through fixed truncation, maximal estimates, empirical bridges and inverse renewal clocks.')
+EN_DESCRIPTIONS.append('From first-hit reflection to nowhere differentiability, exact oscillation, functional LIL and arcsine occupation laws.')
+EN_TITLES.append('What If Random Motion Jumps as Well as Diffuses?—Lévy Processes and Lévy–Khintchine Theory')
+EN_DESCRIPTIONS.append('Compensated small jumps, Lévy triplets, original-space decomposition, stable attraction and jump limits.')
+
+EN_TITLES.append('Why Does Random Motion Produce Deterministic Equations? Semigroups, Generators and Resolvents')
+EN_DESCRIPTIONS.append('Expected observations, generator domains, discounted occupation, Yosida construction and regular Markov paths.')
+EN_TITLES.append('When Small Probabilities Become Exponentially Small—Large Deviations')
+EN_DESCRIPTIONS.append('From all-heads records to exponential tilting, entropy, empirical measures and squared Brownian path energy.')
+EN_TITLES.append('What Does It Mean to Know Before It Happens?')
+EN_DESCRIPTIONS.append('Newly observed arrivals, optional and predictable information, regularization, Doob–Meyer and finite-variation compensation.')
+EN_TITLES.append('How Can We Integrate Along a Nondifferentiable Random Path?—Itô Integral and Quadratic Variation')
+EN_DESCRIPTIONS.append('Left sums and surviving squares, Itô isometry, predictable L2 extension, continuous martingale brackets and random energy clocks.')
 
 def repository_url(config):
     repo = config.get('github_repository')
@@ -62,7 +107,7 @@ def hero(config, count, english=False):
         start, contents = 'Start reading', 'Explore the contents'
         downloads = ('<a href="/downloads/complete-offline.zip" download>Offline bilingual edition ↓</a>'
                      '<a href="/downloads/english-manuscript.zip" download>English manuscripts ↓</a>')
-        language_note = '<p class="language-note">Complete English translations of all eight chapters and their proof materials. A working translation for author review, with the Chinese manuscripts preserved independently.</p>'
+        language_note = f'<p class="language-note">Complete English translations of all {count} chapters and their proof materials. A working translation for author review, with the Chinese manuscripts preserved independently.</p>'
         community_note = 'Follow the project when its repository becomes available.' if not repo else 'Read the source and follow the book on GitHub.'
         cover_alt = 'The Mathematics of Chance, book cover'
     else:
@@ -82,9 +127,9 @@ def hero(config, count, english=False):
             '<figure class="home-book"><img src="/assets/ui/book-cover.svg" width="400" height="540" alt="'+cover_alt+'"></figure>'
             '<div class="hero-copy"><div class="hero-title-block"><div class="eyebrow">'+eyebrow+'</div>'
             '<h1 id="book-title">'+title+'</h1><p class="hero-subtitle">'+subtitle+'</p>'
-            '<p class="hero-english-title">'+secondary_title+'</p></div><div class="hero-reading-block">'
+            '<p class="hero-english-title">'+secondary_title+'</p><p class="hero-author">'+('By ' if english else '作者：')+'<a href="'+('/en' if english else '')+'/author.html">Haobai Wang</a></p></div><div class="hero-reading-block">'
             '<p class="hero-intro">'+intro+'</p><p class="hero-status">'+status+'</p>'
-            '<div class="hero-actions"><a class="primary" href="'+('/en' if english else '')+'/chapters/01-gambling.html">'+start+' <span>→</span></a>'
+            '<div class="hero-actions"><a class="primary" href="'+('/en' if english else '')+'/volumes/01-opening.html">'+start+' <span>→</span></a>'
             '<a class="secondary" href="#contents">'+contents+'</a><button id="resume" hidden>'+('Resume reading' if english else '继续上次阅读')+'</button></div>'
             '<div class="hero-resources">'+downloads+'</div><div class="hero-community">'+star+
             '<span class="hero-community-note">'+community_note+'</span></div>'+language_note+'</div></div></section>')

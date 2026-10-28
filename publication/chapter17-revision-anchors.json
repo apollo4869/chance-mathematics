@@ -1,0 +1,2946 @@
+{
+  "chapter": 17,
+  "purpose": "Keep previous bookmarks at corresponding actual proofs; no duplication of retired text.",
+  "languages": {
+    "zh": {
+      "anchors": [
+        {
+          "id": "chapter-17-unit-0",
+          "target": "chapter-17-h489"
+        },
+        {
+          "id": "chapter-17-h489",
+          "target": "chapter-17-h489"
+        },
+        {
+          "id": "p6904",
+          "target": "chapter-17-h489"
+        },
+        {
+          "id": "p6905",
+          "target": "chapter-17-h489"
+        },
+        {
+          "id": "chapter-17-unit-1",
+          "target": "chapter-17-h490"
+        },
+        {
+          "id": "chapter-17-h490",
+          "target": "chapter-17-h490"
+        },
+        {
+          "id": "p6906",
+          "target": "chapter-17-h490"
+        },
+        {
+          "id": "search-chapter-17-6",
+          "target": "chapter-17-h490"
+        },
+        {
+          "id": "search-chapter-17-7",
+          "target": "chapter-17-h490"
+        },
+        {
+          "id": "search-chapter-17-8",
+          "target": "chapter-17-h490"
+        },
+        {
+          "id": "search-chapter-17-9",
+          "target": "chapter-17-h490"
+        },
+        {
+          "id": "search-chapter-17-10",
+          "target": "chapter-17-h490"
+        },
+        {
+          "id": "search-chapter-17-11",
+          "target": "chapter-17-h490"
+        },
+        {
+          "id": "p6908",
+          "target": "chapter-17-h490"
+        },
+        {
+          "id": "search-chapter-17-13",
+          "target": "chapter-17-h490"
+        },
+        {
+          "id": "search-chapter-17-14",
+          "target": "chapter-17-h490"
+        },
+        {
+          "id": "search-chapter-17-15",
+          "target": "chapter-17-h490"
+        },
+        {
+          "id": "p6909",
+          "target": "chapter-17-h490"
+        },
+        {
+          "id": "chapter-17-unit-2",
+          "target": "chapter-17-h491"
+        },
+        {
+          "id": "chapter-17-h491",
+          "target": "chapter-17-h491"
+        },
+        {
+          "id": "p6910",
+          "target": "chapter-17-h491"
+        },
+        {
+          "id": "search-chapter-17-19",
+          "target": "chapter-17-h491"
+        },
+        {
+          "id": "search-chapter-17-20",
+          "target": "chapter-17-h491"
+        },
+        {
+          "id": "search-chapter-17-21",
+          "target": "chapter-17-h491"
+        },
+        {
+          "id": "search-chapter-17-22",
+          "target": "chapter-17-h491"
+        },
+        {
+          "id": "search-chapter-17-23",
+          "target": "chapter-17-h491"
+        },
+        {
+          "id": "p6911",
+          "target": "chapter-17-h491"
+        },
+        {
+          "id": "chapter-17-development-p1",
+          "target": "chapter-17-h491"
+        },
+        {
+          "id": "chapter-17-development-formula-1",
+          "target": "chapter-17-h491"
+        },
+        {
+          "id": "chapter-17-development-formula-2",
+          "target": "chapter-17-h491"
+        },
+        {
+          "id": "chapter-17-development-formula-3",
+          "target": "chapter-17-h491"
+        },
+        {
+          "id": "chapter-17-development-formula-4",
+          "target": "chapter-17-h491"
+        },
+        {
+          "id": "chapter-17-development-formula-5",
+          "target": "chapter-17-h491"
+        },
+        {
+          "id": "chapter-17-development-formula-6",
+          "target": "chapter-17-h491"
+        },
+        {
+          "id": "chapter-17-development-p3",
+          "target": "chapter-17-h491"
+        },
+        {
+          "id": "chapter-17-development-p4",
+          "target": "chapter-17-h491"
+        },
+        {
+          "id": "chapter-17-development-formula-7",
+          "target": "chapter-17-h491"
+        },
+        {
+          "id": "chapter-17-development-formula-8",
+          "target": "chapter-17-h491"
+        },
+        {
+          "id": "chapter-17-development-formula-9",
+          "target": "chapter-17-h491"
+        },
+        {
+          "id": "chapter-17-development-formula-10",
+          "target": "chapter-17-h491"
+        },
+        {
+          "id": "chapter-17-development-p6",
+          "target": "chapter-17-h491"
+        },
+        {
+          "id": "chapter-17-development-formula-11",
+          "target": "chapter-17-h491"
+        },
+        {
+          "id": "chapter-17-development-formula-12",
+          "target": "chapter-17-h491"
+        },
+        {
+          "id": "chapter-17-development-p8",
+          "target": "chapter-17-h491"
+        },
+        {
+          "id": "p6912",
+          "target": "chapter-17-h491"
+        },
+        {
+          "id": "search-chapter-17-26",
+          "target": "chapter-17-h491"
+        },
+        {
+          "id": "search-chapter-17-27",
+          "target": "chapter-17-h491"
+        },
+        {
+          "id": "search-chapter-17-28",
+          "target": "chapter-17-h491"
+        },
+        {
+          "id": "search-chapter-17-29",
+          "target": "chapter-17-h491"
+        },
+        {
+          "id": "search-chapter-17-30",
+          "target": "chapter-17-h491"
+        },
+        {
+          "id": "chapter-17-development-p9",
+          "target": "chapter-17-h491"
+        },
+        {
+          "id": "chapter-17-development-formula-13",
+          "target": "chapter-17-h491"
+        },
+        {
+          "id": "chapter-17-development-formula-14",
+          "target": "chapter-17-h491"
+        },
+        {
+          "id": "chapter-17-development-formula-15",
+          "target": "chapter-17-h491"
+        },
+        {
+          "id": "chapter-17-development-formula-16",
+          "target": "chapter-17-h491"
+        },
+        {
+          "id": "chapter-17-development-p11",
+          "target": "chapter-17-h491"
+        },
+        {
+          "id": "chapter-17-development-formula-17",
+          "target": "chapter-17-h491"
+        },
+        {
+          "id": "chapter-17-development-formula-18",
+          "target": "chapter-17-h491"
+        },
+        {
+          "id": "chapter-17-development-p13",
+          "target": "chapter-17-h491"
+        },
+        {
+          "id": "chapter-17-development-formula-19",
+          "target": "chapter-17-h491"
+        },
+        {
+          "id": "chapter-17-development-formula-20",
+          "target": "chapter-17-h491"
+        },
+        {
+          "id": "chapter-17-unit-3",
+          "target": "chapter-17-h492"
+        },
+        {
+          "id": "chapter-17-h492",
+          "target": "chapter-17-h492"
+        },
+        {
+          "id": "p6913",
+          "target": "chapter-17-h492"
+        },
+        {
+          "id": "search-chapter-17-33",
+          "target": "chapter-17-h492"
+        },
+        {
+          "id": "search-chapter-17-34",
+          "target": "chapter-17-h492"
+        },
+        {
+          "id": "p6915",
+          "target": "chapter-17-h492"
+        },
+        {
+          "id": "search-chapter-17-36",
+          "target": "chapter-17-h492"
+        },
+        {
+          "id": "search-chapter-17-37",
+          "target": "chapter-17-h492"
+        },
+        {
+          "id": "p6917",
+          "target": "chapter-17-h492"
+        },
+        {
+          "id": "chapter-17-development-p14",
+          "target": "chapter-17-h492"
+        },
+        {
+          "id": "chapter-17-development-formula-21",
+          "target": "chapter-17-h492"
+        },
+        {
+          "id": "chapter-17-development-formula-22",
+          "target": "chapter-17-h492"
+        },
+        {
+          "id": "chapter-17-development-p16",
+          "target": "chapter-17-h492"
+        },
+        {
+          "id": "chapter-17-development-formula-23",
+          "target": "chapter-17-h492"
+        },
+        {
+          "id": "p6918",
+          "target": "chapter-17-h492"
+        },
+        {
+          "id": "search-chapter-17-40",
+          "target": "chapter-17-h492"
+        },
+        {
+          "id": "search-chapter-17-41",
+          "target": "chapter-17-h492"
+        },
+        {
+          "id": "search-chapter-17-42",
+          "target": "chapter-17-h492"
+        },
+        {
+          "id": "search-chapter-17-43",
+          "target": "chapter-17-h492"
+        },
+        {
+          "id": "search-chapter-17-44",
+          "target": "chapter-17-h492"
+        },
+        {
+          "id": "search-chapter-17-45",
+          "target": "chapter-17-h492"
+        },
+        {
+          "id": "chapter-17-development-p17",
+          "target": "chapter-17-h492"
+        },
+        {
+          "id": "chapter-17-development-formula-24",
+          "target": "chapter-17-h492"
+        },
+        {
+          "id": "chapter-17-development-formula-25",
+          "target": "chapter-17-h492"
+        },
+        {
+          "id": "chapter-17-development-p19",
+          "target": "chapter-17-h492"
+        },
+        {
+          "id": "p6920",
+          "target": "chapter-17-h492"
+        },
+        {
+          "id": "chapter-17-unit-4",
+          "target": "chapter-17-h493"
+        },
+        {
+          "id": "chapter-17-h493",
+          "target": "chapter-17-h493"
+        },
+        {
+          "id": "p6921",
+          "target": "chapter-17-h493"
+        },
+        {
+          "id": "search-chapter-17-49",
+          "target": "chapter-17-h493"
+        },
+        {
+          "id": "search-chapter-17-50",
+          "target": "chapter-17-h493"
+        },
+        {
+          "id": "search-chapter-17-51",
+          "target": "chapter-17-h493"
+        },
+        {
+          "id": "p6923",
+          "target": "chapter-17-h493"
+        },
+        {
+          "id": "p6924",
+          "target": "chapter-17-h493"
+        },
+        {
+          "id": "chapter-17-development-p20",
+          "target": "chapter-17-h493"
+        },
+        {
+          "id": "chapter-17-development-p21",
+          "target": "chapter-17-h493"
+        },
+        {
+          "id": "p6925",
+          "target": "chapter-17-h493"
+        },
+        {
+          "id": "chapter-17-unit-5",
+          "target": "chapter-17-h494"
+        },
+        {
+          "id": "chapter-17-h494",
+          "target": "chapter-17-h494"
+        },
+        {
+          "id": "p6926",
+          "target": "chapter-17-h494"
+        },
+        {
+          "id": "search-chapter-17-57",
+          "target": "chapter-17-h494"
+        },
+        {
+          "id": "search-chapter-17-58",
+          "target": "chapter-17-h494"
+        },
+        {
+          "id": "search-chapter-17-59",
+          "target": "chapter-17-h494"
+        },
+        {
+          "id": "search-chapter-17-60",
+          "target": "chapter-17-h494"
+        },
+        {
+          "id": "search-chapter-17-61",
+          "target": "chapter-17-h494"
+        },
+        {
+          "id": "p6928",
+          "target": "chapter-17-h494"
+        },
+        {
+          "id": "search-chapter-17-63",
+          "target": "chapter-17-h494"
+        },
+        {
+          "id": "search-chapter-17-64",
+          "target": "chapter-17-h494"
+        },
+        {
+          "id": "p6930",
+          "target": "chapter-17-h494"
+        },
+        {
+          "id": "search-chapter-17-66",
+          "target": "chapter-17-h494"
+        },
+        {
+          "id": "search-chapter-17-67",
+          "target": "chapter-17-h494"
+        },
+        {
+          "id": "search-chapter-17-68",
+          "target": "chapter-17-h494"
+        },
+        {
+          "id": "search-chapter-17-69",
+          "target": "chapter-17-h494"
+        },
+        {
+          "id": "chapter-17-development-p22",
+          "target": "chapter-17-h494"
+        },
+        {
+          "id": "chapter-17-development-formula-26",
+          "target": "chapter-17-h494"
+        },
+        {
+          "id": "chapter-17-development-formula-27",
+          "target": "chapter-17-h494"
+        },
+        {
+          "id": "chapter-17-development-formula-28",
+          "target": "chapter-17-h494"
+        },
+        {
+          "id": "chapter-17-development-p24",
+          "target": "chapter-17-h494"
+        },
+        {
+          "id": "chapter-17-development-formula-29",
+          "target": "chapter-17-h494"
+        },
+        {
+          "id": "chapter-17-development-formula-30",
+          "target": "chapter-17-h494"
+        },
+        {
+          "id": "chapter-17-development-formula-31",
+          "target": "chapter-17-h494"
+        },
+        {
+          "id": "chapter-17-development-formula-32",
+          "target": "chapter-17-h494"
+        },
+        {
+          "id": "chapter-17-development-p25",
+          "target": "chapter-17-h494"
+        },
+        {
+          "id": "chapter-17-development-formula-33",
+          "target": "chapter-17-h494"
+        },
+        {
+          "id": "chapter-17-development-formula-34",
+          "target": "chapter-17-h494"
+        },
+        {
+          "id": "chapter-17-development-formula-35",
+          "target": "chapter-17-h494"
+        },
+        {
+          "id": "chapter-17-development-formula-36",
+          "target": "chapter-17-h494"
+        },
+        {
+          "id": "chapter-17-development-formula-37",
+          "target": "chapter-17-h494"
+        },
+        {
+          "id": "p6931",
+          "target": "chapter-17-h494"
+        },
+        {
+          "id": "chapter-17-unit-6",
+          "target": "chapter-17-revision-h6"
+        },
+        {
+          "id": "chapter-17-h495",
+          "target": "chapter-17-revision-h6"
+        },
+        {
+          "id": "p6932",
+          "target": "chapter-17-revision-h6"
+        },
+        {
+          "id": "search-chapter-17-73",
+          "target": "chapter-17-revision-h6"
+        },
+        {
+          "id": "search-chapter-17-74",
+          "target": "chapter-17-revision-h6"
+        },
+        {
+          "id": "search-chapter-17-75",
+          "target": "chapter-17-revision-h6"
+        },
+        {
+          "id": "search-chapter-17-76",
+          "target": "chapter-17-revision-h6"
+        },
+        {
+          "id": "search-chapter-17-77",
+          "target": "chapter-17-revision-h6"
+        },
+        {
+          "id": "p6933",
+          "target": "chapter-17-revision-h6"
+        },
+        {
+          "id": "p6934",
+          "target": "chapter-17-revision-h6"
+        },
+        {
+          "id": "chapter-17-unit-7",
+          "target": "chapter-17-revision-h8"
+        },
+        {
+          "id": "chapter-17-h496",
+          "target": "chapter-17-revision-h8"
+        },
+        {
+          "id": "p6935",
+          "target": "chapter-17-revision-h8"
+        },
+        {
+          "id": "search-chapter-17-82",
+          "target": "chapter-17-revision-h8"
+        },
+        {
+          "id": "search-chapter-17-83",
+          "target": "chapter-17-revision-h8"
+        },
+        {
+          "id": "p6937",
+          "target": "chapter-17-revision-h8"
+        },
+        {
+          "id": "search-chapter-17-85",
+          "target": "chapter-17-revision-h8"
+        },
+        {
+          "id": "search-chapter-17-86",
+          "target": "chapter-17-revision-h8"
+        },
+        {
+          "id": "search-chapter-17-87",
+          "target": "chapter-17-revision-h8"
+        },
+        {
+          "id": "search-chapter-17-88",
+          "target": "chapter-17-revision-h8"
+        },
+        {
+          "id": "search-chapter-17-89",
+          "target": "chapter-17-revision-h8"
+        },
+        {
+          "id": "search-chapter-17-90",
+          "target": "chapter-17-revision-h8"
+        },
+        {
+          "id": "search-chapter-17-91",
+          "target": "chapter-17-revision-h8"
+        },
+        {
+          "id": "search-chapter-17-92",
+          "target": "chapter-17-revision-h8"
+        },
+        {
+          "id": "search-chapter-17-93",
+          "target": "chapter-17-revision-h8"
+        },
+        {
+          "id": "search-chapter-17-94",
+          "target": "chapter-17-revision-h8"
+        },
+        {
+          "id": "p6938",
+          "target": "chapter-17-revision-h8"
+        },
+        {
+          "id": "search-chapter-17-96",
+          "target": "chapter-17-revision-h8"
+        },
+        {
+          "id": "search-chapter-17-97",
+          "target": "chapter-17-revision-h8"
+        },
+        {
+          "id": "p6939",
+          "target": "chapter-17-revision-h8"
+        },
+        {
+          "id": "chapter-17-unit-8",
+          "target": "chapter-17-revision-h7"
+        },
+        {
+          "id": "chapter-17-h497",
+          "target": "chapter-17-revision-h7"
+        },
+        {
+          "id": "p6940",
+          "target": "chapter-17-revision-h7"
+        },
+        {
+          "id": "search-chapter-17-101",
+          "target": "chapter-17-revision-h7"
+        },
+        {
+          "id": "search-chapter-17-102",
+          "target": "chapter-17-revision-h7"
+        },
+        {
+          "id": "search-chapter-17-103",
+          "target": "chapter-17-revision-h7"
+        },
+        {
+          "id": "p6941",
+          "target": "chapter-17-revision-h7"
+        },
+        {
+          "id": "search-chapter-17-105",
+          "target": "chapter-17-revision-h7"
+        },
+        {
+          "id": "search-chapter-17-106",
+          "target": "chapter-17-revision-h7"
+        },
+        {
+          "id": "search-chapter-17-107",
+          "target": "chapter-17-revision-h7"
+        },
+        {
+          "id": "p6943",
+          "target": "chapter-17-revision-h7"
+        },
+        {
+          "id": "search-chapter-17-109",
+          "target": "chapter-17-revision-h7"
+        },
+        {
+          "id": "search-chapter-17-110",
+          "target": "chapter-17-revision-h7"
+        },
+        {
+          "id": "search-chapter-17-111",
+          "target": "chapter-17-revision-h7"
+        },
+        {
+          "id": "search-chapter-17-112",
+          "target": "chapter-17-revision-h7"
+        },
+        {
+          "id": "chapter-17-development-p26",
+          "target": "chapter-17-revision-h7"
+        },
+        {
+          "id": "chapter-17-development-p27",
+          "target": "chapter-17-revision-h7"
+        },
+        {
+          "id": "chapter-17-development-formula-38",
+          "target": "chapter-17-revision-h7"
+        },
+        {
+          "id": "chapter-17-development-formula-39",
+          "target": "chapter-17-revision-h7"
+        },
+        {
+          "id": "p6944",
+          "target": "chapter-17-revision-h7"
+        },
+        {
+          "id": "search-chapter-17-114",
+          "target": "chapter-17-revision-h7"
+        },
+        {
+          "id": "chapter-17-unit-9",
+          "target": "chapter-17-revision-h11"
+        },
+        {
+          "id": "chapter-17-h498",
+          "target": "chapter-17-revision-h11"
+        },
+        {
+          "id": "p6945",
+          "target": "chapter-17-revision-h11"
+        },
+        {
+          "id": "search-chapter-17-117",
+          "target": "chapter-17-revision-h11"
+        },
+        {
+          "id": "p6946",
+          "target": "chapter-17-revision-h11"
+        },
+        {
+          "id": "chapter-17-unit-10",
+          "target": "chapter-17-revision-h13"
+        },
+        {
+          "id": "chapter-17-h499",
+          "target": "chapter-17-revision-h13"
+        },
+        {
+          "id": "p6947",
+          "target": "chapter-17-revision-h13"
+        },
+        {
+          "id": "search-chapter-17-121",
+          "target": "chapter-17-revision-h13"
+        },
+        {
+          "id": "search-chapter-17-122",
+          "target": "chapter-17-revision-h13"
+        },
+        {
+          "id": "p6949",
+          "target": "chapter-17-revision-h13"
+        },
+        {
+          "id": "search-chapter-17-124",
+          "target": "chapter-17-revision-h13"
+        },
+        {
+          "id": "search-chapter-17-125",
+          "target": "chapter-17-revision-h13"
+        },
+        {
+          "id": "search-chapter-17-126",
+          "target": "chapter-17-revision-h13"
+        },
+        {
+          "id": "p6950",
+          "target": "chapter-17-revision-h13"
+        },
+        {
+          "id": "search-chapter-17-128",
+          "target": "chapter-17-revision-h13"
+        },
+        {
+          "id": "chapter-17-development-p28",
+          "target": "chapter-17-revision-h13"
+        },
+        {
+          "id": "chapter-17-development-formula-40",
+          "target": "chapter-17-revision-h13"
+        },
+        {
+          "id": "chapter-17-development-formula-41",
+          "target": "chapter-17-revision-h13"
+        },
+        {
+          "id": "chapter-17-development-formula-42",
+          "target": "chapter-17-revision-h13"
+        },
+        {
+          "id": "chapter-17-development-p29",
+          "target": "chapter-17-revision-h13"
+        },
+        {
+          "id": "chapter-17-development-formula-43",
+          "target": "chapter-17-revision-h13"
+        },
+        {
+          "id": "chapter-17-development-p31",
+          "target": "chapter-17-revision-h13"
+        },
+        {
+          "id": "p6951",
+          "target": "chapter-17-revision-h13"
+        },
+        {
+          "id": "chapter-17-unit-11",
+          "target": "chapter-17-revision-h14"
+        },
+        {
+          "id": "chapter-17-h500",
+          "target": "chapter-17-revision-h14"
+        },
+        {
+          "id": "p6952",
+          "target": "chapter-17-revision-h14"
+        },
+        {
+          "id": "p6953",
+          "target": "chapter-17-revision-h14"
+        },
+        {
+          "id": "chapter-17-h501",
+          "target": "chapter-17-revision-h15"
+        },
+        {
+          "id": "p6954",
+          "target": "chapter-17-revision-h15"
+        },
+        {
+          "id": "p6955",
+          "target": "chapter-17-revision-h15"
+        }
+      ],
+      "formulas": [
+        {
+          "id": "search-chapter-17-6",
+          "tex": "X_n",
+          "display": false
+        },
+        {
+          "id": "search-chapter-17-7",
+          "tex": "(E,\\mathcal E)",
+          "display": false
+        },
+        {
+          "id": "search-chapter-17-8",
+          "tex": "P(x,dy)",
+          "display": false
+        },
+        {
+          "id": "search-chapter-17-9",
+          "tex": "\\mathcal F_n",
+          "display": false
+        },
+        {
+          "id": "search-chapter-17-10",
+          "tex": "f",
+          "display": false
+        },
+        {
+          "id": "search-chapter-17-11",
+          "tex": "E[f(X_{n+1})\\mid\\mathcal F_n]=Pf(X_n),\\qquad Pf(x)=\\int f(y)P(x,dy).",
+          "display": true
+        },
+        {
+          "id": "search-chapter-17-13",
+          "tex": "P_n",
+          "display": false
+        },
+        {
+          "id": "search-chapter-17-14",
+          "tex": "x",
+          "display": false
+        },
+        {
+          "id": "search-chapter-17-15",
+          "tex": "x",
+          "display": false
+        },
+        {
+          "id": "search-chapter-17-19",
+          "tex": "U,V",
+          "display": false
+        },
+        {
+          "id": "search-chapter-17-20",
+          "tex": "X_0=U,X_1=V,X_2=U",
+          "display": false
+        },
+        {
+          "id": "search-chapter-17-21",
+          "tex": "X_0,X_1",
+          "display": false
+        },
+        {
+          "id": "search-chapter-17-22",
+          "tex": "X_2",
+          "display": false
+        },
+        {
+          "id": "search-chapter-17-23",
+          "tex": "X_1",
+          "display": false
+        },
+        {
+          "id": "chapter-17-development-formula-1",
+          "tex": "\\Theta=1/4",
+          "display": false
+        },
+        {
+          "id": "chapter-17-development-formula-2",
+          "tex": "3/4",
+          "display": false
+        },
+        {
+          "id": "chapter-17-development-formula-3",
+          "tex": "B_1,B_2,\\ldots",
+          "display": false
+        },
+        {
+          "id": "chapter-17-development-formula-4",
+          "tex": "1/10",
+          "display": false
+        },
+        {
+          "id": "chapter-17-development-formula-5",
+          "tex": "1/2",
+          "display": false
+        },
+        {
+          "id": "chapter-17-development-formula-6",
+          "tex": "P(B_3=1\\mid B_1B_2=00)=\\frac3{10},\\qquad\nP(B_3=1\\mid B_1B_2=10)=\\frac12.",
+          "display": true
+        },
+        {
+          "id": "chapter-17-development-formula-7",
+          "tex": "q_n=P(\\Theta=3/4\\mid B_1,\\ldots,B_n)",
+          "display": false
+        },
+        {
+          "id": "chapter-17-development-formula-8",
+          "tex": "w(q_n)",
+          "display": false
+        },
+        {
+          "id": "chapter-17-development-formula-9",
+          "tex": "w(q)=1/4+q/2",
+          "display": false
+        },
+        {
+          "id": "chapter-17-development-formula-10",
+          "tex": "q\\longmapsto T_1(q)=\\frac{3q}{1+2q},\\qquad\nq\\longmapsto T_0(q)=\\frac{q}{3-2q}.",
+          "display": true
+        },
+        {
+          "id": "chapter-17-development-formula-11",
+          "tex": "[0,1]",
+          "display": false
+        },
+        {
+          "id": "chapter-17-development-formula-12",
+          "tex": "K(q,da)=w(q)\\delta_{T_1(q)}(da)+(1-w(q))\\delta_{T_0(q)}(da).",
+          "display": true
+        },
+        {
+          "id": "search-chapter-17-26",
+          "tex": "\\sigma(X_n)\\subseteq\\mathcal F_n",
+          "display": false
+        },
+        {
+          "id": "search-chapter-17-27",
+          "tex": "\\sigma(X_{n+1})",
+          "display": false
+        },
+        {
+          "id": "search-chapter-17-28",
+          "tex": "\\mathcal F_n",
+          "display": false
+        },
+        {
+          "id": "search-chapter-17-29",
+          "tex": "\\sigma(X_n)",
+          "display": false
+        },
+        {
+          "id": "search-chapter-17-30",
+          "tex": "X_n",
+          "display": false
+        },
+        {
+          "id": "chapter-17-development-formula-13",
+          "tex": "\\mathcal G=\\sigma(X_n)",
+          "display": false
+        },
+        {
+          "id": "chapter-17-development-formula-14",
+          "tex": "\\mathcal F_n",
+          "display": false
+        },
+        {
+          "id": "chapter-17-development-formula-15",
+          "tex": "Y",
+          "display": false
+        },
+        {
+          "id": "chapter-17-development-formula-16",
+          "tex": "E[Yf(X_{n+1})\\mid\\mathcal G]\n=Pf(X_n)E[Y\\mid\\mathcal G],\\qquad\nE[f(X_{n+1})\\mid\\mathcal G]=Pf(X_n).",
+          "display": true
+        },
+        {
+          "id": "chapter-17-development-formula-17",
+          "tex": "P",
+          "display": false
+        },
+        {
+          "id": "chapter-17-development-formula-18",
+          "tex": "E[Yf(X_{n+1})]=E[YPf(X_n)].",
+          "display": true
+        },
+        {
+          "id": "chapter-17-development-formula-19",
+          "tex": "Y",
+          "display": false
+        },
+        {
+          "id": "chapter-17-development-formula-20",
+          "tex": "\\mathcal F_n",
+          "display": false
+        },
+        {
+          "id": "search-chapter-17-33",
+          "tex": "P^0(x,A)=\\mathbf1_A(x)",
+          "display": false
+        },
+        {
+          "id": "search-chapter-17-34",
+          "tex": "P^{n+1}(x,A)=\\int P^n(y,A)P(x,dy).",
+          "display": true
+        },
+        {
+          "id": "search-chapter-17-36",
+          "tex": "E[f(X_{n+r})\\mid\\mathcal F_n]=P^rf(X_n)",
+          "display": false
+        },
+        {
+          "id": "search-chapter-17-37",
+          "tex": "P^{r+s}(x,A)=\\int P^s(y,A)P^r(x,dy).",
+          "display": true
+        },
+        {
+          "id": "chapter-17-development-formula-21",
+          "tex": "f",
+          "display": false
+        },
+        {
+          "id": "chapter-17-development-formula-22",
+          "tex": "E[f(X_{n+2})\\mid\\mathcal F_n]\n=E[Pf(X_{n+1})\\mid\\mathcal F_n]\n=P(Pf)(X_n).",
+          "display": true
+        },
+        {
+          "id": "chapter-17-development-formula-23",
+          "tex": "Pf",
+          "display": false
+        },
+        {
+          "id": "search-chapter-17-40",
+          "tex": "H",
+          "display": false
+        },
+        {
+          "id": "search-chapter-17-41",
+          "tex": "r",
+          "display": false
+        },
+        {
+          "id": "search-chapter-17-42",
+          "tex": "Q_rH(x)",
+          "display": false
+        },
+        {
+          "id": "search-chapter-17-43",
+          "tex": "x",
+          "display": false
+        },
+        {
+          "id": "search-chapter-17-44",
+          "tex": "r",
+          "display": false
+        },
+        {
+          "id": "search-chapter-17-45",
+          "tex": "E[H(X_{n+1},\\ldots,X_{n+r})\\mid\\mathcal F_n]=Q_rH(X_n).",
+          "display": true
+        },
+        {
+          "id": "chapter-17-development-formula-24",
+          "tex": "g_1,g_2",
+          "display": false
+        },
+        {
+          "id": "chapter-17-development-formula-25",
+          "tex": "E[g_1(X_{n+1})g_2(X_{n+2})\\mid\\mathcal F_n]\n=P(g_1\\,Pg_2)(X_n).",
+          "display": true
+        },
+        {
+          "id": "search-chapter-17-49",
+          "tex": "\\nu",
+          "display": false
+        },
+        {
+          "id": "search-chapter-17-50",
+          "tex": "P",
+          "display": false
+        },
+        {
+          "id": "search-chapter-17-51",
+          "tex": "\\nu(dx_0)P(x_0,dx_1)\\cdots P(x_{n-1},dx_n).",
+          "display": true
+        },
+        {
+          "id": "search-chapter-17-57",
+          "tex": "T",
+          "display": false
+        },
+        {
+          "id": "search-chapter-17-58",
+          "tex": "A\\in\\mathcal F_T",
+          "display": false
+        },
+        {
+          "id": "search-chapter-17-59",
+          "tex": "T=n",
+          "display": false
+        },
+        {
+          "id": "search-chapter-17-60",
+          "tex": "\\mathcal F_n",
+          "display": false
+        },
+        {
+          "id": "search-chapter-17-61",
+          "tex": "E[\\mathbf1_{A\\cap\\{T=n\\}}H(X_{T+1},\\ldots,X_{T+r})]\n=E[\\mathbf1_{A\\cap\\{T=n\\}}Q_rH(X_T)].",
+          "display": true
+        },
+        {
+          "id": "search-chapter-17-63",
+          "tex": "n",
+          "display": false
+        },
+        {
+          "id": "search-chapter-17-64",
+          "tex": "E[H(X_{T+1},\\ldots,X_{T+r})\\mid\\mathcal F_T]=Q_rH(X_T).",
+          "display": true
+        },
+        {
+          "id": "search-chapter-17-66",
+          "tex": "T",
+          "display": false
+        },
+        {
+          "id": "search-chapter-17-67",
+          "tex": "T<\\infty",
+          "display": false
+        },
+        {
+          "id": "search-chapter-17-68",
+          "tex": "A\\cap\\{T<\\infty\\}",
+          "display": false
+        },
+        {
+          "id": "search-chapter-17-69",
+          "tex": "X_\\infty",
+          "display": false
+        },
+        {
+          "id": "chapter-17-development-formula-26",
+          "tex": "B\\in\\mathcal E",
+          "display": false
+        },
+        {
+          "id": "chapter-17-development-formula-27",
+          "tex": "\\{T<\\infty\\}",
+          "display": false
+        },
+        {
+          "id": "chapter-17-development-formula-28",
+          "tex": "\\{X_T\\in B,T<\\infty\\}\n=\\bigcup_{n\\ge0}\\{T=n,X_n\\in B\\}.",
+          "display": true
+        },
+        {
+          "id": "chapter-17-development-formula-29",
+          "tex": "\\{T\\le m\\}",
+          "display": false
+        },
+        {
+          "id": "chapter-17-development-formula-30",
+          "tex": "n\\le m",
+          "display": false
+        },
+        {
+          "id": "chapter-17-development-formula-31",
+          "tex": "\\mathcal F_m",
+          "display": false
+        },
+        {
+          "id": "chapter-17-development-formula-32",
+          "tex": "\\|H\\|_\\infty P(A\\cap\\{T<\\infty\\})",
+          "display": false
+        },
+        {
+          "id": "chapter-17-development-formula-33",
+          "tex": "x",
+          "display": false
+        },
+        {
+          "id": "chapter-17-development-formula-34",
+          "tex": "x",
+          "display": false
+        },
+        {
+          "id": "chapter-17-development-formula-35",
+          "tex": "R_x",
+          "display": false
+        },
+        {
+          "id": "chapter-17-development-formula-36",
+          "tex": "x\\mapsto R_x(C)",
+          "display": false
+        },
+        {
+          "id": "chapter-17-development-formula-37",
+          "tex": "C",
+          "display": false
+        },
+        {
+          "id": "search-chapter-17-73",
+          "tex": "p_{ij}",
+          "display": false
+        },
+        {
+          "id": "search-chapter-17-74",
+          "tex": "n\\ge0",
+          "display": false
+        },
+        {
+          "id": "search-chapter-17-75",
+          "tex": "p^{(n)}_{ij}>0",
+          "display": false
+        },
+        {
+          "id": "search-chapter-17-76",
+          "tex": "i\\to j",
+          "display": false
+        },
+        {
+          "id": "search-chapter-17-77",
+          "tex": "i\\leftrightarrow j",
+          "display": false
+        },
+        {
+          "id": "search-chapter-17-82",
+          "tex": "i",
+          "display": false
+        },
+        {
+          "id": "search-chapter-17-83",
+          "tex": "d(i)=\\gcd\\{n\\ge1:p^{(n)}_{ii}>0\\}.",
+          "display": true
+        },
+        {
+          "id": "search-chapter-17-85",
+          "tex": "i\\to j",
+          "display": false
+        },
+        {
+          "id": "search-chapter-17-86",
+          "tex": "j\\to i",
+          "display": false
+        },
+        {
+          "id": "search-chapter-17-87",
+          "tex": "a,b",
+          "display": false
+        },
+        {
+          "id": "search-chapter-17-88",
+          "tex": "j",
+          "display": false
+        },
+        {
+          "id": "search-chapter-17-89",
+          "tex": "n",
+          "display": false
+        },
+        {
+          "id": "search-chapter-17-90",
+          "tex": "i",
+          "display": false
+        },
+        {
+          "id": "search-chapter-17-91",
+          "tex": "a+n+b",
+          "display": false
+        },
+        {
+          "id": "search-chapter-17-92",
+          "tex": "a+b",
+          "display": false
+        },
+        {
+          "id": "search-chapter-17-93",
+          "tex": "d(i)",
+          "display": false
+        },
+        {
+          "id": "search-chapter-17-94",
+          "tex": "n",
+          "display": false
+        },
+        {
+          "id": "search-chapter-17-96",
+          "tex": "d",
+          "display": false
+        },
+        {
+          "id": "search-chapter-17-97",
+          "tex": "d",
+          "display": false
+        },
+        {
+          "id": "search-chapter-17-101",
+          "tex": "\\pi",
+          "display": false
+        },
+        {
+          "id": "search-chapter-17-102",
+          "tex": "\\pi P=\\pi",
+          "display": false
+        },
+        {
+          "id": "search-chapter-17-103",
+          "tex": "\\pi",
+          "display": false
+        },
+        {
+          "id": "search-chapter-17-105",
+          "tex": "\\nu",
+          "display": false
+        },
+        {
+          "id": "search-chapter-17-106",
+          "tex": "\\mu_N=N^{-1}\\sum_{k=0}^{N-1}\\nu P^k",
+          "display": false
+        },
+        {
+          "id": "search-chapter-17-107",
+          "tex": "\\mu_NP-\\mu_N=(\\nu P^N-\\nu)/N\\longrightarrow0.",
+          "display": true
+        },
+        {
+          "id": "search-chapter-17-109",
+          "tex": "\\pi,\\rho",
+          "display": false
+        },
+        {
+          "id": "search-chapter-17-110",
+          "tex": "r_i=\\pi_i/\\rho_i",
+          "display": false
+        },
+        {
+          "id": "search-chapter-17-111",
+          "tex": "\\widehat p_{ij}=\\rho_jp_{ji}/\\rho_i",
+          "display": false
+        },
+        {
+          "id": "search-chapter-17-112",
+          "tex": "r_i=\\sum_j\\widehat p_{ij}r_j",
+          "display": false
+        },
+        {
+          "id": "chapter-17-development-formula-38",
+          "tex": "i\\mapsto i+1",
+          "display": false
+        },
+        {
+          "id": "chapter-17-development-formula-39",
+          "tex": "N",
+          "display": false
+        },
+        {
+          "id": "search-chapter-17-114",
+          "tex": "2\\pi_j=\\pi_{j-1}+\\pi_{j+1}",
+          "display": false
+        },
+        {
+          "id": "search-chapter-17-117",
+          "tex": "(1/2,1/2)",
+          "display": false
+        },
+        {
+          "id": "search-chapter-17-121",
+          "tex": "\\pi_i>0",
+          "display": false
+        },
+        {
+          "id": "search-chapter-17-122",
+          "tex": "\\widehat p_{ij}=\\frac{\\pi_jp_{ji}}{\\pi_i}.",
+          "display": true
+        },
+        {
+          "id": "search-chapter-17-124",
+          "tex": "\\pi\\widehat P=\\pi",
+          "display": false
+        },
+        {
+          "id": "search-chapter-17-125",
+          "tex": "\\pi_ip_{ij}",
+          "display": false
+        },
+        {
+          "id": "search-chapter-17-126",
+          "tex": "\\pi",
+          "display": false
+        },
+        {
+          "id": "search-chapter-17-128",
+          "tex": "\\pi_ip_{ij}=\\pi_jp_{ji}",
+          "display": false
+        },
+        {
+          "id": "chapter-17-development-formula-40",
+          "tex": "\\pi_j=0",
+          "display": false
+        },
+        {
+          "id": "chapter-17-development-formula-41",
+          "tex": "\\pi_i>0",
+          "display": false
+        },
+        {
+          "id": "chapter-17-development-formula-42",
+          "tex": "p_{ij}=0",
+          "display": false
+        },
+        {
+          "id": "chapter-17-development-formula-43",
+          "tex": "\\pi_{i_n}\\prod_{k=0}^{n-1}\\widehat p_{i_{k+1}i_k}\n=\\pi_{i_n}\\prod_{k=0}^{n-1}\n\\frac{\\pi_{i_k}p_{i_ki_{k+1}}}{\\pi_{i_{k+1}}}\n=\\pi_{i_0}\\prod_{k=0}^{n-1}p_{i_ki_{k+1}}.",
+          "display": true
+        }
+      ],
+      "old_heading_count": 13
+    },
+    "en": {
+      "anchors": [
+        {
+          "id": "chapter-17-unit-0",
+          "target": "chapter-17-h489"
+        },
+        {
+          "id": "chapter-17-h489",
+          "target": "chapter-17-h489"
+        },
+        {
+          "id": "p6904",
+          "target": "chapter-17-h489"
+        },
+        {
+          "id": "p6905",
+          "target": "chapter-17-h489"
+        },
+        {
+          "id": "chapter-17-unit-1",
+          "target": "chapter-17-h490"
+        },
+        {
+          "id": "chapter-17-h490",
+          "target": "chapter-17-h490"
+        },
+        {
+          "id": "p6906",
+          "target": "chapter-17-h490"
+        },
+        {
+          "id": "search-chapter-17-6",
+          "target": "chapter-17-h490"
+        },
+        {
+          "id": "search-chapter-17-7",
+          "target": "chapter-17-h490"
+        },
+        {
+          "id": "search-chapter-17-8",
+          "target": "chapter-17-h490"
+        },
+        {
+          "id": "search-chapter-17-9",
+          "target": "chapter-17-h490"
+        },
+        {
+          "id": "search-chapter-17-10",
+          "target": "chapter-17-h490"
+        },
+        {
+          "id": "search-chapter-17-11",
+          "target": "chapter-17-h490"
+        },
+        {
+          "id": "p6908",
+          "target": "chapter-17-h490"
+        },
+        {
+          "id": "search-chapter-17-13",
+          "target": "chapter-17-h490"
+        },
+        {
+          "id": "search-chapter-17-14",
+          "target": "chapter-17-h490"
+        },
+        {
+          "id": "search-chapter-17-15",
+          "target": "chapter-17-h490"
+        },
+        {
+          "id": "p6909",
+          "target": "chapter-17-h490"
+        },
+        {
+          "id": "chapter-17-unit-2",
+          "target": "chapter-17-h491"
+        },
+        {
+          "id": "chapter-17-h491",
+          "target": "chapter-17-h491"
+        },
+        {
+          "id": "p6910",
+          "target": "chapter-17-h491"
+        },
+        {
+          "id": "search-chapter-17-19",
+          "target": "chapter-17-h491"
+        },
+        {
+          "id": "search-chapter-17-20",
+          "target": "chapter-17-h491"
+        },
+        {
+          "id": "search-chapter-17-21",
+          "target": "chapter-17-h491"
+        },
+        {
+          "id": "search-chapter-17-22",
+          "target": "chapter-17-h491"
+        },
+        {
+          "id": "search-chapter-17-23",
+          "target": "chapter-17-h491"
+        },
+        {
+          "id": "p6911",
+          "target": "chapter-17-h491"
+        },
+        {
+          "id": "chapter-17-development-p1",
+          "target": "chapter-17-h491"
+        },
+        {
+          "id": "chapter-17-development-formula-1",
+          "target": "chapter-17-h491"
+        },
+        {
+          "id": "chapter-17-development-formula-2",
+          "target": "chapter-17-h491"
+        },
+        {
+          "id": "chapter-17-development-formula-3",
+          "target": "chapter-17-h491"
+        },
+        {
+          "id": "chapter-17-development-formula-4",
+          "target": "chapter-17-h491"
+        },
+        {
+          "id": "chapter-17-development-formula-5",
+          "target": "chapter-17-h491"
+        },
+        {
+          "id": "chapter-17-development-formula-6",
+          "target": "chapter-17-h491"
+        },
+        {
+          "id": "chapter-17-development-p3",
+          "target": "chapter-17-h491"
+        },
+        {
+          "id": "chapter-17-development-p4",
+          "target": "chapter-17-h491"
+        },
+        {
+          "id": "chapter-17-development-formula-7",
+          "target": "chapter-17-h491"
+        },
+        {
+          "id": "chapter-17-development-formula-8",
+          "target": "chapter-17-h491"
+        },
+        {
+          "id": "chapter-17-development-formula-9",
+          "target": "chapter-17-h491"
+        },
+        {
+          "id": "chapter-17-development-formula-10",
+          "target": "chapter-17-h491"
+        },
+        {
+          "id": "chapter-17-development-p6",
+          "target": "chapter-17-h491"
+        },
+        {
+          "id": "chapter-17-development-formula-11",
+          "target": "chapter-17-h491"
+        },
+        {
+          "id": "chapter-17-development-formula-12",
+          "target": "chapter-17-h491"
+        },
+        {
+          "id": "chapter-17-development-p8",
+          "target": "chapter-17-h491"
+        },
+        {
+          "id": "p6912",
+          "target": "chapter-17-h491"
+        },
+        {
+          "id": "search-chapter-17-26",
+          "target": "chapter-17-h491"
+        },
+        {
+          "id": "search-chapter-17-27",
+          "target": "chapter-17-h491"
+        },
+        {
+          "id": "search-chapter-17-28",
+          "target": "chapter-17-h491"
+        },
+        {
+          "id": "search-chapter-17-29",
+          "target": "chapter-17-h491"
+        },
+        {
+          "id": "search-chapter-17-30",
+          "target": "chapter-17-h491"
+        },
+        {
+          "id": "chapter-17-development-p9",
+          "target": "chapter-17-h491"
+        },
+        {
+          "id": "chapter-17-development-formula-13",
+          "target": "chapter-17-h491"
+        },
+        {
+          "id": "chapter-17-development-formula-14",
+          "target": "chapter-17-h491"
+        },
+        {
+          "id": "chapter-17-development-formula-15",
+          "target": "chapter-17-h491"
+        },
+        {
+          "id": "chapter-17-development-formula-16",
+          "target": "chapter-17-h491"
+        },
+        {
+          "id": "chapter-17-development-p11",
+          "target": "chapter-17-h491"
+        },
+        {
+          "id": "chapter-17-development-formula-17",
+          "target": "chapter-17-h491"
+        },
+        {
+          "id": "chapter-17-development-formula-18",
+          "target": "chapter-17-h491"
+        },
+        {
+          "id": "chapter-17-development-p13",
+          "target": "chapter-17-h491"
+        },
+        {
+          "id": "chapter-17-development-formula-19",
+          "target": "chapter-17-h491"
+        },
+        {
+          "id": "chapter-17-development-formula-20",
+          "target": "chapter-17-h491"
+        },
+        {
+          "id": "chapter-17-unit-3",
+          "target": "chapter-17-h492"
+        },
+        {
+          "id": "chapter-17-h492",
+          "target": "chapter-17-h492"
+        },
+        {
+          "id": "p6913",
+          "target": "chapter-17-h492"
+        },
+        {
+          "id": "search-chapter-17-33",
+          "target": "chapter-17-h492"
+        },
+        {
+          "id": "search-chapter-17-34",
+          "target": "chapter-17-h492"
+        },
+        {
+          "id": "p6915",
+          "target": "chapter-17-h492"
+        },
+        {
+          "id": "search-chapter-17-36",
+          "target": "chapter-17-h492"
+        },
+        {
+          "id": "search-chapter-17-37",
+          "target": "chapter-17-h492"
+        },
+        {
+          "id": "p6917",
+          "target": "chapter-17-h492"
+        },
+        {
+          "id": "chapter-17-development-p14",
+          "target": "chapter-17-h492"
+        },
+        {
+          "id": "chapter-17-development-formula-21",
+          "target": "chapter-17-h492"
+        },
+        {
+          "id": "chapter-17-development-formula-22",
+          "target": "chapter-17-h492"
+        },
+        {
+          "id": "chapter-17-development-p16",
+          "target": "chapter-17-h492"
+        },
+        {
+          "id": "chapter-17-development-formula-23",
+          "target": "chapter-17-h492"
+        },
+        {
+          "id": "p6918",
+          "target": "chapter-17-h492"
+        },
+        {
+          "id": "search-chapter-17-40",
+          "target": "chapter-17-h492"
+        },
+        {
+          "id": "search-chapter-17-41",
+          "target": "chapter-17-h492"
+        },
+        {
+          "id": "search-chapter-17-42",
+          "target": "chapter-17-h492"
+        },
+        {
+          "id": "search-chapter-17-43",
+          "target": "chapter-17-h492"
+        },
+        {
+          "id": "search-chapter-17-44",
+          "target": "chapter-17-h492"
+        },
+        {
+          "id": "search-chapter-17-45",
+          "target": "chapter-17-h492"
+        },
+        {
+          "id": "chapter-17-development-p17",
+          "target": "chapter-17-h492"
+        },
+        {
+          "id": "chapter-17-development-formula-24",
+          "target": "chapter-17-h492"
+        },
+        {
+          "id": "chapter-17-development-formula-25",
+          "target": "chapter-17-h492"
+        },
+        {
+          "id": "chapter-17-development-p19",
+          "target": "chapter-17-h492"
+        },
+        {
+          "id": "p6920",
+          "target": "chapter-17-h492"
+        },
+        {
+          "id": "chapter-17-unit-4",
+          "target": "chapter-17-h493"
+        },
+        {
+          "id": "chapter-17-h493",
+          "target": "chapter-17-h493"
+        },
+        {
+          "id": "p6921",
+          "target": "chapter-17-h493"
+        },
+        {
+          "id": "search-chapter-17-49",
+          "target": "chapter-17-h493"
+        },
+        {
+          "id": "search-chapter-17-50",
+          "target": "chapter-17-h493"
+        },
+        {
+          "id": "search-chapter-17-51",
+          "target": "chapter-17-h493"
+        },
+        {
+          "id": "p6923",
+          "target": "chapter-17-h493"
+        },
+        {
+          "id": "p6924",
+          "target": "chapter-17-h493"
+        },
+        {
+          "id": "chapter-17-development-p20",
+          "target": "chapter-17-h493"
+        },
+        {
+          "id": "chapter-17-development-p21",
+          "target": "chapter-17-h493"
+        },
+        {
+          "id": "p6925",
+          "target": "chapter-17-h493"
+        },
+        {
+          "id": "chapter-17-unit-5",
+          "target": "chapter-17-h494"
+        },
+        {
+          "id": "chapter-17-h494",
+          "target": "chapter-17-h494"
+        },
+        {
+          "id": "p6926",
+          "target": "chapter-17-h494"
+        },
+        {
+          "id": "search-chapter-17-57",
+          "target": "chapter-17-h494"
+        },
+        {
+          "id": "search-chapter-17-58",
+          "target": "chapter-17-h494"
+        },
+        {
+          "id": "search-chapter-17-59",
+          "target": "chapter-17-h494"
+        },
+        {
+          "id": "search-chapter-17-60",
+          "target": "chapter-17-h494"
+        },
+        {
+          "id": "search-chapter-17-61",
+          "target": "chapter-17-h494"
+        },
+        {
+          "id": "p6928",
+          "target": "chapter-17-h494"
+        },
+        {
+          "id": "search-chapter-17-63",
+          "target": "chapter-17-h494"
+        },
+        {
+          "id": "search-chapter-17-64",
+          "target": "chapter-17-h494"
+        },
+        {
+          "id": "p6930",
+          "target": "chapter-17-h494"
+        },
+        {
+          "id": "search-chapter-17-66",
+          "target": "chapter-17-h494"
+        },
+        {
+          "id": "search-chapter-17-67",
+          "target": "chapter-17-h494"
+        },
+        {
+          "id": "search-chapter-17-68",
+          "target": "chapter-17-h494"
+        },
+        {
+          "id": "search-chapter-17-69",
+          "target": "chapter-17-h494"
+        },
+        {
+          "id": "chapter-17-development-p22",
+          "target": "chapter-17-h494"
+        },
+        {
+          "id": "chapter-17-development-formula-26",
+          "target": "chapter-17-h494"
+        },
+        {
+          "id": "chapter-17-development-formula-27",
+          "target": "chapter-17-h494"
+        },
+        {
+          "id": "chapter-17-development-formula-28",
+          "target": "chapter-17-h494"
+        },
+        {
+          "id": "chapter-17-development-p24",
+          "target": "chapter-17-h494"
+        },
+        {
+          "id": "chapter-17-development-formula-29",
+          "target": "chapter-17-h494"
+        },
+        {
+          "id": "chapter-17-development-formula-30",
+          "target": "chapter-17-h494"
+        },
+        {
+          "id": "chapter-17-development-formula-31",
+          "target": "chapter-17-h494"
+        },
+        {
+          "id": "chapter-17-development-formula-32",
+          "target": "chapter-17-h494"
+        },
+        {
+          "id": "chapter-17-development-p25",
+          "target": "chapter-17-h494"
+        },
+        {
+          "id": "chapter-17-development-formula-33",
+          "target": "chapter-17-h494"
+        },
+        {
+          "id": "chapter-17-development-formula-34",
+          "target": "chapter-17-h494"
+        },
+        {
+          "id": "chapter-17-development-formula-35",
+          "target": "chapter-17-h494"
+        },
+        {
+          "id": "chapter-17-development-formula-36",
+          "target": "chapter-17-h494"
+        },
+        {
+          "id": "chapter-17-development-formula-37",
+          "target": "chapter-17-h494"
+        },
+        {
+          "id": "p6931",
+          "target": "chapter-17-h494"
+        },
+        {
+          "id": "chapter-17-unit-6",
+          "target": "chapter-17-revision-h6"
+        },
+        {
+          "id": "chapter-17-h495",
+          "target": "chapter-17-revision-h6"
+        },
+        {
+          "id": "p6932",
+          "target": "chapter-17-revision-h6"
+        },
+        {
+          "id": "search-chapter-17-73",
+          "target": "chapter-17-revision-h6"
+        },
+        {
+          "id": "search-chapter-17-74",
+          "target": "chapter-17-revision-h6"
+        },
+        {
+          "id": "search-chapter-17-75",
+          "target": "chapter-17-revision-h6"
+        },
+        {
+          "id": "search-chapter-17-76",
+          "target": "chapter-17-revision-h6"
+        },
+        {
+          "id": "search-chapter-17-77",
+          "target": "chapter-17-revision-h6"
+        },
+        {
+          "id": "p6933",
+          "target": "chapter-17-revision-h6"
+        },
+        {
+          "id": "p6934",
+          "target": "chapter-17-revision-h6"
+        },
+        {
+          "id": "chapter-17-unit-7",
+          "target": "chapter-17-revision-h8"
+        },
+        {
+          "id": "chapter-17-h496",
+          "target": "chapter-17-revision-h8"
+        },
+        {
+          "id": "p6935",
+          "target": "chapter-17-revision-h8"
+        },
+        {
+          "id": "search-chapter-17-82",
+          "target": "chapter-17-revision-h8"
+        },
+        {
+          "id": "search-chapter-17-83",
+          "target": "chapter-17-revision-h8"
+        },
+        {
+          "id": "p6937",
+          "target": "chapter-17-revision-h8"
+        },
+        {
+          "id": "search-chapter-17-85",
+          "target": "chapter-17-revision-h8"
+        },
+        {
+          "id": "search-chapter-17-86",
+          "target": "chapter-17-revision-h8"
+        },
+        {
+          "id": "search-chapter-17-87",
+          "target": "chapter-17-revision-h8"
+        },
+        {
+          "id": "search-chapter-17-88",
+          "target": "chapter-17-revision-h8"
+        },
+        {
+          "id": "search-chapter-17-89",
+          "target": "chapter-17-revision-h8"
+        },
+        {
+          "id": "search-chapter-17-90",
+          "target": "chapter-17-revision-h8"
+        },
+        {
+          "id": "search-chapter-17-91",
+          "target": "chapter-17-revision-h8"
+        },
+        {
+          "id": "search-chapter-17-92",
+          "target": "chapter-17-revision-h8"
+        },
+        {
+          "id": "search-chapter-17-93",
+          "target": "chapter-17-revision-h8"
+        },
+        {
+          "id": "search-chapter-17-94",
+          "target": "chapter-17-revision-h8"
+        },
+        {
+          "id": "p6938",
+          "target": "chapter-17-revision-h8"
+        },
+        {
+          "id": "search-chapter-17-96",
+          "target": "chapter-17-revision-h8"
+        },
+        {
+          "id": "search-chapter-17-97",
+          "target": "chapter-17-revision-h8"
+        },
+        {
+          "id": "p6939",
+          "target": "chapter-17-revision-h8"
+        },
+        {
+          "id": "chapter-17-unit-8",
+          "target": "chapter-17-revision-h7"
+        },
+        {
+          "id": "chapter-17-h497",
+          "target": "chapter-17-revision-h7"
+        },
+        {
+          "id": "p6940",
+          "target": "chapter-17-revision-h7"
+        },
+        {
+          "id": "search-chapter-17-101",
+          "target": "chapter-17-revision-h7"
+        },
+        {
+          "id": "search-chapter-17-102",
+          "target": "chapter-17-revision-h7"
+        },
+        {
+          "id": "search-chapter-17-103",
+          "target": "chapter-17-revision-h7"
+        },
+        {
+          "id": "p6941",
+          "target": "chapter-17-revision-h7"
+        },
+        {
+          "id": "search-chapter-17-105",
+          "target": "chapter-17-revision-h7"
+        },
+        {
+          "id": "search-chapter-17-106",
+          "target": "chapter-17-revision-h7"
+        },
+        {
+          "id": "search-chapter-17-107",
+          "target": "chapter-17-revision-h7"
+        },
+        {
+          "id": "p6943",
+          "target": "chapter-17-revision-h7"
+        },
+        {
+          "id": "search-chapter-17-109",
+          "target": "chapter-17-revision-h7"
+        },
+        {
+          "id": "search-chapter-17-110",
+          "target": "chapter-17-revision-h7"
+        },
+        {
+          "id": "search-chapter-17-111",
+          "target": "chapter-17-revision-h7"
+        },
+        {
+          "id": "search-chapter-17-112",
+          "target": "chapter-17-revision-h7"
+        },
+        {
+          "id": "chapter-17-development-p26",
+          "target": "chapter-17-revision-h7"
+        },
+        {
+          "id": "chapter-17-development-p27",
+          "target": "chapter-17-revision-h7"
+        },
+        {
+          "id": "chapter-17-development-formula-38",
+          "target": "chapter-17-revision-h7"
+        },
+        {
+          "id": "chapter-17-development-formula-39",
+          "target": "chapter-17-revision-h7"
+        },
+        {
+          "id": "p6944",
+          "target": "chapter-17-revision-h7"
+        },
+        {
+          "id": "search-chapter-17-114",
+          "target": "chapter-17-revision-h7"
+        },
+        {
+          "id": "chapter-17-unit-9",
+          "target": "chapter-17-revision-h11"
+        },
+        {
+          "id": "chapter-17-h498",
+          "target": "chapter-17-revision-h11"
+        },
+        {
+          "id": "p6945",
+          "target": "chapter-17-revision-h11"
+        },
+        {
+          "id": "search-chapter-17-117",
+          "target": "chapter-17-revision-h11"
+        },
+        {
+          "id": "p6946",
+          "target": "chapter-17-revision-h11"
+        },
+        {
+          "id": "chapter-17-unit-10",
+          "target": "chapter-17-revision-h13"
+        },
+        {
+          "id": "chapter-17-h499",
+          "target": "chapter-17-revision-h13"
+        },
+        {
+          "id": "p6947",
+          "target": "chapter-17-revision-h13"
+        },
+        {
+          "id": "search-chapter-17-121",
+          "target": "chapter-17-revision-h13"
+        },
+        {
+          "id": "search-chapter-17-122",
+          "target": "chapter-17-revision-h13"
+        },
+        {
+          "id": "p6949",
+          "target": "chapter-17-revision-h13"
+        },
+        {
+          "id": "search-chapter-17-124",
+          "target": "chapter-17-revision-h13"
+        },
+        {
+          "id": "search-chapter-17-125",
+          "target": "chapter-17-revision-h13"
+        },
+        {
+          "id": "search-chapter-17-126",
+          "target": "chapter-17-revision-h13"
+        },
+        {
+          "id": "p6950",
+          "target": "chapter-17-revision-h13"
+        },
+        {
+          "id": "search-chapter-17-128",
+          "target": "chapter-17-revision-h13"
+        },
+        {
+          "id": "chapter-17-development-p28",
+          "target": "chapter-17-revision-h13"
+        },
+        {
+          "id": "chapter-17-development-formula-40",
+          "target": "chapter-17-revision-h13"
+        },
+        {
+          "id": "chapter-17-development-formula-41",
+          "target": "chapter-17-revision-h13"
+        },
+        {
+          "id": "chapter-17-development-formula-42",
+          "target": "chapter-17-revision-h13"
+        },
+        {
+          "id": "chapter-17-development-p29",
+          "target": "chapter-17-revision-h13"
+        },
+        {
+          "id": "chapter-17-development-formula-43",
+          "target": "chapter-17-revision-h13"
+        },
+        {
+          "id": "chapter-17-development-p31",
+          "target": "chapter-17-revision-h13"
+        },
+        {
+          "id": "p6951",
+          "target": "chapter-17-revision-h13"
+        },
+        {
+          "id": "chapter-17-unit-11",
+          "target": "chapter-17-revision-h14"
+        },
+        {
+          "id": "chapter-17-h500",
+          "target": "chapter-17-revision-h14"
+        },
+        {
+          "id": "p6952",
+          "target": "chapter-17-revision-h14"
+        },
+        {
+          "id": "p6953",
+          "target": "chapter-17-revision-h14"
+        },
+        {
+          "id": "chapter-17-h501",
+          "target": "chapter-17-revision-h15"
+        },
+        {
+          "id": "p6954",
+          "target": "chapter-17-revision-h15"
+        },
+        {
+          "id": "p6955",
+          "target": "chapter-17-revision-h15"
+        }
+      ],
+      "formulas": [
+        {
+          "id": "search-chapter-17-6",
+          "tex": "X_n",
+          "display": false
+        },
+        {
+          "id": "search-chapter-17-7",
+          "tex": "(E,\\mathcal E)",
+          "display": false
+        },
+        {
+          "id": "search-chapter-17-8",
+          "tex": "P(x,dy)",
+          "display": false
+        },
+        {
+          "id": "search-chapter-17-9",
+          "tex": "\\mathcal F_n",
+          "display": false
+        },
+        {
+          "id": "search-chapter-17-10",
+          "tex": "f",
+          "display": false
+        },
+        {
+          "id": "search-chapter-17-11",
+          "tex": "E[f(X_{n+1})\\mid\\mathcal F_n]=Pf(X_n),\\qquad Pf(x)=\\int f(y)P(x,dy).",
+          "display": true
+        },
+        {
+          "id": "search-chapter-17-13",
+          "tex": "P_n",
+          "display": false
+        },
+        {
+          "id": "search-chapter-17-14",
+          "tex": "x",
+          "display": false
+        },
+        {
+          "id": "search-chapter-17-15",
+          "tex": "x",
+          "display": false
+        },
+        {
+          "id": "search-chapter-17-19",
+          "tex": "U,V",
+          "display": false
+        },
+        {
+          "id": "search-chapter-17-20",
+          "tex": "X_0=U,X_1=V,X_2=U",
+          "display": false
+        },
+        {
+          "id": "search-chapter-17-21",
+          "tex": "X_0,X_1",
+          "display": false
+        },
+        {
+          "id": "search-chapter-17-22",
+          "tex": "X_2",
+          "display": false
+        },
+        {
+          "id": "search-chapter-17-23",
+          "tex": "X_1",
+          "display": false
+        },
+        {
+          "id": "chapter-17-development-formula-1",
+          "tex": "\\Theta=1/4",
+          "display": false
+        },
+        {
+          "id": "chapter-17-development-formula-2",
+          "tex": "3/4",
+          "display": false
+        },
+        {
+          "id": "chapter-17-development-formula-3",
+          "tex": "B_1,B_2,\\ldots",
+          "display": false
+        },
+        {
+          "id": "chapter-17-development-formula-4",
+          "tex": "1/10",
+          "display": false
+        },
+        {
+          "id": "chapter-17-development-formula-5",
+          "tex": "1/2",
+          "display": false
+        },
+        {
+          "id": "chapter-17-development-formula-6",
+          "tex": "P(B_3=1\\mid B_1B_2=00)=\\frac3{10},\\qquad\nP(B_3=1\\mid B_1B_2=10)=\\frac12.",
+          "display": true
+        },
+        {
+          "id": "chapter-17-development-formula-7",
+          "tex": "q_n=P(\\Theta=3/4\\mid B_1,\\ldots,B_n)",
+          "display": false
+        },
+        {
+          "id": "chapter-17-development-formula-8",
+          "tex": "w(q_n)",
+          "display": false
+        },
+        {
+          "id": "chapter-17-development-formula-9",
+          "tex": "w(q)=1/4+q/2",
+          "display": false
+        },
+        {
+          "id": "chapter-17-development-formula-10",
+          "tex": "q\\longmapsto T_1(q)=\\frac{3q}{1+2q},\\qquad\nq\\longmapsto T_0(q)=\\frac{q}{3-2q}.",
+          "display": true
+        },
+        {
+          "id": "chapter-17-development-formula-11",
+          "tex": "[0,1]",
+          "display": false
+        },
+        {
+          "id": "chapter-17-development-formula-12",
+          "tex": "K(q,da)=w(q)\\delta_{T_1(q)}(da)+(1-w(q))\\delta_{T_0(q)}(da).",
+          "display": true
+        },
+        {
+          "id": "search-chapter-17-26",
+          "tex": "\\sigma(X_n)\\subseteq\\mathcal F_n",
+          "display": false
+        },
+        {
+          "id": "search-chapter-17-27",
+          "tex": "\\sigma(X_{n+1})",
+          "display": false
+        },
+        {
+          "id": "search-chapter-17-28",
+          "tex": "\\mathcal F_n",
+          "display": false
+        },
+        {
+          "id": "search-chapter-17-29",
+          "tex": "\\sigma(X_n)",
+          "display": false
+        },
+        {
+          "id": "search-chapter-17-30",
+          "tex": "X_n",
+          "display": false
+        },
+        {
+          "id": "chapter-17-development-formula-13",
+          "tex": "\\mathcal G=\\sigma(X_n)",
+          "display": false
+        },
+        {
+          "id": "chapter-17-development-formula-14",
+          "tex": "Y",
+          "display": false
+        },
+        {
+          "id": "chapter-17-development-formula-15",
+          "tex": "\\mathcal F_n",
+          "display": false
+        },
+        {
+          "id": "chapter-17-development-formula-16",
+          "tex": "E[Yf(X_{n+1})\\mid\\mathcal G]\n=Pf(X_n)E[Y\\mid\\mathcal G],\\qquad\nE[f(X_{n+1})\\mid\\mathcal G]=Pf(X_n).",
+          "display": true
+        },
+        {
+          "id": "chapter-17-development-formula-17",
+          "tex": "P",
+          "display": false
+        },
+        {
+          "id": "chapter-17-development-formula-18",
+          "tex": "E[Yf(X_{n+1})]=E[YPf(X_n)].",
+          "display": true
+        },
+        {
+          "id": "chapter-17-development-formula-19",
+          "tex": "Y",
+          "display": false
+        },
+        {
+          "id": "chapter-17-development-formula-20",
+          "tex": "\\mathcal F_n",
+          "display": false
+        },
+        {
+          "id": "search-chapter-17-33",
+          "tex": "P^0(x,A)=\\mathbf1_A(x)",
+          "display": false
+        },
+        {
+          "id": "search-chapter-17-34",
+          "tex": "P^{n+1}(x,A)=\\int P^n(y,A)P(x,dy).",
+          "display": true
+        },
+        {
+          "id": "search-chapter-17-36",
+          "tex": "E[f(X_{n+r})\\mid\\mathcal F_n]=P^rf(X_n)",
+          "display": false
+        },
+        {
+          "id": "search-chapter-17-37",
+          "tex": "P^{r+s}(x,A)=\\int P^s(y,A)P^r(x,dy).",
+          "display": true
+        },
+        {
+          "id": "chapter-17-development-formula-21",
+          "tex": "f",
+          "display": false
+        },
+        {
+          "id": "chapter-17-development-formula-22",
+          "tex": "E[f(X_{n+2})\\mid\\mathcal F_n]\n=E[Pf(X_{n+1})\\mid\\mathcal F_n]\n=P(Pf)(X_n).",
+          "display": true
+        },
+        {
+          "id": "chapter-17-development-formula-23",
+          "tex": "Pf",
+          "display": false
+        },
+        {
+          "id": "search-chapter-17-40",
+          "tex": "H",
+          "display": false
+        },
+        {
+          "id": "search-chapter-17-41",
+          "tex": "r",
+          "display": false
+        },
+        {
+          "id": "search-chapter-17-42",
+          "tex": "Q_rH(x)",
+          "display": false
+        },
+        {
+          "id": "search-chapter-17-43",
+          "tex": "r",
+          "display": false
+        },
+        {
+          "id": "search-chapter-17-44",
+          "tex": "x",
+          "display": false
+        },
+        {
+          "id": "search-chapter-17-45",
+          "tex": "E[H(X_{n+1},\\ldots,X_{n+r})\\mid\\mathcal F_n]=Q_rH(X_n).",
+          "display": true
+        },
+        {
+          "id": "chapter-17-development-formula-24",
+          "tex": "g_1,g_2",
+          "display": false
+        },
+        {
+          "id": "chapter-17-development-formula-25",
+          "tex": "E[g_1(X_{n+1})g_2(X_{n+2})\\mid\\mathcal F_n]\n=P(g_1\\,Pg_2)(X_n).",
+          "display": true
+        },
+        {
+          "id": "search-chapter-17-49",
+          "tex": "\\nu",
+          "display": false
+        },
+        {
+          "id": "search-chapter-17-50",
+          "tex": "P",
+          "display": false
+        },
+        {
+          "id": "search-chapter-17-51",
+          "tex": "\\nu(dx_0)P(x_0,dx_1)\\cdots P(x_{n-1},dx_n).",
+          "display": true
+        },
+        {
+          "id": "search-chapter-17-57",
+          "tex": "T",
+          "display": false
+        },
+        {
+          "id": "search-chapter-17-58",
+          "tex": "A\\in\\mathcal F_T",
+          "display": false
+        },
+        {
+          "id": "search-chapter-17-59",
+          "tex": "T=n",
+          "display": false
+        },
+        {
+          "id": "search-chapter-17-60",
+          "tex": "\\mathcal F_n",
+          "display": false
+        },
+        {
+          "id": "search-chapter-17-61",
+          "tex": "E[\\mathbf1_{A\\cap\\{T=n\\}}H(X_{T+1},\\ldots,X_{T+r})]\n=E[\\mathbf1_{A\\cap\\{T=n\\}}Q_rH(X_T)].",
+          "display": true
+        },
+        {
+          "id": "search-chapter-17-63",
+          "tex": "n",
+          "display": false
+        },
+        {
+          "id": "search-chapter-17-64",
+          "tex": "E[H(X_{T+1},\\ldots,X_{T+r})\\mid\\mathcal F_T]=Q_rH(X_T).",
+          "display": true
+        },
+        {
+          "id": "search-chapter-17-66",
+          "tex": "T",
+          "display": false
+        },
+        {
+          "id": "search-chapter-17-67",
+          "tex": "T<\\infty",
+          "display": false
+        },
+        {
+          "id": "search-chapter-17-68",
+          "tex": "A\\cap\\{T<\\infty\\}",
+          "display": false
+        },
+        {
+          "id": "search-chapter-17-69",
+          "tex": "X_\\infty",
+          "display": false
+        },
+        {
+          "id": "chapter-17-development-formula-26",
+          "tex": "B\\in\\mathcal E",
+          "display": false
+        },
+        {
+          "id": "chapter-17-development-formula-27",
+          "tex": "\\{T<\\infty\\}",
+          "display": false
+        },
+        {
+          "id": "chapter-17-development-formula-28",
+          "tex": "\\{X_T\\in B,T<\\infty\\}\n=\\bigcup_{n\\ge0}\\{T=n,X_n\\in B\\}.",
+          "display": true
+        },
+        {
+          "id": "chapter-17-development-formula-29",
+          "tex": "\\{T\\le m\\}",
+          "display": false
+        },
+        {
+          "id": "chapter-17-development-formula-30",
+          "tex": "\\mathcal F_m",
+          "display": false
+        },
+        {
+          "id": "chapter-17-development-formula-31",
+          "tex": "n\\le m",
+          "display": false
+        },
+        {
+          "id": "chapter-17-development-formula-32",
+          "tex": "\\|H\\|_\\infty P(A\\cap\\{T<\\infty\\})",
+          "display": false
+        },
+        {
+          "id": "chapter-17-development-formula-33",
+          "tex": "x",
+          "display": false
+        },
+        {
+          "id": "chapter-17-development-formula-34",
+          "tex": "R_x",
+          "display": false
+        },
+        {
+          "id": "chapter-17-development-formula-35",
+          "tex": "x",
+          "display": false
+        },
+        {
+          "id": "chapter-17-development-formula-36",
+          "tex": "C",
+          "display": false
+        },
+        {
+          "id": "chapter-17-development-formula-37",
+          "tex": "x\\mapsto R_x(C)",
+          "display": false
+        },
+        {
+          "id": "search-chapter-17-73",
+          "tex": "p_{ij}",
+          "display": false
+        },
+        {
+          "id": "search-chapter-17-74",
+          "tex": "i\\to j",
+          "display": false
+        },
+        {
+          "id": "search-chapter-17-75",
+          "tex": "p^{(n)}_{ij}>0",
+          "display": false
+        },
+        {
+          "id": "search-chapter-17-76",
+          "tex": "n\\ge0",
+          "display": false
+        },
+        {
+          "id": "search-chapter-17-77",
+          "tex": "i\\leftrightarrow j",
+          "display": false
+        },
+        {
+          "id": "search-chapter-17-82",
+          "tex": "i",
+          "display": false
+        },
+        {
+          "id": "search-chapter-17-83",
+          "tex": "d(i)=\\gcd\\{n\\ge1:p^{(n)}_{ii}>0\\}.",
+          "display": true
+        },
+        {
+          "id": "search-chapter-17-85",
+          "tex": "i\\to j",
+          "display": false
+        },
+        {
+          "id": "search-chapter-17-86",
+          "tex": "j\\to i",
+          "display": false
+        },
+        {
+          "id": "search-chapter-17-87",
+          "tex": "a,b",
+          "display": false
+        },
+        {
+          "id": "search-chapter-17-88",
+          "tex": "j",
+          "display": false
+        },
+        {
+          "id": "search-chapter-17-89",
+          "tex": "n",
+          "display": false
+        },
+        {
+          "id": "search-chapter-17-90",
+          "tex": "i",
+          "display": false
+        },
+        {
+          "id": "search-chapter-17-91",
+          "tex": "a+n+b",
+          "display": false
+        },
+        {
+          "id": "search-chapter-17-92",
+          "tex": "a+b",
+          "display": false
+        },
+        {
+          "id": "search-chapter-17-93",
+          "tex": "d(i)",
+          "display": false
+        },
+        {
+          "id": "search-chapter-17-94",
+          "tex": "n",
+          "display": false
+        },
+        {
+          "id": "search-chapter-17-96",
+          "tex": "d",
+          "display": false
+        },
+        {
+          "id": "search-chapter-17-97",
+          "tex": "d",
+          "display": false
+        },
+        {
+          "id": "search-chapter-17-101",
+          "tex": "\\pi",
+          "display": false
+        },
+        {
+          "id": "search-chapter-17-102",
+          "tex": "\\pi P=\\pi",
+          "display": false
+        },
+        {
+          "id": "search-chapter-17-103",
+          "tex": "\\pi",
+          "display": false
+        },
+        {
+          "id": "search-chapter-17-105",
+          "tex": "\\nu",
+          "display": false
+        },
+        {
+          "id": "search-chapter-17-106",
+          "tex": "\\mu_N=N^{-1}\\sum_{k=0}^{N-1}\\nu P^k",
+          "display": false
+        },
+        {
+          "id": "search-chapter-17-107",
+          "tex": "\\mu_NP-\\mu_N=(\\nu P^N-\\nu)/N\\longrightarrow0.",
+          "display": true
+        },
+        {
+          "id": "search-chapter-17-109",
+          "tex": "\\pi,\\rho",
+          "display": false
+        },
+        {
+          "id": "search-chapter-17-110",
+          "tex": "r_i=\\pi_i/\\rho_i",
+          "display": false
+        },
+        {
+          "id": "search-chapter-17-111",
+          "tex": "\\widehat p_{ij}=\\rho_jp_{ji}/\\rho_i",
+          "display": false
+        },
+        {
+          "id": "search-chapter-17-112",
+          "tex": "r_i=\\sum_j\\widehat p_{ij}r_j",
+          "display": false
+        },
+        {
+          "id": "chapter-17-development-formula-38",
+          "tex": "i\\mapsto i+1",
+          "display": false
+        },
+        {
+          "id": "chapter-17-development-formula-39",
+          "tex": "N",
+          "display": false
+        },
+        {
+          "id": "search-chapter-17-114",
+          "tex": "2\\pi_j=\\pi_{j-1}+\\pi_{j+1}",
+          "display": false
+        },
+        {
+          "id": "search-chapter-17-117",
+          "tex": "(1/2,1/2)",
+          "display": false
+        },
+        {
+          "id": "search-chapter-17-121",
+          "tex": "\\pi_i>0",
+          "display": false
+        },
+        {
+          "id": "search-chapter-17-122",
+          "tex": "\\widehat p_{ij}=\\frac{\\pi_jp_{ji}}{\\pi_i}.",
+          "display": true
+        },
+        {
+          "id": "search-chapter-17-124",
+          "tex": "\\pi\\widehat P=\\pi",
+          "display": false
+        },
+        {
+          "id": "search-chapter-17-125",
+          "tex": "\\pi_ip_{ij}",
+          "display": false
+        },
+        {
+          "id": "search-chapter-17-126",
+          "tex": "\\pi",
+          "display": false
+        },
+        {
+          "id": "search-chapter-17-128",
+          "tex": "\\pi_ip_{ij}=\\pi_jp_{ji}",
+          "display": false
+        },
+        {
+          "id": "chapter-17-development-formula-40",
+          "tex": "\\pi_j=0",
+          "display": false
+        },
+        {
+          "id": "chapter-17-development-formula-41",
+          "tex": "p_{ij}=0",
+          "display": false
+        },
+        {
+          "id": "chapter-17-development-formula-42",
+          "tex": "\\pi_i>0",
+          "display": false
+        },
+        {
+          "id": "chapter-17-development-formula-43",
+          "tex": "\\pi_{i_n}\\prod_{k=0}^{n-1}\\widehat p_{i_{k+1}i_k}\n=\\pi_{i_n}\\prod_{k=0}^{n-1}\n\\frac{\\pi_{i_k}p_{i_ki_{k+1}}}{\\pi_{i_{k+1}}}\n=\\pi_{i_0}\\prod_{k=0}^{n-1}p_{i_ki_{k+1}}.",
+          "display": true
+        }
+      ],
+      "old_heading_count": 13
+    }
+  }
+}

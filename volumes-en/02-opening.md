@@ -1,0 +1,1 @@
+Infinity enlarges the random world and changes the rules of calculation. Whether averages and limits may be interchanged, and what partial information can determine, must be understood on a new foundation.

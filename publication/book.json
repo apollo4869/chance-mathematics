@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "title": "偶然的数学：概率论的历史、思想与数学结构",
+  "title_en": "The Mathematics of Chance: The History, Ideas and Mathematical Structures of Probability",
+  "author": {"id": "haobai-wang", "name": "Haobai Wang", "given_names": "Haobai", "family_name": "Wang"},
+  "year": 2026,
+  "canonical_url": "https://chance-mathematics-six-chapters.goldenmath7.chatgpt.site/",
+  "repository_url": "https://github.com/apollo4869/chance-mathematics",
+  "edition_status": "LOCAL_PREVIEW_NOT_FORMAL_PUBLICATION",
+  "reading": "FREE_READING_AND_OFFICIAL_LINK_SHARING",
+  "rights_profile": "RESERVED_WHERE_LAWFULLY_OWNED_WITH_EXCEPTIONS_AND_THIRD_PARTY_RIGHTS",
+  "ai_tools": ["ChatGPT", "Codex"],
+  "biography_zh": "Haobai Wang 是《偶然的数学》的主作者，统筹全书的问题选择、思想叙事、数学结构与内容采用。著作沿真实的历史问题，追问概率概念为何产生，逐步走向现代概率论与随机几何。写作以广度、深度和正确的数学陈述为目标，保留完整推导、反例与故事的连续性。",
+  "biography_en": "Haobai Wang is the primary author of The Mathematics of Chance, directing its questions, narrative, mathematical structure and editorial adoption. The book follows historical problems to explain why probability concepts became necessary, moving toward modern probability and random geometry. It seeks breadth, depth and correct mathematical statements while preserving sustained arguments, counterexamples and narrative continuity."
+}

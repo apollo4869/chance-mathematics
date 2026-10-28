@@ -1,0 +1,153 @@
+{
+  "schema": 1,
+  "volumes": [
+    {
+      "id": "volume-01",
+      "number": 1,
+      "roman": "I",
+      "range": [
+        1,
+        4
+      ],
+      "zh": "偶然可以计算吗？",
+      "en": "Can Chance Be Calculated?",
+      "theme_zh": "从有限的机会，到无限的可能。",
+      "theme_en": "From finite chances to infinite possibilities.",
+      "opening": {
+        "zh": "volumes/01-opening.md",
+        "en": "volumes-en/01-opening.md"
+      },
+      "ending": {
+        "zh": "volumes/01-ending.md",
+        "en": "volumes-en/01-ending.md",
+        "title_zh": "第一卷尾声",
+        "title_en": "Epilogue to Volume I"
+      }
+    },
+    {
+      "id": "volume-02",
+      "number": 2,
+      "roman": "II",
+      "range": [
+        5,
+        14
+      ],
+      "zh": "无限世界中的概率",
+      "en": "Probability in an Infinite World",
+      "theme_zh": "在无限中，保留可以推理和计算的结构。",
+      "theme_en": "Structures that let reasoning and calculation survive infinity.",
+      "opening": {
+        "zh": "volumes/02-opening.md",
+        "en": "volumes-en/02-opening.md"
+      },
+      "ending": {
+        "chapter": 14,
+        "heading_zh": "第二卷结语：一份概率开始拥有过去",
+        "heading_en": "Epilogue to Volume II: A Probability Begins to Have a Past"
+      }
+    },
+    {
+      "id": "volume-03",
+      "number": 3,
+      "roman": "III",
+      "range": [
+        15,
+        22
+      ],
+      "zh": "时间中的公平、记忆与再生",
+      "en": "Fairness, Memory and Regeneration in Time",
+      "theme_zh": "信息不断增加时，公平怎样延续？",
+      "theme_en": "How does fairness persist as information grows?",
+      "opening": {
+        "zh": "volumes/03-opening.md",
+        "en": "volumes-en/03-opening.md"
+      },
+      "opening_status": "AUTHOR_REVIEW_PENDING",
+      "opening_review": "INDEPENDENT_REVIEW_RETAINED_WORKING_DRAFT_AUTHOR_PENDING",
+      "ending": {
+        "zh": "volumes/03-ending.md",
+        "en": "volumes-en/03-ending.md",
+        "title_zh": "第三卷尾声：一条规则能够走多远？",
+        "title_en": "Epilogue to Volume III: How Far Can a Rule Take Us?"
+      },
+      "ending_status": "AUTHOR_REVIEW_PENDING"
+    },
+    {
+      "id": "volume-04",
+      "number": 4,
+      "roman": "IV",
+      "range": [
+        23,
+        29
+      ],
+      "zh": "从离散记录到连续路径",
+      "en": "From Discrete Records to Continuous Paths",
+      "opening": {
+        "zh": "volumes/04-opening.md",
+        "en": "volumes-en/04-opening.md"
+      },
+      "opening_status": "AUTHOR_REVIEW_PENDING",
+      "opening_review": "READ_ADOPTED_AS_CURRENT_WORKING_MANUSCRIPT_NOT_FINAL",
+      "theme_zh": "有限次观察之外，怎样让一整条随机路径存在？",
+      "theme_en": "Beyond finite observations, how can an entire random path exist?",
+      "ending": {
+        "zh": "volumes/04-ending.md",
+        "en": "volumes-en/04-ending.md",
+        "title_zh": "第四卷尾声：让整段运动进入数学",
+        "title_en": "Epilogue to Volume IV: Bringing an Entire Motion into Mathematics"
+      },
+      "ending_status": "READ_ADOPTED_WORKING_MANUSCRIPT_NOT_FINAL"
+    },
+    {
+      "id": "volume-05",
+      "number": 5,
+      "roman": "V",
+      "range": [
+        30,
+        40
+      ],
+      "zh": "随机运动的微积分",
+      "en": "The Calculus of Random Motion",
+      "opening": {
+        "zh": "volumes/05-opening.md",
+        "en": "volumes-en/05-opening.md"
+      },
+      "opening_status": "AUTHOR_REVIEW_PENDING",
+      "theme_zh": "当路径粗糙而信息有先后，怎样重新建立微积分？",
+      "theme_en": "How can calculus respect both rough paths and the order of information?"
+    },
+    {
+      "id": "volume-06",
+      "number": 6,
+      "roman": "VI",
+      "range": [
+        41,
+        47
+      ],
+      "zh": "对称、平稳与可交换的世界",
+      "en": "A World of Symmetry, Stationarity and Exchangeability"
+    },
+    {
+      "id": "volume-07",
+      "number": 7,
+      "roman": "VII",
+      "range": [
+        48,
+        53
+      ],
+      "zh": "从随机点到随机空间",
+      "en": "From Random Points to Random Spaces"
+    },
+    {
+      "id": "volume-08",
+      "number": 8,
+      "roman": "VIII",
+      "range": [
+        54,
+        58
+      ],
+      "zh": "随机树、连续几何与新的概率结构",
+      "en": "Random Trees, Continuous Geometry and New Probability Structures"
+    }
+  ]
+}

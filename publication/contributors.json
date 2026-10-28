@@ -1,0 +1,9 @@
+{
+  "schema_version": 1,
+  "roles": ["primary_author", "chapter_contributor", "reviewer", "technical_contributor"],
+  "people": [{"id": "haobai-wang", "display_name": "Haobai Wang", "public_name_approved": true}],
+  "credits": [{"person_id": "haobai-wang", "role": "primary_author", "scope": "whole_book", "status": "CONFIRMED", "public_attribution_approved": true}],
+  "ai_tools_are_human_authors": false,
+  "submission_implies_assignment_or_open_license": false,
+  "policy": "Confirm scope, attribution consent and necessary rights before accepting a contribution. Roles remain distinct; review is not authorship or endorsement of the whole book."
+}

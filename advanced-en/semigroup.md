@@ -1,14 +1,14 @@
 # Advanced Reading: From Random Motion to Semigroups and Generators
 
-> This module was transferred in full from Chapter 4 before its restructuring, retaining the old section numbers and all original text. It is a technical working draft for later chapters to build on, rather than a required part of the proofs in the current Chapter 4.
+> Working topic material; see the page for the scope of each argument.
 
-**Destination chapters:** Chapter 20, “Systems That Remember Only the Present”; Chapter 31, “Probabilistic Evolution and Deterministic Equations.”
+**Primary chapter:** 28
 
 **Prerequisites:** Lebesgue integration, conditional distributions, the Markov property, operator semigroups, and domains of generators.
 
-**Scope of the proof:** The original derivations of the semigroup and generator have been moved here in full. This module assumes Brownian motion has already been constructed; it does not claim that Chapter 4 has established semigroup theory.
+**Proof scope:** The Brownian/Gaussian-kernel and heat-equation calculations are retained. The connection from random paths to deterministic evolution motivates, but does not replace, general operator theory. Chapter 28 and its three companions now provide positive contraction generation, boundary domains, and conservative locally compact Polish Feller paths and strong Markov. Author review and human mathematical final review remain pending; PDE developments remain in Chapter 38.
 
-[Return to the main narrative of Chapter 4](#chapter-4) · [View the complete snapshot of the old Chapter 4](/downloads/04-brownian-before-restructure.md)
+[Return to Chapter 4](#chapter-4) · [Topic and proof index](#reading-routes)
 
 ---
 

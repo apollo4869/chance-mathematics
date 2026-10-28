@@ -1,0 +1,105 @@
+{
+  "release_id": "nine-chapters-27ac355",
+  "kind": "FORMAL_WEB_PUBLICATION",
+  "author": "Haobai Wang",
+  "chapter_count": 9,
+  "languages": [
+    "zh-CN",
+    "en-working-translation"
+  ],
+  "content_source_commit": "27ac355",
+  "archive_file": "nine-chapters-27ac355.zip",
+  "archive_sha256": "eb7239c53d1d5d9351ec2921e9df4612bfa13b67f286dbcf2b9809499d816c06",
+  "files": {
+    "chapters/01-gambling.md": "13aef92ae4724b4b4c8b5aeea1462d17e345c72b8cb5c761a89edae63788243e",
+    "chapters/02-inference.md": "67f96226c5fc864eef686e9994db2d039c424444f16e66d240dee6017501596a",
+    "chapters/03-normal.md": "3ce001a8524b13a34da67c32bc07592a95d16377aff7f4ed3f78d5aa08773f5b",
+    "chapters/04-brownian.md": "b59837177c6644785eb34a8be0f3ab0020a5edf2ebf2313061b7511827aee9c3",
+    "chapters/05-measure.md": "d6ba65dbff2e96c3ef6f24732aa7295fb9335a9e364fde645b0f4eb25fe6daad",
+    "chapters/06-integral.md": "34f468e737bae704796fea3c493c226df54fc7eacbf68b0b1005377c347122e7",
+    "chapters/07-convergence.md": "56bd85f8860ce7b69c33031df04f03567e20311e968ec43de4da900908b5e664",
+    "chapters/08-infinite-experiments.md": "a1f1162473c49240e6f9a4b740b1c61decd974fbb3256271b8fab4160ac1a915",
+    "chapters/09-conditional-expectation.md": "23a3efff0d5b607b2fd9807e6654f0a46eb1e707be4f7f2a92fde08db33c9278",
+    "chapters-en/01-gambling.md": "8755a4871493f31d780be02a160a3b3bd1bb2a630d3d0ceeab050549c888868e",
+    "chapters-en/02-inference.md": "877bf501293c0c9ac633c55b9b104a9e0e483bd705a21b3f5421b01620fde578",
+    "chapters-en/03-normal.md": "41700173640fcf48154d87355ff12b32a0936f973e21b594dc3d1d1283bf90d7",
+    "chapters-en/04-brownian.md": "dd4edafa254c9fa280577a20cf697e4656c8c02588f24455845bf4faf20bd0c0",
+    "chapters-en/05-measure.md": "dd2cb990fbb7d1434dc08881792920362ffaff4657fd99f64897398147c54963",
+    "chapters-en/06-integral.md": "64d264a6cb1dc2f2d1fbbe86eace26a57db76337602b79a9e2d749770bf7ee71",
+    "chapters-en/07-convergence.md": "a253bca6b555aafd23b0d0e86a532bd192cc6183ae7896087bd3613bf3f71940",
+    "chapters-en/08-infinite-experiments.md": "fb5b44187968c8b0c883a3af57d0edc61a2c8f4dfc3f85935ba9d62d7645f1f7",
+    "chapters-en/09-conditional-expectation.md": "71874c0148bd69e7bd02dcdd2b60f38480550b81d3db8737f7c303d221826521",
+    "advanced/crt.md": "19eab7069047d426eae0a1f1095f1fb4b05f3349755d1ffa2df904809933b7ce",
+    "advanced/donsker.md": "2ce961e961fddb917937e9ccfbef65bd4e4a7c3d08e516de8d05392a04a16f3b",
+    "advanced/quadratic.md": "bbe19f486007506c29157c3d63ee598b0304cb4e592bc412a00a499a2e893ca4",
+    "advanced/reflection.md": "a7bb2e943a6fbb55408257fc01fbee74cc563f6ca961b960c0fb31c0680605ef",
+    "advanced/semigroup.md": "3b5c93838fd53c817bad162987585c0c9ed44794f80596e4e3cc9c34b48f471c",
+    "advanced/wiener.md": "91c10db50998bb710630959f3bbdf404c4a8226bfadc558e5b4254fb9bec629f",
+    "advanced-en/crt.md": "92f3a2ae4907ab8c214f985090fef8a379567630e95f1aee53f68f0d47f28231",
+    "advanced-en/donsker.md": "a8ab27c5bc6af7a61ef9e1e59b3c2ac0337b9d93428f4845a7d0c032fe60a4f6",
+    "advanced-en/quadratic.md": "b4a08fc70de988ba84e7fadfa293c7cb861c240d01a2b0f5f9d39e0e4e4dd16f",
+    "advanced-en/reflection.md": "e17d1b6cc4a10589cb633f7408d3dc2a5f31ba93b62f2ec143c3afb9faee8c90",
+    "advanced-en/semigroup.md": "cfd0d337167b369a3ca920f60cd11ffcc34caa55e90da0bfda0b66dbbafa7803",
+    "advanced-en/wiener.md": "4612ff08526624f637da5d7431263e645f7db0eada9b00cf401626c42b78b689",
+    "校订与证明补充.md": "1485a84dd4e0ede2ef2b128ba88a0254628170aa15ebc5c279ff2f09ade226ff",
+    "引用与配图来源.md": "7aeb5b027c674b060b081fd35e31847371f24157422fa411603654ccca137e5e",
+    "延伸阅读与证明路线.md": "8924b00c19f3134f7e541222aa6ecac452a771abd5be925097f53933dcec5600"
+  },
+  "academic_final_review": false,
+  "schema_version": 1,
+  "published_date": "2026-10-26",
+  "source_commit": "492ef1e65ce0558cf31823a6c46e9ad72b67c431",
+  "manuscript_source_commit": "27ac355184b36797a60316c22a7908304e063951",
+  "formal_url": "https://chance-mathematics-six-chapters.goldenmath7.chatgpt.site/",
+  "hosting_version_number": 7,
+  "hosting_version_id": "appgprj_6add5ada774c819199489ea9858f15c8~appgver_2565d1ff909c8191a47c6893bab01ae9",
+  "deployment_id": "appgdep_6adfe85f971c819193bec691f1207ae7",
+  "chapters": [
+    {
+      "chapter": 1,
+      "source": "chapters/01-gambling.md",
+      "source_sha256": "13aef92ae4724b4b4c8b5aeea1462d17e345c72b8cb5c761a89edae63788243e"
+    },
+    {
+      "chapter": 2,
+      "source": "chapters/02-inference.md",
+      "source_sha256": "67f96226c5fc864eef686e9994db2d039c424444f16e66d240dee6017501596a"
+    },
+    {
+      "chapter": 3,
+      "source": "chapters/03-normal.md",
+      "source_sha256": "3ce001a8524b13a34da67c32bc07592a95d16377aff7f4ed3f78d5aa08773f5b"
+    },
+    {
+      "chapter": 4,
+      "source": "chapters/04-brownian.md",
+      "source_sha256": "b59837177c6644785eb34a8be0f3ab0020a5edf2ebf2313061b7511827aee9c3"
+    },
+    {
+      "chapter": 5,
+      "source": "chapters/05-measure.md",
+      "source_sha256": "d6ba65dbff2e96c3ef6f24732aa7295fb9335a9e364fde645b0f4eb25fe6daad"
+    },
+    {
+      "chapter": 6,
+      "source": "chapters/06-integral.md",
+      "source_sha256": "34f468e737bae704796fea3c493c226df54fc7eacbf68b0b1005377c347122e7"
+    },
+    {
+      "chapter": 7,
+      "source": "chapters/07-convergence.md",
+      "source_sha256": "56bd85f8860ce7b69c33031df04f03567e20311e968ec43de4da900908b5e664"
+    },
+    {
+      "chapter": 8,
+      "source": "chapters/08-infinite-experiments.md",
+      "source_sha256": "a1f1162473c49240e6f9a4b740b1c61decd974fbb3256271b8fab4160ac1a915"
+    },
+    {
+      "chapter": 9,
+      "source": "chapters/09-conditional-expectation.md",
+      "source_sha256": "23a3efff0d5b607b2fd9807e6654f0a46eb1e707be4f7f2a92fde08db33c9278"
+    }
+  ],
+  "author_approval_scope": "Explicit permission to publish Chapters7–9; independent academic and English translation review states retained."
+}

@@ -1,0 +1,53 @@
+{
+  "id": "local-clt-parity",
+  "generator": "tools/generate-local-clt-figure.py",
+  "model": {
+    "id": "local-clt-parity",
+    "steps": [
+      20,
+      21
+    ],
+    "display_k": [
+      -10,
+      10
+    ],
+    "maximal_span": 2,
+    "step_mean": 0,
+    "step_variance": 1,
+    "randomness": "none; exact binomial probabilities",
+    "approximation": "2/sqrt(n) * phi(k/sqrt(n)); only at k congruent n mod2",
+    "not_claimed": "A finite plot is not a local-CLT proof, error-rate bound, or continuous-Gaussian TV convergence."
+  },
+  "matplotlib": "3.10.7",
+  "font_sha256": "31d0dbce64363b3551fd31648082c1b203c3607a66d1e942c7766c2ce359755d",
+  "font_notice": "assets/visuals/font-notice.txt",
+  "files": {
+    "assets/visuals/local-clt-data.json": {
+      "sha256": "05fbbd2d5b2df3334bd37ab9452c5aa7d8cdbd4570a9b0c48dae377a3f2f2fac"
+    },
+    "tools/generate-local-clt-figure.py": {
+      "sha256": "c54c124f2c185d59324c6b3b71f053846672c8276e25f8000f4b6997bb9e5d56"
+    },
+    "assets/visuals/print/local-clt-parity.zh.svg": {
+      "sha256": "243591612f5e5f7be2ea3f466bac7585025479ef4352308593dfd4d498f0f476"
+    },
+    "assets/visuals/print/local-clt-parity.zh.pdf": {
+      "sha256": "d465b5cd60d9124fa8e5b3f035c4982d920278e395f08220972ea3a438332ceb"
+    },
+    "assets/visuals/print/local-clt-parity.en.svg": {
+      "sha256": "fe57d8a68a78d1258fefdb387614009ca5d0256fe48364a45aa541d59b15572e"
+    },
+    "assets/visuals/print/local-clt-parity.en.pdf": {
+      "sha256": "1dede035f5ee5a8879c4bddaa724499fc51d0601f38ca8bc987e144bcbedd40f"
+    }
+  },
+  "checks": [
+    "exact rational total1",
+    "mean0",
+    "variance n",
+    "maximal span2",
+    "parity at0",
+    "no simulation"
+  ],
+  "author_adoption": "PENDING_REVIEW_OF_NEW_FIGURE"
+}

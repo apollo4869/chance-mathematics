@@ -1,14 +1,14 @@
 # Advanced Reading: From Brownian Paths to Random Trees
 
-> This module was transferred in full from Chapter 4 before its restructuring, retaining the original section numbers and all of the original text. It is a technical working draft for development in later chapters, rather than a required proof for the current Chapter 4.
+> Working topic material; see the page for the scope of each argument.
 
-**Destination chapters:** Chapter 25, excursions and path decomposition; Chapter 43, path encoding; Chapter 45, real trees; Chapter 46, the Brownian CRT (following the locations in the existing draft).
+**Primary chapter:** 54
 
 **Prerequisites:** Excursions, pseudometrics and quotient spaces, properties of real trees, normalization, and weak convergence in function spaces.
 
-**Scope of the proof:** The list of topics “already developed” at the start of the old section reviews the former manuscript, rather than recording what the current reading edition has completed. The tree-encoding formulas and SVG illustration are preserved; the CRT construction and limit theorems have not been proved within the six chapters.
+**Proof scope:** Excursions, a pseudometric and branching diagrams provide geometric intuition; the tree structure of the quotient still needs a proof. The coding discussion is not a complete real-tree, CRT or conditioned-tree limit theorem. Chapter 37 develops excursions, Chapters 52–53 discrete coding and conditioned limits, Chapter 54 real trees and CRT, and Chapter 55 convergence of spaces.
 
-[Return to the main reading of Chapter 4](#chapter-4) · [View the complete snapshot of the former Chapter 4](/downloads/04-brownian-before-restructure.md)
+[Return to Chapter 4](#chapter-4) · [Topic and proof index](#reading-routes)
 
 ---
 

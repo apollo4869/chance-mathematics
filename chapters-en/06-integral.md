@@ -813,7 +813,7 @@ We shall continue by following the natural mathematical questions.
 
 ### Theorem 6.1: Monotone Convergence Theorem
 
-> Editorial supplement: The limit function \(f\) is also assumed nonnegative and measurable; on an incomplete space, almost everywhere convergence should be interpreted using a measurable version of the limit. See Appendix E.
+> Editorial supplement: The limit function \(f\) is also assumed nonnegative and measurable; on an incomplete space, almost everywhere convergence should be interpreted using a measurable version of the limit. See Appendix E. A proof from simple integrals without assuming general linearity is given in the [monotone-convergence companion](../foundations/t-integral.md#t-integral-mct).
 
 Let \(f_1,f_2,\ldots\) be nonnegative measurable functions satisfying
 
@@ -1581,7 +1581,7 @@ Indeed, this is the core of the dominated convergence theorem.
 
 ### Theorem 6.3: Lebesgue’s Dominated Convergence Theorem
 
-> Editorial supplement: The limit function \(f\) below is taken to be measurable; functions may be real or complex, with the proof interpreted componentwise as appropriate. See Appendix E.
+> Editorial supplement: The limit function \(f\) below is taken to be measurable; functions may be real or complex, with the proof interpreted componentwise as appropriate. See Appendix E. DCT holds on any measure space; see the [integral foundations](../foundations/t-integral.md#t-integral-dct) for nonnegative linearity, the common null set and the full proof.
 
 Let \(f_n\) be a sequence of measurable functions, with
 
@@ -1655,7 +1655,7 @@ For any \(\varepsilon>0\), there exists \(\delta>0\) such that
 
 Thus, however large \(n\) becomes, \(f_n\) cannot retain a fixed contribution to the integral in a region of arbitrarily small measure.
 
-Likewise, for the integrable function \(g\) with finite integral, we can control the tail contribution from distant parts of the space; in a general measure space, the corresponding integrability control can be expressed through a suitable exhaustion by sets of finite measure.
+Likewise, an integrable dominator \(g\) has controlled tails. On a general measure space, finite-measure sets exhaust its effective support \(\{g>0\}\), not necessarily the entire space. DCT itself requires no σ-finiteness; see the [effective-support proof](../foundations/t-integral.md#t-integral-support).
 
 A fixed integrable upper bound therefore excludes exactly the uncontrolled integral mass present in our two earlier counterexamples.
 
@@ -2150,7 +2150,7 @@ This leads us to the chapter’s final important theorem.
 
 ## 6.12 Fubini–Tonelli: When May We Change the Order of Summation and Integration?
 
-> Editorial supplement: Appendix C gives expanded proofs concerning sections of product sets, the monotone-class step, and the construction of product measure.
+> Editorial supplement: Appendix C gives expanded proofs concerning sections of product sets, the monotone-class step, and the construction of product measure. The π–λ theorem and the set and functional monotone class theorems are proved fully in the [generating-class companion](../foundations/t-mclass.md#t-mclass-pi-lambda).
 
 Recall Chapter 1.
 

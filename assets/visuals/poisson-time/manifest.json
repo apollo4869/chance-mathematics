@@ -1,0 +1,27 @@
+{
+  "id": "arrival-record",
+  "source": "generate.py",
+  "parameters": "model.json",
+  "formats": [
+    "svg",
+    "vector-pdf"
+  ],
+  "languages": "Shared mathematical labels with separate complete Chinese/English captions in Chapter21",
+  "model_checks": {
+    "positive_waits": true,
+    "partial_sums": true,
+    "half_open_window_counts": [
+      2,
+      2,
+      1
+    ],
+    "right_continuous_markers": true
+  },
+  "licensing": "Project-created mathematical code figure; no blanket copyright claim for AI-generated material; Matplotlib/DejaVu notices retained with existing dependencies.",
+  "files": {
+    "generate.py": "825c55fd71289ad0f9e25a1ed9e27626828fb8ecd904fdc8dd47e223d80c98bd",
+    "model.json": "7fc6afc465c534b4391179ebbbc27178479697e9379c4e0b155440be62c5921e",
+    "arrival-record.svg": "c14a698f732ff751a2d18c4f3e05318109ff963ea9a224ba36f7b92521b93312",
+    "arrival-record.pdf": "ab8e9cae95b50c0297eb57e1f4917880e2e4c56a40d469f02a75934095156c7b"
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "id": "lindeberg-budget",
+  "model": {
+    "id": "lindeberg-budget",
+    "models": {
+      "small": {
+        "law": "P(X=+1/sqrt(n))=P(X=-1/sqrt(n))=1/2",
+        "row_length": "n",
+        "variance_per_term": "1/n",
+        "total_variance": 1,
+        "L_n(epsilon)": "1 if epsilon<1/sqrt(n), else0"
+      },
+      "rare": {
+        "law": "P(X=+1)=P(X=-1)=1/(2n); P(X=0)=1-1/n",
+        "row_length": "n",
+        "variance_per_term": "1/n",
+        "total_variance": 1,
+        "L_n(epsilon)": "1 if epsilon<1, else0"
+      }
+    },
+    "n": [
+      16,
+      64,
+      256,
+      1024
+    ],
+    "curves_n": [
+      16,
+      64,
+      256
+    ],
+    "randomness": "NONE; exact expectations",
+    "purpose": "Feller maximal variance is identical; Lindeberg tail budgets differ.",
+    "not_claimed": "Finite plots do not prove convergence; theorem proved in Chapter14."
+  },
+  "matplotlib": "3.10.7",
+  "font_sha256": "31d0dbce64363b3551fd31648082c1b203c3607a66d1e942c7766c2ce359755d",
+  "font_notice": "assets/visuals/font-notice.txt",
+  "files": {
+    "assets/visuals/array-budget-data.json": {
+      "sha256": "65aa2d2d4ad19db015464bf0eab7138b2ae82117092b8e999191ce726339890d"
+    },
+    "tools/generate-array-budget-figure.py": {
+      "sha256": "919ff016d5097ed20c80ce21ed3dd57dbfb063be76579ab13fce4350a0c4e120"
+    },
+    "assets/visuals/print/lindeberg-budget.zh.svg": {
+      "sha256": "cb3def4032151ed6d0fcd35c5952c177a6e9609bca884214866937c66b4d66ac"
+    },
+    "assets/visuals/print/lindeberg-budget.zh.pdf": {
+      "sha256": "d47389ba010db1622d544076500b79689fba8a66fe069460017a2bf3fa3a04df"
+    },
+    "assets/visuals/print/lindeberg-budget.en.svg": {
+      "sha256": "d73c185770aa9b519b00ad59f51a375528a06e135fef8e004522ae4210fb0c87"
+    },
+    "assets/visuals/print/lindeberg-budget.en.pdf": {
+      "sha256": "f35927d54b2c003d078fa25576f43937f1b577bbc3c291c432667f0087f21e59"
+    }
+  },
+  "author_adoption": "PENDING_AUTHOR_READING"
+}

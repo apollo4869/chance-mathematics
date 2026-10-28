@@ -1,0 +1,1899 @@
+{
+  "purpose": "Preserve all189 existing Chapter14 formula anchors while adding inline verification steps.",
+  "formulas": {
+    "zh": [
+      {
+        "context": "p6467",
+        "tex": "n",
+        "id": "search-chapter-14-9"
+      },
+      {
+        "context": "p6467",
+        "tex": "r_n",
+        "id": "search-chapter-14-10"
+      },
+      {
+        "context": "display:1",
+        "tex": "Z_{n1},\\ldots,Z_{nr_n},\\qquad S_n=\\sum_{k=1}^{r_n}Z_{nk}.",
+        "id": "search-chapter-14-11"
+      },
+      {
+        "context": "p6470",
+        "tex": "m_{nk}=\\mathbb EZ_{nk}",
+        "id": "search-chapter-14-14"
+      },
+      {
+        "context": "display:2",
+        "tex": "s_n^2=\\sum_k\\operatorname{Var}(Z_{nk})\\in(0,\\infty),\\qquad X_{nk}=\\frac{Z_{nk}-m_{nk}}{s_n},\\qquad T_n=\\sum_kX_{nk}.",
+        "id": "search-chapter-14-15"
+      },
+      {
+        "context": "p6472",
+        "tex": "\\mathbb EX_{nk}=0",
+        "id": "search-chapter-14-17"
+      },
+      {
+        "context": "p6472",
+        "tex": "\\sum_kv_{nk}=1",
+        "id": "search-chapter-14-18"
+      },
+      {
+        "context": "p6472",
+        "tex": "v_{nk}=\\mathbb EX_{nk}^2",
+        "id": "search-chapter-14-19"
+      },
+      {
+        "context": "display:3",
+        "tex": "\\max_{k\\le r_n}P(|X_{nk}|>\\varepsilon)\\longrightarrow0\\qquad(\\varepsilon>0).",
+        "id": "search-chapter-14-23"
+      },
+      {
+        "context": "display:4",
+        "tex": "\\max_kv_{nk}\\longrightarrow0.",
+        "id": "search-chapter-14-25"
+      },
+      {
+        "context": "p6478",
+        "tex": "P(|X_{nk}|>\\varepsilon)\\le v_{nk}/\\varepsilon^2",
+        "id": "search-chapter-14-27"
+      },
+      {
+        "context": "p6478",
+        "tex": "1/(2n)",
+        "id": "search-chapter-14-28"
+      },
+      {
+        "context": "p6478",
+        "tex": "\\pm\\sqrt n",
+        "id": "search-chapter-14-29"
+      },
+      {
+        "context": "p6479",
+        "tex": "1/(2n)",
+        "id": "search-chapter-14-31"
+      },
+      {
+        "context": "p6479",
+        "tex": "1/n",
+        "id": "search-chapter-14-32"
+      },
+      {
+        "context": "display:5",
+        "tex": "\\mathbb Ee^{itT_n}=\\left(1+\\frac{\\cos t-1}{n}\\right)^n\\longrightarrow\\exp(\\cos t-1).",
+        "id": "search-chapter-14-33"
+      },
+      {
+        "context": "display:6",
+        "tex": "L_n(\\varepsilon)=\\sum_k\\mathbb E[X_{nk}^2\\mathbf1_{\\{|X_{nk}|>\\varepsilon\\}}].",
+        "id": "search-chapter-14-37"
+      },
+      {
+        "context": "p6484",
+        "tex": "\\varepsilon>0",
+        "id": "search-chapter-14-39"
+      },
+      {
+        "context": "p6484",
+        "tex": "L_n(\\varepsilon)\\to0",
+        "id": "search-chapter-14-40"
+      },
+      {
+        "context": "display:7",
+        "tex": "\\frac1{s_n^2}\\sum_k\\mathbb E[(Z_{nk}-m_{nk})^2\\mathbf1_{\\{|Z_{nk}-m_{nk}|>\\varepsilon s_n\\}}]\\longrightarrow0.",
+        "id": "search-chapter-14-41"
+      },
+      {
+        "context": "p6486",
+        "tex": "v_{nk}\\le\\varepsilon^2+L_n(\\varepsilon)",
+        "id": "search-chapter-14-43"
+      },
+      {
+        "context": "p6486",
+        "tex": "P(\\max_k|X_{nk}|>\\varepsilon)\\le L_n(\\varepsilon)/\\varepsilon^2\\to0",
+        "id": "search-chapter-14-44"
+      },
+      {
+        "context": "p6488",
+        "tex": "\\mathbb EX_{nk}=0",
+        "id": "search-chapter-14-48"
+      },
+      {
+        "context": "p6488",
+        "tex": "\\sum_k\\mathbb EX_{nk}^2=1",
+        "id": "search-chapter-14-49"
+      },
+      {
+        "context": "p6488",
+        "tex": "T_n\\Rightarrow N(0,1)",
+        "id": "search-chapter-14-50"
+      },
+      {
+        "context": "display:8",
+        "tex": "e^{iu}=1+iu-\\frac{u^2}{2}+R(u),\\qquad |R(u)|\\le\\frac{|u|^3}{6},\\qquad |R(u)|\\le u^2.",
+        "id": "search-chapter-14-52"
+      },
+      {
+        "context": "p6491",
+        "tex": "|e^{iu}-1-iu|\\le u^2/2",
+        "id": "search-chapter-14-54"
+      },
+      {
+        "context": "p6491",
+        "tex": "|X_{nk}|\\le\\varepsilon",
+        "id": "search-chapter-14-55"
+      },
+      {
+        "context": "display:9",
+        "tex": "\\sum_k|\\mathbb ER(tX_{nk})|\\le\\frac{|t|^3\\varepsilon}{6}\\sum_kv_{nk}+t^2L_n(\\varepsilon).",
+        "id": "search-chapter-14-56"
+      },
+      {
+        "context": "p6493",
+        "tex": "z_{nk}=\\mathbb Ee^{itX_{nk}}-1",
+        "id": "search-chapter-14-58"
+      },
+      {
+        "context": "display:10",
+        "tex": "\\sum_kz_{nk}\\longrightarrow-\\frac{t^2}{2},\\qquad |z_{nk}|\\le\\frac{t^2v_{nk}}2,\\qquad \\sum_k|z_{nk}|^2\\le\\frac{t^4}{4}\\max_kv_{nk}\\longrightarrow0.",
+        "id": "search-chapter-14-59"
+      },
+      {
+        "context": "p6495",
+        "tex": "|z_{nk}|\\le1/2",
+        "id": "search-chapter-14-61"
+      },
+      {
+        "context": "p6495",
+        "tex": "|\\log(1+z)-z|\\le2|z|^2",
+        "id": "search-chapter-14-62"
+      },
+      {
+        "context": "display:11",
+        "tex": "\\prod_k\\mathbb Ee^{itX_{nk}}=\\exp\\left\\{\\sum_k\\log(1+z_{nk})\\right\\}\\longrightarrow e^{-t^2/2}.",
+        "id": "search-chapter-14-63"
+      },
+      {
+        "context": "p6498",
+        "tex": "T_n\\Rightarrow N(0,1)",
+        "id": "search-chapter-14-67"
+      },
+      {
+        "context": "display:12",
+        "tex": "\\sum_k\\mathbb E[1-\\cos(tX_{nk})]=-\\log|\\mathbb Ee^{itT_n}|+o(1)\\longrightarrow\\frac{t^2}{2}.",
+        "id": "search-chapter-14-69"
+      },
+      {
+        "context": "display:13",
+        "tex": "\\sum_k\\mathbb E\\left[\\frac{t^2X_{nk}^2}{2}-(1-\\cos(tX_{nk}))\\right]\\longrightarrow0.",
+        "id": "search-chapter-14-71"
+      },
+      {
+        "context": "p6503",
+        "tex": "c_{t,\\varepsilon}>0",
+        "id": "search-chapter-14-73"
+      },
+      {
+        "context": "p6503",
+        "tex": "|x|>\\varepsilon",
+        "id": "search-chapter-14-74"
+      },
+      {
+        "context": "p6503",
+        "tex": "c_{t,\\varepsilon}x^2",
+        "id": "search-chapter-14-75"
+      },
+      {
+        "context": "p6503",
+        "tex": "1/2-(1-\\cos u)/u^2",
+        "id": "search-chapter-14-76"
+      },
+      {
+        "context": "p6503",
+        "tex": "|u|\\ge|t|\\varepsilon",
+        "id": "search-chapter-14-77"
+      },
+      {
+        "context": "p6503",
+        "tex": "1-\\cos u<u^2/2",
+        "id": "search-chapter-14-78"
+      },
+      {
+        "context": "p6505",
+        "tex": "\\delta>0",
+        "id": "search-chapter-14-82"
+      },
+      {
+        "context": "display:14",
+        "tex": "\\sum_k\\mathbb E|X_{nk}|^{2+\\delta}\\longrightarrow0,",
+        "id": "search-chapter-14-83"
+      },
+      {
+        "context": "p6507",
+        "tex": "L_n(\\varepsilon)\\le\\varepsilon^{-\\delta}\\sum_k\\mathbb E|X_{nk}|^{2+\\delta}\\to0",
+        "id": "search-chapter-14-85"
+      },
+      {
+        "context": "p6507",
+        "tex": "s_n^{2+\\delta}",
+        "id": "search-chapter-14-86"
+      },
+      {
+        "context": "p6508",
+        "tex": "|x|\\ge e",
+        "id": "search-chapter-14-88"
+      },
+      {
+        "context": "p6508",
+        "tex": "|x|^{-3}(\\log|x|)^{-2}",
+        "id": "search-chapter-14-89"
+      },
+      {
+        "context": "p6508",
+        "tex": "2+\\delta",
+        "id": "search-chapter-14-90"
+      },
+      {
+        "context": "p6510",
+        "tex": "G\\sim N(0,1)",
+        "id": "search-chapter-14-94"
+      },
+      {
+        "context": "p6510",
+        "tex": "\\epsilon",
+        "id": "search-chapter-14-95"
+      },
+      {
+        "context": "p6510",
+        "tex": "(G,G)",
+        "id": "search-chapter-14-96"
+      },
+      {
+        "context": "p6510",
+        "tex": "(G,\\epsilon G)",
+        "id": "search-chapter-14-97"
+      },
+      {
+        "context": "p6511",
+        "tex": "X\\in\\mathbb R^d",
+        "id": "search-chapter-14-99"
+      },
+      {
+        "context": "display:15",
+        "tex": "\\phi_X(t)=\\mathbb Ee^{i\\langle t,X\\rangle},\\qquad t\\in\\mathbb R^d.",
+        "id": "search-chapter-14-100"
+      },
+      {
+        "context": "p6514",
+        "tex": "\\varepsilon>0",
+        "id": "search-chapter-14-104"
+      },
+      {
+        "context": "p6514",
+        "tex": "X+\\varepsilon G",
+        "id": "search-chapter-14-105"
+      },
+      {
+        "context": "display:16",
+        "tex": "p_\\varepsilon(x)=(2\\pi)^{-d}\\int_{\\mathbb R^d}e^{-i\\langle t,x\\rangle}\\phi_X(t)e^{-\\varepsilon^2\\|t\\|^2/2}\\,dt.",
+        "id": "search-chapter-14-106"
+      },
+      {
+        "context": "p6517",
+        "tex": "f(X+\\varepsilon G)\\to f(X)",
+        "id": "search-chapter-14-109"
+      },
+      {
+        "context": "p6518",
+        "tex": "\\mathbb R^d",
+        "id": "search-chapter-14-112"
+      },
+      {
+        "context": "p6518",
+        "tex": "K=[-M,M]^d",
+        "id": "search-chapter-14-113"
+      },
+      {
+        "context": "p6520",
+        "tex": "[0,1]^d",
+        "id": "search-chapter-14-116"
+      },
+      {
+        "context": "p6523",
+        "tex": "\\mathbb R^d",
+        "id": "search-chapter-14-120"
+      },
+      {
+        "context": "p6523",
+        "tex": "q(x)=1/2+\\arctan(x)/\\pi",
+        "id": "search-chapter-14-121"
+      },
+      {
+        "context": "p6525",
+        "tex": "\\phi_n(t)\\to\\phi(t)",
+        "id": "search-chapter-14-125"
+      },
+      {
+        "context": "p6525",
+        "tex": "t\\in\\mathbb R^d",
+        "id": "search-chapter-14-126"
+      },
+      {
+        "context": "p6525",
+        "tex": "\\phi(0)=1",
+        "id": "search-chapter-14-127"
+      },
+      {
+        "context": "p6527",
+        "tex": "X_n\\Rightarrow X",
+        "id": "search-chapter-14-130"
+      },
+      {
+        "context": "p6527",
+        "tex": "u\\in\\mathbb R^d",
+        "id": "search-chapter-14-131"
+      },
+      {
+        "context": "p6527",
+        "tex": "\\langle u,X_n\\rangle\\Rightarrow\\langle u,X\\rangle",
+        "id": "search-chapter-14-132"
+      },
+      {
+        "context": "p6530",
+        "tex": "AA^\\mathsf T=\\Sigma",
+        "id": "search-chapter-14-137"
+      },
+      {
+        "context": "p6530",
+        "tex": "N_d(0,\\Sigma)",
+        "id": "search-chapter-14-138"
+      },
+      {
+        "context": "display:17",
+        "tex": "\\mathbb Ee^{i\\langle t,AG\\rangle}=e^{-\\|A^\\mathsf Tt\\|^2/2}=e^{-t^\\mathsf T\\Sigma t/2}.",
+        "id": "search-chapter-14-139"
+      },
+      {
+        "context": "p6533",
+        "tex": "V_1,V_2,\\ldots",
+        "id": "search-chapter-14-142"
+      },
+      {
+        "context": "p6533",
+        "tex": "\\mathbb E\\|V_1\\|^2<\\infty",
+        "id": "search-chapter-14-143"
+      },
+      {
+        "context": "display:18",
+        "tex": "\\frac1{\\sqrt n}\\sum_{k=1}^n(V_k-m)\\Rightarrow N_d(0,\\Sigma).",
+        "id": "search-chapter-14-144"
+      },
+      {
+        "context": "p6535",
+        "tex": "u^\\mathsf T\\Sigma u",
+        "id": "search-chapter-14-146"
+      },
+      {
+        "context": "display:19",
+        "tex": "\\sum_k\\mathbb E[X_{nk}X_{nk}^\\mathsf T]\\longrightarrow\\Sigma,\\qquad\\sum_k\\mathbb E[\\|X_{nk}\\|^2\\mathbf1_{\\{\\|X_{nk}\\|>\\varepsilon\\}}]\\longrightarrow0\\quad(\\varepsilon>0).",
+        "id": "search-chapter-14-148"
+      },
+      {
+        "context": "p6538",
+        "tex": "|\\langle u,x\\rangle|\\le\\|u\\|\\|x\\|",
+        "id": "search-chapter-14-150"
+      },
+      {
+        "context": "p6538",
+        "tex": "N_d(0,\\Sigma)",
+        "id": "search-chapter-14-151"
+      },
+      {
+        "context": "p6540",
+        "tex": "F(x)=P(|Z|>x)",
+        "id": "search-chapter-14-155"
+      },
+      {
+        "context": "p6540",
+        "tex": "F(x)",
+        "id": "search-chapter-14-156"
+      },
+      {
+        "context": "p6540",
+        "tex": "x^{-\\alpha}\\ell(x)",
+        "id": "search-chapter-14-157"
+      },
+      {
+        "context": "p6540",
+        "tex": "nF(a)",
+        "id": "search-chapter-14-158"
+      },
+      {
+        "context": "p6540",
+        "tex": "nF(a_n)\\to1",
+        "id": "search-chapter-14-159"
+      },
+      {
+        "context": "p6542",
+        "tex": "\\ell(cx)/\\ell(x)\\to1",
+        "id": "search-chapter-14-163"
+      },
+      {
+        "context": "p6542",
+        "tex": "F(cx)/F(x)\\to c^{-\\alpha}",
+        "id": "search-chapter-14-164"
+      },
+      {
+        "context": "p6542",
+        "tex": "\\ell(x)=x^\\alpha F(x)",
+        "id": "search-chapter-14-165"
+      },
+      {
+        "context": "p6542",
+        "tex": "(\\log x)^\\gamma",
+        "id": "search-chapter-14-166"
+      },
+      {
+        "context": "p6543",
+        "tex": "0<\\gamma<\\alpha<\\beta<2",
+        "id": "search-chapter-14-168"
+      },
+      {
+        "context": "display:20",
+        "tex": "F(2x)\\le2^{-\\gamma}F(x),\\qquad F(x/2)\\le2^\\beta F(x).",
+        "id": "search-chapter-14-169"
+      },
+      {
+        "context": "p6545",
+        "tex": "F(au)/F(a)\\le Cu^{-\\gamma}",
+        "id": "search-chapter-14-171"
+      },
+      {
+        "context": "p6545",
+        "tex": "F(au)/F(a)\\le Cu^{-\\beta}",
+        "id": "search-chapter-14-172"
+      },
+      {
+        "context": "p6546",
+        "tex": "F(2x)\\ge2^{-\\beta}F(x)",
+        "id": "search-chapter-14-174"
+      },
+      {
+        "context": "p6546",
+        "tex": "x^2F(x)\\to\\infty",
+        "id": "search-chapter-14-175"
+      },
+      {
+        "context": "p6546",
+        "tex": "2^{2-\\beta}>1",
+        "id": "search-chapter-14-176"
+      },
+      {
+        "context": "p6546",
+        "tex": "n/a_n^2\\to0",
+        "id": "search-chapter-14-177"
+      },
+      {
+        "context": "p6547",
+        "tex": "a_n=\\inf\\{x\\ge x_0:F(x)\\le1/n\\}",
+        "id": "search-chapter-14-179"
+      },
+      {
+        "context": "p6547",
+        "tex": "F(x-)\\le F((1-\\eta)x)",
+        "id": "search-chapter-14-180"
+      },
+      {
+        "context": "p6547",
+        "tex": "F(x-)/F(x)\\le(1-\\eta)^{-\\alpha}",
+        "id": "search-chapter-14-181"
+      },
+      {
+        "context": "p6547",
+        "tex": "nF(a_n)\\to1",
+        "id": "search-chapter-14-182"
+      },
+      {
+        "context": "p6548",
+        "tex": "a_{\\lfloor cn\\rfloor}/a_n\\to c^{1/\\alpha}",
+        "id": "search-chapter-14-184"
+      },
+      {
+        "context": "p6548",
+        "tex": "c^{1/\\alpha}",
+        "id": "search-chapter-14-185"
+      },
+      {
+        "context": "p6548",
+        "tex": "a_n=n^{1/\\alpha}\\ell_1(n)",
+        "id": "search-chapter-14-186"
+      },
+      {
+        "context": "p6549",
+        "tex": "aU+bV\\overset d=cZ+d",
+        "id": "search-chapter-14-189"
+      },
+      {
+        "context": "p6550",
+        "tex": "0<\\alpha<2",
+        "id": "search-chapter-14-191"
+      },
+      {
+        "context": "p6550",
+        "tex": "c_+,c_-\\ge0",
+        "id": "search-chapter-14-192"
+      },
+      {
+        "context": "display:21",
+        "tex": "\\nu(dx)=\\bigl(c_+\\mathbf1_{\\{x>0\\}}+c_-\\mathbf1_{\\{x<0\\}}\\bigr)|x|^{-1-\\alpha}\\,dx,\\qquad \\Psi(t)=\\int_{\\mathbb R\\setminus\\{0\\}}(e^{itx}-1-itx\\mathbf1_{\\{|x|\\le1\\}})\\,\\nu(dx).",
+        "id": "search-chapter-14-193"
+      },
+      {
+        "context": "display:22",
+        "tex": "\\mathbb E e^{it\\sum_{j=1}^N J_j}=e^{-\\lambda}\\sum_{m=0}^\\infty\\frac{\\lambda^m}{m!}\\phi_Q(t)^m=\\exp\\{\\lambda(\\phi_Q(t)-1)\\}.",
+        "id": "search-chapter-14-196"
+      },
+      {
+        "context": "p6556",
+        "tex": "0<\\eta<1",
+        "id": "search-chapter-14-199"
+      },
+      {
+        "context": "p6556",
+        "tex": "|x|\\le\\eta",
+        "id": "search-chapter-14-200"
+      },
+      {
+        "context": "p6556",
+        "tex": "\\lambda_\\eta=\\nu(|x|>\\eta)",
+        "id": "search-chapter-14-201"
+      },
+      {
+        "context": "p6556",
+        "tex": "\\nu(\\cdot\\cap\\{|x|>\\eta\\})/\\lambda_\\eta",
+        "id": "search-chapter-14-202"
+      },
+      {
+        "context": "p6556",
+        "tex": "\\int_{\\eta<|x|\\le1}x\\nu(dx)",
+        "id": "search-chapter-14-203"
+      },
+      {
+        "context": "p6556",
+        "tex": "e^{\\Psi_\\eta(t)}",
+        "id": "search-chapter-14-204"
+      },
+      {
+        "context": "p6558",
+        "tex": "\\operatorname{Re}\\Psi(t)=-(c_++c_-)I_\\alpha|t|^\\alpha<0",
+        "id": "search-chapter-14-207"
+      },
+      {
+        "context": "p6559",
+        "tex": "\\Delta=c_+-c_-",
+        "id": "search-chapter-14-210"
+      },
+      {
+        "context": "display:23",
+        "tex": "\\Psi(at)=a^\\alpha\\Psi(t)+itD_\\alpha(a),\\qquad D_\\alpha(a)=\\begin{cases}\\displaystyle\\Delta\\frac{a^\\alpha-a}{1-\\alpha},&\\alpha\\ne1,\\\\-\\Delta a\\log a,&\\alpha=1.\\end{cases}",
+        "id": "search-chapter-14-211"
+      },
+      {
+        "context": "p6561",
+        "tex": "D_\\alpha(a)=-\\Delta a^\\alpha\\int_1^a y^{-\\alpha}\\,dy",
+        "id": "search-chapter-14-213"
+      },
+      {
+        "context": "p6562",
+        "tex": "c=(a^\\alpha+b^\\alpha)^{1/\\alpha}",
+        "id": "search-chapter-14-215"
+      },
+      {
+        "context": "display:24",
+        "tex": "aU+bV\\overset d=cZ+D_\\alpha(a)+D_\\alpha(b)-D_\\alpha(c).",
+        "id": "search-chapter-14-216"
+      },
+      {
+        "context": "p6565",
+        "tex": "I_\\alpha=\\int_0^\\infty(1-\\cos y)y^{-1-\\alpha}\\,dy\\in(0,\\infty)",
+        "id": "search-chapter-14-219"
+      },
+      {
+        "context": "display:25",
+        "tex": "\\phi_Z(t)=\\exp(-C|t|^\\alpha),\\qquad C=(c_++c_-)I_\\alpha>0,\\qquad Z_1+\\cdots+Z_n\\overset d=n^{1/\\alpha}Z.",
+        "id": "search-chapter-14-220"
+      },
+      {
+        "context": "p6568",
+        "tex": "e^{-C|t|^\\alpha}",
+        "id": "search-chapter-14-223"
+      },
+      {
+        "context": "p6568",
+        "tex": "(1-\\cos(tZ))/t^2",
+        "id": "search-chapter-14-224"
+      },
+      {
+        "context": "p6568",
+        "tex": "\\mathbb EZ^2/2\\le\\liminf_{t\\to0}(1-e^{-C|t|^\\alpha})/t^2=0",
+        "id": "search-chapter-14-225"
+      },
+      {
+        "context": "p6569",
+        "tex": "F(x)=P(|Z|>x)",
+        "id": "search-chapter-14-228"
+      },
+      {
+        "context": "p6569",
+        "tex": "-\\alpha",
+        "id": "search-chapter-14-229"
+      },
+      {
+        "context": "p6569",
+        "tex": "0<\\alpha<2",
+        "id": "search-chapter-14-230"
+      },
+      {
+        "context": "display:26",
+        "tex": "\\frac{P(Z>x)}{F(x)}\\longrightarrow p_+,\\qquad\\frac{P(Z<-x)}{F(x)}\\longrightarrow p_-,\\qquad p_++p_-=1.",
+        "id": "search-chapter-14-231"
+      },
+      {
+        "context": "p6571",
+        "tex": "a_n",
+        "id": "search-chapter-14-233"
+      },
+      {
+        "context": "p6571",
+        "tex": "nF(a_n)\\to1",
+        "id": "search-chapter-14-234"
+      },
+      {
+        "context": "display:27",
+        "tex": "\\frac{Z_1+\\cdots+Z_n}{a_n}-B_n\\Rightarrow Z_\\alpha,\\qquad B_n=n\\mathbb E\\left[\\frac Z{a_n}\\mathbf1_{\\{|Z|\\le a_n\\}}\\right],",
+        "id": "search-chapter-14-235"
+      },
+      {
+        "context": "p6573",
+        "tex": "Z_\\alpha",
+        "id": "search-chapter-14-237"
+      },
+      {
+        "context": "p6573",
+        "tex": "c_+=\\alpha p_+",
+        "id": "search-chapter-14-238"
+      },
+      {
+        "context": "p6573",
+        "tex": "c_-=\\alpha p_-",
+        "id": "search-chapter-14-239"
+      },
+      {
+        "context": "p6575",
+        "tex": "\\alpha<\\beta<2",
+        "id": "search-chapter-14-242"
+      },
+      {
+        "context": "display:28",
+        "tex": "\\limsup_n n\\mathbb E\\left[\\left(\\frac Z{a_n}\\right)^2\\mathbf1_{\\{|Z|\\le\\delta a_n\\}}\\right]\\le C\\delta^{2-\\beta}.",
+        "id": "search-chapter-14-243"
+      },
+      {
+        "context": "p6577",
+        "tex": "2\\int_0^\\delta u\\,nF(a_nu)\\,du",
+        "id": "search-chapter-14-245"
+      },
+      {
+        "context": "p6577",
+        "tex": "\\int_0^\\delta u^{1-\\beta}du",
+        "id": "search-chapter-14-246"
+      },
+      {
+        "context": "p6577",
+        "tex": "n/a_n^2\\to0",
+        "id": "search-chapter-14-247"
+      },
+      {
+        "context": "p6577",
+        "tex": "\\limsup_n nF(Ra_n)\\le CR^{-\\gamma}",
+        "id": "search-chapter-14-248"
+      },
+      {
+        "context": "p6578",
+        "tex": "g_t(y)=e^{ity}-1-ity\\mathbf1_{\\{|y|\\le1\\}}",
+        "id": "search-chapter-14-250"
+      },
+      {
+        "context": "display:29",
+        "tex": "n\\mathbb Eg_t(Z/a_n)\\longrightarrow\\int g_t\\,d\\nu=\\Psi(t).",
+        "id": "search-chapter-14-251"
+      },
+      {
+        "context": "p6580",
+        "tex": "b_n=\\mathbb E[(Z/a_n)\\mathbf1_{\\{|Z|\\le a_n\\}}]",
+        "id": "search-chapter-14-253"
+      },
+      {
+        "context": "p6580",
+        "tex": "|Z|\\le\\delta a_n",
+        "id": "search-chapter-14-254"
+      },
+      {
+        "context": "display:30",
+        "tex": "\\limsup_n nb_n^2\\le C\\delta^{2-\\beta},\\qquad \\lim_{n\\to\\infty}nb_n^2=0.",
+        "id": "search-chapter-14-255"
+      },
+      {
+        "context": "p6582",
+        "tex": "z_n=\\mathbb Ee^{itZ/a_n}-1=itb_n+\\mathbb Eg_t(Z/a_n)",
+        "id": "search-chapter-14-257"
+      },
+      {
+        "context": "p6582",
+        "tex": "n|z_n|^2\\to0",
+        "id": "search-chapter-14-258"
+      },
+      {
+        "context": "display:31",
+        "tex": "n\\log(1+z_n)-itB_n\\longrightarrow\\Psi(t).",
+        "id": "search-chapter-14-259"
+      },
+      {
+        "context": "p6585",
+        "tex": "P(R>x)=x^{-\\alpha}",
+        "id": "search-chapter-14-263"
+      },
+      {
+        "context": "p6585",
+        "tex": "a_n=n^{1/\\alpha}",
+        "id": "search-chapter-14-264"
+      },
+      {
+        "context": "p6586",
+        "tex": "B_n=n\\Delta_p\\alpha(a_n^{1-\\alpha}-1)/((1-\\alpha)a_n)",
+        "id": "search-chapter-14-266"
+      },
+      {
+        "context": "p6586",
+        "tex": "\\Delta_p=p_+-p_-",
+        "id": "search-chapter-14-267"
+      },
+      {
+        "context": "p6586",
+        "tex": "B_n=\\Delta_p\\log n",
+        "id": "search-chapter-14-268"
+      },
+      {
+        "context": "p6590",
+        "tex": "\\mu=\\nu_m^{*m}",
+        "id": "search-chapter-14-274"
+      },
+      {
+        "context": "p6591",
+        "tex": "N(b,\\sigma^2)",
+        "id": "search-chapter-14-276"
+      },
+      {
+        "context": "p6591",
+        "tex": "N(b/m,\\sigma^2/m)",
+        "id": "search-chapter-14-277"
+      },
+      {
+        "context": "p6595",
+        "tex": "P(Y\\le a)\\ge1/2",
+        "id": "search-chapter-14-283"
+      },
+      {
+        "context": "p6595",
+        "tex": "P(Y\\ge a)\\ge1/2",
+        "id": "search-chapter-14-284"
+      },
+      {
+        "context": "display:32",
+        "tex": "P(|Y-a|>R)\\le2P(|Y-Y'|>R).",
+        "id": "search-chapter-14-285"
+      },
+      {
+        "context": "p6598",
+        "tex": "\\mu_n\\Rightarrow\\mu",
+        "id": "search-chapter-14-288"
+      },
+      {
+        "context": "display:33",
+        "tex": "|\\psi_n(t)|^2=|\\phi_{\\mu_n}(t)|^{2/m}\\longrightarrow|\\phi_\\mu(t)|^{2/m}.",
+        "id": "search-chapter-14-289"
+      },
+      {
+        "context": "p6603",
+        "tex": "Z_{nk}",
+        "id": "search-chapter-14-295"
+      },
+      {
+        "context": "p6603",
+        "tex": "\\sum_kZ_{nk}-c_n\\Rightarrow\\mu",
+        "id": "search-chapter-14-296"
+      },
+      {
+        "context": "p6605",
+        "tex": "|e^{itx}-1|\\le|tx|",
+        "id": "search-chapter-14-299"
+      },
+      {
+        "context": "p6605",
+        "tex": "|\\Phi_n(t)|\\ge1/2",
+        "id": "search-chapter-14-300"
+      },
+      {
+        "context": "p6606",
+        "tex": "1-u\\le-\\log u",
+        "id": "search-chapter-14-302"
+      },
+      {
+        "context": "display:34",
+        "tex": "\\sum_k(1-|\\phi_{nk}(t)|^2)\\le-\\log\\prod_k|\\phi_{nk}(t)|^2=-\\log|\\Phi_n(t)|^2\\le\\log4\\quad(|t|\\le\\delta).",
+        "id": "search-chapter-14-303"
+      },
+      {
+        "context": "p6608",
+        "tex": "\\sum_k\\mathbb E[1-\\operatorname{sinc}(\\delta D_{nk})]",
+        "id": "search-chapter-14-305"
+      },
+      {
+        "context": "p6608",
+        "tex": "1-\\operatorname{sinc}u\\ge c\\min(u^2,1)",
+        "id": "search-chapter-14-306"
+      },
+      {
+        "context": "p6608",
+        "tex": "|\\operatorname{sinc}u|\\le1/|u|",
+        "id": "search-chapter-14-307"
+      },
+      {
+        "context": "display:35",
+        "tex": "\\sup_{n\\ \\mathrm{large}}\\sum_k\\mathbb E\\min(D_{nk}^2,1)<\\infty.",
+        "id": "search-chapter-14-308"
+      },
+      {
+        "context": "p6610",
+        "tex": "\\mathbb E\\min(Y_{nk}^2,1)\\le2\\mathbb E\\min(D_{nk}^2,1)",
+        "id": "search-chapter-14-310"
+      },
+      {
+        "context": "display:36",
+        "tex": "\\sup_{n\\ \\mathrm{large}}\\sum_kv_{nk}<\\infty,\\qquad\\max_kv_{nk}\\longrightarrow0.",
+        "id": "search-chapter-14-311"
+      },
+      {
+        "context": "p6612",
+        "tex": "\\mathbb E\\min(Y^2,1)\\le\\varepsilon^2+P(|Y|>\\varepsilon)",
+        "id": "search-chapter-14-313"
+      },
+      {
+        "context": "p6613",
+        "tex": "b_{nk}=\\mathbb E\\sin Y_{nk}",
+        "id": "search-chapter-14-316"
+      },
+      {
+        "context": "p6613",
+        "tex": "W_{nk}=Y_{nk}-b_{nk}",
+        "id": "search-chapter-14-317"
+      },
+      {
+        "context": "display:37",
+        "tex": "|e^{ity}-1-it\\sin y|\\le C_t\\min(y^2,1),\\qquad b_{nk}^2\\le v_{nk}.",
+        "id": "search-chapter-14-318"
+      },
+      {
+        "context": "display:38",
+        "tex": "|\\theta_{nk}(t)-1|\\le C_t v_{nk},\\qquad\\sum_k|\\theta_{nk}(t)-1|^2\\le C_t^2\\max_kv_{nk}\\sum_kv_{nk}\\longrightarrow0.",
+        "id": "search-chapter-14-320"
+      },
+      {
+        "context": "display:39",
+        "tex": "\\prod_k\\theta_{nk}(t)-\\exp\\!\\left\\{\\sum_k(\\theta_{nk}(t)-1)\\right\\}\\longrightarrow0.",
+        "id": "search-chapter-14-322"
+      },
+      {
+        "context": "p6620",
+        "tex": "d_n=\\sum_k(m_{nk}+b_{nk})-c_n",
+        "id": "search-chapter-14-325"
+      },
+      {
+        "context": "display:40",
+        "tex": "Q_n(t)=\\exp\\!\\left\\{itd_n+\\sum_k(\\theta_{nk}(t)-1)\\right\\}.",
+        "id": "search-chapter-14-326"
+      },
+      {
+        "context": "p6625",
+        "tex": "|\\phi_\\mu(t)|^{2/n}",
+        "id": "search-chapter-14-332"
+      },
+      {
+        "context": "p6625",
+        "tex": "1-\\operatorname{sinc}u",
+        "id": "search-chapter-14-333"
+      },
+      {
+        "context": "display:41",
+        "tex": "\\exp\\{itb-\\sigma^2t^2/2+\\lambda(\\phi_Q(t)-1)\\}.",
+        "id": "search-chapter-14-339"
+      },
+      {
+        "context": "p6634",
+        "tex": "Z_{nk}=\\varepsilon/n",
+        "id": "search-chapter-14-344"
+      },
+      {
+        "context": "p6634",
+        "tex": "(\\varepsilon+1)/2",
+        "id": "search-chapter-14-345"
+      }
+    ],
+    "en": [
+      {
+        "context": "p6467",
+        "tex": "n",
+        "id": "search-chapter-14-9"
+      },
+      {
+        "context": "p6467",
+        "tex": "r_n",
+        "id": "search-chapter-14-10"
+      },
+      {
+        "context": "display:1",
+        "tex": "Z_{n1},\\ldots,Z_{nr_n},\\qquad S_n=\\sum_{k=1}^{r_n}Z_{nk}.",
+        "id": "search-chapter-14-11"
+      },
+      {
+        "context": "p6470",
+        "tex": "m_{nk}=\\mathbb EZ_{nk}",
+        "id": "search-chapter-14-14"
+      },
+      {
+        "context": "display:2",
+        "tex": "s_n^2=\\sum_k\\operatorname{Var}(Z_{nk})\\in(0,\\infty),\\qquad X_{nk}=\\frac{Z_{nk}-m_{nk}}{s_n},\\qquad T_n=\\sum_kX_{nk}.",
+        "id": "search-chapter-14-15"
+      },
+      {
+        "context": "p6472",
+        "tex": "\\mathbb EX_{nk}=0",
+        "id": "search-chapter-14-17"
+      },
+      {
+        "context": "p6472",
+        "tex": "\\sum_kv_{nk}=1",
+        "id": "search-chapter-14-18"
+      },
+      {
+        "context": "p6472",
+        "tex": "v_{nk}=\\mathbb EX_{nk}^2",
+        "id": "search-chapter-14-19"
+      },
+      {
+        "context": "display:3",
+        "tex": "\\max_{k\\le r_n}P(|X_{nk}|>\\varepsilon)\\longrightarrow0\\qquad(\\varepsilon>0).",
+        "id": "search-chapter-14-23"
+      },
+      {
+        "context": "display:4",
+        "tex": "\\max_kv_{nk}\\longrightarrow0.",
+        "id": "search-chapter-14-25"
+      },
+      {
+        "context": "p6478",
+        "tex": "P(|X_{nk}|>\\varepsilon)\\le v_{nk}/\\varepsilon^2",
+        "id": "search-chapter-14-27"
+      },
+      {
+        "context": "p6478",
+        "tex": "\\pm\\sqrt n",
+        "id": "search-chapter-14-28"
+      },
+      {
+        "context": "p6478",
+        "tex": "1/(2n)",
+        "id": "search-chapter-14-29"
+      },
+      {
+        "context": "p6479",
+        "tex": "1/(2n)",
+        "id": "search-chapter-14-31"
+      },
+      {
+        "context": "p6479",
+        "tex": "1/n",
+        "id": "search-chapter-14-32"
+      },
+      {
+        "context": "display:5",
+        "tex": "\\mathbb Ee^{itT_n}=\\left(1+\\frac{\\cos t-1}{n}\\right)^n\\longrightarrow\\exp(\\cos t-1).",
+        "id": "search-chapter-14-33"
+      },
+      {
+        "context": "display:6",
+        "tex": "L_n(\\varepsilon)=\\sum_k\\mathbb E[X_{nk}^2\\mathbf1_{\\{|X_{nk}|>\\varepsilon\\}}].",
+        "id": "search-chapter-14-37"
+      },
+      {
+        "context": "p6484",
+        "tex": "L_n(\\varepsilon)\\to0",
+        "id": "search-chapter-14-39"
+      },
+      {
+        "context": "p6484",
+        "tex": "\\varepsilon>0",
+        "id": "search-chapter-14-40"
+      },
+      {
+        "context": "display:7",
+        "tex": "\\frac1{s_n^2}\\sum_k\\mathbb E[(Z_{nk}-m_{nk})^2\\mathbf1_{\\{|Z_{nk}-m_{nk}|>\\varepsilon s_n\\}}]\\longrightarrow0.",
+        "id": "search-chapter-14-41"
+      },
+      {
+        "context": "p6486",
+        "tex": "v_{nk}\\le\\varepsilon^2+L_n(\\varepsilon)",
+        "id": "search-chapter-14-43"
+      },
+      {
+        "context": "p6486",
+        "tex": "P(\\max_k|X_{nk}|>\\varepsilon)\\le L_n(\\varepsilon)/\\varepsilon^2\\to0",
+        "id": "search-chapter-14-44"
+      },
+      {
+        "context": "p6488",
+        "tex": "\\mathbb EX_{nk}=0",
+        "id": "search-chapter-14-48"
+      },
+      {
+        "context": "p6488",
+        "tex": "\\sum_k\\mathbb EX_{nk}^2=1",
+        "id": "search-chapter-14-49"
+      },
+      {
+        "context": "p6488",
+        "tex": "T_n\\Rightarrow N(0,1)",
+        "id": "search-chapter-14-50"
+      },
+      {
+        "context": "display:8",
+        "tex": "e^{iu}=1+iu-\\frac{u^2}{2}+R(u),\\qquad |R(u)|\\le\\frac{|u|^3}{6},\\qquad |R(u)|\\le u^2.",
+        "id": "search-chapter-14-52"
+      },
+      {
+        "context": "p6491",
+        "tex": "|e^{iu}-1-iu|\\le u^2/2",
+        "id": "search-chapter-14-54"
+      },
+      {
+        "context": "p6491",
+        "tex": "|X_{nk}|\\le\\varepsilon",
+        "id": "search-chapter-14-55"
+      },
+      {
+        "context": "display:9",
+        "tex": "\\sum_k|\\mathbb ER(tX_{nk})|\\le\\frac{|t|^3\\varepsilon}{6}\\sum_kv_{nk}+t^2L_n(\\varepsilon).",
+        "id": "search-chapter-14-56"
+      },
+      {
+        "context": "p6493",
+        "tex": "z_{nk}=\\mathbb Ee^{itX_{nk}}-1",
+        "id": "search-chapter-14-58"
+      },
+      {
+        "context": "display:10",
+        "tex": "\\sum_kz_{nk}\\longrightarrow-\\frac{t^2}{2},\\qquad |z_{nk}|\\le\\frac{t^2v_{nk}}2,\\qquad \\sum_k|z_{nk}|^2\\le\\frac{t^4}{4}\\max_kv_{nk}\\longrightarrow0.",
+        "id": "search-chapter-14-59"
+      },
+      {
+        "context": "p6495",
+        "tex": "|z_{nk}|\\le1/2",
+        "id": "search-chapter-14-61"
+      },
+      {
+        "context": "p6495",
+        "tex": "|\\log(1+z)-z|\\le2|z|^2",
+        "id": "search-chapter-14-62"
+      },
+      {
+        "context": "display:11",
+        "tex": "\\prod_k\\mathbb Ee^{itX_{nk}}=\\exp\\left\\{\\sum_k\\log(1+z_{nk})\\right\\}\\longrightarrow e^{-t^2/2}.",
+        "id": "search-chapter-14-63"
+      },
+      {
+        "context": "p6498",
+        "tex": "T_n\\Rightarrow N(0,1)",
+        "id": "search-chapter-14-67"
+      },
+      {
+        "context": "display:12",
+        "tex": "\\sum_k\\mathbb E[1-\\cos(tX_{nk})]=-\\log|\\mathbb Ee^{itT_n}|+o(1)\\longrightarrow\\frac{t^2}{2}.",
+        "id": "search-chapter-14-69"
+      },
+      {
+        "context": "display:13",
+        "tex": "\\sum_k\\mathbb E\\left[\\frac{t^2X_{nk}^2}{2}-(1-\\cos(tX_{nk}))\\right]\\longrightarrow0.",
+        "id": "search-chapter-14-71"
+      },
+      {
+        "context": "p6503",
+        "tex": "c_{t,\\varepsilon}x^2",
+        "id": "search-chapter-14-73"
+      },
+      {
+        "context": "p6503",
+        "tex": "|x|>\\varepsilon",
+        "id": "search-chapter-14-74"
+      },
+      {
+        "context": "p6503",
+        "tex": "c_{t,\\varepsilon}>0",
+        "id": "search-chapter-14-75"
+      },
+      {
+        "context": "p6503",
+        "tex": "1/2-(1-\\cos u)/u^2",
+        "id": "search-chapter-14-76"
+      },
+      {
+        "context": "p6503",
+        "tex": "|u|\\ge|t|\\varepsilon",
+        "id": "search-chapter-14-77"
+      },
+      {
+        "context": "p6503",
+        "tex": "1-\\cos u<u^2/2",
+        "id": "search-chapter-14-78"
+      },
+      {
+        "context": "p6505",
+        "tex": "\\delta>0",
+        "id": "search-chapter-14-82"
+      },
+      {
+        "context": "display:14",
+        "tex": "\\sum_k\\mathbb E|X_{nk}|^{2+\\delta}\\longrightarrow0,",
+        "id": "search-chapter-14-83"
+      },
+      {
+        "context": "p6507",
+        "tex": "L_n(\\varepsilon)\\le\\varepsilon^{-\\delta}\\sum_k\\mathbb E|X_{nk}|^{2+\\delta}\\to0",
+        "id": "search-chapter-14-85"
+      },
+      {
+        "context": "p6507",
+        "tex": "s_n^{2+\\delta}",
+        "id": "search-chapter-14-86"
+      },
+      {
+        "context": "p6508",
+        "tex": "|x|^{-3}(\\log|x|)^{-2}",
+        "id": "search-chapter-14-88"
+      },
+      {
+        "context": "p6508",
+        "tex": "|x|\\ge e",
+        "id": "search-chapter-14-89"
+      },
+      {
+        "context": "p6508",
+        "tex": "2+\\delta",
+        "id": "search-chapter-14-90"
+      },
+      {
+        "context": "p6510",
+        "tex": "G\\sim N(0,1)",
+        "id": "search-chapter-14-94"
+      },
+      {
+        "context": "p6510",
+        "tex": "\\epsilon",
+        "id": "search-chapter-14-95"
+      },
+      {
+        "context": "p6510",
+        "tex": "(G,G)",
+        "id": "search-chapter-14-96"
+      },
+      {
+        "context": "p6510",
+        "tex": "(G,\\epsilon G)",
+        "id": "search-chapter-14-97"
+      },
+      {
+        "context": "p6511",
+        "tex": "X\\in\\mathbb R^d",
+        "id": "search-chapter-14-99"
+      },
+      {
+        "context": "display:15",
+        "tex": "\\phi_X(t)=\\mathbb Ee^{i\\langle t,X\\rangle},\\qquad t\\in\\mathbb R^d.",
+        "id": "search-chapter-14-100"
+      },
+      {
+        "context": "p6514",
+        "tex": "\\varepsilon>0",
+        "id": "search-chapter-14-104"
+      },
+      {
+        "context": "p6514",
+        "tex": "X+\\varepsilon G",
+        "id": "search-chapter-14-105"
+      },
+      {
+        "context": "display:16",
+        "tex": "p_\\varepsilon(x)=(2\\pi)^{-d}\\int_{\\mathbb R^d}e^{-i\\langle t,x\\rangle}\\phi_X(t)e^{-\\varepsilon^2\\|t\\|^2/2}\\,dt.",
+        "id": "search-chapter-14-106"
+      },
+      {
+        "context": "p6517",
+        "tex": "f(X+\\varepsilon G)\\to f(X)",
+        "id": "search-chapter-14-109"
+      },
+      {
+        "context": "p6518",
+        "tex": "\\mathbb R^d",
+        "id": "search-chapter-14-112"
+      },
+      {
+        "context": "p6518",
+        "tex": "K=[-M,M]^d",
+        "id": "search-chapter-14-113"
+      },
+      {
+        "context": "p6520",
+        "tex": "[0,1]^d",
+        "id": "search-chapter-14-116"
+      },
+      {
+        "context": "p6523",
+        "tex": "\\mathbb R^d",
+        "id": "search-chapter-14-120"
+      },
+      {
+        "context": "p6523",
+        "tex": "q(x)=1/2+\\arctan(x)/\\pi",
+        "id": "search-chapter-14-121"
+      },
+      {
+        "context": "p6525",
+        "tex": "\\phi_n(t)\\to\\phi(t)",
+        "id": "search-chapter-14-125"
+      },
+      {
+        "context": "p6525",
+        "tex": "t\\in\\mathbb R^d",
+        "id": "search-chapter-14-126"
+      },
+      {
+        "context": "p6525",
+        "tex": "\\phi(0)=1",
+        "id": "search-chapter-14-127"
+      },
+      {
+        "context": "p6527",
+        "tex": "X_n\\Rightarrow X",
+        "id": "search-chapter-14-130"
+      },
+      {
+        "context": "p6527",
+        "tex": "\\langle u,X_n\\rangle\\Rightarrow\\langle u,X\\rangle",
+        "id": "search-chapter-14-131"
+      },
+      {
+        "context": "p6527",
+        "tex": "u\\in\\mathbb R^d",
+        "id": "search-chapter-14-132"
+      },
+      {
+        "context": "p6530",
+        "tex": "AA^\\mathsf T=\\Sigma",
+        "id": "search-chapter-14-137"
+      },
+      {
+        "context": "p6530",
+        "tex": "N_d(0,\\Sigma)",
+        "id": "search-chapter-14-138"
+      },
+      {
+        "context": "display:17",
+        "tex": "\\mathbb Ee^{i\\langle t,AG\\rangle}=e^{-\\|A^\\mathsf Tt\\|^2/2}=e^{-t^\\mathsf T\\Sigma t/2}.",
+        "id": "search-chapter-14-139"
+      },
+      {
+        "context": "p6533",
+        "tex": "V_1,V_2,\\ldots",
+        "id": "search-chapter-14-142"
+      },
+      {
+        "context": "p6533",
+        "tex": "\\mathbb E\\|V_1\\|^2<\\infty",
+        "id": "search-chapter-14-143"
+      },
+      {
+        "context": "display:18",
+        "tex": "\\frac1{\\sqrt n}\\sum_{k=1}^n(V_k-m)\\Rightarrow N_d(0,\\Sigma).",
+        "id": "search-chapter-14-144"
+      },
+      {
+        "context": "p6535",
+        "tex": "u^\\mathsf T\\Sigma u",
+        "id": "search-chapter-14-146"
+      },
+      {
+        "context": "display:19",
+        "tex": "\\sum_k\\mathbb E[X_{nk}X_{nk}^\\mathsf T]\\longrightarrow\\Sigma,\\qquad\\sum_k\\mathbb E[\\|X_{nk}\\|^2\\mathbf1_{\\{\\|X_{nk}\\|>\\varepsilon\\}}]\\longrightarrow0\\quad(\\varepsilon>0).",
+        "id": "search-chapter-14-148"
+      },
+      {
+        "context": "p6538",
+        "tex": "|\\langle u,x\\rangle|\\le\\|u\\|\\|x\\|",
+        "id": "search-chapter-14-150"
+      },
+      {
+        "context": "p6538",
+        "tex": "N_d(0,\\Sigma)",
+        "id": "search-chapter-14-151"
+      },
+      {
+        "context": "p6540",
+        "tex": "F(x)=P(|Z|>x)",
+        "id": "search-chapter-14-155"
+      },
+      {
+        "context": "p6540",
+        "tex": "F(x)",
+        "id": "search-chapter-14-156"
+      },
+      {
+        "context": "p6540",
+        "tex": "x^{-\\alpha}\\ell(x)",
+        "id": "search-chapter-14-157"
+      },
+      {
+        "context": "p6540",
+        "tex": "nF(a)",
+        "id": "search-chapter-14-158"
+      },
+      {
+        "context": "p6540",
+        "tex": "nF(a_n)\\to1",
+        "id": "search-chapter-14-159"
+      },
+      {
+        "context": "p6542",
+        "tex": "\\ell(cx)/\\ell(x)\\to1",
+        "id": "search-chapter-14-163"
+      },
+      {
+        "context": "p6542",
+        "tex": "F(cx)/F(x)\\to c^{-\\alpha}",
+        "id": "search-chapter-14-164"
+      },
+      {
+        "context": "p6542",
+        "tex": "\\ell(x)=x^\\alpha F(x)",
+        "id": "search-chapter-14-165"
+      },
+      {
+        "context": "p6542",
+        "tex": "(\\log x)^\\gamma",
+        "id": "search-chapter-14-166"
+      },
+      {
+        "context": "p6543",
+        "tex": "0<\\gamma<\\alpha<\\beta<2",
+        "id": "search-chapter-14-168"
+      },
+      {
+        "context": "display:20",
+        "tex": "F(2x)\\le2^{-\\gamma}F(x),\\qquad F(x/2)\\le2^\\beta F(x).",
+        "id": "search-chapter-14-169"
+      },
+      {
+        "context": "p6545",
+        "tex": "F(au)/F(a)\\le Cu^{-\\gamma}",
+        "id": "search-chapter-14-171"
+      },
+      {
+        "context": "p6545",
+        "tex": "F(au)/F(a)\\le Cu^{-\\beta}",
+        "id": "search-chapter-14-172"
+      },
+      {
+        "context": "p6546",
+        "tex": "F(2x)\\ge2^{-\\beta}F(x)",
+        "id": "search-chapter-14-174"
+      },
+      {
+        "context": "p6546",
+        "tex": "x^2F(x)\\to\\infty",
+        "id": "search-chapter-14-175"
+      },
+      {
+        "context": "p6546",
+        "tex": "2^{2-\\beta}>1",
+        "id": "search-chapter-14-176"
+      },
+      {
+        "context": "p6546",
+        "tex": "n/a_n^2\\to0",
+        "id": "search-chapter-14-177"
+      },
+      {
+        "context": "p6547",
+        "tex": "a_n=\\inf\\{x\\ge x_0:F(x)\\le1/n\\}",
+        "id": "search-chapter-14-179"
+      },
+      {
+        "context": "p6547",
+        "tex": "F(x-)\\le F((1-\\eta)x)",
+        "id": "search-chapter-14-180"
+      },
+      {
+        "context": "p6547",
+        "tex": "F(x-)/F(x)\\le(1-\\eta)^{-\\alpha}",
+        "id": "search-chapter-14-181"
+      },
+      {
+        "context": "p6547",
+        "tex": "nF(a_n)\\to1",
+        "id": "search-chapter-14-182"
+      },
+      {
+        "context": "p6548",
+        "tex": "a_{\\lfloor cn\\rfloor}/a_n\\to c^{1/\\alpha}",
+        "id": "search-chapter-14-184"
+      },
+      {
+        "context": "p6548",
+        "tex": "c^{1/\\alpha}",
+        "id": "search-chapter-14-185"
+      },
+      {
+        "context": "p6548",
+        "tex": "a_n=n^{1/\\alpha}\\ell_1(n)",
+        "id": "search-chapter-14-186"
+      },
+      {
+        "context": "p6549",
+        "tex": "aU+bV\\overset d=cZ+d",
+        "id": "search-chapter-14-189"
+      },
+      {
+        "context": "p6550",
+        "tex": "0<\\alpha<2",
+        "id": "search-chapter-14-191"
+      },
+      {
+        "context": "p6550",
+        "tex": "c_+,c_-\\ge0",
+        "id": "search-chapter-14-192"
+      },
+      {
+        "context": "display:21",
+        "tex": "\\nu(dx)=\\bigl(c_+\\mathbf1_{\\{x>0\\}}+c_-\\mathbf1_{\\{x<0\\}}\\bigr)|x|^{-1-\\alpha}\\,dx,\\qquad \\Psi(t)=\\int_{\\mathbb R\\setminus\\{0\\}}(e^{itx}-1-itx\\mathbf1_{\\{|x|\\le1\\}})\\,\\nu(dx).",
+        "id": "search-chapter-14-193"
+      },
+      {
+        "context": "display:22",
+        "tex": "\\mathbb E e^{it\\sum_{j=1}^N J_j}=e^{-\\lambda}\\sum_{m=0}^\\infty\\frac{\\lambda^m}{m!}\\phi_Q(t)^m=\\exp\\{\\lambda(\\phi_Q(t)-1)\\}.",
+        "id": "search-chapter-14-196"
+      },
+      {
+        "context": "p6556",
+        "tex": "0<\\eta<1",
+        "id": "search-chapter-14-199"
+      },
+      {
+        "context": "p6556",
+        "tex": "|x|\\le\\eta",
+        "id": "search-chapter-14-200"
+      },
+      {
+        "context": "p6556",
+        "tex": "\\lambda_\\eta=\\nu(|x|>\\eta)",
+        "id": "search-chapter-14-201"
+      },
+      {
+        "context": "p6556",
+        "tex": "\\nu(\\cdot\\cap\\{|x|>\\eta\\})/\\lambda_\\eta",
+        "id": "search-chapter-14-202"
+      },
+      {
+        "context": "p6556",
+        "tex": "\\int_{\\eta<|x|\\le1}x\\nu(dx)",
+        "id": "search-chapter-14-203"
+      },
+      {
+        "context": "p6556",
+        "tex": "e^{\\Psi_\\eta(t)}",
+        "id": "search-chapter-14-204"
+      },
+      {
+        "context": "p6558",
+        "tex": "\\operatorname{Re}\\Psi(t)=-(c_++c_-)I_\\alpha|t|^\\alpha<0",
+        "id": "search-chapter-14-207"
+      },
+      {
+        "context": "p6559",
+        "tex": "\\Delta=c_+-c_-",
+        "id": "search-chapter-14-210"
+      },
+      {
+        "context": "display:23",
+        "tex": "\\Psi(at)=a^\\alpha\\Psi(t)+itD_\\alpha(a),\\qquad D_\\alpha(a)=\\begin{cases}\\displaystyle\\Delta\\frac{a^\\alpha-a}{1-\\alpha},&\\alpha\\ne1,\\\\-\\Delta a\\log a,&\\alpha=1.\\end{cases}",
+        "id": "search-chapter-14-211"
+      },
+      {
+        "context": "p6561",
+        "tex": "D_\\alpha(a)=-\\Delta a^\\alpha\\int_1^a y^{-\\alpha}\\,dy",
+        "id": "search-chapter-14-213"
+      },
+      {
+        "context": "p6562",
+        "tex": "c=(a^\\alpha+b^\\alpha)^{1/\\alpha}",
+        "id": "search-chapter-14-215"
+      },
+      {
+        "context": "display:24",
+        "tex": "aU+bV\\overset d=cZ+D_\\alpha(a)+D_\\alpha(b)-D_\\alpha(c).",
+        "id": "search-chapter-14-216"
+      },
+      {
+        "context": "p6565",
+        "tex": "I_\\alpha=\\int_0^\\infty(1-\\cos y)y^{-1-\\alpha}\\,dy\\in(0,\\infty)",
+        "id": "search-chapter-14-219"
+      },
+      {
+        "context": "display:25",
+        "tex": "\\phi_Z(t)=\\exp(-C|t|^\\alpha),\\qquad C=(c_++c_-)I_\\alpha>0,\\qquad Z_1+\\cdots+Z_n\\overset d=n^{1/\\alpha}Z.",
+        "id": "search-chapter-14-220"
+      },
+      {
+        "context": "p6568",
+        "tex": "e^{-C|t|^\\alpha}",
+        "id": "search-chapter-14-223"
+      },
+      {
+        "context": "p6568",
+        "tex": "(1-\\cos(tZ))/t^2",
+        "id": "search-chapter-14-224"
+      },
+      {
+        "context": "p6568",
+        "tex": "\\mathbb EZ^2/2\\le\\liminf_{t\\to0}(1-e^{-C|t|^\\alpha})/t^2=0",
+        "id": "search-chapter-14-225"
+      },
+      {
+        "context": "p6569",
+        "tex": "F(x)=P(|Z|>x)",
+        "id": "search-chapter-14-228"
+      },
+      {
+        "context": "p6569",
+        "tex": "-\\alpha",
+        "id": "search-chapter-14-229"
+      },
+      {
+        "context": "p6569",
+        "tex": "0<\\alpha<2",
+        "id": "search-chapter-14-230"
+      },
+      {
+        "context": "display:26",
+        "tex": "\\frac{P(Z>x)}{F(x)}\\longrightarrow p_+,\\qquad\\frac{P(Z<-x)}{F(x)}\\longrightarrow p_-,\\qquad p_++p_-=1.",
+        "id": "search-chapter-14-231"
+      },
+      {
+        "context": "p6571",
+        "tex": "a_n",
+        "id": "search-chapter-14-233"
+      },
+      {
+        "context": "p6571",
+        "tex": "nF(a_n)\\to1",
+        "id": "search-chapter-14-234"
+      },
+      {
+        "context": "display:27",
+        "tex": "\\frac{Z_1+\\cdots+Z_n}{a_n}-B_n\\Rightarrow Z_\\alpha,\\qquad B_n=n\\mathbb E\\left[\\frac Z{a_n}\\mathbf1_{\\{|Z|\\le a_n\\}}\\right],",
+        "id": "search-chapter-14-235"
+      },
+      {
+        "context": "p6573",
+        "tex": "Z_\\alpha",
+        "id": "search-chapter-14-237"
+      },
+      {
+        "context": "p6573",
+        "tex": "c_+=\\alpha p_+",
+        "id": "search-chapter-14-238"
+      },
+      {
+        "context": "p6573",
+        "tex": "c_-=\\alpha p_-",
+        "id": "search-chapter-14-239"
+      },
+      {
+        "context": "p6575",
+        "tex": "\\alpha<\\beta<2",
+        "id": "search-chapter-14-242"
+      },
+      {
+        "context": "display:28",
+        "tex": "\\limsup_n n\\mathbb E\\left[\\left(\\frac Z{a_n}\\right)^2\\mathbf1_{\\{|Z|\\le\\delta a_n\\}}\\right]\\le C\\delta^{2-\\beta}.",
+        "id": "search-chapter-14-243"
+      },
+      {
+        "context": "p6577",
+        "tex": "2\\int_0^\\delta u\\,nF(a_nu)\\,du",
+        "id": "search-chapter-14-245"
+      },
+      {
+        "context": "p6577",
+        "tex": "\\int_0^\\delta u^{1-\\beta}du",
+        "id": "search-chapter-14-246"
+      },
+      {
+        "context": "p6577",
+        "tex": "n/a_n^2\\to0",
+        "id": "search-chapter-14-247"
+      },
+      {
+        "context": "p6577",
+        "tex": "\\limsup_n nF(Ra_n)\\le CR^{-\\gamma}",
+        "id": "search-chapter-14-248"
+      },
+      {
+        "context": "p6578",
+        "tex": "g_t(y)=e^{ity}-1-ity\\mathbf1_{\\{|y|\\le1\\}}",
+        "id": "search-chapter-14-250"
+      },
+      {
+        "context": "display:29",
+        "tex": "n\\mathbb Eg_t(Z/a_n)\\longrightarrow\\int g_t\\,d\\nu=\\Psi(t).",
+        "id": "search-chapter-14-251"
+      },
+      {
+        "context": "p6580",
+        "tex": "b_n=\\mathbb E[(Z/a_n)\\mathbf1_{\\{|Z|\\le a_n\\}}]",
+        "id": "search-chapter-14-253"
+      },
+      {
+        "context": "p6580",
+        "tex": "|Z|\\le\\delta a_n",
+        "id": "search-chapter-14-254"
+      },
+      {
+        "context": "display:30",
+        "tex": "\\limsup_n nb_n^2\\le C\\delta^{2-\\beta},\\qquad \\lim_{n\\to\\infty}nb_n^2=0.",
+        "id": "search-chapter-14-255"
+      },
+      {
+        "context": "p6582",
+        "tex": "z_n=\\mathbb Ee^{itZ/a_n}-1=itb_n+\\mathbb Eg_t(Z/a_n)",
+        "id": "search-chapter-14-257"
+      },
+      {
+        "context": "p6582",
+        "tex": "n|z_n|^2\\to0",
+        "id": "search-chapter-14-258"
+      },
+      {
+        "context": "display:31",
+        "tex": "n\\log(1+z_n)-itB_n\\longrightarrow\\Psi(t).",
+        "id": "search-chapter-14-259"
+      },
+      {
+        "context": "p6585",
+        "tex": "P(R>x)=x^{-\\alpha}",
+        "id": "search-chapter-14-263"
+      },
+      {
+        "context": "p6585",
+        "tex": "a_n=n^{1/\\alpha}",
+        "id": "search-chapter-14-264"
+      },
+      {
+        "context": "p6586",
+        "tex": "B_n=n\\Delta_p\\alpha(a_n^{1-\\alpha}-1)/((1-\\alpha)a_n)",
+        "id": "search-chapter-14-266"
+      },
+      {
+        "context": "p6586",
+        "tex": "\\Delta_p=p_+-p_-",
+        "id": "search-chapter-14-267"
+      },
+      {
+        "context": "p6586",
+        "tex": "B_n=\\Delta_p\\log n",
+        "id": "search-chapter-14-268"
+      },
+      {
+        "context": "p6590",
+        "tex": "\\mu=\\nu_m^{*m}",
+        "id": "search-chapter-14-274"
+      },
+      {
+        "context": "p6591",
+        "tex": "N(b,\\sigma^2)",
+        "id": "search-chapter-14-276"
+      },
+      {
+        "context": "p6591",
+        "tex": "N(b/m,\\sigma^2/m)",
+        "id": "search-chapter-14-277"
+      },
+      {
+        "context": "p6595",
+        "tex": "P(Y\\le a)\\ge1/2",
+        "id": "search-chapter-14-283"
+      },
+      {
+        "context": "p6595",
+        "tex": "P(Y\\ge a)\\ge1/2",
+        "id": "search-chapter-14-284"
+      },
+      {
+        "context": "display:32",
+        "tex": "P(|Y-a|>R)\\le2P(|Y-Y'|>R).",
+        "id": "search-chapter-14-285"
+      },
+      {
+        "context": "p6598",
+        "tex": "\\mu_n\\Rightarrow\\mu",
+        "id": "search-chapter-14-288"
+      },
+      {
+        "context": "display:33",
+        "tex": "|\\psi_n(t)|^2=|\\phi_{\\mu_n}(t)|^{2/m}\\longrightarrow|\\phi_\\mu(t)|^{2/m}.",
+        "id": "search-chapter-14-289"
+      },
+      {
+        "context": "p6603",
+        "tex": "Z_{nk}",
+        "id": "search-chapter-14-295"
+      },
+      {
+        "context": "p6603",
+        "tex": "\\sum_kZ_{nk}-c_n\\Rightarrow\\mu",
+        "id": "search-chapter-14-296"
+      },
+      {
+        "context": "p6605",
+        "tex": "|e^{itx}-1|\\le|tx|",
+        "id": "search-chapter-14-299"
+      },
+      {
+        "context": "p6605",
+        "tex": "|\\Phi_n(t)|\\ge1/2",
+        "id": "search-chapter-14-300"
+      },
+      {
+        "context": "p6606",
+        "tex": "1-u\\le-\\log u",
+        "id": "search-chapter-14-302"
+      },
+      {
+        "context": "display:34",
+        "tex": "\\sum_k(1-|\\phi_{nk}(t)|^2)\\le-\\log\\prod_k|\\phi_{nk}(t)|^2=-\\log|\\Phi_n(t)|^2\\le\\log4\\quad(|t|\\le\\delta).",
+        "id": "search-chapter-14-303"
+      },
+      {
+        "context": "p6608",
+        "tex": "\\sum_k\\mathbb E[1-\\operatorname{sinc}(\\delta D_{nk})]",
+        "id": "search-chapter-14-305"
+      },
+      {
+        "context": "p6608",
+        "tex": "1-\\operatorname{sinc}u\\ge c\\min(u^2,1)",
+        "id": "search-chapter-14-306"
+      },
+      {
+        "context": "p6608",
+        "tex": "|\\operatorname{sinc}u|\\le1/|u|",
+        "id": "search-chapter-14-307"
+      },
+      {
+        "context": "display:35",
+        "tex": "\\sup_{n\\ \\mathrm{large}}\\sum_k\\mathbb E\\min(D_{nk}^2,1)<\\infty.",
+        "id": "search-chapter-14-308"
+      },
+      {
+        "context": "p6610",
+        "tex": "\\mathbb E\\min(Y_{nk}^2,1)\\le2\\mathbb E\\min(D_{nk}^2,1)",
+        "id": "search-chapter-14-310"
+      },
+      {
+        "context": "display:36",
+        "tex": "\\sup_{n\\ \\mathrm{large}}\\sum_kv_{nk}<\\infty,\\qquad\\max_kv_{nk}\\longrightarrow0.",
+        "id": "search-chapter-14-311"
+      },
+      {
+        "context": "p6612",
+        "tex": "\\mathbb E\\min(Y^2,1)\\le\\varepsilon^2+P(|Y|>\\varepsilon)",
+        "id": "search-chapter-14-313"
+      },
+      {
+        "context": "p6613",
+        "tex": "b_{nk}=\\mathbb E\\sin Y_{nk}",
+        "id": "search-chapter-14-316"
+      },
+      {
+        "context": "p6613",
+        "tex": "W_{nk}=Y_{nk}-b_{nk}",
+        "id": "search-chapter-14-317"
+      },
+      {
+        "context": "display:37",
+        "tex": "|e^{ity}-1-it\\sin y|\\le C_t\\min(y^2,1),\\qquad b_{nk}^2\\le v_{nk}.",
+        "id": "search-chapter-14-318"
+      },
+      {
+        "context": "display:38",
+        "tex": "|\\theta_{nk}(t)-1|\\le C_t v_{nk},\\qquad\\sum_k|\\theta_{nk}(t)-1|^2\\le C_t^2\\max_kv_{nk}\\sum_kv_{nk}\\longrightarrow0.",
+        "id": "search-chapter-14-320"
+      },
+      {
+        "context": "display:39",
+        "tex": "\\prod_k\\theta_{nk}(t)-\\exp\\!\\left\\{\\sum_k(\\theta_{nk}(t)-1)\\right\\}\\longrightarrow0.",
+        "id": "search-chapter-14-322"
+      },
+      {
+        "context": "p6620",
+        "tex": "d_n=\\sum_k(m_{nk}+b_{nk})-c_n",
+        "id": "search-chapter-14-325"
+      },
+      {
+        "context": "display:40",
+        "tex": "Q_n(t)=\\exp\\!\\left\\{itd_n+\\sum_k(\\theta_{nk}(t)-1)\\right\\}.",
+        "id": "search-chapter-14-326"
+      },
+      {
+        "context": "p6625",
+        "tex": "|\\phi_\\mu(t)|^{2/n}",
+        "id": "search-chapter-14-332"
+      },
+      {
+        "context": "p6625",
+        "tex": "1-\\operatorname{sinc}u",
+        "id": "search-chapter-14-333"
+      },
+      {
+        "context": "display:41",
+        "tex": "\\exp\\{itb-\\sigma^2t^2/2+\\lambda(\\phi_Q(t)-1)\\}.",
+        "id": "search-chapter-14-339"
+      },
+      {
+        "context": "p6634",
+        "tex": "Z_{nk}=\\varepsilon/n",
+        "id": "search-chapter-14-344"
+      },
+      {
+        "context": "p6634",
+        "tex": "(\\varepsilon+1)/2",
+        "id": "search-chapter-14-345"
+      }
+    ]
+  }
+}

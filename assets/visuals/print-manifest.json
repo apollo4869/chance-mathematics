@@ -1,0 +1,123 @@
+{
+  "generator": "tools/generate-math-visuals.py",
+  "shared_source": "assets/visuals/math-model.js",
+  "matplotlib": "3.10.7",
+  "numpy": "2.5.4",
+  "fontTools": "4.67.0",
+  "CJK_font": {
+    "name": [
+      "Noto Sans SC"
+    ],
+    "original_file_sha256": "763146584cf0710223441356b4395e279021b0806c196614377a7a0174ae074a",
+    "resolved_face_sha256": "31d0dbce64363b3551fd31648082c1b203c3607a66d1e942c7766c2ce359755d",
+    "variable_font_policy": "wght=400; retain source head.created/head.modified; recalcTimestamp=False; source-SHA-keyed cache",
+    "embedding": "SVG outlined glyphs; PDF subset TrueType",
+    "notice": "assets/visuals/font-notice.txt"
+  },
+  "checks": {
+    "interval_partition": "PASS",
+    "half_open_fixed_point_hits": "PASS",
+    "walk_increment_scaling": "PASS",
+    "spike_area": "PASS",
+    "pmf_mass_mean_variance": "PASS",
+    "slice_normalization": "PASS"
+  },
+  "files": {
+    "assets/visuals/print/characteristic-identification.en.pdf": {
+      "sha256": "9f4955870c3882b557f3672b7e524a89a0e26c39457d9d453a772da4281db2ce",
+      "bytes": 27025
+    },
+    "assets/visuals/print/characteristic-identification.en.svg": {
+      "sha256": "ab911eadd31555dcfe5a6481895cd48621a08a525fb81ea29b64a60fcee606ba",
+      "bytes": 81226
+    },
+    "assets/visuals/print/characteristic-identification.zh.pdf": {
+      "sha256": "9d1bbd800b1c6a945c092500364c2c465c7b60908ed09f5a3c9dbd471a1bf80f",
+      "bytes": 34737
+    },
+    "assets/visuals/print/characteristic-identification.zh.svg": {
+      "sha256": "147a8c489487aacb0905f3e903d219ad1d4fb4d4706cf070391bc67353cd2b1a",
+      "bytes": 121475
+    },
+    "assets/visuals/print/conditional-projection.en.pdf": {
+      "sha256": "b016937934528ef90ddc858ef1188d170338290f7a98e20b0588664554766e76",
+      "bytes": 19733
+    },
+    "assets/visuals/print/conditional-projection.en.svg": {
+      "sha256": "de131e1173d7e23981933d466da63df08dabb877036b8d665213ae7978b59382",
+      "bytes": 40181
+    },
+    "assets/visuals/print/conditional-projection.zh.pdf": {
+      "sha256": "72cfce26931e1baa84b4873042847530e2ab1311ccbca081d0f367cbc6584228",
+      "bytes": 26351
+    },
+    "assets/visuals/print/conditional-projection.zh.svg": {
+      "sha256": "78c6ccd9c7d7f27b39a25439b8c5e90b313ecb2617b5fd5591664185362ffb4f",
+      "bytes": 78283
+    },
+    "assets/visuals/print/disintegration.en.pdf": {
+      "sha256": "940ffd892c14ef757b2e77e61b89f19594e21178bf93fa8222806f03be0b3ee4",
+      "bytes": 28332
+    },
+    "assets/visuals/print/disintegration.en.svg": {
+      "sha256": "801142b7e4fa3b0e95328dd9493ab4f5073217b98a33f1684dfd896e9a5e5124",
+      "bytes": 70668
+    },
+    "assets/visuals/print/disintegration.zh.pdf": {
+      "sha256": "f7dad0c8a0ecf54a527d45f3dcef2ecdcf34230746e923af5a25c5b2e2452490",
+      "bytes": 34549
+    },
+    "assets/visuals/print/disintegration.zh.svg": {
+      "sha256": "9d9d7589489d27312ff86a47fc7789b5224b8869cabf605e58415b38d83b20b0",
+      "bytes": 102987
+    },
+    "assets/visuals/print/spike-ui.en.pdf": {
+      "sha256": "43f0efbb9ec2aec8cdd004c8f86023b76593a9d95602667828ae50d5ca366c78",
+      "bytes": 29568
+    },
+    "assets/visuals/print/spike-ui.en.svg": {
+      "sha256": "9237f45e2319db6ca2b3dfa0553a732f3eb660484501726195cfd639c4a8cb80",
+      "bytes": 60890
+    },
+    "assets/visuals/print/spike-ui.zh.pdf": {
+      "sha256": "4f9adf111ea03958d34e1cf4e22e579b74e1c2a18e7685f5a556ec7210363b55",
+      "bytes": 33467
+    },
+    "assets/visuals/print/spike-ui.zh.svg": {
+      "sha256": "1100b4e6f022bea6c6a9dc85bce2033d0b96fd9d565ff65b73ea094a8faf2e4a",
+      "bytes": 81231
+    },
+    "assets/visuals/print/typewriter.en.pdf": {
+      "sha256": "67df736fb346d79370e120873052b2c037796837db98cab634bfe4ff72c8b9be",
+      "bytes": 30420
+    },
+    "assets/visuals/print/typewriter.en.svg": {
+      "sha256": "9707c413777961b436b8f062c8da611e5063b198fb4d5a9337414f274f3e473f",
+      "bytes": 105873
+    },
+    "assets/visuals/print/typewriter.zh.pdf": {
+      "sha256": "aa209ddf586603b55ec5bfa793f48728a593a521d061ab365ee2bd380305a4dc",
+      "bytes": 38948
+    },
+    "assets/visuals/print/typewriter.zh.svg": {
+      "sha256": "4a1ce807ceb1a4f561bc9bc9edeb9fb88dc55dd26a8f39f025002bba8b01bee9",
+      "bytes": 155646
+    },
+    "assets/visuals/print/walk-scaling.en.pdf": {
+      "sha256": "b02dfdda70b0970699112695be802d1fd049efb261d142941a72c63a8b682d1c",
+      "bytes": 24209
+    },
+    "assets/visuals/print/walk-scaling.en.svg": {
+      "sha256": "07eebc0b1e207bd1c0e5fdcddffe6323b4163aadb387e1a4aae6a45739a8551e",
+      "bytes": 74265
+    },
+    "assets/visuals/print/walk-scaling.zh.pdf": {
+      "sha256": "10508fabddeb8b6022308756ae1e9a2fcecf981ff51bb93091c3e7eeeca408a2",
+      "bytes": 31972
+    },
+    "assets/visuals/print/walk-scaling.zh.svg": {
+      "sha256": "7ab6cc18da32f7958c0410e9710acc16f353bc0a4aea0de9ba034bda08e36f66",
+      "bytes": 124759
+    }
+  }
+}

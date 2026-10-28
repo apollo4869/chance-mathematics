@@ -16,6 +16,20 @@
   const save = (k, value) => { try { localStorage.setItem(k, JSON.stringify(value)); } catch {} };
   let mode = read('chance-reader-mode') === 'chapter' ? 'chapter' : 'section';
   let current = 0, changing = false, timer;
+  const volumeEnd = document.body.dataset.volumeEnd;
+  const endingIndex = Number(document.body.dataset.volumeEndingIndex || units.length);
+  const atVolumeBoundary = () => !!volumeEnd && current + 1 >= endingIndex;
+  const en = document.documentElement.lang === 'en';
+  const closing = book.querySelector('.volume-epilogue-canonical');
+  function redirectedClosing(hash) {
+    let id;try{id=decodeURIComponent(hash.replace(/^#/,''))}catch{return false}
+    if (closing && id && [...closing.querySelectorAll('[id]')].some(n=>n.id===id)) {
+      location.replace(volumeEnd+'#'+encodeURIComponent(id));return true;
+    }
+    return false;
+  }
+  if (redirectedClosing(location.hash)) return;
+  if (!location.hash && redirectedClosing(read(key)?.anchor || '')) return;
   const line = () => controls.getBoundingClientRect().bottom + 18;
   function metrics() {
     const height = document.querySelector('.topbar').getBoundingClientRect().height;
@@ -27,8 +41,8 @@
     const index = units.indexOf(node.closest('.reading-unit'));
     return index < 0 ? current : index;
   }
-  function capture() {
-    const nodes = [...book.querySelectorAll('h1[id],h2[id],h3[id],h4[id],p[id],.formula.display[id],figure[id],.experiment[id]')]
+  function capture(scope = book) {
+    const nodes = [...scope.querySelectorAll('h1[id],h2[id],h3[id],h4[id],p[id],.formula.display[id],figure[id],.experiment[id]')]
       .filter(n => !n.closest('[hidden]') && n.getBoundingClientRect().height > 0);
     const y = line();
     let node = nodes[0];
@@ -50,8 +64,9 @@
       b.title = current ? units[current-1].dataset.readerTitle : '已到本章开头';
     });
     next.forEach(b => {
-      b.disabled = current === units.length - 1;
-      b.title = current < units.length-1 ? units[current+1].dataset.readerTitle : '已到本章末尾';
+      b.disabled = current === units.length - 1 && !volumeEnd;
+      b.title = atVolumeBoundary() ? (en ? 'Volume ending' : '本卷尾声') : current < units.length-1 ? units[current+1].dataset.readerTitle : '已到本章末尾';
+      b.textContent = atVolumeBoundary() ? (en ? 'Volume ending →' : '本卷尾声 →') : (en ? 'Next section →' : '下一节 →');
     });
     metrics();
   }
@@ -86,7 +101,15 @@
   }
   buttons.forEach(b => b.addEventListener('click', () => {
     if (b.dataset.readingMode === mode) return;
-    const position = capture();
+    let position = capture();
+    const selectedRect = units[current].getBoundingClientRect();
+    if (position && position.unit !== current && selectedRect.bottom > line() && selectedRect.top < innerHeight) {
+      position = capture(units[current]) || position;
+    }
+    // A section heading may sit below the reading line in its leading blank
+    // space. Revealing earlier sections must not fill that gap with the previous
+    // section and let the scroll observer select it during the mode change.
+    if (position && position.delta > 0) position.delta = 0;
     controls.dataset.positionAnchor = position?.anchor || '';
     controls.dataset.positionDelta = String(position?.delta || 0);
     if (position) current = position.unit;
@@ -98,13 +121,17 @@
   }));
   select.addEventListener('change', () => navigate(Number(select.value)));
   previous.forEach(b => b.addEventListener('click', () => navigate(current-1)));
-  next.forEach(b => b.addEventListener('click', () => navigate(current+1)));
+  next.forEach(b => b.addEventListener('click', () => {
+    if (atVolumeBoundary()) location.href = volumeEnd;
+    else navigate(current+1);
+  }));
   // Reveal a hidden section before following TOC, citation, or search bookmarks.
   document.addEventListener('click', event => {
     const a = event.target.closest('a[href]');
     if (!a || event.button !== 0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
     const url = new URL(a.href, location.href);
     if (url.origin !== location.origin || url.pathname !== location.pathname || !url.hash) return;
+    if (closing && redirectedClosing(url.hash)) {event.preventDefault();return;}
     let id; try { id = decodeURIComponent(url.hash.slice(1)); } catch { return; }
     const node = document.getElementById(id);
     if (!node || !book.contains(node)) return;

@@ -1,0 +1,25 @@
+{
+  "stable_id": "path-version-spike",
+  "kind": "auxiliary-understanding",
+  "source": "generate.py + model.json",
+  "formats": [
+    "svg",
+    "vector-pdf"
+  ],
+  "random_simulation": false,
+  "font_notice": "assets/visuals/font-notice.txt",
+  "author_adoption": "PENDING",
+  "copyright": "Programmatic mathematical illustration; no blanket AI-content copyright claim.",
+  "checks": [
+    "u outside fixed observation grid",
+    "open point at (u,0)",
+    "filled point at (u,1)",
+    "dashed guide is not graph"
+  ],
+  "files": {
+    "generate.py": "e0f11967f12b8f81e8ddce005eef87043e42e8781bdd23c565ae104bd87b7d92",
+    "model.json": "52fdb726ef3cf4a03c1abc9a43c1c0ccc7b986afeba79b7a582f3ee85651d489",
+    "path-version-spike.svg": "4ecb3bc0757e4fc6e6ec109d8274bc398e62c2e3c5bc00fd4163fd990bdbd86a",
+    "path-version-spike.pdf": "7a9583db0bbf69e180e39ea7896900339287f2a02a5887e7f8823a813d6cff81"
+  }
+}

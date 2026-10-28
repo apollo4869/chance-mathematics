@@ -1,0 +1,705 @@
+{
+  "spec": {
+    "id": "local-clt-parity",
+    "steps": [
+      20,
+      21
+    ],
+    "display_k": [
+      -10,
+      10
+    ],
+    "maximal_span": 2,
+    "step_mean": 0,
+    "step_variance": 1,
+    "randomness": "none; exact binomial probabilities",
+    "approximation": "2/sqrt(n) * phi(k/sqrt(n)); only at k congruent n mod2",
+    "not_claimed": "A finite plot is not a local-CLT proof, error-rate bound, or continuous-Gaussian TV convergence."
+  },
+  "rows": [
+    {
+      "n": 20,
+      "full_support": [
+        {
+          "k": -20,
+          "allowed": true,
+          "numerator": 1,
+          "denominator": 1048576,
+          "mass": 9.5367431640625e-07,
+          "local_gaussian": 8.099910956089118e-06
+        },
+        {
+          "k": -19,
+          "allowed": false,
+          "numerator": 0,
+          "denominator": 1048576,
+          "mass": 0.0,
+          "local_gaussian": null
+        },
+        {
+          "k": -18,
+          "allowed": true,
+          "numerator": 20,
+          "denominator": 1048576,
+          "mass": 1.9073486328125e-05,
+          "local_gaussian": 5.4155149644273216e-05
+        },
+        {
+          "k": -17,
+          "allowed": false,
+          "numerator": 0,
+          "denominator": 1048576,
+          "mass": 0.0,
+          "local_gaussian": null
+        },
+        {
+          "k": -16,
+          "allowed": true,
+          "numerator": 190,
+          "denominator": 1048576,
+          "mass": 0.0001811981201171875,
+          "local_gaussian": 0.00029644244014386537
+        },
+        {
+          "k": -15,
+          "allowed": false,
+          "numerator": 0,
+          "denominator": 1048576,
+          "mass": 0.0,
+          "local_gaussian": null
+        },
+        {
+          "k": -14,
+          "allowed": true,
+          "numerator": 1140,
+          "denominator": 1048576,
+          "mass": 0.001087188720703125,
+          "local_gaussian": 0.0013285628439771075
+        },
+        {
+          "k": -13,
+          "allowed": false,
+          "numerator": 0,
+          "denominator": 1048576,
+          "mass": 0.0,
+          "local_gaussian": null
+        },
+        {
+          "k": -12,
+          "allowed": true,
+          "numerator": 4845,
+          "denominator": 1048576,
+          "mass": 0.004620552062988281,
+          "local_gaussian": 0.004874891216127947
+        },
+        {
+          "k": -11,
+          "allowed": false,
+          "numerator": 0,
+          "denominator": 1048576,
+          "mass": 0.0,
+          "local_gaussian": null
+        },
+        {
+          "k": -10,
+          "allowed": true,
+          "numerator": 15504,
+          "denominator": 1048576,
+          "mass": 0.0147857666015625,
+          "local_gaussian": 0.014644982561926489
+        },
+        {
+          "k": -9,
+          "allowed": false,
+          "numerator": 0,
+          "denominator": 1048576,
+          "mass": 0.0,
+          "local_gaussian": null
+        },
+        {
+          "k": -8,
+          "allowed": true,
+          "numerator": 38760,
+          "denominator": 1048576,
+          "mass": 0.03696441650390625,
+          "local_gaussian": 0.03602084467215366
+        },
+        {
+          "k": -7,
+          "allowed": false,
+          "numerator": 0,
+          "denominator": 1048576,
+          "mass": 0.0,
+          "local_gaussian": null
+        },
+        {
+          "k": -6,
+          "allowed": true,
+          "numerator": 77520,
+          "denominator": 1048576,
+          "mass": 0.0739288330078125,
+          "local_gaussian": 0.07253707348392294
+        },
+        {
+          "k": -5,
+          "allowed": false,
+          "numerator": 0,
+          "denominator": 1048576,
+          "mass": 0.0,
+          "local_gaussian": null
+        },
+        {
+          "k": -4,
+          "allowed": true,
+          "numerator": 125970,
+          "denominator": 1048576,
+          "mass": 0.12013435363769531,
+          "local_gaussian": 0.119593415967282
+        },
+        {
+          "k": -3,
+          "allowed": false,
+          "numerator": 0,
+          "denominator": 1048576,
+          "mass": 0.0,
+          "local_gaussian": null
+        },
+        {
+          "k": -2,
+          "allowed": true,
+          "numerator": 167960,
+          "denominator": 1048576,
+          "mass": 0.16017913818359375,
+          "local_gaussian": 0.1614342258715362
+        },
+        {
+          "k": -1,
+          "allowed": false,
+          "numerator": 0,
+          "denominator": 1048576,
+          "mass": 0.0,
+          "local_gaussian": null
+        },
+        {
+          "k": 0,
+          "allowed": true,
+          "numerator": 184756,
+          "denominator": 1048576,
+          "mass": 0.17619705200195312,
+          "local_gaussian": 0.17841241161527713
+        },
+        {
+          "k": 1,
+          "allowed": false,
+          "numerator": 0,
+          "denominator": 1048576,
+          "mass": 0.0,
+          "local_gaussian": null
+        },
+        {
+          "k": 2,
+          "allowed": true,
+          "numerator": 167960,
+          "denominator": 1048576,
+          "mass": 0.16017913818359375,
+          "local_gaussian": 0.1614342258715362
+        },
+        {
+          "k": 3,
+          "allowed": false,
+          "numerator": 0,
+          "denominator": 1048576,
+          "mass": 0.0,
+          "local_gaussian": null
+        },
+        {
+          "k": 4,
+          "allowed": true,
+          "numerator": 125970,
+          "denominator": 1048576,
+          "mass": 0.12013435363769531,
+          "local_gaussian": 0.119593415967282
+        },
+        {
+          "k": 5,
+          "allowed": false,
+          "numerator": 0,
+          "denominator": 1048576,
+          "mass": 0.0,
+          "local_gaussian": null
+        },
+        {
+          "k": 6,
+          "allowed": true,
+          "numerator": 77520,
+          "denominator": 1048576,
+          "mass": 0.0739288330078125,
+          "local_gaussian": 0.07253707348392294
+        },
+        {
+          "k": 7,
+          "allowed": false,
+          "numerator": 0,
+          "denominator": 1048576,
+          "mass": 0.0,
+          "local_gaussian": null
+        },
+        {
+          "k": 8,
+          "allowed": true,
+          "numerator": 38760,
+          "denominator": 1048576,
+          "mass": 0.03696441650390625,
+          "local_gaussian": 0.03602084467215366
+        },
+        {
+          "k": 9,
+          "allowed": false,
+          "numerator": 0,
+          "denominator": 1048576,
+          "mass": 0.0,
+          "local_gaussian": null
+        },
+        {
+          "k": 10,
+          "allowed": true,
+          "numerator": 15504,
+          "denominator": 1048576,
+          "mass": 0.0147857666015625,
+          "local_gaussian": 0.014644982561926489
+        },
+        {
+          "k": 11,
+          "allowed": false,
+          "numerator": 0,
+          "denominator": 1048576,
+          "mass": 0.0,
+          "local_gaussian": null
+        },
+        {
+          "k": 12,
+          "allowed": true,
+          "numerator": 4845,
+          "denominator": 1048576,
+          "mass": 0.004620552062988281,
+          "local_gaussian": 0.004874891216127947
+        },
+        {
+          "k": 13,
+          "allowed": false,
+          "numerator": 0,
+          "denominator": 1048576,
+          "mass": 0.0,
+          "local_gaussian": null
+        },
+        {
+          "k": 14,
+          "allowed": true,
+          "numerator": 1140,
+          "denominator": 1048576,
+          "mass": 0.001087188720703125,
+          "local_gaussian": 0.0013285628439771075
+        },
+        {
+          "k": 15,
+          "allowed": false,
+          "numerator": 0,
+          "denominator": 1048576,
+          "mass": 0.0,
+          "local_gaussian": null
+        },
+        {
+          "k": 16,
+          "allowed": true,
+          "numerator": 190,
+          "denominator": 1048576,
+          "mass": 0.0001811981201171875,
+          "local_gaussian": 0.00029644244014386537
+        },
+        {
+          "k": 17,
+          "allowed": false,
+          "numerator": 0,
+          "denominator": 1048576,
+          "mass": 0.0,
+          "local_gaussian": null
+        },
+        {
+          "k": 18,
+          "allowed": true,
+          "numerator": 20,
+          "denominator": 1048576,
+          "mass": 1.9073486328125e-05,
+          "local_gaussian": 5.4155149644273216e-05
+        },
+        {
+          "k": 19,
+          "allowed": false,
+          "numerator": 0,
+          "denominator": 1048576,
+          "mass": 0.0,
+          "local_gaussian": null
+        },
+        {
+          "k": 20,
+          "allowed": true,
+          "numerator": 1,
+          "denominator": 1048576,
+          "mass": 9.5367431640625e-07,
+          "local_gaussian": 8.099910956089118e-06
+        }
+      ],
+      "omitted_display_mass": 0.01181793212890625
+    },
+    {
+      "n": 21,
+      "full_support": [
+        {
+          "k": -21,
+          "allowed": true,
+          "numerator": 1,
+          "denominator": 2097152,
+          "mass": 4.76837158203125e-07,
+          "local_gaussian": 4.79444514570208e-06
+        },
+        {
+          "k": -20,
+          "allowed": false,
+          "numerator": 0,
+          "denominator": 2097152,
+          "mass": 0.0,
+          "local_gaussian": null
+        },
+        {
+          "k": -19,
+          "allowed": true,
+          "numerator": 21,
+          "denominator": 2097152,
+          "mass": 1.0013580322265625e-05,
+          "local_gaussian": 3.2208161759363e-05
+        },
+        {
+          "k": -18,
+          "allowed": false,
+          "numerator": 0,
+          "denominator": 2097152,
+          "mass": 0.0,
+          "local_gaussian": null
+        },
+        {
+          "k": -17,
+          "allowed": true,
+          "numerator": 210,
+          "denominator": 2097152,
+          "mass": 0.00010013580322265625,
+          "local_gaussian": 0.00017884251346000153
+        },
+        {
+          "k": -16,
+          "allowed": false,
+          "numerator": 0,
+          "denominator": 2097152,
+          "mass": 0.0,
+          "local_gaussian": null
+        },
+        {
+          "k": -15,
+          "allowed": true,
+          "numerator": 1330,
+          "denominator": 2097152,
+          "mass": 0.0006341934204101562,
+          "local_gaussian": 0.0008208292660624031
+        },
+        {
+          "k": -14,
+          "allowed": false,
+          "numerator": 0,
+          "denominator": 2097152,
+          "mass": 0.0,
+          "local_gaussian": null
+        },
+        {
+          "k": -13,
+          "allowed": true,
+          "numerator": 5985,
+          "denominator": 2097152,
+          "mass": 0.002853870391845703,
+          "local_gaussian": 0.0031139536336772943
+        },
+        {
+          "k": -12,
+          "allowed": false,
+          "numerator": 0,
+          "denominator": 2097152,
+          "mass": 0.0,
+          "local_gaussian": null
+        },
+        {
+          "k": -11,
+          "allowed": true,
+          "numerator": 20349,
+          "denominator": 2097152,
+          "mass": 0.00970315933227539,
+          "local_gaussian": 0.009764470382193784
+        },
+        {
+          "k": -10,
+          "allowed": false,
+          "numerator": 0,
+          "denominator": 2097152,
+          "mass": 0.0,
+          "local_gaussian": null
+        },
+        {
+          "k": -9,
+          "allowed": true,
+          "numerator": 54264,
+          "denominator": 2097152,
+          "mass": 0.025875091552734375,
+          "local_gaussian": 0.02530827149605389
+        },
+        {
+          "k": -8,
+          "allowed": false,
+          "numerator": 0,
+          "denominator": 2097152,
+          "mass": 0.0,
+          "local_gaussian": null
+        },
+        {
+          "k": -7,
+          "allowed": true,
+          "numerator": 116280,
+          "denominator": 2097152,
+          "mass": 0.055446624755859375,
+          "local_gaussian": 0.05421925159232738
+        },
+        {
+          "k": -6,
+          "allowed": false,
+          "numerator": 0,
+          "denominator": 2097152,
+          "mass": 0.0,
+          "local_gaussian": null
+        },
+        {
+          "k": -5,
+          "allowed": true,
+          "numerator": 203490,
+          "denominator": 2097152,
+          "mass": 0.0970315933227539,
+          "local_gaussian": 0.09601117704450506
+        },
+        {
+          "k": -4,
+          "allowed": false,
+          "numerator": 0,
+          "denominator": 2097152,
+          "mass": 0.0,
+          "local_gaussian": null
+        },
+        {
+          "k": -3,
+          "allowed": true,
+          "numerator": 293930,
+          "denominator": 2097152,
+          "mass": 0.14015674591064453,
+          "local_gaussian": 0.14052943845410917
+        },
+        {
+          "k": -2,
+          "allowed": false,
+          "numerator": 0,
+          "denominator": 2097152,
+          "mass": 0.0,
+          "local_gaussian": null
+        },
+        {
+          "k": -1,
+          "allowed": true,
+          "numerator": 352716,
+          "denominator": 2097152,
+          "mass": 0.16818809509277344,
+          "local_gaussian": 0.17001610768776756
+        },
+        {
+          "k": 0,
+          "allowed": false,
+          "numerator": 0,
+          "denominator": 2097152,
+          "mass": 0.0,
+          "local_gaussian": null
+        },
+        {
+          "k": 1,
+          "allowed": true,
+          "numerator": 352716,
+          "denominator": 2097152,
+          "mass": 0.16818809509277344,
+          "local_gaussian": 0.17001610768776756
+        },
+        {
+          "k": 2,
+          "allowed": false,
+          "numerator": 0,
+          "denominator": 2097152,
+          "mass": 0.0,
+          "local_gaussian": null
+        },
+        {
+          "k": 3,
+          "allowed": true,
+          "numerator": 293930,
+          "denominator": 2097152,
+          "mass": 0.14015674591064453,
+          "local_gaussian": 0.14052943845410917
+        },
+        {
+          "k": 4,
+          "allowed": false,
+          "numerator": 0,
+          "denominator": 2097152,
+          "mass": 0.0,
+          "local_gaussian": null
+        },
+        {
+          "k": 5,
+          "allowed": true,
+          "numerator": 203490,
+          "denominator": 2097152,
+          "mass": 0.0970315933227539,
+          "local_gaussian": 0.09601117704450506
+        },
+        {
+          "k": 6,
+          "allowed": false,
+          "numerator": 0,
+          "denominator": 2097152,
+          "mass": 0.0,
+          "local_gaussian": null
+        },
+        {
+          "k": 7,
+          "allowed": true,
+          "numerator": 116280,
+          "denominator": 2097152,
+          "mass": 0.055446624755859375,
+          "local_gaussian": 0.05421925159232738
+        },
+        {
+          "k": 8,
+          "allowed": false,
+          "numerator": 0,
+          "denominator": 2097152,
+          "mass": 0.0,
+          "local_gaussian": null
+        },
+        {
+          "k": 9,
+          "allowed": true,
+          "numerator": 54264,
+          "denominator": 2097152,
+          "mass": 0.025875091552734375,
+          "local_gaussian": 0.02530827149605389
+        },
+        {
+          "k": 10,
+          "allowed": false,
+          "numerator": 0,
+          "denominator": 2097152,
+          "mass": 0.0,
+          "local_gaussian": null
+        },
+        {
+          "k": 11,
+          "allowed": true,
+          "numerator": 20349,
+          "denominator": 2097152,
+          "mass": 0.00970315933227539,
+          "local_gaussian": 0.009764470382193784
+        },
+        {
+          "k": 12,
+          "allowed": false,
+          "numerator": 0,
+          "denominator": 2097152,
+          "mass": 0.0,
+          "local_gaussian": null
+        },
+        {
+          "k": 13,
+          "allowed": true,
+          "numerator": 5985,
+          "denominator": 2097152,
+          "mass": 0.002853870391845703,
+          "local_gaussian": 0.0031139536336772943
+        },
+        {
+          "k": 14,
+          "allowed": false,
+          "numerator": 0,
+          "denominator": 2097152,
+          "mass": 0.0,
+          "local_gaussian": null
+        },
+        {
+          "k": 15,
+          "allowed": true,
+          "numerator": 1330,
+          "denominator": 2097152,
+          "mass": 0.0006341934204101562,
+          "local_gaussian": 0.0008208292660624031
+        },
+        {
+          "k": 16,
+          "allowed": false,
+          "numerator": 0,
+          "denominator": 2097152,
+          "mass": 0.0,
+          "local_gaussian": null
+        },
+        {
+          "k": 17,
+          "allowed": true,
+          "numerator": 210,
+          "denominator": 2097152,
+          "mass": 0.00010013580322265625,
+          "local_gaussian": 0.00017884251346000153
+        },
+        {
+          "k": 18,
+          "allowed": false,
+          "numerator": 0,
+          "denominator": 2097152,
+          "mass": 0.0,
+          "local_gaussian": null
+        },
+        {
+          "k": 19,
+          "allowed": true,
+          "numerator": 21,
+          "denominator": 2097152,
+          "mass": 1.0013580322265625e-05,
+          "local_gaussian": 3.2208161759363e-05
+        },
+        {
+          "k": 20,
+          "allowed": false,
+          "numerator": 0,
+          "denominator": 2097152,
+          "mass": 0.0,
+          "local_gaussian": null
+        },
+        {
+          "k": 21,
+          "allowed": true,
+          "numerator": 1,
+          "denominator": 2097152,
+          "mass": 4.76837158203125e-07,
+          "local_gaussian": 4.79444514570208e-06
+        }
+      ],
+      "omitted_display_mass": 0.02660369873046875
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "purpose": "Preserve existing paragraph and search links after three authorized insertions.",
+  "paragraphs": {
+    "zh": [
+      {
+        "prefix": "现在需要把一串矩读数接到任意连续观察上。多项式的积分已经由这些矩决定；若连续函数都能被多项式一致逼近",
+        "id": "chapter-13-revision-p1"
+      },
+      {
+        "prefix": "这时有两道不同的关口。Bernstein 逼近让我们在紧立方体上从矩的收敛走到连续观察的收敛；但从衰",
+        "id": "chapter-13-revision-p2"
+      },
+      {
+        "prefix": "1948年，Gnedenko 在《Uspekhi Matematicheskikh Nauk》3卷3",
+        "id": "chapter-13-revision-p3"
+      }
+    ],
+    "en": [
+      {
+        "prefix": "We now need to connect a sequence of moment readin",
+        "id": "chapter-13-revision-p1"
+      },
+      {
+        "prefix": "There are now two separate obstacles. Bernstein ap",
+        "id": "chapter-13-revision-p2"
+      },
+      {
+        "prefix": "In 1948, Gnedenko published “On a local limit theo",
+        "id": "chapter-13-revision-p3"
+      }
+    ]
+  }
+}

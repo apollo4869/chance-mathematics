@@ -7,13 +7,18 @@ import hashlib, json, os, re, shutil, subprocess, sys
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT.parent / 'probability-project-audit-2026-10-25/runtime/python'))
 from bs4 import BeautifulSoup
+from academic_navigation import module_body_html,split_supplement,config as academic_config
+from math_visuals import remove_figures
 
 baseline = json.loads((ROOT / 'baseline-manuscript.json').read_text('utf-8'))
 for name, digest in baseline['files'].items():
     assert hashlib.sha256((ROOT / name).read_bytes()).hexdigest() == digest, name
 inputs = json.loads((ROOT / 'provenance/build-inputs.json').read_text('utf-8'))
 items = [{'id': f'chapter-{i}', 'path': str(ROOT / 'chapters' / name), 'syntax': 'slash'}
-         for i, name in enumerate(inputs['chapters'], 1) if i >= 7]
+         for i, name in enumerate(inputs['chapters'], 1) if i >= 5]
+items += [{'id':m['id'],'path':str(ROOT/m['file']),'syntax':'slash'} for m in inputs.get('supporting_proofs',[])]
+items += [{'id':m['id'],'path':str(ROOT/m['file']),'syntax':'slash'} for m in inputs.get('advanced_modules',[])]
+items += [{'id':'supplement','path':str(ROOT/'校订与证明补充.md'),'syntax':'slash'}]
 request = {'engineProject': str(ROOT if (ROOT / 'node_modules/markdown-it').exists()
                                else ROOT.parent / 'chance-mathematics-restored-v2'),
            'items': items, 'output': str(ROOT / 'build/local-expected.json')}
@@ -52,6 +57,9 @@ for p, soup in pages.items():
 
 def content(fragment):
     soup = BeautifulSoup(str(fragment), 'html.parser')
+    from volume_navigation import restore_reader_fragment
+    restore_reader_fragment(soup)
+    remove_figures(soup)
     for n in soup.select('.section-kicker,.chapter-links'):
         n.decompose()
     formulas = []
@@ -63,8 +71,25 @@ def content(fragment):
             'headings': [(n.name, compact(n.get_text()))
                          for n in soup.find_all(re.compile('^h[1-6]$'))]}
 
-chapter_counts = {}
+chapter_counts = {};audited=[]
 for item in expected:
+    if item['id'].startswith('advanced-'):item['html']=module_body_html('<section class="book-section">'+item['html']+'</section>')
+    if item['id']=='supplement':audited.extend({'id':k,'html':v} for k,v in split_supplement('<section class="book-section">'+item['html']+'</section>').items())
+    else:audited.append(item)
+for item in audited:
+    if item['id'] in academic_config()['supplement_facets']:
+        path=(dist/academic_config()['supplement_facets'][item['id']]['route'].lstrip('/')).resolve()
+        assert content(pages[path].find('section',id=item['id']))==content(item['html']),item['id']
+        continue
+    if item['id'].startswith('advanced-'):
+        module=next(m for m in inputs['advanced_modules'] if m['id']==item['id']);path=(dist/'advanced'/(module['slug']+'.html')).resolve()
+        assert content(pages[path].find('section',id=item['id']))==content(item['html']),item['id']
+        continue
+    if item['id'].startswith('foundation-'):
+        module=next(m for m in inputs['supporting_proofs'] if m['id']==item['id'])
+        path=(dist/'proofs'/(module['slug']+'.html')).resolve()
+        assert content(pages[path].find('section',id=item['id']))==content(item['html']),item['id']
+        continue
     number = int(item['id'].split('-')[1])
     path = (dist / 'chapters' / Path(inputs['chapters'][number-1]).with_suffix('.html')).resolve()
     actual = content(pages[path].find('section', id=item['id']))

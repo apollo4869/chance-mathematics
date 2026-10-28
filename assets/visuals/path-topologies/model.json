@@ -1,0 +1,20 @@
+{
+  "id": "jump-alignment",
+  "chapter": 24,
+  "a": 0.5,
+  "n": [
+    8,
+    16
+  ],
+  "domain": [
+    0,
+    1
+  ],
+  "view_window": [
+    0.45,
+    0.8
+  ],
+  "simulation": false,
+  "purpose": "Distinguish a time-alignable jump from a non-tight shrinking excursion.",
+  "print": "SVG and vector PDF share this deterministic mathematical source."
+}

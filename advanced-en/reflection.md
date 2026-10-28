@@ -1,14 +1,14 @@
 # Advanced Reading: First Passage and the Reflection Principle
 
-> This module was transferred in full from Chapter 4 before its restructuring, retaining the original section numbers and all of the original text. It is a technical working draft for development in later chapters, rather than a required proof for the current Chapter 4.
+> Working topic material; see the page for the scope of each argument.
 
 **Destination chapter:** Chapter 25, “Hitting, Reflection, and Path Decomposition.”
 
 **Prerequisites:** Continuous paths, stopping times, the natural filtration, the strong Markov theorem, and the measure-preserving property of the reflection transformation.
 
-**Scope of the proof:** The original account of reflection, its formulas, and the first-passage-time calculation are all retained. The strong Markov property and the measure-preserving property of reflection still require systematic proofs; geometric symmetry is not treated as a complete proof.
+**Proof scope:** Chapter 26 supplies written Brownian strong Markov, measurable measure-preserving reflection and maximum/first-hit proofs; the old source is retained in full. Human independent mathematical final review remains pending; general Feller strong Markov belongs to Chapter 28.
 
-[Return to the main reading of Chapter 4](#chapter-4) · [View the complete snapshot of the former Chapter 4](/downloads/04-brownian-before-restructure.md)
+[Return to Chapter 4](#chapter-4) · [Topic and proof index](#reading-routes)
 
 ---
 

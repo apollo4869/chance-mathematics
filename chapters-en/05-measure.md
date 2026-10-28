@@ -1453,11 +1453,11 @@ A\subseteq C\implies A\in\mathcal L.
 }
 \]
 
-But the Cantor set has the same cardinality as the reals, and its power set has strictly greater cardinality than the family of Borel sets.
+But the Cantor set has the same cardinality as the reals, and its power set has strictly greater cardinality than the family of Borel sets. For the full well-founded Borel coding and cardinal comparison, see the [measure foundations](../foundations/t-measure.md#t-measure-borel-code).
 
 There must therefore be subsets of the Cantor set that are not Borel, yet are Lebesgue measurable.
 
-This shows that Borel measure can be completed by adjoining all subsets of null sets to the measurable structure.
+This shows that Borel measure can be completed by adjoining all subsets of null sets to the measurable structure. The [companion proof](../foundations/t-measure.md#t-measure-completion) constructs completion for an arbitrary measure and proves minimality and uniqueness.
 
 We finally have a rigorous continuous uniform probability model:
 

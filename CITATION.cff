@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "Please cite Haobai Wang and the edition actually consulted. See the Citation page for formal web, chapter-specific BibTeX and unpublished preview fingerprints."
+type: software
+title: "偶然的数学：概率论的历史、思想与数学结构"
+authors:
+  - family-names: Wang
+    given-names: Haobai
+url: "https://chance-mathematics-six-chapters.goldenmath7.chatgpt.site/"
+repository-code: "https://github.com/apollo4869/chance-mathematics"
+abstract: "An original book on the history, ideas and mathematical structures of probability. Formal publication, public source snapshots and unpublished previews are distinct editions."
+preferred-citation:
+  type: book
+  title: "偶然的数学：概率论的历史、思想与数学结构"
+  authors:
+    - family-names: Wang
+      given-names: Haobai
+  year: 2026
+  url: "https://chance-mathematics-six-chapters.goldenmath7.chatgpt.site/"

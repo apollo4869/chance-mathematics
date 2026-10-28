@@ -1,0 +1,21 @@
+{
+  "stable_id": "state-time-weight",
+  "rates": {
+    "a": "1",
+    "b": "4"
+  },
+  "embedded_visit_weights": [
+    "1/2",
+    "1/2"
+  ],
+  "stationary_time_weights": [
+    "4/5",
+    "1/5"
+  ],
+  "model": "A --a--> B --b--> A",
+  "randomness": "NONE; exact theoretical probabilities, not simulated frequencies",
+  "purpose": "State visits count equally; time occupancy weights each visit by mean holding time.",
+  "not_claimed": "A figure does not prove a convergence theorem.",
+  "caption_zh": "两状态链a=1、b=4：按跳数A和B各占1/2，按时间平稳权重为4/5和1/5。差异来自平均停留1与1/4。精确理论值，不是有限轨迹频率。",
+  "caption_en": "For rates a=1,b=4, visit weights are1/2 each, while stationary time weights are4/5 and1/5, reflecting mean holds1 and1/4. Exact theoretical values, not finite-path frequencies."
+}

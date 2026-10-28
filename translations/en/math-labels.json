@@ -88,5 +88,9 @@
   "连续路径版本的存在": "existence of a version with continuous paths",
   "加权平均": "weighted average",
   "积分": "integral",
-  "个": "factors"
+  "个": "factors",
+  "下一局为": "the next game is won by",
+  "是状态空间中的可测集": "is a measurable set in the state space",
+  "可测随机变量": "measurable random variable",
+  "于": "in"
 }

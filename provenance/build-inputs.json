@@ -7,7 +7,30 @@
     "05-measure.md",
     "06-integral.md",
     "07-convergence.md",
-    "08-infinite-experiments.md"
+    "08-infinite-experiments.md",
+    "09-conditional-expectation.md",
+    "10-densities-and-kernels.md",
+    "11-characteristic-functions.md",
+    "12-infinite-sums.md",
+    "13-rare-events.md",
+    "14-arrays-and-stability.md",
+    "15-martingales.md",
+    "16-stopping-times.md",
+    "17-markov-chains.md",
+    "18-return-and-escape.md",
+    "19-renewal.md",
+    "20-branching.md",
+    "21-poisson-process.md",
+    "22-continuous-time-chains.md",
+    "23-gaussian-paths.md",
+    "24-path-convergence.md",
+    "25-donsker.md",
+    "26-brownian-properties.md",
+    "27-levy-processes.md",
+    "28-semigroups.md",
+    "29-large-deviations.md",
+    "30-predictability.md",
+    "31-ito-integral.md"
   ],
   "citations": [
     "turn673477search0",
@@ -107,6 +130,162 @@
       "file": "advanced/crt.md",
       "title": "进阶阅读：从 Brownian 路径到随机树",
       "slug": "crt"
+    }
+  ],
+  "supporting_proofs": [
+    {
+      "id": "foundation-mclass",
+      "file": "foundations/t-mclass.md",
+      "slug": "t-mclass",
+      "title": "生成类、单调类与测度唯一性",
+      "title_en": "Generating Classes, Monotone Classes and Measure Uniqueness"
+    },
+    {
+      "id": "foundation-integral",
+      "file": "foundations/t-integral.md",
+      "slug": "t-integral",
+      "title": "非负积分、零集与DCT",
+      "title_en": "Nonnegative Integration, Null Sets and DCT"
+    },
+    {
+      "id": "foundation-measure",
+      "file": "foundations/t-measure.md",
+      "slug": "t-measure",
+      "title": "完备化与Borel/Lebesgue严格包含",
+      "title_en": "Completion and Strict Borel/Lebesgue Inclusion"
+    },
+    {
+      "id": "foundation-lp",
+      "file": "foundations/t-lp.md",
+      "slug": "t-lp",
+      "title": "Hölder、Minkowski与Lp完备性",
+      "title_en": "Hölder, Minkowski and Lp Completeness"
+    },
+    {
+      "id": "foundation-sequential",
+      "file": "foundations/t-sequential.md",
+      "slug": "t-sequential",
+      "title": "一般可测空间的顺序核构造",
+      "title_en": "Sequential Kernels on Arbitrary Measurable Spaces"
+    },
+    {
+      "id": "foundation-stieltjes",
+      "file": "foundations/t-stieltjes.md",
+      "slug": "t-stieltjes",
+      "title": "局部测度选择与更新测度",
+      "title_en": "Local Measure Selection and Renewal Measures"
+    },
+    {
+      "id": "foundation-j1",
+      "file": "foundations/t-j1.md",
+      "slug": "t-j1",
+      "title": "跳跃路径的拓扑、可测结构与紧性",
+      "title_en": "Topology, Measurability and Tightness of Jump Paths"
+    },
+    {
+      "id": "foundation-fclt",
+      "file": "foundations/t-fclt.md",
+      "slug": "t-fclt",
+      "title": "经验曲线、逆时间与函数型极限",
+      "title_en": "Empirical Curves, Inverse Time and Functional Limits"
+    },
+    {
+      "id": "foundation-lil",
+      "file": "foundations/t-lil.md",
+      "slug": "t-lil",
+      "title": "一致振幅与Brownian函数型重对数律",
+      "title_en": "Uniform Oscillation and Brownian Functional LIL"
+    },
+    {
+      "id": "foundation-arcsine",
+      "file": "foundations/t-arcsine.md",
+      "slug": "t-arcsine",
+      "title": "三种路径时间的弧正弦律",
+      "title_en": "Arcsine Laws for Three Path Times"
+    },
+    {
+      "id": "foundation-levy-characteristics",
+      "file": "foundations/t-levy-characteristics.md",
+      "slug": "t-levy-characteristics",
+      "title": "Lévy三元组、紧性与无穷小阵列",
+      "title_en": "Lévy Triplets, Tightness and Infinitesimal Arrays"
+    },
+    {
+      "id": "foundation-levy-paths",
+      "file": "foundations/t-levy-paths.md",
+      "slug": "t-levy-paths",
+      "title": "跳测度、补偿路径与原空间分解",
+      "title_en": "Jump Measures, Compensated Paths and Original-Space Decomposition"
+    },
+    {
+      "id": "foundation-levy-domains",
+      "file": "foundations/t-levy-domains.md",
+      "slug": "t-levy-domains",
+      "title": "稳定分类、吸引域与离散梯级分解",
+      "title_en": "Stable Classification, Attraction and Discrete Ladder Factorization"
+    },
+    {
+      "id": "foundation-operators",
+      "file": "foundations/t-operators.md",
+      "slug": "t-operators",
+      "title": "生成元、core与概率Hille–Yosida",
+      "title_en": "Generators, Cores and Probabilistic Hille–Yosida"
+    },
+    {
+      "id": "foundation-feller-paths",
+      "file": "foundations/t-feller-paths.md",
+      "slug": "t-feller-paths",
+      "title": "Feller核、路径与强Markov",
+      "title_en": "Feller Kernels, Paths and Strong Markov"
+    },
+    {
+      "id": "foundation-feller-examples",
+      "file": "foundations/t-feller-examples.md",
+      "slug": "t-feller-examples",
+      "title": "边界定义域与Lévy生成元",
+      "title_en": "Boundary Domains and Lévy Generators"
+    },
+    {
+      "id": "foundation-ldp",
+      "file": "foundations/t-ldp.md",
+      "slug": "t-ldp",
+      "title": "指数尺度、凸闭包与Cramér下界",
+      "title_en": "Exponential Scales, Convex Closure and Cramér Lower Bounds"
+    },
+    {
+      "id": "foundation-sanov",
+      "file": "foundations/t-sanov.md",
+      "slug": "t-sanov",
+      "title": "经验测度、熵变分与指数紧",
+      "title_en": "Empirical Measures, Entropy Variation and Exponential Tightness"
+    },
+    {
+      "id": "foundation-schilder",
+      "file": "foundations/t-schilder.md",
+      "slug": "t-schilder",
+      "title": "网格能量与Brownian路径大偏差",
+      "title_en": "Grid Energy and Brownian Path Large Deviations"
+    },
+    {
+      "id": "foundation-dm-compact",
+      "file": "foundations/t-dm-compact.md",
+      "slug": "t-dm-compact",
+      "title": "一致可积、弱L1与尾凸组合",
+      "title_en": "Uniform Integrability, Weak L1 and Forward Convex Combinations"
+    },
+    {
+      "id": "foundation-continuous-information",
+      "file": "foundations/t-continuous-information.md",
+      "slug": "t-continuous-information",
+      "title": "连续信息、正则化与可预测唯一性",
+      "title_en": "Continuous Information, Regularization and Predictable Uniqueness"
+    },
+    {
+      "id": "foundation-ito-bracket",
+      "file": "foundations/t-ito-bracket.md",
+      "slug": "t-ito-bracket",
+      "title": "连续鞅平方和、括号与积分",
+      "title_en": "Continuous Martingale Square Sums, Brackets and Integration"
     }
   ]
 }

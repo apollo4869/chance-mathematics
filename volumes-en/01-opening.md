@@ -1,0 +1,1 @@
+A finite game can be counted outcome by outcome; a particle moving in water has no final step. Probability reaches beyond a few dice to unknown chances, continuous change and entire paths. Across these seemingly distant problems, the same question persists: what gives a chance outcome a structure we can calculate?

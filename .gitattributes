@@ -6,9 +6,22 @@ advanced/** -text
 assets/** -text
 dist/** -diff -text
 baseline-manuscript.json -text
+planning/** -text
+translations/en/manifest.json -text
 book-source.html -diff
+# Preserve the byte hashes of editorial metadata on Windows checkouts.
+docs/AUTHOR_REVIEW_STATUS.json -text
+publication/editorial-status.json -text
+publication/materials.json -text
+publication/math-visuals.json -text
+publication/reader-anchor-order.json -text
+publication/chapter13-revision-anchors.json -text
+publication/chapter14-review-anchors.json -text
+publication/volumes.json -text
+publication/volumes.css -text
 *.py text eol=lf
 *.cjs text eol=lf
 *.js text eol=lf
 app.js -text
 experiments.js -text
+publication/academic-navigation.json -text

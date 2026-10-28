@@ -1453,11 +1453,11 @@ A\subseteq C\implies A\in\mathcal L.
 }
 \]
 
-但 Cantor 集拥有与实数集相同的基数，其幂集的基数严格大于 Borel 集族的基数。
+但 Cantor 集拥有与实数集相同的基数，其幂集的基数严格大于 Borel 集族的基数。 良基 Borel 编码与基数比较的完整论证见[测度基础补证](../foundations/t-measure.md#t-measure-borel-code)。
 
 因此，必然存在一些 Cantor 集的子集不是 Borel 集，却是 Lebesgue 可测集。
 
-这说明，Borel 测度可以进一步完成化（completion），将零测集合的所有子集纳入可测体系。
+这说明，Borel 测度可以进一步完成化（completion），将零测集合的所有子集纳入可测体系。 任意测度的完备化构造、最小性与唯一性见[配套证明](../foundations/t-measure.md#t-measure-completion)。
 
 现在，我们终于有了严格意义上的连续均匀概率模型：
 

@@ -1,0 +1,76 @@
+{
+  "schema_version": 1,
+  "release_id": "formal-six-web-v4",
+  "kind": "FORMAL_WEB_PUBLICATION",
+  "published_date": "2026-10-26",
+  "chapter_count": 6,
+  "languages": [
+    "zh-CN"
+  ],
+  "author": "Haobai Wang",
+  "source_commit": "247abf84f478968d5b9524df813ac07430634193",
+  "formal_url": "https://chance-mathematics-six-chapters.goldenmath7.chatgpt.site/",
+  "hosting_version_number": 4,
+  "hosting_version_id": "appgprj_6add5ada774c819199489ea9858f15c8~appgver_70be18cd3f308191ac841b348fef7370",
+  "deployment_id": "appgdep_6aded789079c81918f71bc088ef2f423",
+  "original_deployment_archive_sha256": "ae2fa90208b98dd92483b6c9cd5a3ae942f70b22516bff9dbf0c480bc2f279b3",
+  "snapshot_scope": "Published chapter and proof manuscripts, byte-exact from the deployed source commit. Not a copy of the deployment tar; private records and author notes excluded.",
+  "archive_file": "formal-six-web-v4.zip",
+  "archive_sha256": "f4a8f2e0a618fdde8049c869cd13850cab90f34bfde6928efd4a9725177c8f98",
+  "files": {
+    "advanced/crt.md": "19eab7069047d426eae0a1f1095f1fb4b05f3349755d1ffa2df904809933b7ce",
+    "advanced/donsker.md": "9881d21b74ed936b2b6379367368502d17a801b07dcf50f6b36664349d612913",
+    "advanced/quadratic.md": "bbe19f486007506c29157c3d63ee598b0304cb4e592bc412a00a499a2e893ca4",
+    "advanced/reflection.md": "a7bb2e943a6fbb55408257fc01fbee74cc563f6ca961b960c0fb31c0680605ef",
+    "advanced/semigroup.md": "3b5c93838fd53c817bad162987585c0c9ed44794f80596e4e3cc9c34b48f471c",
+    "advanced/wiener.md": "91c10db50998bb710630959f3bbdf404c4a8226bfadc558e5b4254fb9bec629f",
+    "chapters/01-gambling.md": "13aef92ae4724b4b4c8b5aeea1462d17e345c72b8cb5c761a89edae63788243e",
+    "chapters/02-inference.md": "67f96226c5fc864eef686e9994db2d039c424444f16e66d240dee6017501596a",
+    "chapters/03-normal.md": "9f0bac76aee316225027d2d16e03358529ef94f2beca92dfa8614e322e63edd7",
+    "chapters/04-brownian.md": "077401be2fef053ff15732e96c60be29a98890cc514808b489ddd053aa13ab2d",
+    "chapters/05-measure.md": "d6ba65dbff2e96c3ef6f24732aa7295fb9335a9e364fde645b0f4eb25fe6daad",
+    "chapters/06-integral.md": "34f468e737bae704796fea3c493c226df54fc7eacbf68b0b1005377c347122e7",
+    "延伸阅读与证明路线.md": "8924b00c19f3134f7e541222aa6ecac452a771abd5be925097f53933dcec5600",
+    "引用与配图来源.md": "9ee882e5723fac92a7c608e4ec280ebaa30356f136dece920716241c02967560",
+    "校订与证明补充.md": "1485a84dd4e0ede2ef2b128ba88a0254628170aa15ebc5c279ff2f09ade226ff"
+  },
+  "chapters": [
+    {
+      "chapter": 1,
+      "source": "chapters/01-gambling.md",
+      "source_sha256": "13aef92ae4724b4b4c8b5aeea1462d17e345c72b8cb5c761a89edae63788243e",
+      "published_html_sha256": "b2f155eb2e3fc8f3e36eb1b7fc2f9e0fa3c90614178bc3d7dc81a758b6db6c9d"
+    },
+    {
+      "chapter": 2,
+      "source": "chapters/02-inference.md",
+      "source_sha256": "67f96226c5fc864eef686e9994db2d039c424444f16e66d240dee6017501596a",
+      "published_html_sha256": "27f4a962d842ec2233fa245fe74a84d040380fbe6c56bab3da472a562b5025fd"
+    },
+    {
+      "chapter": 3,
+      "source": "chapters/03-normal.md",
+      "source_sha256": "9f0bac76aee316225027d2d16e03358529ef94f2beca92dfa8614e322e63edd7",
+      "published_html_sha256": "d943866327d3b3260e13630a9d2d9b8dc164ad181c59bb3b70dfb532ace115d7"
+    },
+    {
+      "chapter": 4,
+      "source": "chapters/04-brownian.md",
+      "source_sha256": "077401be2fef053ff15732e96c60be29a98890cc514808b489ddd053aa13ab2d",
+      "published_html_sha256": "55935f3af3d9a75de4b954629cffd927b0209b89305316408a259fbbeb8c91cc"
+    },
+    {
+      "chapter": 5,
+      "source": "chapters/05-measure.md",
+      "source_sha256": "d6ba65dbff2e96c3ef6f24732aa7295fb9335a9e364fde645b0f4eb25fe6daad",
+      "published_html_sha256": "dd45b19b41743075fd453308fa483064731291ba89ca06ac57ffc95fdf26471a"
+    },
+    {
+      "chapter": 6,
+      "source": "chapters/06-integral.md",
+      "source_sha256": "34f468e737bae704796fea3c493c226df54fc7eacbf68b0b1005377c347122e7",
+      "published_html_sha256": "2211670658744835a56dc29133c38e594b3369f165f07acd4e0b76deed08e707"
+    }
+  ],
+  "author_approval_scope": "Previously authorized public web version for phone review; academic final review not implied."
+}

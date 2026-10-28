@@ -1,0 +1,1 @@
+Chance has not lost its uncertainty by becoming calculable. What has changed is how we look: beyond a single outcome lies a structure of possibilities; within disorderly records, a stable shape may emerge. From the gaming table to the microscope, this way of seeing has already carried probability beyond its original boundaries.

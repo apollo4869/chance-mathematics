@@ -1,0 +1,23 @@
+{
+  "id": "state-time-weight",
+  "kind": "auxiliary-understanding",
+  "shared_source": "generate.py + model.json",
+  "format": [
+    "svg",
+    "vector-pdf"
+  ],
+  "vector_font_notice": "assets/visuals/font-notice.txt",
+  "author_adoption": "PENDING",
+  "mathematical_checks": [
+    "normalization",
+    "detailed balance",
+    "holding-time reweighting"
+  ],
+  "copyright": "Project mathematical code illustration; no automatic blanket AI-content copyright claim.",
+  "files": {
+    "generate.py": "3db357148f2da25e5678a6b89577eae5b2e11861c35261abf1c01419353b3d2a",
+    "model.json": "c8670b326b813e34fb2c4f0137af31a99f817084e4189d0241bfabd9b226caa4",
+    "state-time-weight.svg": "8521396fcfe17d3e2cc49432a459ef2f64b9171e069c3a30af2e2cf948c348d9",
+    "state-time-weight.pdf": "9364ae5b017ce49143e78d6fe5e86f9c4c57f13a2adb52d8d82db456f642f28a"
+  }
+}

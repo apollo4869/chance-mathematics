@@ -1,14 +1,14 @@
 # Advanced Reading: Donsker and Tightness of Paths
 
-> This module was transferred in full from Chapter 4 before its restructuring, retaining the original section numbers and all of the original text. It is a technical working draft for development in later chapters, rather than a required proof for the current Chapter 4.
+> Working topic material; see the page for the scope of each argument.
 
-**Destination chapters:** Chapter 12, “Distributions Enter Function Spaces”; Chapter 27, “Why Do Discrete Paths Approach Continuous Paths?”
+**Primary chapter:** 25
 
 **Prerequisites:** Convergence from Chapter 7, measurability in function spaces, Arzelà–Ascoli, Prokhorov, and Kolmogorov tightness criteria.
 
-**Scope of the proof:** The interpolation, fourth-moment calculation, and all original derivations are retained. The original manuscript still invokes tightness criteria and tools for identifying weak limits; it does not provide a complete, self-contained proof of Donsker's theorem. The general case with only a finite second moment also requires a further proof.
+**Proof scope:** Linear interpolation and the original fourth-moment calculations are written out, under their stated hypotheses. Finite-dimensional identification and path tightness still invoke external tools; this is not a self-contained functional CLT. Chapter25 and T-FCLT contain complete written finite-second-moment Donsker, empirical-bridge and finite-variance renewal proofs; continuing verification, not final review.
 
-[Return to the main reading of Chapter 4](#chapter-4) · [View the complete snapshot of the former Chapter 4](/downloads/04-brownian-before-restructure.md)
+[Return to Chapter 4](#chapter-4) · [Topic and proof index](#reading-routes)
 
 ---
 

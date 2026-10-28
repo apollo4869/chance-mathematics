@@ -1,6 +1,6 @@
 # Corrections and Supplementary Proofs
 
-This appendix was added to the restored edition. The six chapters have been restored from the master chat manuscript; this appendix does not replace or compress their original narrative. It expands key arguments treated briefly in the manuscript and identifies the deeper theorems still invoked as known results.
+This appendix preserves mathematical supplements; the website separates public errata, finite-dimensional calculations and proof scope.
 
 ## A. From Finite to Countable Additivity: The Essential Intermediate Steps
 
@@ -129,7 +129,7 @@ holds. A rectangle \(A\times B\) belongs to \(\mathcal D\), with both sides equa
 
 Finite total measure makes complements legitimate: a section's measure becomes the constant \(\nu(Y)\) minus the original function, and the integral identity follows by subtracting both sides from \(\mu(X)\nu(Y)\). For pairwise disjoint \(E_n\in\mathcal D\), the section measures are sums of nonnegative functions; the monotone convergence theorem gives measurability and the integral identity. Thus \(\mathcal D\) is a Dynkin system.
 
-Rectangles are closed under finite intersections. By the \(\pi\)-\(\lambda\) theorem, \(\mathcal D\) contains the entire product \(\sigma\)-algebra they generate. The \(\pi\)-\(\lambda\) theorem invoked here is a set-theoretic tool, not Tonelli's theorem, so there is no circular use of the result being proved.
+Rectangles are closed under finite intersections. By the \(\pi\)-\(\lambda\) theorem, \(\mathcal D\) contains the entire product \(\sigma\)-algebra they generate. The \(\pi\)-\(\lambda\) theorem invoked here is a set-theoretic tool, not Tonelli's theorem, so there is no circular use of the result being proved. A full proof of this set-theoretic tool is given in the [π–λ companion](foundations/t-mclass.md#t-mclass-pi-lambda).
 
 ### C.3 The General \(\sigma\)-Finite Case and the Construction of the Measure
 
@@ -197,7 +197,7 @@ Only after applying Lévy's continuity theorem do we obtain convergence in distr
 
 The main-text statements of monotone and dominated convergence include the assumption that the limiting function \(f\) is measurable. On an incomplete measure space, arbitrarily modifying a function on a subset of a null set need not leave it measurable. Merely being “equal almost everywhere to a measurable function” does not justify an unconditional assertion of measurability.
 
-If we are given only measurable \(f_n\) converging outside a measurable null set, we can define the limit to be zero on the exceptional set and obtain a measurable version; for example, use the measurable upper limit and modify it on the measurable exceptional set. Integrals in nonnegative monotone convergence may take extended values, while an integrable dominating function in dominated convergence ensures that the limit is finite almost everywhere.
+If we are given only measurable \(f_n\) converging outside a measurable null set, we can define the limit to be zero on the exceptional set and obtain a measurable version; for example, use the measurable upper limit and modify it on the measurable exceptional set. Integrals in nonnegative monotone convergence may take extended values, while an integrable dominating function in dominated convergence ensures that the limit is finite almost everywhere. For full proofs of nonnegative linearity, null-set modifications and DCT without σ-finiteness, see the [integral foundations](foundations/t-integral.md#t-integral-dct).
 
 For nonnegative simple functions we consistently adopt \(0\cdot\infty=0\), so that a zero coefficient on a set of infinite measure does not create an undefined expression. For signed integrals, the positive- and negative-part integrals still cannot both be infinite.
 
@@ -224,7 +224,7 @@ This proves convergence of the joint distribution of the increment vector. Apply
 
 ## G. The Limits of the Proofs of Deeper Theorems
 
-The restored edition retains the master manuscript's proofs, explanations, and original links. Complete proofs of the following results are absent from the original six chapters; intuitive explanations must not be described as complete proofs of them.
+The table concerns the early six-chapter manuscript only; see the topic index for current ownership and proof states.
 
 | Location in the text | What this book actually supplies | What is still invoked as a known result |
 |---|---|---|
@@ -237,4 +237,4 @@ The restored edition retains the master manuscript's proofs, explanations, and o
 | Section 5.8 | The original proof strategy; Appendices A and B supply closure, additivity, and treatment of cover endpoints | The listed gaps have now been filled here |
 | Section 6.12 | The original route through rectangles, simple functions, and convergence; Appendix C supplies the intermediate set argument | The \(\pi\)-\(\lambda\) theorem is invoked as a set-theoretic tool |
 
-This table describes the scope of the proofs; it does not authorize abridging the text. It distinguishes the narrative's “why this should be true,” the proofs already completed, and the theory that still requires later development.
+Check current proof states result by result under their hypotheses; a written proof is not final mathematical approval.

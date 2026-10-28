@@ -12,6 +12,7 @@ reports/engineering.diff
 reports/manuscript.diff
 reports/difference-*.json
 release/
+exports/
 __pycache__/
 .venv/
 .env

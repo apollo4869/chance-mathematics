@@ -1,0 +1,19 @@
+{
+  "id": "interpolation-gap",
+  "chapter": 25,
+  "n": 8,
+  "increments": [
+    1,
+    -1,
+    2,
+    -2,
+    1,
+    1,
+    -1,
+    -1
+  ],
+  "simulation": false,
+  "normalization": "sqrt(n)",
+  "error_bound": "max(abs(increments))/sqrt(n)",
+  "purpose": "Show why step and polygonal paths differ by at most the largest normalized increment."
+}

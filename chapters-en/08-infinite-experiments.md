@@ -306,7 +306,7 @@ Q(H)\le p^*(H)=P(H).
 
 Apply the same inequality to complements and use the fact that both measures have total mass 1 to obtain the reverse inequality. Hence \(Q(H)=P(H)\).
 
-This is the **Carathéodory probability measure extension theorem** used in this chapter: a probability premeasure on an algebra has a unique probability extension to the \(\sigma\)-algebra it generates. Outer measure also gives a larger, complete measurable structure; later we will explain why retaining the generated \(\sigma\)-algebra first is usually clearer.
+This is the **Carathéodory probability measure extension theorem** used in this chapter: a probability premeasure on an algebra has a unique probability extension to the \(\sigma\)-algebra it generates. Outer measure also gives a larger, complete measurable structure; later we will explain why retaining the generated \(\sigma\)-algebra first is usually clearer. For probabilities and measures with a common finite cover, the [generating-class uniqueness theorem](../foundations/t-mclass.md#t-mclass-uniqueness) gives another uniqueness route; it does not replace the existence construction here.
 
 The tool is ready. The unfinished task is to prove that the cylinder ledger supplied by consistent finite-dimensional laws remains trustworthy at countable limits.
 
@@ -346,6 +346,8 @@ It is therefore tight: precisely the tightness of a single measure distinguished
 
 For our construction, however, we also need to approximate a particular Borel event from within by a compact set; approximating the whole space is not enough.
 
+Think about what the next step will require. An event in a finite window may have holes, with no obvious boundary to follow. Knowing that most mass lies in a compact set does not make its intersection with that event closed: a limiting record might still slip through a hole. We need the compact set inside the event, not merely near it.
+
 On the real line and in finite-dimensional Euclidean space, this is a manifestation of measure regularity. We will prove what we need in a slightly broader and more useful setting.
 
 A metric space is called a **Polish space** if it is separable and its topology can be induced by a complete metric. We use such a complete metric here. Important examples include the real line, finite-dimensional Euclidean spaces, countable discrete spaces, and \(C([0,1])\) with the uniform metric. The last space is complete because uniform limits of continuous functions remain continuous; separability follows by approximation with piecewise linear functions having rational breakpoints and rational vertex values.
@@ -362,7 +364,7 @@ Countable subadditivity gives \(\mu(K)\ge1-\varepsilon\). The set \(K\) is close
 
 Separability supplies finite approximations; completeness retains their limits. Probability organizes both within one high-probability set.
 
-We still need to move one step further, into the event itself.
+The compact ground just found for the whole space does not yet explain how a particular event can retain its own mass. To enter the event, we first find a closed inner approximation, then keep it within that compact ground.
 
 For a finite Borel measure, any Borel set \(A\) and any \(\eta>0\) admit a closed set \(F\) and an open set \(G\) such that
 
@@ -392,6 +394,8 @@ We can now replace ‘cylinders are already closed’ in the coin proof with ‘
 ## 8.8 How Can One Record Be Found among Infinitely Many Finite Requirements?
 
 We can finally confront the core construction.
+
+In the coin space, the proof combined two jobs: restrictions could not drive records to infinity, and limits could not destroy restrictions already satisfied. Compact approximation now takes over both jobs. Probability ensures that finite-stage witnesses survive the approximation; topology then finds a common record. This division of work is what allows the proof to cross into the infinite.
 
 Let each \(E_j\) be a nonempty Polish space equipped with its Borel \(\sigma\)-algebra. Suppose the probabilities \(\mu_m\) on the first \(m\) coordinates are consistent. We have already defined the finitely additive \(p_0\) on the cylinder algebra.
 
@@ -439,7 +443,7 @@ All these remain finite operations in the algebra; we have not prematurely used 
 
 We may therefore choose a record \(\omega^{(N)}\in\bigcap_{n=1}^ND_n\). We have not made it satisfy infinitely many requirements simultaneously; so far we have selected only one witness for each finite stage.
 
-Now arrange these witnesses in a sequence.
+Arranging these witnesses in a sequence does not yet give them a common limit. A good subsequence for the first coordinate need not be good for the second. At each stage we retain the convergence already obtained and choose a further subsequence for the next coordinate. The diagonal then collects only promises already secured at every finite stage.
 
 When \(N\ge j\), we have \(\omega^{(N)}\in D_j\), while \(m_j\ge j\). Thus the \(j\)th coordinate \(\omega_j^{(N)}\) lies in the projection of the compact set \(K_j\) onto coordinate \(j\). This is a compact subset of \(E_j\).
 
@@ -869,7 +873,7 @@ The map \(\Phi\) is measurable for the product \(\sigma\)-algebra, because the p
 
 This is the meaning of the canonical record space: whatever material underlies the experiment, the same finite joint rules tell the same story within the product event system.
 
-At the same time, we must state the scope of uniqueness clearly. It holds on the \(\sigma\)-algebra generated by cylinders; it does not automatically give probabilities to arbitrary subsets of the record space. Completion can add all subsets of known null events and assign their probabilities by inclusion, but this is an explicit additional step. It neither makes every subset measurable nor resolves all uncountable path conditions at once.
+At the same time, we must state the scope of uniqueness clearly. It holds on the \(\sigma\)-algebra generated by cylinders; it does not automatically give probabilities to arbitrary subsets of the record space. Completion can add all subsets of known null events and assign their probabilities by inclusion, but this is an explicit additional step. It neither makes every subset measurable nor resolves all uncountable path conditions at once. The rigorous construction of that extra step for an arbitrary measure is in the [completion companion](../foundations/t-measure.md#t-measure-completion).
 
 Coupling in Chapter 7 offers a reminder from another direction: specifying each variable's individual distribution does not specify every finite-dimensional joint distribution. Different common realizations can still be chosen. Uniqueness of extension and freedom of coupling do not conflict; they fix different amounts of information.
 

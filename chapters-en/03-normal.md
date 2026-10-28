@@ -949,7 +949,7 @@ The idea resembles our earlier use of logarithms to turn products into sums:
 
 **When faced with a complicated operation, seek a representation in which its difficult structure becomes a simple algebraic relation.**
 
-> Dependencies on later theory: The following is a reconstruction of historical results in modern language, not de Moivre's or Laplace's original proof. Appendix D controls the remainder in the second-order expansion; Chapter 6 develops integration for complex-valued random variables; Chapters 9 and 11 systematically prove uniqueness of characteristic functions and Lévy's continuity theorem. Chapter 7 first distinguishes the relevant notions of convergence. This section continues the story through products and second-order terms, without presenting these outside results as if they had been proved here.
+> Dependencies on later theory: The following is a reconstruction of historical results in modern language, not de Moivre's or Laplace's original proof. Appendix D controls the remainder in the second-order expansion; Chapter 6 develops integration for complex-valued random variables; Chapter 11 systematically prove uniqueness of characteristic functions and Lévy's continuity theorem. Chapter 7 first distinguishes the relevant notions of convergence. This section continues the story through products and second-order terms, without presenting these outside results as if they had been proved here.
 
 ### 3.6.2 Proving the Central Limit Theorem Again with Characteristic Functions
 
@@ -1411,7 +1411,7 @@ When those assumptions fail, its conclusion may be entirely different.
 
 Let us consider a particularly important example.
 
-> Dependencies on later theory: This example still uses as known results the characteristic-function formula and the identification of distributions by characteristic functions. The calculation and uniqueness theory are scheduled for Chapter 9; presenting a counterexample here does not mean that the corresponding theory has already been established.
+> Dependencies on later theory: This example still uses as known results the characteristic-function formula and the identification of distributions by characteristic functions. The calculation and uniqueness theory are scheduled for Chapter 11; presenting a counterexample here does not mean that the corresponding theory has already been established.
 
 ### 3.8.1 The Cauchy Distribution: A Random Variable That Averaging Cannot Tame
 

@@ -630,7 +630,7 @@ with independent increments over disjoint time intervals.
 This is far stronger than saying that the distribution at every time is normal.
 
 
-> Using characteristic functions to pass from limits of increments to the joint vector limit invokes the multivariate continuity theorem for characteristic functions and preservation of convergence in distribution by continuous linear maps. These will be developed systematically in Chapters 9 and 11, with the language of convergence introduced in Chapter 7. Appendix F retains the product-factorization calculation. This section establishes the finite-dimensional limit conditional on those tools; it does not establish a path limit theorem.
+> Using characteristic functions to pass from limits of increments to the joint vector limit invokes the multivariate continuity theorem for characteristic functions and preservation of convergence in distribution by continuous linear maps. These will be developed systematically in Chapters 11 and 13, with the language of convergence introduced in Chapter 7. Appendix F retains the product-factorization calculation. This section establishes the finite-dimensional limit conditional on those tools; it does not establish a path limit theorem.
 
 ### 4.5.3 The Covariance Structure Emerges Naturally
 
@@ -880,7 +880,7 @@ The fourth needs a proof at the level of function spaces; distributions at fixed
 
 These four conditions are requirements on the limiting object, not yet a proof of its existence. In particular, the fourth does not follow automatically from the earlier Gaussian snapshots.
 
-This chapter no longer compresses a rigorous construction into the text immediately after the definition. Later we will separately address how to extend consistent finite-dimensional distributions to a probability measure, how to choose a continuous version, and why entire random-walk paths approach this process. The original construction routes and technical calculations are retained in full in the [continuous versions and Wiener measure module](#advanced-wiener) and the [Donsker and path tightness module](#advanced-donsker).
+This chapter no longer compresses a rigorous construction into the text immediately after the definition. Later we will separately address how to extend consistent finite-dimensional distributions to a probability measure, how to choose a continuous version, and why entire random-walk paths approach this process. For deeper construction and path-limit questions, see [continuous versions and Wiener measure](#advanced-wiener) and [Donsker and path tightness](#advanced-donsker).
 
 ---
 
@@ -1038,7 +1038,7 @@ Under appropriate physical conditions, the diffusion coefficient can also be rel
 
 The density obtained from random jumps satisfies a deterministic diffusion equation. For standard Brownian motion, its coefficient is \(D=1/2\); a general \(D>0\) corresponds to the process \(\sqrt{2D}\,B_t\). This explains why we study both the particle's random trajectory and the deterministic evolution of its distribution over time.
 
-Verifying that the Gaussian density satisfies the heat equation does not replace a proof that continuous random paths exist. A density describes the distribution at each time; how a path connects those times remains the open question. Semigroups, generators, and deeper connections to stochastic calculus have been transferred in full to the [semigroups and generators module](#advanced-semigroup), awaiting the relevant tools.
+Verifying that the Gaussian density satisfies the heat equation does not replace a proof that continuous random paths exist. A density describes the distribution at each time; how a path connects those times remains the open question. For semigroups, generators, and deeper connections to stochastic calculus, continue with [semigroups and generators](#advanced-semigroup).
 
 ## 4.9 When “It Happened at Some Time” Becomes an Event
 

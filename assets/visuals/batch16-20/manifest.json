@@ -1,0 +1,444 @@
+{
+  "generator": "tools/generate-batch-process-figures.py",
+  "command": "python tools/generate-batch-process-figures.py",
+  "matplotlib_version": "3.10.7",
+  "font_sha256": "31d0dbce64363b3551fd31648082c1b203c3607a66d1e942c7766c2ce359755d",
+  "font_notice": "assets/visuals/font-notice.txt",
+  "figures": [
+    {
+      "chapter": 16,
+      "classification": "AUXILIARY_UNDERSTANDING",
+      "caption_zh": "首次到达只使用已经发生的记录。固定近邻路径在第7步首次达到高度3；实线保留停止前缀，方形点虚线在此后冻结为3，细点线显示未停止的原路径。这里没有随机抽样，有限路径示意不是可选抽样定理的证明，也不保证任意停止规则保持期望。",
+      "caption_en": "A first hit uses only the record already observed. This fixed nearest-neighbour path first reaches level 3 at step 7. The solid prefix is retained; the dashed line with square markers then stays at 3, while the thin dotted line shows the unstopped path. No randomness is sampled. This finite illustration neither proves optional sampling nor asserts expectation preservation for arbitrary stopping rules.",
+      "alt_zh": "路径在第7步首次命中高度3。停止路径此前与原路径相同，此后恒为3；原路径继续上下运动。",
+      "alt_en": "The path first hits level 3 at step 7. The stopped path agrees before that time and remains at 3 afterward, while the original path continues moving.",
+      "learning_purpose_zh": "区分合法首达规则、停止前缀和停止后的冻结。",
+      "learning_purpose_en": "Distinguish a legitimate first-hit rule, its observed prefix and the subsequent frozen process.",
+      "id": "stopping-prefix",
+      "model": {
+        "randomness": "NONE; a fixed explanatory nearest-neighbour path",
+        "increments": [
+          1,
+          -1,
+          1,
+          1,
+          -1,
+          1,
+          1,
+          -1,
+          -1,
+          1,
+          1,
+          -1,
+          -1,
+          -1
+        ],
+        "path": [
+          0,
+          1,
+          0,
+          1,
+          2,
+          1,
+          2,
+          3,
+          2,
+          1,
+          2,
+          3,
+          2,
+          1,
+          0
+        ],
+        "threshold": 3,
+        "first_hitting_time": 7,
+        "stopped_path": [
+          0,
+          1,
+          0,
+          1,
+          2,
+          1,
+          2,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3
+        ],
+        "convention": "tau=min{n>=0:X_n>=3}; X_stopped(n)=X_min(n,tau)"
+      },
+      "print": {
+        "zh": {
+          "svg": "assets/visuals/batch16-20/stopping-prefix.zh.svg",
+          "pdf": "assets/visuals/batch16-20/stopping-prefix.zh.pdf"
+        },
+        "en": {
+          "svg": "assets/visuals/batch16-20/stopping-prefix.en.svg",
+          "pdf": "assets/visuals/batch16-20/stopping-prefix.en.pdf"
+        }
+      },
+      "interactive": null,
+      "author_adoption": "PENDING_AUTHOR_READING",
+      "rendering": "white static panel in both light and dark reader themes; lines/markers/hatches also distinguish grayscale"
+    },
+    {
+      "chapter": 19,
+      "classification": "AUXILIARY_UNDERSTANDING",
+      "caption_zh": "同一组10个间隔，按事件均匀选取与按时间均匀观察，得到不同的长度分布。长度1、2、5各出现6、2、2次；事件权重为0.6、0.2、0.2，时间权重为0.3、0.2、0.5。较长间隔占用更多时间，含观察时刻的间隔平均长度由2变为3.2。本图是总长度20上的确定性有限示意，不是平稳更新构造或更新极限定理的证明；含时刻的总间隔长度也不等于余寿命。",
+      "caption_en": "The same ten intervals produce different length distributions under uniform interval sampling and uniform time observation. Lengths 1, 2 and 5 occur 6, 2 and 2 times: their event weights are 0.6, 0.2 and 0.2, but their time weights are 0.3, 0.2 and 0.5. Longer intervals occupy more time, raising the mean containing-interval length from 2 to 3.2. This deterministic illustration on a total length of 20 is not a proof of stationary renewal construction or a renewal limit theorem. Containing-interval length is not residual life.",
+      "alt_zh": "总长20的时间轴包含六个长度1、两个长度2和两个长度5的间隔。并列条形图显示长度5的权重从按间隔的0.2增加为按时间的0.5。",
+      "alt_en": "A timeline of total length 20 contains six unit intervals, two intervals of length 2 and two of length 5. Paired bars show the weight of length 5 increasing from 0.2 by intervals to 0.5 by time.",
+      "learning_purpose_zh": "看见检查悖论中的长度偏置，避免把总间隔长度误当余寿命。",
+      "learning_purpose_en": "Make the length bias behind the inspection paradox visible, without confusing interval length with residual life.",
+      "id": "inspection-length-bias",
+      "model": {
+        "randomness": "NONE; finite deterministic interval collection",
+        "intervals": [
+          1,
+          1,
+          2,
+          1,
+          5,
+          1,
+          2,
+          1,
+          5,
+          1
+        ],
+        "total_length": 20,
+        "length_support": [
+          1,
+          2,
+          5
+        ],
+        "uniform_interval_probabilities": [
+          "3/5",
+          "1/5",
+          "1/5"
+        ],
+        "uniform_time_probabilities": [
+          "3/10",
+          "1/5",
+          "1/2"
+        ],
+        "uniform_interval_mean_length": "2",
+        "uniform_time_mean_containing_length": "16/5",
+        "sampling": "Choose one of the 10 intervals uniformly, versus choose a Lebesgue-uniform time in [0,20). Endpoints have probability zero."
+      },
+      "print": {
+        "zh": {
+          "svg": "assets/visuals/batch16-20/inspection-length-bias.zh.svg",
+          "pdf": "assets/visuals/batch16-20/inspection-length-bias.zh.pdf"
+        },
+        "en": {
+          "svg": "assets/visuals/batch16-20/inspection-length-bias.en.svg",
+          "pdf": "assets/visuals/batch16-20/inspection-length-bias.en.pdf"
+        }
+      },
+      "interactive": null,
+      "author_adoption": "PENDING_AUTHOR_READING",
+      "rendering": "white static panel in both light and dark reader themes; lines/markers/hatches also distinguish grayscale"
+    },
+    {
+      "chapter": 20,
+      "classification": "AUXILIARY_UNDERSTANDING",
+      "caption_zh": "一个临界Galton–Watson家族的有限记录。每个已观察生育的个体以相等概率有0或2个孩子，平均子女数为1；固定种子20261027，MT19937生成，先按代、再按从左到右顺序抽样。第0至6代人口为1、2、2、4、6、4、4。第6代只画已出生个体，不抽样其后代；有限图既不证明临界灭绝，也不能据此判断这一家族的无限未来。",
+      "caption_en": "A finite record of a critical Galton–Watson family. Every individual whose reproduction is observed has either 0 or 2 children with equal probability, so mean offspring is 1. The MT19937 seed is 20261027; reproduction is sampled generation by generation, left to right. Populations in generations 0 through 6 are 1, 2, 2, 4, 6, 4 and 4. Generation 6 shows births only; its offspring are not sampled. The finite figure neither proves critical extinction nor determines this family’s infinite future.",
+      "alt_zh": "有限家族树按第0至6代排列，连线保留亲子关系；每代人口在右侧标为1、2、2、4、6、4、4，第6代是观察边界。",
+      "alt_en": "A finite family tree in generations 0 through 6 retains every parent-child edge. Population labels on the right are 1, 2, 2, 4, 6, 4 and 4; generation 6 is the observation boundary.",
+      "learning_purpose_zh": "将人口递推与亲缘结构区分，显示平均子女数1不等于每代人数恒定。",
+      "learning_purpose_en": "Separate population recursion from genealogy, and show that mean offspring 1 does not make every generation equally large.",
+      "id": "finite-gw-family",
+      "model": {
+        "randomness": "CPython random.Random, MT19937; random()<1/2 gives two children, otherwise zero",
+        "seed": 20261027,
+        "offspring": {
+          "p0": "1/2",
+          "p2": "1/2"
+        },
+        "mean_offspring": 1,
+        "observed_generations": [
+          0,
+          6
+        ],
+        "population": [
+          1,
+          2,
+          2,
+          4,
+          6,
+          4,
+          4
+        ],
+        "nodes": [
+          {
+            "id": 0,
+            "parent": null,
+            "generation": 0,
+            "children": [
+              1,
+              2
+            ],
+            "x": 3.46875
+          },
+          {
+            "id": 1,
+            "parent": 0,
+            "generation": 1,
+            "children": [],
+            "x": 0
+          },
+          {
+            "id": 2,
+            "parent": 0,
+            "generation": 1,
+            "children": [
+              3,
+              4
+            ],
+            "x": 6.9375
+          },
+          {
+            "id": 3,
+            "parent": 2,
+            "generation": 2,
+            "children": [
+              5,
+              6
+            ],
+            "x": 3.625
+          },
+          {
+            "id": 4,
+            "parent": 2,
+            "generation": 2,
+            "children": [
+              7,
+              8
+            ],
+            "x": 10.25
+          },
+          {
+            "id": 5,
+            "parent": 3,
+            "generation": 3,
+            "children": [
+              9,
+              10
+            ],
+            "x": 1.5
+          },
+          {
+            "id": 6,
+            "parent": 3,
+            "generation": 3,
+            "children": [
+              11,
+              12
+            ],
+            "x": 5.75
+          },
+          {
+            "id": 7,
+            "parent": 4,
+            "generation": 3,
+            "children": [
+              13,
+              14
+            ],
+            "x": 9.5
+          },
+          {
+            "id": 8,
+            "parent": 4,
+            "generation": 3,
+            "children": [],
+            "x": 11
+          },
+          {
+            "id": 9,
+            "parent": 5,
+            "generation": 4,
+            "children": [],
+            "x": 1
+          },
+          {
+            "id": 10,
+            "parent": 5,
+            "generation": 4,
+            "children": [],
+            "x": 2
+          },
+          {
+            "id": 11,
+            "parent": 6,
+            "generation": 4,
+            "children": [
+              15,
+              16
+            ],
+            "x": 4.25
+          },
+          {
+            "id": 12,
+            "parent": 6,
+            "generation": 4,
+            "children": [
+              17,
+              18
+            ],
+            "x": 7.25
+          },
+          {
+            "id": 13,
+            "parent": 7,
+            "generation": 4,
+            "children": [],
+            "x": 9
+          },
+          {
+            "id": 14,
+            "parent": 7,
+            "generation": 4,
+            "children": [],
+            "x": 10
+          },
+          {
+            "id": 15,
+            "parent": 11,
+            "generation": 5,
+            "children": [
+              19,
+              20
+            ],
+            "x": 3.5
+          },
+          {
+            "id": 16,
+            "parent": 11,
+            "generation": 5,
+            "children": [],
+            "x": 5
+          },
+          {
+            "id": 17,
+            "parent": 12,
+            "generation": 5,
+            "children": [
+              21,
+              22
+            ],
+            "x": 6.5
+          },
+          {
+            "id": 18,
+            "parent": 12,
+            "generation": 5,
+            "children": [],
+            "x": 8
+          },
+          {
+            "id": 19,
+            "parent": 15,
+            "generation": 6,
+            "children": [],
+            "x": 3
+          },
+          {
+            "id": 20,
+            "parent": 15,
+            "generation": 6,
+            "children": [],
+            "x": 4
+          },
+          {
+            "id": 21,
+            "parent": 17,
+            "generation": 6,
+            "children": [],
+            "x": 6
+          },
+          {
+            "id": 22,
+            "parent": 17,
+            "generation": 6,
+            "children": [],
+            "x": 7
+          }
+        ],
+        "boundary": "Children of generation 6 are not sampled, so boundary tips are not classified as childless."
+      },
+      "print": {
+        "zh": {
+          "svg": "assets/visuals/batch16-20/finite-gw-family.zh.svg",
+          "pdf": "assets/visuals/batch16-20/finite-gw-family.zh.pdf"
+        },
+        "en": {
+          "svg": "assets/visuals/batch16-20/finite-gw-family.en.svg",
+          "pdf": "assets/visuals/batch16-20/finite-gw-family.en.pdf"
+        }
+      },
+      "interactive": null,
+      "author_adoption": "PENDING_AUTHOR_READING",
+      "rendering": "white static panel in both light and dark reader themes; lines/markers/hatches also distinguish grayscale"
+    }
+  ],
+  "files": {
+    "assets/visuals/batch16-20/stopping-prefix.zh.svg": {
+      "sha256": "24d3dd4f764ac6749eff0f232c175e539cc52d7688291a9e4a84a6bdbc5af5a5"
+    },
+    "assets/visuals/batch16-20/stopping-prefix.zh.pdf": {
+      "sha256": "21eacb9fc2fb319c029d0fcbdb2893498a7d90fee626ed9a71760ed57ea80c3a"
+    },
+    "assets/visuals/batch16-20/stopping-prefix.en.svg": {
+      "sha256": "b592fe7893c0f6fb21006a19f58ea1f5499c6e14c7bc7af995dcc73819588fca"
+    },
+    "assets/visuals/batch16-20/stopping-prefix.en.pdf": {
+      "sha256": "dc28d50fa501fe797c0047d874ebe5fca203d6d083463da11fc283036f2e17d8"
+    },
+    "assets/visuals/batch16-20/inspection-length-bias.zh.svg": {
+      "sha256": "a573efa19037616749391a2fe218fe2bc4ab8dab14cd4cfd33635a8258fb99ea"
+    },
+    "assets/visuals/batch16-20/inspection-length-bias.zh.pdf": {
+      "sha256": "5902bcb2738d2f0f7d1e18f3c438ce2ed69d0a567652516795e3599d1b68721f"
+    },
+    "assets/visuals/batch16-20/inspection-length-bias.en.svg": {
+      "sha256": "9f7e63cb2b226dddd5ab24971be37c61c6ad91a9c8f073f691a6eee63fc7216e"
+    },
+    "assets/visuals/batch16-20/inspection-length-bias.en.pdf": {
+      "sha256": "aedccfcdadebb5c27769a35fb1388c7c118fee65af510db5bf5f67c61f532a5a"
+    },
+    "assets/visuals/batch16-20/finite-gw-family.zh.svg": {
+      "sha256": "567be484b0155d40e40fa337a8608c8acb981b5187849ee2f9f8768c9f995b56"
+    },
+    "assets/visuals/batch16-20/finite-gw-family.zh.pdf": {
+      "sha256": "1016b1931de5fc19b0d37c9bc68fc8271ff299602422cfa6f9489894f2ae16e9"
+    },
+    "assets/visuals/batch16-20/finite-gw-family.en.svg": {
+      "sha256": "ef63643251cfd3a088cfaee2649c628ca415fa2c5edaff67a41a1313eefcaec9"
+    },
+    "assets/visuals/batch16-20/finite-gw-family.en.pdf": {
+      "sha256": "aafad10127a759e24ffda2f7e08e4cf93be61169a55aabb9baa5e55fa8eef07d"
+    },
+    "tools/generate-batch-process-figures.py": {
+      "sha256": "f7695e34d302d9bcf0577296de7644e1b326839bb0957983ebe87d849a0e98ec"
+    },
+    "assets/visuals/batch16-20/models.json": {
+      "sha256": "0172b16810fde5b87635fc5ad013203c32c40b4b4ed4024b0b60bda58f698096"
+    }
+  },
+  "checks": [
+    "first hitting time exactly7",
+    "stopped prefix and constant tail",
+    "exact rational interval and time weights each sum1",
+    "containing-length means2 and16/5",
+    "GW generation counts and parent-child consistency",
+    "generation6 offspring explicitly unobserved",
+    "grayscale QA PNG generated"
+  ],
+  "scope": "Optional local author-review assets, not published or author-adopted; no infinite theorem is proved by the figures."
+}

@@ -9,7 +9,8 @@ han=re.compile(r'[\u4e00-\u9fff]+')
 labels=json.loads((ROOT/'translations/en/math-labels.json').read_text('utf-8'))
 pairs=[('chapters/'+p.name,'chapters-en/'+p.name) for p in sorted((ROOT/'chapters').glob('*.md'))]
 pairs += [('advanced/'+p.name,'advanced-en/'+p.name) for p in sorted((ROOT/'advanced').glob('*.md'))]
-pairs += [('校订与证明补充.md','translations/en/proofs.md'),('延伸阅读与证明路线.md','translations/en/reading-routes.md'),('引用与配图来源.md','translations/en/references.md'),('写作约定与全书编排.md','translations/en/writing-rules.md')]
+pairs += [('校订与证明补充.md','translations/en/proofs.md'),('延伸阅读与证明路线.md','translations/en/reading-routes.md'),('引用与配图来源.md','translations/en/references.md'),('publication/writing-principles.zh.md','publication/writing-principles.en.md')]
+pairs += [('foundations/'+p.name,'foundations-en/'+p.name) for p in sorted((ROOT/'foundations').glob('*.md'))]
 rows=[]
 localize=lambda formula:han.sub(lambda m:labels[m[0]],formula)
 blocks=lambda s:re.split(r'\n\s*\n',s.strip())
@@ -23,7 +24,13 @@ for source,target in pairs:
     a,b=blocks(s),blocks(t)
     assert len(a)==len(b),(target,'paragraph/block count',len(a),len(b))
     assert heads(s)==heads(t),(target,'heading levels')
-    assert targets(s)==targets(t),(target,'references/assets')
+    image_aliases={}
+    visual_manifest=ROOT/'assets/visuals/batch16-20/manifest.json'
+    if visual_manifest.exists():
+        for figure in json.loads(visual_manifest.read_text('utf8'))['figures']:
+            for extension in ['svg','pdf']:
+                image_aliases['../'+figure['print']['en'][extension]]='../'+figure['print']['zh'][extension]
+    assert targets(s)==[image_aliases.get(u,u) for u in targets(t)],(target,'references/assets')
     count=0
     for index,(before,after) in enumerate(zip(a,b),1):
         expected=Counter(localize(x) for x in math.findall(before));actual=Counter(math.findall(after))

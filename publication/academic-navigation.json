@@ -1,0 +1,249 @@
+{
+  "schema": 1,
+  "scope": "Reader-facing topic ownership and limited proof status; not academic final approval",
+  "status_labels": {
+    "proved": [
+      "已完成证明或计算（限定范围）",
+      "Written proof or calculation (limited scope)"
+    ],
+    "outline": [
+      "证明概要／有条件推导",
+      "Proof outline / conditional derivation"
+    ],
+    "intuition": [
+      "数学直觉",
+      "Mathematical intuition"
+    ],
+    "pending": [
+      "待完成的定理",
+      "Theorem still to be proved"
+    ]
+  },
+  "modules": [
+    {
+      "slug": "wiener",
+      "topic": "brownian.wiener",
+      "owner_chapter": 23,
+      "supporting_chapters": [
+        8
+      ],
+      "title_zh": "连续版本与 Wiener measure",
+      "title_en": "Continuous Versions and Wiener Measure",
+      "authoritative_proof": "/chapters/23-gaussian-paths.html#gaussian-wiener-measure",
+      "statements": [
+        {
+          "status": "proved",
+          "zh": "第八章已建立坐标概率的扩张；这不等于连续路径构造。",
+          "en": "Chapter 8 establishes extension of coordinate laws; this is not a continuous-path construction."
+        },
+        {
+          "status": "outline",
+          "zh": "现有材料给出由一致 Gaussian 有限维分布到连续版本的路线，调用了扩张与连续修正工具。",
+          "en": "The existing route from consistent Gaussian finite-dimensional laws to a continuous version invokes extension and continuity tools."
+        },
+        {
+          "status": "proved",
+          "zh": "第23.6–23.12节已有连续修改、C/C_loc值可测性及Wiener存在唯一的完整书面证明；数学持续核验，非终审。",
+          "en": "Sections 23.6–23.12 contain complete written proofs of continuous modification, C/C_loc measurability and Wiener existence/uniqueness; continuing mathematical verification, not final review."
+        }
+      ]
+    },
+    {
+      "slug": "donsker",
+      "topic": "limits.donsker",
+      "owner_chapter": 25,
+      "supporting_chapters": [
+        11,
+        14,
+        23,
+        24
+      ],
+      "title_zh": "Donsker 与路径紧性",
+      "title_en": "Donsker and Path Tightness",
+      "authoritative_proof": "/chapters/25-donsker.html#donsker-theorem",
+      "statements": [
+        {
+          "status": "proved",
+          "zh": "线性插值和原有四阶矩计算已写出，适用范围须按各段假设理解。",
+          "en": "Linear interpolation and the original fourth-moment calculations are written out, under their stated hypotheses."
+        },
+        {
+          "status": "outline",
+          "zh": "有限维识别及路径紧性仍依赖外部工具，现有材料不是自足的函数型CLT。",
+          "en": "Finite-dimensional identification and path tightness still invoke external tools; this is not a self-contained functional CLT."
+        },
+        {
+          "status": "proved",
+          "zh": "第25章与T-FCLT已写成一般有限二阶矩Donsker、经验桥与有限方差更新版本的完整证明；数学持续核验，非终审。",
+          "en": "Chapter25 and T-FCLT contain complete written finite-second-moment Donsker, empirical-bridge and finite-variance renewal proofs; continuing verification, not final review."
+        }
+      ]
+    },
+    {
+      "slug": "semigroup",
+      "topic": "markov.feller",
+      "owner_chapter": 28,
+      "supporting_chapters": [
+        17,
+        23,
+        38
+      ],
+      "title_zh": "半群、生成元与热方程",
+      "title_en": "Semigroups, Generators and the Heat Equation",
+      "authoritative_proof": "/chapters/28-semigroups.html#feller-generator",
+      "statements": [
+        {
+          "status": "proved",
+          "zh": "Brownian/Gaussian 核与热方程的专用计算已保留。",
+          "en": "The Brownian/Gaussian-kernel and heat-equation calculations are retained."
+        },
+        {
+          "status": "intuition",
+          "zh": "由随机路径联系确定性演化的机制说明，不能替代一般算子理论。",
+          "en": "The connection from random paths to deterministic evolution motivates, but does not replace, general operator theory."
+        },
+        {
+          "status": "proved",
+          "zh": "第二十八章及三份配套证明已写出正压缩生成理论、边界域和保守局部紧Polish的Feller路径与强Markov；作者待阅、人工数学终审开放。PDE深化仍归第三十八章。",
+          "en": "Chapter 28 and its three companions now provide positive contraction generation, boundary domains, and conservative locally compact Polish Feller paths and strong Markov. Author review and human mathematical final review remain pending; PDE developments remain in Chapter 38."
+        }
+      ]
+    },
+    {
+      "slug": "quadratic",
+      "topic": "stochastic.bracket",
+      "owner_chapter": 31,
+      "supporting_chapters": [
+        26,
+        32
+      ],
+      "title_zh": "路径粗糙性、平方变差与 Itô 动机",
+      "title_en": "Path Roughness, Quadratic Variation and Itô Motivation",
+      "authoritative_proof": null,
+      "statements": [
+        {
+          "status": "proved",
+          "zh": "固定 T、沿二进网格的平方变差计算已有书面证明，须先有 Brownian motion。",
+          "en": "A written quadratic-variation proof is available for fixed T along dyadic grids, assuming Brownian motion exists."
+        },
+        {
+          "status": "intuition",
+          "zh": "固定时刻差商的尺度说明不可导的动机，不是几乎必然处处不可导的完整证明。",
+          "en": "Fixed-time difference-quotient scaling motivates nondifferentiability; it is not a complete almost-sure nowhere-differentiability proof."
+        },
+        {
+          "status": "pending",
+          "zh": "第二十六章处理路径正则性；第三十一章建一般变差与积分，第三十二章证明 Itô 公式。",
+          "en": "Chapter 26 handles path regularity; Chapter 31 develops general variation and integration, and Chapter 32 proves Itô’s formula."
+        },
+        {
+          "status": "proved",
+          "zh": "第26章另有处处不可微的统一网格全证及确定二进平方和；这不完成第31章的一般括号/随机积分。",
+          "en": "Chapter 26 adds a uniform-mesh nowhere-differentiability proof and deterministic dyadic square sums; general brackets and stochastic integration remain for Chapter 31."
+        },
+        {
+          "status": "proved",
+          "zh": "第31章与T-ITO-BRACKET已写成连续局部鞅积分、括号与ucp平方和的完整工作证明；作者待审、人工终审开放，旧模块原文保留。",
+          "en": "Chapter31 and T-ITO-BRACKET contain complete working proofs for continuous-local-martingale integration, brackets and ucp square sums; author review and human final review remain open; the legacy body is preserved."
+        }
+      ],
+      "working_proof": "/chapters/31-ito-integral.html#quadratic-variation"
+    },
+    {
+      "slug": "reflection",
+      "topic": "brownian.reflection",
+      "owner_chapter": 26,
+      "supporting_chapters": [
+        16,
+        28
+      ],
+      "title_zh": "首次到达与反射原理",
+      "title_en": "First Passage and the Reflection Principle",
+      "authoritative_proof": "/chapters/26-brownian-properties.html#brownian-reflection",
+      "statements": [
+        {
+          "status": "proved",
+          "zh": "第26章已写成Brownian专用强Markov、可测保测反射与最大/首次命中完整证明；旧专题原文完整保留。",
+          "en": "Chapter 26 supplies written Brownian strong Markov, measurable measure-preserving reflection and maximum/first-hit proofs; the old source is retained in full."
+        },
+        {
+          "status": "pending",
+          "zh": "人类独立数学终审待完成；一般Feller强Markov仍归28。",
+          "en": "Human independent mathematical final review remains pending; general Feller strong Markov belongs to Chapter 28."
+        }
+      ]
+    },
+    {
+      "slug": "crt",
+      "topic": "trees.real-tree-code",
+      "owner_chapter": 54,
+      "supporting_chapters": [
+        37,
+        52,
+        53,
+        55,
+        56,
+        57,
+        58
+      ],
+      "title_zh": "路径编码、实树与 Brownian CRT",
+      "title_en": "Path Coding, Real Trees and the Brownian CRT",
+      "authoritative_proof": null,
+      "statements": [
+        {
+          "status": "intuition",
+          "zh": "excursion、伪距离和分支图示提供几何直觉；商空间的树结构仍需证明。",
+          "en": "Excursions, a pseudometric and branching diagrams provide geometric intuition; the tree structure of the quotient still needs a proof."
+        },
+        {
+          "status": "outline",
+          "zh": "现有编码说明尚未构成完整的实树、CRT或条件树极限定理。",
+          "en": "The coding discussion is not a complete real-tree, CRT or conditioned-tree limit theorem."
+        },
+        {
+          "status": "pending",
+          "zh": "第三十七章建立游程，五十二至五十三章处理离散编码/条件极限，五十四章主证实树与CRT，五十五章给空间收敛。",
+          "en": "Chapter 37 develops excursions, Chapters 52–53 discrete coding and conditioned limits, Chapter 54 real trees and CRT, and Chapter 55 convergence of spaces."
+        }
+      ]
+    }
+  ],
+  "supplement_facets": {
+    "supplement": {
+      "route": "/proofs.html",
+      "letters": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "title_zh": "数学证明",
+      "title_en": "Mathematical Proofs"
+    },
+    "errata": {
+      "route": "/errata.html",
+      "letters": [
+        "E"
+      ],
+      "title_zh": "公开勘误与可测版本约定",
+      "title_en": "Public Errata and Measurable Versions"
+    },
+    "finite-dimensional-proof": {
+      "route": "/proofs/finite-dimensional.html",
+      "letters": [
+        "F"
+      ],
+      "title_zh": "有限维增量：计算与证明边界",
+      "title_en": "Finite-Dimensional Increments: Calculations and Proof Boundaries"
+    },
+    "proof-boundaries": {
+      "route": "/proof-boundaries.html",
+      "letters": [
+        "G"
+      ],
+      "title_zh": "早期六章的证明范围",
+      "title_en": "Proof Scope of the Early Six Chapters"
+    }
+  },
+  "future_authority_rule": "Keep every advanced URL. A topic becomes a guide to an authoritative chapter proof only after that proof actually exists, its scope is reviewed and the authoritative_proof field is explicitly approved. Never create future chapter stubs."
+}

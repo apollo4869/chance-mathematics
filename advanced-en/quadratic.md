@@ -1,14 +1,14 @@
 # Advanced Reading: Path Roughness, Quadratic Variation, and the Motivation for Itô Calculus
 
-> This module was transferred in full from Chapter 4 before its restructuring, retaining the old section numbers and all original text. It is a technical working draft for later chapters to build on, rather than a required part of the proofs in the current Chapter 4.
+> Working topic material; see the page for the scope of each argument.
 
-**Destination chapters:** Chapter 24, on path regularity; Chapter 28, “Noise That Ordinary Calculus Cannot Accumulate”; Chapter 29, “The Term Left by Second-Order Variation.”
+**Primary chapter:** 31
 
 **Prerequisites:** Existence of Brownian motion, L2 convergence, Borel–Cantelli, stochastic integration, and Itô’s formula.
 
-**Scope of the proof:** The opening statement “We have now actually constructed” retains the context of the old chapter and applies only after the construction above has been completed. An argument about difference quotients at a fixed time cannot replace a proof of almost sure nowhere differentiability; the original quadratic-variation proof fixes T and uses dyadic grids; Itô’s formula remains a preview.
+**Proof scope:** A written quadratic-variation proof is available for fixed T along dyadic grids, assuming Brownian motion exists. Fixed-time difference-quotient scaling motivates nondifferentiability; it is not a complete almost-sure nowhere-differentiability proof. Chapter 26 handles path regularity; Chapter 31 develops general variation and integration, and Chapter 32 proves Itô’s formula. Chapter 26 adds a uniform-mesh nowhere-differentiability proof and deterministic dyadic square sums; general brackets and stochastic integration remain for Chapter 31. Chapter31 and T-ITO-BRACKET contain complete working proofs for continuous-local-martingale integration, brackets and ucp square sums; author review and human final review remain open; the legacy body is preserved.
 
-[Return to the main narrative of Chapter 4](#chapter-4) · [View the complete snapshot of the old Chapter 4](/downloads/04-brownian-before-restructure.md)
+[Return to Chapter 4](#chapter-4) · [Topic and proof index](#reading-routes)
 
 ---
 

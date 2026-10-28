@@ -1,0 +1,101 @@
+{
+  "schema": 1,
+  "stable_ids": [
+    "walk-scaling",
+    "typewriter",
+    "spike-ui",
+    "conditional-projection",
+    "disintegration",
+    "characteristic-identification"
+  ],
+  "walk": {
+    "n": [
+      16,
+      64,
+      256
+    ],
+    "seed": 918273,
+    "generator": "Legacy BookMath.walk: unsigned 32-bit LCG a=1664525,c=1013904223",
+    "coupling": "Same pseudorandom increment prefixes, rescaled separately; not pathwise refinements or a convergence proof",
+    "time_interval": [
+      0,
+      1
+    ]
+  },
+  "typewriter": {
+    "rounds": [
+      1,
+      2,
+      3
+    ],
+    "sample": 0.3,
+    "intervals": "half-open [j/2^k,(j+1)/2^k)",
+    "enumeration": "n=2^k-2+j+1, k>=1, 0<=j<2^k",
+    "left_comparison": "[0,2^-k); u=0 is the null exceptional point"
+  },
+  "spike": {
+    "n": [
+      2,
+      4,
+      8
+    ],
+    "support": "open (0,1/n)",
+    "height": "n",
+    "area": 1,
+    "ui_tail_supremum": "sup_n E[X_n 1_{X_n>K}]=1 for every K>=0"
+  },
+  "projection": {
+    "X": [
+      3,
+      2.3
+    ],
+    "P": [
+      3,
+      0
+    ],
+    "other_predictor": [
+      1.1,
+      0
+    ],
+    "meaning": "Abstract Hilbert-space geometry; not a literal two-dimensional model for all random variables"
+  },
+  "disintegration": {
+    "slice_x": 0.6,
+    "joint_density": 2,
+    "support": "0<y<x<1",
+    "marginal": "2x",
+    "conditional": "1/x on (0,x), for 0<x<1",
+    "zero_slice": "No conditional formula asserted at x=0"
+  },
+  "characteristic": {
+    "X": {
+      "values": [
+        -1,
+        1
+      ],
+      "probabilities": [
+        0.5,
+        0.5
+      ]
+    },
+    "Y": {
+      "values": [
+        -1.7320508075688772,
+        0,
+        1.7320508075688772
+      ],
+      "probabilities": [
+        0.16666666666666666,
+        0.6666666666666666,
+        0.16666666666666666
+      ]
+    },
+    "range": [
+      0,
+      6.283185307179586
+    ],
+    "mean": 0,
+    "variance": 1,
+    "imaginary_part": 0
+  }
+}
