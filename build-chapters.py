@@ -176,6 +176,9 @@ reading_manifest={}
 paired_units=json.loads((root/'build/reading-units.json').read_text('utf-8')) if english_book else {}
 for key in [k for k in pages if k.startswith('chapter-')]:
     soup=BeautifulSoup(sections[key],'html.parser');book=soup.find('section',id=key)
+    if key=='chapter-1':
+        from tools.continuation_headers import suppress
+        suppress(soup)
     unit_prefix=key+'-recreation' if key=='chapter-20' and (root/'publication/chapter20-recreation-anchors.json').exists() else key+'-charter' if key=='chapter-17' and (root/'publication/chapter17-charter-anchors.json').exists() else key+'-revision' if key=='chapter-17' and (root/'publication/chapter17-revision-anchors.json').exists() else key
     groups=[];unit=soup.new_tag('div',attrs={'class':'reading-unit','id':unit_prefix+'-unit-0','data-reader-title':'Introduction' if english_book else '章首导读'})
     book.append(unit);groups.append(unit)

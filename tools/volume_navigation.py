@@ -130,6 +130,9 @@ def reader_closing_view(body,en=False):
 
 def restore_reader_fragment(s):
     """For independent preservation checks only, restore the canonical chapter DOM."""
+    try:from .continuation_headers import restore
+    except ImportError:from continuation_headers import restore
+    restore(s)
     for n in list(s.select('.volume-ending-forward')):n.decompose()
     for n in list(s.select('.volume-epilogue-canonical')):n.unwrap()
     return s
