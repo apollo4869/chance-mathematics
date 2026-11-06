@@ -69,6 +69,12 @@ EN_TITLES.append('What Does It Mean to Know Before It Happens?')
 EN_DESCRIPTIONS.append('Newly observed arrivals, optional and predictable information, regularization, Doob–Meyer and finite-variation compensation.')
 EN_TITLES.append('How Can We Integrate Along a Nondifferentiable Random Path?—Itô Integral and Quadratic Variation')
 EN_DESCRIPTIONS.append('Left sums and surviving squares, Itô isometry, predictable L2 extension, continuous martingale brackets and random energy clocks.')
+EN_TITLES.append('Why Must the Familiar Calculus Change?—Itô Formula, Stratonovich and Initial SDEs')
+EN_DESCRIPTIONS.append('Cubic remainders lead to Itô formula, symmetric integration and clocks, with actual constructions of linear stochastic equations.')
+EN_TITLES.append('The Deeper Relations Between Brownian Motion and Martingales')
+EN_DESCRIPTIONS.append('Probability weights, quadratic clocks and information: measure change, DDS, natural-filtration representation and stopping-time embedding.')
+EN_TITLES.append('When Continuous Motion and Jumps Appear Together')
+EN_DESCRIPTIONS.append('A non-negligible jump leads to semimartingale integration, compensation, jump Itô and limit tools.')
 
 def repository_url(config):
     repo = config.get('github_repository')
@@ -151,3 +157,75 @@ def english_sidebar(slugs):
     return ('<aside id="sidebar"><div class="side-label">CONTENTS</div><a class="catalogue-home" href="/en/index.html">← Book home</a>'
             '<nav>' + ''.join('<a class="toc-sub" href="/en/chapters/'+slug+'.html">'+str(i+1)+'. '+html.escape(EN_TITLES[i])+'</a>' for i, slug in enumerate(slugs)) +
             '</nav><a class="aside-end" href="/en/reading-routes.html">Further reading and proofs</a></aside>')
+
+EN_TITLES.append('Does a Stochastic Differential Equation Have a Solution?')
+EN_DESCRIPTIONS.append('Rules, existing processes and uniqueness: construction, causal kernels, martingale problems and feedback limits.')
+
+EN_TITLES.append('What Determines the Fate of a One-Dimensional Diffusion?')
+EN_DESCRIPTIONS.append('Scale reads hitting chances; speed reads occupation time, boundaries and long-term fate.')
+
+EN_TITLES.append('How Much Has a Path Accumulated at One Position?')
+EN_DESCRIPTIONS.append('Local time, occupation, Poisson excursions and spatial branching; singular speed and boundary clocks.')
+
+EN_TITLES.append('Random Motion Meets Partial Differential Equations Again')
+EN_DESCRIPTIONS.append('Feynman–Kac, boundary regularity, Green potentials, capacity, sweeping and precisely scoped Revuz correspondence.')
+
+EN_TITLES.append('How Can We Differentiate Randomness?')
+EN_DESCRIPTIONS.append('Gaussian noise sensitivity, closed derivatives, chaos, density criteria and predictable representation.')
+
+EN_TITLES.append('When Random Paths Enter Curved Space')
+EN_DESCRIPTIONS.append('Coordinate compatibility, Riemannian Brownian motion, development and geometric lifetime.')
+
+EN_TITLES.append('Why Can a Random World Exhibit Long-Term Stability?')
+EN_DESCRIPTIONS.append('Invariant information, random conditional averages, ergodic limits, subadditivity and information rates.')
+
+EN_TITLES.append('When Does a Random System Forget Its Initial State?')
+EN_DESCRIPTIONS.append('Common mass, split cycles, Harris recurrence, synchronized clocks, total variation and ratio limits.')
+
+EN_TITLES.append('If We Reorder Observations, Does Probability Stay the Same?')
+EN_DESCRIPTIONS.append('Finite symmetry, reverse martingales, directing probabilities, conditional iid representation and learning from records.')
+
+EN_TITLES.append('Why Do Dependent Samples Look Like Repeated Predictions?')
+EN_DESCRIPTIONS.append('Order-consistent reinforcement, Dirichlet random probabilities, posterior kernels, stick weights and exchangeable tables.')
+
+EN_TITLES.append('What Does Symmetry Actually Preserve?')
+EN_DESCRIPTIONS.append('Haar averaging, orbit conditioning, modular factors, predictable sampling and rotational Gaussian mixtures.')
+
+EN_TITLES.append('When Exchangeable Objects No Longer Form a Sequence')
+EN_DESCRIPTIONS.append('Shared-index information, Aldous–Hoover representations, dissociation and nonunique graphon coordinates.')
+
+EN_TITLES.append('How Do Random Partitions Grow, Merge and Evolve?')
+EN_DESCRIPTIONS.append('Paintbox masses and dust, Ewens sampling, consistent Kingman paths and mutation.')
+
+EN_TITLES.append('When a Random Outcome Is a Collection of Points')
+EN_DESCRIPTIONS.append('Point measures, Laplace identification, spatial Poisson and Cox models, marking and limits.')
+
+EN_TITLES.append('When a Random Outcome Is a Measure')
+EN_DESCRIPTIONS.append('Random Radon mass, vague and weak limits, smoothing, dissipative scattering, Cox and cluster structures.')
+
+EN_TITLES.append('What Do We See from a Typical Random Point?')
+EN_DESCRIPTIONS.append('Sampling occurrences, Campbell disintegration, Palm inversion, Mecke identification, and Gibbs kernels.')
+
+EN_TITLES.append('How Can a Random Set Have a Probability Law?')
+EN_DESCRIPTIONS.append('Closed shapes, hit-or-miss topology, Choquet representation, and capacity convergence.')
+
+EN_TITLES.append('From Family Genealogies to Random Trees')
+EN_DESCRIPTIONS.append('Invertible tree encodings, indexed cyclic cuts, and exact Galton–Watson total-size laws.')
+
+EN_TITLES.append('Why Do Discrete Random Trees Develop Continuous Shapes?')
+EN_DESCRIPTIONS.append('Conditioned bridges, Vervaat cuts, and finite-variance joint limits for tree height and contour.')
+
+EN_TITLES.append('How Does a Brownian Excursion Become a Tree?')
+EN_DESCRIPTIONS.append('Excursion quotients, unique arcs, sampling mass and the exact laws of reduced CRT subtrees.')
+
+EN_TITLES.append('How Can Two Random Geometric Spaces Be Close?')
+EN_DESCRIPTIONS.append('Correspondences, mass couplings, Polish geometry and the rooted GHP limit of conditioned family trees.')
+
+EN_TITLES.append('How Can Random Structures Split, Merge and Remain Consistent?')
+EN_DESCRIPTIONS.append('Sampling consistency, nested hierarchies, dislocations, self-similar clocks, dust and geometric cuts.')
+
+EN_TITLES.append('How Does a Tree Form Through Random Growth?')
+EN_DESCRIPTIONS.append('Consistent branching, spinal sampling, CRP growth and a complete standard-scale Brownian line-breaking construction.')
+
+EN_TITLES.append('From Binary Trees to Multifurcating Random Geometry')
+EN_DESCRIPTIONS.append('Fixed-k Brownian universality, published growth models, mass splits, compact Levy forests and ICRT hubs, with explicit proof boundaries.')

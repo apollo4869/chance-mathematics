@@ -307,11 +307,281 @@
     {
       "source": "chapters/31-ito-integral.md",
       "translation": "chapters-en/31-ito-integral.md",
-      "source_sha256": "56c35be4418f3eb70b2423dc9ebbebc4c30d89a76a4774935f6707e178944ef0",
-      "translation_sha256": "bafd196ddb8d4bdda604833e940480b94056e55893f49e2e4d80e60027b2b6b4",
+      "source_sha256": "45eadfde387e42b8b0b8f2e77b458defaa061c9e6e71a07b312744cf5a3092a1",
+      "translation_sha256": "03b55f2e7ab32931fbd437d9d2e768b073da4063296ba0f3c95a9941fa8f99f3",
       "blocks": 106,
       "headings": 19,
+      "formulas": 31,
+      "status": "FULL_BLOCK_AND_FORMULA_CORRESPONDENCE"
+    },
+    {
+      "source": "chapters/32-ito-formula.md",
+      "translation": "chapters-en/32-ito-formula.md",
+      "source_sha256": "6b42710b27a7b8fcf65ab0e176fb8fcc2ee27b757b2720806fde838de0afc28d",
+      "translation_sha256": "81622acfd05d9c84dff38f6086763a495407e793596c0cd24ee1afc68e34a537",
+      "blocks": 137,
+      "headings": 22,
+      "formulas": 33,
+      "status": "FULL_BLOCK_AND_FORMULA_CORRESPONDENCE"
+    },
+    {
+      "source": "chapters/33-brownian-relations.md",
+      "translation": "chapters-en/33-brownian-relations.md",
+      "source_sha256": "73ed3aa809f8e8871e200da1da609ee012d31fbef2722c49103aabd2a744d561",
+      "translation_sha256": "1c86a84c648f0bc1cf56c5899c53920969576a07d606ba64de7dcea7bb63ffb3",
+      "blocks": 132,
+      "headings": 26,
+      "formulas": 121,
+      "status": "FULL_BLOCK_AND_FORMULA_CORRESPONDENCE"
+    },
+    {
+      "source": "chapters/34-semimartingales.md",
+      "translation": "chapters-en/34-semimartingales.md",
+      "source_sha256": "cc7f0fdae03eb0ba4a4e2795401094713a1808d1ac4a3d8dbcae2dfd1e594c69",
+      "translation_sha256": "531c509fee6c430ac63cade2993618d548ee2d5a37977d474da23ff27f80392c",
+      "blocks": 143,
+      "headings": 25,
+      "formulas": 28,
+      "status": "FULL_BLOCK_AND_FORMULA_CORRESPONDENCE"
+    },
+    {
+      "source": "chapters/35-sde-wellposedness.md",
+      "translation": "chapters-en/35-sde-wellposedness.md",
+      "source_sha256": "9e45cbb88ab49db533848f2b07788d6db0221d617ed322539b3733304caa74b7",
+      "translation_sha256": "71b99e004abbafac564d2853d78ca291629e3e557f5e06998e882fa90b923bb3",
+      "blocks": 128,
+      "headings": 22,
+      "formulas": 22,
+      "status": "FULL_BLOCK_AND_FORMULA_CORRESPONDENCE"
+    },
+    {
+      "source": "chapters/36-scale-speed.md",
+      "translation": "chapters-en/36-scale-speed.md",
+      "source_sha256": "0b8662df4be2be50de3e28a935ed30d130de3b8429fd08b151a4bd5c885caeef",
+      "translation_sha256": "e56dc7b2bfe70f3735b2232e8c07879573d86657e5053ea8a55addf3cfa5f407",
+      "blocks": 121,
+      "headings": 25,
+      "formulas": 20,
+      "status": "FULL_BLOCK_AND_FORMULA_CORRESPONDENCE"
+    },
+    {
+      "source": "chapters/37-local-time.md",
+      "translation": "chapters-en/37-local-time.md",
+      "source_sha256": "b7af5062806f200048116888bd79a3bf5c7304e0a83864993a113b65dacdcba5",
+      "translation_sha256": "a6e63b84a57cdf1bb2f6dc6a430e112a36d2932c71d931940c2d3efeb5d8b3cf",
+      "blocks": 134,
+      "headings": 26,
+      "formulas": 32,
+      "status": "FULL_BLOCK_AND_FORMULA_CORRESPONDENCE"
+    },
+    {
+      "source": "chapters/38-feynman-kac.md",
+      "translation": "chapters-en/38-feynman-kac.md",
+      "source_sha256": "5ff761e09ea59612f097a977a26689637cb5265859b36e5430bb91caa991f725",
+      "translation_sha256": "924bf9aacb5118346815cec45263c5d61de2583f561e9715e6ca66ab00c7a2a1",
+      "blocks": 129,
+      "headings": 28,
+      "formulas": 34,
+      "status": "FULL_BLOCK_AND_FORMULA_CORRESPONDENCE"
+    },
+    {
+      "source": "chapters/39-malliavin.md",
+      "translation": "chapters-en/39-malliavin.md",
+      "source_sha256": "070a6f6ee266b1d97962d8f4254368d1162f7b3ca7c7b815f3da35d0f0fbdb26",
+      "translation_sha256": "77ccd3f9305711817e5a68165edd99cb570eca36dfbdef452ba8bb43c35f5d41",
+      "blocks": 125,
+      "headings": 27,
+      "formulas": 33,
+      "status": "FULL_BLOCK_AND_FORMULA_CORRESPONDENCE"
+    },
+    {
+      "source": "chapters/40-stochastic-geometry.md",
+      "translation": "chapters-en/40-stochastic-geometry.md",
+      "source_sha256": "316051b9ec0f8c771cbac0031307775f95113c270324885fed243e313ca68624",
+      "translation_sha256": "5dcaab91597f586eae8102267393adf2047bc29f8d15d578a252db9141abb69d",
+      "blocks": 150,
+      "headings": 30,
+      "formulas": 19,
+      "status": "FULL_BLOCK_AND_FORMULA_CORRESPONDENCE"
+    },
+    {
+      "source": "chapters/41-ergodic-theory.md",
+      "translation": "chapters-en/41-ergodic-theory.md",
+      "source_sha256": "28e07e3f6ca559441e80663fa7369554603ebf312153c913d50294a7be019913",
+      "translation_sha256": "94f61c9f19790e4222a10b7b445d620ccbc52f9645c0ba48f0270ea46b226578",
+      "blocks": 139,
+      "headings": 24,
       "formulas": 30,
+      "status": "FULL_BLOCK_AND_FORMULA_CORRESPONDENCE"
+    },
+    {
+      "source": "chapters/42-harris-coupling.md",
+      "translation": "chapters-en/42-harris-coupling.md",
+      "source_sha256": "f9b60d58eddac4ea1eb25b7304320c52c71c8b7bdf643f809481476d1d708148",
+      "translation_sha256": "995f84aa46ab9ee51949b4dd73733053188d7c4b7c02e7c3e1081e9dc7ee10c9",
+      "blocks": 123,
+      "headings": 24,
+      "formulas": 31,
+      "status": "FULL_BLOCK_AND_FORMULA_CORRESPONDENCE"
+    },
+    {
+      "source": "chapters/43-exchangeability.md",
+      "translation": "chapters-en/43-exchangeability.md",
+      "source_sha256": "a87b536a4cd69c611e1cc82775b67e5d118aaf21287ba31436db55f8c10ddd58",
+      "translation_sha256": "635e6b32970a71274fe080d288be32ecd96018d510e532769598e64eb7593843",
+      "blocks": 131,
+      "headings": 25,
+      "formulas": 19,
+      "status": "FULL_BLOCK_AND_FORMULA_CORRESPONDENCE"
+    },
+    {
+      "source": "chapters/44-dirichlet-process.md",
+      "translation": "chapters-en/44-dirichlet-process.md",
+      "source_sha256": "4522bd3a6c3ef6279fa7d7925500b9ef6e386ff8fb14e1baedbcac0e1012e760",
+      "translation_sha256": "507b0bdd1145f15c4f1d707bfd6679a408039982e97feca220fbedbf6da4216b",
+      "blocks": 127,
+      "headings": 26,
+      "formulas": 19,
+      "status": "FULL_BLOCK_AND_FORMULA_CORRESPONDENCE"
+    },
+    {
+      "source": "chapters/45-invariance.md",
+      "translation": "chapters-en/45-invariance.md",
+      "source_sha256": "86ee599a4e30cb53ce7d1e3db7cff88edf1e7b580c9d8e5a1727e159f3a48c75",
+      "translation_sha256": "85e8400246eeaac6dfa8eb1dcadfea1d0ba8ddb494ca0c2d2599ff25e6146e58",
+      "blocks": 119,
+      "headings": 23,
+      "formulas": 19,
+      "status": "FULL_BLOCK_AND_FORMULA_CORRESPONDENCE"
+    },
+    {
+      "source": "chapters/46-arrays.md",
+      "translation": "chapters-en/46-arrays.md",
+      "source_sha256": "745aabce3d9b448eb7d727290490654b09d8330d7d4a21f39ecf729f5e3e65f3",
+      "translation_sha256": "846cd82548b838d3539f37fc08b53871f070d1dd53d553fd1eb7115bd56e700e",
+      "blocks": 136,
+      "headings": 28,
+      "formulas": 18,
+      "status": "FULL_BLOCK_AND_FORMULA_CORRESPONDENCE"
+    },
+    {
+      "source": "chapters/47-partitions.md",
+      "translation": "chapters-en/47-partitions.md",
+      "source_sha256": "00e5d011be9edf36b18e5148f558377709dfe9130f5c4cfdd8e42bb9482e6d1b",
+      "translation_sha256": "54fc39e23800004fda06b6443ba428e8a793f7562a0d42f72d2106ff2568d3e1",
+      "blocks": 141,
+      "headings": 29,
+      "formulas": 20,
+      "status": "FULL_BLOCK_AND_FORMULA_CORRESPONDENCE"
+    },
+    {
+      "source": "chapters/48-point-processes.md",
+      "translation": "chapters-en/48-point-processes.md",
+      "source_sha256": "6715d2f501a98bb9fbf21abd5f199a7a03b663c8578d686eb34bf1846b29558f",
+      "translation_sha256": "8da0f6eeee88e968b056ddadc9f5a64014f334544287f2d2953840343e4b3491",
+      "blocks": 111,
+      "headings": 25,
+      "formulas": 21,
+      "status": "FULL_BLOCK_AND_FORMULA_CORRESPONDENCE"
+    },
+    {
+      "source": "chapters/49-random-measures.md",
+      "translation": "chapters-en/49-random-measures.md",
+      "source_sha256": "736cbb6f157b1d81ab2cbec331c2924fec238341910b2d012c16b78336b09129",
+      "translation_sha256": "278b38d9439b72106411041fcf33b7927cf132e57857c4742c2fd6e590e85f45",
+      "blocks": 130,
+      "headings": 27,
+      "formulas": 115,
+      "status": "FULL_BLOCK_AND_FORMULA_CORRESPONDENCE"
+    },
+    {
+      "source": "chapters/50-palm-gibbs.md",
+      "translation": "chapters-en/50-palm-gibbs.md",
+      "source_sha256": "1ec0458274ced84038af8083a8a52fbe34734ca48e54ad58ba5c58f491ec0770",
+      "translation_sha256": "837acba14aa7769e3a3bc49f79df5ce7618eeb9cdbf00aca5f6b1cfbc2bfd19f",
+      "blocks": 135,
+      "headings": 29,
+      "formulas": 46,
+      "status": "FULL_BLOCK_AND_FORMULA_CORRESPONDENCE"
+    },
+    {
+      "source": "chapters/51-random-closed-sets.md",
+      "translation": "chapters-en/51-random-closed-sets.md",
+      "source_sha256": "f33d4d8f8dac3e6e9d86176ca9ec12ec457073bdc4bd5524a7af815c73c5c195",
+      "translation_sha256": "c4291e34f0ff14c3b1d0ec8474f929a014e5155407b7c1128348a553b55b5669",
+      "blocks": 121,
+      "headings": 27,
+      "formulas": 30,
+      "status": "FULL_BLOCK_AND_FORMULA_CORRESPONDENCE"
+    },
+    {
+      "source": "chapters/52-discrete-trees.md",
+      "translation": "chapters-en/52-discrete-trees.md",
+      "source_sha256": "0778721b6d7c71b6243d6a2d1271bebd1f78ec7b534c7451123bea76ea063bbc",
+      "translation_sha256": "4ebf79e95a30caec6e2fbfc3057d3e5e936efd79eae105d0b38170813ef0cb48",
+      "blocks": 168,
+      "headings": 28,
+      "formulas": 36,
+      "status": "FULL_BLOCK_AND_FORMULA_CORRESPONDENCE"
+    },
+    {
+      "source": "chapters/53-tree-scaling.md",
+      "translation": "chapters-en/53-tree-scaling.md",
+      "source_sha256": "633c568ec240567cbe8ee8614614a1094233e677c039cc0217d4b8dc1bb750ae",
+      "translation_sha256": "eb6892e4d004f2c50e9d490eb0bf66a0a05803a6abe2ea3c87b4cdf41034d206",
+      "blocks": 155,
+      "headings": 28,
+      "formulas": 29,
+      "status": "FULL_BLOCK_AND_FORMULA_CORRESPONDENCE"
+    },
+    {
+      "source": "chapters/54-brownian-crt.md",
+      "translation": "chapters-en/54-brownian-crt.md",
+      "source_sha256": "2aa8e8d700c220ac96b026408704851912e5db1f729695d8449c7acd373ffbb2",
+      "translation_sha256": "80eada04e102aefe20a45b5e0f02bbc3b35b51a3230805322fd1c98dfbfb3db2",
+      "blocks": 112,
+      "headings": 24,
+      "formulas": 13,
+      "status": "FULL_BLOCK_AND_FORMULA_CORRESPONDENCE"
+    },
+    {
+      "source": "chapters/55-metric-measure-limits.md",
+      "translation": "chapters-en/55-metric-measure-limits.md",
+      "source_sha256": "74e31ed61a59dc9ada75c7c265d2c1cc165aa8b5700cf8828fc0ef8c387cbc2e",
+      "translation_sha256": "f5a3ef8370b030e519668e99fab80fcfb63c99d2b43b29fd56d201e0505df51b",
+      "blocks": 128,
+      "headings": 25,
+      "formulas": 27,
+      "status": "FULL_BLOCK_AND_FORMULA_CORRESPONDENCE"
+    },
+    {
+      "source": "chapters/56-fragmentation-hierarchies.md",
+      "translation": "chapters-en/56-fragmentation-hierarchies.md",
+      "source_sha256": "98fd8dd803b5c41f394821a7e510d92a1e0f698d270bb5e16be6a242bb5d401d",
+      "translation_sha256": "70969ad0df66407452a620eb479ac8b8720eda991102bdf53b2358c9a6c33856",
+      "blocks": 141,
+      "headings": 30,
+      "formulas": 23,
+      "status": "FULL_BLOCK_AND_FORMULA_CORRESPONDENCE"
+    },
+    {
+      "source": "chapters/57-regenerative-growth.md",
+      "translation": "chapters-en/57-regenerative-growth.md",
+      "source_sha256": "1cfb06eda1f810a35252637ddf843e32fbcb65f8bf92d546ea06c04139ea4cb4",
+      "translation_sha256": "8109f72ac8a08cfa7dcdfdfe81e99d0ea3c234f37dcdfa55410dbface777f634",
+      "blocks": 131,
+      "headings": 28,
+      "formulas": 20,
+      "status": "FULL_BLOCK_AND_FORMULA_CORRESPONDENCE"
+    },
+    {
+      "source": "chapters/58-multifurcation.md",
+      "translation": "chapters-en/58-multifurcation.md",
+      "source_sha256": "1b1d4acb23ec8e1d00d8ddce0e791c5d37de17c3ff99894eaf0505f14b05e9d2",
+      "translation_sha256": "973b035cddd26d6c3b1dc40ab0347968ac73793d7c4567c14e5c711aa7926b99",
+      "blocks": 128,
+      "headings": 23,
+      "formulas": 46,
       "status": "FULL_BLOCK_AND_FORMULA_CORRESPONDENCE"
     },
     {
@@ -378,7 +648,7 @@
       "source": "校订与证明补充.md",
       "translation": "translations/en/proofs.md",
       "source_sha256": "a6a671618c444f561588acc522fa5a0ca9ac7d169d937476126ab3e13b3a9948",
-      "translation_sha256": "783d8ea87302b6e81d199446c69364a8abbb90a004c522ec1bb12b3f3133cfbd",
+      "translation_sha256": "492f2adb5c4b82187d1581014a9d1f3a9d6a471c637ddc664b3840cc4f38984a",
       "blocks": 86,
       "headings": 15,
       "formulas": 139,
@@ -425,6 +695,106 @@
       "status": "FULL_BLOCK_AND_FORMULA_CORRESPONDENCE"
     },
     {
+      "source": "foundations/t-array-ergodic.md",
+      "translation": "foundations-en/t-array-ergodic.md",
+      "source_sha256": "223f9c7a390bc27a0ae75f59f23aa52c2aa7ff9e3a0e1815c2fa7924aa2b202e",
+      "translation_sha256": "967cea5176c87fb947b3f8622783b82debe63a0d428ffc9d4c6ec771eb88e349",
+      "blocks": 26,
+      "headings": 6,
+      "formulas": 10,
+      "status": "FULL_BLOCK_AND_FORMULA_CORRESPONDENCE"
+    },
+    {
+      "source": "foundations/t-array-variants.md",
+      "translation": "foundations-en/t-array-variants.md",
+      "source_sha256": "57fc372717a1e9e81b744ba19a669ed070f0fd35d5f08fbdb44350a2d9e7ef37",
+      "translation_sha256": "d44249a35bb35fc5d38110697dbe301003ce05c3c9f1a3eed16728adf08f2c06",
+      "blocks": 35,
+      "headings": 7,
+      "formulas": 20,
+      "status": "FULL_BLOCK_AND_FORMULA_CORRESPONDENCE"
+    },
+    {
+      "source": "foundations/t-arrays.md",
+      "translation": "foundations-en/t-arrays.md",
+      "source_sha256": "471c2d1a8a0ce844ad5a4c5a5d8a9b16b975a79b13417c079a2b9b9b66cb598d",
+      "translation_sha256": "9d9ed72c3162b1304957a3a25fb8a478253936b2e7c80efe1837ba8f25eb7b0d",
+      "blocks": 46,
+      "headings": 9,
+      "formulas": 30,
+      "status": "FULL_BLOCK_AND_FORMULA_CORRESPONDENCE"
+    },
+    {
+      "source": "foundations/t-brownian-relations.md",
+      "translation": "foundations-en/t-brownian-relations.md",
+      "source_sha256": "dda0aad72498e2a224889139c0876db4418bc83e66a2dcd5af97f40158a18d65",
+      "translation_sha256": "c4ede0909553d452b741be06190b4404062bb097b7ec5534bc88a2da69a1237a",
+      "blocks": 78,
+      "headings": 11,
+      "formulas": 238,
+      "status": "FULL_BLOCK_AND_FORMULA_CORRESPONDENCE"
+    },
+    {
+      "source": "foundations/t-choquet.md",
+      "translation": "foundations-en/t-choquet.md",
+      "source_sha256": "fe55a3e4ce023636457101326531e9e1f314ff20211a36e0d01d518c23309553",
+      "translation_sha256": "398d774599b746b5598bb6028f2a8f5acad802a091adf8fcbc2b406d156858dc",
+      "blocks": 27,
+      "headings": 6,
+      "formulas": 5,
+      "status": "FULL_BLOCK_AND_FORMULA_CORRESPONDENCE"
+    },
+    {
+      "source": "foundations/t-clark-ocone.md",
+      "translation": "foundations-en/t-clark-ocone.md",
+      "source_sha256": "a1e5938458e6cff396882afc4a8b4563feb10c7d61d0a6892bedca15f43353c9",
+      "translation_sha256": "1832d8bb81ce282f5840f4c501ad0b4c259fb042e4f179f8c15f95ea6e14b227",
+      "blocks": 16,
+      "headings": 4,
+      "formulas": 14,
+      "status": "FULL_BLOCK_AND_FORMULA_CORRESPONDENCE"
+    },
+    {
+      "source": "foundations/t-closed-limits.md",
+      "translation": "foundations-en/t-closed-limits.md",
+      "source_sha256": "53f9ff4e88dd7e16102a204669a533450aa2cfc1fdb10b2af753fcbcd7285ca9",
+      "translation_sha256": "d6a3c1d2489a954f3f645e8d0db3327b461a769cdd00c112e0a657dac5a519ee",
+      "blocks": 18,
+      "headings": 5,
+      "formulas": 12,
+      "status": "FULL_BLOCK_AND_FORMULA_CORRESPONDENCE"
+    },
+    {
+      "source": "foundations/t-coalescent-mutation.md",
+      "translation": "foundations-en/t-coalescent-mutation.md",
+      "source_sha256": "ae6cfc2b42aa367eef25741851e3bcf6f90ddcf212e0352cf9732980368a603f",
+      "translation_sha256": "c2aa1f75f1dee8e08ff3a280ed79d5c160141523dbc117bcacc5b1e036ade2cd",
+      "blocks": 32,
+      "headings": 7,
+      "formulas": 3,
+      "status": "FULL_BLOCK_AND_FORMULA_CORRESPONDENCE"
+    },
+    {
+      "source": "foundations/t-conditioned-bridge.md",
+      "translation": "foundations-en/t-conditioned-bridge.md",
+      "source_sha256": "e35ecc1f2b87e2845f5f15b20111f2a1d146ac10405b007e26fc1b024a2f0f57",
+      "translation_sha256": "989c9657d2e65dba5435bd742ba3d91434a46af668200e6c795bbf3dd767244e",
+      "blocks": 33,
+      "headings": 7,
+      "formulas": 8,
+      "status": "FULL_BLOCK_AND_FORMULA_CORRESPONDENCE"
+    },
+    {
+      "source": "foundations/t-conditioned-height.md",
+      "translation": "foundations-en/t-conditioned-height.md",
+      "source_sha256": "0de69e73b4e8de8ba3da7fb2a937d349dd37fe0171110fdf8fe50469580eaa26",
+      "translation_sha256": "6342acfd3b2c947bed30df946b516d250a52cd7d73d211b7255b01952777cff0",
+      "blocks": 60,
+      "headings": 9,
+      "formulas": 19,
+      "status": "FULL_BLOCK_AND_FORMULA_CORRESPONDENCE"
+    },
+    {
       "source": "foundations/t-continuous-information.md",
       "translation": "foundations-en/t-continuous-information.md",
       "source_sha256": "c6388b218a678772ac485b3f2c97dd605b12cf51f5e7307e52ea85cfeed67615",
@@ -432,6 +802,126 @@
       "blocks": 28,
       "headings": 5,
       "formulas": 19,
+      "status": "FULL_BLOCK_AND_FORMULA_CORRESPONDENCE"
+    },
+    {
+      "source": "foundations/t-coupling.md",
+      "translation": "foundations-en/t-coupling.md",
+      "source_sha256": "bbd6eec818a8856e0f9d1a0653466817034a2b4ad6101fb0569241953ed30286",
+      "translation_sha256": "59a662bbab6eabb26ced98e07b255aed122ecdecb42d659d45ca936531fbb521",
+      "blocks": 21,
+      "headings": 5,
+      "formulas": 9,
+      "status": "FULL_BLOCK_AND_FORMULA_CORRESPONDENCE"
+    },
+    {
+      "source": "foundations/t-crp.md",
+      "translation": "foundations-en/t-crp.md",
+      "source_sha256": "137673d8dbd4da9d05d55f61ece6d455e20221554ebc2883d36cfa756ef85e85",
+      "translation_sha256": "acbb613b0c3c297a75a86c5a4b7c1265daa3e4cc7d48c8c344b504563b772d07",
+      "blocks": 36,
+      "headings": 7,
+      "formulas": 7,
+      "status": "FULL_BLOCK_AND_FORMULA_CORRESPONDENCE"
+    },
+    {
+      "source": "foundations/t-crt-randomness.md",
+      "translation": "foundations-en/t-crt-randomness.md",
+      "source_sha256": "28a3ce049a2cf9ad7cb1f67d6998c597d070eb2f1529e6ab266095eb1ccec680",
+      "translation_sha256": "93635acee9c8267904a824934bad9453b73bb86f11193aff4ce729dc73dcb387",
+      "blocks": 33,
+      "headings": 7,
+      "formulas": 4,
+      "status": "FULL_BLOCK_AND_FORMULA_CORRESPONDENCE"
+    },
+    {
+      "source": "foundations/t-crt-sampling.md",
+      "translation": "foundations-en/t-crt-sampling.md",
+      "source_sha256": "9bdc967a650ec73aa035d09bc619411012530b24a42f5608083426a5a7cf9ac8",
+      "translation_sha256": "a44fb1b5c4bc86c57fabdfa951c93df2deb57e67e6978e86349b31132c7b1e91",
+      "blocks": 41,
+      "headings": 8,
+      "formulas": 8,
+      "status": "FULL_BLOCK_AND_FORMULA_CORRESPONDENCE"
+    },
+    {
+      "source": "foundations/t-csbp-semigroups.md",
+      "translation": "foundations-en/t-csbp-semigroups.md",
+      "source_sha256": "67c2e44a2d305465292d859e08ed6927d63bcca9f32c2668e95ccf8e1aad4cbe",
+      "translation_sha256": "6eb5740a6e5248e003571423e0cb4660cde6dd93f137bcc19d631f84ded34893",
+      "blocks": 27,
+      "headings": 5,
+      "formulas": 53,
+      "status": "FULL_BLOCK_AND_FORMULA_CORRESPONDENCE"
+    },
+    {
+      "source": "foundations/t-cyclic-dwass.md",
+      "translation": "foundations-en/t-cyclic-dwass.md",
+      "source_sha256": "c40d4c67302de54e5b0e86aa48d3dd0045bb9e10acf54fa8562d1a24d89864c1",
+      "translation_sha256": "9f9cf4aa945e95e4e3c7a41731dde444048d4c585beee5afcc6a78d1538d8031",
+      "blocks": 43,
+      "headings": 7,
+      "formulas": 12,
+      "status": "FULL_BLOCK_AND_FORMULA_CORRESPONDENCE"
+    },
+    {
+      "source": "foundations/t-development.md",
+      "translation": "foundations-en/t-development.md",
+      "source_sha256": "e56dec0a380bfa616012b12652bac415d7c96591ce8f5ff0c643ff201313a165",
+      "translation_sha256": "e3dcc8e343ea46b92cde5127455054b44c3321338a2b8b19d2aea2d64b504d36",
+      "blocks": 38,
+      "headings": 7,
+      "formulas": 11,
+      "status": "FULL_BLOCK_AND_FORMULA_CORRESPONDENCE"
+    },
+    {
+      "source": "foundations/t-differentiation.md",
+      "translation": "foundations-en/t-differentiation.md",
+      "source_sha256": "c486d3f126a270be0cfb90404ddca1a044bfe33351ea898c0787d31d2159e071",
+      "translation_sha256": "456e4960ffc5bab445b341f3a2c702b1bff2c1f9c14b5851b950f00030b0bf86",
+      "blocks": 17,
+      "headings": 4,
+      "formulas": 5,
+      "status": "FULL_BLOCK_AND_FORMULA_CORRESPONDENCE"
+    },
+    {
+      "source": "foundations/t-diffusion-longtime.md",
+      "translation": "foundations-en/t-diffusion-longtime.md",
+      "source_sha256": "2dd018fda057501b194741e8f6925e1df6d61b657dc789c5432c33ce80ff3217",
+      "translation_sha256": "e757d4857caa78bc3af876b2ba86b27fa86c36cd2bab05fcef00dee0b0ef6c8d",
+      "blocks": 35,
+      "headings": 6,
+      "formulas": 21,
+      "status": "FULL_BLOCK_AND_FORMULA_CORRESPONDENCE"
+    },
+    {
+      "source": "foundations/t-diffusion-time.md",
+      "translation": "foundations-en/t-diffusion-time.md",
+      "source_sha256": "15d772d53e5e7cf9bd41079d3c607882cffb7ba8418c6a54837348f7fe32a727",
+      "translation_sha256": "8066f447812ebb53de165e91f39fe374d5ddb7578b861bb2106e81e44d926c04",
+      "blocks": 47,
+      "headings": 7,
+      "formulas": 23,
+      "status": "FULL_BLOCK_AND_FORMULA_CORRESPONDENCE"
+    },
+    {
+      "source": "foundations/t-directing-measure.md",
+      "translation": "foundations-en/t-directing-measure.md",
+      "source_sha256": "eff8ce85f4035c1097e6c67abc02668fdfd6f3e3520eccce9e3e5f5722e9ce1a",
+      "translation_sha256": "136507d8fd2ba1ae05f710154452e4cf90239f793bcdcc381fad93cdea0037c4",
+      "blocks": 41,
+      "headings": 7,
+      "formulas": 7,
+      "status": "FULL_BLOCK_AND_FORMULA_CORRESPONDENCE"
+    },
+    {
+      "source": "foundations/t-dirichlet-process.md",
+      "translation": "foundations-en/t-dirichlet-process.md",
+      "source_sha256": "93bfa8ec26e5225021b552a597e9a6274acf6261949bedc578af747800400bc3",
+      "translation_sha256": "516d2d135809cbb796707eff2916b405d83f03bbb18fe7ed249a4b23e14c8274",
+      "blocks": 30,
+      "headings": 6,
+      "formulas": 8,
       "status": "FULL_BLOCK_AND_FORMULA_CORRESPONDENCE"
     },
     {
@@ -445,6 +935,76 @@
       "status": "FULL_BLOCK_AND_FORMULA_CORRESPONDENCE"
     },
     {
+      "source": "foundations/t-entropy.md",
+      "translation": "foundations-en/t-entropy.md",
+      "source_sha256": "c472b035ce4e66bd5d4a9b091bd7e758a0da2211b1573f1c13865e9cd9c2dba6",
+      "translation_sha256": "95018c341ad3ffd91fcd4a7d933a8dcf72f1deaf0ff51c08e3c05906c3796d60",
+      "blocks": 28,
+      "headings": 6,
+      "formulas": 3,
+      "status": "FULL_BLOCK_AND_FORMULA_CORRESPONDENCE"
+    },
+    {
+      "source": "foundations/t-ergodic-decomposition.md",
+      "translation": "foundations-en/t-ergodic-decomposition.md",
+      "source_sha256": "f5ca173cf62aacf798027d1d842430020707eb109a1a95ab487259235b75a8c4",
+      "translation_sha256": "1e1d50fe655a982a75f036d3058da40d428e2a841b35f1bb350cd839042cd12a",
+      "blocks": 19,
+      "headings": 5,
+      "formulas": 0,
+      "status": "FULL_BLOCK_AND_FORMULA_CORRESPONDENCE"
+    },
+    {
+      "source": "foundations/t-ergodic.md",
+      "translation": "foundations-en/t-ergodic.md",
+      "source_sha256": "5b187bf73ae979b0f8632a349b3d2d9eb5a601203bcd4ce469165093bcb863ba",
+      "translation_sha256": "fa6cc169ae733b18b8a19375c857aaa4208995eefcb8866de64cf330d57a6d9b",
+      "blocks": 27,
+      "headings": 6,
+      "formulas": 7,
+      "status": "FULL_BLOCK_AND_FORMULA_CORRESPONDENCE"
+    },
+    {
+      "source": "foundations/t-exchangeability.md",
+      "translation": "foundations-en/t-exchangeability.md",
+      "source_sha256": "d226b95531139ac635619bbe5acb8064be3e1faf77ea3629e719773a8c137631",
+      "translation_sha256": "c386c2f4962323b09271b988314880d5862013906093c49876e941540c76caa3",
+      "blocks": 34,
+      "headings": 6,
+      "formulas": 9,
+      "status": "FULL_BLOCK_AND_FORMULA_CORRESPONDENCE"
+    },
+    {
+      "source": "foundations/t-exchangeable-empirical.md",
+      "translation": "foundations-en/t-exchangeable-empirical.md",
+      "source_sha256": "a9f1778337efa2403e10db55866f3f90d946d657c5537d15dd484d9c5e34cb6e",
+      "translation_sha256": "fc69b31cfb0d21efe4147b71b14ffa55602c5c18f21f6e5508c78406dc5bdbd4",
+      "blocks": 25,
+      "headings": 5,
+      "formulas": 5,
+      "status": "FULL_BLOCK_AND_FORMULA_CORRESPONDENCE"
+    },
+    {
+      "source": "foundations/t-exchangeable-information.md",
+      "translation": "foundations-en/t-exchangeable-information.md",
+      "source_sha256": "c40abb13d962e95bce3649b71c8883e4a2b05573d32c9f3186aa05794ddc7a61",
+      "translation_sha256": "dcff054ff2ffb4e2da58066b6dd69245e042a88dc48a9ed440127c5259865390",
+      "blocks": 34,
+      "headings": 6,
+      "formulas": 6,
+      "status": "FULL_BLOCK_AND_FORMULA_CORRESPONDENCE"
+    },
+    {
+      "source": "foundations/t-excursions.md",
+      "translation": "foundations-en/t-excursions.md",
+      "source_sha256": "1cf728a83e4b9a9d6395b800d0707c6fba34721c01362b59c2386cda8a170f79",
+      "translation_sha256": "95ee8a9968a03e8e3aac4271322801268db321785e71174a0afd33c25f8d50bd",
+      "blocks": 35,
+      "headings": 6,
+      "formulas": 20,
+      "status": "FULL_BLOCK_AND_FORMULA_CORRESPONDENCE"
+    },
+    {
       "source": "foundations/t-fclt.md",
       "translation": "foundations-en/t-fclt.md",
       "source_sha256": "6a0b0a1d02d0ad2ff8f12d39c6217f00ac5f75109e48e26a53d863bc19acaa97",
@@ -452,6 +1012,26 @@
       "blocks": 44,
       "headings": 7,
       "formulas": 9,
+      "status": "FULL_BLOCK_AND_FORMULA_CORRESPONDENCE"
+    },
+    {
+      "source": "foundations/t-fell.md",
+      "translation": "foundations-en/t-fell.md",
+      "source_sha256": "1e3c17f0f63dfdabcaa2d9dc12bc35437fd4a5a702dd6d0375d6a76effb9be62",
+      "translation_sha256": "ef823060deaaf639818c92289c00e62e115c92629e6f6d45f0f8238df4cc2ad6",
+      "blocks": 24,
+      "headings": 6,
+      "formulas": 12,
+      "status": "FULL_BLOCK_AND_FORMULA_CORRESPONDENCE"
+    },
+    {
+      "source": "foundations/t-feller-boundaries.md",
+      "translation": "foundations-en/t-feller-boundaries.md",
+      "source_sha256": "202029190eef8842d5208d1af370ca71bf3825aedebcaa655e566de2c0dbef57",
+      "translation_sha256": "cb7d41235b48f0c140e4a7a56270386ad9ed74f524a3ded1f58aba263275d423",
+      "blocks": 43,
+      "headings": 5,
+      "formulas": 37,
       "status": "FULL_BLOCK_AND_FORMULA_CORRESPONDENCE"
     },
     {
@@ -475,6 +1055,166 @@
       "status": "FULL_BLOCK_AND_FORMULA_CORRESPONDENCE"
     },
     {
+      "source": "foundations/t-feynman-kac.md",
+      "translation": "foundations-en/t-feynman-kac.md",
+      "source_sha256": "0caec51fabf347a2b4435a1dc0294e12d62de136010847805e89d37691e47ce8",
+      "translation_sha256": "15e92fb9b6692be672266ea07607c7d5dd3c16bee4cbb9680283dfd193914ed0",
+      "blocks": 37,
+      "headings": 7,
+      "formulas": 18,
+      "status": "FULL_BLOCK_AND_FORMULA_CORRESPONDENCE"
+    },
+    {
+      "source": "foundations/t-gaussian.md",
+      "translation": "foundations-en/t-gaussian.md",
+      "source_sha256": "5061ec7e8d75c739d5c19dcd4679ec5b7541e90083012186af237d2adf6bd116",
+      "translation_sha256": "6b8bd09be79c973b339ca6a4ae0e254299568649368b7bd6702eb10f82ead6d5",
+      "blocks": 34,
+      "headings": 7,
+      "formulas": 17,
+      "status": "FULL_BLOCK_AND_FORMULA_CORRESPONDENCE"
+    },
+    {
+      "source": "foundations/t-geometry.md",
+      "translation": "foundations-en/t-geometry.md",
+      "source_sha256": "ec0d84539296208617f9b88bf0895a75e5209dc48434607adf9a80d04472e1c3",
+      "translation_sha256": "e1ef20ceed9d0aeaf2b6aed93773c99ce6744412631a8b3528b5e6002a41f99e",
+      "blocks": 39,
+      "headings": 8,
+      "formulas": 7,
+      "status": "FULL_BLOCK_AND_FORMULA_CORRESPONDENCE"
+    },
+    {
+      "source": "foundations/t-gh.md",
+      "translation": "foundations-en/t-gh.md",
+      "source_sha256": "d4aecef833ed5e2598871852812809998ca2233f9aef83636903368ba519f8bd",
+      "translation_sha256": "5410a1ce45b653e8030c7ccabeb0e488890c1a139a3464f2d2db31328625d246",
+      "blocks": 30,
+      "headings": 7,
+      "formulas": 4,
+      "status": "FULL_BLOCK_AND_FORMULA_CORRESPONDENCE"
+    },
+    {
+      "source": "foundations/t-gibbs.md",
+      "translation": "foundations-en/t-gibbs.md",
+      "source_sha256": "5ed3ef14c880cb719343924ddce1cc45f1925d6c8db8eb157491d05ef6d7c050",
+      "translation_sha256": "d9c5dd24af0c5e8b2ac7053952caa65b9f19ac5f7ef78c835dda53b254839756",
+      "blocks": 41,
+      "headings": 7,
+      "formulas": 35,
+      "status": "FULL_BLOCK_AND_FORMULA_CORRESPONDENCE"
+    },
+    {
+      "source": "foundations/t-gp-ghp.md",
+      "translation": "foundations-en/t-gp-ghp.md",
+      "source_sha256": "5c33bd3f65223b63b1e87b4f50057b99fcbf4c4f80c4d0326d50d8158a50fb0c",
+      "translation_sha256": "c8f2741825e7870e213d6e323ed06666463c0dc418027143d4a0a41f2a83167b",
+      "blocks": 43,
+      "headings": 9,
+      "formulas": 5,
+      "status": "FULL_BLOCK_AND_FORMULA_CORRESPONDENCE"
+    },
+    {
+      "source": "foundations/t-graphons.md",
+      "translation": "foundations-en/t-graphons.md",
+      "source_sha256": "452f0647871b78a3568fd687ee3cd4451bc94ae3c240511dc75a9c1afaebad0e",
+      "translation_sha256": "82302f4cc75a25f9fbfc8451cec52c06f317ba68339238fb42dbbfb57bb95e03",
+      "blocks": 33,
+      "headings": 7,
+      "formulas": 5,
+      "status": "FULL_BLOCK_AND_FORMULA_CORRESPONDENCE"
+    },
+    {
+      "source": "foundations/t-gw-trees.md",
+      "translation": "foundations-en/t-gw-trees.md",
+      "source_sha256": "5d5706555cf2eba5cd07aa180cfa9c71c8881a9e7b1c5c5c220d1a3a29b80f4d",
+      "translation_sha256": "f6fb2c29e7bc83b2d8df98483d89d148c797ec604c4e56572266ed606965961f",
+      "blocks": 48,
+      "headings": 7,
+      "formulas": 14,
+      "status": "FULL_BLOCK_AND_FORMULA_CORRESPONDENCE"
+    },
+    {
+      "source": "foundations/t-haar.md",
+      "translation": "foundations-en/t-haar.md",
+      "source_sha256": "1d7751790daa9641a2aca3e9be391f5c6bb6796c059485286fbfb2e733907edf",
+      "translation_sha256": "40cc71ab0278d522daa31f50336bcb2e96b41776d154ea14c1e8d052c0d8c4c1",
+      "blocks": 43,
+      "headings": 7,
+      "formulas": 17,
+      "status": "FULL_BLOCK_AND_FORMULA_CORRESPONDENCE"
+    },
+    {
+      "source": "foundations/t-harris-convergence.md",
+      "translation": "foundations-en/t-harris-convergence.md",
+      "source_sha256": "3ac0552c8739fb6c87146276d0c61370f6ae427dff9e4cf2cc8a25e2e64f77d8",
+      "translation_sha256": "73eab0df9b371bc5deaba64f0395e046b11a6f08d52e3f1cc8c44982b5c82701",
+      "blocks": 29,
+      "headings": 6,
+      "formulas": 13,
+      "status": "FULL_BLOCK_AND_FORMULA_CORRESPONDENCE"
+    },
+    {
+      "source": "foundations/t-harris-drift.md",
+      "translation": "foundations-en/t-harris-drift.md",
+      "source_sha256": "98840566f8d97ec3fb24ff6d7fba2c13bd6b3dbc69762b32ba3abdd98fde4003",
+      "translation_sha256": "46430e1b660cc9da907c757e36ffd84125d68c52c63bae64f2ffe7ba20a3f6f0",
+      "blocks": 25,
+      "headings": 6,
+      "formulas": 13,
+      "status": "FULL_BLOCK_AND_FORMULA_CORRESPONDENCE"
+    },
+    {
+      "source": "foundations/t-harris-ratio.md",
+      "translation": "foundations-en/t-harris-ratio.md",
+      "source_sha256": "81a854cb34ea7cfd402d320f78dc7862baeefcf1f94e9bc5ee91527d1447c7c5",
+      "translation_sha256": "4cc8b957999720f632ca108cf9375b2f3c60ca2142586ff111a03a44154d6193",
+      "blocks": 17,
+      "headings": 4,
+      "formulas": 23,
+      "status": "FULL_BLOCK_AND_FORMULA_CORRESPONDENCE"
+    },
+    {
+      "source": "foundations/t-harris-regeneration.md",
+      "translation": "foundations-en/t-harris-regeneration.md",
+      "source_sha256": "0ea3123e60e7ee4b80fe06532fac87eb01cd1b26d9bb5ca5db17f68d87bad64a",
+      "translation_sha256": "a8ce49fe1156e4541a5603d8ce1452943856e17c0063216b182e837ac89d34b1",
+      "blocks": 33,
+      "headings": 7,
+      "formulas": 43,
+      "status": "FULL_BLOCK_AND_FORMULA_CORRESPONDENCE"
+    },
+    {
+      "source": "foundations/t-hierarchy-consistency.md",
+      "translation": "foundations-en/t-hierarchy-consistency.md",
+      "source_sha256": "e2bffe65d55c57f0d8a9e3918aa0888aac4e6542d1071f71d8438317b290cb3c",
+      "translation_sha256": "a3014085a3e57c35db0a5a139acf6009b7053ae09f41e8b108b013ada8c9b446",
+      "blocks": 33,
+      "headings": 8,
+      "formulas": 2,
+      "status": "FULL_BLOCK_AND_FORMULA_CORRESPONDENCE"
+    },
+    {
+      "source": "foundations/t-homogeneous-fragmentation.md",
+      "translation": "foundations-en/t-homogeneous-fragmentation.md",
+      "source_sha256": "4f3f9c16ef9810d760eaeab7e63f66610407cef8c0b2604378cb859e51e6bf69",
+      "translation_sha256": "9df6faa2c87372c421c67ff995290bb4e21f3848a3a1b32ffcc7882ed3c145f3",
+      "blocks": 42,
+      "headings": 9,
+      "formulas": 8,
+      "status": "FULL_BLOCK_AND_FORMULA_CORRESPONDENCE"
+    },
+    {
+      "source": "foundations/t-icrt-poisson.md",
+      "translation": "foundations-en/t-icrt-poisson.md",
+      "source_sha256": "0e638a282b90d8529bde37eed2f60f7f1fa3dbc14d607b2eab235e373a9d1b45",
+      "translation_sha256": "952c38956af16f131a299420e2811ca747e8a2f6d2e175757e459dcdf38f5fbe",
+      "blocks": 20,
+      "headings": 5,
+      "formulas": 15,
+      "status": "FULL_BLOCK_AND_FORMULA_CORRESPONDENCE"
+    },
+    {
       "source": "foundations/t-integral.md",
       "translation": "foundations-en/t-integral.md",
       "source_sha256": "94e8ec7692c5cd70a835a182e2b6d1eaf955d133b85e23e69e5e9aedb6299e1b",
@@ -487,11 +1227,21 @@
     {
       "source": "foundations/t-ito-bracket.md",
       "translation": "foundations-en/t-ito-bracket.md",
-      "source_sha256": "3f8e171a9b1c4ef2bbdbad656ee332ae8dfd5624541a5d4e825b4fa0b98795b2",
-      "translation_sha256": "74720ee01c7519698394d97292c60ea5144335994dcef981b4a8a371b55aba78",
-      "blocks": 65,
+      "source_sha256": "b9dabea316e37ac7ce6de6ff1c4dffcfe511bbce0eee3da1a8dae6910e5ebc68",
+      "translation_sha256": "d0beecf3c42d7237b64727ecd38a1d848de77d0c4516f50c799a3fab017334ee",
+      "blocks": 74,
       "headings": 9,
-      "formulas": 36,
+      "formulas": 39,
+      "status": "FULL_BLOCK_AND_FORMULA_CORRESPONDENCE"
+    },
+    {
+      "source": "foundations/t-ito-formula.md",
+      "translation": "foundations-en/t-ito-formula.md",
+      "source_sha256": "7ce93a19e2547d603dcdae60de9a0887306fefb08a0623cc1f9092ca7199b0e5",
+      "translation_sha256": "f9d825e8f9881571c7d118d611617505a51e00dda95c21eeab109d706fced729",
+      "blocks": 49,
+      "headings": 7,
+      "formulas": 105,
       "status": "FULL_BLOCK_AND_FORMULA_CORRESPONDENCE"
     },
     {
@@ -502,6 +1252,46 @@
       "blocks": 52,
       "headings": 8,
       "formulas": 7,
+      "status": "FULL_BLOCK_AND_FORMULA_CORRESPONDENCE"
+    },
+    {
+      "source": "foundations/t-jump-calculus.md",
+      "translation": "foundations-en/t-jump-calculus.md",
+      "source_sha256": "3c66cf2a037efe69c3a267dfd34184d78bef09ec7a6930d3312f81c82086b0e5",
+      "translation_sha256": "61be9bdd944fc302c64004376d1602baa5527cb1c04d742eaa775610fdebddf2",
+      "blocks": 110,
+      "headings": 16,
+      "formulas": 10,
+      "status": "FULL_BLOCK_AND_FORMULA_CORRESPONDENCE"
+    },
+    {
+      "source": "foundations/t-kary-universality.md",
+      "translation": "foundations-en/t-kary-universality.md",
+      "source_sha256": "df74727fd15a8e18ed64af32a7b61cca567c6a8a91146df71fca92ceb1e72581",
+      "translation_sha256": "88ea25e7c8a99e524771e01027534b73adb647a2b7c8ce47afee6623ae6e837f",
+      "blocks": 20,
+      "headings": 5,
+      "formulas": 23,
+      "status": "FULL_BLOCK_AND_FORMULA_CORRESPONDENCE"
+    },
+    {
+      "source": "foundations/t-kingman-coalescent.md",
+      "translation": "foundations-en/t-kingman-coalescent.md",
+      "source_sha256": "e536ab8ab0f9be62d2117cb337de249b25470492de55c22d7d7f314c8017fcbe",
+      "translation_sha256": "b2ce951922e07f5cb37bd55865cd963120684cef6f0cb3bc928eee63c0a9c8f9",
+      "blocks": 42,
+      "headings": 9,
+      "formulas": 22,
+      "status": "FULL_BLOCK_AND_FORMULA_CORRESPONDENCE"
+    },
+    {
+      "source": "foundations/t-lambda-coalescent.md",
+      "translation": "foundations-en/t-lambda-coalescent.md",
+      "source_sha256": "bd10a80dcfe37db4e1c1e7b8794338b2ce49a4f3e28982c30ddfd1d216b9f17e",
+      "translation_sha256": "75d120db0dcfba11190c80760a3e6a7735a80bc1600eb6958c75ec695c401f03",
+      "blocks": 34,
+      "headings": 7,
+      "formulas": 9,
       "status": "FULL_BLOCK_AND_FORMULA_CORRESPONDENCE"
     },
     {
@@ -535,6 +1325,16 @@
       "status": "FULL_BLOCK_AND_FORMULA_CORRESPONDENCE"
     },
     {
+      "source": "foundations/t-levy-height.md",
+      "translation": "foundations-en/t-levy-height.md",
+      "source_sha256": "96ce622aca1fed602e2243f4c5a851f69c75aaf346ff9fe739c860a3997c29a2",
+      "translation_sha256": "528f6fd6c239b5671571f5a7be1790ba00f323588747b1a2e3d855a52978edea",
+      "blocks": 51,
+      "headings": 9,
+      "formulas": 84,
+      "status": "FULL_BLOCK_AND_FORMULA_CORRESPONDENCE"
+    },
+    {
       "source": "foundations/t-levy-paths.md",
       "translation": "foundations-en/t-levy-paths.md",
       "source_sha256": "fd4b419ed0bc3023f6d60391c20009b2931cbf8d5a5f2426be66306b06613530",
@@ -542,6 +1342,16 @@
       "blocks": 72,
       "headings": 9,
       "formulas": 21,
+      "status": "FULL_BLOCK_AND_FORMULA_CORRESPONDENCE"
+    },
+    {
+      "source": "foundations/t-lie-levy.md",
+      "translation": "foundations-en/t-lie-levy.md",
+      "source_sha256": "531529b78b1ae7e33ec5278114b209139227ac9481ea9bf8dc714b7c9c45b88b",
+      "translation_sha256": "eeeaf172ef54c1c2441cec36ae211576b79b40fa6e71a37313edb3bfdd2b9607",
+      "blocks": 27,
+      "headings": 5,
+      "formulas": 5,
       "status": "FULL_BLOCK_AND_FORMULA_CORRESPONDENCE"
     },
     {
@@ -555,6 +1365,26 @@
       "status": "FULL_BLOCK_AND_FORMULA_CORRESPONDENCE"
     },
     {
+      "source": "foundations/t-linebreaking-crt.md",
+      "translation": "foundations-en/t-linebreaking-crt.md",
+      "source_sha256": "a55d0d629f43dba11bffeafafe341a371864ca3c4e6e37286682252079e36dc7",
+      "translation_sha256": "9597695679e32216579c7aa9b6fd76a4cb74db1394592061b979249277645eaf",
+      "blocks": 38,
+      "headings": 8,
+      "formulas": 7,
+      "status": "FULL_BLOCK_AND_FORMULA_CORRESPONDENCE"
+    },
+    {
+      "source": "foundations/t-local-time.md",
+      "translation": "foundations-en/t-local-time.md",
+      "source_sha256": "0e152db9bc3930352af501bbeb1d0745ef29c0017fd05af240e09cc1213c3760",
+      "translation_sha256": "bd1346c0a0a57061730e4062e6be051e296543d9ff27c006dd5974ebeec3496f",
+      "blocks": 33,
+      "headings": 6,
+      "formulas": 13,
+      "status": "FULL_BLOCK_AND_FORMULA_CORRESPONDENCE"
+    },
+    {
       "source": "foundations/t-lp.md",
       "translation": "foundations-en/t-lp.md",
       "source_sha256": "26943bc667ea4e83b338e5a6fb7b57628e7c4f1de3c4b159cf780edbbe4f0686",
@@ -562,6 +1392,66 @@
       "blocks": 31,
       "headings": 5,
       "formulas": 29,
+      "status": "FULL_BLOCK_AND_FORMULA_CORRESPONDENCE"
+    },
+    {
+      "source": "foundations/t-malliavin-density.md",
+      "translation": "foundations-en/t-malliavin-density.md",
+      "source_sha256": "7b54419b3ba740f66a514512d0d1046aafe8034edf8410969cc217638ab37fe7",
+      "translation_sha256": "2a8ad6f9b2a8956179794476cfc0037392c52a01dc8abcb2396d7e1c60636eb5",
+      "blocks": 33,
+      "headings": 6,
+      "formulas": 21,
+      "status": "FULL_BLOCK_AND_FORMULA_CORRESPONDENCE"
+    },
+    {
+      "source": "foundations/t-malliavin.md",
+      "translation": "foundations-en/t-malliavin.md",
+      "source_sha256": "474423bcb53103faee2d2e2efb613d0cd98f7865115c5769cb7b9eb08955d449",
+      "translation_sha256": "e43d3a1b49973f84449e3cc8212e7e1e3284497e8e0afcfd00e81a5f95d68c59",
+      "blocks": 36,
+      "headings": 7,
+      "formulas": 15,
+      "status": "FULL_BLOCK_AND_FORMULA_CORRESPONDENCE"
+    },
+    {
+      "source": "foundations/t-manifold-diffusions.md",
+      "translation": "foundations-en/t-manifold-diffusions.md",
+      "source_sha256": "9a82027c8cd5013c1bc3180a3cbeacb08efed81c31fd84646e5af545b081aa04",
+      "translation_sha256": "516da07eb7c034c2f894b2839c93c66c084a2c4138f9165d7ea8c82c9fe245d7",
+      "blocks": 43,
+      "headings": 7,
+      "formulas": 11,
+      "status": "FULL_BLOCK_AND_FORMULA_CORRESPONDENCE"
+    },
+    {
+      "source": "foundations/t-markov-branching.md",
+      "translation": "foundations-en/t-markov-branching.md",
+      "source_sha256": "be938f5ddc7e3403446840c79d20ead2d594ac79bde881471fbbd6ea6c2388a0",
+      "translation_sha256": "bf461ba255df250ce3a387fc096f806535b1cee2ef534f5e250f6e8b0a25403c",
+      "blocks": 31,
+      "headings": 8,
+      "formulas": 5,
+      "status": "FULL_BLOCK_AND_FORMULA_CORRESPONDENCE"
+    },
+    {
+      "source": "foundations/t-mass-clusters.md",
+      "translation": "foundations-en/t-mass-clusters.md",
+      "source_sha256": "fd3c16532a174c7478c3abc81f966c85169bc181f4e881c8d348615a1ee92957",
+      "translation_sha256": "b29adbcaca130c10bcc70edfd40325147ed0c4c14d8b78c789af37c9e1f8b78d",
+      "blocks": 27,
+      "headings": 6,
+      "formulas": 32,
+      "status": "FULL_BLOCK_AND_FORMULA_CORRESPONDENCE"
+    },
+    {
+      "source": "foundations/t-mass-kernels.md",
+      "translation": "foundations-en/t-mass-kernels.md",
+      "source_sha256": "74628559ba1246c0c1de6d40f1687c327b4df3c735818f62546af0ff19773f7e",
+      "translation_sha256": "9d63c36e22d28992cbceb21f7efd7a02cac6ddf49f879f9985b89780ef3cde39",
+      "blocks": 22,
+      "headings": 5,
+      "formulas": 35,
       "status": "FULL_BLOCK_AND_FORMULA_CORRESPONDENCE"
     },
     {
@@ -585,6 +1475,26 @@
       "status": "FULL_BLOCK_AND_FORMULA_CORRESPONDENCE"
     },
     {
+      "source": "foundations/t-mecke.md",
+      "translation": "foundations-en/t-mecke.md",
+      "source_sha256": "c9f781cb59313ccca8bda044c75b8a5854a1135a33c8c8e92acc342e5a2f2e39",
+      "translation_sha256": "774fe6f082927073c6dcb88482c3163aced679f7f3894cbe8854ef171129beaa",
+      "blocks": 29,
+      "headings": 6,
+      "formulas": 15,
+      "status": "FULL_BLOCK_AND_FORMULA_CORRESPONDENCE"
+    },
+    {
+      "source": "foundations/t-multiparameter.md",
+      "translation": "foundations-en/t-multiparameter.md",
+      "source_sha256": "8b7bef97a68ea07c881e3a69e9eca3fb22bc2d1643b5381235e1ee2fce010366",
+      "translation_sha256": "231e0f0361676072833a50d5ab509702da200475a05307f84d38d7eacd609cbc",
+      "blocks": 15,
+      "headings": 4,
+      "formulas": 1,
+      "status": "FULL_BLOCK_AND_FORMULA_CORRESPONDENCE"
+    },
+    {
       "source": "foundations/t-operators.md",
       "translation": "foundations-en/t-operators.md",
       "source_sha256": "bbabc713beeae11730b852d58b17dd76f2c48960924e1e59e4c8ea3f1395bb23",
@@ -592,6 +1502,266 @@
       "blocks": 45,
       "headings": 7,
       "formulas": 11,
+      "status": "FULL_BLOCK_AND_FORMULA_CORRESPONDENCE"
+    },
+    {
+      "source": "foundations/t-orbits.md",
+      "translation": "foundations-en/t-orbits.md",
+      "source_sha256": "75c1541323d91cbde9b54f5634dc7030a8740ef2c76de3c6d81655c1b7fb765f",
+      "translation_sha256": "a45c2af11dbedf5b68a673ec3c3f4e4280b73894ee9720efb37c3f2756f32064",
+      "blocks": 34,
+      "headings": 6,
+      "formulas": 9,
+      "status": "FULL_BLOCK_AND_FORMULA_CORRESPONDENCE"
+    },
+    {
+      "source": "foundations/t-paintbox.md",
+      "translation": "foundations-en/t-paintbox.md",
+      "source_sha256": "9a257c07e528dcb7dd63f166b298276c9fb00d67c918d5891ae4120728ccda8a",
+      "translation_sha256": "4736ac7ee3a7cb4fe663b00e21a34cefe45f755aabff4fa3a621a5e705bd032a",
+      "blocks": 38,
+      "headings": 8,
+      "formulas": 8,
+      "status": "FULL_BLOCK_AND_FORMULA_CORRESPONDENCE"
+    },
+    {
+      "source": "foundations/t-palm-approximation.md",
+      "translation": "foundations-en/t-palm-approximation.md",
+      "source_sha256": "1481335d96701ca85246b1544c4fe35085de976c20b086ee1822133cb4052b68",
+      "translation_sha256": "d22d8194d7c45e528ecabdf09ed517db8b6a490a715b6d1d4cc5552fcf3cc167",
+      "blocks": 22,
+      "headings": 4,
+      "formulas": 21,
+      "status": "FULL_BLOCK_AND_FORMULA_CORRESPONDENCE"
+    },
+    {
+      "source": "foundations/t-palm-inversion.md",
+      "translation": "foundations-en/t-palm-inversion.md",
+      "source_sha256": "8c9bc91e777d101843e65bf27b5b03bcaedd60c8832b992617cd2e225f4d2167",
+      "translation_sha256": "13d1c81011ab4c0873cdb7f7f07ccda622f18e18e3cb17c71fc808019915c34c",
+      "blocks": 29,
+      "headings": 6,
+      "formulas": 18,
+      "status": "FULL_BLOCK_AND_FORMULA_CORRESPONDENCE"
+    },
+    {
+      "source": "foundations/t-palm.md",
+      "translation": "foundations-en/t-palm.md",
+      "source_sha256": "a81ebd00e86c2de29ce6afa7854edab5dda67504b31df5c8b8cbfe3002023806",
+      "translation_sha256": "1de72492f2b9f90ef34486b1e3aa7c813d0e0402500330a79f8682f39b42925c",
+      "blocks": 23,
+      "headings": 5,
+      "formulas": 28,
+      "status": "FULL_BLOCK_AND_FORMULA_CORRESPONDENCE"
+    },
+    {
+      "source": "foundations/t-partition-prediction.md",
+      "translation": "foundations-en/t-partition-prediction.md",
+      "source_sha256": "f0204c019fc9ecc2081851b5bd2ba0a9f2bfe6a73a861df5444110d8a5adef7b",
+      "translation_sha256": "c10ddca26de6e2c2c53c5987071bb281ec6786c7e76811da7c4729e2a624a392",
+      "blocks": 35,
+      "headings": 7,
+      "formulas": 7,
+      "status": "FULL_BLOCK_AND_FORMULA_CORRESPONDENCE"
+    },
+    {
+      "source": "foundations/t-point-laplace.md",
+      "translation": "foundations-en/t-point-laplace.md",
+      "source_sha256": "fa03f13731bef260dfa749cd2a556f163704d37696a6594a0d2ab5725e7f734e",
+      "translation_sha256": "cb5005cb03b5696f02fc6906ad48e3ec5aee1cfd885869bddb58e4fd9fb28fff",
+      "blocks": 23,
+      "headings": 6,
+      "formulas": 4,
+      "status": "FULL_BLOCK_AND_FORMULA_CORRESPONDENCE"
+    },
+    {
+      "source": "foundations/t-point-measures.md",
+      "translation": "foundations-en/t-point-measures.md",
+      "source_sha256": "b082854f3b6b957c304296e177ce13f8d542930013bafb3a2efabb607bcdac8a",
+      "translation_sha256": "5a70cbc2ea72f255c85c51c03d85f4d73041c094e888c1d55c10e62916ff972f",
+      "blocks": 19,
+      "headings": 5,
+      "formulas": 6,
+      "status": "FULL_BLOCK_AND_FORMULA_CORRESPONDENCE"
+    },
+    {
+      "source": "foundations/t-point-transforms.md",
+      "translation": "foundations-en/t-point-transforms.md",
+      "source_sha256": "2f5ffcca1ee49a648b938874c1e71dac318cc555758d30d1e5d0202dcfd91f79",
+      "translation_sha256": "8d7cb495a9407cbb7604f54f9b57b4632424f73983c7b31f04b222c93a21df65",
+      "blocks": 20,
+      "headings": 5,
+      "formulas": 8,
+      "status": "FULL_BLOCK_AND_FORMULA_CORRESPONDENCE"
+    },
+    {
+      "source": "foundations/t-pointed-gw-trees.md",
+      "translation": "foundations-en/t-pointed-gw-trees.md",
+      "source_sha256": "5ef979acb1bf01ce5dd1e164fce6e7e72bf352292f058104a1c5cfe12bb515aa",
+      "translation_sha256": "8aa81987bf3715d6389b57b1740db2d1be0c6378cea7e85a120f87c98c221419",
+      "blocks": 27,
+      "headings": 6,
+      "formulas": 6,
+      "status": "FULL_BLOCK_AND_FORMULA_CORRESPONDENCE"
+    },
+    {
+      "source": "foundations/t-poisson-chaos.md",
+      "translation": "foundations-en/t-poisson-chaos.md",
+      "source_sha256": "3559ce136c2e16170b6ef16201672e1b1f6bfd28dfcabd41e4bd470372df922b",
+      "translation_sha256": "68f41a8e2e9fb0f71646f99ff9920fb888d192b96fc2a80b55139181905c6cae",
+      "blocks": 26,
+      "headings": 6,
+      "formulas": 11,
+      "status": "FULL_BLOCK_AND_FORMULA_CORRESPONDENCE"
+    },
+    {
+      "source": "foundations/t-poisson-space.md",
+      "translation": "foundations-en/t-poisson-space.md",
+      "source_sha256": "3eb3f9e11f445babe7314465631342c74952bbbf2197263be1432ce8859f6016",
+      "translation_sha256": "86d074918d8888e2a2956208ae2aadbf8b190be149b1a8eac840f5f52e103fb2",
+      "blocks": 20,
+      "headings": 5,
+      "formulas": 5,
+      "status": "FULL_BLOCK_AND_FORMULA_CORRESPONDENCE"
+    },
+    {
+      "source": "foundations/t-polya-dirichlet.md",
+      "translation": "foundations-en/t-polya-dirichlet.md",
+      "source_sha256": "a06590d3df7e921516631bf90c7d96bdd99cb4481df63db9080deb1dba8542fa",
+      "translation_sha256": "3ac9f1a523f472ebbd14041bce0afb0d5a64732f01f89d4d1671c2c80cd23794",
+      "blocks": 26,
+      "headings": 6,
+      "formulas": 6,
+      "status": "FULL_BLOCK_AND_FORMULA_CORRESPONDENCE"
+    },
+    {
+      "source": "foundations/t-potential.md",
+      "translation": "foundations-en/t-potential.md",
+      "source_sha256": "f5feb96f15da6fdd39683838a2c0e5e6eb0ab21d06d7490ed88bccd9bc37b556",
+      "translation_sha256": "010113a10bad1a07d125a215bbd3a713bda37384fe6617cfdf73a698a636d0f9",
+      "blocks": 26,
+      "headings": 5,
+      "formulas": 10,
+      "status": "FULL_BLOCK_AND_FORMULA_CORRESPONDENCE"
+    },
+    {
+      "source": "foundations/t-predictable-symmetry.md",
+      "translation": "foundations-en/t-predictable-symmetry.md",
+      "source_sha256": "2f6cb397fb8a5c540ef273067e75f5ac2db9ec7d9ca58762d8533637d6599f30",
+      "translation_sha256": "7449474146699ecdda70da81624166f785d03bb4685b3c9b4d57fb6d48cf6f89",
+      "blocks": 24,
+      "headings": 5,
+      "formulas": 4,
+      "status": "FULL_BLOCK_AND_FORMULA_CORRESPONDENCE"
+    },
+    {
+      "source": "foundations/t-prokhorov-coupling.md",
+      "translation": "foundations-en/t-prokhorov-coupling.md",
+      "source_sha256": "aa781b9798336f362908b770bee11b2f3a5cd86cae262bbeff56a0c026ae43b5",
+      "translation_sha256": "b8f22042987fd42fcf947077765bf75d4455697f55374e92e4b3d82fc16c180c",
+      "blocks": 25,
+      "headings": 6,
+      "formulas": 2,
+      "status": "FULL_BLOCK_AND_FORMULA_CORRESPONDENCE"
+    },
+    {
+      "source": "foundations/t-public-kary-growth.md",
+      "translation": "foundations-en/t-public-kary-growth.md",
+      "source_sha256": "14364d4155383f446f34e1f819a53468f210b7d1ddc8ca2dd396d9aa59d90afb",
+      "translation_sha256": "e76b95dcf5d12d7f36e946fc52e0a912d846e4174f5adff14ab01655933f4912",
+      "blocks": 23,
+      "headings": 5,
+      "formulas": 22,
+      "status": "FULL_BLOCK_AND_FORMULA_CORRESPONDENCE"
+    },
+    {
+      "source": "foundations/t-radon-space.md",
+      "translation": "foundations-en/t-radon-space.md",
+      "source_sha256": "8598f756f2e6581ff2a3b1a7730d0f2f6ffc4a658c3a3cf79bce3e122cafe6dd",
+      "translation_sha256": "024ea0f7c717202794bfbf0e947d8148cf539ecf056a64b3c83ae0b27e432d8a",
+      "blocks": 20,
+      "headings": 5,
+      "formulas": 31,
+      "status": "FULL_BLOCK_AND_FORMULA_CORRESPONDENCE"
+    },
+    {
+      "source": "foundations/t-random-measure-limits.md",
+      "translation": "foundations-en/t-random-measure-limits.md",
+      "source_sha256": "d1e2ed56bbf63265be181705ed93c810d11697380052d6907df98ce1ee0de2c4",
+      "translation_sha256": "2f3f926d4eb3c36e8f314820c41d2d3dee38994da2f7481561d8f91268ced3ff",
+      "blocks": 25,
+      "headings": 6,
+      "formulas": 38,
+      "status": "FULL_BLOCK_AND_FORMULA_CORRESPONDENCE"
+    },
+    {
+      "source": "foundations/t-random-shapes.md",
+      "translation": "foundations-en/t-random-shapes.md",
+      "source_sha256": "ac846cf0e0c23649e54525664058c38fcc30c484bf3d9df09e9d706d9b04261a",
+      "translation_sha256": "b25732aacd7575f098aafa6e22f4ef67806ce55cf4647570e5da9a1a3bdefaac",
+      "blocks": 20,
+      "headings": 5,
+      "formulas": 13,
+      "status": "FULL_BLOCK_AND_FORMULA_CORRESPONDENCE"
+    },
+    {
+      "source": "foundations/t-ray-knight.md",
+      "translation": "foundations-en/t-ray-knight.md",
+      "source_sha256": "6c8c78f63d90fa36516aeba69e0875ae292084dc060de5db64f5da83fa889a91",
+      "translation_sha256": "9ef71108d9c097e69cf0221a598b355290b99da84663993bafd559b9f02ff00e",
+      "blocks": 34,
+      "headings": 6,
+      "formulas": 17,
+      "status": "FULL_BLOCK_AND_FORMULA_CORRESPONDENCE"
+    },
+    {
+      "source": "foundations/t-real-tree-code.md",
+      "translation": "foundations-en/t-real-tree-code.md",
+      "source_sha256": "d459287ad83240593f29053f627af090e1ebc054ebdffd4dd97eac78a722362e",
+      "translation_sha256": "e6c84a4d1777ffab139672bd4d21f92aadfbba4da9e4a90129482cb0f375fba9",
+      "blocks": 40,
+      "headings": 8,
+      "formulas": 6,
+      "status": "FULL_BLOCK_AND_FORMULA_CORRESPONDENCE"
+    },
+    {
+      "source": "foundations/t-regenerative-spine.md",
+      "translation": "foundations-en/t-regenerative-spine.md",
+      "source_sha256": "38de28cc4519a77166e5a2054f3fdaca2eebc98382e796f04e9b2fad184eb7c4",
+      "translation_sha256": "11f97fca5b73b769df2ed471cc2e3d3137a1345da3eda6be05d2ad625fde9fe5",
+      "blocks": 47,
+      "headings": 10,
+      "formulas": 12,
+      "status": "FULL_BLOCK_AND_FORMULA_CORRESPONDENCE"
+    },
+    {
+      "source": "foundations/t-revuz.md",
+      "translation": "foundations-en/t-revuz.md",
+      "source_sha256": "0ee9a46deccab5e28e12251a0fba15f621e6174293c191229bb8493bdc537fc6",
+      "translation_sha256": "6af00aff76bc7f1d5b032d002da8891f5ce30ef26b09a1c9366a4785eed3f6d0",
+      "blocks": 30,
+      "headings": 5,
+      "formulas": 33,
+      "status": "FULL_BLOCK_AND_FORMULA_CORRESPONDENCE"
+    },
+    {
+      "source": "foundations/t-riesz.md",
+      "translation": "foundations-en/t-riesz.md",
+      "source_sha256": "94372c0b2571eade750d2afeee8383538e0fc0f7e8d7bcfdc664a7251cb4709b",
+      "translation_sha256": "b8dc0646049224152f6bc8a0621f52a243eb364122a9d165ffbb2ccae16911e0",
+      "blocks": 23,
+      "headings": 5,
+      "formulas": 10,
+      "status": "FULL_BLOCK_AND_FORMULA_CORRESPONDENCE"
+    },
+    {
+      "source": "foundations/t-rotatable.md",
+      "translation": "foundations-en/t-rotatable.md",
+      "source_sha256": "91af48778bf1e224335dc5df97884b62db5ec59516b3f619d89597877cc4becf",
+      "translation_sha256": "a50993be52e84dd60d4340bab690cd237b2784eaac0067c818d7dcfb0d35b112",
+      "blocks": 24,
+      "headings": 5,
+      "formulas": 3,
       "status": "FULL_BLOCK_AND_FORMULA_CORRESPONDENCE"
     },
     {
@@ -605,6 +1775,26 @@
       "status": "FULL_BLOCK_AND_FORMULA_CORRESPONDENCE"
     },
     {
+      "source": "foundations/t-scale-speed.md",
+      "translation": "foundations-en/t-scale-speed.md",
+      "source_sha256": "63860e285a9093241f715afa82ae4c2417fd06fe0059b7694a91098e400abeb9",
+      "translation_sha256": "27c33d669d7605efb6ee48f0873d8644cf33d669583613c07548a3973e82c6c5",
+      "blocks": 29,
+      "headings": 6,
+      "formulas": 18,
+      "status": "FULL_BLOCK_AND_FORMULA_CORRESPONDENCE"
+    },
+    {
+      "source": "foundations/t-scattering.md",
+      "translation": "foundations-en/t-scattering.md",
+      "source_sha256": "45e98bdcb6988e8802f5a562579d195db7d88e8836337031b30b0423d9f680f4",
+      "translation_sha256": "a98f2154221df66139685282ae89a24c7adb356592f9c93da634946209e79c98",
+      "blocks": 36,
+      "headings": 8,
+      "formulas": 34,
+      "status": "FULL_BLOCK_AND_FORMULA_CORRESPONDENCE"
+    },
+    {
       "source": "foundations/t-schilder.md",
       "translation": "foundations-en/t-schilder.md",
       "source_sha256": "a71cb765175093763f6b5e36a785705cd4cbc960231c421e36471ad6a39f4ecd",
@@ -612,6 +1802,46 @@
       "blocks": 43,
       "headings": 6,
       "formulas": 12,
+      "status": "FULL_BLOCK_AND_FORMULA_CORRESPONDENCE"
+    },
+    {
+      "source": "foundations/t-sde-small-noise.md",
+      "translation": "foundations-en/t-sde-small-noise.md",
+      "source_sha256": "6a76abfed86831d3d5004d7a3027172025f2c628539260bf104395a1123c3ea7",
+      "translation_sha256": "c44d3150cdff72c9bf3a94a9c09c1208ed5a058f8c1a684a4ab26165dec5515b",
+      "blocks": 40,
+      "headings": 7,
+      "formulas": 8,
+      "status": "FULL_BLOCK_AND_FORMULA_CORRESPONDENCE"
+    },
+    {
+      "source": "foundations/t-sde-structure.md",
+      "translation": "foundations-en/t-sde-structure.md",
+      "source_sha256": "520d0c7152fa292f5609ebdfee9bbfedbd2bb2c0201b9f08477863f5d9fd79fb",
+      "translation_sha256": "ea1a77e7ba04d32ddd13ca1024aeecb1804620bdaab77ac315f12cafe887236f",
+      "blocks": 45,
+      "headings": 6,
+      "formulas": 5,
+      "status": "FULL_BLOCK_AND_FORMULA_CORRESPONDENCE"
+    },
+    {
+      "source": "foundations/t-sde-wellposedness.md",
+      "translation": "foundations-en/t-sde-wellposedness.md",
+      "source_sha256": "3c69425d40e20ef917978ef1ca8bcfd81f38a54563df936858174c4686a7080a",
+      "translation_sha256": "980e1c02176bf296c7fddfefcb7cd8205a715f70cf726000fec442793400231d",
+      "blocks": 44,
+      "headings": 7,
+      "formulas": 4,
+      "status": "FULL_BLOCK_AND_FORMULA_CORRESPONDENCE"
+    },
+    {
+      "source": "foundations/t-selfsimilar-fragmentation.md",
+      "translation": "foundations-en/t-selfsimilar-fragmentation.md",
+      "source_sha256": "ae3d6a7300da52df16430418233b2e5a7b1ae82d20fbe2f101f9c3f48c5665d7",
+      "translation_sha256": "bdbad65446ba7667b06a031e213995b6319ae1f6c3faa1070fc1e2df73e7bebd",
+      "blocks": 35,
+      "headings": 8,
+      "formulas": 4,
       "status": "FULL_BLOCK_AND_FORMULA_CORRESPONDENCE"
     },
     {
@@ -625,6 +1855,16 @@
       "status": "FULL_BLOCK_AND_FORMULA_CORRESPONDENCE"
     },
     {
+      "source": "foundations/t-stick-breaking.md",
+      "translation": "foundations-en/t-stick-breaking.md",
+      "source_sha256": "f04b07f3495101dda54d6e168db9dce433eacf2b18dc53bbdc70d68fe9fd84ac",
+      "translation_sha256": "a20ba1cdc3c5f9d7caa6380ed3b8ccebe19ea05f8abda36e2db9f165356e771b",
+      "blocks": 27,
+      "headings": 6,
+      "formulas": 6,
+      "status": "FULL_BLOCK_AND_FORMULA_CORRESPONDENCE"
+    },
+    {
       "source": "foundations/t-stieltjes.md",
       "translation": "foundations-en/t-stieltjes.md",
       "source_sha256": "5a3c07b57d6bf292e1f60c58470f05e57ff2d30e475c1733e61a2398a872794d",
@@ -633,7 +1873,57 @@
       "headings": 5,
       "formulas": 54,
       "status": "FULL_BLOCK_AND_FORMULA_CORRESPONDENCE"
+    },
+    {
+      "source": "foundations/t-subadditive.md",
+      "translation": "foundations-en/t-subadditive.md",
+      "source_sha256": "a24695f4c31f7df6df85bcd18005f8dae7cfbf118c46f42909a53f6d4fe9141a",
+      "translation_sha256": "4dc1e98512fec017b81050e0ab408f3466267a1477cb3060285a71104bc68998",
+      "blocks": 24,
+      "headings": 5,
+      "formulas": 2,
+      "status": "FULL_BLOCK_AND_FORMULA_CORRESPONDENCE"
+    },
+    {
+      "source": "foundations/t-tree-coding.md",
+      "translation": "foundations-en/t-tree-coding.md",
+      "source_sha256": "41139e559b54bff879d21761497be0b609e1555967c7cf3617fc02d0e94f0739",
+      "translation_sha256": "c2ff93945600cc7414b64be94726125556e8ea168f64c0e260aec9d7e4e7fdf1",
+      "blocks": 45,
+      "headings": 7,
+      "formulas": 13,
+      "status": "FULL_BLOCK_AND_FORMULA_CORRESPONDENCE"
+    },
+    {
+      "source": "foundations/t-tree-cuts.md",
+      "translation": "foundations-en/t-tree-cuts.md",
+      "source_sha256": "0f8899a80abd29666b5a1125d8fe6e4770c97065248a38abcc5ad73996948aeb",
+      "translation_sha256": "87227d0b1e1fba21334444086d53f2ec7760a85c8b1c8e7902b83f6bee0d69a4",
+      "blocks": 20,
+      "headings": 5,
+      "formulas": 1,
+      "status": "FULL_BLOCK_AND_FORMULA_CORRESPONDENCE"
+    },
+    {
+      "source": "foundations/t-tree-ghp.md",
+      "translation": "foundations-en/t-tree-ghp.md",
+      "source_sha256": "3ad1eb03a4a7fb434440a17fb7415dac6256ff8d552bfb69d21760279ea9372c",
+      "translation_sha256": "7e0e0347516b38a6e1ff0e95d5f96e9ad5a0a645638b320006a268da0f162246",
+      "blocks": 36,
+      "headings": 6,
+      "formulas": 10,
+      "status": "FULL_BLOCK_AND_FORMULA_CORRESPONDENCE"
+    },
+    {
+      "source": "foundations/t-vervaat.md",
+      "translation": "foundations-en/t-vervaat.md",
+      "source_sha256": "5a5ef0aed40c671281235da3a310b26c844caac11b053cd3cc76f434dc5f1eff",
+      "translation_sha256": "53c4dc998f61a314e9892554fb6871a131c6a0e7394b9a8f58fc7af5b3ab0162",
+      "blocks": 44,
+      "headings": 7,
+      "formulas": 14,
+      "status": "FULL_BLOCK_AND_FORMULA_CORRESPONDENCE"
     }
   ],
-  "formulas": 7166
+  "formulas": 9809
 }

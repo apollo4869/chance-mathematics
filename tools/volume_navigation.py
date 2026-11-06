@@ -195,4 +195,9 @@ def print_page(page, source, target):
         n[attr]=posixpath.relpath(dest.as_posix(),target.parent.resolve().as_posix())+('?' +u.query if u.query else '')+('#'+u.fragment if u.fragment else '')
     head.append(BeautifulSoup('<style>@page{size:A4;margin:22mm}body{background:var(--paper);margin:0}main{max-width:170mm;margin:0 auto;padding:12mm}.volume-title-page{break-before:auto}.volume-actions,.volume-origin{display:none}@media print{body,main{background:white;color:#111}main{padding:0}}</style>','html.parser'))
     target.parent.mkdir(parents=True,exist_ok=True)
-    target.write_bytes(('<!doctype html><html lang="'+s.html['lang']+'">'+str(head)+'<body><main>'+str(body)+'</main></body></html>').encode())
+    data=('<!doctype html><html lang="'+s.html['lang']+'">'+str(head)+'<body><main>'+str(body)+'</main></body></html>').encode()
+    if target.exists() and target.read_bytes()==data:return
+    # Avoid truncating a preview which the Windows browser may have open.
+    pending=target.with_name(target.name+'.building')
+    pending.write_bytes(data)
+    pending.replace(target)

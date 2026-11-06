@@ -30,6 +30,8 @@ Independently define A as the predictable compensator of the bounded submartinga
 
 For a square-integrable M on [0,T], first verify that M² is class D: conditional Jensen and closed-martingale sampling give Mτ²≤\(E[M_T^2\mid\mathcal F_\tau]\) at every bounded stop τ. The right side consists of conditional averages of one integrable terminal value and is uniformly integrable. Chapter 30 therefore really applies, defining A=⟨M⟩.
 
+Before continuity of A is known, predictability of its stopped process needs justification. Pullbacks of predictable rectangles show that deterministic stopping preserves predictability. For a rectangle H=ξ1_(s,t], the pathwise Stieltjes integral is ξ times the difference of two deterministic stops of A, hence predictable. Using A as total integral, the π–λ theorem and monotone convergence extend this to all nonnegative predictable H. Since 1_(0,σ] is left-continuous and adapted, it is predictable; its integral against dA is precisely stopped A. This uses pathwise integration, not the martingale integral being constructed.
+
 Let \(\sigma_c\) be the first time |M| reaches c, capped at T. Continuity makes the stopped process bounded. Stopping M²−A at \(\sigma_c\) preserves the martingale property, and stopped A remains predictable, increasing and terminally integrable. Uniqueness identifies it with the stopped process’s compensator. Section 1 makes each stopped compensator continuous. Each continuous path is bounded on [0,T], so eventually it is not stopped early. Thus A is continuous, and L² maximal convergence after stopping yields ucp convergence of the original square sums.
 
 \[ P\!\left(\sup_{t\le T}|Q^{\pi_n}_t-A_t|>\varepsilon\right)\le P(\sigma_c<T)+P\!\left(\sup_{t\le T}|Q^{\pi_n}(M^{\sigma_c})_t-A^{\sigma_c}_t|>\varepsilon\right). \]
@@ -38,7 +40,11 @@ First fix c and refine the mesh, then send c to infinity. For deterministic part
 
 For a continuous local martingale, localize at exits from ±c. A bounded stopped local martingale is a genuine martingale by conditional dominated convergence along the original localizing times. Uniqueness makes the stopped brackets consistent, producing a continuous increasing A finite pathwise on compact intervals; square sums still converge ucp. E \(A_T\) may now be infinite.
 
-The grids need not be nested. We may also use partitions each consisting of a deterministic finite number of ordered bounded stopping times, with maximum time gap tending to zero in probability. Finite sampling preserves orthogonality and the 3c² bound from Section 1. The ordered union of two stopping grids is again a stopping grid with earlier stopped values as coefficients. Since random δ tends to zero in probability and oscillation is bounded, \(E\omega_M(\delta)^4\)→0; the same argument gives ucp convergence. This does not cover arbitrary non-stopping partition points chosen with knowledge of the future path.
+The deterministic grids need not be nested. The stopping-partition version means 0=τ₀≤⋯≤τₘ=T, with a deterministic finite m for each partition, bounded stopping times τᵢ, and maximal gap tending to zero in probability. Repeated points are permitted; zero-length intervals contribute nothing.
+
+For τ≤τ′ and bounded Fτ-measurable ξ, the finite process ξ(M stopped at τ′ minus M stopped at τ) really is a martingale. Given s<t, on {τ≤s} use conditional means of stopped martingales. On {τ>s}, for every C∈Fₛ the event C∩{τ>s} belongs to Fτ; apply bounded sampling between τ and η=(t∨τ)∧τ′. Both pieces have conditional increment mean zero. Thus random-interval integration has not been used to prove its own construction.
+
+Conditional orthogonality of stopped increments gives the same 3c² estimate as in Section 1. The ordered union of two finite stopping grids consists of stopping times; its coefficients are measurable at the current stopping information, and their difference is controlled by oscillation at random δ. Convergence δ→0 in probability implies convergence of this oscillation in probability, and boundedness gives \(E\omega_M(\delta)^4\)→0. Doob then yields ucp. Future-selected nonstopping partition points are not covered.
 
 <a id="t-ito-covariation"></a>
 
@@ -66,7 +72,7 @@ Only pathwise densities are needed to prove the inequality; no unproved joint ch
 
 For continuous square-integrable M with A=⟨M⟩, define the finite measure \(m_M(E)=E\int_0^T\mathbf1_E\,dA\) on the predictable σ-algebra. Measurability of path integrals is checked on rectangles and extended by the nonnegative functional monotone class theorem. Its total mass is E \(A_T\)=E \(M_T^2\).
 
-Bounded elementary predictable processes are dense in \(L^2(m_M)\). The algebra obtained by finite set operations on deterministic rectangles generates P. Sets whose indicators are approximable by algebra-simple functions are closed under complements and increasing unions, and finiteness of the measure covers all of P. Truncate a general L² function and approximate it by steps. Every algebra-simple function can be expressed on a common deterministic grid with bounded coefficients measurable at left endpoints. Time zero has no mass, since A₀=0 and A is continuous.
+Bounded elementary predictable processes are dense in \(L^2(m_M)\). The algebra obtained by finite set operations on deterministic rectangles generates P. Let D consist of sets whose indicators belong to the L² closure of these simple functions. It contains the full space and is closed under complements. For disjoint unions use finite partial sums and L² tail convergence under the finite measure. Thus D is a λ-system containing the generating rectangle π-system, and the π–λ theorem of T-MCLASS gives D=P. Truncate a general L² function and approximate it by steps. Every algebra-simple function can be expressed on a common deterministic grid with bounded coefficients measurable at left endpoints. Time zero has no mass, since A₀=0 and A is continuous.
 
 Define I(H) by finite sums for elementary H. Conditional orthogonality and the martingale identity for M²−A give the isometry. The same argument applies at non-grid terminal times by cutting the current interval.
 
@@ -78,7 +84,7 @@ Approximate in \(L^2(m_M)\). Doob’s L² estimate gives a limit in the L² maxi
 
 ## 5. Stopping and Localization Must Commute with Extension
 
-For a stopping time τ taking values on a finite deterministic grid, refine to a common grid and finite sums directly give the stopping identity below. For arbitrary τ≤T, replace it by finite-grid stopping times τₙ decreasing from the right. The left side converges pathwise uniformly by continuity of the integral. On the right, integrability of H² for m_M, decreasing indicators 1{s≤τₙ}, and the isometry give L² maximal convergence. The identity therefore holds for general τ.
+First take elementary H and a stopping time τ with values in a deterministic finite grid, refining to a common grid. Multiplying a coefficient by 1{τ>left endpoint} still uses left-endpoint information, and finite sums give the stopping identity below. Energy approximation extends it to general H because stopping decreases the energy error. The process 1_(0,τ] is left-continuous and adapted, hence remains in the predictable integration domain. For arbitrary τ≤T, replace it by finite-grid stopping times τₙ decreasing from the right. The left side converges pathwise uniformly by continuity of the integral. On the right, integrability of H² for m_M, decreasing indicators 1{s≤τₙ}, and the isometry give L² maximal convergence. The identity therefore holds for general τ.
 
 \[ (H\mathbin{\cdot}M)_{t\wedge\tau}=\bigl(H\mathbf1_{(0,\tau]}\mathbin{\cdot}M\bigr)_t,\qquad \langle M^\tau\rangle=\langle M\rangle^\tau. \]
 
@@ -93,6 +99,10 @@ After stopping, M is bounded and energy is at most n, so every localized integra
 ## 6. How Integration Changes Brackets and Covariation
 
 For elementary H, check interval by interval. The integral starts from its past value, and its next increment is \(H_i\) times the increment of M. In a square expansion the linear term has conditional mean zero, while M²−A compensates the squared term. Thus I(H)²−∫H²dA is a martingale, and the accumulated integral is continuous, increasing and predictable. Doob–Meyer uniqueness gives the bracket formula, without using Itô formula.
+
+The elementary conditional calculation can be made explicit. Within a cell Iᵤ=Iₐ+ξ(Mᵤ−Mₐ); the linear term has conditional mean zero and M²−A compensates the square. Integrability follows from L² integrability of Iₐ and Mᵤ and bounded ξ. Repeating the calculation for arbitrary endpoints within a cell and concatenating gives a process martingale identity.
+
+\[ E[I_b^2-I_a^2\mid\mathcal F_a]=E[\xi^2(A_b-A_a)\mid\mathcal F_a]. \]
 
 For general H, approximate by elementary Hⁿ in the energy L² norm. Bracket stability from Section 3 gives convergence of the left side in the L¹ maximal norm; Cauchy–Schwarz sends E∫|(Hⁿ)²−H²|dA to zero. The identity survives the limit. For different integrators, check elementary processes using MN−⟨M,N⟩, then control errors on both sides with the integral inequality from Section 3.
 
@@ -120,9 +130,17 @@ Take independent fair Bernoulli variables ξₖ and let Y be the series below, w
 
 \[ Y=\sum_{k\ge1}2\xi_k3^{-k},\qquad c(t)=\nu([0,t]),\qquad \nu(C)=1,\quad |C|=0. \]
 
-The function c is deterministic, not a random stopping time. Starting from the usual Brownian natural filtration set Gₜ=\(\mathcal F^B_{c(t)}\). Continuity and monotonicity of c preserve right continuity and completeness. Increments of Mₜ=\(B_{c(t)}\) are independent of Gₛ with mean zero and variance c(t)−c(s), making M a continuous square-integrable martingale. M²−c is a martingale too, and Doob–Meyer uniqueness gives ⟨M⟩=c.
+Extend c constantly as one after time one. Use the usual augmentation of the Brownian natural filtration and set Gₜ=\(\mathcal F^B_{c(t)}\). It contains all original null sets and their subsets, so it is complete. If c is locally constant to the right of t, right continuity of G is immediate. Otherwise choose uₙ↓t with c(uₙ)>c(t); continuity of c and right continuity of the original filtration identify the intersection of F^B_{c(uₙ)} with F^B_{c(t)}. Thus G is right-continuous as well. The deterministic c has not been mistaken for a random stopping time.
 
-The deterministic Borel process H=\(\mathbf1_C\) is predictable because deterministic interval rectangles generate the time Borel sets. It equals one dc-almost everywhere and zero dt-almost everywhere. Isometry and uniqueness for equivalence classes give the identity below. Since M₁ has variance one, the result really is nonzero.
+The process Mₜ=\(B_{c(t)}\) is continuous and G-adapted. Brownian increments at deterministic times remain independent of the past after usual augmentation. Both conditional identities below hold, and E Mₜ²=c(t)≤1. The process c is deterministic, continuous, increasing, starts at zero and is G-predictable. On finite horizons M² is class D, so Doob–Meyer uniqueness gives ⟨M⟩=c, rather than assuming a formal time-change rule.
+
+\[ E[M_t\mid\mathcal G_s]=M_s,\qquad E[M_t^2\mid\mathcal G_s]=M_s^2+c(t)-c(s),\qquad s\le t. \]
+
+The deterministic Borel process H=\(\mathbf1_C\) is predictable: choose Ω as the event in predictable rectangles, and use that (a,b] and {0} generate all time Borel sets. The measure dc is atomless and zero off C; there is no atom at zero either, so integrating over (0,t] leaves the conclusion unchanged. Thus H equals one dc-almost everywhere, whereas it equals zero dt-almost everywhere. Null sets for the two measures cannot be interchanged.
+
+For every finite integer T, isometry and Doob's maximal estimate give the zero error below. Take the countable union of these null sets and use continuous integral versions. Then H·M and 1·M=M are indistinguishable: outside one null set equality holds for every t. Since M₁ has variance one, this is genuinely a nonzero process.
+
+\[ E\sup_{t\le T}|((H-1)\mathbin{\cdot}M)_t|^2\le4E\int_0^T|H_s-1|^2\,dc(s)=0. \]
 
 \[ \int_0^1 H_s^2\,ds=0,\qquad \int_0^1 H_s^2\,dc(s)=1,\qquad (H\mathbin{\cdot}M)_t=(1\mathbin{\cdot}M)_t=M_t. \]
 

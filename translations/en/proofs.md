@@ -1,6 +1,6 @@
 # Corrections and Supplementary Proofs
 
-This appendix preserves mathematical supplements; the website separates public errata, finite-dimensional calculations and proof scope.
+This appendix was added to the restored edition. The six chapters have been restored from the master chat manuscript; this appendix does not replace or compress their original narrative. It expands key arguments treated briefly in the manuscript and identifies the deeper theorems still invoked as known results.
 
 ## A. From Finite to Countable Additivity: The Essential Intermediate Steps
 
@@ -224,7 +224,7 @@ This proves convergence of the joint distribution of the increment vector. Apply
 
 ## G. The Limits of the Proofs of Deeper Theorems
 
-The table concerns the early six-chapter manuscript only; see the topic index for current ownership and proof states.
+The restored edition retains the master manuscript's proofs, explanations, and original links. Complete proofs of the following results are absent from the original six chapters; intuitive explanations must not be described as complete proofs of them.
 
 | Location in the text | What this book actually supplies | What is still invoked as a known result |
 |---|---|---|
@@ -237,4 +237,4 @@ The table concerns the early six-chapter manuscript only; see the topic index fo
 | Section 5.8 | The original proof strategy; Appendices A and B supply closure, additivity, and treatment of cover endpoints | The listed gaps have now been filled here |
 | Section 6.12 | The original route through rectangles, simple functions, and convergence; Appendix C supplies the intermediate set argument | The \(\pi\)-\(\lambda\) theorem is invoked as a set-theoretic tool |
 
-Check current proof states result by result under their hypotheses; a written proof is not final mathematical approval.
+This table describes the scope of the proofs; it does not authorize abridging the text. It distinguishes the narrative's “why this should be true,” the proofs already completed, and the theory that still requires later development.

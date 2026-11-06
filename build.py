@@ -34,5 +34,6 @@ if len(json.loads((ROOT/'provenance/build-inputs.json').read_text('utf8'))['chap
     commands.insert(-1,[sys.executable,str(ROOT/'tools/build-chapter-print.py'),'--chapter','15'])
 for chapter_number in range(16,len(json.loads((ROOT/'provenance/build-inputs.json').read_text('utf8'))['chapters'])+1):
     commands.insert(-1,[sys.executable,str(ROOT/'tools/build-chapter-print.py'),'--chapter',str(chapter_number)])
+commands.insert(-1,[sys.executable,str(ROOT/'tools/publish-explanatory-overlays.py'),'--source',str(ROOT),'--output-dir',str(ROOT/'dist')])
 for cmd in commands:
     subprocess.run(cmd,cwd=ROOT,env=env,check=True)

@@ -1,0 +1,13 @@
+A long observational record need not consist of many experiments starting afresh. Today's temperature follows yesterday's; a system may begin a new cycle only after a return; a random motion continues along the same path. Averaging such records may still reveal stable proportions. Yet the proof that worked for independent samples can no longer discard the dependence terms automatically.
+
+Sometimes the law does not even register the day on which recording began. Shifting the entire time axis leaves the joint distribution of every finite segment unchanged. This is stronger than having the same distribution each day, but it still does not make distant segments independent. Can a symmetry of the whole probability law take over part of independence's role in proving long-term averages?
+
+Another distinction is easy to miss. An average settling to a number along one record does not mean that it settles to the same number along every record. The experiment may first choose an environment in which all later observations live. A longer record can remove local fluctuations without removing information about that unchanged environment. We need to identify what averaging forgets and what it retains.
+
+Studying a long-term law therefore requires more than a convergence symbol. We must identify which events remain the same after time moves, which dependences weaken as gaps increase, and when different starting points genuinely share a statistical outcome. Stability, independence and forgetting may sound similar, but they call for different mathematical judgments.
+
+Time shifts are not the only way to rearrange an observation. If arbitrarily permuting finitely many positions in a sample leaves its law unchanged, that symmetry imposes a different requirement from indifference to the starting date. It may point toward shared latent variables and predictive structure. One mixture of coins, however, cannot establish that all dependence has a single source. When the objects are relation arrays or partitions into classes, the choice of labels being exchanged changes the conclusions available.
+
+This volume treats symmetry as a mathematical restriction that can be tested. We will investigate how it constrains limits, conditional information and random structures, while retaining the boundaries between different symmetries. The unity comes from connections among mathematical questions, not from a claim that time averages, group actions and random partitions followed one historical route of discovery.
+
+We begin with the question closest to long observation and still unanswered by the previous theory: without independence, and with only a probability law unchanged by time shifts, what can one learn from a single increasingly long record?

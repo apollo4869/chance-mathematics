@@ -1,15 +1,15 @@
-# 偶然的数学 / The Mathematics of Chance
+# 偶然的数学 / Chance Mathematics
 
 **Haobai Wang** · 概率论的历史、思想与数学结构
 
-[中文在线阅读](https://chance-mathematics-six-chapters.goldenmath7.chatgpt.site/) · [English](https://chance-mathematics-six-chapters.goldenmath7.chatgpt.site/en/) · [完整离线网页与可编辑原稿](https://chance-mathematics-six-chapters.goldenmath7.chatgpt.site/downloads/complete-offline.zip)
+[中文在线阅读](https://chancemathematics.org/) · [English](https://chancemathematics.org/en/) · [完整离线版](https://chancemathematics.org/downloads/complete-offline.zip)
 
-本仓库同步第1–31章完整中文与英文工作稿、全部配套证明、卷级源文、六个旧高级专题、图片源文件和网站工程。八卷58章为全书规划；尚未写成的章节不作为已有正文提供。
+八卷58章中英文作者阅读工作稿及卷首卷尾齐全。独立专家数学终审仍未完成；网页发布、作者采用和数学终审是不同状态。
 
-Chapters 1–31 are available as complete Chinese manuscripts and English working translations, with companion proofs, volume pages, original figures and reproducible website engineering. Author adoption and independent mathematical final review remain separate from web publication. See `publication/editorial-status.json` and the website versions page.
+本次同步35组解释型插图（中英文各35份），包括最新局部修订和已完成的待审候选。实际嵌入信息与逐图状态见 publication/illustration-release.json。公开正文与当前在线阅读版一致；私人笔记、聊天、评阅提示词及作者未发表研究均不在本仓库中。
 
-Build: install `requirements.txt` and `package.json` dependencies, then run `python build.py`. Open the generated `dist/index.html`, or serve it with `python -m http.server 8768 --bind 127.0.0.1 --directory dist`.
+The complete bilingual 58-chapter author reading edition remains a working draft, not a final academic edition. The illustration manifest preserves adoption and pending-review states separately. The linked hosted edition is current; dist/ retains a historical build snapshot; editable manuscripts and proofs are in chapters/, chapters-en/, foundations/ and foundations-en/.
 
-The official website and offline ZIP are linked above. The ZIP includes the complete rendered bilingual book and editable sources. Bibliographic metadata and immutable reading-edition fingerprints are in `publication/releases/`.
+Build: install requirements.txt and package.json dependencies, then run python build.py. Illustration integration is additive; manuscript bodies are not changed. Deployment is managed separately from this public repository.
 
-免费阅读，欢迎教学分享正式链接。正文、代码、图片及第三方材料的权利分别见 `LICENSE.md`、`publication/materials.json` 和 `CONTRIBUTING.md`；公开源码不构成一般性转载或商业再出版许可。私人聊天、作者提示、内部评阅及未公开研究材料不在本仓库中。
+See LICENSE.md, CITATION.cff and CONTRIBUTING.md. Public availability is not a general reuse licence.

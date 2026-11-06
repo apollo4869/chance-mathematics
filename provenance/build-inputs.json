@@ -30,7 +30,34 @@
     "28-semigroups.md",
     "29-large-deviations.md",
     "30-predictability.md",
-    "31-ito-integral.md"
+    "31-ito-integral.md",
+    "32-ito-formula.md",
+    "33-brownian-relations.md",
+    "34-semimartingales.md",
+    "35-sde-wellposedness.md",
+    "36-scale-speed.md",
+    "37-local-time.md",
+    "38-feynman-kac.md",
+    "39-malliavin.md",
+    "40-stochastic-geometry.md",
+    "41-ergodic-theory.md",
+    "42-harris-coupling.md",
+    "43-exchangeability.md",
+    "44-dirichlet-process.md",
+    "45-invariance.md",
+    "46-arrays.md",
+    "47-partitions.md",
+    "48-point-processes.md",
+    "49-random-measures.md",
+    "50-palm-gibbs.md",
+    "51-random-closed-sets.md",
+    "52-discrete-trees.md",
+    "53-tree-scaling.md",
+    "54-brownian-crt.md",
+    "55-metric-measure-limits.md",
+    "56-fragmentation-hierarchies.md",
+    "57-regenerative-growth.md",
+    "58-multifurcation.md"
   ],
   "citations": [
     "turn673477search0",
@@ -286,6 +313,720 @@
       "slug": "t-ito-bracket",
       "title": "连续鞅平方和、括号与积分",
       "title_en": "Continuous Martingale Square Sums, Brackets and Integration"
+    },
+    {
+      "id": "foundation-ito-formula",
+      "file": "foundations/t-ito-formula.md",
+      "slug": "t-ito-formula",
+      "title": "连续路径的变量变换与积分约定",
+      "title_en": "Change of Variables and Integration Conventions for Continuous Paths"
+    },
+    {
+      "id": "foundation-brownian-relations",
+      "file": "foundations/t-brownian-relations.md",
+      "slug": "t-brownian-relations",
+      "title": "权重、时钟与信息的完整证明",
+      "title_en": "Complete Proofs for Weights, Clocks and Information"
+    },
+    {
+      "id": "foundation-jump-calculus",
+      "file": "foundations/t-jump-calculus.md",
+      "slug": "t-jump-calculus",
+      "title": "半鞅、补偿与跳跃计算的配套证明",
+      "title_en": "Proofs for Semimartingales, Compensation and Jump Calculus"
+    },
+    {
+      "id": "foundation-sde-wellposedness",
+      "file": "foundations/t-sde-wellposedness.md",
+      "slug": "t-sde-wellposedness",
+      "title": "从逼近到实际解",
+      "title_en": "From Approximations to Actual Solutions"
+    },
+    {
+      "id": "foundation-sde-structure",
+      "file": "foundations/t-sde-structure.md",
+      "slug": "t-sde-structure",
+      "title": "规律、输入与共同随机空间",
+      "title_en": "Laws, Inputs and a Common Random Space"
+    },
+    {
+      "id": "foundation-sde-small-noise",
+      "file": "foundations/t-sde-small-noise.md",
+      "slug": "t-sde-small-noise",
+      "title": "反馈方程的路径大偏差",
+      "title_en": "Path Large Deviations for Feedback Equations"
+    },
+    {
+      "id": "foundation-scale-speed",
+      "file": "foundations/t-scale-speed.md",
+      "slug": "t-scale-speed",
+      "title": "停止、Green核与速度归一化",
+      "title_en": "Stopping, Green Kernels and Speed Normalization"
+    },
+    {
+      "id": "foundation-feller-boundaries",
+      "file": "foundations/t-feller-boundaries.md",
+      "slug": "t-feller-boundaries",
+      "title": "可达检验、入口与边界规则",
+      "title_en": "Accessibility, Entrance and Boundary Rules"
+    },
+    {
+      "id": "foundation-diffusion-longtime",
+      "file": "foundations/t-diffusion-longtime.md",
+      "slug": "t-diffusion-longtime",
+      "title": "比较、常返与速度平衡",
+      "title_en": "Comparison, Recurrence and Speed Equilibrium"
+    },
+    {
+      "id": "foundation-local-time",
+      "file": "foundations/t-local-time.md",
+      "slug": "t-local-time",
+      "title": "凸逼近、占用密度与空间正则",
+      "title_en": "Convex Approximation, Occupation and Spatial Regularity"
+    },
+    {
+      "id": "foundation-excursions",
+      "file": "foundations/t-excursions.md",
+      "slug": "t-excursions",
+      "title": "阈值再生、游程Poisson性与规范游程",
+      "title_en": "Threshold Regeneration, Poisson Excursions and Normalization"
+    },
+    {
+      "id": "foundation-ray-knight",
+      "file": "foundations/t-ray-knight.md",
+      "slug": "t-ray-knight",
+      "title": "用Laplace读数证明两条Ray–Knight定理",
+      "title_en": "Two Ray–Knight Theorems through Laplace Readings"
+    },
+    {
+      "id": "foundation-diffusion-time",
+      "file": "foundations/t-diffusion-time.md",
+      "slug": "t-diffusion-time",
+      "title": "奇异速度、边界时钟与Revuz联系",
+      "title_en": "Singular Speed, Boundary Clocks and Revuz Connections"
+    },
+    {
+      "id": "foundation-feynman-kac",
+      "file": "foundations/t-feynman-kac.md",
+      "slug": "t-feynman-kac",
+      "title": "路径结算、经典解、边界与奇异源",
+      "title_en": "Path Accounts, Classical Solutions, Boundaries and Singular Sources"
+    },
+    {
+      "id": "foundation-potential",
+      "file": "foundations/t-potential.md",
+      "slug": "t-potential",
+      "title": "过分函数、Riesz、容量与扫掠",
+      "title_en": "Excessiveness, Riesz, Capacity and Sweeping"
+    },
+    {
+      "id": "foundation-revuz",
+      "file": "foundations/t-revuz.md",
+      "slug": "t-revuz",
+      "title": "对称Hunt连续有界势的Revuz对应",
+      "title_en": "Revuz Correspondence for Continuous Bounded Potentials"
+    },
+    {
+      "id": "foundation-differentiation",
+      "file": "foundations/t-differentiation.md",
+      "slug": "t-differentiation",
+      "title": "覆盖、Lebesgue微分与奇异密度",
+      "title_en": "Covering, Lebesgue Differentiation and Singular Densities"
+    },
+    {
+      "id": "foundation-gaussian",
+      "file": "foundations/t-gaussian.md",
+      "slug": "t-gaussian",
+      "title": "Hermite、chaos及Gaussian Banach平移",
+      "title_en": "Hermite, Chaos and Gaussian Banach Translations"
+    },
+    {
+      "id": "foundation-malliavin",
+      "file": "foundations/t-malliavin.md",
+      "slug": "t-malliavin",
+      "title": "闭导数、Sobolev域与散度",
+      "title_en": "Closed Derivatives, Sobolev Domains and Divergence"
+    },
+    {
+      "id": "foundation-malliavin-density",
+      "file": "foundations/t-malliavin-density.md",
+      "slug": "t-malliavin-density",
+      "title": "协方差、密度与加性SDE",
+      "title_en": "Covariance, Densities and Additive SDEs"
+    },
+    {
+      "id": "foundation-clark-ocone",
+      "file": "foundations/t-clark-ocone.md",
+      "slug": "t-clark-ocone",
+      "title": "可预测敏感度与Clark–Ocone公式",
+      "title_en": "Predictable Sensitivity and Clark–Ocone"
+    },
+    {
+      "id": "foundation-geometry",
+      "file": "foundations/t-geometry.md",
+      "slug": "t-geometry",
+      "title": "坐标、度量、联络与标架",
+      "title_en": "Coordinates, Metrics, Connections and Frames"
+    },
+    {
+      "id": "foundation-manifold-diffusions",
+      "file": "foundations/t-manifold-diffusions.md",
+      "slug": "t-manifold-diffusions",
+      "title": "从坐标方程到真正的流形扩散",
+      "title_en": "From Chart Equations to Actual Diffusions"
+    },
+    {
+      "id": "foundation-development",
+      "file": "foundations/t-development.md",
+      "slug": "t-development",
+      "title": "随机发展、几何不变性与寿命",
+      "title_en": "Development, Invariance and Lifetime"
+    },
+    {
+      "id": "foundation-lie-levy",
+      "file": "foundations/t-lie-levy.md",
+      "slug": "t-lie-levy",
+      "title": "紧矩阵Lie群上的实际构造",
+      "title_en": "Construction on Compact Matrix Lie Groups"
+    },
+    {
+      "id": "foundation-ergodic",
+      "file": "foundations/t-ergodic.md",
+      "slug": "t-ergodic",
+      "title": "保测平均与逐点极限",
+      "title_en": "Measure-Preserving Averages and Pointwise Limits"
+    },
+    {
+      "id": "foundation-ergodic-decomposition",
+      "file": "foundations/t-ergodic-decomposition.md",
+      "slug": "t-ergodic-decomposition",
+      "title": "标准Borel遍历分解",
+      "title_en": "Standard Borel Ergodic Decomposition"
+    },
+    {
+      "id": "foundation-subadditive",
+      "file": "foundations/t-subadditive.md",
+      "slug": "t-subadditive",
+      "title": "次可加遍历与随机乘积",
+      "title_en": "Subadditive Ergodic Theory and Random Products"
+    },
+    {
+      "id": "foundation-multiparameter",
+      "file": "foundations/t-multiparameter.md",
+      "slug": "t-multiparameter",
+      "title": "多参数长方体平均",
+      "title_en": "Multiparameter Rectangular Averages"
+    },
+    {
+      "id": "foundation-entropy",
+      "file": "foundations/t-entropy.md",
+      "slug": "t-entropy",
+      "title": "信息率与生成划分",
+      "title_en": "Information Rates and Generating Partitions"
+    },
+    {
+      "id": "foundation-coupling",
+      "file": "foundations/t-coupling.md",
+      "slug": "t-coupling",
+      "title": "耦合、共同质量与时间对齐",
+      "title_en": "Coupling, Common Mass and Time Alignment"
+    },
+    {
+      "id": "foundation-harris-regeneration",
+      "file": "foundations/t-harris-regeneration.md",
+      "slug": "t-harris-regeneration",
+      "title": "小集分裂、周期测度与Harris常返",
+      "title_en": "Splitting, Cycle Measures and Harris Recurrence"
+    },
+    {
+      "id": "foundation-harris-convergence",
+      "file": "foundations/t-harris-convergence.md",
+      "slug": "t-harris-convergence",
+      "title": "再生时钟与总变差极限",
+      "title_en": "Regeneration Clocks and Total Variation Limits"
+    },
+    {
+      "id": "foundation-harris-ratio",
+      "file": "foundations/t-harris-ratio.md",
+      "slug": "t-harris-ratio",
+      "title": "再生比极限与保守Hopf定理",
+      "title_en": "Regenerative Ratios and a Conservative Hopf Theorem"
+    },
+    {
+      "id": "foundation-harris-drift",
+      "file": "foundations/t-harris-drift.md",
+      "slug": "t-harris-drift",
+      "title": "漂移与定量Harris判据",
+      "title_en": "Drift and a Quantitative Harris Criterion"
+    },
+    {
+      "id": "foundation-exchangeability",
+      "file": "foundations/t-exchangeability.md",
+      "slug": "t-exchangeability",
+      "title": "有限对称、无放回抽样与Bernoulli表示",
+      "title_en": "Finite Symmetry, Sampling without Replacement and Bernoulli Representation"
+    },
+    {
+      "id": "foundation-directing-measure",
+      "file": "foundations/t-directing-measure.md",
+      "slug": "t-directing-measure",
+      "title": "随机指导概率、标准Borel结构与de Finetti主证",
+      "title_en": "Random Directing Probabilities, Standard Borel Structure and de Finetti Representation"
+    },
+    {
+      "id": "foundation-exchangeable-information",
+      "file": "foundations/t-exchangeable-information.md",
+      "slug": "t-exchangeable-information",
+      "title": "置换不变信息、尾部、零一律与预测",
+      "title_en": "Permutation-Invariant Information, Tails, Zero–One Laws and Prediction"
+    },
+    {
+      "id": "foundation-exchangeable-empirical",
+      "file": "foundations/t-exchangeable-empirical.md",
+      "slug": "t-exchangeable-empirical",
+      "title": "经验概率的极限、弱拓扑与量词边界",
+      "title_en": "Empirical Probability Limits, Weak Topology and Quantifier Boundaries"
+    },
+    {
+      "id": "foundation-polya-dirichlet",
+      "file": "foundations/t-polya-dirichlet.md",
+      "slug": "t-polya-dirichlet",
+      "title": "Pólya预测、Gamma归一化与有限Dirichlet理论",
+      "title_en": "Pólya Prediction, Gamma Normalization and Finite Dirichlet Theory"
+    },
+    {
+      "id": "foundation-dirichlet-process",
+      "file": "foundations/t-dirichlet-process.md",
+      "slug": "t-dirichlet-process",
+      "title": "从预测核到Dirichlet随机概率及后验",
+      "title_en": "From Predictive Kernels to Dirichlet Random Probabilities and Their Posterior"
+    },
+    {
+      "id": "foundation-stick-breaking",
+      "file": "foundations/t-stick-breaking.md",
+      "slug": "t-stick-breaking",
+      "title": "随机权重、stick-breaking与Dirichlet识别",
+      "title_en": "Random Weights, Stick-Breaking and Dirichlet Identification"
+    },
+    {
+      "id": "foundation-crp",
+      "file": "foundations/t-crp.md",
+      "slug": "t-crp",
+      "title": "餐桌划分、标签、EPPF与出现次序中的频率",
+      "title_en": "Table Partitions, Labels, EPPFs and Frequencies in Creation Order"
+    },
+    {
+      "id": "foundation-haar",
+      "file": "foundations/t-haar.md",
+      "slug": "t-haar",
+      "title": "Haar平均、局部测量与左右之别",
+      "title_en": "Haar Averaging, Local Measurement and Left versus Right"
+    },
+    {
+      "id": "foundation-orbits",
+      "file": "foundations/t-orbits.md",
+      "slug": "t-orbits",
+      "title": "轨道、条件概率与共同版本",
+      "title_en": "Orbits, Conditional Probabilities and Common Versions"
+    },
+    {
+      "id": "foundation-predictable-symmetry",
+      "file": "foundations/t-predictable-symmetry.md",
+      "slug": "t-predictable-symmetry",
+      "title": "采样、可缩性与信息顺序",
+      "title_en": "Sampling, Spreadability and Information Order"
+    },
+    {
+      "id": "foundation-rotatable",
+      "file": "foundations/t-rotatable.md",
+      "slug": "t-rotatable",
+      "title": "有限旋转与无限Gaussian混合",
+      "title_en": "Finite Rotations and Infinite Gaussian Mixtures"
+    },
+    {
+      "id": "foundation-arrays",
+      "file": "foundations/t-arrays.md",
+      "slug": "t-arrays",
+      "title": "共享指标、条件独立与有限阶表示",
+      "title_en": "Shared-Index Conditional Independence and Finite-Order Representation"
+    },
+    {
+      "id": "foundation-array-variants",
+      "file": "foundations/t-array-variants.md",
+      "slug": "t-array-variants",
+      "title": "方向、对角与分别交换的完整构造",
+      "title_en": "Directions, Diagonals and Separate Exchangeability"
+    },
+    {
+      "id": "foundation-array-ergodic",
+      "file": "foundations/t-array-ergodic.md",
+      "slug": "t-array-ergodic",
+      "title": "分离性、极端律与可观察的全局信息",
+      "title_en": "Dissociation, Extreme Laws and Observable Global Information"
+    },
+    {
+      "id": "foundation-graphons",
+      "file": "foundations/t-graphons.md",
+      "slug": "t-graphons",
+      "title": "随机图、有限模式与表示非唯一性",
+      "title_en": "Random Graphs, Finite Patterns and Nonunique Representations"
+    },
+    {
+      "id": "foundation-paintbox",
+      "file": "foundations/t-paintbox.md",
+      "slug": "t-paintbox",
+      "title": "交换划分、频率与唯一混合",
+      "title_en": "Exchangeable Partitions, Frequencies and Unique Mixtures"
+    },
+    {
+      "id": "foundation-partition-prediction",
+      "file": "foundations/t-partition-prediction.md",
+      "slug": "t-partition-prediction",
+      "title": "EPPF、Ewens与两参数预测",
+      "title_en": "EPPFs, Ewens and Two-Parameter Prediction"
+    },
+    {
+      "id": "foundation-kingman-coalescent",
+      "file": "foundations/t-kingman-coalescent.md",
+      "slug": "t-kingman-coalescent",
+      "title": "有限合并、无限路径与从无穷下降",
+      "title_en": "Finite Mergers, Infinite Paths and Coming Down"
+    },
+    {
+      "id": "foundation-coalescent-mutation",
+      "file": "foundations/t-coalescent-mutation.md",
+      "slug": "t-coalescent-mutation",
+      "title": "突变模型怎样真正产生Ewens公式",
+      "title_en": "How a Mutation Model Actually Produces Ewens"
+    },
+    {
+      "id": "foundation-riesz",
+      "file": "foundations/t-riesz.md",
+      "slug": "t-riesz",
+      "title": "连续测试的Radon表示",
+      "title_en": "Radon Representation of Continuous Tests"
+    },
+    {
+      "id": "foundation-point-measures",
+      "file": "foundations/t-point-measures.md",
+      "slug": "t-point-measures",
+      "title": "点测度的状态空间",
+      "title_en": "The State Space of Point Measures"
+    },
+    {
+      "id": "foundation-point-laplace",
+      "file": "foundations/t-point-laplace.md",
+      "slug": "t-point-laplace",
+      "title": "泛函识别与点过程极限",
+      "title_en": "Functional Identification and Point-Process Limits"
+    },
+    {
+      "id": "foundation-poisson-space",
+      "file": "foundations/t-poisson-space.md",
+      "slug": "t-poisson-space",
+      "title": "空间Poisson与Cox构造",
+      "title_en": "Spatial Poisson and Cox Constructions"
+    },
+    {
+      "id": "foundation-point-transforms",
+      "file": "foundations/t-point-transforms.md",
+      "slug": "t-point-transforms",
+      "title": "标记、映射与均值",
+      "title_en": "Marking, Mapping and Means"
+    },
+    {
+      "id": "foundation-poisson-chaos",
+      "file": "foundations/t-poisson-chaos.md",
+      "slug": "t-poisson-chaos",
+      "title": "重合点、多重积分与L²解耦",
+      "title_en": "Coincidences, Multiple Integrals and L² Decoupling"
+    },
+    {
+      "id": "foundation-radon-space",
+      "file": "foundations/t-radon-space.md",
+      "slug": "t-radon-space",
+      "title": "一般非负Radon测度空间",
+      "title_en": "The Space of Nonnegative Radon Measures"
+    },
+    {
+      "id": "foundation-random-measure-limits",
+      "file": "foundations/t-random-measure-limits.md",
+      "slug": "t-random-measure-limits",
+      "title": "随机质量的识别与收敛",
+      "title_en": "Identification and Convergence of Random Mass"
+    },
+    {
+      "id": "foundation-mass-kernels",
+      "file": "foundations/t-mass-kernels.md",
+      "slug": "t-mass-kernels",
+      "title": "质量核、平滑与Poisson化",
+      "title_en": "Mass Kernels, Smoothing, and Poissonization"
+    },
+    {
+      "id": "foundation-scattering",
+      "file": "foundations/t-scattering.md",
+      "slug": "t-scattering",
+      "title": "独立位移、耗散与Cox极限",
+      "title_en": "Independent Displacements, Dissipation, and Cox Limits"
+    },
+    {
+      "id": "foundation-mass-clusters",
+      "file": "foundations/t-mass-clusters.md",
+      "slug": "t-mass-clusters",
+      "title": "Poisson簇、随机线质量与Gamma测度",
+      "title_en": "Poisson Clusters, Random Line Mass, and Gamma Measures"
+    },
+    {
+      "id": "foundation-palm",
+      "file": "foundations/t-palm.md",
+      "slug": "t-palm",
+      "title": "Campbell测度与Palm核的实际构造",
+      "title_en": "Campbell Measures and the Construction of Palm Kernels"
+    },
+    {
+      "id": "foundation-mecke",
+      "file": "foundations/t-mecke.md",
+      "slug": "t-mecke",
+      "title": "Poisson识别、Cox偏置与簇Palm律",
+      "title_en": "Poisson Identification, Cox Bias, and Cluster Palm Laws"
+    },
+    {
+      "id": "foundation-palm-inversion",
+      "file": "foundations/t-palm-inversion.md",
+      "slug": "t-palm-inversion",
+      "title": "反演、质量输送与时间—周期对偶",
+      "title_en": "Inversion, Mass Transport, and Time–Cycle Duality"
+    },
+    {
+      "id": "foundation-palm-approximation",
+      "file": "foundations/t-palm-approximation.md",
+      "slug": "t-palm-approximation",
+      "title": "局部条件化、近似误差与拓扑",
+      "title_en": "Local Conditioning, Approximation Errors, and Topology"
+    },
+    {
+      "id": "foundation-gibbs",
+      "file": "foundations/t-gibbs.md",
+      "slug": "t-gibbs",
+      "title": "Papangelou密度与Gibbs核",
+      "title_en": "Papangelou Densities and Gibbs Kernels"
+    },
+    {
+      "id": "foundation-fell",
+      "file": "foundations/t-fell.md",
+      "slug": "t-fell",
+      "title": "闭集空间、Fell拓扑与可测观察",
+      "title_en": "Closed-Set Spaces, Fell Topology, and Measurable Observations"
+    },
+    {
+      "id": "foundation-choquet",
+      "file": "foundations/t-choquet.md",
+      "slug": "t-choquet",
+      "title": "一致命中概率与Choquet表示",
+      "title_en": "Consistent Hit Probabilities and Choquet Representation"
+    },
+    {
+      "id": "foundation-closed-limits",
+      "file": "foundations/t-closed-limits.md",
+      "slug": "t-closed-limits",
+      "title": "容量与随机闭集的弱收敛",
+      "title_en": "Capacities and Weak Convergence of Random Closed Sets"
+    },
+    {
+      "id": "foundation-random-shapes",
+      "file": "foundations/t-random-shapes.md",
+      "slug": "t-random-shapes",
+      "title": "测度、路径和随机覆盖的闭集",
+      "title_en": "Closed Sets from Measures, Paths, and Coverage"
+    },
+    {
+      "id": "foundation-tree-coding",
+      "file": "foundations/t-tree-coding.md",
+      "slug": "t-tree-coding",
+      "title": "有限平面树与三种路径的双向编码",
+      "title_en": "Finite Plane Trees and Three Invertible Path Encodings"
+    },
+    {
+      "id": "foundation-gw-trees",
+      "file": "foundations/t-gw-trees.md",
+      "slug": "t-gw-trees",
+      "title": "完整谱系、探索与规模",
+      "title_en": "Complete Genealogies, Exploration, and Total Size"
+    },
+    {
+      "id": "foundation-cyclic-dwass",
+      "file": "foundations/t-cyclic-dwass.md",
+      "slug": "t-cyclic-dwass",
+      "title": "编号切口、首次下降与总规模",
+      "title_en": "Indexed Cuts, First Passage, and Total Progeny"
+    },
+    {
+      "id": "foundation-conditioned-bridge",
+      "file": "foundations/t-conditioned-bridge.md",
+      "slug": "t-conditioned-bridge",
+      "title": "有限方差格点桥的函数极限",
+      "title_en": "A Functional Limit for Finite-Variance Lattice Bridges"
+    },
+    {
+      "id": "foundation-vervaat",
+      "file": "foundations/t-vervaat.md",
+      "slug": "t-vervaat",
+      "title": "从格点桥的切口到规范Brownian游程",
+      "title_en": "From Lattice-Bridge Cuts to the Normalized Brownian Excursion"
+    },
+    {
+      "id": "foundation-conditioned-height",
+      "file": "foundations/t-conditioned-height.md",
+      "slug": "t-conditioned-height",
+      "title": "仅有限方差的高度、轮廓与联合极限",
+      "title_en": "Height, Contour, and Joint Limits under Finite Variance Alone"
+    },
+    {
+      "id": "foundation-real-tree-code",
+      "file": "foundations/t-real-tree-code.md",
+      "slug": "t-real-tree-code",
+      "title": "连续游程商空间的完整实树证明",
+      "title_en": "The Complete Real-Tree Proof for an Excursion Quotient"
+    },
+    {
+      "id": "foundation-crt-sampling",
+      "file": "foundations/t-crt-sampling.md",
+      "slug": "t-crt-sampling",
+      "title": "Brownian CRT有限约化子树的实际密度",
+      "title_en": "The Density of Finite Reduced Brownian CRT Subtrees"
+    },
+    {
+      "id": "foundation-crt-randomness",
+      "file": "foundations/t-crt-randomness.md",
+      "slug": "t-crt-randomness",
+      "title": "质量、随机性与有限距离读数",
+      "title_en": "Mass, Randomness and Finite Distance Readings"
+    },
+    {
+      "id": "foundation-gh",
+      "file": "foundations/t-gh.md",
+      "slug": "t-gh",
+      "title": "公共空间、对应与紧几何空间的完备性",
+      "title_en": "Common Spaces, Correspondences and Completeness of Compact Geometry"
+    },
+    {
+      "id": "foundation-prokhorov-coupling",
+      "file": "foundations/t-prokhorov-coupling.md",
+      "slug": "t-prokhorov-coupling",
+      "title": "从集合不等式到质量耦合",
+      "title_en": "From Set Inequalities to Mass Couplings"
+    },
+    {
+      "id": "foundation-gp-ghp",
+      "file": "foundations/t-gp-ghp.md",
+      "slug": "t-gp-ghp",
+      "title": "识别对象、采样、Polish空间与紧性",
+      "title_en": "Identification, Sampling, Polish Spaces and Tightness"
+    },
+    {
+      "id": "foundation-tree-ghp",
+      "file": "foundations/t-tree-ghp.md",
+      "slug": "t-tree-ghp",
+      "title": "编码稳定性、节点质量与CRT空间极限",
+      "title_en": "Coding Stability, Vertex Mass and the CRT Space Limit"
+    },
+    {
+      "id": "foundation-hierarchy-consistency",
+      "file": "foundations/t-hierarchy-consistency.md",
+      "slug": "t-hierarchy-consistency",
+      "title": "有限限制、嵌套paintbox与树表示的范围",
+      "title_en": "Finite Restrictions, Nested Paintboxes and the Scope of Tree Representation"
+    },
+    {
+      "id": "foundation-homogeneous-fragmentation",
+      "file": "foundations/t-homogeneous-fragmentation.md",
+      "slug": "t-homogeneous-fragmentation",
+      "title": "一般分裂测度、侵蚀、共同频率与标记块",
+      "title_en": "General Dislocation Measures, Erosion, Joint Frequencies and a Tagged Block"
+    },
+    {
+      "id": "foundation-selfsimilar-fragmentation",
+      "file": "foundations/t-selfsimilar-fragmentation.md",
+      "slug": "t-selfsimilar-fragmentation",
+      "title": "有限分裂测度的全部实指数、侵蚀与爆炸",
+      "title_en": "All Real Indices, Erosion and Explosion for Finite Dislocation Measures"
+    },
+    {
+      "id": "foundation-lambda-coalescent",
+      "file": "foundations/t-lambda-coalescent.md",
+      "slug": "t-lambda-coalescent",
+      "title": "一致率、Poisson构造、dust与反演边界",
+      "title_en": "Consistent Rates, Poisson Construction, Dust and Reversal Boundaries"
+    },
+    {
+      "id": "foundation-tree-cuts",
+      "file": "foundations/t-tree-cuts.md",
+      "slug": "t-tree-cuts",
+      "title": "长度Poisson切割、有限样本一致性与模型边界",
+      "title_en": "Length-Poisson Cutting, Finite-Sample Consistency and Model Boundaries"
+    },
+    {
+      "id": "foundation-markov-branching",
+      "file": "foundations/t-markov-branching.md",
+      "slug": "t-markov-branching",
+      "title": "删叶一致性、分裂律与再生表示",
+      "title_en": "Leaf Deletion, Splitting Laws and Regenerative Representation"
+    },
+    {
+      "id": "foundation-linebreaking-crt",
+      "file": "foundations/t-linebreaking-crt.md",
+      "slug": "t-linebreaking-crt",
+      "title": "4r时钟、无限紧树与经验质量",
+      "title_en": "The 4r Clock, Infinite Compact Tree and Empirical Mass"
+    },
+    {
+      "id": "foundation-regenerative-spine",
+      "file": "foundations/t-regenerative-spine.md",
+      "slug": "t-regenerative-spine",
+      "title": "CRP生长、Brownian脊柱与再生分解",
+      "title_en": "CRP Growth, Brownian Spines and Regenerative Decomposition"
+    },
+    {
+      "id": "foundation-pointed-gw-trees",
+      "file": "foundations/t-pointed-gw-trees.md",
+      "slug": "t-pointed-gw-trees",
+      "title": "典型个体、祖先再生与临界局部极限",
+      "title_en": "Typical Individuals, Ancestral Regeneration and a Critical Local Limit"
+    },
+    {
+      "id": "foundation-kary-universality",
+      "file": "foundations/t-kary-universality.md",
+      "slug": "t-kary-universality",
+      "title": "孩子数、连续度数与抽样质量",
+      "title_en": "Offspring Counts, Continuum Degrees and Sampled Mass"
+    },
+    {
+      "id": "foundation-public-kary-growth",
+      "file": "foundations/t-public-kary-growth.md",
+      "slug": "t-public-kary-growth",
+      "title": "公开选边模型与持久节点质量",
+      "title_en": "A Published Edge-Growth Model and Persistent-Vertex Mass"
+    },
+    {
+      "id": "foundation-csbp-semigroups",
+      "file": "foundations/t-csbp-semigroups.md",
+      "slug": "t-csbp-semigroups",
+      "title": "由繁殖近似建立连续状态分枝",
+      "title_en": "Continuous-State Branching from Reproduction Approximations"
+    },
+    {
+      "id": "foundation-levy-height",
+      "file": "foundations/t-levy-height.md",
+      "slug": "t-levy-height",
+      "title": "相容谱系、紧Lévy森林与高度识别的边界",
+      "title_en": "Consistent Genealogies, Compact Lévy Forests and the Height-Identification Boundary"
+    },
+    {
+      "id": "foundation-icrt-poisson",
+      "file": "foundations/t-icrt-poisson.md",
+      "slug": "t-icrt-poisson",
+      "title": "重复时钟、接枝与紧性边界",
+      "title_en": "Repeat Clocks, Grafting and the Compactness Boundary"
     }
   ]
 }
