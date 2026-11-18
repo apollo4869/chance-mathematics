@@ -1,6 +1,6 @@
 # Chapter 43: If We Reorder Observations, Does Probability Stay the Same?
 
-Place two cards in a box, marked zero and one, shuffle, and draw them without replacement. The records01 and10 are equally likely. Yet after seeing the first card, the second is certain. Reordering does not change the probability of the complete record, although one observation completely changes the next prediction.
+Place two cards in a box, marked zero and one, shuffle, and draw them without replacement. The records 01 and 10 are equally likely. Yet after seeing the first card, the second is certain. Reordering does not change the probability of the complete record, although one observation completely changes the next prediction.
 
 ## 43.1 Two cards already distinguish two random structures
 
@@ -42,11 +42,11 @@ Variance expresses the obstruction in a reusable form. Each marginal variance is
 
 Thus infinite symmetry is not merely adding more coordinates. Compatibility at arbitrary length imposes new constraints on dependence. Any representation theorem must preserve this infinite hypothesis; it cannot be inferred from one finite urn.
 
-## 43.5 Reversing the construction in Chapter2
+## 43.5 Reversing the construction in Chapter 2
 
 <a id="exchange-converse"></a>
 
-Chapter2 first selected an unknown chance Θ and then tossed coins independently given Θ. Unconditionally they share Θ and may depend; a word probability depends only on its number of ones, so the record is exchangeable. That construction moves from parameter to record.
+Chapter 2 first selected an unknown chance Θ and then tossed coins independently given Θ. Unconditionally they share Θ and may depend; a word probability depends only on its number of ones, so the record is exchangeable. That construction moves from parameter to record.
 
 \[ P(X_1=x_1,\ldots,X_k=x_k)=E[\Theta^r(1-\Theta)^{k-r}]. \]
 
@@ -60,7 +60,7 @@ Fix a short length k inside a much larger first N observations. Sampling positio
 
 \[ L_N=\frac1N\sum_{i=1}^N\delta_{X_i},\qquad d_{\rm TV}\!\left(\mathcal L(X_1,\ldots,X_k),E[L_N^{\otimes k}]\right)\le\min\left(1,\frac{k(k-1)}{2N}\right). \]
 
-This uses Chapter42 coupling for a new finite-symmetry approximation: fix the record and couple the indices, without assuming independent observations. Given the record, replacement sampling has the empirical product law. The full index construction is in [T-EXCHANGEABILITY](../foundations/t-exchangeability.md#exchange-proof-replacement).
+This uses Chapter 42 coupling for a new finite-symmetry approximation: fix the record and couple the indices, without assuming independent observations. Given the record, replacement sampling has the empirical product law. The full index construction is in [T-EXCHANGEABILITY](../foundations/t-exchangeability.md#exchange-proof-replacement).
 
 For fixed k the error disappears as N grows. This is not yet a representation: the empirical probability changes with N, and its limit must be established. Approximate products alone do not create a limiting random parameter.
 
@@ -74,7 +74,7 @@ Under an exchangeable law all first N positions have equal status given this inf
 
 \[ E[X_1\mid\mathcal G_N]=\frac1N\sum_{i=1}^N X_i,\qquad \mathcal G_N\downarrow\mathcal J. \]
 
-J contains the information invariant under all finite permutations. Chapter15 now gives an almost sure and L¹ frequency limit. We have not pretended the record is iid; symmetry creates another route through conditional averages.
+J contains the information invariant under all finite permutations. Chapter 15 now gives an almost sure and L¹ frequency limit. We have not pretended the record is iid; symmetry creates another route through conditional averages.
 
 ## 43.8 A random chance emerges from the record
 
@@ -116,7 +116,7 @@ Finite averaging yields a Bernoulli-type empirical limit for each set A. But ass
 
 A nonexchangeable warning is the deterministic record Xᵢ=i. On the natural numbers each finite set has limiting empirical mass zero, while the whole space always has mass one. The limits on the finite-cofinite algebra form a finitely additive probability with no countably additive extension having those values. This does not refute exchangeability; it exposes the missing step in taking limits separately.
 
-Chapter10 provides a safer tool: a conditional probability kernel first constructs a whole probability, which frequencies can then identify. We must explain how a probability itself becomes a random object.
+Chapter 10 provides a safer tool: a conditional probability kernel first constructs a whole probability, which frequencies can then identify. We must explain how a probability itself becomes a random object.
 
 ## 43.12 Observing a probability as a random object
 
@@ -134,7 +134,7 @@ Return to J. We need not list all its events to ask for the conditional law of X
 
 \[ \nu(\omega,A)=P(X_1\in A\mid\mathcal J)(\omega),\qquad L_N(A)=E[\mathbf1_A(X_1)\mid\mathcal G_N]\longrightarrow\nu(A). \]
 
-Versions cannot be selected arbitrarily set by set. Chapter10 first unifies rational CDF readings outside a countable null set, repairs them into a probability kernel, and then verifies conditional identities by a monotone class. Simultaneous empirical limits on a countable determining algebra identify that existing probability.
+Versions cannot be selected arbitrarily set by set. Chapter 10 first unifies rational CDF readings outside a countable null set, repairs them into a probability kernel, and then verifies conditional identities by a monotone class. Simultaneous empirical limits on a countable determining algebra identify that existing probability.
 
 ## 43.14 How symmetry averaging separates several coordinates
 
@@ -154,7 +154,7 @@ First establish this simultaneously on the countable algebra for all k, then ext
 
 <a id="exchange-path-law"></a>
 
-Chapter8 constructs the infinite product for each μ. Cylinder evaluations are products of μ-evaluations, and a monotone class makes these products a kernel K(μ,·). Also take the regular conditional law R of the whole record given J. The preceding identities make R and K(ν,·) agree simultaneously on countable determining cylinders. Off their common null set they are probabilities agreeing as whole path measures by π–λ.
+Chapter 8 constructs the infinite product for each μ. Cylinder evaluations are products of μ-evaluations, and a monotone class makes these products a kernel K(μ,·). Also take the regular conditional law R of the whole record given J. The preceding identities make R and K(ν,·) agree simultaneously on countable determining cylinders. Off their common null set they are probabilities agreeing as whole path measures by π–λ.
 
 \[ P(X\in D\mid\mathcal J)=\nu^{\otimes\mathbb N}(D),\qquad P(X\in D\mid\sigma(\nu))=\nu^{\otimes\mathbb N}(D). \]
 
@@ -212,9 +212,9 @@ This is the Hewitt–Savage zero-one law. A general exchangeable mixture fails i
 
 <a id="exchange-stationary"></a>
 
-Infinite exchangeability implies strict stationarity: a finite index translation can be completed to a finite permutation. The converse fails: Chapter41’s random-phase alternating record supports010 and101, not001. Independence, shift invariance and finite-permutation invariance have distinct conditions.
+Infinite exchangeability implies strict stationarity: a finite index translation can be completed to a finite permutation. The converse fails: Chapter 41’s random-phase alternating record supports 010 and 101, not 001. Independence, shift invariance and finite-permutation invariance have distinct conditions.
 
-If the director is nondegenerate, some determining A has nonconstant ν(A). Conditional iid gives a positive covariance between its indicators at any two distinct positions, regardless of separation. Unlike Chapter42 mixing, this dependence does not decay.
+If the director is nondegenerate, some determining A has nonconstant ν(A). Conditional iid gives a positive covariance between its indicators at any two distinct positions, regardless of separation. Unlike Chapter 42 mixing, this dependence does not decay.
 
 \[ \operatorname{Cov}(\mathbf1_A(X_i),\mathbf1_A(X_j))=\operatorname{Var}(\nu(A))>0\quad(i\ne j). \]
 
@@ -228,9 +228,9 @@ Let Fₙ contain only the first n observations actually seen. Given ν and the p
 
 \[ E[f(X_{n+1})\mid\mathcal F_n]=E[\nu f\mid\mathcal F_n]\longrightarrow\nu f\quad\text{a.s. and in }L^1\qquad(f\text{ bounded Borel}). \]
 
-Conditional independence first justifies νf given both ν and the past; the tower then yields the equality. Since ν is measurable from the whole record, upward martingale convergence in Chapter15 identifies the posterior limit as νf. See the [prediction proof](../foundations/t-exchangeable-information.md#exchange-info-prediction) for the tests and null sets.
+Conditional independence first justifies νf given both ν and the past; the tower then yields the equality. Since ν is measurable from the whole record, upward martingale convergence in Chapter 15 identifies the posterior limit as νf. See the [prediction proof](../foundations/t-exchangeable-information.md#exchange-info-prediction) for the tests and null sets.
 
-For a Bernoulli mixture an n-word with k ones reweights M by pᵏ(1−p)ⁿ⁻ᵏ. A Beta prior gives the Chapter2 prediction (k+a)/(n+a+b). The new result is not that integral again, but existence and uniqueness of M for every infinite exchangeable law. Zero-denominator words are impossible under the model and admit arbitrary conditional versions.
+For a Bernoulli mixture an n-word with k ones reweights M by pᵏ(1−p)ⁿ⁻ᵏ. A Beta prior gives the Chapter 2 prediction (k+a)/(n+a+b). The new result is not that integral again, but existence and uniqueness of M for every infinite exchangeable law. Zero-denominator words are impossible under the model and admit arbitrary conditional versions.
 
 ## 43.22 The probability is unique, not every hidden parameter label
 
@@ -254,7 +254,7 @@ Observation preserves symmetry under fixed relabeling while changing our knowled
 
 <a id="exchange-sources"></a>
 
-The [1937 paper of de Finetti](https://numdam.org/item/AIHP_1937__7_1_1_0/) appeared in Annales de l’Institut Henri Poincaré7(1),1–68. Hewitt and Savage published [Symmetric measures on Cartesian products](https://doi.org/10.1090/S0002-9947-1955-0076206-8) in Transactions of the AMS80 (1955),470–501. Our cards, collision comparison and conditional-kernel sequence are a modern reconstruction, not a claim that either original followed this discovery route.
+The [1937 paper of de Finetti](https://numdam.org/item/AIHP_1937__7_1_1_0/) appeared in Annales de l’Institut Henri Poincaré 7(1), 1–68. Hewitt and Savage published [Symmetric measures on Cartesian products](https://doi.org/10.1090/S0002-9947-1955-0076206-8) in Transactions of the AMS 80 (1955), 470–501. Our cards, collision comparison and conditional-kernel sequence are a modern reconstruction, not a claim that either original followed this discovery route.
 
 Further reading on exchangeable representations is available in the [author lectures of Aldous](https://www.stat.berkeley.edu/~aldous/Papers/me22.pdf). Proofs and exposition are developed independently here. The four complete companions are [T-EXCHANGEABILITY](../foundations/t-exchangeability.md), [T-DIRECTING-MEASURE](../foundations/t-directing-measure.md), [T-EXCHANGEABLE-INFORMATION](../foundations/t-exchangeable-information.md), and [T-EXCHANGEABLE-EMPIRICAL](../foundations/t-exchangeable-empirical.md).
 

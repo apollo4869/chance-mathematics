@@ -10,7 +10,7 @@ What we must identify is no longer just the random probability governing one obs
 
 Construct two infinite relation tables. In the first, put an independent fair binary outcome on each unordered pair, copy it to the reverse cell and put zero on the diagonal. In the second, independently give each person one of two hidden colors with equal chances; record one between different colors and zero within a color.
 
-Fix a person. In the second model the other people’s colors are independent, and whatever the fixed person’s color, each relation is one with probability one half. Thus each row, excluding its own diagonal, is exactly iid Bernoulli(1/2) in both tables. Applying Chapter43 row by row gives the very same deterministic directing probability.
+Fix a person. In the second model the other people’s colors are independent, and whatever the fixed person’s color, each relation is one with probability one half. Thus each row, excluding its own diagonal, is exactly iid Bernoulli(1/2) in both tables. Applying Chapter 43 row by row gives the very same deterministic directing probability.
 
 \[ \mathbb P\{X_{12}=X_{23}=X_{31}=1\}=\begin{cases}1/8,&\text{independent pairs},\\0,&\text{two-color model}.\end{cases} \]
 
@@ -52,7 +52,7 @@ In the two-color table, if the background color string is c, a person’s relati
 
 <a id="arrays-proof-mechanism"></a>
 
-Fix a target edge ij and bounded f. Let 𝓖=σ(Yᵢ,Yⱼ) be the local information and 𝓗 include all Y records and any finitely many other target edges. If 𝓗 predicts f(Xᵢⱼ) no better than 𝓖, we can peel off other edges to obtain conditional independence. Chapter9 orthogonal projection gives the exact test.
+Fix a target edge ij and bounded f. Let 𝓖=σ(Yᵢ,Yⱼ) be the local information and 𝓗 include all Y records and any finitely many other target edges. If 𝓗 predicts f(Xᵢⱼ) no better than 𝓖, we can peel off other edges to obtain conditional independence. Chapter 9 orthogonal projection gives the exact test.
 
 \[ \|\mathbb E[V\mid\mathcal H]-\mathbb E[V\mid\mathcal G]\|_2^2=\|\mathbb E[V\mid\mathcal H]\|_2^2-\|\mathbb E[V\mid\mathcal G]\|_2^2,\qquad V=f(X_{ij}). \]
 
@@ -76,7 +76,7 @@ The two predictions are equal. Iterating conditional expectation shows that a te
 
 Take a regular conditional kernel K for X₁₂ given (Y₁,Y₂). Symmetry says swapping endpoints preserves the conditional probability. Average over this two-element group to avoid separate exceptional versions and obtain a probability kernel symmetric everywhere. It is defined at every parameter and remains a conditional-law version.
 
-Use the same kernel for every target edge. Standard Borel state spaces have countable generating algebras. All edges, finite edge families and these tests require removal of only a countable union of null sets, after which monotone classes extend the identities. Chapter10 kernel randomization then supplies independent uniforms for the remaining pair choices.
+Use the same kernel for every target edge. Standard Borel state spaces have countable generating algebras. All edges, finite edge families and these tests require removal of only a countable union of null sets, after which monotone classes extend the identities. Chapter 10 kernel randomization then supplies independent uniforms for the remaining pair choices.
 
 \[ \mathbb P\{X_{ij}\in A\mid(Y_k)_{k\ge1}\}=K(Y_i,Y_j,A),\qquad X_{ij}\ \stackrel d=\ \Gamma(K(Y_i,Y_j),W_{\{i,j\}}). \]
 
@@ -86,7 +86,7 @@ Identical individual conditional marginals are not the same as one conditional p
 
 <a id="arrays-profile-director"></a>
 
-Keeping the background fixed while relabeling targets makes (Yᵢ) an exchangeable sequence of standard Borel random elements. Chapter43 gives a random director ν making them conditionally iid. Generate ν from U₀, each record from an independent Uᵢ, then use pair uniforms for kernel randomization.
+Keeping the background fixed while relabeling targets makes (Yᵢ) an exchangeable sequence of standard Borel random elements. Chapter 43 gives a random director ν making them conditionally iid. Generate ν from U₀, each record from an independent Uᵢ, then use pair uniforms for kernel randomization.
 
 \[ Y_i=h(U_0,U_i),\qquad X_{ij}\stackrel d=F(U_0,U_i,U_j,W_{\{i,j\}}). \]
 
@@ -134,7 +134,7 @@ This does not require adjacent edges to be independent. The two-color table is d
 
 <a id="arrays-invariant-average"></a>
 
-Average a bounded finite-pattern test f over permutations of the first n objects to get Aₙf. Chapter45 finite-group conditional-expectation identity applies at every n: Aₙf conditions on Gₙ-invariant information. These information fields decrease with n, and Chapter15 reverse martingales give the limit.
+Average a bounded finite-pattern test f over permutations of the first n objects to get Aₙf. Chapter 45 finite-group conditional-expectation identity applies at every n: Aₙf conditions on Gₙ-invariant information. These information fields decrease with n, and Chapter 15 reverse martingales give the limit.
 
 \[ A_nf=\frac1{|G_n|}\sum_{\pi\in G_n}f\circ T_\pi\longrightarrow\mathbb E[f\mid\mathcal I]\quad\text{a.s. and in }L^2. \]
 
@@ -246,9 +246,9 @@ Extraction uses only singleton color data, not higher-order noise. The same part
 
 <a id="arrays-rotation-boundary"></a>
 
-Chapter45 rotatable-sequence result cannot be copied cellwise into an array classification. Let Xᵢⱼ=ZᵢVⱼ with independent standard Gaussian sequences. Finite row and column orthogonal transformations preserve its law, but a cell has fourth moment nine and second moment one, while every2×2 determinant is zero. It is not an independent standard Gaussian matrix, nor need its cells be normal.
+Chapter 45 rotatable-sequence result cannot be copied cellwise into an array classification. Let Xᵢⱼ=ZᵢVⱼ with independent standard Gaussian sequences. Finite row and column orthogonal transformations preserve its law, but a cell has fourth moment nine and second moment one, while every2×2 determinant is zero. It is not an independent standard Gaussian matrix, nor need its cells be normal.
 
-Only with the additional assumption that all cells are iid does Chapter45 two-coordinate rotational characteristic-function equation force Gaussianity. General rotatable-array classification remains a recorded open proof responsibility. The Aldous–Hoover theorem established here is a permutation representation, not completion of a different symmetry classification.
+Only with the additional assumption that all cells are iid does Chapter 45 two-coordinate rotational characteristic-function equation force Gaussianity. General rotatable-array classification remains a recorded open proof responsibility. The Aldous–Hoover theorem established here is a permutation representation, not completion of a different symmetry classification.
 
 ## 46.26 Relational symmetry determines how information is shared
 

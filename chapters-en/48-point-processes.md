@@ -10,7 +10,7 @@ A second device instead draws one uniform U and puts its two locations at U and 
 
 Observe only the left half A=[0,1/2). In the independent model both points lie on the right with probability 1/4, so A can be empty. In the mirror model A has exactly one point except on the null event U=1/2, and is never empty. Yet both models have expected count 2|D| in every Borel region D and total count identically two. What is missing really is spatial dependence, not an inaccurate measurement of the total.
 
-Chapter21 treated arrival times, and Chapters27,34,37 used particular Poisson random measures. The new task is not another Poisson series calculation: arbitrary locations, random counts, multiplicities and limits must coexist in one legitimate state space.
+Chapter 21 treated arrival times, and Chapters 27, 34, 37 used particular Poisson random measures. The new task is not another Poisson series calculation: arbitrary locations, random counts, multiplicities and limits must coexist in one legitimate state space.
 
 ## 48.2 One unit of mass for each occurrence
 
@@ -54,7 +54,7 @@ Choose countably many uniformly dense continuous tests on compact windows and in
 
 \[ d(\xi,\eta)=\sum_{j\ge1}2^{-j}(1\wedge|\xi f_j-\eta f_j|). \]
 
-Bounded counts in each window allow diagonal extraction of the tests, producing a positive linear functional. [T-RIESZ](../foundations/t-riesz.md) actually represents it by a Radon measure. Counts on small balls with zero boundary mass are integer limits, so the limiting measure is still a point measure. This proves relative compactness under local count bounds and completeness of the metric. Finite configurations on a countable dense set give separability. Thus Mₚ is Polish, and its Borel sigma-field equals the evaluation sigma-field. [T-POINT-MEASURES](../foundations/t-point-measures.md) proves all steps. We establish only the structure needed for integer measures, without borrowing Chapter49.
+Bounded counts in each window allow diagonal extraction of the tests, producing a positive linear functional. [T-RIESZ](../foundations/t-riesz.md) actually represents it by a Radon measure. Counts on small balls with zero boundary mass are integer limits, so the limiting measure is still a point measure. This proves relative compactness under local count bounds and completeness of the metric. Finite configurations on a countable dense set give separability. Thus Mₚ is Polish, and its Borel sigma-field equals the evaluation sigma-field. [T-POINT-MEASURES](../foundations/t-point-measures.md) proves all steps. We establish only the structure needed for integer measures, without borrowing Chapter 49.
 
 ## 48.7 A reading that retains joint information
 
@@ -64,7 +64,7 @@ Bounded counts in each window allow diagonal extraction of the tests, producing 
 
 This is the Laplace functional. It lets all relevant positions participate while keeping the output in [0,1], without assuming finite expected counts. More importantly, taking f=Σtᵢfᵢ gives the whole joint Laplace transform of (Ξf₁,…,Ξfₖ), not just individual marginals.
 
-Laplace transforms determine nonnegative vector laws: transform each coordinate Y to e⁻ʸ. Integer parameters give every mixed moment on the compact cube; the finite-product Bernstein argument from Chapter13 determines continuous tests, and the Borel inverse exponential recovers the vector. The countable deciding tests generate the sigma-field of Mₚ, so all L(f) determine its law uniquely. The [full proof](../foundations/t-point-laplace.md#point-laplace-unique) also explains why a countable rational cone suffices.
+Laplace transforms determine nonnegative vector laws: transform each coordinate Y to e⁻ʸ. Integer parameters give every mixed moment on the compact cube; the finite-product Bernstein argument from Chapter 13 determines continuous tests, and the Borel inverse exponential recovers the vector. The countable deciding tests generate the sigma-field of Mₚ, so all L(f) determine its law uniquely. The [full proof](../foundations/t-point-laplace.md#point-laplace-unique) also explains why a countable rational cone suffices.
 
 ## 48.8 Poisson construction includes both counts and positions
 
@@ -132,7 +132,7 @@ Even a legitimate image may not be simple. Collapsing a finite-intensity interva
 
 <a id="points-thinning"></a>
 
-Use marks 0 and 1, retaining an occurrence at x with probability q(x), independently across occurrences conditionally on the original process. For tests f,g of retained and discarded processes, the marked functional splits into two exponentials. Thus they are independent with intensities qμ and (1−q)μ. Chapter21 finite-type time thinning becomes a theorem for spatially varying kernels.
+Use marks 0 and 1, retaining an occurrence at x with probability q(x), independently across occurrences conditionally on the original process. For tests f,g of retained and discarded processes, the marked functional splits into two exponentials. Thus they are independent with intensities qμ and (1−q)μ. Chapter 21 finite-type time thinning becomes a theorem for spatially varying kernels.
 
 Countably many independent PRMs can likewise be superposed if the summed intensity is locally finite, by multiplying functionals and taking monotone limits. Retaining only the leftmost point in a finite window gives a count at most one, generally not Poisson. Marginal retention probabilities cannot replace conditional independence of the deletion decisions.
 
@@ -144,7 +144,7 @@ Countably many independent PRMs can likewise be superposed if the summed intensi
 
 This is Campbell’s mean formula for any point process, not only Poisson. For nonnegative simple functions it is linearity of expected counts; monotone convergence gives general f. Tonelli makes ν a measure, but it need not be locally finite. Signed f requires ∫|f|dν<∞.
 
-If a point’s reward depends on the whole configuration, say f(x,Ξ), this formula cannot simply be reused. Observing from a selected existing point needs the Palm or Mecke structure of Chapter50. A deterministic mean formula does not already establish that conditional probability. The two initial models with equal means also show why correct Campbell calculations do not identify the law.
+If a point’s reward depends on the whole configuration, say f(x,Ξ), this formula cannot simply be reused. Observing from a selected existing point needs the Palm or Mecke structure of Chapter 50. A deterministic mean formula does not already establish that conditional probability. The two initial models with equal means also show why correct Campbell calculations do not identify the law.
 
 ## 48.17 Compensation makes second moments explicit
 
@@ -152,7 +152,7 @@ If a point’s reward depends on the whole configuration, say f(x,Ξ), this form
 
 \[ I_1(f)=\int f\,d(N-\mu),\qquad \mathbb EI_1(f)=0,\quad \mathbb E[I_1(f)I_1(g)]=\int fg\,d\mu. \]
 
-Start with simple functions on disjoint finite-intensity cells. Independence eliminates cross terms and the Poisson variance equals its mean, giving the isometry. Approximate every L²(μ) kernel by finite-window simple functions and extend by L² completeness. This is a spatial integral with deterministic kernels. For merely L², not L¹, functions it is not subtraction of two possibly infinite ordinary integrals. Chapter34 predictable time integration does not authorise arbitrary random spatial kernels.
+Start with simple functions on disjoint finite-intensity cells. Independence eliminates cross terms and the Poisson variance equals its mean, giving the isometry. Approximate every L²(μ) kernel by finite-window simple functions and extend by L² completeness. This is a spatial integral with deterministic kernels. For merely L², not L¹, functions it is not subtraction of two possibly infinite ordinary integrals. Chapter 34 predictable time integration does not authorise arbitrary random spatial kernels.
 
 ## 48.18 Why second-order contributions are not just squares
 
@@ -182,7 +182,7 @@ Theorem: if Ξ is an Mₚ-valued point process, Ξₙ⇒Ξ is equivalent to Lₙ
 
 \[ \mathbb P\{\Xi_n(K_m)>R\}\le\frac{1-L_n(a\chi_m)}{1-e^{-aR}}\quad(a>0). \]
 
-First make a small so the limiting numerator approaches zero; then choose R large, and handle the finitely many initial n separately. This yields uniform local-count tightness. Chapter24 Prokhorov gives weak subsequential limits. Every limit has the same Laplace readings, so uniqueness identifies it with Ξ. Identification and tightness are distinct parts of the proof, not an unexplained assertion that transform convergence implies process convergence.
+First make a small so the limiting numerator approaches zero; then choose R large, and handle the finitely many initial n separately. This yields uniform local-count tightness. Chapter 24 Prokhorov gives weak subsequential limits. Every limit has the same Laplace readings, so uniqueness identifies it with Ξ. Identification and tightness are distinct parts of the proof, not an unexplained assertion that transform convergence implies process convergence.
 
 ## 48.21 Rare counts become rare locations
 
@@ -192,7 +192,7 @@ Independent experiment j places a point with probability pₙⱼ and conditional
 
 \[ a_{nj}=p_{nj}Q_{nj}(1-e^{-f}),\qquad \log L_n(f)=\sum_j\log(1-a_{nj})=-\sum_ja_{nj}+o(1)\longrightarrow-\mu(1-e^{-f}). \]
 
-Within the support window max a tends to zero and the sum stays bounded, so the sum of squares is bounded by their product and vanishes. This controls the entire logarithmic remainder. The preceding theorem yields process convergence. The new result concerns joint spatial tests, rather than only the total-count limit of Chapter13. If all rare experiments share one trigger and place n points together when triggered, the limit may instead be empty despite a fixed total mean. Independence rules out precisely such clustered triggering.
+Within the support window max a tends to zero and the sum stays bounded, so the sum of squares is bounded by their product and vanishes. This controls the entire logarithmic remainder. The preceding theorem yields process convergence. The new result concerns joint spatial tests, rather than only the total-count limit of Chapter 13. If all rare experiments share one trigger and place n points together when triggered, the limit may instead be empty despite a fixed total mean. Independence rules out precisely such clustered triggering.
 
 ## 48.22 Three limits: boundaries, collisions and escape
 
@@ -218,4 +218,4 @@ Unit mass remains a restriction. If an experiment leaves a continuous mass or a 
 
 Cox’s [1955 original paper](https://doi.org/10.1111/j.2517-6161.1955.tb00188.x) concerns statistical methods for event series. We do not attribute every spatial point-process structure to one historical discovery. The construction and organisation here are a modern reconstruction. Last–Penrose’s [author manuscript](https://stoch.math.kit.edu/img/Last/lastpenrose2017.pdf) provides a systematic reference for checking the scope of Poisson functionals, marking and orthogonal expansions; the proofs here are supplied rather than replaced by citations.
 
-The complete proofs are [T-RIESZ](../foundations/t-riesz.md), [T-POINT-MEASURES](../foundations/t-point-measures.md), [T-POINT-LAPLACE](../foundations/t-point-laplace.md), [T-POISSON-SPACE](../foundations/t-poisson-space.md), [T-POINT-TRANSFORMS](../foundations/t-point-transforms.md), and [T-POISSON-CHAOS](../foundations/t-poisson-chaos.md). Scope is locally finite point processes on the specified locally compact spaces, PRMs with sigma-finite standard-Borel intensities, evaluation-measurable locally finite Cox models, and deterministic-kernel L² multiple integrals. General random-Radon topology belongs to Chapter49; Palm, Mecke and Gibbs to Chapter50. General Lᵖ decoupling, non-sigma-finite PRMs and arbitrary non-locally-compact topologies are not proved here.
+The complete proofs are [T-RIESZ](../foundations/t-riesz.md), [T-POINT-MEASURES](../foundations/t-point-measures.md), [T-POINT-LAPLACE](../foundations/t-point-laplace.md), [T-POISSON-SPACE](../foundations/t-poisson-space.md), [T-POINT-TRANSFORMS](../foundations/t-point-transforms.md), and [T-POISSON-CHAOS](../foundations/t-poisson-chaos.md). Scope is locally finite point processes on the specified locally compact spaces, PRMs with sigma-finite standard-Borel intensities, evaluation-measurable locally finite Cox models, and deterministic-kernel L² multiple integrals. General random-Radon topology belongs to Chapter 49; Palm, Mecke and Gibbs to Chapter 50. General Lᵖ decoupling, non-sigma-finite PRMs and arbitrary non-locally-compact topologies are not proved here.

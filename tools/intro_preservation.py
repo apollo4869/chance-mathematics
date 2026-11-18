@@ -3,12 +3,14 @@ from pathlib import Path
 import json,hashlib,subprocess,re
 from functools import lru_cache
 from copy import deepcopy
+try:from .editorial_preservation import before_editorial
+except ImportError:from editorial_preservation import before_editorial
 ROOT=Path(__file__).resolve().parents[1]
 LEDGER=ROOT/'provenance/authorized-chapter11-intro.json'
 POLISH=ROOT/'provenance/authorized-opening-polish.json'
 
 def before_polish(name):
-    current=(ROOT/name).read_bytes()
+    current=before_editorial(name)
     if not POLISH.exists():return current
     record=json.loads(POLISH.read_text('utf8'))
     if name not in record['files']:return current

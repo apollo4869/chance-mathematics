@@ -1,0 +1,18 @@
+{
+  "record_type": "LAST_OBSERVED_PUBLIC_AUTHOR_READING_EDITION",
+  "scope_note": "Historical deployment evidence; local editorial changes are not deployed by this record.",
+  "canonical_url": "https://chancemathematics.org/",
+  "english_url": "https://chancemathematics.org/en/index.html",
+  "volumes": 8,
+  "chapters": 58,
+  "languages": ["zh-CN", "en"],
+  "edition_status": "AUTHOR_READING_WORKING_DRAFT",
+  "independent_mathematical_final_review": "INCOMPLETE",
+  "formally_finalized": false,
+  "last_observed_hosting_version": 18,
+  "deployment_source_commit": "391cd03578cd607972c4c3a33755bd686bb512d3",
+  "deployed_on": "2026-11-07",
+  "hosting_metadata_checked_on": "2026-11-17",
+  "public_source_repository": "https://github.com/apollo4869/chance-mathematics",
+  "public_source_commit_checked": "2c9de51b8f822e5863dc038b032e4bd4e7174ae2"
+}

@@ -342,7 +342,7 @@ The real crisis has yet to arrive.
 
 [Original image source](https://www.futura-sciences.com/sciences/personnalites/mathematiques-emile-borel-319/?utm_source=chatgpt.com)
 
-**Émile Borel（1871—1956）**
+**Émile Borel (1871–1956)**
 
 A French mathematician. In 1898, he studied the sets and measure structures obtainable from intervals through countable set operations.
 
@@ -350,7 +350,7 @@ A French mathematician. In 1898, he studied the sets and measure structures obta
 
 [Original image source](https://snl.no/Henri_L%C3%A9on_Lebesgue?utm_source=chatgpt.com)
 
-**Henri Lebesgue（1875—1941）**
+**Henri Lebesgue (1875–1941)**
 
 A French mathematician. In his 1902 doctoral dissertation, he developed a new theory of length, area, and integration, enabling systematic study of sets and functions far more complicated than intervals.
 
@@ -366,7 +366,7 @@ In 1905, the Italian mathematician Giuseppe Vitali gave a startling answer.
 
 This was not because mathematicians had yet to find a suitable construction.
 
-It was because such a measure cannot exist at all.〔[47](#ref-turn701804search1), [48](#ref-turn701804search0), [49](#ref-turn701804search4)〕
+It was because such a measure cannot exist at all. 〔[47](#ref-turn701804search1), [48](#ref-turn701804search0), [49](#ref-turn701804search4)〕
 
 Let us prove this for ourselves.
 
@@ -656,7 +656,7 @@ We have therefore proved:
 }
 \]
 
-This is the core of the Vitali nonmeasurable-set argument.〔[50](#ref-turn701804search35), [51](#ref-turn701804search39)〕
+This is the core of the Vitali nonmeasurable-set argument. 〔[50](#ref-turn701804search35), [51](#ref-turn701804search39)〕
 
 ### 5.3.4 Where, Exactly, Did We Fail?
 
@@ -787,7 +787,7 @@ If a family of sets
 
 satisfies:
 
-1. \(\Omega\in\mathcal F\)；
+1. \(\Omega\in\mathcal F\);
 2. If \(A\in\mathcal F\), then \(A^c\in\mathcal F\);
 3. If \(A_1,A_2,\ldots\in\mathcal F\), then
 \[
@@ -1208,7 +1208,7 @@ m^*(E\cap A)+m^*(E\setminus A).
 
 But if \(A\) is truly compatible with the notion of length, we seem entitled to expect more:
 
-Dividing any set \(E\) according to membership in \(A\) should not change the total outer measure out of nowhere.
+Cutting any test set \(E\) into its parts inside and outside \(A\) should account exactly for the outer measure of \(E\).
 
 In other words, we want
 
@@ -1254,7 +1254,7 @@ Outer measure can measure any set, yet may fail to be additive.
 
 We therefore seek sets that preserve the desired additive property whenever they are used to cut any other set.
 
-In the early twentieth century, Carathéodory developed this idea into an important construction tool in the general theory of outer measure.〔[52](#ref-turn701804search6), [53](#ref-turn701804search37)〕
+In the early twentieth century, Carathéodory developed this idea into an important construction tool in the general theory of outer measure. 〔[52](#ref-turn701804search6), [53](#ref-turn701804search37)〕
 
 Now let us see where its real power lies.
 
@@ -1772,7 +1772,7 @@ This gives the modern Kolmogorov axiomatic framework for probability.
 
 [Original image source](https://valeman.medium.com/andrey-kolmogorov-master-of-uncertainty-and-order-1080618e1afe)
 
-**Andrey Kolmogorov（1903—1987）**
+**Andrey Kolmogorov (1903–1987)**
 
 In 1933 he published *Grundbegriffe der Wahrscheinlichkeitsrechnung* (*Foundations of the Theory of Probability*), systematically establishing probability theory within the axiomatic framework of measure theory.
 
@@ -1780,7 +1780,7 @@ Here, too, we must respect history.
 
 Kolmogorov did not first discover the connection between probability and measure in 1933. Earlier work by Borel, Lebesgue, and other mathematicians had already laid its foundations.
 
-But Kolmogorov gave this framework a clear, systematic expression that became the basic language of modern probability.〔[48](#ref-turn701804search0), [54](#ref-turn701804search40)〕
+But Kolmogorov gave this framework a clear, systematic expression that became the basic language of modern probability. 〔[48](#ref-turn701804search0), [54](#ref-turn701804search40)〕
 
 We can finally return to the classical probability of Chapter 1 with a new understanding.
 
@@ -1872,7 +1872,7 @@ For example, when rolling three dice, we may care only about the sum of their sc
 X(\omega)=\text{sum of the scores on three dice}.
 \]
 
-In a finite space, any such function can be handled directly.
+In the finite models used earlier, every subset of the outcome space was an event, so any such function could be handled directly.
 
 In a general probability space, however, we must be more careful.
 
@@ -2036,15 +2036,7 @@ There is another term we have used repeatedly without ever explaining it careful
 
 Almost surely.
 
-For example, in Chapter 4 we said:
-
-Brownian paths are almost surely continuous.
-
-We also said:
-
-Brownian paths are almost surely nowhere differentiable.
-
-What does this mean?
+For example, in Chapter 4 we required Brownian paths to be continuous almost surely. What does that qualification mean?
 
 We can now give a rigorous definition.
 

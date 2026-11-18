@@ -8,9 +8,9 @@ A stationary probability can describe a population exactly without erasing the d
 
 Let two pointers alternate between zero and one, starting in opposite states. Their time fractions at zero both approach one half, and the uniform law is invariant. Yet at every fixed time, their positions distinguish their initial states without error.
 
-Chapter41 used this model to separate ergodicity from mixing. We now compare two future laws rather than average a single record. Given a much later position, can an observer still distinguish where the system began? This is a new question about distances between laws, not a restatement of time averaging.
+Chapter 41 used this model to separate ergodicity from mixing. We now compare two future laws rather than average a single record. Given a much later position, can an observer still distinguish where the system began? This is a new question about distances between laws, not a restatement of time averaging.
 
-Now let each step either exchange or stay, with equal probabilities. After one step both laws are uniform. Neither the long-run fraction nor the invariant law changed; overlapping mass appeared in the transitions. Chapter17 used common mass on finite spaces. We must discover when it can keep reappearing on an infinite space.
+Now let each step either exchange or stay, with equal probabilities. After one step both laws are uniform. Neither the long-run fraction nor the invariant law changed; overlapping mass appeared in the transitions. Chapter 17 used common mass on finite spaces. We must discover when it can keep reappearing on an infinite space.
 
 ## 42.2 Measuring the trace of an initial state
 
@@ -156,7 +156,7 @@ For a countable irreducible chain with invariant probability, Poincaré recurren
 
 <a id="harris-marks"></a>
 
-Cycle length usually depends on its starting state. Drawing a length and then an independent ν-start would generally change the chain. Sample the whole half-open cycle from its conditional law given its length. Its mark space is a countable disjoint union of standard Borel spaces, so Chapter10 disintegration genuinely applies.
+Cycle length usually depends on its starting state. Drawing a length and then an independent ν-start would generally change the chain. Sample the whole half-open cycle from its conditional law given its length. Its mark space is a countable disjoint union of standard Borel spaces, so Chapter 10 disintegration genuinely applies.
 
 Fill in the conditional marks before the common zero T. No lengths beginning at T have been sampled, so draw one fresh ν-state there and share the original P kernel afterwards. Both marginal full path laws remain correct and the paths agree after T. The coupling need not depend only on the current pair of states; the coupling inequality does not require that property.
 

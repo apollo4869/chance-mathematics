@@ -1,0 +1,268 @@
+{
+  "source_commit": "1dc71f66",
+  "automatic_formal_site_injection": false,
+  "canonical_manuscript_changes": false,
+  "new_groups": [
+    "V42",
+    "V47C"
+  ],
+  "protected_adopted": [
+    "P02",
+    "V41",
+    "V45",
+    "V46",
+    "V47"
+  ],
+  "figures": [
+    {
+      "id": "V42",
+      "lang": "zh",
+      "slug": "42-harris-coupling",
+      "section": "42.7",
+      "coverage_sections": [
+        "42.6",
+        "42.7",
+        "42.8",
+        "42.12"
+      ],
+      "title": "成功的是这一步，重新开始在下一点",
+      "html": "<figure class=\"volume6 v6-next\" data-v6-next=\"V42\" id=\"visual-V42\" lang=\"zh\"><header><span>V42</span><h3>成功的是这一步，重新开始在下一点</h3></header><p>进入同一个小集，仍不表示下一状态已经独立。先看一份转移怎样被拆开，再在记录中找真正的重启点。</p><div class=\"v5-controls\" role=\"group\"><button type=\"button\" data-x=\"a\" aria-pressed=\"true\">Xₙ=a</button><button type=\"button\" data-x=\"b\" aria-pressed=\"false\">Xₙ=b</button></div><div class=\"v5-controls\" role=\"group\"><button type=\"button\" data-source=\"common\" aria-pressed=\"true\">成功：抽共同ν</button><button type=\"button\" data-source=\"residual\" aria-pressed=\"false\">失败：抽残差Rₓ</button></div><div class=\"v6n-kernel\"><img src=\"/assets/visuals/explanatory-volume6-v2/V42-zh-a-common-kernel.svg\" alt=\"先抽硬币，再抽状态\" data-kernel></div><h4>沿同一时间轴切出周期</h4><div class=\"v5-controls\" role=\"group\"><button type=\"button\" data-first=\"0\" aria-pressed=\"false\">首成功在n=0</button><button type=\"button\" data-first=\"1\" aria-pressed=\"true\">首成功在n=1</button><button type=\"button\" data-first=\"2\" aria-pressed=\"false\">首成功在n=2</button></div><div class=\"v6n-timeline\"><img src=\"/assets/visuals/explanatory-volume6-v2/V42-zh-a-1-timeline.svg\" alt=\"半开周期不重计右端点\" data-timeline></div><div class=\"v6n-mobile-time\"><img src=\"/assets/visuals/explanatory-volume6-v2/V42-zh-a-1-mobile.svg\" alt=\"手机竖向时钟\" data-mobile-time></div><output data-v6n-result>成功边1→重启点2；独立完整段为[2,5)、[5,8)。</output><details><summary>模型条件与证明边界</summary><p>精确有限模型：E=C={a,b}，ε=1/2，ν=(δa+δb)/2，Rₓ=δₓ。因此P的两行为(3/4,1/4)、(1/4,3/4)。先抽独立硬币δₙ，再按ν或Rₓ抽Xₙ₊₁，不能在看完下一状态后补一枚未经校正的独立硬币。图示三次成功发生在n=r、4、7，重启端点为r+1、5、8；所示记录是一个合法的正概率有限配置，不是模拟频率。ν终点独立于此前信息；从ν开始的半开周期标记(L,X₀,…,X_{L−1})为iid，右端点属于下一周期，初始延迟另计。这里L~Geom(1/2)取值1,2,…且均值2；一般小集还需返回条件，有限周期不自动有有限均值，再生也不自动给同刻耦合。</p></details><figcaption id=\"visual-V42-end\">本图解释有限模型中的机制，完整一般条件仍见本节与配套证明。</figcaption><nav><a href=\"/assets/visuals/explanatory-volume6-v2/V42.zh.svg\">SVG</a><a href=\"/print/V42.zh.html\">静态打印</a></nav></figure>",
+      "condition": "精确有限模型：E=C={a,b}，ε=1/2，ν=(δa+δb)/2，Rₓ=δₓ。因此P的两行为(3/4,1/4)、(1/4,3/4)。先抽独立硬币δₙ，再按ν或Rₓ抽Xₙ₊₁，不能在看完下一状态后补一枚未经校正的独立硬币。图示三次成功发生在n=r、4、7，重启端点为r+1、5、8；所示记录是一个合法的正概率有限配置，不是模拟频率。ν终点独立于此前信息；从ν开始的半开周期标记(L,X₀,…,X_{L−1})为iid，右端点属于下一周期，初始延迟另计。这里L~Geom(1/2)取值1,2,…且均值2；一般小集还需返回条件，有限周期不自动有有限均值，再生也不自动给同刻耦合。",
+      "asset_base": "/assets/visuals/explanatory-volume6-v2/",
+      "status": "new candidate; author visual review pending",
+      "kind": "new explanatory candidate"
+    },
+    {
+      "id": "V42",
+      "lang": "en",
+      "slug": "42-harris-coupling",
+      "section": "42.7",
+      "coverage_sections": [
+        "42.6",
+        "42.7",
+        "42.8",
+        "42.12"
+      ],
+      "title": "Success on this step; a fresh start at its endpoint",
+      "html": "<figure class=\"volume6 v6-next\" data-v6-next=\"V42\" id=\"visual-V42\" lang=\"en\"><header><span>V42</span><h3>Success on this step; a fresh start at its endpoint</h3></header><p>Reaching a small set does not yet make the next state independent. Split one transition, then locate its genuine fresh start.</p><div class=\"v5-controls\" role=\"group\"><button type=\"button\" data-x=\"a\" aria-pressed=\"true\">Xₙ=a</button><button type=\"button\" data-x=\"b\" aria-pressed=\"false\">Xₙ=b</button></div><div class=\"v5-controls\" role=\"group\"><button type=\"button\" data-source=\"common\" aria-pressed=\"true\">Success: draw from nu</button><button type=\"button\" data-source=\"residual\" aria-pressed=\"false\">Failure: draw from R_x</button></div><div class=\"v6n-kernel\"><img src=\"/assets/visuals/explanatory-volume6-v2/V42-en-a-common-kernel.svg\" alt=\"Coin first, state second\" data-kernel></div><h4>Cut cycles along the same time axis</h4><div class=\"v5-controls\" role=\"group\"><button type=\"button\" data-first=\"0\" aria-pressed=\"false\">First success at n=0</button><button type=\"button\" data-first=\"1\" aria-pressed=\"true\">First success at n=1</button><button type=\"button\" data-first=\"2\" aria-pressed=\"false\">First success at n=2</button></div><div class=\"v6n-timeline\"><img src=\"/assets/visuals/explanatory-volume6-v2/V42-en-a-1-timeline.svg\" alt=\"Half-open cycles do not double-count endpoints\" data-timeline></div><div class=\"v6n-mobile-time\"><img src=\"/assets/visuals/explanatory-volume6-v2/V42-en-a-1-mobile.svg\" alt=\"Vertical mobile clock\" data-mobile-time></div><output data-v6n-result>Success on edge 1 gives fresh start 2; full independent cycles are [2,5),[5,8).</output><details><summary>Model assumptions and proof limits</summary><p>Exact finite model: E=C={a,b}, epsilon=1/2, nu=(delta_a+delta_b)/2 and R_x=delta_x. P has rows (3/4,1/4) and (1/4,3/4). Toss an independent coin delta_n first, then draw X_(n+1) from nu or R_x; do not observe the next state and retroactively add an uncorrected independent coin. The displayed successes at n=r,4,7 yield fresh starts at r+1,5,8. This is one valid positive-probability finite configuration, not simulated frequencies. A fresh nu endpoint is independent of the preceding information. From nu, half-open marks (L,X0,...,X_(L-1)) are iid; the right endpoint starts the next cycle, and the initial delay is separate. Here L is geometric(1/2) on positive integers with mean 2. A general small set needs return assumptions; finite cycles need not have finite mean, and regeneration alone does not align two clocks.</p></details><figcaption id=\"visual-V42-end\">This diagram explains the finite-model mechanism; general assumptions and proofs remain in the chapter.</figcaption><nav><a href=\"/assets/visuals/explanatory-volume6-v2/V42.en.svg\">SVG</a><a href=\"/print/V42.en.html\">Static print</a></nav></figure>",
+      "condition": "Exact finite model: E=C={a,b}, epsilon=1/2, nu=(delta_a+delta_b)/2 and R_x=delta_x. P has rows (3/4,1/4) and (1/4,3/4). Toss an independent coin delta_n first, then draw X_(n+1) from nu or R_x; do not observe the next state and retroactively add an uncorrected independent coin. The displayed successes at n=r,4,7 yield fresh starts at r+1,5,8. This is one valid positive-probability finite configuration, not simulated frequencies. A fresh nu endpoint is independent of the preceding information. From nu, half-open marks (L,X0,...,X_(L-1)) are iid; the right endpoint starts the next cycle, and the initial delay is separate. Here L is geometric(1/2) on positive integers with mean 2. A general small set needs return assumptions; finite cycles need not have finite mean, and regeneration alone does not align two clocks.",
+      "asset_base": "/assets/visuals/explanatory-volume6-v2/",
+      "status": "new candidate; author visual review pending",
+      "kind": "new explanatory candidate"
+    },
+    {
+      "id": "V47C",
+      "lang": "zh",
+      "slug": "47-partitions",
+      "section": "47.16",
+      "coverage_sections": [
+        "47.15",
+        "47.16",
+        "47.17"
+      ],
+      "title": "合并发生了，样本未必看得见",
+      "html": "<figure class=\"volume6 v6-next\" data-v6-next=\"V47C\" id=\"visual-V47C\" lang=\"zh\"><header><span>V47C</span><h3>合并发生了，样本未必看得见</h3></header><p>删去观察名单外的人，可以隐藏一些合并；能否因此把经过的等待也删掉？</p><div class=\"v5-controls\" role=\"group\"><button type=\"button\" data-keep=\"2\" aria-pressed=\"true\">只留1、2</button><button type=\"button\" data-keep=\"3\" aria-pressed=\"false\">只留1、2、3</button></div><div class=\"v5-controls\" role=\"group\"><button type=\"button\" data-step=\"0\" aria-pressed=\"true\">初始</button><button type=\"button\" data-step=\"1\" aria-pressed=\"false\">3与4合并</button><button type=\"button\" data-step=\"2\" aria-pressed=\"false\">1与{3,4}合并</button><button type=\"button\" data-step=\"3\" aria-pressed=\"false\">最后合并</button></div><div class=\"v6-pair\"><img src=\"/assets/visuals/explanatory-volume6-v2/V47C-zh-2-0-projection.svg\" alt=\"完整记录到有限限制\" data-projection><img src=\"/assets/visuals/explanatory-volume6-v2/V47C-zh-2-0-clock.svg\" alt=\"总跳率与可见跳率的区别\" data-clock></div><output data-v6n-result>完整总率6；可见块对速率1。不可见事件不是限制过程的新跳。</output><details><summary>模型条件与证明边界</summary><p>每对当前完整块的Kingman合并率为1，不按块质量加权。四人路径示意依次合并{3}+{4}、{1}+{3,4}、{1,3,4}+{2}；灰色人不在保留样本[n]中。每个可见块对应唯一完整块，因此当前可见块对的速率仍各为1，含空投影块的合并不改变限制。图上速率条每格为一对的速率1，不是概率质量。两条时间轴共用原时间，示意事件时刻0.25、0.7、1.4不因隐藏事件而压缩；这些时刻是一条说明性路径，不是等待时间期望。有限生成矩阵满足L₄(f∘rₙ)=(Lₙf)∘rₙ，逐幂再求指数级数给半群一致性，条件期望塔式再给限制过程的Markov性。不能只匹配边缘或块数就宣布路径一致，也不从无穷总率安装一个首跳时钟。</p></details><figcaption id=\"visual-V47C-end\">本图解释有限模型中的机制，完整一般条件仍见本节与配套证明。</figcaption><nav><a href=\"/assets/visuals/explanatory-volume6-v2/V47C.zh.svg\">SVG</a><a href=\"/print/V47C.zh.html\">静态打印</a></nav></figure>",
+      "condition": "每对当前完整块的Kingman合并率为1，不按块质量加权。四人路径示意依次合并{3}+{4}、{1}+{3,4}、{1,3,4}+{2}；灰色人不在保留样本[n]中。每个可见块对应唯一完整块，因此当前可见块对的速率仍各为1，含空投影块的合并不改变限制。图上速率条每格为一对的速率1，不是概率质量。两条时间轴共用原时间，示意事件时刻0.25、0.7、1.4不因隐藏事件而压缩；这些时刻是一条说明性路径，不是等待时间期望。有限生成矩阵满足L₄(f∘rₙ)=(Lₙf)∘rₙ，逐幂再求指数级数给半群一致性，条件期望塔式再给限制过程的Markov性。不能只匹配边缘或块数就宣布路径一致，也不从无穷总率安装一个首跳时钟。",
+      "asset_base": "/assets/visuals/explanatory-volume6-v2/",
+      "status": "new candidate; author visual review pending",
+      "kind": "new explanatory candidate"
+    },
+    {
+      "id": "V47C",
+      "lang": "en",
+      "slug": "47-partitions",
+      "section": "47.16",
+      "coverage_sections": [
+        "47.15",
+        "47.16",
+        "47.17"
+      ],
+      "title": "A merger can be invisible to the sample",
+      "html": "<figure class=\"volume6 v6-next\" data-v6-next=\"V47C\" id=\"visual-V47C\" lang=\"en\"><header><span>V47C</span><h3>A merger can be invisible to the sample</h3></header><p>Removing unobserved individuals hides some mergers. Does it also remove the time that elapsed?</p><div class=\"v5-controls\" role=\"group\"><button type=\"button\" data-keep=\"2\" aria-pressed=\"true\">Keep 1,2</button><button type=\"button\" data-keep=\"3\" aria-pressed=\"false\">Keep 1,2,3</button></div><div class=\"v5-controls\" role=\"group\"><button type=\"button\" data-step=\"0\" aria-pressed=\"true\">Initial</button><button type=\"button\" data-step=\"1\" aria-pressed=\"false\">Merge 3 and 4</button><button type=\"button\" data-step=\"2\" aria-pressed=\"false\">Merge 1 with {3,4}</button><button type=\"button\" data-step=\"3\" aria-pressed=\"false\">Final merger</button></div><div class=\"v6-pair\"><img src=\"/assets/visuals/explanatory-volume6-v2/V47C-en-2-0-projection.svg\" alt=\"Full record to finite restriction\" data-projection><img src=\"/assets/visuals/explanatory-volume6-v2/V47C-en-2-0-clock.svg\" alt=\"Total and visible rates differ\" data-clock></div><output data-v6n-result>Full total rate 6; visible pair rate 1. Invisible events are not jumps of the restriction.</output><details><summary>Model assumptions and proof limits</summary><p>Kingman gives every pair of current full blocks rate 1, without mass weighting. The illustrative four-person path merges {3}+{4}, then {1}+{3,4}, then {1,3,4}+{2}. Gray individuals are not in the retained sample [n]. Each visible block has one full-block preimage; each visible pair still merges at rate 1. A merger with an empty projection leaves the restriction unchanged. Each rate-bar cell is one unit-rate pair, not probability mass. Both axes retain the same elapsed time: the illustrative event times 0.25,0.7,1.4 are neither expected waits nor compressed after hiding events. The finite generators satisfy L4(f o r_n)=(Ln f) o r_n. Powers and the exponential series yield semigroup consistency; conditioning and the tower property give the restricted Markov law. Matching margins or block counts alone is insufficient. No first-jump clock with infinite total rate is assumed.</p></details><figcaption id=\"visual-V47C-end\">This diagram explains the finite-model mechanism; general assumptions and proofs remain in the chapter.</figcaption><nav><a href=\"/assets/visuals/explanatory-volume6-v2/V47C.en.svg\">SVG</a><a href=\"/print/V47C.en.html\">Static print</a></nav></figure>",
+      "condition": "Kingman gives every pair of current full blocks rate 1, without mass weighting. The illustrative four-person path merges {3}+{4}, then {1}+{3,4}, then {1,3,4}+{2}. Gray individuals are not in the retained sample [n]. Each visible block has one full-block preimage; each visible pair still merges at rate 1. A merger with an empty projection leaves the restriction unchanged. Each rate-bar cell is one unit-rate pair, not probability mass. Both axes retain the same elapsed time: the illustrative event times 0.25,0.7,1.4 are neither expected waits nor compressed after hiding events. The finite generators satisfy L4(f o r_n)=(Ln f) o r_n. Powers and the exponential series yield semigroup consistency; conditioning and the tower property give the restricted Markov law. Matching margins or block counts alone is insufficient. No first-jump clock with infinite total rate is assumed.",
+      "asset_base": "/assets/visuals/explanatory-volume6-v2/",
+      "status": "new candidate; author visual review pending",
+      "kind": "new explanatory candidate"
+    },
+    {
+      "id": "V41",
+      "lang": "zh",
+      "slug": "41-ergodic-theory",
+      "section": "41.9",
+      "coverage_sections": [
+        "41.1",
+        "41.4",
+        "41.9"
+      ],
+      "title": "移走开头，环境仍然留下",
+      "html": "<figure class=\"volume6\" data-v6=\"V41\" id=\"visual-V41\" lang=\"zh\"><header><span>V41</span><h3>移走开头，环境仍然留下</h3></header><p class=\"v6-intro\">把开头移走以后，哪些随机信息仍会留在同一条记录中？</p><div class=\"v5-controls\" role=\"group\"><button type=\"button\" data-env=\"25\" aria-pressed=\"true\">Θ=1/4</button><button type=\"button\" data-env=\"75\" aria-pressed=\"false\">Θ=3/4</button></div><div class=\"v5-controls\" role=\"group\"><button type=\"button\" data-offset=\"0\" aria-pressed=\"true\">窗口从0开始</button><button type=\"button\" data-offset=\"3\" aria-pressed=\"false\">窗口从3开始</button><button type=\"button\" data-offset=\"6\" aria-pressed=\"false\">窗口从6开始</button></div><p class=\"v6-compact-result\">整体均值1/2，不是每条长记录的极限</p><div class=\"v6-pair\"><section><h4>移动有限观察窗口</h4><img src=\"/assets/visuals/explanatory-volume6-v1/V41-zh-25-0-0.svg\" alt=\"移动有限观察窗口\" data-pane=\"0\"></section><section><h4>长期留下什么</h4><img src=\"/assets/visuals/explanatory-volume6-v1/V41-zh-25-0-1.svg\" alt=\"长期留下什么\" data-pane=\"1\"></section></div><output data-result aria-live=\"polite\">无条件均值1/2；这一环境下的长期平均为1/4。</output><p class=\"v6-limit\">有限窗口是示意；显示的Θ是条件参数，不是从这6项算出的比例。</p><details><summary>模型条件与数学边界</summary><p>Θ等概率取1/4或3/4；条件于Θ，各Xₖ为iid Bernoulli(Θ)。记录窗口是确定示意、不是模拟或强律证明；其有限比例不等于极限。给定环境的强律使长期平均趋Θ，整份混合律的均值则为1/2。不变σ域在本例等于σ(Θ)，模零集。按钮只移动有限观察窗口或切换条件环境，不在一条实现中重新抽环境。一般Birkhoff结论须保测与可积；遍历才使条件平均为常数，遍历也不自动推出混合。</p></details><figcaption id=\"visual-V41-end\">图解释正文中的具体模型；完整定理与证明仍在正文及配套专题中。</figcaption><nav><a href=\"/assets/visuals/explanatory-volume6-v1/V41.zh.svg\">SVG</a><a href=\"/print/V41.zh.html\">静态打印</a></nav></figure>",
+      "condition": "Θ等概率取1/4或3/4；条件于Θ，各Xₖ为iid Bernoulli(Θ)。记录窗口是确定示意、不是模拟或强律证明；其有限比例不等于极限。给定环境的强律使长期平均趋Θ，整份混合律的均值则为1/2。不变σ域在本例等于σ(Θ)，模零集。按钮只移动有限观察窗口或切换条件环境，不在一条实现中重新抽环境。一般Birkhoff结论须保测与可积；遍历才使条件平均为常数，遍历也不自动推出混合。",
+      "asset_base": "/assets/visuals/explanatory-volume6-v1/",
+      "status": "visual working draft adopted; final/device/PDF review open",
+      "kind": "new explanatory candidate",
+      "selected_original_registry": "explanatory-volume6-batch1-working.json"
+    },
+    {
+      "id": "V41",
+      "lang": "en",
+      "slug": "41-ergodic-theory",
+      "section": "41.9",
+      "coverage_sections": [
+        "41.1",
+        "41.4",
+        "41.9"
+      ],
+      "title": "Shift the record; the environment stays",
+      "html": "<figure class=\"volume6\" data-v6=\"V41\" id=\"visual-V41\" lang=\"en\"><header><span>V41</span><h3>Shift the record; the environment stays</h3></header><p class=\"v6-intro\">After shifting the record, what random information can still remain?</p><div class=\"v5-controls\" role=\"group\"><button type=\"button\" data-env=\"25\" aria-pressed=\"true\">Θ=1/4</button><button type=\"button\" data-env=\"75\" aria-pressed=\"false\">Θ=3/4</button></div><div class=\"v5-controls\" role=\"group\"><button type=\"button\" data-offset=\"0\" aria-pressed=\"true\">Start at 0</button><button type=\"button\" data-offset=\"3\" aria-pressed=\"false\">Start at 3</button><button type=\"button\" data-offset=\"6\" aria-pressed=\"false\">Start at 6</button></div><p class=\"v6-compact-result\">Mixture mean 1/2 is not every path’s limit</p><div class=\"v6-pair\"><section><h4>Move a finite window</h4><img src=\"/assets/visuals/explanatory-volume6-v1/V41-en-25-0-0.svg\" alt=\"Move a finite window\" data-pane=\"0\"></section><section><h4>What the long run retains</h4><img src=\"/assets/visuals/explanatory-volume6-v1/V41-en-25-0-1.svg\" alt=\"What the long run retains\" data-pane=\"1\"></section></div><output data-result aria-live=\"polite\">Mixture mean 1/2; the long-run mean in this environment is 1/4。</output><p class=\"v6-limit\">The finite window is illustrative. Θ is the conditional parameter, not the frequency of these six entries.</p><details><summary>Model assumptions and mathematical limits</summary><p>Θ is 1/4 or 3/4 with equal probabilities; given Θ, the Xk are iid Bernoulli(Θ). Displayed windows are deterministic examples, not simulations or a proof of the strong law; finite frequencies are not limits. The conditional strong law gives limit Θ, while the mixture mean is 1/2. Here the invariant sigma-field is sigma(Θ), modulo null sets. Controls move a finite window or compare conditional environments; they do not resample Θ along one path. General Birkhoff requires measure preservation and integrability; ergodicity makes the conditional mean constant but does not imply mixing.</p></details><figcaption id=\"visual-V41-end\">The diagram explains a specific model in the text; full theorems and proofs remain in the chapter and its foundations.</figcaption><nav><a href=\"/assets/visuals/explanatory-volume6-v1/V41.en.svg\">SVG</a><a href=\"/print/V41.en.html\">Static print</a></nav></figure>",
+      "condition": "Θ is 1/4 or 3/4 with equal probabilities; given Θ, the Xk are iid Bernoulli(Θ). Displayed windows are deterministic examples, not simulations or a proof of the strong law; finite frequencies are not limits. The conditional strong law gives limit Θ, while the mixture mean is 1/2. Here the invariant sigma-field is sigma(Θ), modulo null sets. Controls move a finite window or compare conditional environments; they do not resample Θ along one path. General Birkhoff requires measure preservation and integrability; ergodicity makes the conditional mean constant but does not imply mixing.",
+      "asset_base": "/assets/visuals/explanatory-volume6-v1/",
+      "status": "visual working draft adopted; final/device/PDF review open",
+      "kind": "new explanatory candidate",
+      "selected_original_registry": "explanatory-volume6-batch1-working.json"
+    },
+    {
+      "id": "V44",
+      "lang": "zh",
+      "slug": "44-dirichlet-process",
+      "section": "44.19",
+      "coverage_sections": [
+        "44.17",
+        "44.18",
+        "44.19"
+      ],
+      "title": "新开一桌，未必出现新值",
+      "html": "<figure class=\"volume6\" data-v6=\"V44\" id=\"visual-V44\" lang=\"zh\"><header><span>V44</span><h3>新开一桌，未必出现新值</h3></header><div class=\"v44-mobile-summary\"><strong>新桌不一定产生新值</strong><div class=\"v44-prob-pair\"><span>新桌<b>1/4</b></span><span>新值<b data-newvalue>1/8</b></span></div><small data-v44-condition>第4人抽样前：α=1；前三人的桌与标签已给定，均只见z。</small></div><p class=\"v6-intro\">先分桌，再给桌贴标签。这两步会得到同一份划分吗？</p><div class=\"v5-controls\" role=\"group\"><button type=\"button\" data-label=\"atomic\" aria-pressed=\"true\">原子H：可同名</button><button type=\"button\" data-label=\"diffuse\" aria-pressed=\"false\">无原子H</button></div><div class=\"v5-controls\" role=\"group\"><button type=\"button\" data-seat=\"A\" aria-pressed=\"false\">坐A：1/2</button><button type=\"button\" data-seat=\"B\" aria-pressed=\"false\">坐B：1/4</button><button type=\"button\" data-seat=\"new\" aria-pressed=\"true\">新桌：1/4</button></div><p class=\"v6-compact-result\">新桌≠新值：同名标签会合并餐桌</p><div class=\"v6-pair\"><section><h4>餐桌：按共同复制来源分组</h4><img src=\"/assets/visuals/explanatory-volume6-v1/V44-zh-atomic-new-0.svg\" alt=\"餐桌：按共同复制来源分组\" data-pane=\"0\"></section><section><h4>观测：按标签值分组</h4><img src=\"/assets/visuals/explanatory-volume6-v1/V44-zh-atomic-new-1.svg\" alt=\"观测：按标签值分组\" data-pane=\"1\"></section></div><output data-result aria-live=\"polite\">新桌机会为1/4；新观测值机会还取决于H。图中同名配置只是正概率示例。</output><details><summary>模型条件与数学边界</summary><p>标准一参数CRP，α=1；已有桌A={1,2}、B={3}，第四人坐A、B或新桌的预测概率分别1/2、1/4、1/4。每桌标签独立从H抽取，并独立于餐桌过程。原子示例H=(δz+δw)/2，所显示各已开桌恰同为z是一个正概率条件配置，不是几乎必然结论；无原子H时标签几乎必然互异。图上选择分支是检查条件结果，不宣称三个分支等可能。实际观测值相等划分可以比餐桌划分更粗。P(1∼Π2)=1/2，而本原子H下P(X₁=X₂)=3/4。</p></details><figcaption id=\"visual-V44-end\">图解释正文中的具体模型；完整定理与证明仍在正文及配套专题中。</figcaption><nav><a href=\"/assets/visuals/explanatory-volume6-v1/V44.zh.svg\">SVG</a><a href=\"/print/V44.zh.html\">静态打印</a></nav></figure>",
+      "condition": "标准一参数CRP，α=1；已有桌A={1,2}、B={3}，第四人坐A、B或新桌的预测概率分别1/2、1/4、1/4。每桌标签独立从H抽取，并独立于餐桌过程。原子示例H=(δz+δw)/2，所显示各已开桌恰同为z是一个正概率条件配置，不是几乎必然结论；无原子H时标签几乎必然互异。图上选择分支是检查条件结果，不宣称三个分支等可能。实际观测值相等划分可以比餐桌划分更粗。P(1∼Π2)=1/2，而本原子H下P(X₁=X₂)=3/4。",
+      "asset_base": "/assets/visuals/explanatory-volume6-v1/",
+      "status": "adopted subject to requested mobile adjustment; author spot-check pending",
+      "kind": "mobile-only layout refinement",
+      "selected_original_registry": "explanatory-volume6-batch1-working.json"
+    },
+    {
+      "id": "V44",
+      "lang": "en",
+      "slug": "44-dirichlet-process",
+      "section": "44.19",
+      "coverage_sections": [
+        "44.17",
+        "44.18",
+        "44.19"
+      ],
+      "title": "A new table need not mean a new value",
+      "html": "<figure class=\"volume6\" data-v6=\"V44\" id=\"visual-V44\" lang=\"en\"><header><span>V44</span><h3>A new table need not mean a new value</h3></header><div class=\"v44-mobile-summary\"><strong>A new table need not give a new value</strong><div class=\"v44-prob-pair\"><span>New table<b>1/4</b></span><span>New value<b data-newvalue>1/8</b></span></div><small data-v44-condition>Before draw 4: alpha=1; the first three seats and labels are given, with only z observed.</small></div><p class=\"v6-intro\">Seat first, then label each table. Do these operations define the same partition?</p><div class=\"v5-controls\" role=\"group\"><button type=\"button\" data-label=\"atomic\" aria-pressed=\"true\">Atomic H: labels may tie</button><button type=\"button\" data-label=\"diffuse\" aria-pressed=\"false\">Nonatomic H</button></div><div class=\"v5-controls\" role=\"group\"><button type=\"button\" data-seat=\"A\" aria-pressed=\"false\">Join A: 1/2</button><button type=\"button\" data-seat=\"B\" aria-pressed=\"false\">Join B: 1/4</button><button type=\"button\" data-seat=\"new\" aria-pressed=\"true\">New table: 1/4</button></div><p class=\"v6-compact-result\">New table ≠ new value: tied labels merge tables</p><div class=\"v6-pair\"><section><h4>Tables: copy ancestry</h4><img src=\"/assets/visuals/explanatory-volume6-v1/V44-en-atomic-new-0.svg\" alt=\"Tables: copy ancestry\" data-pane=\"0\"></section><section><h4>Observations: equal labels</h4><img src=\"/assets/visuals/explanatory-volume6-v1/V44-en-atomic-new-1.svg\" alt=\"Observations: equal labels\" data-pane=\"1\"></section></div><output data-result aria-live=\"polite\">New-table chance is 1/4; a new value also depends on H. The tied labels shown are one positive-probability configuration.</output><details><summary>Model assumptions and mathematical limits</summary><p>Standard one-parameter CRP with alpha=1. Given A={1,2}, B={3}, customer 4 joins A, B or a new table with probabilities 1/2, 1/4, 1/4. Table labels are iid H and independent of seating. For H=(delta_z+delta_w)/2, the displayed all-z labels form a positive-probability configuration, not an almost-sure outcome. Nonatomic H gives distinct labels almost surely. Buttons inspect conditional branches, not equiprobable alternatives. Equality of observed values may coarsen the table partition. P(1~Pi2)=1/2, whereas this atomic H gives P(X1=X2)=3/4.</p></details><figcaption id=\"visual-V44-end\">The diagram explains a specific model in the text; full theorems and proofs remain in the chapter and its foundations.</figcaption><nav><a href=\"/assets/visuals/explanatory-volume6-v1/V44.en.svg\">SVG</a><a href=\"/print/V44.en.html\">Static print</a></nav></figure>",
+      "condition": "Standard one-parameter CRP with alpha=1. Given A={1,2}, B={3}, customer 4 joins A, B or a new table with probabilities 1/2, 1/4, 1/4. Table labels are iid H and independent of seating. For H=(delta_z+delta_w)/2, the displayed all-z labels form a positive-probability configuration, not an almost-sure outcome. Nonatomic H gives distinct labels almost surely. Buttons inspect conditional branches, not equiprobable alternatives. Equality of observed values may coarsen the table partition. P(1~Pi2)=1/2, whereas this atomic H gives P(X1=X2)=3/4.",
+      "asset_base": "/assets/visuals/explanatory-volume6-v1/",
+      "status": "adopted subject to requested mobile adjustment; author spot-check pending",
+      "kind": "mobile-only layout refinement",
+      "selected_original_registry": "explanatory-volume6-batch1-working.json"
+    },
+    {
+      "id": "V45",
+      "lang": "zh",
+      "slug": "45-invariance",
+      "section": "45.1",
+      "coverage_sections": [
+        "45.1",
+        "45.16",
+        "45.17"
+      ],
+      "title": "每个旋转保律，不等于任意选法保律",
+      "html": "<figure class=\"volume6\" data-v6=\"V45\" id=\"visual-V45\" lang=\"zh\"><header><span>V45</span><h3>每个旋转保律，不等于任意选法保律</h3></header><p class=\"v6-intro\">每个固定旋转都把概率均匀搬过去。先看见点，再挑旋转，还会均匀吗？</p><div class=\"v5-controls\" role=\"group\"><button type=\"button\" data-rotation=\"0\" aria-pressed=\"false\">固定0°</button><button type=\"button\" data-rotation=\"90\" aria-pressed=\"true\">固定90°</button><button type=\"button\" data-rotation=\"180\" aria-pressed=\"false\">固定180°</button><button type=\"button\" data-rotation=\"adaptive\" aria-pressed=\"false\">看完θ，再选−θ</button></div><div class=\"v6-pair\"><section><h4>变换之前</h4><img src=\"/assets/visuals/explanatory-volume6-v1/V45-zh-90-0.svg\" alt=\"变换之前\" data-pane=\"0\"></section><section><h4>变换之后</h4><img src=\"/assets/visuals/explanatory-volume6-v1/V45-zh-90-1.svg\" alt=\"变换之后\" data-pane=\"1\"></section></div><output data-result aria-live=\"polite\">固定旋转：只置换八份概率；依据当前角度归零：把八份概率合为一份。</output><details><summary>模型条件与数学边界</summary><p>图用圆上的8个等可能角度和90°整数倍旋转，构成精确有限群例子，不是用8点近似连续Haar积分。每个固定旋转都置换8份质量；a(θ)=−θ却把它们送到0。圆点面积表示概率，集中后面积为单点的8倍。连续均匀圆周的同类结论由弧长不变证明。并非所有依赖数据的旋转都失效：按轨道半径选择旋转可保律；使用独立新噪声前的可测选择另需§45.16的条件独立假设。</p></details><figcaption id=\"visual-V45-end\">图解释正文中的具体模型；完整定理与证明仍在正文及配套专题中。</figcaption><nav><a href=\"/assets/visuals/explanatory-volume6-v1/V45.zh.svg\">SVG</a><a href=\"/print/V45.zh.html\">静态打印</a></nav></figure>",
+      "condition": "图用圆上的8个等可能角度和90°整数倍旋转，构成精确有限群例子，不是用8点近似连续Haar积分。每个固定旋转都置换8份质量；a(θ)=−θ却把它们送到0。圆点面积表示概率，集中后面积为单点的8倍。连续均匀圆周的同类结论由弧长不变证明。并非所有依赖数据的旋转都失效：按轨道半径选择旋转可保律；使用独立新噪声前的可测选择另需§45.16的条件独立假设。",
+      "asset_base": "/assets/visuals/explanatory-volume6-v1/",
+      "status": "visual working draft adopted; final/device/PDF review open",
+      "kind": "new explanatory candidate",
+      "selected_original_registry": "explanatory-volume6-batch1-working.json"
+    },
+    {
+      "id": "V45",
+      "lang": "en",
+      "slug": "45-invariance",
+      "section": "45.1",
+      "coverage_sections": [
+        "45.1",
+        "45.16",
+        "45.17"
+      ],
+      "title": "Each rotation preserves law; not every selection does",
+      "html": "<figure class=\"volume6\" data-v6=\"V45\" id=\"visual-V45\" lang=\"en\"><header><span>V45</span><h3>Each rotation preserves law; not every selection does</h3></header><p class=\"v6-intro\">Every fixed rotation moves uniform mass uniformly. What if the angle is chosen after seeing the point?</p><div class=\"v5-controls\" role=\"group\"><button type=\"button\" data-rotation=\"0\" aria-pressed=\"false\">Fixed 0°</button><button type=\"button\" data-rotation=\"90\" aria-pressed=\"true\">Fixed 90°</button><button type=\"button\" data-rotation=\"180\" aria-pressed=\"false\">Fixed 180°</button><button type=\"button\" data-rotation=\"adaptive\" aria-pressed=\"false\">See θ, then choose −θ</button></div><div class=\"v6-pair\"><section><h4>Before the map</h4><img src=\"/assets/visuals/explanatory-volume6-v1/V45-en-90-0.svg\" alt=\"Before the map\" data-pane=\"0\"></section><section><h4>After the map</h4><img src=\"/assets/visuals/explanatory-volume6-v1/V45-en-90-1.svg\" alt=\"After the map\" data-pane=\"1\"></section></div><output data-result aria-live=\"polite\">Fixed rotations permute eight masses; current-angle recentering combines all eight into one.</output><details><summary>Model assumptions and mathematical limits</summary><p>Eight equiprobable circle angles with multiples of 90 degrees give an exact finite-group example, not quadrature for continuous Haar measure. Each fixed rotation permutes the eight masses; a(theta)=-theta sends them all to 0. Circle area denotes probability; the concentrated disk has eight times one input mass. The continuous analogue follows from arc-length invariance. Not every data-dependent rotation fails: a radius-based orbit choice may preserve law. Predictable choices for fresh noise require the independence assumptions of section 45.16.</p></details><figcaption id=\"visual-V45-end\">The diagram explains a specific model in the text; full theorems and proofs remain in the chapter and its foundations.</figcaption><nav><a href=\"/assets/visuals/explanatory-volume6-v1/V45.en.svg\">SVG</a><a href=\"/print/V45.en.html\">Static print</a></nav></figure>",
+      "condition": "Eight equiprobable circle angles with multiples of 90 degrees give an exact finite-group example, not quadrature for continuous Haar measure. Each fixed rotation permutes the eight masses; a(theta)=-theta sends them all to 0. Circle area denotes probability; the concentrated disk has eight times one input mass. The continuous analogue follows from arc-length invariance. Not every data-dependent rotation fails: a radius-based orbit choice may preserve law. Predictable choices for fresh noise require the independence assumptions of section 45.16.",
+      "asset_base": "/assets/visuals/explanatory-volume6-v1/",
+      "status": "visual working draft adopted; final/device/PDF review open",
+      "kind": "new explanatory candidate",
+      "selected_original_registry": "explanatory-volume6-batch1-working.json"
+    },
+    {
+      "id": "V46",
+      "lang": "zh",
+      "slug": "46-arrays",
+      "section": "46.1",
+      "coverage_sections": [
+        "46.1",
+        "46.3",
+        "46.12"
+      ],
+      "title": "每行都一样，三角关系却不同",
+      "html": "<figure class=\"volume6\" data-v6=\"V46\" id=\"visual-V46\" lang=\"zh\"><header><span>V46</span><h3>每行都一样，三角关系却不同</h3></header><p class=\"v6-intro\">单看一行，两种无限随机图完全同律。三个人之间，却能出现不同的关系。</p><div class=\"v5-controls\" role=\"group\"><button type=\"button\" data-array-model=\"pairs\" aria-pressed=\"false\">独立边输入</button><button type=\"button\" data-array-model=\"colors\" aria-pressed=\"true\">共享顶点色</button></div><div class=\"v6-controls\"><button data-bit=\"0\" aria-pressed=\"false\">切换输入1</button><button data-bit=\"1\" aria-pressed=\"true\">切换输入2</button><button data-bit=\"2\" aria-pressed=\"true\">切换输入3</button></div><p class=\"v6-compact-result\">三角全1概率：独立边1/8，顶点色0</p><div class=\"v6-pair\"><section><h4>共享输入怎样决定三条边</h4><img src=\"/assets/visuals/explanatory-volume6-v1/V46-zh-colors-011-0.svg\" alt=\"共享输入怎样决定三条边\" data-pane=\"0\"></section><section><h4>全部8份输入，检查三角事件</h4><img src=\"/assets/visuals/explanatory-volume6-v1/V46-zh-colors-011-1.svg\" alt=\"全部8份输入，检查三角事件\" data-pane=\"1\"></section></div><output data-result aria-live=\"polite\">同一行都是独立公平位；三条边全1的概率却是1/8与0。</output><details><summary>模型条件与数学边界</summary><p>无限对称无向数组，对角固定0。模型A每个无序人对取独立公平位；模型B每个顶点取独立公平两色，异色记1。两模型固定一行略去对角后均为iid Bernoulli(1/2)，但三角全1概率分别1/8、0。按钮遍历三个独立输入位：A为三个边位，B为三个顶点色；下方枚举全部8份等概率输入。共享顶点会组织高阶约束，不意味着每对相邻边都相关，本例边两两独立。此为已有表示的具体反例，不代替一般Aldous–Hoover表示证明；全局输入、分别交换与对角机制仍依正文。</p></details><figcaption id=\"visual-V46-end\">图解释正文中的具体模型；完整定理与证明仍在正文及配套专题中。</figcaption><nav><a href=\"/assets/visuals/explanatory-volume6-v1/V46.zh.svg\">SVG</a><a href=\"/print/V46.zh.html\">静态打印</a></nav></figure>",
+      "condition": "无限对称无向数组，对角固定0。模型A每个无序人对取独立公平位；模型B每个顶点取独立公平两色，异色记1。两模型固定一行略去对角后均为iid Bernoulli(1/2)，但三角全1概率分别1/8、0。按钮遍历三个独立输入位：A为三个边位，B为三个顶点色；下方枚举全部8份等概率输入。共享顶点会组织高阶约束，不意味着每对相邻边都相关，本例边两两独立。此为已有表示的具体反例，不代替一般Aldous–Hoover表示证明；全局输入、分别交换与对角机制仍依正文。",
+      "asset_base": "/assets/visuals/explanatory-volume6-v1/",
+      "status": "visual working draft adopted; final/device/PDF review open",
+      "kind": "new explanatory candidate",
+      "selected_original_registry": "explanatory-volume6-batch1-working.json"
+    },
+    {
+      "id": "V46",
+      "lang": "en",
+      "slug": "46-arrays",
+      "section": "46.1",
+      "coverage_sections": [
+        "46.1",
+        "46.3",
+        "46.12"
+      ],
+      "title": "Same row laws, different triangles",
+      "html": "<figure class=\"volume6\" data-v6=\"V46\" id=\"visual-V46\" lang=\"en\"><header><span>V46</span><h3>Same row laws, different triangles</h3></header><p class=\"v6-intro\">One row has exactly the same law in two infinite random graphs. Three vertices reveal the difference.</p><div class=\"v5-controls\" role=\"group\"><button type=\"button\" data-array-model=\"pairs\" aria-pressed=\"false\">Independent pair inputs</button><button type=\"button\" data-array-model=\"colors\" aria-pressed=\"true\">Shared vertex colors</button></div><div class=\"v6-controls\"><button data-bit=\"0\" aria-pressed=\"false\">Toggle input 1</button><button data-bit=\"1\" aria-pressed=\"true\">Toggle input 2</button><button data-bit=\"2\" aria-pressed=\"true\">Toggle input 3</button></div><p class=\"v6-compact-result\">All-edge triangle: independent pairs 1/8, vertex colors 0</p><div class=\"v6-pair\"><section><h4>Shared inputs determine edges</h4><img src=\"/assets/visuals/explanatory-volume6-v1/V46-en-colors-011-0.svg\" alt=\"Shared inputs determine edges\" data-pane=\"0\"></section><section><h4>All eight inputs; test a triangle</h4><img src=\"/assets/visuals/explanatory-volume6-v1/V46-en-colors-011-1.svg\" alt=\"All eight inputs; test a triangle\" data-pane=\"1\"></section></div><output data-result aria-live=\"polite\">Each row is iid fair bits; the all-edge triangle probabilities are 1/8 and 0.</output><details><summary>Model assumptions and mathematical limits</summary><p>Infinite symmetric undirected arrays with zero diagonal. A assigns independent fair bits to unordered pairs. B assigns iid fair vertex colors and puts an edge between unlike colors. Each row off the diagonal is iid Bernoulli(1/2) in both models, but the all-edge triangle probabilities are 1/8 and 0. Buttons enumerate three independent input bits: edges in A, vertex colors in B. The lower panel lists all eight equiprobable inputs. Shared vertices organize higher-order constraints; here individual edge pairs are independent. This counterexample does not prove the general Aldous–Hoover theorem; global inputs, separate exchangeability and diagonal mechanisms remain in the text.</p></details><figcaption id=\"visual-V46-end\">The diagram explains a specific model in the text; full theorems and proofs remain in the chapter and its foundations.</figcaption><nav><a href=\"/assets/visuals/explanatory-volume6-v1/V46.en.svg\">SVG</a><a href=\"/print/V46.en.html\">Static print</a></nav></figure>",
+      "condition": "Infinite symmetric undirected arrays with zero diagonal. A assigns independent fair bits to unordered pairs. B assigns iid fair vertex colors and puts an edge between unlike colors. Each row off the diagonal is iid Bernoulli(1/2) in both models, but the all-edge triangle probabilities are 1/8 and 0. Buttons enumerate three independent input bits: edges in A, vertex colors in B. The lower panel lists all eight equiprobable inputs. Shared vertices organize higher-order constraints; here individual edge pairs are independent. This counterexample does not prove the general Aldous–Hoover theorem; global inputs, separate exchangeability and diagonal mechanisms remain in the text.",
+      "asset_base": "/assets/visuals/explanatory-volume6-v1/",
+      "status": "visual working draft adopted; final/device/PDF review open",
+      "kind": "new explanatory candidate",
+      "selected_original_registry": "explanatory-volume6-batch1-working.json"
+    },
+    {
+      "id": "V47",
+      "lang": "zh",
+      "slug": "47-partitions",
+      "section": "47.7",
+      "coverage_sections": [
+        "47.5",
+        "47.6",
+        "47.7"
+      ],
+      "title": "剩余质量，不是最后一种颜色",
+      "html": "<figure class=\"volume6\" data-v6=\"V47\" id=\"visual-V47\" lang=\"zh\"><header><span>V47</span><h3>剩余质量，不是最后一种颜色</h3></header><p class=\"v6-intro\">没有落进任何正质量色带的人，是属于同一个剩余类别，还是各自单独成类？</p><div class=\"v5-controls\" role=\"group\"><button type=\"button\" data-dust=\"0\" aria-pressed=\"false\">d=0</button><button type=\"button\" data-dust=\"25\" aria-pressed=\"true\">d=1/4</button><button type=\"button\" data-dust=\"50\" aria-pressed=\"false\">d=1/2</button></div><div class=\"v6-pair\"><section><h4>位置到类别的映射</h4><img src=\"/assets/visuals/explanatory-volume6-v1/V47-zh-25-0.svg\" alt=\"位置到类别的映射\" data-pane=\"0\"></section><section><h4>丢掉位置，只保留分类</h4><img src=\"/assets/visuals/explanatory-volume6-v1/V47-zh-25-1.svg\" alt=\"丢掉位置，只保留分类\" data-pane=\"1\"></section></div><output data-result aria-live=\"polite\">两人同块概率 = s₁²+s₂² = 0.3125；不能再加d²。</output><details><summary>模型条件与数学边界</summary><p>确定paintbox质量s₁=1/2、s₂=1/2−d，d=0、1/4或1/2；零长度色带删去。条件于质量，每个人独立均匀取[0,1]点；正色带同类，剩余部分各为单点。图中6个点位置为确定示意，不是抽样频率或频率极限的证明。剩余部分不是共享颜色；两次抽到dust的概率d²不计为同块概率。两人同块概率s₁²+s₂²。一般随机质量还需Kingman的混合、共同零集及可测排序定理。静态paintbox不决定合并时钟；每块对速率1是另加的Kingman规则。</p></details><figcaption id=\"visual-V47-end\">图解释正文中的具体模型；完整定理与证明仍在正文及配套专题中。</figcaption><nav><a href=\"/assets/visuals/explanatory-volume6-v1/V47.zh.svg\">SVG</a><a href=\"/print/V47.zh.html\">静态打印</a></nav></figure>",
+      "condition": "确定paintbox质量s₁=1/2、s₂=1/2−d，d=0、1/4或1/2；零长度色带删去。条件于质量，每个人独立均匀取[0,1]点；正色带同类，剩余部分各为单点。图中6个点位置为确定示意，不是抽样频率或频率极限的证明。剩余部分不是共享颜色；两次抽到dust的概率d²不计为同块概率。两人同块概率s₁²+s₂²。一般随机质量还需Kingman的混合、共同零集及可测排序定理。静态paintbox不决定合并时钟；每块对速率1是另加的Kingman规则。",
+      "asset_base": "/assets/visuals/explanatory-volume6-v1/",
+      "status": "visual working draft adopted; final/device/PDF review open",
+      "kind": "new explanatory candidate",
+      "selected_original_registry": "explanatory-volume6-batch1-working.json"
+    },
+    {
+      "id": "V47",
+      "lang": "en",
+      "slug": "47-partitions",
+      "section": "47.7",
+      "coverage_sections": [
+        "47.5",
+        "47.6",
+        "47.7"
+      ],
+      "title": "Residual mass is not one more color",
+      "html": "<figure class=\"volume6\" data-v6=\"V47\" id=\"visual-V47\" lang=\"en\"><header><span>V47</span><h3>Residual mass is not one more color</h3></header><p class=\"v6-intro\">Do points outside the positive mass bands share one residual class, or form separate singletons?</p><div class=\"v5-controls\" role=\"group\"><button type=\"button\" data-dust=\"0\" aria-pressed=\"false\">d=0</button><button type=\"button\" data-dust=\"25\" aria-pressed=\"true\">d=1/4</button><button type=\"button\" data-dust=\"50\" aria-pressed=\"false\">d=1/2</button></div><div class=\"v6-pair\"><section><h4>Map locations to classes</h4><img src=\"/assets/visuals/explanatory-volume6-v1/V47-en-25-0.svg\" alt=\"Map locations to classes\" data-pane=\"0\"></section><section><h4>Forget locations; keep classes</h4><img src=\"/assets/visuals/explanatory-volume6-v1/V47-en-25-1.svg\" alt=\"Forget locations; keep classes\" data-pane=\"1\"></section></div><output data-result aria-live=\"polite\">Same-block probability = s1²+s2² = 0.3125; do not add d².</output><details><summary>Model assumptions and mathematical limits</summary><p>Deterministic paintbox masses s1=1/2, s2=1/2-d, with d=0,1/4,1/2; omit zero bands. Given masses, each individual samples an independent uniform point; shared positive bands define a class, while residual points are singletons. Six fixed positions illustrate the rule, not frequencies or their limiting theorem. Residual mass is not a shared color; d squared is not added to the same-block probability s1 squared+s2 squared. Random masses require Kingman mixing, common null sets and measurable ranking. A static paintbox does not specify coalescent clocks: pair rate 1 is an additional Kingman rule.</p></details><figcaption id=\"visual-V47-end\">The diagram explains a specific model in the text; full theorems and proofs remain in the chapter and its foundations.</figcaption><nav><a href=\"/assets/visuals/explanatory-volume6-v1/V47.en.svg\">SVG</a><a href=\"/print/V47.en.html\">Static print</a></nav></figure>",
+      "condition": "Deterministic paintbox masses s1=1/2, s2=1/2-d, with d=0,1/4,1/2; omit zero bands. Given masses, each individual samples an independent uniform point; shared positive bands define a class, while residual points are singletons. Six fixed positions illustrate the rule, not frequencies or their limiting theorem. Residual mass is not a shared color; d squared is not added to the same-block probability s1 squared+s2 squared. Random masses require Kingman mixing, common null sets and measurable ranking. A static paintbox does not specify coalescent clocks: pair rate 1 is an additional Kingman rule.",
+      "asset_base": "/assets/visuals/explanatory-volume6-v1/",
+      "status": "visual working draft adopted; final/device/PDF review open",
+      "kind": "new explanatory candidate",
+      "selected_original_registry": "explanatory-volume6-batch1-working.json"
+    }
+  ]
+}

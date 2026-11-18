@@ -7,6 +7,7 @@ from bs4 import BeautifulSoup
 import re,json,hashlib,html
 from tools.homepage import hero, utility, english_catalogue, english_sidebar
 from tools.publication_site import PublicationSite, ROUTES as PUBLICATION_ROUTES, LABELS as PUBLICATION_LABELS
+from tools.chapter_reading_layout import draft_label
 from tools.academic_navigation import organize_sections,sidebar as academic_sidebar,page_panel,home_resources,config as academic_config
 from tools.math_visuals import insert_figures,copy_assets,records as visual_records,figure_html
 from tools import volume_navigation as volumes
@@ -95,7 +96,7 @@ def asset(name,text):
     file=f'{name}-{digest}.'+('css' if name=='reader' else 'js')
     (dist/'assets'/file).write_bytes(text.encode())
     return '/assets/'+file
-css=asset('reader',base_css+'\n'+extra_css+'\n'+(root/'reader-mode.css').read_text(encoding='utf-8')+'\n'+(root/'home.css').read_text(encoding='utf-8')+'\n'+(root/'publication/publication.css').read_text('utf-8')+'\n'+(root/'publication/academic-navigation.css').read_text('utf-8')+'\n'+(root/'publication/volumes.css').read_text('utf8'))
+css=asset('reader',base_css+'\n'+extra_css+'\n'+(root/'reader-mode.css').read_text(encoding='utf-8')+'\n'+(root/'home.css').read_text(encoding='utf-8')+'\n'+(root/'publication/publication.css').read_text('utf-8')+'\n'+(root/'publication/chapter-reading-layout.css').read_text('utf-8')+'\n'+(root/'publication/academic-navigation.css').read_text('utf-8')+'\n'+(root/'publication/volumes.css').read_text('utf8'))
 shutil.copytree(root/'assets/images',dist/'assets/images',dirs_exist_ok=True)
 shutil.copytree(root/'assets/ui',dist/'assets/ui',dirs_exist_ok=True)
 home_ui_asset=asset('home-ui',(root/'home-ui.js').read_text(encoding='utf-8'))
@@ -240,7 +241,9 @@ def document(key,body,home=False,english=None):
         options=''.join('<option value="'+str(i)+'">'+html.escape(u['title'])+'</option>' for i,u in enumerate(reading_manifest[key]))
         reader_controls='<div id="reader-controls" class="reader-controls" aria-label="阅读方式"><div class="reader-mode-buttons" role="group" aria-label="阅读模式"><button type="button" data-reading-mode="section" aria-pressed="true">按小节阅读</button><button type="button" data-reading-mode="chapter" aria-pressed="false">整章阅读</button><button type="button" id="reader-previous-top" aria-label="上一节（顶部）" disabled>← 上一节</button><button type="button" id="reader-next-top" aria-label="下一节（顶部）">下一节 →</button><span id="reader-status" aria-live="polite"></span></div><label class="reader-section-label" for="reader-section">小节<select id="reader-section">'+options+'</select></label></div>'
         body+='<nav class="reader-pagination" aria-label="小节导航"><button type="button" id="reader-previous" disabled>← 上一节</button><button type="button" id="reader-next">下一节 →</button></nav>'
-    body=publication.chapter_bar(key,english)+page_panel(key,slugs,english)+body
+    if reader_controls:
+        reader_controls=reader_controls.replace('<div class="reader-mode-buttons" role="group" aria-label="阅读模式">','<div class="reader-mode-buttons" role="group" aria-label="阅读模式">'+draft_label(english),1)
+    body=page_panel(key,slugs,english)+body+publication.chapter_bar(key,english)
     result='<!doctype html><html lang="'+('en' if english else 'zh-CN')+'"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="'+('An original book on the history, ideas and mathematical structures of probability. Complete English chapters, proofs and references, alongside the unchanged Chinese manuscripts.' if english else '偶然的数学：'+str(len(slugs))+'章长篇工作稿，独立章节阅读，保留历史、推导、引用与交互。')+'"><title>'+html.escape(title)+' · 偶然的数学</title><link rel="stylesheet" href="'+css+'"></head><body class="'+('home english-home' if home and english else 'home' if home else 'chapter-page english-reading' if english else 'chapter-page')+'" data-book-root="'+('../' if english or key.startswith(('chapter-','advanced-','foundation-')) else './')+'" data-reader-page="'+key+'"><div class="progress" id="progress"></div>'+page_header+page_nav+page_dialog+'<main>'+context+body+page_footer+'</main><button id="back-top" aria-label="'+('Back to top' if english else '返回顶部')+'">↑</button>'+''.join('<script src="'+p+'"></script>' for p in [search_asset,experiment_asset,app_asset])+'</body></html>'
     if reader_controls:
         result=result.replace('<main>'+context,'<main>'+context+reader_controls,1).replace('</body>','<script src="'+reader_asset+'"></script></body>',1)
@@ -323,13 +326,13 @@ descriptions.append('从等待年龄到指数无记忆、完整计数构造、�
 descriptions.append('从随状态变化的时钟，建立最小跳链、爆炸、前后向方程、时间平衡与连续分枝。')
 catalogue=volumes.catalogue(catalogue+'</section>',False)+home_resources(False)
 if english_book:
-    en_version=f'<details class="home-version"><summary>About this reading edition</summary><p>All {len(slugs)} chapters, advanced modules, supplementary proofs, references and writing guidance have full English working translations. Chinese manuscripts are protected; only explicitly authorized errata and cross-references are applied. Translations await semantic review and do not change the independent mathematical or historical review states.</p><p>Chapter 11 has been adopted by the author. Chapter 13 and its latest refinements have been adopted; Chapter 12 awaits author reading. Chapter 14 is a complete draft under mathematical verification and awaits formal author confirmation. Chapter 15 is a complete bilingual continuation draft awaiting author review; T-LP provides its analysis prerequisites. The published twelve-chapter edition has not been replaced. See the version page for the separate chapter states.</p></details>'
+    en_version=publication.edition_notes(True)
     (dist/'en').mkdir(exist_ok=True)
     en_catalogue=volumes.catalogue(re.sub(r'<div class="extra-pages">[\s\S]*?</div>','',english_catalogue(slugs)),True)
     write_page(dist/'en/index.html',document('home-en',hero(site_links,len(slugs),True)+publication.author_card(True)+en_catalogue+home_resources(True)+en_version,True,True).encode())
 else:
     cover=hero(site_links,len(slugs))
-    version='<details class="home-version"><summary>版本与阅读说明</summary><p>当前本地预览包含'+str(len(slugs))+'章中英文长篇工作稿及四份数学基础补证。第十一章主体与小修已获作者采用；第十三章及最新完善已采用，数学持续校订；第十二章待作者阅读；第十四章为完整初稿、数学核验中、作者待确认。第十五章已在原六节基础上完整续写，待作者审阅；前十四章、旧补证、插图及认可的卷级文字和样式受保护。</p><p>正文采用、数学核验、史料核验、作者阅读、工程预览与正式发布分别记录，详见<a href="/versions.html">逐章版本页</a>。正式站点为前十二章，第十三至十五章仅本地构建，不覆盖线上版本。</p></details>'
+    version=publication.edition_notes(False)
     write_page(dist/'index.html',document('home',cover+publication.author_card()+catalogue+version,True).encode())
 
 manifest=[]

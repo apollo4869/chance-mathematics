@@ -28,6 +28,7 @@ def preserve_targeted(soup,section,search,english=False):
         if item['section']==section and item['id'] in mapping:item['id']=mapping[item['id']]
 
 def preserve(soup,section,search,english=False):
+    if section=='chapter-5':preserve_student_p1(soup,section,search,english)
     if section=='chapter-17' and (Path(__file__).resolve().parents[1]/'publication/chapter17-revision-anchors.json').exists():
         preserve_recreated20(soup,section,search,english,chapter=17)
         return
@@ -59,6 +60,38 @@ def preserve(soup,section,search,english=False):
     assert len(set(mapping.values()))==len(mapping),'Formula-anchor collision'
     for item in search:
         if item['section']==section and item['id'] in mapping:item['id']=mapping[item['id']]
+
+def preserve_student_p1(soup,section,search,english=False):
+    """Keep pre-P1 formulas and list/cell bookmarks at their original content."""
+    import re
+    from bs4 import BeautifulSoup
+    config=Path(__file__).resolve().parents[1]/'publication/student-p1-anchors.json'
+    if not config.exists():return
+    record=json.loads(config.read_text('utf8'))['languages']['en' if english else 'zh']
+    used=set();mapping={}
+    # Restore containers first: their IDs form the context of inline formulas.
+    for n in soup.select('li[id],td[id],th[id]'):
+        clone=BeautifulSoup(str(n),'html.parser')
+        for f in clone.select('.formula'):f.replace_with(' TEX '+f['data-tex'].replace('\r\n','\n'))
+        text=re.sub(r'\s+','',clone.get_text())
+        row=next((r for r in record['other_search_nodes'] if r['id'] not in used and r['tag']==n.name and r['text']==text),None)
+        assert row,('P1 legacy list/cell bookmark',n.name,text)
+        mapping[n['id']]=row['id'];n['id']=row['id'];used.add(row['id'])
+    assert len(used)==len(record['other_search_nodes'])
+    old=record['formulas'];used=set();added=0
+    for f in soup.select('.formula'):
+        parent=f.find_parent(['p','h1','h2','h3','li','td'])
+        display='display' in f.get('class',[]);context='display' if display else parent.get('id') if parent else section
+        row=next((r for r in old if r['id'] not in used and r['tex']==f['data-tex'].replace('\r\n','\n') and r['context']==context and r['display']==display),None)
+        if row:target=row['id'];used.add(target)
+        else:
+            assert not display and f['data-tex']=='E',('Unexpected P1 formula',f['data-tex'])
+            added+=1;target='chapter-5-p1-reference-'+str(added)
+        mapping[f['id']]=target;f['id']=target
+    assert len(used)==len(old) and added==1,('P1 formula preservation',len(used),len(old),added)
+    for item in search:
+        if item['section']==section and item['id'] in mapping:item['id']=mapping[item['id']]
+
 
 def preserve_recreated20(soup,section,search,english=False,chapter=20):
     charter=(Path(__file__).resolve().parents[1]/'publication/chapter17-charter-anchors.json').exists()

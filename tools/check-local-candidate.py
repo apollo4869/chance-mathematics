@@ -9,13 +9,14 @@ sys.path.insert(0, str(ROOT.parent / 'probability-project-audit-2026-10-25/runti
 from bs4 import BeautifulSoup
 from academic_navigation import module_body_html,split_supplement,config as academic_config
 from math_visuals import remove_figures
+from illustration_verification import remove_adopted
 
 baseline = json.loads((ROOT / 'baseline-manuscript.json').read_text('utf-8'))
 for name, digest in baseline['files'].items():
     assert hashlib.sha256((ROOT / name).read_bytes()).hexdigest() == digest, name
 inputs = json.loads((ROOT / 'provenance/build-inputs.json').read_text('utf-8'))
 items = [{'id': f'chapter-{i}', 'path': str(ROOT / 'chapters' / name), 'syntax': 'slash'}
-         for i, name in enumerate(inputs['chapters'], 1) if i >= 5]
+         for i, name in enumerate(inputs['chapters'], 1)]
 items += [{'id':m['id'],'path':str(ROOT/m['file']),'syntax':'slash'} for m in inputs.get('supporting_proofs',[])]
 items += [{'id':m['id'],'path':str(ROOT/m['file']),'syntax':'slash'} for m in inputs.get('advanced_modules',[])]
 items += [{'id':'supplement','path':str(ROOT/'校订与证明补充.md'),'syntax':'slash'}]
@@ -57,10 +58,13 @@ for p, soup in pages.items():
 
 def content(fragment):
     soup = BeautifulSoup(str(fragment), 'html.parser')
+    remove_adopted(soup)
     from volume_navigation import restore_reader_fragment
     restore_reader_fragment(soup)
     remove_figures(soup)
-    for n in soup.select('.section-kicker,.chapter-links'):
+    # Numeric charts are generated experiment outputs, audited by the model
+    # tests; they were not present in this check's former Chapters 5+ scope.
+    for n in soup.select('.section-kicker,.chapter-links,.chart,.numeric-chart'):
         n.decompose()
     formulas = []
     for n in soup.select('.formula,.audit-math'):

@@ -7,6 +7,7 @@ sys.path.insert(0,str(ROOT.parent/'probability-project-audit-2026-10-25/runtime/
 from bs4 import BeautifulSoup
 from academic_navigation import module_body_html,split_supplement
 from math_visuals import remove_figures
+from illustration_verification import remove_adopted
 manifest=json.loads((ROOT/'translations/en/manifest.json').read_text('utf-8'))
 inputs=json.loads((ROOT/'provenance/build-inputs.json').read_text('utf-8'))
 items=[];routes={}
@@ -33,6 +34,7 @@ node=shutil.which('node') or r'C:\Users\golde\.cache\codex-runtimes\codex-primar
 subprocess.run([node,str(ROOT/'tools/expected-content.cjs'),str(ROOT/'build/english-request.json')],check=True)
 def inspect(fragment):
     soup=BeautifulSoup(str(fragment),'html.parser')
+    remove_adopted(soup)
     from volume_navigation import restore_reader_fragment
     restore_reader_fragment(soup)
     remove_figures(soup)

@@ -55,7 +55,7 @@ But there is a problem.
 
 **Can past victories really measure the chances of winning that each player currently holds?**
 
-If A needs only one more win while B must win twice in succession, the previous score alone seems insufficient to assess their present positions.
+If A needs only one more win while B must win twice in succession, dividing the stake in proportion to past victories does not reflect their present chances.
 
 A new way of thinking therefore emerges:
 
@@ -222,7 +222,7 @@ Volume I · Can Chance Be Calculated?
 
 In the previous section, an interrupted game of chance revealed a surprising mathematical idea:
 
-A person's current fair value can be calculated from future outcomes that have not yet occurred.
+The fair value of a player's position can be calculated from future outcomes that have not yet occurred.
 
 But our argument contained an assumption that almost escaped notice.
 
@@ -256,7 +256,7 @@ Before pursuing that question, however, I would like us to return to a historica
 
 [Original image source](https://www.talmudology.com/jeremybrownmdgmailcom/2021/2/15/happy-birthday-galileo)
 
-**Galileo Galilei（1564—1642）**
+**Galileo Galilei (1564–1642)**
 
 Galileo studied not only motion, astronomy, and physics, but also mathematical questions arising from dice games.
 
@@ -1084,9 +1084,9 @@ We have gained some mathematical tools, yet the most fundamental question remain
 
 This leads us naturally to the next chapter.
 
-# Chapter 2: From Chance to Belief—When Outcomes Are No Longer Equally Likely
+# Chapter 2: From Chance to Knowledge—How Do We Discover Unknown Probabilities?
 
-In the next chapter, we will begin with an unfair die.
+In the next chapter, we will begin with an unfair coin.
 
 This time we cannot count directly or assume a uniform distribution in advance.
 

@@ -1,6 +1,10 @@
 """Reader-facing authorship, citation, rights and verifiable edition metadata."""
 from pathlib import Path
 import hashlib,html,json,re,shutil,subprocess
+try:
+    from .chapter_reading_layout import chapter_notes
+except ImportError:
+    from chapter_reading_layout import chapter_notes
 
 ROUTES={'author':'author.html','citation':'citation.html','copyright':'copyright-attribution.html',
         'versions':'versions.html','contributors':'contributors.html','privacy':'privacy.html'}
@@ -30,6 +34,7 @@ def write_json(p,v):
 class PublicationSite:
     def __init__(self,root):
         self.root=root;self.book=json.loads((root/'publication/book.json').read_text('utf-8'))
+        self.reading=json.loads((root/'publication/reading-edition.json').read_text('utf-8'))
         self.materials=json.loads((root/'publication/materials.json').read_text('utf-8'))
         self.credits=json.loads((root/'publication/contributors.json').read_text('utf-8'))
         self.releases=[json.loads(p.read_text('utf-8')) for p in sorted((root/'publication/releases').glob('*.json'))]
@@ -72,36 +77,47 @@ class PublicationSite:
     def footer(self,en=False):
         nav=''.join('<a href="'+self.link(k,en)+'">'+esc(LABELS[k][int(en)])+'</a>' for k in ROUTES)
         rights=('Rights reserved where lawfully owned; third-party rights and statutory exceptions preserved.' if en else '依法归作者所有的受保护部分保留权利；第三方权利及法定例外不受影响。')
-        return '<footer class="publication-footer"><p>© 2026 Haobai Wang · '+rights+'</p><nav aria-label="'+('Publication information' if en else '出版信息')+'">'+nav+'</nav><p>'+('Free to read · Share official links for teaching · Local preview' if en else '免费阅读 · 欢迎教学分享正式链接 · 当前为本地预览')+'</p></footer>'
+        return '<footer class="publication-footer"><p>© 2026 Haobai Wang · '+rights+'</p><nav aria-label="'+('Publication information' if en else '出版信息')+'">'+nav+'</nav><p>'+('Free to read · Working draft · Independent mathematical final review incomplete' if en else '免费阅读 · 工作稿 · 独立数学终审尚未完成')+'</p></footer>'
+
+    def edition_notes(self,en=False):
+        text=('Eight volumes and 58 chapters are available as Chinese and English working drafts. The English text awaits semantic and author review; author adoption is separate from independent mathematical final review, which remains incomplete. Earlier publication snapshots are preserved as historical editions, not descriptions of the present chapter count. This locally generated editorial candidate has not been deployed.' if en else '八卷58章中英文工作稿齐全。英文仍待语义与作者审阅；作者采用与独立数学终审分别记录，独立数学终审尚未完成。旧发布快照作为历史版本保留，不代表当前章数。本地生成的编辑候选尚未部署。')
+        return '<details class="home-version"><summary>'+('About this reading edition' if en else '版本与阅读说明')+'</summary><p>'+text+'</p><p><a href="'+self.link('versions',en)+'">'+('Edition history and review states' if en else '版本历史与分项审阅状态')+'</a></p></details>'
 
     def chapter_bar(self,key,en=False):
         if not key.startswith('chapter-'):return ''
         row=self.chapters[int(key.split('-')[1])-1];v=row['languages']['en' if en else 'zh-CN']
-        return ('<details class="chapter-edition"><summary>Haobai Wang · '+('Local preview' if en else '本地预览')+' · '+v['version']+'</summary>'
-                '<p>'+('This content fingerprint identifies the text, not a formal release or an independent proof of authorship.' if en else '内容指纹用于核对本章文本，不表示正式发布或独立的作者身份证明。')+'</p><p>SHA-256: <code>'+v['sha256']+'</code></p>'
-                '<a href="'+self.link('versions',en)+'#chapter-'+str(row['chapter'])+'">'+('Version history' if en else '版本记录')+'</a> · '
-                '<a href="'+self.link('citation',en)+'?chapter='+str(row['chapter'])+'#chapter-citations">'+('Cite this chapter' if en else '引用本章')+'</a></details>')
+        origin='Haobai Wang · '+('Local preview' if en else '本地预览')+' · '+v['version']
+        metadata=('<p>'+('This content fingerprint identifies the text, not a formal release or an independent proof of authorship.' if en else '内容指纹用于核对本章文本，不表示正式发布或独立的作者身份证明。')+'</p><p>SHA-256: <code>'+v['sha256']+'</code></p>')
+        links=('<a href="'+self.link('versions',en)+'#chapter-'+str(row['chapter'])+'">'+('Version history' if en else '版本记录')+'</a> '
+               '<a href="'+self.link('citation',en)+'?chapter='+str(row['chapter'])+'#chapter-citations">'+('Cite this chapter' if en else '引用本章')+'</a>')
+        return chapter_notes(origin,metadata,links,en)
 
     def head(self,key,en=False):
         title=self.book['title_en' if en else 'title']
         if key.startswith('chapter-'):title=self.chapters[int(key.split('-')[1])-1]['languages']['en' if en else 'zh-CN']['title']
+        route='chapters/'+self.chapters[int(key.split('-')[1])-1]['slug']+'.html' if key.startswith('chapter-') else ROUTES.get(key,'index.html' if key in {'home','home-en'} else None)
+        canonical=self.book['canonical_url']+('en/' if en else '')+route if route else None
         data={'@context':'https://schema.org','@type':'Book','name':title,'author':{'@type':'Person','name':'Haobai Wang'},
-              'inLanguage':'en' if en else 'zh-CN','isAccessibleForFree':True,'version':self.preview}
+              'inLanguage':'en' if en else 'zh-CN','isAccessibleForFree':True,'version':self.preview,'creativeWorkStatus':'Working draft; independent mathematical final review incomplete'}
+        if canonical:data['url']=canonical
         return ('<meta name="author" content="Haobai Wang"><meta name="citation_author" content="Wang, Haobai">'
                 '<meta name="citation_title" content="'+esc(title)+'"><meta name="dcterms.rights" content="Rights reserved only where lawfully owned; statutory exceptions and third-party rights preserved.">'
-                '<script type="application/ld+json">'+json.dumps(data,ensure_ascii=False).replace('<','\\u003c')+'</script>')
+                +('<link rel="canonical" href="'+esc(canonical)+'">' if canonical else '')+'<script type="application/ld+json">'+json.dumps(data,ensure_ascii=False).replace('<','\\u003c')+'</script>')
 
     def bib(self,kind='formal',chapter=None,en=False):
         if chapter is not None:
             row=self.chapters[chapter-1];v=row['languages']['en' if en else 'zh-CN'];title=v['title']
-            note='Unpublished local preview; '+v['version']+'; SHA-256 '+v['sha256'];key='wang2026chance_ch'+str(chapter)+('_en' if en else '')
+            note='Local editorial working candidate, not deployed; '+v['version']+'; SHA-256 '+v['sha256']+'; independent mathematical final review incomplete';key='wang2026chance_ch'+str(chapter)+('_en' if en else '')
         else:
-            title=self.book['title'];key='wang2026chance'+('_preview' if kind=='preview' else '')
+            title=self.book['title_en' if en else 'title'];key='wang2026chance'+('_preview' if kind=='preview' else '_reading' if kind=='reading' else '')+('_en' if en else '')
             note=(f"Formal web version {self.formal['hosting_version_number']}; first {self.formal['chapter_count']} chapters; source snapshot {self.formal['release_id']}"
-                  if kind=='formal' else 'Unpublished local preview; '+self.preview)
+                  if kind=='formal' else ('Eight volumes, 58 bilingual chapters; working reading draft; independent mathematical final review incomplete' if kind=='reading' else 'Local editorial candidate, not deployed; '+self.preview))
         lines=['@misc{'+key+',','  author = {Wang, Haobai},','  title = {{'+title+'}},','  year = {2026},',
-               '  howpublished = {'+('Online book' if kind=='formal' and chapter is None else 'Unpublished working draft')+'},']
-        if kind=='formal' and chapter is None:lines.append('  url = {'+self.book['canonical_url']+'},')
+               '  howpublished = {'+('Online publication snapshot' if kind=='formal' and chapter is None else 'Online working reading edition' if kind=='reading' and chapter is None else 'Unpublished local editorial candidate')+'},']
+        if kind=='formal' and chapter is None:url=self.book['canonical_url']+'releases/'+self.formal['archive_file']
+        elif chapter is not None:url=self.book['canonical_url']+('en/' if en else '')+'chapters/'+row['slug']+'.html'
+        else:url=self.book['english_url'] if en else self.book['canonical_url']
+        lines.append('  url = {'+url+'},')
         lines.extend(['  note = {'+note+'}','}'])
         return '\n'.join(lines)
 
@@ -120,14 +136,14 @@ class PublicationSite:
             'The primary author directs questions, narrative, content selection and adoption. AI assistance with drafting, discussion, translation and engineering is disclosed separately. Attribution does not automatically make every AI output copyrightable or certify final mathematical and historical review.')+'</p><p><a href="'+self.link('copyright',en)+'">'+t('版权与 AI 辅助说明','Rights and AI-assistance statement')+'</a> · <a href="'+('/en/' if en else '/')+'writing-rules.html">'+t('公开写作原则','Public writing principles')+'</a></p>'
 
         citation='<h1>'+t('引用本书 · Citation','Citation')+'</h1><p class="pub-lead">'+t(
-            '请引用 Haobai Wang，并注明实际阅读的版本。正式网页、公开八章源码快照和当前本地预览不是同一个版本。',
-            'Credit Haobai Wang and identify the edition actually consulted. The formal website, public eight-chapter source snapshot and current local preview are different editions.')+'</p>'
-        citation+='<h2>'+t('正式网页版本','Formal web edition')+'</h2><p>Haobai Wang. '+esc(b['title'])+'. 2026. '+t(f"正式网页第{self.formal['hosting_version_number']}版，前{self.formal['chapter_count']}章。",f"Formal web version {self.formal['hosting_version_number']}, first {self.formal['chapter_count']} chapters.")+' <a href="'+b['canonical_url']+'">'+t('正式阅读网址','Official reading URL')+'</a>.</p>'
+            '请引用Haobai Wang，并注明实际阅读的语言和版本。完整58章作者阅读工作稿、历史发布快照与本地编辑候选不是同一个版本。',
+            'Credit Haobai Wang and identify the language and edition consulted. The complete 58-chapter author-reading working draft, historical publication snapshots and local editorial candidates are distinct versions.')+'</p>'
+        citation+='<h2>'+t('完整作者阅读工作稿','Complete author-reading working edition')+'</h2><p>'+t('八卷58章中英文工作稿；独立数学终审尚未完成，不是正式学术定稿。','Eight volumes and 58 bilingual chapters; independent mathematical final review is incomplete. This is not a finalized scholarly edition.')+'</p>'+self.copy_box('cite-reading',self.bib('reading',en=en),en)
+        citation+='<p><a href="/metadata/'+('book-citation.en.bib' if en else 'book-citation.bib')+'" download>BibTeX ↓</a> · <a href="/metadata/CITATION.cff" download>CITATION.cff ↓</a></p>'
+        snapshot=b['canonical_url']+'releases/'+self.formal['archive_file']
+        citation+='<h2>'+t('较早登记的正式网页快照','Earlier recorded web-publication snapshot')+'</h2><p>Haobai Wang. '+esc(b['title'])+'. 2026. '+t(f"第{self.formal['hosting_version_number']}版，前{self.formal['chapter_count']}章。发布登记不等于数学终审。",f"Version {self.formal['hosting_version_number']}, first {self.formal['chapter_count']} chapters. Publication registration is not mathematical final approval.")+' <a href="'+snapshot+'">'+t('对应的不可变正文快照','Corresponding immutable manuscript snapshot')+'</a>.</p>'
         citation+=self.copy_box('cite-formal',self.bib(),en)
-        citation+='<p><a href="/metadata/book-citation.bib" download>BibTeX ↓</a> · <a href="/metadata/CITATION.cff" download>CITATION.cff ↓</a></p>'
-        citation+='<h2>'+t('引用当前本地预览','Citing this local preview')+'</h2><p>'+t(
-            '当前预览尚未正式发布。不填造出版社、ISBN、DOI或一个并不存在的公开第九章网址；可随所分享的预览文件保留版本指纹。',
-            'This preview is unpublished. No publisher, ISBN, DOI or nonexistent public Chapter 9 URL is invented. Retain its fingerprint with any preview file shared for review.')+'</p>'+self.copy_box('cite-preview',self.bib('preview'),en)
+        citation+='<h2>'+t('引用本地编辑候选','Citing the local editorial candidate')+'</h2><p>'+t('本地候选包含尚未部署的定点修复；请保留内容指纹。公开阅读网址可能仍提供较早文本，不应仅用网址冒充本候选的版本身份。','This local candidate contains targeted edits that have not been deployed. Retain its content fingerprint; the public URL may still serve earlier text and alone does not identify this candidate.')+'</p>'+self.copy_box('cite-preview',self.bib('preview',en=en),en)
         citation+='<h2 id="chapter-citations">'+t('引用本章工作稿','Citing a chapter draft')+'</h2><label for="citation-chapter">'+t('选择章节','Choose a chapter')+'</label> <select id="citation-chapter">'
         citation+=''.join('<option value="'+str(r['chapter'])+'">'+esc(r['languages']['en' if en else 'zh-CN']['title'])+'</option>' for r in self.chapters)+'</select>'
         for row in self.chapters:
@@ -163,13 +179,14 @@ class PublicationSite:
             'For a jurisdiction-specific reference on AI and human contributions, see the US Copyright Office’s 2025 summary; it is not presented as a universal legal conclusion. GitHub explains the relation between public repositories and licensing. Private writing records, prompts, private review correspondence and unpublished research are excluded from public downloads.')+'</p><p><a href="https://www.copyright.gov/newsnet/2025/1060.html">U.S. Copyright Office</a> · <a href="https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/licensing-a-repository">GitHub licensing guidance</a></p>'
 
         versions='<h1>'+t('版本与发布快照','Versions & publication snapshots')+'</h1><p class="pub-lead">'+t('正式发布、公开源码快照与本地预览分别记录。内容哈希和Git记录用于核验版本，不能替代作者身份认证、版权登记或独立可信时间戳。','Formal publication, public source snapshots and local previews are recorded separately. Hashes and Git history verify content versions; they are not identity certification, copyright registration or independently trusted timestamps.')+'</p>'
+        versions+='<h2>'+t('当前完整作者阅读版与本地候选','Complete reading edition and local candidate')+'</h2><p>'+t('当前书稿为八卷58章中英文工作稿，独立数学终审尚未完成。最近核对的云端作者阅读版为第18版（2026-11-07）；本地编辑候选的修复尚未部署。','The manuscript contains eight volumes and 58 bilingual working chapters; independent mathematical final review is incomplete. The last verified cloud reading deployment is version 18 (2026-11-07). Local editorial repairs have not been deployed.')+'</p><p><a href="'+(b['english_url'] if en else b['canonical_url'])+'">'+t('作者阅读入口','Author-reading entry')+'</a> · <a href="/metadata/reading-edition.json">'+t('独立阅读版记录','Separate reading-edition record')+'</a></p><p>'+t('旧状态表中的12章托管版标签属于较早的发布历史，不能当作当前全书范围；下列不可变快照仅按实际存在的清单与文件列出。','The twelve-chapter hosting labels in older status records are historical, not the present book scope. Immutable snapshots below are listed only where corresponding manifests and files exist.')+'</p>'
         r=self.formal
         deployment_hash=r.get('original_deployment_archive_sha256')
-        versions+='<h2>'+t(f"已有正式网页：{r['chapter_count']}章，第{r['hosting_version_number']}版",f"Existing formal website: {r['chapter_count']} chapters, version {r['hosting_version_number']}")+'</h2><p><a href="'+b['canonical_url']+'">'+t('正式网页','Official website')+'</a> · '+esc(r['published_date'])+'</p><p>'+t('部署源提交','Deployed source commit')+': <code>'+r['source_commit']+'</code></p>'
+        versions+='<h2>'+t(f"历史网页快照：{r['chapter_count']}章，第{r['hosting_version_number']}版",f"Historical web snapshot: {r['chapter_count']} chapters, version {r['hosting_version_number']}")+'</h2><p><a href="'+b['canonical_url']+'">'+t('正式网页','Official website')+'</a> · '+esc(r['published_date'])+'</p><p>'+t('部署源提交','Deployed source commit')+': <code>'+r['source_commit']+'</code></p>'
         if deployment_hash:
             versions+='<p>'+t('原部署包SHA-256','Original deployment archive SHA-256')+': <code>'+deployment_hash+'</code></p>'
         versions+='<p>'+t(f"下面的正文快照保留对应正式版本的{r['chapter_count']}章及登记的进阶/配套材料，共{len(r['files'])}个原稿文件。它不含私人记录，不是原始部署包的镜像，两个包的哈希不能混用。",f"The manuscript snapshot retains {r['chapter_count']} chapters and the registered advanced/supporting material: {len(r['files'])} source files. It excludes private records and is not a mirror of the original deployment archive; their hashes must not be confused.")+'</p><p><a href="/releases/'+r['archive_file']+'" download>'+t('正式正文快照 ZIP','Formal manuscript snapshot ZIP')+'</a> · <a href="/releases/'+r['release_id']+'.json">'+t('发布回执与逐文件清单','Release evidence and file manifest')+'</a></p><p>'+t('正文快照SHA-256','Manuscript snapshot SHA-256')+': <code>'+r['archive_sha256']+'</code></p>'
-        versions+='<h2>'+t('公开八章源码快照','Public eight-chapter source snapshot')+'</h2><p><a href="'+b['repository_url']+'/tree/b64f4abd06db8bb17e64b7aa1ed343995bff3a26">GitHub · b64f4ab</a> — '+t('源码公开不等于正式书籍版本发布，也不表示数学或史料终审通过。','Public source does not imply a formal book release or final mathematical or historical approval.')+'</p>'
+        versions+='<h2>'+t('历史八章源码快照','Historical eight-chapter source snapshot')+'</h2><p><a href="'+b['repository_url']+'/tree/b64f4abd06db8bb17e64b7aa1ed343995bff3a26">GitHub · b64f4ab</a> — '+t('源码公开不等于正式书籍版本发布，也不表示数学或史料终审通过。','Public source does not imply a formal book release or final mathematical or historical approval.')+'</p>'
         versions+='<h2>'+t('当前逐章预览版本','Current chapter preview versions')+'</h2><p>'+esc(self.preview)+' · '+t('所有下列条目均为本地预览；英文翻译仍待作者审阅。','All entries below are local previews; English translations await author review.')+'</p>'
         for row in self.chapters:
             zh=row['languages']['zh-CN'];eng=row['languages']['en'];v=eng if en else zh
@@ -196,8 +213,10 @@ class PublicationSite:
     def export_metadata(self):
         dist=self.root/'dist';folder=dist/'metadata';folder.mkdir(exist_ok=True)
         write_json(folder/'chapter-versions.json',{'schema_version':1,'preview_id':self.preview,'formal_release':self.formal['release_id'],'chapters':self.chapters})
-        for name in ['book.json','contributors.json','materials.json']:shutil.copyfile(self.root/'publication'/name,folder/name)
+        for name in ['book.json','contributors.json','materials.json','reading-edition.json']:shutil.copyfile(self.root/'publication'/name,folder/name)
         for name in ['LICENSE.md','CONTRIBUTING.md','CITATION.cff']:shutil.copyfile(self.root/name,folder/name)
-        (folder/'book-citation.bib').write_bytes((self.bib()+'\n').encode())
+        (folder/'book-citation.bib').write_bytes((self.bib('reading')+'\n').encode())
+        (folder/'book-citation.en.bib').write_bytes((self.bib('reading',en=True)+'\n').encode())
+        (folder/'historical-publication-citation.bib').write_bytes((self.bib()+'\n').encode())
         shutil.copytree(self.root/'licenses',folder/'licenses',dirs_exist_ok=True)
         shutil.copytree(self.root/'publication/releases',dist/'releases',dirs_exist_ok=True)

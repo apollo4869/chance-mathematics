@@ -26,14 +26,13 @@ commands=[[node,str(ROOT/'tools/render-book.cjs')],[sys.executable,str(ROOT/'bui
 if json.loads((ROOT/'site-links.json').read_text('utf-8')).get('english_content')=='full_manuscript':
     commands += [[sys.executable,str(ROOT/'tools/check-translation.py')],[node,str(ROOT/'tools/render-book.cjs'),'--english'],[sys.executable,str(ROOT/'build-chapters.py'),'--english']]
 commands += [[sys.executable,str(ROOT/'tools/build-chapter11-print.py')],[sys.executable,str(ROOT/'tools/catalog-assets.py')],[sys.executable,str(ROOT/'tools/prune-generated.py')],[sys.executable,str(ROOT/'tools/package-offline.py')]]
-if len(json.loads((ROOT/'provenance/build-inputs.json').read_text('utf8'))['chapters'])>=13:
-    commands.insert(-1,[sys.executable,str(ROOT/'tools/build-chapter-print.py'),'--chapter','13'])
-if len(json.loads((ROOT/'provenance/build-inputs.json').read_text('utf8'))['chapters'])>=14:
-    commands.insert(-1,[sys.executable,str(ROOT/'tools/build-chapter-print.py'),'--chapter','14'])
-if len(json.loads((ROOT/'provenance/build-inputs.json').read_text('utf8'))['chapters'])>=15:
-    commands.insert(-1,[sys.executable,str(ROOT/'tools/build-chapter-print.py'),'--chapter','15'])
-for chapter_number in range(16,len(json.loads((ROOT/'provenance/build-inputs.json').read_text('utf8'))['chapters'])+1):
+for chapter_number in range(1,len(json.loads((ROOT/'provenance/build-inputs.json').read_text('utf8'))['chapters'])+1):
+    if chapter_number==11:continue  # Retain the existing dedicated Chapter 11 printer above.
     commands.insert(-1,[sys.executable,str(ROOT/'tools/build-chapter-print.py'),'--chapter',str(chapter_number)])
-commands.insert(-1,[sys.executable,str(ROOT/'tools/publish-explanatory-overlays.py'),'--source',str(ROOT),'--output-dir',str(ROOT/'dist')])
+# Re-embed only the adopted fragments after chapter and print generation. This
+# local asset tool never deploys; omitting it used to drop the 45-group overlays.
+if (ROOT/'publication/illustration-release.json').exists():
+    commands.insert(-1,[sys.executable,str(ROOT/'tools/publish-explanatory-overlays.py'),'--source',str(ROOT),'--output-dir',str(ROOT/'dist'),'--audit-dir',str(ROOT/'build/illustrations')])
+    commands.insert(-1,[sys.executable,str(ROOT/'tools/catalog-assets.py')])
 for cmd in commands:
     subprocess.run(cmd,cwd=ROOT,env=env,check=True)

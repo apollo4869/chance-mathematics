@@ -48,7 +48,15 @@
     let node = nodes[0];
     for (const n of nodes) {
       if (n.getBoundingClientRect().top <= y + 1) node = n;
-      else { if (!node) node = n; break; }
+      else {
+        // In the leading gap of a new section, the previous section has
+        // already ended. Preserve the upcoming heading, rather than letting
+        // a fractional scroll offset select a preceding figure or paragraph.
+        if (!node || (indexOf(n) !== indexOf(node)
+            && /^H[1-4]$/.test(n.tagName)
+            && node.getBoundingClientRect().bottom < y)) node = n;
+        break;
+      }
     }
     return node ? {anchor:node.id, delta:node.getBoundingClientRect().top-y, unit:indexOf(node)} : null;
   }

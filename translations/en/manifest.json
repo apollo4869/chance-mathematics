@@ -7,8 +7,8 @@
     {
       "source": "chapters/01-gambling.md",
       "translation": "chapters-en/01-gambling.md",
-      "source_sha256": "13aef92ae4724b4b4c8b5aeea1462d17e345c72b8cb5c761a89edae63788243e",
-      "translation_sha256": "8755a4871493f31d780be02a160a3b3bd1bb2a630d3d0ceeab050549c888868e",
+      "source_sha256": "dab68e74faa96483d0c2d6fdcf4ac633c688f87aca502f5c7662876b2538d839",
+      "translation_sha256": "3ad26c03fab533e97f3362b6ae1e96c14eff72cbb6632fea837965ad435c288f",
       "blocks": 419,
       "headings": 19,
       "formulas": 117,
@@ -17,8 +17,8 @@
     {
       "source": "chapters/02-inference.md",
       "translation": "chapters-en/02-inference.md",
-      "source_sha256": "67f96226c5fc864eef686e9994db2d039c424444f16e66d240dee6017501596a",
-      "translation_sha256": "877bf501293c0c9ac633c55b9b104a9e0e483bd705a21b3f5421b01620fde578",
+      "source_sha256": "7866548be1414e34148c1dfb224a52dc32e8658ee54b48151fa050bc1fe54489",
+      "translation_sha256": "8a7c8aad4bc207ad40d7ee52b0cc680db8a741c7247c792d7aa82e652c1abfbe",
       "blocks": 520,
       "headings": 22,
       "formulas": 201,
@@ -28,7 +28,7 @@
       "source": "chapters/03-normal.md",
       "translation": "chapters-en/03-normal.md",
       "source_sha256": "3ce001a8524b13a34da67c32bc07592a95d16377aff7f4ed3f78d5aa08773f5b",
-      "translation_sha256": "41700173640fcf48154d87355ff12b32a0936f973e21b594dc3d1d1283bf90d7",
+      "translation_sha256": "eed12d403a19942019378fd2ad7ed8ad2d6a46561ff5b411a3a51bace0917cc3",
       "blocks": 579,
       "headings": 21,
       "formulas": 225,
@@ -37,8 +37,8 @@
     {
       "source": "chapters/04-brownian.md",
       "translation": "chapters-en/04-brownian.md",
-      "source_sha256": "07af2fb31042890a84e4f1fd33b39e4b2bc4073b6e8e49dd66dacc316d49309e",
-      "translation_sha256": "fdbc3299fbd8bb58dbc7a9021e4c3f1963519b85114704404bb55cf9053c089e",
+      "source_sha256": "0905383e87d31dc49aa823fee199833fba37ed79099dc4e0602f9ace993beddf",
+      "translation_sha256": "9d915f7eace0f7a909287ab7b93cb300ee709884ae955910d3e94bbb44ee67e2",
       "blocks": 417,
       "headings": 20,
       "formulas": 157,
@@ -47,11 +47,11 @@
     {
       "source": "chapters/05-measure.md",
       "translation": "chapters-en/05-measure.md",
-      "source_sha256": "96ce49ea02f739700393d1febed32c353be47bcedc2f0cb0fb4f149020917782",
-      "translation_sha256": "2d43c0f0e705f9ca7058b448128d42873cc04b72c44b6ac851c10156df5133e4",
-      "blocks": 858,
+      "source_sha256": "79d6a712ddedd5f422406444f80acdc9b4c8c3f43b5634a914983033b9263223",
+      "translation_sha256": "77cf7902b7f0234542c7f139ce5795d3ccc3ffa3f97bcf063d501702635fd20c",
+      "blocks": 854,
       "headings": 33,
-      "formulas": 355,
+      "formulas": 356,
       "status": "FULL_BLOCK_AND_FORMULA_CORRESPONDENCE"
     },
     {
@@ -418,7 +418,7 @@
       "source": "chapters/42-harris-coupling.md",
       "translation": "chapters-en/42-harris-coupling.md",
       "source_sha256": "f9b60d58eddac4ea1eb25b7304320c52c71c8b7bdf643f809481476d1d708148",
-      "translation_sha256": "995f84aa46ab9ee51949b4dd73733053188d7c4b7c02e7c3e1081e9dc7ee10c9",
+      "translation_sha256": "d6bb2fa09e8418651e4668a1c8909c3af15309109fdc906456e2ea8caad7adfb",
       "blocks": 123,
       "headings": 24,
       "formulas": 31,
@@ -428,7 +428,7 @@
       "source": "chapters/43-exchangeability.md",
       "translation": "chapters-en/43-exchangeability.md",
       "source_sha256": "a87b536a4cd69c611e1cc82775b67e5d118aaf21287ba31436db55f8c10ddd58",
-      "translation_sha256": "635e6b32970a71274fe080d288be32ecd96018d510e532769598e64eb7593843",
+      "translation_sha256": "365559f77f7b7fac512d4ab000a1405a575e40d66d8da0da23d7f3d2e3b97ed0",
       "blocks": 131,
       "headings": 25,
       "formulas": 19,
@@ -448,7 +448,7 @@
       "source": "chapters/45-invariance.md",
       "translation": "chapters-en/45-invariance.md",
       "source_sha256": "86ee599a4e30cb53ce7d1e3db7cff88edf1e7b580c9d8e5a1727e159f3a48c75",
-      "translation_sha256": "85e8400246eeaac6dfa8eb1dcadfea1d0ba8ddb494ca0c2d2599ff25e6146e58",
+      "translation_sha256": "ca05caddbc6a9e1acd5390638b4eb0cc811b1a653d13224b7f0c592d9d5f866f",
       "blocks": 119,
       "headings": 23,
       "formulas": 19,
@@ -458,7 +458,7 @@
       "source": "chapters/46-arrays.md",
       "translation": "chapters-en/46-arrays.md",
       "source_sha256": "745aabce3d9b448eb7d727290490654b09d8330d7d4a21f39ecf729f5e3e65f3",
-      "translation_sha256": "846cd82548b838d3539f37fc08b53871f070d1dd53d553fd1eb7115bd56e700e",
+      "translation_sha256": "e5fb10f417102cce671249f08f1dae8441bd720d419d18bd7c05b51647dad65b",
       "blocks": 136,
       "headings": 28,
       "formulas": 18,
@@ -478,7 +478,7 @@
       "source": "chapters/48-point-processes.md",
       "translation": "chapters-en/48-point-processes.md",
       "source_sha256": "6715d2f501a98bb9fbf21abd5f199a7a03b663c8578d686eb34bf1846b29558f",
-      "translation_sha256": "8da0f6eeee88e968b056ddadc9f5a64014f334544287f2d2953840343e4b3491",
+      "translation_sha256": "b7a8886696420caef9e5169ca72c693b4fd8d0a7305571914e3a13c112dd4796",
       "blocks": 111,
       "headings": 25,
       "formulas": 21,
@@ -648,7 +648,7 @@
       "source": "校订与证明补充.md",
       "translation": "translations/en/proofs.md",
       "source_sha256": "a6a671618c444f561588acc522fa5a0ca9ac7d169d937476126ab3e13b3a9948",
-      "translation_sha256": "492f2adb5c4b82187d1581014a9d1f3a9d6a471c637ddc664b3840cc4f38984a",
+      "translation_sha256": "783d8ea87302b6e81d199446c69364a8abbb90a004c522ec1bb12b3f3133cfbd",
       "blocks": 86,
       "headings": 15,
       "formulas": 139,
@@ -1925,5 +1925,5 @@
       "status": "FULL_BLOCK_AND_FORMULA_CORRESPONDENCE"
     }
   ],
-  "formulas": 9809
+  "formulas": 9810
 }

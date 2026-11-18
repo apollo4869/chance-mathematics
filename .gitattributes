@@ -25,3 +25,6 @@ publication/volumes.css -text
 app.js -text
 experiments.js -text
 publication/academic-navigation.json -text
+.gitattributes -text
+publication/illustration-release.json -text
+publication/student-p1-anchors.json -text

@@ -1,0 +1,64 @@
+{
+  "source_commit": "e5ab29b2654baa2df2c4e22f0b880fe051c40c52",
+  "automatic_formal_site_injection": false,
+  "canonical_manuscript_changes": false,
+  "adopted_and_protected": [
+    "E14",
+    "E30",
+    "E39"
+  ],
+  "figures": [
+    {
+      "id": "E22",
+      "chapter": 22,
+      "slug": "22-continuous-time-chains",
+      "section": "22.9",
+      "lang": "zh",
+      "title": "跳链相同，寿命仍可不同",
+      "html": "<figure class=\"rev-figure\" id=\"visual-E22\" data-revision=\"E22\" lang=\"zh\"><header><span>E22</span><h3>跳链相同，寿命仍可不同</h3></header><div class=\"rev-lifetimes\"><div>λⱼ = 1<br><strong>ζ = ∞ a.s.</strong></div><div>λⱼ = 2ʲ<br><strong>ζ &lt; ∞ a.s.</strong></div></div><div class=\"rev-scale\"><strong>长度 = 平均等待</strong>；左右不共用时间刻度。不是实际样本等待，Eζ=1也不表示ζ≤1。</div><div class=\"v5-controls\" role=\"group\"><button type=\"button\" data-clock-n=\"4\" aria-pressed=\"true\">展开前4站</button><button type=\"button\" data-clock-n=\"6\" aria-pressed=\"false\">展开前6站</button></div><div class=\"rev-pair\"><section><h4>恒定速率 λⱼ=1</h4><img class=\"rev-svg \" src=\"/assets/visuals/explanatory-early-v3r2/E22-zh-4-0.svg\" alt=\"Mean holding times, explicit almost-sure lifetime, and no shared scale\" data-clock-constant></section><section><h4>倍增速率 λⱼ=2ʲ</h4><img class=\"rev-svg \" src=\"/assets/visuals/explanatory-early-v3r2/E22-zh-4-1.svg\" alt=\"Mean holding times, explicit almost-sure lifetime, and no shared scale\" data-clock-fast></section></div><figcaption id=\"visual-E22-end\">精确模型：从状态1出发的纯生链j→j+1。令Eⱼ独立且为Exp(1)，等待τⱼ=Eⱼ/λⱼ，寿命ζ=Στⱼ。左λⱼ=1，由独立同分布强大数律ζ=∞几乎必然；不是仅凭Eζ=∞推断。右λⱼ=2ʲ，由Tonelli得Eζ=Σ2⁻ʲ=1，非负性遂给ζ<∞几乎必然。所有单段等待都严格正且速率有限。右图白色尾段均值恰为2⁻ⁿ；不声称ζ≤1，也不声称图中均值长度是实际等待。左右平均时钟示意不是共同数轴，不能比较其像素单位。爆炸后规则仍须另定，图不构造重启。</figcaption><nav><a href=\"/assets/visuals/explanatory-early-v3r2/E22.zh.svg\">SVG</a><a href=\"/print/E22.zh.html\">静态打印</a></nav></figure>",
+      "condition": "精确模型：从状态1出发的纯生链j→j+1。令Eⱼ独立且为Exp(1)，等待τⱼ=Eⱼ/λⱼ，寿命ζ=Στⱼ。左λⱼ=1，由独立同分布强大数律ζ=∞几乎必然；不是仅凭Eζ=∞推断。右λⱼ=2ʲ，由Tonelli得Eζ=Σ2⁻ʲ=1，非负性遂给ζ<∞几乎必然。所有单段等待都严格正且速率有限。右图白色尾段均值恰为2⁻ⁿ；不声称ζ≤1，也不声称图中均值长度是实际等待。左右平均时钟示意不是共同数轴，不能比较其像素单位。爆炸后规则仍须另定，图不构造重启。",
+      "status": "adopted with requested annotation, author spot-check pending",
+      "kind": "annotation only",
+      "asset_base": "/assets/visuals/explanatory-early-v3r2/"
+    },
+    {
+      "id": "E22",
+      "chapter": 22,
+      "slug": "22-continuous-time-chains",
+      "section": "22.9",
+      "lang": "en",
+      "title": "Same jump chain, different lifetimes",
+      "html": "<figure class=\"rev-figure\" id=\"visual-E22\" data-revision=\"E22\" lang=\"en\"><header><span>E22</span><h3>Same jump chain, different lifetimes</h3></header><div class=\"rev-lifetimes\"><div>λⱼ = 1<br><strong>ζ = ∞ a.s.</strong></div><div>λⱼ = 2ʲ<br><strong>ζ &lt; ∞ a.s.</strong></div></div><div class=\"rev-scale\"><strong>Length = mean holding time.</strong> The panels do not share a time scale. These are not sampled waits, and Eζ=1 does not mean ζ≤1.</div><div class=\"v5-controls\" role=\"group\"><button type=\"button\" data-clock-n=\"4\" aria-pressed=\"true\">Expand first 4 states</button><button type=\"button\" data-clock-n=\"6\" aria-pressed=\"false\">Expand first 6 states</button></div><div class=\"rev-pair\"><section><h4>Constant rates λⱼ=1</h4><img class=\"rev-svg \" src=\"/assets/visuals/explanatory-early-v3r2/E22-en-4-0.svg\" alt=\"Mean holding times, explicit almost-sure lifetime, and no shared scale\" data-clock-constant></section><section><h4>Doubling rates λⱼ=2ʲ</h4><img class=\"rev-svg \" src=\"/assets/visuals/explanatory-early-v3r2/E22-en-4-1.svg\" alt=\"Mean holding times, explicit almost-sure lifetime, and no shared scale\" data-clock-fast></section></div><figcaption id=\"visual-E22-end\">Exact model: a pure-birth chain j→j+1 started at 1, with independent unit exponentials Ej, waits τj=Ej/λj and lifetime ζ=Στj. For λj=1, the iid strong law gives ζ=∞ almost surely; infinite expectation alone would not prove this. For λj=2^j, Tonelli gives Eζ=Σ2^(-j)=1, hence ζ<∞ almost surely by nonnegativity. Each wait is strictly positive and each rate finite. The unfilled tail has mean 2^(-n); this asserts neither ζ≤1 nor that displayed mean lengths are sample waits. The two diagrams use different display units, not a shared calendar axis. No post-explosion restart is constructed.</figcaption><nav><a href=\"/assets/visuals/explanatory-early-v3r2/E22.en.svg\">SVG</a><a href=\"/print/E22.en.html\">Static print</a></nav></figure>",
+      "condition": "Exact model: a pure-birth chain j→j+1 started at 1, with independent unit exponentials Ej, waits τj=Ej/λj and lifetime ζ=Στj. For λj=1, the iid strong law gives ζ=∞ almost surely; infinite expectation alone would not prove this. For λj=2^j, Tonelli gives Eζ=Σ2^(-j)=1, hence ζ<∞ almost surely by nonnegativity. Each wait is strictly positive and each rate finite. The unfilled tail has mean 2^(-n); this asserts neither ζ≤1 nor that displayed mean lengths are sample waits. The two diagrams use different display units, not a shared calendar axis. No post-explosion restart is constructed.",
+      "status": "adopted with requested annotation, author spot-check pending",
+      "kind": "annotation only",
+      "asset_base": "/assets/visuals/explanatory-early-v3r2/"
+    },
+    {
+      "id": "E28",
+      "chapter": 28,
+      "slug": "28-semigroups",
+      "section": "28.1",
+      "lang": "zh",
+      "title": "同一个核，两个方向的平均",
+      "html": "<figure class=\"rev-figure\" id=\"visual-E28\" data-revision=\"E28\" lang=\"zh\"><header><span>E28</span><h3>同一个核，两个方向的平均</h3></header><output class=\"rev-identity\" data-pairing>(μP)f = μ(Tf) = 1</output><p class=\"rev-intro\">同一个P，把出发分布推向未来，也把未来收益拉回出发点。两边的总平均相同。</p><div class=\"v5-controls\" role=\"group\"><button type=\"button\" data-mu=\"0\" aria-pressed=\"false\">μ(A)=0.0</button><button type=\"button\" data-mu=\"1\" aria-pressed=\"false\">μ(A)=0.5</button><button type=\"button\" data-mu=\"2\" aria-pressed=\"true\">μ(A)=1.0</button></div><div class=\"v5-controls\" role=\"group\"><button type=\"button\" data-payoff=\"0\" aria-pressed=\"true\">f(A)=0, f(B)=4</button><button type=\"button\" data-payoff=\"1\" aria-pressed=\"false\">f(A)=4, f(B)=0</button></div><img class=\"rev-svg rev-desktop\" src=\"/assets/visuals/explanatory-early-v3r2/E28-zh-2-0-0.svg\" alt=\"One central two by two kernel with forward mass and backward payoff on opposite sides\" data-kernel-desktop><img class=\"rev-svg rev-mobile\" src=\"/assets/visuals/explanatory-early-v3r2/E28-zh-2-0-1.svg\" alt=\"Mobile: one formal kernel and two compact operations compared together\" data-kernel-mobile><details><summary>第二层：读数、索引与固定时刻的范围</summary><p>每组左边是A、右边是B。实色圆面积表示概率，浅轮廓为单位参照；方框数值是收益，不是概率。矩阵的行是出发状态，列是到达状态：P(A,A)=P(B,B)=3/4，P(A,B)=P(B,A)=1/4。两条中心连接线只表示共用P，不编码转移流量。</p><p>有限求和交换给出 Σᵧ(ΣₓμₓPₓᵧ)fᵧ = Σₓμₓ(ΣᵧPₓᵧfᵧ)。这里只展示一个固定时刻的转移核，不宣称一份矩阵已经给出整个强连续半群。</p></details><figcaption id=\"visual-E28-end\">准确模型保持：P各行和为1，对角3/4、非对角1/4，μ=(p,1−p)，p∈{0,1/2,1}，f=(0,4)或(4,0)。μP=(1/4+p/2,3/4−p/2)。前者Tf=(1,3)、共同平均3−2p；后者Tf=(3,1)、共同平均1+2p。实色圆面积为概率，浅轮廓是单位参照；方框数为收益。P的四个条目通过出发行与到达列逐一标明，无重复交叉转移箭头。图只解释固定时刻的核与对偶平均，不以它代替半群、生成元定义域或Feller条件的证明。</figcaption><nav><a href=\"/assets/visuals/explanatory-early-v3r2/E28.zh.svg\">SVG</a><a href=\"/print/E28.zh.html\">静态打印</a></nav></figure>",
+      "condition": "准确模型保持：P各行和为1，对角3/4、非对角1/4，μ=(p,1−p)，p∈{0,1/2,1}，f=(0,4)或(4,0)。μP=(1/4+p/2,3/4−p/2)。前者Tf=(1,3)、共同平均3−2p；后者Tf=(3,1)、共同平均1+2p。实色圆面积为概率，浅轮廓是单位参照；方框数为收益。P的四个条目通过出发行与到达列逐一标明，无重复交叉转移箭头。图只解释固定时刻的核与对偶平均，不以它代替半群、生成元定义域或Feller条件的证明。",
+      "status": "revised visual working draft, author review pending",
+      "kind": "single-kernel duality redesign",
+      "asset_base": "/assets/visuals/explanatory-early-v3r2/"
+    },
+    {
+      "id": "E28",
+      "chapter": 28,
+      "slug": "28-semigroups",
+      "section": "28.1",
+      "lang": "en",
+      "title": "One kernel, two directions of averaging",
+      "html": "<figure class=\"rev-figure\" id=\"visual-E28\" data-revision=\"E28\" lang=\"en\"><header><span>E28</span><h3>One kernel, two directions of averaging</h3></header><output class=\"rev-identity\" data-pairing>(μP)f = μ(Tf) = 1</output><p class=\"rev-intro\">The same P sends laws forward and payoffs back. Both routes give the same mean.</p><div class=\"v5-controls\" role=\"group\"><button type=\"button\" data-mu=\"0\" aria-pressed=\"false\">μ(A)=0.0</button><button type=\"button\" data-mu=\"1\" aria-pressed=\"false\">μ(A)=0.5</button><button type=\"button\" data-mu=\"2\" aria-pressed=\"true\">μ(A)=1.0</button></div><div class=\"v5-controls\" role=\"group\"><button type=\"button\" data-payoff=\"0\" aria-pressed=\"true\">f(A)=0, f(B)=4</button><button type=\"button\" data-payoff=\"1\" aria-pressed=\"false\">f(A)=4, f(B)=0</button></div><img class=\"rev-svg rev-desktop\" src=\"/assets/visuals/explanatory-early-v3r2/E28-en-2-0-0.svg\" alt=\"One central two by two kernel with forward mass and backward payoff on opposite sides\" data-kernel-desktop><img class=\"rev-svg rev-mobile\" src=\"/assets/visuals/explanatory-early-v3r2/E28-en-2-0-1.svg\" alt=\"Mobile: one formal kernel and two compact operations compared together\" data-kernel-mobile><details><summary>Second layer: readings, indices and the fixed-time scope</summary><p>Each pair reads A on the left, B on the right. Filled disk areas encode probabilities, with pale unit outlines for reference; boxed values are payoffs, not probabilities. Matrix rows are departure states and columns arrival states: P(A,A)=P(B,B)=3/4 and P(A,B)=P(B,A)=1/4. The two central connectors mean that both operations use P, not transition flows.</p><p>Interchanging finite sums gives Σy(Σx μxPxy)fy = Σx μx(Σy Pxyfy). This is one fixed-time transition kernel, not a construction of an entire strongly continuous semigroup.</p></details><figcaption id=\"visual-E28-end\">Unchanged exact model: P is row-stochastic, with diagonal 3/4 and off-diagonal 1/4; μ=(p,1−p), p∈{0,1/2,1}, and f=(0,4) or (4,0). Then μP=(1/4+p/2,3/4−p/2). For the first payoff Tf=(1,3), with common mean 3−2p; for the second Tf=(3,1), with mean 1+2p. Filled disk areas are probabilities, pale outlines unit references, and boxed numbers payoffs. Each of the four P entries has its departure row and arrival column, without duplicated crossing transition arrows. This illustrates a fixed-time kernel and dual averaging, not a proof of semigroup generation, generator domains or Feller conditions.</figcaption><nav><a href=\"/assets/visuals/explanatory-early-v3r2/E28.en.svg\">SVG</a><a href=\"/print/E28.en.html\">Static print</a></nav></figure>",
+      "condition": "Unchanged exact model: P is row-stochastic, with diagonal 3/4 and off-diagonal 1/4; μ=(p,1−p), p∈{0,1/2,1}, and f=(0,4) or (4,0). Then μP=(1/4+p/2,3/4−p/2). For the first payoff Tf=(1,3), with common mean 3−2p; for the second Tf=(3,1), with mean 1+2p. Filled disk areas are probabilities, pale outlines unit references, and boxed numbers payoffs. Each of the four P entries has its departure row and arrival column, without duplicated crossing transition arrows. This illustrates a fixed-time kernel and dual averaging, not a proof of semigroup generation, generator domains or Feller conditions.",
+      "status": "revised visual working draft, author review pending",
+      "kind": "single-kernel duality redesign",
+      "asset_base": "/assets/visuals/explanatory-early-v3r2/"
+    }
+  ]
+}

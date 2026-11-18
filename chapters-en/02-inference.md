@@ -179,7 +179,7 @@ Jacob Bernoulli recognized precisely this important direction.
 
 [Original image source](https://www.sothebys.com/en/auctions/ecatalogue/2018/the-library-of-erwin-tomash-l18409/lot.58.html)
 
-**Jacob Bernoulli（1655—1705）**
+**Jacob Bernoulli (1655–1705)**
 
 A Swiss mathematician and an important member of the Bernoulli family, he spent many years studying how to extend the mathematics of games of chance to uncertain problems in everyday life.
 
@@ -495,7 +495,7 @@ We have not made individual random events deterministic.
 
 We have proved only that averaging sufficiently many independent random events constrains the fluctuations of their average more and more tightly.
 
-**Randomness has not disappeared; what disappears is the chance that the average deviates from its center.**
+**Randomness has not disappeared; for every fixed positive tolerance, the probability that the average deviates from its center by at least that amount tends to zero.**
 
 ### 2.4.1 Where Exactly Does Independence Enter?
 
@@ -753,7 +753,7 @@ Thus
 
 Second, use the randomly chosen number to manufacture a coin whose probability of heads is exactly \(\Theta\).
 
-Third, toss this coin many times independently.
+Third, conditional on the chosen bias, toss this same coin independently many times.
 
 Notice that we do not manufacture a new coin for every toss.
 
@@ -1302,7 +1302,7 @@ Yet they share an extremely important aim:
 
 In the beta–Bernoulli model above, we can even see their connection directly.
 
-Since, given \(\Theta=\theta\), the variables \(X_i\) are independent and identically distributed, the corresponding strong law of large numbers gives
+Given \(\Theta=\theta\), the variables \(X_i\) are independent and identically distributed. The strong law of large numbers, proved in [Chapter 12, §12.10](12-infinite-sums.html#chapter-12-h325), then gives
 
 \[
 P\left(
@@ -1429,6 +1429,6 @@ Before continuing, however, we must trace an older mathematical question: why do
 
 produce an approximately bell-shaped curve in repeated trials? And why can that curve eventually extend beyond dice, coins, and the binomial distribution to become an important tool for describing natural errors?
 
-Next: Chapter 3, “The Birth of the Bell Curve—From the Binomial to the Normal Distribution”
+Next: Chapter 3, “The Birth of the Bell Curve—Why Do Countless Random Phenomena Approach the Same Distribution?”
 
 The Mathematics of Chance · Volume I, Chapter 2 · Working draft v0.1

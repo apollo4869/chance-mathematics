@@ -48,7 +48,7 @@ Along the way, we will encounter one of the most important objects in modern pro
 
 [Original image source](https://commons.wikimedia.org/wiki/File%3APortrait_of_Robert_Brown_Wellcome_L0011784.jpg?utm_source=chatgpt.com)
 
-**Robert Brown（1773—1858）**
+**Robert Brown (1773–1858)**
 
 A Scottish botanist who took part in botanical exploration in Australia and also studied the microscopic structure of plants.
 
@@ -880,7 +880,7 @@ The fourth needs a proof at the level of function spaces; distributions at fixed
 
 These four conditions are requirements on the limiting object, not yet a proof of its existence. In particular, the fourth does not follow automatically from the earlier Gaussian snapshots.
 
-This chapter no longer compresses a rigorous construction into the text immediately after the definition. Later we will separately address how to extend consistent finite-dimensional distributions to a probability measure, how to choose a continuous version, and why entire random-walk paths approach this process. For deeper construction and path-limit questions, see [continuous versions and Wiener measure](#advanced-wiener) and [Donsker and path tightness](#advanced-donsker).
+A rigorous construction requires tools we have not yet established. Later we will separately address how to extend consistent finite-dimensional distributions to a probability measure, how to choose a continuous version, and why entire random-walk paths approach this process. For deeper construction and path-limit questions, see [continuous versions and Wiener measure](#advanced-wiener) and [Donsker and path tightness](#advanced-donsker).
 
 ---
 

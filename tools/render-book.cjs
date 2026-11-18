@@ -58,6 +58,9 @@ function render(source,id){
     return block!==undefined?`\n\nMATHBLOCKTOKEN${n}END\n\n`:`MATHINLINETOKEN${n}END`;
   });
   const tokens=md.parse(source,{});
+  const p1File=path.join(root,'publication/student-p1-anchors.json');
+  const p1=id==='chapter-5'&&fs.existsSync(p1File)?JSON.parse(fs.readFileSync(p1File,'utf8')).languages[english?'en':'zh']:null;
+  let p1ResumeSeen=false;
   let chapterOpening=false,openingParagraph=0;
   const reservedFile=path.join(root,'publication/chapter11-opening-anchors.json');
   const reserved=fs.existsSync(reservedFile)?JSON.parse(fs.readFileSync(reservedFile,'utf8')).reserved_paragraphs:{};
@@ -90,6 +93,10 @@ function render(source,id){
       toc.push({id:anchor,text,htmlText:md.renderInline(text).replace(/MATH(?:INLINE|BLOCK)TOKEN(\d+)END/g,(_,n)=>formulas[+n]),level:Number(t.tag.slice(1)),section:id,preview});
     }
     if(t.type==='paragraph_open'){
+      if(p1&&tokens[i+1]?.content.startsWith(p1.resume_prefix)){
+        if(p1ResumeSeen)throw Error('Repeated P1 paragraph reservation');
+        blockCount+=p1.retired_paragraphs.length;p1ResumeSeen=true;
+      }
       const revision=revisionParagraphs.find(p=>tokens[i+1]?.content.startsWith(p.prefix));
       const paragraph=tokens[i+1]?.content||'',block=paragraph.match(/^MATHBLOCKTOKEN(\d+)END$/);
       const extra=targeted&&((targeted.paragraph_prefixes[english?'en':'zh']||[]).some(p=>paragraph.startsWith(p))||(targeted.paragraph_contains?.[english?'en':'zh']||[]).some(p=>paragraph.includes(p))||(block&&targeted.new_display_tex.includes(formulaInputs[+block[1]])));
@@ -113,6 +120,12 @@ function render(source,id){
   if(full20){if(recreationHead!==18)throw Error('Chapter20 recreation must have the reviewed fifteen sections, epilogue and sources');blockCount=depthAnchors[id][english?'en':'zh'].end_counter;}
   if(/^chapter-(?:1[6-9]|20)$/.test(id))depthCapture[id]={paragraphs:capturedParagraphs,end_counter:blockCount};
   let html=md.renderer.render(tokens,md.options,{});
+  if(p1){
+    if(!p1ResumeSeen)throw Error('Missing P1 paragraph reservation');
+    const opening=`<p id="${p1.replacement_paragraph}">`;
+    if(html.split(opening).length!==2)throw Error('Missing P1 replacement paragraph');
+    html=html.replace(opening,opening+p1.retired_paragraphs.map(id=>`<span id="${id}" class="bookmark-alias" aria-hidden="true"></span>`).join(''));
+  }
   html=html.replace(/<p[^>]*>MATHBLOCKTOKEN(\d+)END<\/p>/g,(_,n)=>formulas[+n]);
   html=html.replace(/MATH(?:INLINE|BLOCK)TOKEN(\d+)END/g,(_,n)=>formulas[+n]);
   html=html.replace(/(<img\b[^>]*\bsrc=")([^"]+)(")/g,(_,a,src,b)=>a.replace('<img','<img id="image-'+path.basename(src).replace(/\./g,'-')+'"')+imageData(src)+b);

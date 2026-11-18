@@ -1,0 +1,4354 @@
+{
+  "base_commit": "280e881a",
+  "chapter": 5,
+  "languages": {
+    "zh": {
+      "replacement_paragraph": "p2867",
+      "retired_paragraphs": [
+        "p2868",
+        "p2869",
+        "p2870",
+        "p2871"
+      ],
+      "resume_prefix": "现在我们可以给出严格定义。",
+      "formulas": [
+        {
+          "id": "search-chapter-5-14",
+          "tex": "P(A)",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-17",
+          "tex": "P(A)=\\frac{|A|}{6}.",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-20",
+          "tex": "A=\n\\left\\{\n\\omega:\n\\sup_{0\\le t\\le1}B_t(\\omega)>1\n\\right\\}.",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-22",
+          "tex": "\\omega",
+          "display": false,
+          "context": "p2164"
+        },
+        {
+          "id": "search-chapter-5-25",
+          "tex": "A",
+          "display": false,
+          "context": "p2166"
+        },
+        {
+          "id": "search-chapter-5-34",
+          "tex": "[0,1]",
+          "display": false,
+          "context": "p2173"
+        },
+        {
+          "id": "search-chapter-5-38",
+          "tex": "P\\left(X\\in\\left[0,\\frac12\\right]\\right)=\\frac12,",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-39",
+          "tex": "P\\left(X\\in\\left[\\frac14,\\frac34\\right]\\right)=\\frac12.",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-41",
+          "tex": "0\\le a<b\\le1,",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-43",
+          "tex": "\\boxed{P(X\\in[a,b])=b-a.}",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-54",
+          "tex": "m:\\mathcal P(\\mathbb R)\\longrightarrow[0,\\infty],",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-56",
+          "tex": "\\mathcal P(\\mathbb R)",
+          "display": false,
+          "context": "p2194"
+        },
+        {
+          "id": "search-chapter-5-59",
+          "tex": "m([a,b])=b-a.",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-61",
+          "tex": "m(A+x)=m(A),",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-63",
+          "tex": "A+x=\\{a+x:a\\in A\\}.",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-66",
+          "tex": "\\boxed{\nm\\left(\\bigcup_{n=1}^{\\infty}A_n\\right)\n=\n\\sum_{n=1}^{\\infty}m(A_n).\n}",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-74",
+          "tex": "A=\\{1,2,3\\},\\qquad B=\\{1,2,3,4,5\\}.",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-76",
+          "tex": "B",
+          "display": false,
+          "context": "p2212"
+        },
+        {
+          "id": "search-chapter-5-77",
+          "tex": "A",
+          "display": false,
+          "context": "p2212"
+        },
+        {
+          "id": "search-chapter-5-79",
+          "tex": "|A|=3,\\qquad |B|=5.",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-82",
+          "tex": "\\mathbb N=\\{1,2,3,\\ldots\\}",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-84",
+          "tex": "2\\mathbb N=\\{2,4,6,\\ldots\\}",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-86",
+          "tex": "n\\longmapsto2n.",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-93",
+          "tex": "f:[0,1]\\longrightarrow[0,1/2],\n\\qquad\nf(x)=\\frac x2",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-96",
+          "tex": "\\left|[0,1]\\right|\n=\n\\left|[0,1/2]\\right|.",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-98",
+          "tex": "m([0,1])=1,",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-100",
+          "tex": "m([0,1/2])=\\frac12.",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-107",
+          "tex": "A=\\mathbb Q\\cap[0,1].",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-109",
+          "tex": "[0,1]",
+          "display": false,
+          "context": "p2242"
+        },
+        {
+          "id": "search-chapter-5-111",
+          "tex": "[0,1]",
+          "display": false,
+          "context": "p2243"
+        },
+        {
+          "id": "search-chapter-5-114",
+          "tex": "m(\\{x\\})=0,",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-116",
+          "tex": "m",
+          "display": false,
+          "context": "p2247"
+        },
+        {
+          "id": "search-chapter-5-117",
+          "tex": "A=\\{q_1,q_2,\\ldots\\}.",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-119",
+          "tex": "\\begin{aligned}\nm(A)\n&=m\\left(\\bigcup_{n=1}^{\\infty}\\{q_n\\}\\right)\\\\\n&=\\sum_{n=1}^{\\infty}m(\\{q_n\\})\\\\\n&=0.\n\\end{aligned}",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-121",
+          "tex": "\\boxed{m(\\mathbb Q\\cap[0,1])=0.}",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-123",
+          "tex": "m\\bigl([0,1]\\setminus\\mathbb Q\\bigr)=1.",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-125",
+          "tex": "\\boxed{P(X\\text{ 是有理数})=0.}",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-127",
+          "tex": "\\boxed{P(X\\text{ 是无理数})=1.}",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-160",
+          "tex": "[0,1]",
+          "display": false,
+          "context": "p2288"
+        },
+        {
+          "id": "search-chapter-5-161",
+          "tex": "x\\sim y\n\\quad\\Longleftrightarrow\\quad\nx-y\\in\\mathbb Q.",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-165",
+          "tex": "x-x=0\\in\\mathbb Q.",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-167",
+          "tex": "x-y\\in\\mathbb Q\n\\implies y-x\\in\\mathbb Q.",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-169",
+          "tex": "x-y\\in\\mathbb Q,\\quad y-z\\in\\mathbb Q\n\\implies x-z\\in\\mathbb Q.",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-171",
+          "tex": "[0,1]",
+          "display": false,
+          "context": "p2298"
+        },
+        {
+          "id": "search-chapter-5-173",
+          "tex": "x+\\mathbb Q",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-176",
+          "tex": "[0,1]",
+          "display": false,
+          "context": "p2302"
+        },
+        {
+          "id": "search-chapter-5-182",
+          "tex": "V",
+          "display": false,
+          "context": "p2307"
+        },
+        {
+          "id": "search-chapter-5-184",
+          "tex": "V\\subseteq[0,1],",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-186",
+          "tex": "V",
+          "display": false,
+          "context": "p2310"
+        },
+        {
+          "id": "search-chapter-5-192",
+          "tex": "Q_0=\\mathbb Q\\cap[-1,1].",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-194",
+          "tex": "q\\in Q_0",
+          "display": false,
+          "context": "p2316"
+        },
+        {
+          "id": "search-chapter-5-195",
+          "tex": "V_q=V+q.",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-198",
+          "tex": "q,r\\in Q_0",
+          "display": false,
+          "context": "p2319"
+        },
+        {
+          "id": "search-chapter-5-199",
+          "tex": "V_q\\cap V_r=\\varnothing.",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-202",
+          "tex": "v,w\\in V",
+          "display": false,
+          "context": "p2322"
+        },
+        {
+          "id": "search-chapter-5-203",
+          "tex": "v+q=w+r.",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-205",
+          "tex": "v-w=r-q\\in\\mathbb Q.",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-207",
+          "tex": "v\\sim w.",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-209",
+          "tex": "V",
+          "display": false,
+          "context": "p2328"
+        },
+        {
+          "id": "search-chapter-5-210",
+          "tex": "v=w.",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-212",
+          "tex": "q=r,",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-216",
+          "tex": "\\boxed{\n[0,1]\\subseteq\n\\bigcup_{q\\in Q_0}(V+q).\n}",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-218",
+          "tex": "x\\in[0,1]",
+          "display": false,
+          "context": "p2336"
+        },
+        {
+          "id": "search-chapter-5-220",
+          "tex": "V",
+          "display": false,
+          "context": "p2337"
+        },
+        {
+          "id": "search-chapter-5-221",
+          "tex": "x",
+          "display": false,
+          "context": "p2337"
+        },
+        {
+          "id": "search-chapter-5-222",
+          "tex": "v\\in V",
+          "display": false,
+          "context": "p2337"
+        },
+        {
+          "id": "search-chapter-5-223",
+          "tex": "x-v\\in\\mathbb Q.",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-225",
+          "tex": "x,v\\in[0,1]",
+          "display": false,
+          "context": "p2339"
+        },
+        {
+          "id": "search-chapter-5-226",
+          "tex": "-1\\le x-v\\le1.",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-228",
+          "tex": "q=x-v\\in Q_0,",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-230",
+          "tex": "x=v+q\\in V+q.",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-232",
+          "tex": "[0,1]",
+          "display": false,
+          "context": "p2345"
+        },
+        {
+          "id": "search-chapter-5-234",
+          "tex": "[-1,2]",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-237",
+          "tex": "\\boxed{\n[0,1]\n\\subseteq\n\\bigcup_{q\\in Q_0}(V+q)\n\\subseteq[-1,2].\n}",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-242",
+          "tex": "m",
+          "display": false,
+          "context": "p2353"
+        },
+        {
+          "id": "search-chapter-5-244",
+          "tex": "m(V+q)=m(V).",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-246",
+          "tex": "c=m(V).",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-248",
+          "tex": "V\\subseteq[0,1]",
+          "display": false,
+          "context": "p2358"
+        },
+        {
+          "id": "search-chapter-5-249",
+          "tex": "0\\le c\\le1.",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-251",
+          "tex": "Q_0",
+          "display": false,
+          "context": "p2360"
+        },
+        {
+          "id": "search-chapter-5-252",
+          "tex": "V+q",
+          "display": false,
+          "context": "p2360"
+        },
+        {
+          "id": "search-chapter-5-253",
+          "tex": "\\begin{aligned}\nm\\left(\\bigcup_{q\\in Q_0}(V+q)\\right)\n&=\\sum_{q\\in Q_0}m(V+q)\\\\\n&=\\sum_{q\\in Q_0}c.\n\\end{aligned}",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-256",
+          "tex": "c=0",
+          "display": false,
+          "context": "p2363"
+        },
+        {
+          "id": "search-chapter-5-258",
+          "tex": "m\\left(\\bigcup_{q\\in Q_0}(V+q)\\right)=0.",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-260",
+          "tex": "[0,1]",
+          "display": false,
+          "context": "p2366"
+        },
+        {
+          "id": "search-chapter-5-262",
+          "tex": "1\\le0.",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-265",
+          "tex": "c>0",
+          "display": false,
+          "context": "p2370"
+        },
+        {
+          "id": "search-chapter-5-267",
+          "tex": "\\sum_{q\\in Q_0}c=\\infty.",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-269",
+          "tex": "m\\left(\\bigcup_{q\\in Q_0}(V+q)\\right)=\\infty.",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-271",
+          "tex": "[-1,2]",
+          "display": false,
+          "context": "p2375"
+        },
+        {
+          "id": "search-chapter-5-273",
+          "tex": "m([-1,2])=3.",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-276",
+          "tex": "\\infty\\le3.",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-279",
+          "tex": "m(V)=0",
+          "display": false,
+          "context": "p2382"
+        },
+        {
+          "id": "search-chapter-5-280",
+          "tex": "m(V)>0",
+          "display": false,
+          "context": "p2382"
+        },
+        {
+          "id": "search-chapter-5-282",
+          "tex": "\\boxed{\n\\begin{gathered}\n\\text{不存在定义在 }\\mathcal P(\\mathbb R)\\text{ 上的}\\\\\n\\text{平移不变、可数可加、}\\\\\n\\text{并与区间长度一致的测度。}\n\\end{gathered}\n}",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-297",
+          "tex": "\\mathcal P(\\mathbb R)",
+          "display": false,
+          "context": "p2397"
+        },
+        {
+          "id": "search-chapter-5-304",
+          "tex": "\\sigma",
+          "display": false,
+          "context": "p2403"
+        },
+        {
+          "id": "search-chapter-5-306",
+          "tex": "\\sigma",
+          "display": false,
+          "context": "chapter-5-h121"
+        },
+        {
+          "id": "search-chapter-5-310",
+          "tex": "\\mathcal F\\subseteq\\mathcal P(\\Omega).",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-312",
+          "tex": "\\mathcal F",
+          "display": false,
+          "context": "p2408"
+        },
+        {
+          "id": "search-chapter-5-316",
+          "tex": "A",
+          "display": false,
+          "context": "p2411"
+        },
+        {
+          "id": "search-chapter-5-317",
+          "tex": "A",
+          "display": false,
+          "context": "p2411"
+        },
+        {
+          "id": "search-chapter-5-319",
+          "tex": "A\\in\\mathcal F\n\\implies A^c\\in\\mathcal F.",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-321",
+          "tex": "A,B",
+          "display": false,
+          "context": "p2414"
+        },
+        {
+          "id": "search-chapter-5-322",
+          "tex": "A",
+          "display": false,
+          "context": "p2414"
+        },
+        {
+          "id": "search-chapter-5-323",
+          "tex": "B",
+          "display": false,
+          "context": "p2414"
+        },
+        {
+          "id": "search-chapter-5-325",
+          "tex": "A,B\\in\\mathcal F\n\\implies A\\cup B\\in\\mathcal F.",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-330",
+          "tex": "A_n=\\{S_n=0\\}.",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-332",
+          "tex": "\\bigcup_{n=1}^{\\infty}A_n.",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-334",
+          "tex": "\\bigcap_{m=1}^{\\infty}\n\\bigcup_{n=m}^{\\infty}A_n.",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-339",
+          "tex": "A_n",
+          "display": false,
+          "context": "p2429"
+        },
+        {
+          "id": "search-chapter-5-340",
+          "tex": "\\bigcup_{n=1}^{\\infty}A_n",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-343",
+          "tex": "\\sigma",
+          "display": false,
+          "context": "p2432"
+        },
+        {
+          "id": "search-chapter-5-345",
+          "tex": "\\sigma",
+          "display": false,
+          "context": "chapter-5-h122"
+        },
+        {
+          "id": "search-chapter-5-347",
+          "tex": "\\Omega",
+          "display": false,
+          "context": "p2433"
+        },
+        {
+          "id": "search-chapter-5-349",
+          "tex": "\\mathcal F\\subseteq\\mathcal P(\\Omega)",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-352",
+          "tex": "\\Omega\\in\\mathcal F",
+          "display": false,
+          "context": "search-chapter-5-351"
+        },
+        {
+          "id": "search-chapter-5-354",
+          "tex": "A\\in\\mathcal F",
+          "display": false,
+          "context": "search-chapter-5-353"
+        },
+        {
+          "id": "search-chapter-5-355",
+          "tex": "A^c\\in\\mathcal F",
+          "display": false,
+          "context": "search-chapter-5-353"
+        },
+        {
+          "id": "search-chapter-5-357",
+          "tex": "A_1,A_2,\\ldots\\in\\mathcal F",
+          "display": false,
+          "context": "search-chapter-5-356"
+        },
+        {
+          "id": "search-chapter-5-358",
+          "tex": "\\bigcup_{n=1}^{\\infty}A_n\\in\\mathcal F,",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-360",
+          "tex": "\\mathcal F",
+          "display": false,
+          "context": "p2441"
+        },
+        {
+          "id": "search-chapter-5-361",
+          "tex": "\\Omega",
+          "display": false,
+          "context": "p2441"
+        },
+        {
+          "id": "search-chapter-5-362",
+          "tex": "\\sigma",
+          "display": false,
+          "context": "p2441"
+        },
+        {
+          "id": "search-chapter-5-372",
+          "tex": "\\left(\\bigcup_{n=1}^{\\infty}A_n\\right)^c\n=\n\\bigcap_{n=1}^{\\infty}A_n^c,",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-374",
+          "tex": "A_n\\in\\mathcal F\\ (\\forall n)\n\\implies\n\\bigcap_{n=1}^{\\infty}A_n\\in\\mathcal F.",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-376",
+          "tex": "\\sigma",
+          "display": false,
+          "context": "p2454"
+        },
+        {
+          "id": "search-chapter-5-381",
+          "tex": "\\mathcal F",
+          "display": false,
+          "context": "p2457"
+        },
+        {
+          "id": "search-chapter-5-382",
+          "tex": "\\{x\\}\\in\\mathcal F,\n\\qquad x\\in\\mathbb R.",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-384",
+          "tex": "\\mathcal F",
+          "display": false,
+          "context": "p2459"
+        },
+        {
+          "id": "search-chapter-5-385",
+          "tex": "A\\subseteq\\mathbb R",
+          "display": false,
+          "context": "p2459"
+        },
+        {
+          "id": "search-chapter-5-386",
+          "tex": "A=\\bigcup_{x\\in A}\\{x\\}\\in\\mathcal F.",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-388",
+          "tex": "\\mathcal F=\\mathcal P(\\mathbb R).",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-398",
+          "tex": "\\sigma",
+          "display": false,
+          "context": "p2470"
+        },
+        {
+          "id": "search-chapter-5-399",
+          "tex": "\\mathcal F_1\\subseteq\\mathcal F_2.",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-401",
+          "tex": "\\mathcal F_2",
+          "display": false,
+          "context": "p2472"
+        },
+        {
+          "id": "search-chapter-5-404",
+          "tex": "\\sigma",
+          "display": false,
+          "context": "p2474"
+        },
+        {
+          "id": "search-chapter-5-406",
+          "tex": "\\mathcal F_0=\\{\\varnothing,\\Omega\\}.",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-408",
+          "tex": "\\Omega=\\{H,T\\},",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-410",
+          "tex": "\\mathcal F_1=\\mathcal P(\\Omega).",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-412",
+          "tex": "\\mathcal F_0\\subseteq\\mathcal F_1.",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-418",
+          "tex": "\\sigma",
+          "display": false,
+          "context": "p2487"
+        },
+        {
+          "id": "search-chapter-5-419",
+          "tex": "\\mathcal F_s\\subseteq\\mathcal F_t,\n\\qquad s\\le t.",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-434",
+          "tex": "\\mathcal C\\subseteq\\mathcal P(\\Omega)",
+          "display": false,
+          "context": "p2501"
+        },
+        {
+          "id": "search-chapter-5-435",
+          "tex": "\\boxed{\n\\sigma(\\mathcal C)\n=\n\\bigcap\\left\\{\n\\mathcal F:\n\\mathcal F\\text{ 是 }\\sigma\\text{-代数},\n\\ \\mathcal C\\subseteq\\mathcal F\n\\right\\}.\n}",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-437",
+          "tex": "\\sigma",
+          "display": false,
+          "context": "p2503"
+        },
+        {
+          "id": "search-chapter-5-438",
+          "tex": "\\sigma",
+          "display": false,
+          "context": "p2503"
+        },
+        {
+          "id": "search-chapter-5-439",
+          "tex": "\\mathcal C",
+          "display": false,
+          "context": "p2503"
+        },
+        {
+          "id": "search-chapter-5-440",
+          "tex": "\\sigma",
+          "display": false,
+          "context": "p2503"
+        },
+        {
+          "id": "search-chapter-5-442",
+          "tex": "\\mathcal C",
+          "display": false,
+          "context": "p2504"
+        },
+        {
+          "id": "search-chapter-5-443",
+          "tex": "\\sigma",
+          "display": false,
+          "context": "p2504"
+        },
+        {
+          "id": "search-chapter-5-445",
+          "tex": "\\mathcal O",
+          "display": false,
+          "context": "p2505"
+        },
+        {
+          "id": "search-chapter-5-446",
+          "tex": "\\mathbb R",
+          "display": false,
+          "context": "p2505"
+        },
+        {
+          "id": "search-chapter-5-448",
+          "tex": "\\boxed{\n\\mathcal B(\\mathbb R)=\\sigma(\\mathcal O).\n}",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-450",
+          "tex": "\\sigma",
+          "display": false,
+          "context": "p2508"
+        },
+        {
+          "id": "search-chapter-5-453",
+          "tex": "\\boxed{\n\\mathcal B(\\mathbb R)\n=\n\\sigma\\bigl(\\{(a,b):a,b\\in\\mathbb Q,\\ a<b\\}\\bigr).\n}",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-456",
+          "tex": "U\\subseteq\\mathbb R",
+          "display": false,
+          "context": "p2513"
+        },
+        {
+          "id": "search-chapter-5-457",
+          "tex": "U=\n\\bigcup_{\\substack{a,b\\in\\mathbb Q\\\\(a,b)\\subseteq U}}\n(a,b).",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-467",
+          "tex": "m:\\mathcal B(\\mathbb R)\\to[0,\\infty].",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-472",
+          "tex": "A\\subseteq\\mathbb R",
+          "display": false,
+          "context": "p2527"
+        },
+        {
+          "id": "search-chapter-5-476",
+          "tex": "A\\subseteq\\bigcup_{n=1}^{\\infty}I_n,",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-478",
+          "tex": "I_n",
+          "display": false,
+          "context": "p2532"
+        },
+        {
+          "id": "search-chapter-5-480",
+          "tex": "\\sum_{n=1}^{\\infty}|I_n|,",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-482",
+          "tex": "A",
+          "display": false,
+          "context": "p2535"
+        },
+        {
+          "id": "search-chapter-5-486",
+          "tex": "\\boxed{\nm^*(A)\n=\n\\inf\\left\\{\n\\sum_{n=1}^{\\infty}|I_n|:\nA\\subseteq\\bigcup_{n=1}^{\\infty}I_n,\n\\ I_n\\text{ 为开区间}\n\\right\\}.\n}",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-488",
+          "tex": "m^*",
+          "display": false,
+          "context": "p2540"
+        },
+        {
+          "id": "search-chapter-5-494",
+          "tex": "m^*([a,b])=b-a.",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-496",
+          "tex": "b-a",
+          "display": false,
+          "context": "p2547"
+        },
+        {
+          "id": "search-chapter-5-498",
+          "tex": "[a,b]",
+          "display": false,
+          "context": "p2548"
+        },
+        {
+          "id": "search-chapter-5-499",
+          "tex": "b-a",
+          "display": false,
+          "context": "p2548"
+        },
+        {
+          "id": "search-chapter-5-503",
+          "tex": "m^*(\\varnothing)=0.",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-505",
+          "tex": "A\\subseteq B,",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-507",
+          "tex": "B",
+          "display": false,
+          "context": "p2554"
+        },
+        {
+          "id": "search-chapter-5-508",
+          "tex": "A",
+          "display": false,
+          "context": "p2554"
+        },
+        {
+          "id": "search-chapter-5-510",
+          "tex": "\\boxed{m^*(A)\\le m^*(B).}",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-513",
+          "tex": "A_1,A_2,\\ldots.",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-515",
+          "tex": "\\varepsilon>0",
+          "display": false,
+          "context": "p2560"
+        },
+        {
+          "id": "search-chapter-5-516",
+          "tex": "A_k",
+          "display": false,
+          "context": "p2560"
+        },
+        {
+          "id": "search-chapter-5-517",
+          "tex": "m^*(A_k)+\\frac{\\varepsilon}{2^k},",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-520",
+          "tex": "\\bigcup_kA_k",
+          "display": false,
+          "context": "p2563"
+        },
+        {
+          "id": "search-chapter-5-522",
+          "tex": "m^*\\left(\\bigcup_{k=1}^{\\infty}A_k\\right)\n\\le\n\\sum_{k=1}^{\\infty}m^*(A_k)+\\varepsilon.",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-524",
+          "tex": "\\varepsilon\\downarrow0",
+          "display": false,
+          "context": "p2566"
+        },
+        {
+          "id": "search-chapter-5-525",
+          "tex": "\\boxed{\nm^*\\left(\\bigcup_{k=1}^{\\infty}A_k\\right)\n\\le\n\\sum_{k=1}^{\\infty}m^*(A_k).\n}",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-539",
+          "tex": "A\\subseteq\\mathbb R",
+          "display": false,
+          "context": "p2579"
+        },
+        {
+          "id": "search-chapter-5-541",
+          "tex": "E",
+          "display": false,
+          "context": "p2580"
+        },
+        {
+          "id": "search-chapter-5-542",
+          "tex": "E\\cap A",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-544",
+          "tex": "E\\setminus A.",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-546",
+          "tex": "E=(E\\cap A)\\cup(E\\setminus A).",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-548",
+          "tex": "m^*(E)\n\\le\nm^*(E\\cap A)+m^*(E\\setminus A).",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-550",
+          "tex": "A",
+          "display": false,
+          "context": "p2588"
+        },
+        {
+          "id": "search-chapter-5-552",
+          "tex": "E",
+          "display": false,
+          "context": "p2589"
+        },
+        {
+          "id": "search-chapter-5-553",
+          "tex": "A",
+          "display": false,
+          "context": "p2589"
+        },
+        {
+          "id": "search-chapter-5-555",
+          "tex": "m^*(E)\n=\nm^*(E\\cap A)+m^*(E\\setminus A).",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-558",
+          "tex": "E=\\mathbb R",
+          "display": false,
+          "context": "p2593"
+        },
+        {
+          "id": "search-chapter-5-559",
+          "tex": "E=A",
+          "display": false,
+          "context": "p2593"
+        },
+        {
+          "id": "search-chapter-5-560",
+          "tex": "E",
+          "display": false,
+          "context": "p2593"
+        },
+        {
+          "id": "search-chapter-5-564",
+          "tex": "m^*",
+          "display": false,
+          "context": "p2595"
+        },
+        {
+          "id": "search-chapter-5-565",
+          "tex": "A\\subseteq\\mathbb R",
+          "display": false,
+          "context": "p2595"
+        },
+        {
+          "id": "search-chapter-5-567",
+          "tex": "E\\subseteq\\mathbb R",
+          "display": false,
+          "context": "p2596"
+        },
+        {
+          "id": "search-chapter-5-568",
+          "tex": "\\boxed{\nm^*(E)\n=\nm^*(E\\cap A)+m^*(E\\setminus A),\n}",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-570",
+          "tex": "A",
+          "display": false,
+          "context": "p2598"
+        },
+        {
+          "id": "search-chapter-5-572",
+          "tex": "\\mathcal L.",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-574",
+          "tex": "\\sigma",
+          "display": false,
+          "context": "p2601"
+        },
+        {
+          "id": "search-chapter-5-581",
+          "tex": "\\sigma",
+          "display": false,
+          "context": "chapter-5-h130"
+        },
+        {
+          "id": "search-chapter-5-584",
+          "tex": "A",
+          "display": false,
+          "context": "p2608"
+        },
+        {
+          "id": "search-chapter-5-585",
+          "tex": "A^c",
+          "display": false,
+          "context": "p2608"
+        },
+        {
+          "id": "search-chapter-5-586",
+          "tex": "A\\in\\mathcal L\n\\implies A^c\\in\\mathcal L.",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-588",
+          "tex": "A,B\\in\\mathcal L",
+          "display": false,
+          "context": "p2610"
+        },
+        {
+          "id": "search-chapter-5-589",
+          "tex": "A\\cup B\\in\\mathcal L.",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-591",
+          "tex": "A_1,A_2,\\ldots\\in\\mathcal L",
+          "display": false,
+          "context": "p2612"
+        },
+        {
+          "id": "search-chapter-5-593",
+          "tex": "B_1=A_1,",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-594",
+          "tex": "B_n=A_n\\setminus\\bigcup_{k=1}^{n-1}A_k,\\qquad n\\ge2.",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-596",
+          "tex": "B_n",
+          "display": false,
+          "context": "p2616"
+        },
+        {
+          "id": "search-chapter-5-598",
+          "tex": "\\bigcup_{n=1}^{\\infty}A_n\n=\n\\bigsqcup_{n=1}^{\\infty}B_n.",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-600",
+          "tex": "E\\subseteq\\mathbb R",
+          "display": false,
+          "context": "p2619"
+        },
+        {
+          "id": "search-chapter-5-601",
+          "tex": "m^*(E)\n\\ge\n\\sum_{k=1}^{N}m^*(E\\cap B_k)\n+\nm^*\\left(E\\setminus\\bigcup_{k=1}^{\\infty}B_k\\right).",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-603",
+          "tex": "N\\to\\infty",
+          "display": false,
+          "context": "p2621"
+        },
+        {
+          "id": "search-chapter-5-604",
+          "tex": "m^*\\left(E\\cap\\bigcup_{k=1}^{\\infty}B_k\\right)\n\\le\n\\sum_{k=1}^{\\infty}m^*(E\\cap B_k),",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-606",
+          "tex": "m^*(E)\n\\ge\nm^*\\left(E\\cap\\bigcup_{k=1}^{\\infty}B_k\\right)\n+\nm^*\\left(E\\setminus\\bigcup_{k=1}^{\\infty}B_k\\right).",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-611",
+          "tex": "\\boxed{\\mathcal L\\text{ 是一个 }\\sigma\\text{-代数}.}",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-614",
+          "tex": "A_1,A_2,\\ldots\\in\\mathcal L",
+          "display": false,
+          "context": "p2631"
+        },
+        {
+          "id": "search-chapter-5-615",
+          "tex": "\\boxed{\nm^*\\left(\\bigcup_{n=1}^{\\infty}A_n\\right)\n=\n\\sum_{n=1}^{\\infty}m^*(A_n).\n}",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-617",
+          "tex": "\\mathcal L",
+          "display": false,
+          "context": "p2633"
+        },
+        {
+          "id": "search-chapter-5-618",
+          "tex": "m=m^*|_{\\mathcal L},",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-626",
+          "tex": "A=(-\\infty,a).",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-628",
+          "tex": "E\\subseteq\\mathbb R",
+          "display": false,
+          "context": "p2642"
+        },
+        {
+          "id": "search-chapter-5-629",
+          "tex": "E",
+          "display": false,
+          "context": "p2642"
+        },
+        {
+          "id": "search-chapter-5-630",
+          "tex": "a",
+          "display": false,
+          "context": "p2642"
+        },
+        {
+          "id": "search-chapter-5-633",
+          "tex": "m^*(E\\cap A)+m^*(E\\setminus A)\\le m^*(E).",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-636",
+          "tex": "A",
+          "display": false,
+          "context": "p2647"
+        },
+        {
+          "id": "search-chapter-5-639",
+          "tex": "\\mathcal L",
+          "display": false,
+          "context": "p2649"
+        },
+        {
+          "id": "search-chapter-5-640",
+          "tex": "\\sigma",
+          "display": false,
+          "context": "p2649"
+        },
+        {
+          "id": "search-chapter-5-641",
+          "tex": "\\boxed{\n\\mathcal B(\\mathbb R)\\subseteq\\mathcal L.\n}",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-647",
+          "tex": "\\mathcal B(\\mathbb R)\n\\subsetneq\n\\mathcal L.",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-651",
+          "tex": "C",
+          "display": false,
+          "context": "p2658"
+        },
+        {
+          "id": "search-chapter-5-654",
+          "tex": "m(C)=0.",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-656",
+          "tex": "n",
+          "display": false,
+          "context": "p2662"
+        },
+        {
+          "id": "search-chapter-5-657",
+          "tex": "2^n",
+          "display": false,
+          "context": "p2662"
+        },
+        {
+          "id": "search-chapter-5-658",
+          "tex": "\\left(\\frac23\\right)^n,",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-662",
+          "tex": "A\\subseteq C",
+          "display": false,
+          "context": "p2666"
+        },
+        {
+          "id": "search-chapter-5-663",
+          "tex": "0\\le m^*(A)\\le m^*(C)=0.",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-665",
+          "tex": "m^*(A)=0",
+          "display": false,
+          "context": "p2668"
+        },
+        {
+          "id": "search-chapter-5-667",
+          "tex": "\\boxed{\nA\\subseteq C\\implies A\\in\\mathcal L.\n}",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-672",
+          "tex": "\\boxed{\n\\begin{aligned}\n\\Omega&=[0,1],\\\\\n\\mathcal F&=\\mathcal L|_{[0,1]},\\\\\nP(A)&=m(A).\n\\end{aligned}\n}",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-674",
+          "tex": "\\mathcal L|_{[0,1]}\n=\n\\{A\\subseteq[0,1]:A\\in\\mathcal L\\}.",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-676",
+          "tex": "0\\le a<b\\le1",
+          "display": false,
+          "context": "p2678"
+        },
+        {
+          "id": "search-chapter-5-677",
+          "tex": "P([a,b])=b-a.",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-680",
+          "tex": "\\boxed{\\mathcal F\\ne\\mathcal P([0,1]).}",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-686",
+          "tex": "\\sigma",
+          "display": false,
+          "context": "p2686"
+        },
+        {
+          "id": "search-chapter-5-690",
+          "tex": "P(A\\cup B)=P(A)+P(B)",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-692",
+          "tex": "A,B",
+          "display": false,
+          "context": "p2691"
+        },
+        {
+          "id": "search-chapter-5-696",
+          "tex": "A_1\\subseteq A_2\\subseteq\\cdots",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-699",
+          "tex": "A=\\bigcup_{n=1}^{\\infty}A_n.",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-701",
+          "tex": "A_n\\uparrow A.",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-703",
+          "tex": "A_n",
+          "display": false,
+          "context": "p2700"
+        },
+        {
+          "id": "search-chapter-5-704",
+          "tex": "n",
+          "display": false,
+          "context": "p2700"
+        },
+        {
+          "id": "search-chapter-5-706",
+          "tex": "A",
+          "display": false,
+          "context": "p2701"
+        },
+        {
+          "id": "search-chapter-5-708",
+          "tex": "n",
+          "display": false,
+          "context": "p2702"
+        },
+        {
+          "id": "search-chapter-5-709",
+          "tex": "\\boxed{\nP(A_n)\\longrightarrow P(A).\n}",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-713",
+          "tex": "B_1=A_1,",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-714",
+          "tex": "B_n=A_n\\setminus A_{n-1},\n\\qquad n\\ge2.",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-716",
+          "tex": "B_n",
+          "display": false,
+          "context": "p2709"
+        },
+        {
+          "id": "search-chapter-5-718",
+          "tex": "A=\\bigsqcup_{n=1}^{\\infty}B_n.",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-720",
+          "tex": "P(A)=\\sum_{n=1}^{\\infty}P(B_n).",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-722",
+          "tex": "P(A_n)=\\sum_{k=1}^{n}P(B_k).",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-724",
+          "tex": "n\\to\\infty",
+          "display": false,
+          "context": "p2716"
+        },
+        {
+          "id": "search-chapter-5-725",
+          "tex": "\\boxed{\nA_n\\uparrow A\n\\quad\\Longrightarrow\\quad\nP(A_n)\\uparrow P(A).\n}",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-728",
+          "tex": "A_1\\supseteq A_2\\supseteq\\cdots,",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-730",
+          "tex": "A=\\bigcap_{n=1}^{\\infty}A_n,",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-732",
+          "tex": "\\boxed{\nA_n\\downarrow A\n\\quad\\Longrightarrow\\quad\nP(A_n)\\downarrow P(A).\n}",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-742",
+          "tex": "1,2,3,\\ldots",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-746",
+          "tex": "P(\\{n\\})=c",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-748",
+          "tex": "n",
+          "display": false,
+          "context": "p2738"
+        },
+        {
+          "id": "search-chapter-5-750",
+          "tex": "c>0",
+          "display": false,
+          "context": "p2739"
+        },
+        {
+          "id": "search-chapter-5-751",
+          "tex": "P(\\mathbb N)\n=\n\\sum_{n=1}^{\\infty}c\n=\\infty.",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-753",
+          "tex": "P(\\mathbb N)=1.",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-755",
+          "tex": "c>0",
+          "display": false,
+          "context": "p2743"
+        },
+        {
+          "id": "search-chapter-5-757",
+          "tex": "c=0",
+          "display": false,
+          "context": "p2744"
+        },
+        {
+          "id": "search-chapter-5-758",
+          "tex": "P(\\mathbb N)\n=\n\\sum_{n=1}^{\\infty}0\n=0.",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-761",
+          "tex": "\\boxed{\n\\text{不存在定义在 }\\mathbb N\\text{ 上、}\\\\\n\\text{使所有单点等概率的可数可加概率测度。}\n}",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-766",
+          "tex": "P(\\{n\\})=2^{-n},\n\\qquad n=1,2,\\ldots",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-768",
+          "tex": "\\sum_{n=1}^{\\infty}2^{-n}=1.",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-777",
+          "tex": "\\Omega",
+          "display": false,
+          "context": "p2762"
+        },
+        {
+          "id": "search-chapter-5-779",
+          "tex": "\\mathcal F",
+          "display": false,
+          "context": "p2763"
+        },
+        {
+          "id": "search-chapter-5-781",
+          "tex": "P",
+          "display": false,
+          "context": "p2764"
+        },
+        {
+          "id": "search-chapter-5-785",
+          "tex": "\\boxed{(\\Omega,\\mathcal F,P)}",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-788",
+          "tex": "\\Omega",
+          "display": false,
+          "context": "p2769"
+        },
+        {
+          "id": "search-chapter-5-790",
+          "tex": "\\mathcal F",
+          "display": false,
+          "context": "p2770"
+        },
+        {
+          "id": "search-chapter-5-791",
+          "tex": "\\Omega",
+          "display": false,
+          "context": "p2770"
+        },
+        {
+          "id": "search-chapter-5-792",
+          "tex": "\\sigma",
+          "display": false,
+          "context": "p2770"
+        },
+        {
+          "id": "search-chapter-5-794",
+          "tex": "P:\\mathcal F\\to[0,1]",
+          "display": false,
+          "context": "p2771"
+        },
+        {
+          "id": "search-chapter-5-795",
+          "tex": "P(\\Omega)=1,",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-797",
+          "tex": "A_1,A_2,\\ldots\\in\\mathcal F",
+          "display": false,
+          "context": "p2773"
+        },
+        {
+          "id": "search-chapter-5-798",
+          "tex": "\\boxed{\nP\\left(\\bigcup_{n=1}^{\\infty}A_n\\right)\n=\n\\sum_{n=1}^{\\infty}P(A_n).\n}",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-809",
+          "tex": "\\Omega=\\{\\omega_1,\\ldots,\\omega_n\\},",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-811",
+          "tex": "\\mathcal F=\\mathcal P(\\Omega).",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-813",
+          "tex": "P(A)=\\frac{|A|}{n}.",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-817",
+          "tex": "p_i\\ge0,\\qquad\\sum_{i=1}^{n}p_i=1,",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-819",
+          "tex": "P(A)=\\sum_{\\omega_i\\in A}p_i.",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-823",
+          "tex": "\\boxed{\n\\begin{gathered}\n\\text{古典等可能计数}\\\\\n\\text{非等可能离散概率}\\\\\n\\text{连续均匀概率}\\\\\n\\text{更一般的概率分布}\n\\end{gathered}\n\\quad\n\\begin{gathered}\n\\\\[-1.5em]\n\\Bigg\\}\\\\\n\\\\[-0.5em]\n\\text{概率测度}\n\\end{gathered}\n}",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-831",
+          "tex": "(\\Omega,\\mathcal F,P).",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-835",
+          "tex": "X(\\omega)=\\text{三个骰子的总点数}.",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-839",
+          "tex": "X:\\Omega\\to\\mathbb R",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-842",
+          "tex": "\\{X\\le a\\},",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-844",
+          "tex": "X^{-1}((-\\infty,a]).",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-846",
+          "tex": "X^{-1}((-\\infty,a])\\in\\mathcal F.",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-849",
+          "tex": "B",
+          "display": false,
+          "context": "p2823"
+        },
+        {
+          "id": "search-chapter-5-850",
+          "tex": "P(X\\in B).",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-852",
+          "tex": "X^{-1}(B)\\in\\mathcal F,\n\\qquad B\\in\\mathcal B(\\mathbb R).",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-856",
+          "tex": "(\\Omega,\\mathcal F,P)",
+          "display": false,
+          "context": "p2828"
+        },
+        {
+          "id": "search-chapter-5-858",
+          "tex": "X:\\Omega\\to\\mathbb R",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-860",
+          "tex": "\\boxed{\nX^{-1}(B)\\in\\mathcal F\n\\quad\n\\text{对所有 }B\\in\\mathcal B(\\mathbb R),\n}",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-862",
+          "tex": "X",
+          "display": false,
+          "context": "p2833"
+        },
+        {
+          "id": "search-chapter-5-864",
+          "tex": "X",
+          "display": false,
+          "context": "p2834"
+        },
+        {
+          "id": "search-chapter-5-867",
+          "tex": "X",
+          "display": false,
+          "context": "p2836"
+        },
+        {
+          "id": "search-chapter-5-869",
+          "tex": "X",
+          "display": false,
+          "context": "p2837"
+        },
+        {
+          "id": "search-chapter-5-870",
+          "tex": "\\boxed{\nP_X(B)=P(X^{-1}(B)).\n}",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-877",
+          "tex": "A=\\left\\{\n\\omega:\n\\sup_{0\\le t\\le1}B_t(\\omega)>1\n\\right\\}.",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-880",
+          "tex": "C([0,1])",
+          "display": false,
+          "context": "p2846"
+        },
+        {
+          "id": "search-chapter-5-882",
+          "tex": "f",
+          "display": false,
+          "context": "p2847"
+        },
+        {
+          "id": "search-chapter-5-883",
+          "tex": "\\boxed{\n\\sup_{0\\le t\\le1}f(t)\n=\n\\sup_{t\\in\\mathbb Q\\cap[0,1]}f(t).\n}",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-886",
+          "tex": "[0,1]",
+          "display": false,
+          "context": "p2850"
+        },
+        {
+          "id": "search-chapter-5-887",
+          "tex": "f",
+          "display": false,
+          "context": "p2850"
+        },
+        {
+          "id": "search-chapter-5-890",
+          "tex": "A=\n\\bigcup_{q\\in\\mathbb Q\\cap[0,1]}\n\\{B_q>1\\}.",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-893",
+          "tex": "q",
+          "display": false,
+          "context": "p2855"
+        },
+        {
+          "id": "search-chapter-5-894",
+          "tex": "\\{B_q>1\\}",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-897",
+          "tex": "\\mathbb Q\\cap[0,1]",
+          "display": false,
+          "context": "p2858"
+        },
+        {
+          "id": "search-chapter-5-898",
+          "tex": "A\\in\\mathcal F.",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-901",
+          "tex": "\\sigma",
+          "display": false,
+          "context": "p2861"
+        },
+        {
+          "id": "search-chapter-5-915",
+          "tex": "A\\in\\mathcal F",
+          "display": false,
+          "context": "p2873"
+        },
+        {
+          "id": "search-chapter-5-916",
+          "tex": "P(A)=1,",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-918",
+          "tex": "A",
+          "display": false,
+          "context": "p2875"
+        },
+        {
+          "id": "search-chapter-5-920",
+          "tex": "P(A)=0,",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-922",
+          "tex": "A",
+          "display": false,
+          "context": "p2878"
+        },
+        {
+          "id": "search-chapter-5-924",
+          "tex": "P(A)=1",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-926",
+          "tex": "A=\\Omega.",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-928",
+          "tex": "P(A)=0",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-930",
+          "tex": "A=\\varnothing.",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-932",
+          "tex": "[0,1]",
+          "display": false,
+          "context": "p2887"
+        },
+        {
+          "id": "search-chapter-5-933",
+          "tex": "P(X\\in\\mathbb Q)=0.",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-941",
+          "tex": "X_n\\xrightarrow{\\mathrm{a.s.}}X",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-943",
+          "tex": "P\\left(\n\\left\\{\\omega:\n\\lim_{n\\to\\infty}X_n(\\omega)=X(\\omega)\n\\right\\}\n\\right)=1.",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-946",
+          "tex": "\\left\\{\n\\omega:\n\\lim_{n\\to\\infty}X_n(\\omega)=X(\\omega)\n\\right\\}",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-948",
+          "tex": "\\mathcal F",
+          "display": false,
+          "context": "p2902"
+        },
+        {
+          "id": "search-chapter-5-955",
+          "tex": "[0,1]",
+          "display": false,
+          "context": "p2907"
+        },
+        {
+          "id": "search-chapter-5-966",
+          "tex": "\\sigma",
+          "display": false,
+          "context": "p2917"
+        },
+        {
+          "id": "search-chapter-5-971",
+          "tex": "P(A)=\\frac{|A|}{|\\Omega|}",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-975",
+          "tex": "\\sigma",
+          "display": false,
+          "context": "p2925"
+        },
+        {
+          "id": "search-chapter-5-976",
+          "tex": "\\mathcal F\\subseteq\\mathcal P(\\Omega)",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-978",
+          "tex": "(\\Omega,\\mathcal F,P)",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-986",
+          "tex": "P(A).",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-988",
+          "tex": "X:\\Omega\\to\\mathbb R,",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-991",
+          "tex": "\\mathbb E[X]\n=\n\\sum_{\\omega\\in\\Omega}X(\\omega)P(\\{\\omega\\}).",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-993",
+          "tex": "\\mathbb E[X]\n=\n\\int_{\\mathbb R}x f_X(x)\\,dx.",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-1001",
+          "tex": "\\boxed{\n\\mathbb E[X]=\\int_\\Omega X\\,dP.\n}",
+          "display": true,
+          "context": "display"
+        }
+      ],
+      "other_search_nodes": [
+        {
+          "id": "search-chapter-5-133",
+          "tag": "li",
+          "text": "基数：一个集合包含多少元素？"
+        },
+        {
+          "id": "search-chapter-5-134",
+          "tag": "li",
+          "text": "拓扑性质：这个集合在空间中如何分布？"
+        },
+        {
+          "id": "search-chapter-5-135",
+          "tag": "li",
+          "text": "测度：这个集合占据了多少可测量的大小？"
+        },
+        {
+          "id": "search-chapter-5-351",
+          "tag": "li",
+          "text": "TEX\\Omega\\in\\mathcalF；"
+        },
+        {
+          "id": "search-chapter-5-353",
+          "tag": "li",
+          "text": "若TEXA\\in\\mathcalF，则TEXA^c\\in\\mathcalF；"
+        },
+        {
+          "id": "search-chapter-5-356",
+          "tag": "li",
+          "text": "若TEXA_1,A_2,\\ldots\\in\\mathcalF，则"
+        }
+      ]
+    },
+    "en": {
+      "replacement_paragraph": "p2867",
+      "retired_paragraphs": [
+        "p2868",
+        "p2869",
+        "p2870",
+        "p2871"
+      ],
+      "resume_prefix": "We can now give a rigorous definition.",
+      "formulas": [
+        {
+          "id": "search-chapter-5-14",
+          "tex": "P(A)",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-17",
+          "tex": "P(A)=\\frac{|A|}{6}.",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-20",
+          "tex": "A=\n\\left\\{\n\\omega:\n\\sup_{0\\le t\\le1}B_t(\\omega)>1\n\\right\\}.",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-22",
+          "tex": "\\omega",
+          "display": false,
+          "context": "p2164"
+        },
+        {
+          "id": "search-chapter-5-25",
+          "tex": "A",
+          "display": false,
+          "context": "p2166"
+        },
+        {
+          "id": "search-chapter-5-34",
+          "tex": "[0,1]",
+          "display": false,
+          "context": "p2173"
+        },
+        {
+          "id": "search-chapter-5-38",
+          "tex": "P\\left(X\\in\\left[0,\\frac12\\right]\\right)=\\frac12,",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-39",
+          "tex": "P\\left(X\\in\\left[\\frac14,\\frac34\\right]\\right)=\\frac12.",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-41",
+          "tex": "0\\le a<b\\le1,",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-43",
+          "tex": "\\boxed{P(X\\in[a,b])=b-a.}",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-54",
+          "tex": "m:\\mathcal P(\\mathbb R)\\longrightarrow[0,\\infty],",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-56",
+          "tex": "\\mathcal P(\\mathbb R)",
+          "display": false,
+          "context": "p2194"
+        },
+        {
+          "id": "search-chapter-5-59",
+          "tex": "m([a,b])=b-a.",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-61",
+          "tex": "m(A+x)=m(A),",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-63",
+          "tex": "A+x=\\{a+x:a\\in A\\}.",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-66",
+          "tex": "\\boxed{\nm\\left(\\bigcup_{n=1}^{\\infty}A_n\\right)\n=\n\\sum_{n=1}^{\\infty}m(A_n).\n}",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-74",
+          "tex": "A=\\{1,2,3\\},\\qquad B=\\{1,2,3,4,5\\}.",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-76",
+          "tex": "B",
+          "display": false,
+          "context": "p2212"
+        },
+        {
+          "id": "search-chapter-5-77",
+          "tex": "A",
+          "display": false,
+          "context": "p2212"
+        },
+        {
+          "id": "search-chapter-5-79",
+          "tex": "|A|=3,\\qquad |B|=5.",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-82",
+          "tex": "\\mathbb N=\\{1,2,3,\\ldots\\}",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-84",
+          "tex": "2\\mathbb N=\\{2,4,6,\\ldots\\}",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-86",
+          "tex": "n\\longmapsto2n.",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-93",
+          "tex": "f:[0,1]\\longrightarrow[0,1/2],\n\\qquad\nf(x)=\\frac x2",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-96",
+          "tex": "\\left|[0,1]\\right|\n=\n\\left|[0,1/2]\\right|.",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-98",
+          "tex": "m([0,1])=1,",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-100",
+          "tex": "m([0,1/2])=\\frac12.",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-107",
+          "tex": "A=\\mathbb Q\\cap[0,1].",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-109",
+          "tex": "[0,1]",
+          "display": false,
+          "context": "p2242"
+        },
+        {
+          "id": "search-chapter-5-111",
+          "tex": "[0,1]",
+          "display": false,
+          "context": "p2243"
+        },
+        {
+          "id": "search-chapter-5-114",
+          "tex": "m(\\{x\\})=0,",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-116",
+          "tex": "m",
+          "display": false,
+          "context": "p2247"
+        },
+        {
+          "id": "search-chapter-5-117",
+          "tex": "A=\\{q_1,q_2,\\ldots\\}.",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-119",
+          "tex": "\\begin{aligned}\nm(A)\n&=m\\left(\\bigcup_{n=1}^{\\infty}\\{q_n\\}\\right)\\\\\n&=\\sum_{n=1}^{\\infty}m(\\{q_n\\})\\\\\n&=0.\n\\end{aligned}",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-121",
+          "tex": "\\boxed{m(\\mathbb Q\\cap[0,1])=0.}",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-123",
+          "tex": "m\\bigl([0,1]\\setminus\\mathbb Q\\bigr)=1.",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-125",
+          "tex": "\\boxed{P(X\\text{ is rational})=0.}",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-127",
+          "tex": "\\boxed{P(X\\text{ is irrational})=1.}",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-160",
+          "tex": "[0,1]",
+          "display": false,
+          "context": "p2288"
+        },
+        {
+          "id": "search-chapter-5-161",
+          "tex": "x\\sim y\n\\quad\\Longleftrightarrow\\quad\nx-y\\in\\mathbb Q.",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-165",
+          "tex": "x-x=0\\in\\mathbb Q.",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-167",
+          "tex": "x-y\\in\\mathbb Q\n\\implies y-x\\in\\mathbb Q.",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-169",
+          "tex": "x-y\\in\\mathbb Q,\\quad y-z\\in\\mathbb Q\n\\implies x-z\\in\\mathbb Q.",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-171",
+          "tex": "[0,1]",
+          "display": false,
+          "context": "p2298"
+        },
+        {
+          "id": "search-chapter-5-173",
+          "tex": "x+\\mathbb Q",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-176",
+          "tex": "[0,1]",
+          "display": false,
+          "context": "p2302"
+        },
+        {
+          "id": "search-chapter-5-182",
+          "tex": "V",
+          "display": false,
+          "context": "p2307"
+        },
+        {
+          "id": "search-chapter-5-184",
+          "tex": "V\\subseteq[0,1],",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-186",
+          "tex": "V",
+          "display": false,
+          "context": "p2310"
+        },
+        {
+          "id": "search-chapter-5-192",
+          "tex": "Q_0=\\mathbb Q\\cap[-1,1].",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-194",
+          "tex": "q\\in Q_0",
+          "display": false,
+          "context": "p2316"
+        },
+        {
+          "id": "search-chapter-5-195",
+          "tex": "V_q=V+q.",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-198",
+          "tex": "q,r\\in Q_0",
+          "display": false,
+          "context": "p2319"
+        },
+        {
+          "id": "search-chapter-5-199",
+          "tex": "V_q\\cap V_r=\\varnothing.",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-202",
+          "tex": "v,w\\in V",
+          "display": false,
+          "context": "p2322"
+        },
+        {
+          "id": "search-chapter-5-203",
+          "tex": "v+q=w+r.",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-205",
+          "tex": "v-w=r-q\\in\\mathbb Q.",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-207",
+          "tex": "v\\sim w.",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-209",
+          "tex": "V",
+          "display": false,
+          "context": "p2328"
+        },
+        {
+          "id": "search-chapter-5-210",
+          "tex": "v=w.",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-212",
+          "tex": "q=r,",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-216",
+          "tex": "\\boxed{\n[0,1]\\subseteq\n\\bigcup_{q\\in Q_0}(V+q).\n}",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-218",
+          "tex": "x\\in[0,1]",
+          "display": false,
+          "context": "p2336"
+        },
+        {
+          "id": "search-chapter-5-220",
+          "tex": "V",
+          "display": false,
+          "context": "p2337"
+        },
+        {
+          "id": "search-chapter-5-221",
+          "tex": "x",
+          "display": false,
+          "context": "p2337"
+        },
+        {
+          "id": "search-chapter-5-222",
+          "tex": "v\\in V",
+          "display": false,
+          "context": "p2337"
+        },
+        {
+          "id": "search-chapter-5-223",
+          "tex": "x-v\\in\\mathbb Q.",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-225",
+          "tex": "x,v\\in[0,1]",
+          "display": false,
+          "context": "p2339"
+        },
+        {
+          "id": "search-chapter-5-226",
+          "tex": "-1\\le x-v\\le1.",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-228",
+          "tex": "q=x-v\\in Q_0,",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-230",
+          "tex": "x=v+q\\in V+q.",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-232",
+          "tex": "[0,1]",
+          "display": false,
+          "context": "p2345"
+        },
+        {
+          "id": "search-chapter-5-234",
+          "tex": "[-1,2]",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-237",
+          "tex": "\\boxed{\n[0,1]\n\\subseteq\n\\bigcup_{q\\in Q_0}(V+q)\n\\subseteq[-1,2].\n}",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-242",
+          "tex": "m",
+          "display": false,
+          "context": "p2353"
+        },
+        {
+          "id": "search-chapter-5-244",
+          "tex": "m(V+q)=m(V).",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-246",
+          "tex": "c=m(V).",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-248",
+          "tex": "V\\subseteq[0,1]",
+          "display": false,
+          "context": "p2358"
+        },
+        {
+          "id": "search-chapter-5-249",
+          "tex": "0\\le c\\le1.",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-251",
+          "tex": "Q_0",
+          "display": false,
+          "context": "p2360"
+        },
+        {
+          "id": "search-chapter-5-252",
+          "tex": "V+q",
+          "display": false,
+          "context": "p2360"
+        },
+        {
+          "id": "search-chapter-5-253",
+          "tex": "\\begin{aligned}\nm\\left(\\bigcup_{q\\in Q_0}(V+q)\\right)\n&=\\sum_{q\\in Q_0}m(V+q)\\\\\n&=\\sum_{q\\in Q_0}c.\n\\end{aligned}",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-256",
+          "tex": "c=0",
+          "display": false,
+          "context": "p2363"
+        },
+        {
+          "id": "search-chapter-5-258",
+          "tex": "m\\left(\\bigcup_{q\\in Q_0}(V+q)\\right)=0.",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-260",
+          "tex": "[0,1]",
+          "display": false,
+          "context": "p2366"
+        },
+        {
+          "id": "search-chapter-5-262",
+          "tex": "1\\le0.",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-265",
+          "tex": "c>0",
+          "display": false,
+          "context": "p2370"
+        },
+        {
+          "id": "search-chapter-5-267",
+          "tex": "\\sum_{q\\in Q_0}c=\\infty.",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-269",
+          "tex": "m\\left(\\bigcup_{q\\in Q_0}(V+q)\\right)=\\infty.",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-271",
+          "tex": "[-1,2]",
+          "display": false,
+          "context": "p2375"
+        },
+        {
+          "id": "search-chapter-5-273",
+          "tex": "m([-1,2])=3.",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-276",
+          "tex": "\\infty\\le3.",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-279",
+          "tex": "m(V)=0",
+          "display": false,
+          "context": "p2382"
+        },
+        {
+          "id": "search-chapter-5-280",
+          "tex": "m(V)>0",
+          "display": false,
+          "context": "p2382"
+        },
+        {
+          "id": "search-chapter-5-282",
+          "tex": "\\boxed{\n\\begin{gathered}\n\\text{There is no measure defined on }\\mathcal P(\\mathbb R)\\text{ that is}\\\\\n\\text{translation invariant、countably additive、}\\\\\n\\text{and agrees with interval length。}\n\\end{gathered}\n}",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-297",
+          "tex": "\\mathcal P(\\mathbb R)",
+          "display": false,
+          "context": "p2397"
+        },
+        {
+          "id": "search-chapter-5-304",
+          "tex": "\\sigma",
+          "display": false,
+          "context": "p2403"
+        },
+        {
+          "id": "search-chapter-5-306",
+          "tex": "\\sigma",
+          "display": false,
+          "context": "chapter-5-h121"
+        },
+        {
+          "id": "search-chapter-5-310",
+          "tex": "\\mathcal F\\subseteq\\mathcal P(\\Omega).",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-312",
+          "tex": "\\mathcal F",
+          "display": false,
+          "context": "p2408"
+        },
+        {
+          "id": "search-chapter-5-316",
+          "tex": "A",
+          "display": false,
+          "context": "p2411"
+        },
+        {
+          "id": "search-chapter-5-317",
+          "tex": "A",
+          "display": false,
+          "context": "p2411"
+        },
+        {
+          "id": "search-chapter-5-319",
+          "tex": "A\\in\\mathcal F\n\\implies A^c\\in\\mathcal F.",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-321",
+          "tex": "A,B",
+          "display": false,
+          "context": "p2414"
+        },
+        {
+          "id": "search-chapter-5-322",
+          "tex": "A",
+          "display": false,
+          "context": "p2414"
+        },
+        {
+          "id": "search-chapter-5-323",
+          "tex": "B",
+          "display": false,
+          "context": "p2414"
+        },
+        {
+          "id": "search-chapter-5-325",
+          "tex": "A,B\\in\\mathcal F\n\\implies A\\cup B\\in\\mathcal F.",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-330",
+          "tex": "A_n=\\{S_n=0\\}.",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-332",
+          "tex": "\\bigcup_{n=1}^{\\infty}A_n.",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-334",
+          "tex": "\\bigcap_{m=1}^{\\infty}\n\\bigcup_{n=m}^{\\infty}A_n.",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-339",
+          "tex": "A_n",
+          "display": false,
+          "context": "p2429"
+        },
+        {
+          "id": "search-chapter-5-340",
+          "tex": "\\bigcup_{n=1}^{\\infty}A_n",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-343",
+          "tex": "\\sigma",
+          "display": false,
+          "context": "p2432"
+        },
+        {
+          "id": "search-chapter-5-345",
+          "tex": "\\sigma",
+          "display": false,
+          "context": "chapter-5-h122"
+        },
+        {
+          "id": "search-chapter-5-347",
+          "tex": "\\Omega",
+          "display": false,
+          "context": "p2433"
+        },
+        {
+          "id": "search-chapter-5-349",
+          "tex": "\\mathcal F\\subseteq\\mathcal P(\\Omega)",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-352",
+          "tex": "\\Omega\\in\\mathcal F",
+          "display": false,
+          "context": "search-chapter-5-351"
+        },
+        {
+          "id": "search-chapter-5-354",
+          "tex": "A\\in\\mathcal F",
+          "display": false,
+          "context": "search-chapter-5-353"
+        },
+        {
+          "id": "search-chapter-5-355",
+          "tex": "A^c\\in\\mathcal F",
+          "display": false,
+          "context": "search-chapter-5-353"
+        },
+        {
+          "id": "search-chapter-5-357",
+          "tex": "A_1,A_2,\\ldots\\in\\mathcal F",
+          "display": false,
+          "context": "search-chapter-5-356"
+        },
+        {
+          "id": "search-chapter-5-358",
+          "tex": "\\bigcup_{n=1}^{\\infty}A_n\\in\\mathcal F,",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-360",
+          "tex": "\\mathcal F",
+          "display": false,
+          "context": "p2441"
+        },
+        {
+          "id": "search-chapter-5-361",
+          "tex": "\\Omega",
+          "display": false,
+          "context": "p2441"
+        },
+        {
+          "id": "search-chapter-5-362",
+          "tex": "\\sigma",
+          "display": false,
+          "context": "p2441"
+        },
+        {
+          "id": "search-chapter-5-372",
+          "tex": "\\left(\\bigcup_{n=1}^{\\infty}A_n\\right)^c\n=\n\\bigcap_{n=1}^{\\infty}A_n^c,",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-374",
+          "tex": "A_n\\in\\mathcal F\\ (\\forall n)\n\\implies\n\\bigcap_{n=1}^{\\infty}A_n\\in\\mathcal F.",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-376",
+          "tex": "\\sigma",
+          "display": false,
+          "context": "p2454"
+        },
+        {
+          "id": "search-chapter-5-381",
+          "tex": "\\mathcal F",
+          "display": false,
+          "context": "p2457"
+        },
+        {
+          "id": "search-chapter-5-382",
+          "tex": "\\{x\\}\\in\\mathcal F,\n\\qquad x\\in\\mathbb R.",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-384",
+          "tex": "\\mathcal F",
+          "display": false,
+          "context": "p2459"
+        },
+        {
+          "id": "search-chapter-5-385",
+          "tex": "A\\subseteq\\mathbb R",
+          "display": false,
+          "context": "p2459"
+        },
+        {
+          "id": "search-chapter-5-386",
+          "tex": "A=\\bigcup_{x\\in A}\\{x\\}\\in\\mathcal F.",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-388",
+          "tex": "\\mathcal F=\\mathcal P(\\mathbb R).",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-398",
+          "tex": "\\sigma",
+          "display": false,
+          "context": "p2470"
+        },
+        {
+          "id": "search-chapter-5-399",
+          "tex": "\\mathcal F_1\\subseteq\\mathcal F_2.",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-401",
+          "tex": "\\mathcal F_2",
+          "display": false,
+          "context": "p2472"
+        },
+        {
+          "id": "search-chapter-5-404",
+          "tex": "\\sigma",
+          "display": false,
+          "context": "p2474"
+        },
+        {
+          "id": "search-chapter-5-406",
+          "tex": "\\mathcal F_0=\\{\\varnothing,\\Omega\\}.",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-408",
+          "tex": "\\Omega=\\{H,T\\},",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-410",
+          "tex": "\\mathcal F_1=\\mathcal P(\\Omega).",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-412",
+          "tex": "\\mathcal F_0\\subseteq\\mathcal F_1.",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-418",
+          "tex": "\\sigma",
+          "display": false,
+          "context": "p2487"
+        },
+        {
+          "id": "search-chapter-5-419",
+          "tex": "\\mathcal F_s\\subseteq\\mathcal F_t,\n\\qquad s\\le t.",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-434",
+          "tex": "\\mathcal C\\subseteq\\mathcal P(\\Omega)",
+          "display": false,
+          "context": "p2501"
+        },
+        {
+          "id": "search-chapter-5-435",
+          "tex": "\\boxed{\n\\sigma(\\mathcal C)\n=\n\\bigcap\\left\\{\n\\mathcal F:\n\\mathcal F\\text{ is a }\\sigma\\text{-algebra},\n\\ \\mathcal C\\subseteq\\mathcal F\n\\right\\}.\n}",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-437",
+          "tex": "\\sigma",
+          "display": false,
+          "context": "p2503"
+        },
+        {
+          "id": "search-chapter-5-438",
+          "tex": "\\sigma",
+          "display": false,
+          "context": "p2503"
+        },
+        {
+          "id": "search-chapter-5-439",
+          "tex": "\\mathcal C",
+          "display": false,
+          "context": "p2503"
+        },
+        {
+          "id": "search-chapter-5-440",
+          "tex": "\\sigma",
+          "display": false,
+          "context": "p2503"
+        },
+        {
+          "id": "search-chapter-5-442",
+          "tex": "\\mathcal C",
+          "display": false,
+          "context": "p2504"
+        },
+        {
+          "id": "search-chapter-5-443",
+          "tex": "\\sigma",
+          "display": false,
+          "context": "p2504"
+        },
+        {
+          "id": "search-chapter-5-445",
+          "tex": "\\mathcal O",
+          "display": false,
+          "context": "p2505"
+        },
+        {
+          "id": "search-chapter-5-446",
+          "tex": "\\mathbb R",
+          "display": false,
+          "context": "p2505"
+        },
+        {
+          "id": "search-chapter-5-448",
+          "tex": "\\boxed{\n\\mathcal B(\\mathbb R)=\\sigma(\\mathcal O).\n}",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-450",
+          "tex": "\\sigma",
+          "display": false,
+          "context": "p2508"
+        },
+        {
+          "id": "search-chapter-5-453",
+          "tex": "\\boxed{\n\\mathcal B(\\mathbb R)\n=\n\\sigma\\bigl(\\{(a,b):a,b\\in\\mathbb Q,\\ a<b\\}\\bigr).\n}",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-456",
+          "tex": "U\\subseteq\\mathbb R",
+          "display": false,
+          "context": "p2513"
+        },
+        {
+          "id": "search-chapter-5-457",
+          "tex": "U=\n\\bigcup_{\\substack{a,b\\in\\mathbb Q\\\\(a,b)\\subseteq U}}\n(a,b).",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-467",
+          "tex": "m:\\mathcal B(\\mathbb R)\\to[0,\\infty].",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-472",
+          "tex": "A\\subseteq\\mathbb R",
+          "display": false,
+          "context": "p2527"
+        },
+        {
+          "id": "search-chapter-5-476",
+          "tex": "A\\subseteq\\bigcup_{n=1}^{\\infty}I_n,",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-478",
+          "tex": "I_n",
+          "display": false,
+          "context": "p2532"
+        },
+        {
+          "id": "search-chapter-5-480",
+          "tex": "\\sum_{n=1}^{\\infty}|I_n|,",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-482",
+          "tex": "A",
+          "display": false,
+          "context": "p2535"
+        },
+        {
+          "id": "search-chapter-5-486",
+          "tex": "\\boxed{\nm^*(A)\n=\n\\inf\\left\\{\n\\sum_{n=1}^{\\infty}|I_n|:\nA\\subseteq\\bigcup_{n=1}^{\\infty}I_n,\n\\ I_n\\text{ is an open interval}\n\\right\\}.\n}",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-488",
+          "tex": "m^*",
+          "display": false,
+          "context": "p2540"
+        },
+        {
+          "id": "search-chapter-5-494",
+          "tex": "m^*([a,b])=b-a.",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-496",
+          "tex": "b-a",
+          "display": false,
+          "context": "p2547"
+        },
+        {
+          "id": "search-chapter-5-498",
+          "tex": "[a,b]",
+          "display": false,
+          "context": "p2548"
+        },
+        {
+          "id": "search-chapter-5-499",
+          "tex": "b-a",
+          "display": false,
+          "context": "p2548"
+        },
+        {
+          "id": "search-chapter-5-503",
+          "tex": "m^*(\\varnothing)=0.",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-505",
+          "tex": "A\\subseteq B,",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-507",
+          "tex": "B",
+          "display": false,
+          "context": "p2554"
+        },
+        {
+          "id": "search-chapter-5-508",
+          "tex": "A",
+          "display": false,
+          "context": "p2554"
+        },
+        {
+          "id": "search-chapter-5-510",
+          "tex": "\\boxed{m^*(A)\\le m^*(B).}",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-513",
+          "tex": "A_1,A_2,\\ldots.",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-515",
+          "tex": "\\varepsilon>0",
+          "display": false,
+          "context": "p2560"
+        },
+        {
+          "id": "search-chapter-5-516",
+          "tex": "A_k",
+          "display": false,
+          "context": "p2560"
+        },
+        {
+          "id": "search-chapter-5-517",
+          "tex": "m^*(A_k)+\\frac{\\varepsilon}{2^k},",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-520",
+          "tex": "\\bigcup_kA_k",
+          "display": false,
+          "context": "p2563"
+        },
+        {
+          "id": "search-chapter-5-522",
+          "tex": "m^*\\left(\\bigcup_{k=1}^{\\infty}A_k\\right)\n\\le\n\\sum_{k=1}^{\\infty}m^*(A_k)+\\varepsilon.",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-524",
+          "tex": "\\varepsilon\\downarrow0",
+          "display": false,
+          "context": "p2566"
+        },
+        {
+          "id": "search-chapter-5-525",
+          "tex": "\\boxed{\nm^*\\left(\\bigcup_{k=1}^{\\infty}A_k\\right)\n\\le\n\\sum_{k=1}^{\\infty}m^*(A_k).\n}",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-539",
+          "tex": "A\\subseteq\\mathbb R",
+          "display": false,
+          "context": "p2579"
+        },
+        {
+          "id": "search-chapter-5-541",
+          "tex": "E",
+          "display": false,
+          "context": "p2580"
+        },
+        {
+          "id": "search-chapter-5-542",
+          "tex": "E\\cap A",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-544",
+          "tex": "E\\setminus A.",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-546",
+          "tex": "E=(E\\cap A)\\cup(E\\setminus A).",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-548",
+          "tex": "m^*(E)\n\\le\nm^*(E\\cap A)+m^*(E\\setminus A).",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-550",
+          "tex": "A",
+          "display": false,
+          "context": "p2588"
+        },
+        {
+          "id": "search-chapter-5-552",
+          "tex": "E",
+          "display": false,
+          "context": "p2589"
+        },
+        {
+          "id": "search-chapter-5-553",
+          "tex": "A",
+          "display": false,
+          "context": "p2589"
+        },
+        {
+          "id": "search-chapter-5-555",
+          "tex": "m^*(E)\n=\nm^*(E\\cap A)+m^*(E\\setminus A).",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-558",
+          "tex": "E=\\mathbb R",
+          "display": false,
+          "context": "p2593"
+        },
+        {
+          "id": "search-chapter-5-559",
+          "tex": "E=A",
+          "display": false,
+          "context": "p2593"
+        },
+        {
+          "id": "search-chapter-5-560",
+          "tex": "E",
+          "display": false,
+          "context": "p2593"
+        },
+        {
+          "id": "search-chapter-5-564",
+          "tex": "m^*",
+          "display": false,
+          "context": "p2595"
+        },
+        {
+          "id": "search-chapter-5-565",
+          "tex": "A\\subseteq\\mathbb R",
+          "display": false,
+          "context": "p2595"
+        },
+        {
+          "id": "search-chapter-5-567",
+          "tex": "E\\subseteq\\mathbb R",
+          "display": false,
+          "context": "p2596"
+        },
+        {
+          "id": "search-chapter-5-568",
+          "tex": "\\boxed{\nm^*(E)\n=\nm^*(E\\cap A)+m^*(E\\setminus A),\n}",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-570",
+          "tex": "A",
+          "display": false,
+          "context": "p2598"
+        },
+        {
+          "id": "search-chapter-5-572",
+          "tex": "\\mathcal L.",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-574",
+          "tex": "\\sigma",
+          "display": false,
+          "context": "p2601"
+        },
+        {
+          "id": "search-chapter-5-581",
+          "tex": "\\sigma",
+          "display": false,
+          "context": "chapter-5-h130"
+        },
+        {
+          "id": "search-chapter-5-584",
+          "tex": "A",
+          "display": false,
+          "context": "p2608"
+        },
+        {
+          "id": "search-chapter-5-585",
+          "tex": "A^c",
+          "display": false,
+          "context": "p2608"
+        },
+        {
+          "id": "search-chapter-5-586",
+          "tex": "A\\in\\mathcal L\n\\implies A^c\\in\\mathcal L.",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-588",
+          "tex": "A,B\\in\\mathcal L",
+          "display": false,
+          "context": "p2610"
+        },
+        {
+          "id": "search-chapter-5-589",
+          "tex": "A\\cup B\\in\\mathcal L.",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-591",
+          "tex": "A_1,A_2,\\ldots\\in\\mathcal L",
+          "display": false,
+          "context": "p2612"
+        },
+        {
+          "id": "search-chapter-5-593",
+          "tex": "B_1=A_1,",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-594",
+          "tex": "B_n=A_n\\setminus\\bigcup_{k=1}^{n-1}A_k,\\qquad n\\ge2.",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-596",
+          "tex": "B_n",
+          "display": false,
+          "context": "p2616"
+        },
+        {
+          "id": "search-chapter-5-598",
+          "tex": "\\bigcup_{n=1}^{\\infty}A_n\n=\n\\bigsqcup_{n=1}^{\\infty}B_n.",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-600",
+          "tex": "E\\subseteq\\mathbb R",
+          "display": false,
+          "context": "p2619"
+        },
+        {
+          "id": "search-chapter-5-601",
+          "tex": "m^*(E)\n\\ge\n\\sum_{k=1}^{N}m^*(E\\cap B_k)\n+\nm^*\\left(E\\setminus\\bigcup_{k=1}^{\\infty}B_k\\right).",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-603",
+          "tex": "N\\to\\infty",
+          "display": false,
+          "context": "p2621"
+        },
+        {
+          "id": "search-chapter-5-604",
+          "tex": "m^*\\left(E\\cap\\bigcup_{k=1}^{\\infty}B_k\\right)\n\\le\n\\sum_{k=1}^{\\infty}m^*(E\\cap B_k),",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-606",
+          "tex": "m^*(E)\n\\ge\nm^*\\left(E\\cap\\bigcup_{k=1}^{\\infty}B_k\\right)\n+\nm^*\\left(E\\setminus\\bigcup_{k=1}^{\\infty}B_k\\right).",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-611",
+          "tex": "\\boxed{\\mathcal L\\text{ is a }\\sigma\\text{-algebra}.}",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-614",
+          "tex": "A_1,A_2,\\ldots\\in\\mathcal L",
+          "display": false,
+          "context": "p2631"
+        },
+        {
+          "id": "search-chapter-5-615",
+          "tex": "\\boxed{\nm^*\\left(\\bigcup_{n=1}^{\\infty}A_n\\right)\n=\n\\sum_{n=1}^{\\infty}m^*(A_n).\n}",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-617",
+          "tex": "\\mathcal L",
+          "display": false,
+          "context": "p2633"
+        },
+        {
+          "id": "search-chapter-5-618",
+          "tex": "m=m^*|_{\\mathcal L},",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-626",
+          "tex": "A=(-\\infty,a).",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-628",
+          "tex": "E\\subseteq\\mathbb R",
+          "display": false,
+          "context": "p2642"
+        },
+        {
+          "id": "search-chapter-5-629",
+          "tex": "E",
+          "display": false,
+          "context": "p2642"
+        },
+        {
+          "id": "search-chapter-5-630",
+          "tex": "a",
+          "display": false,
+          "context": "p2642"
+        },
+        {
+          "id": "search-chapter-5-633",
+          "tex": "m^*(E\\cap A)+m^*(E\\setminus A)\\le m^*(E).",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-636",
+          "tex": "A",
+          "display": false,
+          "context": "p2647"
+        },
+        {
+          "id": "search-chapter-5-639",
+          "tex": "\\mathcal L",
+          "display": false,
+          "context": "p2649"
+        },
+        {
+          "id": "search-chapter-5-640",
+          "tex": "\\sigma",
+          "display": false,
+          "context": "p2649"
+        },
+        {
+          "id": "search-chapter-5-641",
+          "tex": "\\boxed{\n\\mathcal B(\\mathbb R)\\subseteq\\mathcal L.\n}",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-647",
+          "tex": "\\mathcal B(\\mathbb R)\n\\subsetneq\n\\mathcal L.",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-651",
+          "tex": "C",
+          "display": false,
+          "context": "p2658"
+        },
+        {
+          "id": "search-chapter-5-654",
+          "tex": "m(C)=0.",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-656",
+          "tex": "n",
+          "display": false,
+          "context": "p2662"
+        },
+        {
+          "id": "search-chapter-5-657",
+          "tex": "2^n",
+          "display": false,
+          "context": "p2662"
+        },
+        {
+          "id": "search-chapter-5-658",
+          "tex": "\\left(\\frac23\\right)^n,",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-662",
+          "tex": "A\\subseteq C",
+          "display": false,
+          "context": "p2666"
+        },
+        {
+          "id": "search-chapter-5-663",
+          "tex": "0\\le m^*(A)\\le m^*(C)=0.",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-665",
+          "tex": "m^*(A)=0",
+          "display": false,
+          "context": "p2668"
+        },
+        {
+          "id": "search-chapter-5-667",
+          "tex": "\\boxed{\nA\\subseteq C\\implies A\\in\\mathcal L.\n}",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-672",
+          "tex": "\\boxed{\n\\begin{aligned}\n\\Omega&=[0,1],\\\\\n\\mathcal F&=\\mathcal L|_{[0,1]},\\\\\nP(A)&=m(A).\n\\end{aligned}\n}",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-674",
+          "tex": "\\mathcal L|_{[0,1]}\n=\n\\{A\\subseteq[0,1]:A\\in\\mathcal L\\}.",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-676",
+          "tex": "0\\le a<b\\le1",
+          "display": false,
+          "context": "p2678"
+        },
+        {
+          "id": "search-chapter-5-677",
+          "tex": "P([a,b])=b-a.",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-680",
+          "tex": "\\boxed{\\mathcal F\\ne\\mathcal P([0,1]).}",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-686",
+          "tex": "\\sigma",
+          "display": false,
+          "context": "p2686"
+        },
+        {
+          "id": "search-chapter-5-690",
+          "tex": "P(A\\cup B)=P(A)+P(B)",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-692",
+          "tex": "A,B",
+          "display": false,
+          "context": "p2691"
+        },
+        {
+          "id": "search-chapter-5-696",
+          "tex": "A_1\\subseteq A_2\\subseteq\\cdots",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-699",
+          "tex": "A=\\bigcup_{n=1}^{\\infty}A_n.",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-701",
+          "tex": "A_n\\uparrow A.",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-703",
+          "tex": "A_n",
+          "display": false,
+          "context": "p2700"
+        },
+        {
+          "id": "search-chapter-5-704",
+          "tex": "n",
+          "display": false,
+          "context": "p2700"
+        },
+        {
+          "id": "search-chapter-5-706",
+          "tex": "A",
+          "display": false,
+          "context": "p2701"
+        },
+        {
+          "id": "search-chapter-5-708",
+          "tex": "n",
+          "display": false,
+          "context": "p2702"
+        },
+        {
+          "id": "search-chapter-5-709",
+          "tex": "\\boxed{\nP(A_n)\\longrightarrow P(A).\n}",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-713",
+          "tex": "B_1=A_1,",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-714",
+          "tex": "B_n=A_n\\setminus A_{n-1},\n\\qquad n\\ge2.",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-716",
+          "tex": "B_n",
+          "display": false,
+          "context": "p2709"
+        },
+        {
+          "id": "search-chapter-5-718",
+          "tex": "A=\\bigsqcup_{n=1}^{\\infty}B_n.",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-720",
+          "tex": "P(A)=\\sum_{n=1}^{\\infty}P(B_n).",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-722",
+          "tex": "P(A_n)=\\sum_{k=1}^{n}P(B_k).",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-724",
+          "tex": "n\\to\\infty",
+          "display": false,
+          "context": "p2716"
+        },
+        {
+          "id": "search-chapter-5-725",
+          "tex": "\\boxed{\nA_n\\uparrow A\n\\quad\\Longrightarrow\\quad\nP(A_n)\\uparrow P(A).\n}",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-728",
+          "tex": "A_1\\supseteq A_2\\supseteq\\cdots,",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-730",
+          "tex": "A=\\bigcap_{n=1}^{\\infty}A_n,",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-732",
+          "tex": "\\boxed{\nA_n\\downarrow A\n\\quad\\Longrightarrow\\quad\nP(A_n)\\downarrow P(A).\n}",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-742",
+          "tex": "1,2,3,\\ldots",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-746",
+          "tex": "P(\\{n\\})=c",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-748",
+          "tex": "n",
+          "display": false,
+          "context": "p2738"
+        },
+        {
+          "id": "search-chapter-5-750",
+          "tex": "c>0",
+          "display": false,
+          "context": "p2739"
+        },
+        {
+          "id": "search-chapter-5-751",
+          "tex": "P(\\mathbb N)\n=\n\\sum_{n=1}^{\\infty}c\n=\\infty.",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-753",
+          "tex": "P(\\mathbb N)=1.",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-755",
+          "tex": "c>0",
+          "display": false,
+          "context": "p2743"
+        },
+        {
+          "id": "search-chapter-5-757",
+          "tex": "c=0",
+          "display": false,
+          "context": "p2744"
+        },
+        {
+          "id": "search-chapter-5-758",
+          "tex": "P(\\mathbb N)\n=\n\\sum_{n=1}^{\\infty}0\n=0.",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-761",
+          "tex": "\\boxed{\n\\text{There is no measure defined on }\\mathbb N\\text{ 、}\\\\\n\\text{that is a countably additive probability measure giving equal mass to every singleton。}\n}",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-766",
+          "tex": "P(\\{n\\})=2^{-n},\n\\qquad n=1,2,\\ldots",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-768",
+          "tex": "\\sum_{n=1}^{\\infty}2^{-n}=1.",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-777",
+          "tex": "\\Omega",
+          "display": false,
+          "context": "p2762"
+        },
+        {
+          "id": "search-chapter-5-779",
+          "tex": "\\mathcal F",
+          "display": false,
+          "context": "p2763"
+        },
+        {
+          "id": "search-chapter-5-781",
+          "tex": "P",
+          "display": false,
+          "context": "p2764"
+        },
+        {
+          "id": "search-chapter-5-785",
+          "tex": "\\boxed{(\\Omega,\\mathcal F,P)}",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-788",
+          "tex": "\\Omega",
+          "display": false,
+          "context": "p2769"
+        },
+        {
+          "id": "search-chapter-5-790",
+          "tex": "\\mathcal F",
+          "display": false,
+          "context": "p2770"
+        },
+        {
+          "id": "search-chapter-5-791",
+          "tex": "\\Omega",
+          "display": false,
+          "context": "p2770"
+        },
+        {
+          "id": "search-chapter-5-792",
+          "tex": "\\sigma",
+          "display": false,
+          "context": "p2770"
+        },
+        {
+          "id": "search-chapter-5-794",
+          "tex": "P:\\mathcal F\\to[0,1]",
+          "display": false,
+          "context": "p2771"
+        },
+        {
+          "id": "search-chapter-5-795",
+          "tex": "P(\\Omega)=1,",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-797",
+          "tex": "A_1,A_2,\\ldots\\in\\mathcal F",
+          "display": false,
+          "context": "p2773"
+        },
+        {
+          "id": "search-chapter-5-798",
+          "tex": "\\boxed{\nP\\left(\\bigcup_{n=1}^{\\infty}A_n\\right)\n=\n\\sum_{n=1}^{\\infty}P(A_n).\n}",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-809",
+          "tex": "\\Omega=\\{\\omega_1,\\ldots,\\omega_n\\},",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-811",
+          "tex": "\\mathcal F=\\mathcal P(\\Omega).",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-813",
+          "tex": "P(A)=\\frac{|A|}{n}.",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-817",
+          "tex": "p_i\\ge0,\\qquad\\sum_{i=1}^{n}p_i=1,",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-819",
+          "tex": "P(A)=\\sum_{\\omega_i\\in A}p_i.",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-823",
+          "tex": "\\boxed{\n\\begin{gathered}\n\\text{classical equally likely counting}\\\\\n\\text{discrete probabilities with unequal weights}\\\\\n\\text{continuous uniform probability}\\\\\n\\text{more general probability distributions}\n\\end{gathered}\n\\quad\n\\begin{gathered}\n\\\\[-1.5em]\n\\Bigg\\}\\\\\n\\\\[-0.5em]\n\\text{probability measures}\n\\end{gathered}\n}",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-831",
+          "tex": "(\\Omega,\\mathcal F,P).",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-835",
+          "tex": "X(\\omega)=\\text{sum of the scores on three dice}.",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-839",
+          "tex": "X:\\Omega\\to\\mathbb R",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-842",
+          "tex": "\\{X\\le a\\},",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-844",
+          "tex": "X^{-1}((-\\infty,a]).",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-846",
+          "tex": "X^{-1}((-\\infty,a])\\in\\mathcal F.",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-849",
+          "tex": "B",
+          "display": false,
+          "context": "p2823"
+        },
+        {
+          "id": "search-chapter-5-850",
+          "tex": "P(X\\in B).",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-852",
+          "tex": "X^{-1}(B)\\in\\mathcal F,\n\\qquad B\\in\\mathcal B(\\mathbb R).",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-856",
+          "tex": "(\\Omega,\\mathcal F,P)",
+          "display": false,
+          "context": "p2828"
+        },
+        {
+          "id": "search-chapter-5-858",
+          "tex": "X:\\Omega\\to\\mathbb R",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-860",
+          "tex": "\\boxed{\nX^{-1}(B)\\in\\mathcal F\n\\quad\n\\text{for all }B\\in\\mathcal B(\\mathbb R),\n}",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-862",
+          "tex": "X",
+          "display": false,
+          "context": "p2833"
+        },
+        {
+          "id": "search-chapter-5-864",
+          "tex": "X",
+          "display": false,
+          "context": "p2834"
+        },
+        {
+          "id": "search-chapter-5-867",
+          "tex": "X",
+          "display": false,
+          "context": "p2836"
+        },
+        {
+          "id": "search-chapter-5-869",
+          "tex": "X",
+          "display": false,
+          "context": "p2837"
+        },
+        {
+          "id": "search-chapter-5-870",
+          "tex": "\\boxed{\nP_X(B)=P(X^{-1}(B)).\n}",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-877",
+          "tex": "A=\\left\\{\n\\omega:\n\\sup_{0\\le t\\le1}B_t(\\omega)>1\n\\right\\}.",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-880",
+          "tex": "C([0,1])",
+          "display": false,
+          "context": "p2846"
+        },
+        {
+          "id": "search-chapter-5-882",
+          "tex": "f",
+          "display": false,
+          "context": "p2847"
+        },
+        {
+          "id": "search-chapter-5-883",
+          "tex": "\\boxed{\n\\sup_{0\\le t\\le1}f(t)\n=\n\\sup_{t\\in\\mathbb Q\\cap[0,1]}f(t).\n}",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-886",
+          "tex": "[0,1]",
+          "display": false,
+          "context": "p2850"
+        },
+        {
+          "id": "search-chapter-5-887",
+          "tex": "f",
+          "display": false,
+          "context": "p2850"
+        },
+        {
+          "id": "search-chapter-5-890",
+          "tex": "A=\n\\bigcup_{q\\in\\mathbb Q\\cap[0,1]}\n\\{B_q>1\\}.",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-893",
+          "tex": "q",
+          "display": false,
+          "context": "p2855"
+        },
+        {
+          "id": "search-chapter-5-894",
+          "tex": "\\{B_q>1\\}",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-897",
+          "tex": "\\mathbb Q\\cap[0,1]",
+          "display": false,
+          "context": "p2858"
+        },
+        {
+          "id": "search-chapter-5-898",
+          "tex": "A\\in\\mathcal F.",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-901",
+          "tex": "\\sigma",
+          "display": false,
+          "context": "p2861"
+        },
+        {
+          "id": "search-chapter-5-915",
+          "tex": "A\\in\\mathcal F",
+          "display": false,
+          "context": "p2873"
+        },
+        {
+          "id": "search-chapter-5-916",
+          "tex": "P(A)=1,",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-918",
+          "tex": "A",
+          "display": false,
+          "context": "p2875"
+        },
+        {
+          "id": "search-chapter-5-920",
+          "tex": "P(A)=0,",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-922",
+          "tex": "A",
+          "display": false,
+          "context": "p2878"
+        },
+        {
+          "id": "search-chapter-5-924",
+          "tex": "P(A)=1",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-926",
+          "tex": "A=\\Omega.",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-928",
+          "tex": "P(A)=0",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-930",
+          "tex": "A=\\varnothing.",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-932",
+          "tex": "[0,1]",
+          "display": false,
+          "context": "p2887"
+        },
+        {
+          "id": "search-chapter-5-933",
+          "tex": "P(X\\in\\mathbb Q)=0.",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-941",
+          "tex": "X_n\\xrightarrow{\\mathrm{a.s.}}X",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-943",
+          "tex": "P\\left(\n\\left\\{\\omega:\n\\lim_{n\\to\\infty}X_n(\\omega)=X(\\omega)\n\\right\\}\n\\right)=1.",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-946",
+          "tex": "\\left\\{\n\\omega:\n\\lim_{n\\to\\infty}X_n(\\omega)=X(\\omega)\n\\right\\}",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-948",
+          "tex": "\\mathcal F",
+          "display": false,
+          "context": "p2902"
+        },
+        {
+          "id": "search-chapter-5-955",
+          "tex": "[0,1]",
+          "display": false,
+          "context": "p2907"
+        },
+        {
+          "id": "search-chapter-5-966",
+          "tex": "\\sigma",
+          "display": false,
+          "context": "p2917"
+        },
+        {
+          "id": "search-chapter-5-971",
+          "tex": "P(A)=\\frac{|A|}{|\\Omega|}",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-975",
+          "tex": "\\sigma",
+          "display": false,
+          "context": "p2925"
+        },
+        {
+          "id": "search-chapter-5-976",
+          "tex": "\\mathcal F\\subseteq\\mathcal P(\\Omega)",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-978",
+          "tex": "(\\Omega,\\mathcal F,P)",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-986",
+          "tex": "P(A).",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-988",
+          "tex": "X:\\Omega\\to\\mathbb R,",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-991",
+          "tex": "\\mathbb E[X]\n=\n\\sum_{\\omega\\in\\Omega}X(\\omega)P(\\{\\omega\\}).",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-993",
+          "tex": "\\mathbb E[X]\n=\n\\int_{\\mathbb R}x f_X(x)\\,dx.",
+          "display": true,
+          "context": "display"
+        },
+        {
+          "id": "search-chapter-5-1001",
+          "tex": "\\boxed{\n\\mathbb E[X]=\\int_\\Omega X\\,dP.\n}",
+          "display": true,
+          "context": "display"
+        }
+      ],
+      "other_search_nodes": [
+        {
+          "id": "search-chapter-5-133",
+          "tag": "li",
+          "text": "Cardinality:howmanyelementsdoesasetcontain?"
+        },
+        {
+          "id": "search-chapter-5-134",
+          "tag": "li",
+          "text": "Topologicalproperties:howisthesetdistributedthroughthespace?"
+        },
+        {
+          "id": "search-chapter-5-135",
+          "tag": "li",
+          "text": "Measure:howmuchmeasurablesizedoesthesetoccupy?"
+        },
+        {
+          "id": "search-chapter-5-351",
+          "tag": "li",
+          "text": "TEX\\Omega\\in\\mathcalF;"
+        },
+        {
+          "id": "search-chapter-5-353",
+          "tag": "li",
+          "text": "IfTEXA\\in\\mathcalF,thenTEXA^c\\in\\mathcalF;"
+        },
+        {
+          "id": "search-chapter-5-356",
+          "tag": "li",
+          "text": "IfTEXA_1,A_2,\\ldots\\in\\mathcalF,then"
+        }
+      ]
+    }
+  }
+}

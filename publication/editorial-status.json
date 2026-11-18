@@ -816,5 +816,7 @@
   "chapter58_authorized": true,
   "book_completion_status": "EIGHT_VOLUMES58_CHAPTER_WORKING_DRAFTS_WITH_SUBSTANTIVE_PROOF_GAPS_NOT_FINAL",
   "book_synthesis_status": "BILINGUAL_AUTHOR_REVIEW_DRAFT_NOT_FORMAL_PUBLICATION_ENTRY",
-  "book_structure_status": "EIGHT_VOLUMES_58_BILINGUAL_CHAPTERS_AND_16_VOLUME_PAGES_PER_LANGUAGE_WORKING_DRAFTS_PRESENT_NOT_FINAL"
+  "book_structure_status": "EIGHT_VOLUMES_58_BILINGUAL_CHAPTERS_AND_16_VOLUME_PAGES_PER_LANGUAGE_WORKING_DRAFTS_PRESENT_NOT_FINAL",
+  "status_scope_note": "Chapter approval and independent review fields are unchanged. formal_publication records earlier edition history, not the availability of the complete 58-chapter public working draft.",
+  "reading_edition_record": "publication/reading-edition.json"
 }

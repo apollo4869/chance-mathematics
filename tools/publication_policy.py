@@ -7,6 +7,9 @@ PUBLIC_TRANSLATIONS = {'math-labels.json', 'ui-labels.json', 'manifest.json', 'p
 PUBLIC_METADATA = {'provenance/build-inputs.json', 'provenance/charts.json'}
 PUBLIC_DOCS = {'docs/GITHUB_PUBLIC_SOURCE.md', 'docs/PUBLIC_SOURCE_INTEGRITY.json'}
 PRIVATE_PLANNING_TOOLS = {'tools/book_plan.py', 'tools/check-book-plan.py', 'tools/test-book-plan.py','tools/check-chapter11-adoption.py','tools/foundation_preservation.py','tools/check-foundation-supplements.py','tools/check-publication.py','tools/check-chapter10-refinements.py','tools/academic_preservation.py','tools/check-academic-navigation.py'}
+PRIVATE_PLANNING_TOOLS.add('tools/check-professor-review.py')  # Uses the private author-history ledger; not a reader download.
+PRIVATE_PLANNING_TOOLS.update({'tools/editorial_preservation.py','tools/test-student-reading.py','tools/check-student-reading.py','tools/chapter_render_audit.py'})
+PRIVATE_PLANNING_TOOLS.add('tools/check-approved-p1.py')
 PRIVATE_PLANNING_TOOLS.update({'tools/chapter13_preservation.py','tools/sync-chapter13-protection.py','tools/check-chapter13.py'})
 PRIVATE_PLANNING_TOOLS.add('tools/chapter13_adoption.py')
 PRIVATE_PLANNING_TOOLS.update({'tools/chapter14_preservation.py','tools/sync-chapter14-protection.py','tools/check-chapter14.py'})
@@ -31,6 +34,7 @@ def public_path(name):
     p = Path(name); parts = p.parts
     if name in PRIVATE_PLANNING_TOOLS or name in {'tools/restructure-brownian.py','tools/sync-academic-protection.py','tools/export-academic-originals.py','tools/sync-intro-protection.py','tools/sync-opening-polish.py','tools/check-chapter-openings.py'}: return False
     if not parts or any(x in {'node_modules', '.git', '__pycache__'} for x in parts): return False
+    if parts[0]=='assets' and 'local-preview' in parts:return False
     return (parts[0] in PUBLIC_FOLDERS
             or (len(parts) == 3 and parts[:2] == ('translations', 'en') and p.name in PUBLIC_TRANSLATIONS)
             or name in PUBLIC_METADATA or name in PUBLIC_DOCS or name in PUBLIC_TOP
@@ -48,7 +52,7 @@ def public_sources(root):
     # Server sources only: never traverse local D1, secrets, dependencies or generated book copies.
     host=root/'analytics-host'
     if host.exists():
-        excluded={'node_modules','.git','.wrangler','.sites-runtime','.vinext','.next','dist','outputs','work','examples','__pycache__'}
+        excluded={'node_modules','.git','.openai','.wrangler','.sites-runtime','.vinext','.next','dist','outputs','work','examples','__pycache__'}
         for base,dirs,names in os.walk(host):
             dirs[:]=[d for d in dirs if d not in excluded]
             for name in names:

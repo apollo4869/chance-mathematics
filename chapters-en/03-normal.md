@@ -163,7 +163,7 @@ This is precisely the structure we will study next.
 
 [Original image source](https://prints.royalsociety.org/collections/vintage-mathematics-prints-and-parabola-drawings/products/portrait-of-abraham-de-moivre-1667-1754-rs-9548?utm_source=chatgpt.com)
 
-**Abraham de Moivre（1667—1754）**
+**Abraham de Moivre (1667–1754)**
 
 A French-born mathematician who later spent much of his life in Britain. In addition to probability, he studied trigonometric analysis and the mathematics of annuities.
 
@@ -777,7 +777,7 @@ Will their standardized sums still approach the same bell curve?
 
 [Original image source](https://www.meisterdrucke.com/kunstdrucke/Sophie-Feytaud/1632777/Portr%C3%A4t-von-Pierre-Simon%2C-Marquis-de-Laplace-%281745-1827%29.html)
 
-**Pierre-Simon Laplace（1749—1827）**
+**Pierre-Simon Laplace (1749–1827)**
 
 A French mathematician and astronomer.
 
@@ -949,7 +949,7 @@ The idea resembles our earlier use of logarithms to turn products into sums:
 
 **When faced with a complicated operation, seek a representation in which its difficult structure becomes a simple algebraic relation.**
 
-> Dependencies on later theory: The following is a reconstruction of historical results in modern language, not de Moivre's or Laplace's original proof. Appendix D controls the remainder in the second-order expansion; Chapter 6 develops integration for complex-valued random variables; Chapter 11 systematically prove uniqueness of characteristic functions and Lévy's continuity theorem. Chapter 7 first distinguishes the relevant notions of convergence. This section continues the story through products and second-order terms, without presenting these outside results as if they had been proved here.
+> Dependencies on later theory: The following is a reconstruction of historical results in modern language, not de Moivre's or Laplace's original proof. Appendix D controls the remainder in the second-order expansion; Chapter 6 develops integration for complex-valued random variables; Chapter 11 systematically proves uniqueness of characteristic functions and Lévy's continuity theorem. Chapter 7 first distinguishes the relevant notions of convergence. This section continues the story through products and second-order terms, without presenting these outside results as if they had been proved here.
 
 ### 3.6.2 Proving the Central Limit Theorem Again with Characteristic Functions
 
@@ -1159,7 +1159,7 @@ but with measurement errors in astronomy.
 
 [Original image source](https://www.meisterdrucke.it/stampe-d-arte/Christian-Albrecht-Jensen/175614/Ritratto-di-Carl-Friedrich-Gauss%2C-1840.html)
 
-**Carl Friedrich Gauss（1777—1855）**
+**Carl Friedrich Gauss (1777–1855)**
 
 A German mathematician and astronomer.
 

@@ -43,7 +43,7 @@ def insert(page, row, fragment):
     return page[:at]+fragment+page[at:]
 
 def main():
-    a=argparse.ArgumentParser();a.add_argument('--source',type=Path,required=True);a.add_argument('--site',type=Path);a.add_argument('--output-dir',type=Path)
+    a=argparse.ArgumentParser();a.add_argument('--source',type=Path,required=True);a.add_argument('--site',type=Path);a.add_argument('--output-dir',type=Path);a.add_argument('--audit-dir',type=Path)
     args=a.parse_args();source=args.source.resolve();site=args.site.resolve() if args.site else source;pub=args.output_dir.resolve() if args.output_dir else site/'public'
     rows=selected(source);groups={};nss=set();files={};audits=[]
     for r in rows:
@@ -99,15 +99,16 @@ def main():
         s=p.read_text('utf-8')
         for v in re.findall(r'(?:src|href)="(/(?:assets/visuals/explanatory[^"#?]+|print/figures/[^"#?]+))"',s):
             assert (pub/v.lstrip('/')).is_file(),v
-    payload=dict(edition='illustrations-2026-11-05',groups=35,bilingual_figures=70,chapter_pages=len(groups),source_manuscripts_modified=False,figures=rows)
-    write(site/'illustration-release.json',json.dumps(payload,ensure_ascii=False,indent=2)+'\n')
-    write(site/'illustration-preservation.json',json.dumps(dict(pages=audits,assets=files,private_materials_exported=False),ensure_ascii=False,indent=2)+'\n')
+    group_count=len({r['id'] for r in rows});audit=args.audit_dir.resolve() if args.audit_dir else site
+    payload=dict(edition='adopted-reading-illustrations',groups=group_count,bilingual_figures=len(rows),chapter_pages=len(groups),source_manuscripts_modified=False,figures=rows)
+    write(audit/'illustration-release.json',json.dumps(payload,ensure_ascii=False,indent=2)+'\n')
+    write(audit/'illustration-preservation.json',json.dumps(dict(pages=audits,assets=files,private_materials_exported=False),ensure_ascii=False,indent=2)+'\n')
     # The existing public-only editable source receives the same approved assets,
     # not the author workspace or review package.
     if args.site:
         editable=site/'book-source-current'
         for name in files:write(editable/name,(pub/name).read_bytes())
         write(editable/'publication/illustration-release.json',json.dumps(payload,ensure_ascii=False,indent=2)+'\n')
-    print(json.dumps(dict(groups=35,bilingual_figures=70,chapter_pages=len(groups),print_pages=sum(x['path'].startswith('public/print/') for x in audits),assets=len(files),all_original_page_bodies_recovered=True)))
+    print(json.dumps(dict(groups=group_count,bilingual_figures=len(rows),chapter_pages=len(groups),print_pages=sum('/print/' in x['path'] for x in audits),assets=len(files),all_original_page_bodies_recovered=True)))
 
 if __name__=='__main__': main()

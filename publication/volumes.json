@@ -114,7 +114,14 @@
       },
       "opening_status": "AUTHOR_REVIEW_PENDING",
       "theme_zh": "当路径粗糙而信息有先后，怎样重新建立微积分？",
-      "theme_en": "How can calculus respect both rough paths and the order of information?"
+      "theme_en": "How can calculus respect both rough paths and the order of information?",
+      "ending": {
+        "zh": "volumes/05-ending.md",
+        "en": "volumes-en/05-ending.md",
+        "title_zh": "第五卷尾声：计算使隐藏的条件显露",
+        "title_en": "Epilogue to Volume V: Calculation Makes Hidden Conditions Visible"
+      },
+      "ending_status": "AUTHOR_REVIEW_PENDING"
     },
     {
       "id": "volume-06",
@@ -125,7 +132,21 @@
         47
       ],
       "zh": "对称、平稳与可交换的世界",
-      "en": "A World of Symmetry, Stationarity and Exchangeability"
+      "en": "A World of Symmetry, Stationarity and Exchangeability",
+      "opening": {
+        "zh": "volumes/06-opening.md",
+        "en": "volumes-en/06-opening.md"
+      },
+      "opening_status": "AUTHOR_REVIEW_PENDING",
+      "theme_zh": "时间改变了记录的起点，什么信息仍然留下？",
+      "theme_en": "When time shifts the beginning of a record, what information remains?",
+      "ending": {
+        "zh": "volumes/06-ending.md",
+        "en": "volumes-en/06-ending.md",
+        "title_zh": "第六卷尾声：变化以后仍然留下的信息",
+        "title_en": "Epilogue VI: Information That Survives Change"
+      },
+      "ending_status": "AUTHOR_REVIEW_PENDING"
     },
     {
       "id": "volume-07",
@@ -136,7 +157,21 @@
         53
       ],
       "zh": "从随机点到随机空间",
-      "en": "From Random Points to Random Spaces"
+      "en": "From Random Points to Random Spaces",
+      "opening": {
+        "zh": "volumes/07-opening.md",
+        "en": "volumes-en/07-opening.md"
+      },
+      "opening_status": "AUTHOR_REVIEW_PENDING",
+      "theme_zh": "一次实验留下的一批位置，怎样成为一个随机对象？",
+      "theme_en": "How can a collection of locations become one random object?",
+      "ending": {
+        "zh": "volumes/07-ending.md",
+        "en": "volumes-en/07-ending.md",
+        "title_zh": "从记录到对象",
+        "title_en": "From Records to Objects"
+      },
+      "ending_status": "AUTHOR_REVIEW_PENDING"
     },
     {
       "id": "volume-08",
@@ -147,7 +182,21 @@
         58
       ],
       "zh": "随机树、连续几何与新的概率结构",
-      "en": "Random Trees, Continuous Geometry and New Probability Structures"
+      "en": "Random Trees, Continuous Geometry and New Probability Structures",
+      "opening": {
+        "zh": "volumes/08-opening.md",
+        "en": "volumes-en/08-opening.md"
+      },
+      "opening_status": "AUTHOR_REVIEW_PENDING",
+      "theme_zh": "一条连续曲线，怎样成为带距离与质量的随机树？",
+      "theme_en": "How can a continuous curve become a random tree with distance and mass?",
+      "ending": {
+        "zh": "volumes/08-ending.md",
+        "en": "volumes-en/08-ending.md",
+        "title_zh": "让不同的构造在严格条件下相遇",
+        "title_en": "Where Different Constructions Meet Under Precise Conditions"
+      },
+      "ending_status": "AUTHOR_REVIEW_PENDING"
     }
   ]
 }

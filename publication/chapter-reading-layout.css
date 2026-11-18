@@ -1,0 +1,20 @@
+/* Chapter information belongs after the reading, not before the first line. */
+.chapter-draft-label{display:inline-flex;align-items:center;flex:0 0 auto;font:11px/1.5 "Segoe UI","Microsoft YaHei",sans-serif;color:var(--muted);border:1px solid var(--line);border-radius:3px;padding:2px 7px;white-space:nowrap}
+.chapter-publication{margin:8px 0 24px;padding-top:14px;border-top:1px solid var(--line);font:13px/1.8 "Segoe UI","Microsoft YaHei",sans-serif;color:var(--muted)}
+.chapter-reference-links{display:flex;flex-wrap:wrap;gap:10px 24px;margin-bottom:10px}
+.chapter-reference-links a{color:var(--teal);font-size:13px;text-decoration:none;text-underline-offset:3px}
+.chapter-reference-links a:hover,.chapter-reference-links a:focus-visible{text-decoration:underline}
+.chapter-publication .chapter-edition{border:0;border-radius:0;margin:0;padding:0;background:transparent}
+.chapter-publication .chapter-edition summary{width:fit-content;max-width:100%;font-size:12px;line-height:1.8;color:var(--muted);cursor:pointer;overflow-wrap:anywhere}
+.chapter-publication .chapter-edition[open] summary{margin-bottom:12px}
+.chapter-publication .chapter-edition p{font-size:12px;line-height:1.8;margin:8px 0;overflow-wrap:anywhere}
+.chapter-publication .chapter-edition code{font-size:11px;overflow-wrap:anywhere;word-break:break-word;white-space:normal}
+@media screen{body[data-reading-mode=section][data-reading-at-end=false] .chapter-publication{display:none}}
+@media(max-width:800px){.chapter-draft-label{font-size:10px;padding:2px 5px}.chapter-publication{padding-top:12px;margin-bottom:18px}.chapter-reference-links{gap:8px 20px}}
+@media print{.chapter-draft-label,.chapter-publication .chapter-edition{display:none!important}.chapter-publication{display:block!important;margin:12pt 0 0;padding-top:8pt;break-inside:avoid}.chapter-reference-links{gap:8pt 18pt;margin:0}.chapter-reference-links a{font-size:9pt;color:inherit}.chapter-reference-links a::after{content:none!important}}
+/* Keep a long inline formula readable without widening the phone page. */
+@media screen and (max-width:800px){.book-section .formula.inline{display:inline-block;max-width:100%;overflow-x:auto;overflow-y:hidden;vertical-align:middle}}
+/* Adopted responsive scenes must keep their own aspect ratio. The old book
+   rule limits ordinary illustrations to 340px, which shrinks tall scenes. */
+@media screen{.book-section .volume7-explain .v7-scene,.book-section .volume8-explain .v8-scene{max-height:none}}
+@media print{.book-section .volume7-explain .v7-print img,.book-section .volume8-explain .v8-print img{max-height:205mm;object-fit:contain}}

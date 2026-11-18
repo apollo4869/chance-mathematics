@@ -30,4 +30,4 @@ def remove_figures(fragment):
     """Used only alongside independent exact figure/model/placement checks."""
     for n in list(fragment.select('[data-math-visual]')):n.decompose()
     return fragment
-def copy_assets():shutil.copytree(ROOT/'assets/visuals',ROOT/'dist/assets/visuals',dirs_exist_ok=True)
+def copy_assets():shutil.copytree(ROOT/'assets/visuals',ROOT/'dist/assets/visuals',dirs_exist_ok=True,ignore=shutil.ignore_patterns('local-preview','__pycache__'))

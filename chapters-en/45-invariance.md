@@ -30,7 +30,7 @@ Equip E and G with σ-fields. Measurable multiplication, inversion and the joint
 
 \[ g_*\mu(A)=\mu(g^{-1}A),\qquad g_*\mu=\mu\quad(g\in G). \]
 
-This defines a G-invariant probability. It does not require gx=x: almost every point on the circle moves. Nor does it require independent coordinates: a sequence constantly equal to one random Z is invariant under every finite permutation and retains complete dependence. Chapter43 identified directing probabilities for infinite permutation-invariant records; we now vary the permitted transformations and determine what each forces.
+This defines a G-invariant probability. It does not require gx=x: almost every point on the circle moves. Nor does it require independent coordinates: a sequence constantly equal to one random Z is invariant under every finite permutation and retains complete dependence. Chapter 43 identified directing probabilities for infinite permutation-invariant records; we now vary the permitted transformations and determine what each forces.
 
 Translations, permutations and orthogonal rotations preserve different structures. Translations preserve position differences, orthogonal maps preserve inner products and lengths, and permutations preserve repetitions of values in finite samples. There is no universal ladder on which more randomness means more symmetry; a conclusion acquires meaning only after its action is specified.
 
@@ -70,7 +70,7 @@ Thus ν=r. Taking ν=m makes m right invariant as well, and every other left inv
 
 <a id="orbit-question"></a>
 
-After all rotations of a planar vector, length remains but direction is no longer retained. The orbit Gx records this range of transformed versions. An observable event A is invariant information when gA=A. For a general action, naming an orbit does not by itself license conditional probability; its quotient may not satisfy Chapter10 regular conditional distribution hypotheses.
+After all rotations of a planar vector, length remains but direction is no longer retained. The orbit Gx records this range of transformed versions. An observable event A is invariant information when gA=A. For a general action, naming an orbit does not by itself license conditional probability; its quotient may not satisfy Chapter 10 regular conditional distribution hypotheses.
 
 Fix a compact metrizable G acting continuously on Polish E. Take a bounded complete compatible metric d, take its supremum over all group elements to obtain an invariant d*, and minimize distance between orbits. Compactness prevents distinct orbits sticking at zero distance; successive close representatives prove completeness of the quotient. Thus E/G is Polish.
 
@@ -96,7 +96,7 @@ The identity P²=P holds because a second average removes no additional within-o
 
 If the joint law of (X,Y) is invariant under simultaneous transformation, its conditional law given Y=y need not be invariant on its own. Take X=Y uniform on a circle: given Y we know X, so its conditional law is a point mass, which should move when Y is rotated. The required relation is K(hy,hA)=K(y,A), called equivariance.
 
-For compact G acting continuously on nonempty Polish spaces of X and Y, Chapter10 supplies any conditional kernel K. Define the following. It is a probability kernel at every y and satisfies the common equivariance relation for every h,y,A.
+For compact G acting continuously on nonempty Polish spaces of X and Y, Chapter 10 supplies any conditional kernel K. Define the following. It is a probability kernel at every y and satisfies the common equivariance relation for every h,y,A.
 
 \[ \bar K(y,A)=\int_G K(gy,gA)\,m(dg),\qquad \bar K(hy,hA)=\bar K(y,A). \]
 
@@ -122,7 +122,7 @@ The construction starts without any unknown group integral. Cover nonnegative co
 
 \[ I_g(f)=\frac{\inf\{\sum c_i:f\le\sum c_i g(a_i^{-1}\,\cdot)\}}{\inf\{\sum c_i:f_0\le\sum c_i g(a_i^{-1}\,\cdot)\}}. \]
 
-Countable dense tests and a diagonal subsequence give a positive linear functional. Local boundedness is not global boundedness, so the companion uses a strictly positive decaying weight to obtain the bounded positive-functional representation proved in Chapter28, then divides the weight back out to produce a locally finite Radon measure. [T-HAAR, Sections2–5](../foundations/t-haar.md#haar-covering) supplies all steps of asymptotic additivity, representation and uniqueness up to scale.
+Countable dense tests and a diagonal subsequence give a positive linear functional. Local boundedness is not global boundedness, so the companion uses a strictly positive decaying weight to obtain the bounded positive-functional representation proved in Chapter 28, then divides the weight back out to produce a locally finite Radon measure. [T-HAAR, Sections2–5](../foundations/t-haar.md#haar-covering) supplies all steps of asymptotic additivity, representation and uniqueness up to scale.
 
 ## 45.12 Why right translation may change a left invariant measure
 
@@ -150,11 +150,11 @@ On the line one may also use e^(κx)dx: translating A to a+A multiplies its mass
 
 Finite permutations form a group action. Taking a subsequence at strictly increasing indices generally has no inverse and is no longer a group action, yet its invariance can still be studied. An infinite sequence is spreadable if every deterministic infinite subsequence has the original law. Exchangeability implies spreadability, but the converse is not apparent: no subsequence has directly swapped two positions.
 
-Infinitude connects them. Spreadability first gives stationarity. Average k bounded functions over k successive blocks of length N. Every term in the expanded product uses increasing indices, so its expectation equals that at the first k positions. By Chapter41 each long-block average converges to its invariant conditional average; their product no longer distinguishes the order of the functions.
+Infinitude connects them. Spreadability first gives stationarity. Average k bounded functions over k successive blocks of length N. Every term in the expanded product uses increasing indices, so its expectation equals that at the first k positions. By Chapter 41 each long-block average converges to its invariant conditional average; their product no longer distinguishes the order of the functions.
 
 \[ \mathbb E\prod_{j=1}^k f_j(X_j)=\mathbb E\prod_{j=1}^k\mathbb E[f_j(X_1)\mid\mathcal I]. \]
 
-Rectangle tests give exchangeability and Chapter43 then gives its directing probability. This Ryll-Nardzewski-type result shows that apparently fewer subsequence symmetries can force all finite permutation symmetries for an infinite sequence. The [full block-average proof](../foundations/t-predictable-symmetry.md#sampling-spreadable) also identifies invariant conditional averages with the directing measure; it does not classify arbitrary stationary processes as exchangeable.
+Rectangle tests give exchangeability and Chapter 43 then gives its directing probability. This Ryll-Nardzewski-type result shows that apparently fewer subsequence symmetries can force all finite permutation symmetries for an infinite sequence. The [full block-average proof](../foundations/t-predictable-symmetry.md#sampling-spreadable) also identifies invariant conditional averages with the directing measure; it does not classify arbitrary stationary processes as exchangeable.
 
 ## 45.15 When an observer may skip a record
 
@@ -214,7 +214,7 @@ Here V is finite and nonnegative, the Zⱼ are independent standard normals inde
 
 <a id="rotatable-information"></a>
 
-In the mixture construction the conditional strong law gives Sₙ tending almost surely to V. This is a statement on record space, so the original sequence has the same observable limit and the variance mixing law is unique. If V is random, all coordinates carry it jointly and are not thereby unconditionally independent. Chapter41 retained random averages now have a new precise form: the retained information is the variance of the directing Gaussian.
+In the mixture construction the conditional strong law gives Sₙ tending almost surely to V. This is a statement on record space, so the original sequence has the same observable limit and the variance mixing law is unique. If V is random, all coordinates carry it jointly and are not thereby unconditionally independent. Chapter 41 retained random averages now have a new precise form: the retained information is the variance of the directing Gaussian.
 
 An iid ±1 sequence is exchangeable but does not allow arbitrary orthogonal mixing of two coordinates: a 45-degree rotation produces zero and ±√2. A random-variance Gaussian sequence allows all such mixtures while retaining dependence through its common scale. Together these examples show that symmetry does not mean absence of dependence; it determines the structure into which dependence is compressed.
 
